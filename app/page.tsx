@@ -23,7 +23,6 @@ interface SourcePlanItem {
 }
 
 const GITHUB_REPO = 'https://github.com/kidkenpo-create/ARMOR-plus';
-const OPENAI_KEY_URL = 'https://platform.openai.com/api-keys';
 
 function parseOutput(raw: string): ParsedOutput {
   const text = raw.replace(/\*\*/g, '');
@@ -380,8 +379,6 @@ export default function Home() {
           </div>
         </div>
         <nav className={styles.topActions}>
-          <a href={GITHUB_REPO} target="_blank" rel="noreferrer">GitHub source</a>
-          <a href={OPENAI_KEY_URL} target="_blank" rel="noreferrer">OpenAI key</a>
           <span className={styles.livePill}>{model}</span>
         </nav>
       </header>
