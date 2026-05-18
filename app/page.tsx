@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { DEMO_QUESTIONS } from '@/app/lib/armor-prompt';
+import { findPracticeIssueRules, type SourceRequest } from '@/app/lib/practice-issue-rules';
 import styles from './page.module.css';
 
 interface ParsedOutput {
@@ -41,6 +42,9 @@ function parseOutput(raw: string): ParsedOutput {
 
 function routePreview(question: string): SourcePlanItem[] {
   const q = question.toLowerCase();
+  const practiceItems = practiceRoutePreview(question);
+  if (practiceItems.length) return practiceItems;
+
   const plans: Array<{ terms: string[]; items: SourcePlanItem[] }> = [
     {
       terms: ['debrief', 'preaward', 'pre-award', 'exclusion', '15.206', '15.505'],
@@ -113,6 +117,43 @@ function routePreview(question: string): SourcePlanItem[] {
     plan('ARMOR classifier', GITHUB_REPO, 'Question will be routed server-side'),
     plan('RFO FAR Conventions', 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107', 'Fallback conventions check when actor, threshold, or delegation matters'),
   ];
+}
+
+function practiceRoutePreview(question: string): SourcePlanItem[] {
+  const seen = new Set<string>();
+  return findPracticeIssueRules(question)
+    .flatMap(rule => rule.requests)
+    .filter(request => {
+      const key = `${request.kind}:${request.part}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, 8)
+    .map(request => plan(labelForRequest(request), urlForRequest(request), request.reason));
+}
+
+function labelForRequest(request: SourceRequest): string {
+  if (request.kind === 'rfo_far') return `RFO FAR Part ${request.part}`;
+  if (request.kind === 'dfars_rfo') return `DFARS RFO Part ${request.part}`;
+  if (request.kind === 'dfars_pgi') return `DFARS RFO PGI Part ${request.part}`;
+  return 'RFO FAR Conventions';
+}
+
+function urlForRequest(request: SourceRequest): string {
+  if (request.kind === 'rfo_far') {
+    return `https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-${Number(request.part)}`;
+  }
+  if (request.kind === 'dfars_rfo') {
+    return `https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-${request.part.padStart(3, '0')}-Attachment-1.txt`;
+  }
+  if (request.kind === 'dfars_pgi' && request.part === '212') {
+    return 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-PGI-RFO-PART-212-Attachment-2.txt';
+  }
+  if (request.kind === 'dfars_pgi') {
+    return `https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-${request.part.padStart(3, '0')}-Attachment-2.txt`;
+  }
+  return 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107';
 }
 
 function plan(label: string, url: string, reason: string): SourcePlanItem {

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "two_step_sealed_bidding_step_one",
+    "match": ["two-step sealed bidding", "two step sealed bidding", "first step when using two-step", "technical proposals"],
+    "expectedCitations": ["RFO FAR 14.211-3(a)", "RFO FAR 14.211-3(a)(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "14", "reason": "Current RFO FAR two-step sealed bidding procedure" },
+      { "kind": "dfars_rfo", "part": "214", "reason": "DoD sealed bidding overlay check" }
+    ],
+    "guidance": "Use current RFO FAR 14.211-3(a)/(a)(1), not legacy FAR 14.503-1, for what to do in step one of two-step sealed bidding."
+  },
+  {
+    "id": "final_indirect_cost_rates",
+    "match": ["final indirect cost rates", "42.705-1", "42.505"],
+    "expectedCitations": ["RFO FAR 42.505(a)(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "42", "reason": "RFO final indirect cost rate procedures" },
+      { "kind": "dfars_rfo", "part": "242", "reason": "DoD final indirect cost overlay" },
+      { "kind": "dfars_pgi", "part": "242", "reason": "DoD final indirect cost PGI procedure" }
+    ],
+    "guidance": "Use current RFO FAR 42.505(a)(1), not legacy FAR 42.705-1(b), for contracting officer final indirect cost rate determination procedures."
+  },
+  {
+    "id": "special_contracting_methods",
+    "match": ["special contracting methods"],
+    "expectedCitations": ["RFO FAR Part 17"],
+    "requests": [
+      { "kind": "rfo_far", "part": "17", "reason": "Special contracting methods" },
+      { "kind": "dfars_rfo", "part": "217", "reason": "DoD special contracting methods overlay" }
+    ],
+    "guidance": "Route special contracting methods to RFO FAR Part 17."
+  },
+  {
+    "id": "extraordinary_contractual_relief_funds",
+    "match": ["extraordinary contractual relief", "adjustment request", "adequate funds", "another agency"],
+    "expectedCitations": ["RFO FAR Part 50"],
+    "requests": [
+      { "kind": "rfo_far", "part": "50", "reason": "Extraordinary contractual actions under current RFO Part 50" },
+      { "kind": "dfars_rfo", "part": "250", "reason": "DoD extraordinary contractual actions overlay" }
+    ],
+    "guidance": "Do not recycle old FAR 50.103-5(c) as controlling if current RFO Part 50 text does not contain the old funds-availability prerequisite; mark the conclusion conditional when the current text is silent."
+  },
+  {
+    "id": "architect_engineer_services",
+    "match": ["architect-engineer", "architect engineer", "a-e services"],
+    "expectedCitations": ["RFO FAR 36.102"],
+    "requests": [
+      { "kind": "rfo_far", "part": "36", "reason": "Architect-engineer service coverage" },
+      { "kind": "dfars_rfo", "part": "236", "reason": "DoD construction and architect-engineer overlay" }
+    ],
+    "guidance": "Use RFO FAR 36.102 for acquisition of architect-engineer services instead of legacy FAR subpart 36.6."
+  },
+  {
+    "id": "short_form_preaward_survey",
+    "match": ["short-form preaward survey", "short form preaward survey", "9.106-4", "preaward survey report"],
+    "expectedCitations": ["RFO FAR 9.106 reserved", "DFARS RFO PGI 209.171"],
+    "requests": [
+      { "kind": "rfo_far", "part": "9", "reason": "RFO responsibility and preaward survey baseline" },
+      { "kind": "dfars_rfo", "part": "209", "reason": "DoD preaward survey overlay" },
+      { "kind": "dfars_pgi", "part": "209", "reason": "DoD preaward survey request procedure" }
+    ],
+    "guidance": "For short-form preaward survey timing, do not cite old FAR 9.106-4(d). Current RFO FAR 9.106 is reserved; DoD PGI 209.171 explains how to request surveys, not when a short form is appropriate."
+  },
+  {
+    "id": "equal_low_bids",
+    "match": ["two low bids are equal", "equal low bids", "14.408-6", "19.202-3"],
+    "expectedCitations": ["RFO FAR 14.308(b)", "RFO FAR 19.203"],
+    "requests": [
+      { "kind": "rfo_far", "part": "14", "reason": "Tie bid procedure under sealed bidding" },
+      { "kind": "rfo_far", "part": "19", "reason": "Small business tie-bid priority" }
+    ],
+    "guidance": "Use current RFO FAR 14.308(b) or RFO FAR 19.203 for equal low bids, not legacy FAR 14.408-6 or 19.202-3."
+  },
+  {
+    "id": "inherently_governmental_functions",
+    "match": ["inherently governmental functions", "can't use contracts", "cannot use contracts"],
+    "expectedCitations": ["DFARS RFO 237.301-1(a)(i)", "RFO FAR 37.301-1(a)", "RFO FAR 7.503(a)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "37", "reason": "Baseline service contracting prohibition" },
+      { "kind": "rfo_far", "part": "7", "reason": "Supporting inherent governmental function policy" },
+      { "kind": "dfars_rfo", "part": "237", "reason": "DoD inherently governmental functions overlay" },
+      { "kind": "dfars_rfo", "part": "207", "reason": "DoD workforce mix and acquisition planning overlay" },
+      { "kind": "dfars_pgi", "part": "237", "reason": "DoD workforce mix instruction reference" }
+    ],
+    "guidance": "For DoD, lead with DFARS RFO 237.301-1(a)(i); RFO FAR 37.301-1(a) and 7.503(a) are supporting baseline FAR context."
+  },
+  {
+    "id": "cost_reimbursement_construction_bonds",
+    "match": ["performance and payment bonds", "cost-reimbursement construction", "cost reimbursement construction"],
+    "expectedCitations": ["DFARS RFO 228.102-1"],
+    "requests": [
+      { "kind": "rfo_far", "part": "28", "reason": "Baseline bond requirements" },
+      { "kind": "dfars_rfo", "part": "228", "reason": "DoD cost-reimbursement construction bond waiver" }
+    ],
+    "guidance": "Answer no for performance and payment bonds in DoD cost-reimbursement construction contracts; DFARS RFO 228.102-1 waives the requirement."
+  },
+  {
+    "id": "vecp_response_time",
+    "match": ["vecp", "value engineering change proposal", "accept or reject a vecp", "48.103"],
+    "expectedCitations": ["FAR 52.248-1(e)(1)", "FAR 52.248-3(e)(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "48", "reason": "Value engineering prescription and RFO status" },
+      { "kind": "rfo_far", "part": "52", "reason": "Value engineering clause text containing decision timeframe" }
+    ],
+    "guidance": "RFO FAR Part 48 does not itself state the time. The timing is in the Government action paragraph of the VE clauses: FAR 52.248-1(e)(1) for supplies/services and FAR 52.248-3(e)(1) for construction."
+  },
+  {
+    "id": "statutory_threshold_inflation_review",
+    "match": ["statutory acquisition-related dollar thresholds", "reviewed to calculate adjustment for inflation", "section 807"],
+    "expectedCitations": ["DFARS RFO PGI 201.108"],
+    "requests": [
+      { "kind": "rfo_far", "part": "1", "reason": "FAR conventions and threshold adjustment baseline" },
+      { "kind": "dfars_pgi", "part": "201", "reason": "DoD threshold adjustment PGI reference" }
+    ],
+    "guidance": "DFARS RFO PGI 201.108 points to the threshold spreadsheet; the five-year answer is inferred from that review cycle rather than stated as a simple sentence."
+  },
+  {
+    "id": "preaward_peer_reviews",
+    "match": ["pre-award peer reviews", "preaward peer reviews", "final proposal revisions", "before issuing the solicitation"],
+    "expectedCitations": ["DFARS RFO PGI 201.170-2(a)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "201", "reason": "DoD peer review policy" },
+      { "kind": "dfars_pgi", "part": "201", "reason": "Preaward peer review timing" }
+    ],
+    "guidance": "Use DFARS RFO PGI 201.170-2(a) for pre-award peer review timing."
+  },
+  {
+    "id": "employers_liability_insurance",
+    "match": ["employer's liability insurance", "employers liability insurance", "cost-reimbursement contract"],
+    "expectedCitations": ["RFO FAR 28.307-2(a)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "28", "reason": "Insurance under cost-reimbursement contracts" },
+      { "kind": "dfars_rfo", "part": "228", "reason": "DoD insurance overlay" }
+    ],
+    "guidance": "Use RFO FAR 28.307-2(a) for the required amount of employer's liability insurance under a cost-reimbursement contract."
+  },
+  {
+    "id": "contract_signature_contact_info",
+    "match": ["contracting officer's name", "official title", "signature", "telephone number", "email address"],
+    "expectedCitations": ["DFARS RFO PGI 204.101(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "4", "reason": "Contract execution baseline" },
+      { "kind": "dfars_pgi", "part": "204", "reason": "DoD contract signature contact information" }
+    ],
+    "guidance": "In addition to name, title, and signature, include telephone number and, when available, email address; cite DFARS RFO PGI 204.101(1)."
+  },
+  {
+    "id": "workforce_mix_instruction",
+    "match": ["determination described at far 7.503(e)", "7.503(e)", "workforce mix", "1100.22"],
+    "expectedCitations": ["DFARS RFO 207.503(e)(i)", "DoD Instruction 1100.22"],
+    "requests": [
+      { "kind": "rfo_far", "part": "7", "reason": "Baseline inherently governmental determination" },
+      { "kind": "dfars_rfo", "part": "207", "reason": "DoD workforce mix overlay" },
+      { "kind": "dfars_pgi", "part": "237", "reason": "DoDI 1100.22 reference" }
+    ],
+    "guidance": "The instruction is DoD Instruction 1100.22; cite DFARS RFO 207.503(e)(i) for the DoD regulatory hook."
+  },
+  {
+    "id": "price_negotiation_cost_elements",
+    "match": ["doesn't have to reach agreement on every element of cost", "does not have to reach agreement on every element of cost", "15.405"],
+    "expectedCitations": ["RFO FAR 15.405(a)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "15", "reason": "Price negotiation rule" }
+    ],
+    "guidance": "Use RFO FAR 15.405(a): the contracting officer need not agree on every cost element to negotiate a fair and reasonable price."
+  },
+  {
+    "id": "utilities_privatization_part31_deviation",
+    "match": ["utilities privatization", "requirements in far part 31", "part 31"],
+    "expectedCitations": ["CD 2011-O0006", "DoD RFO Deviation Part 31"],
+    "requests": [
+      { "kind": "rfo_far", "part": "31", "reason": "Cost principles baseline" },
+      { "kind": "dfars_rfo", "part": "231", "reason": "DoD cost principles overlay" }
+    ],
+    "guidance": "For DoD utilities privatization cost-principle relief, route to the class deviation answer CD 2011-O0006 / DoD RFO Deviation Part 31; mark source currency if the deviation PDF text is not retrieved."
+  },
+  {
+    "id": "precious_metals",
+    "match": ["precious metals", "contractor buy them", "government-owned precious metals"],
+    "expectedCitations": ["DFARS RFO 208.7302", "DFARS RFO PGI 208.73"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "208", "reason": "DoD Government-owned precious metals policy" },
+      { "kind": "dfars_pgi", "part": "208", "reason": "DoD precious metals PGI" }
+    ],
+    "guidance": "Use DFARS RFO 208.7302 and PGI 208.73: DoD should furnish available required precious metals rather than have contractors acquire them independently when in the Government's best interest."
+  },
+  {
+    "id": "electronic_payment_requests_exception",
+    "match": ["electronic payment requests", "electronic submission is not feasible", "232.7002"],
+    "expectedCitations": ["DFARS RFO 232.7002(a)(2)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "232", "reason": "DoD electronic payment request policy" },
+      { "kind": "dfars_pgi", "part": "232", "reason": "DoD electronic payment request procedures" }
+    ],
+    "guidance": "Use DFARS RFO 232.7002(a)(2) for the exception when electronic submission is not feasible."
+  },
+  {
+    "id": "political_spending_solicitation_deviation",
+    "match": ["political spending", "offeror submit information about its political"],
+    "expectedCitations": ["CD 2012-O0010"],
+    "requests": [
+      { "kind": "rfo_far", "part": "3", "reason": "Improper business practices baseline" }
+    ],
+    "guidance": "For the prohibition on requiring offeror political-spending information in a solicitation, use class deviation CD 2012-O0010; mark deviation source UTR if not retrieved."
+  },
+  {
+    "id": "contractor_personnel_japan_clause",
+    "match": ["252.225-7976", "perform in japan", "contractor personnel performing in japan"],
+    "expectedCitations": ["CD 2018-O0019", "DFARS RFO 225.371-5"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "225", "reason": "Contractor personnel performing in Japan class deviation text" },
+      { "kind": "dfars_pgi", "part": "225", "reason": "Japan contractor personnel PGI context" }
+    ],
+    "guidance": "Include DFARS 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 / DFARS RFO 225 text."
+  },
+  {
+    "id": "temporary_consultant_services_personal_services",
+    "match": ["temporary consultant services", "maximum period", "personal services contract"],
+    "expectedCitations": ["DFARS RFO 237.106(1)(i)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "237", "reason": "DoD personal services contract limit" }
+    ],
+    "guidance": "The maximum period for a personal services contract for temporary consultant services is one year; cite DFARS RFO 237.106(1)(i)."
+  },
+  {
+    "id": "sat_humanitarian_peacekeeping_outside_us",
+    "match": ["sat", "simplified acquisition threshold", "outside the u.s.", "humanitarian or peacekeeping"],
+    "expectedCitations": ["RFO FAR 2.101"],
+    "requests": [
+      { "kind": "rfo_far", "part": "2", "reason": "Simplified acquisition threshold definition" },
+      { "kind": "dfars_rfo", "part": "218", "reason": "DoD emergency acquisition overlay" }
+    ],
+    "guidance": "For purchases outside the United States in support of a humanitarian or peacekeeping operation, the SAT is $650,000 under FAR/RFO FAR 2.101."
+  },
+  {
+    "id": "subcontracting_plans_tonga",
+    "match": ["subcontracting plans", "performed entirely in tonga", "tonga", "19.702"],
+    "expectedCitations": ["RFO FAR 19.109(b)(3)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "19", "reason": "RFO subcontracting plan applicability" },
+      { "kind": "dfars_rfo", "part": "219", "reason": "DoD small business overlay" }
+    ],
+    "guidance": "For contracts performed entirely in Tonga, answer no; use current RFO FAR 19.109(b)(3), not legacy FAR 19.702(b)(3)."
+  },
+  {
+    "id": "far_change_current_solicitation",
+    "match": ["federal register notice", "current solicitations", "amend the solicitation", "1.108(d)"],
+    "expectedCitations": ["RFO FAR 1.108(d)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "1", "reason": "FAR conventions for application of changes" }
+    ],
+    "guidance": "If the final rule is silent, the contracting officer does not have to amend the existing solicitation; cite FAR/RFO FAR 1.108(d)."
+  },
+  {
+    "id": "limitations_on_subcontracting_class_deviation",
+    "match": ["52.219-14", "limitations on subcontracting", "small business set-aside", "2,350,000"],
+    "expectedCitations": ["CD 2021-O0008 Revision 1"],
+    "requests": [
+      { "kind": "rfo_far", "part": "19", "reason": "Limitations on subcontracting baseline" },
+      { "kind": "dfars_rfo", "part": "219", "reason": "DoD small business overlay" }
+    ],
+    "guidance": "For the noncommercial supply small-business set-aside scenario, expected classroom answer is no under CD 2021-O0008 Revision 1; mark deviation source currency if not retrieved."
+  },
+  {
+    "id": "contractor_claim_email",
+    "match": ["submit a claim by e-mail", "submit a claim by email", "33.206", "33.205-1"],
+    "expectedCitations": ["RFO FAR 33.205-1(b)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "33", "reason": "RFO claim submission rule" },
+      { "kind": "dfars_rfo", "part": "233", "reason": "DoD disputes overlay" }
+    ],
+    "guidance": "A contractor can submit a claim by email; use current RFO FAR 33.205-1(b), not legacy FAR 33.206(a)."
+  },
+  {
+    "id": "delegation_national_security_exemption",
+    "match": ["23.106", "sustainable acquisition", "national security", "delegated to the heads of contracting activities"],
+    "expectedCitations": ["RFO FAR 1.108(b)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "1", "reason": "Delegation convention" },
+      { "kind": "rfo_far", "part": "23", "reason": "Sustainable acquisition exemption" }
+    ],
+    "guidance": "Use FAR/RFO FAR 1.108(b): agency-head authority may be delegated unless the FAR says otherwise."
+  },
+  {
+    "id": "cooperative_agreement_holders_clause",
+    "match": ["252.205-7000", "cooperative agreement holders", "base year and four options", "guaranteed minimum"],
+    "expectedCitations": ["DFARS RFO 205.470"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "205", "reason": "DoD cooperative agreement holder clause prescription" }
+    ],
+    "guidance": "Use DFARS RFO 205.470. Evaluate total contemplated value including options, not just the IDIQ guaranteed minimum."
+  },
+  {
+    "id": "award_fee_plan_consultation",
+    "match": ["award-fee plan", "cost-plus-award-fee", "fee determining official", "program manager"],
+    "expectedCitations": ["DFARS RFO PGI 216.401(e)(i)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "216", "reason": "DoD incentive contract overlay" },
+      { "kind": "dfars_pgi", "part": "216", "reason": "DoD award-fee plan consultation procedure" }
+    ],
+    "guidance": "Yes, the contracting officer must consult with the program manager and fee determining official when developing the award-fee plan; cite DFARS RFO PGI 216.401(e)(i)."
+  },
+  {
+    "id": "far_63027_congress_notice_actor",
+    "match": ["6.302-7", "notifying congress", "responsible for notifying congress"],
+    "expectedCitations": ["RFO FAR 1.108(f)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "6", "reason": "Public interest exception notice rule" },
+      { "kind": "rfo_far", "part": "1", "reason": "FAR convention for undefined actors" }
+    ],
+    "guidance": "When FAR 6.302-7(c)(2) says notification is required without naming a different actor, use FAR/RFO FAR 1.108(f); the contracting officer is responsible."
+  },
+  {
+    "id": "telecommunications_utilities_order_precedence",
+    "match": ["52.241-2", "order of precedence", "telecommunications services", "inside the united states"],
+    "expectedCitations": ["RFO FAR 41.102(b)(3)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "41", "reason": "Utilities services scope and exclusions" }
+    ],
+    "guidance": "Do not include FAR 52.241-2 for telecommunications services inside the United States; cite RFO FAR 41.102(b)(3)."
+  },
+  {
+    "id": "preaward_debriefing_deadline",
+    "match": ["preaward debriefing", "pre-award debriefing", "notice of its exclusion", "exclusion from the competition"],
+    "expectedCitations": ["RFO FAR 15.206-2(a)(1)", "FAR 15.505(a)(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "15", "reason": "Preaward debriefing request deadline" },
+      { "kind": "rfo_far", "part": "33", "reason": "Day-counting rule cross-reference" },
+      { "kind": "dfars_rfo", "part": "215", "reason": "DoD source selection overlay" }
+    ],
+    "guidance": "Compute the deadline as September 5, 2023. In RFO mode cite RFO FAR 15.206-2(a)(1); legacy classroom key may show FAR 15.505(a)(1)."
+  },
+  {
+    "id": "contractor_sources_of_supply",
+    "match": ["identification of sources of supply", "sources of supply", "noncommercial supplies", "350,000"],
+    "expectedCitations": ["DFARS RFO 217.7302(b)(2)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "217", "reason": "DoD contractor identification of sources of supply" }
+    ],
+    "guidance": "For noncommercial supplies valued at $350,000, answer no if the DFARS 217.7302(b)(2) exception applies."
+  },
+  {
+    "id": "abilityone_fapiis_responsibility",
+    "match": ["fapiis", "abilityone vendor", "responsibility determination"],
+    "expectedCitations": ["RFO FAR 9.102(b)(3)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "9", "reason": "AbilityOne responsibility determination exclusion" }
+    ],
+    "guidance": "For award to an AbilityOne vendor, answer no for documenting FAPIIS consideration in a responsibility determination; cite RFO FAR 9.102(b)(3)."
+  },
+  {
+    "id": "contractor_weapons_policy_peacekeeping",
+    "match": ["carry weapons", "weapons policy", "peacekeeping operation", "designated operational area"],
+    "expectedCitations": ["RFO FAR 25.301-3"],
+    "requests": [
+      { "kind": "rfo_far", "part": "25", "reason": "Contractor personnel in designated operational areas" },
+      { "kind": "dfars_rfo", "part": "225", "reason": "DoD contractor personnel overseas overlay" }
+    ],
+    "guidance": "For contractor personnel carrying weapons in a designated operational area during a peacekeeping operation, answer yes; cite RFO FAR 25.301-3."
+  },
+  {
+    "id": "sap_synopsis_jofofc",
+    "match": ["simplified acquisition procedures", "forego the requirement to synopsize", "5.202(a)(2)", "6.303"],
+    "expectedCitations": ["RFO FAR 6.001(a)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "5", "reason": "Synopsis exception" },
+      { "kind": "rfo_far", "part": "6", "reason": "Full and open competition scope exception" },
+      { "kind": "rfo_far", "part": "13", "reason": "Simplified acquisition procedures context" }
+    ],
+    "guidance": "No FAR 6.303 justification is required when using simplified acquisition procedures; cite FAR/RFO FAR 6.001(a)."
+  },
+  {
+    "id": "government_property_accountability_transfer",
+    "match": ["transferring accountability for government property", "government property accountability", "245.103-71"],
+    "expectedCitations": ["DFARS RFO PGI 245.103-71"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "245", "reason": "DoD Government property policy" },
+      { "kind": "dfars_pgi", "part": "245", "reason": "DoD Government property accountability transfer procedure" }
+    ],
+    "guidance": "Use DFARS RFO PGI 245.103-71 for procedures for transferring accountability for Government property."
+  },
+  {
+    "id": "office_space_desks_phones_exception",
+    "match": ["office space", "desks", "telephones", "co-located", "military installation"],
+    "expectedCitations": ["RFO FAR 45.000(b)(5)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "45", "reason": "Government property scope exclusion" },
+      { "kind": "dfars_rfo", "part": "245", "reason": "DoD Government property overlay" },
+      { "kind": "dfars_pgi", "part": "245", "reason": "DoD furnishing Government property procedures" }
+    ],
+    "guidance": "Do not require DFARS PGI 245.103-70 for office space, desks, and phones in the co-location scenario; cite FAR/RFO FAR 45.000(b)(5)."
+  },
+  {
+    "id": "buy_american_oregon_threshold",
+    "match": ["public use in oregon", "15,000", "domestic end products", "25.103"],
+    "expectedCitations": ["RFO FAR 25.100(b)(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "25", "reason": "Buy American applicability threshold" },
+      { "kind": "dfars_rfo", "part": "225", "reason": "DoD domestic preference overlay" },
+      { "kind": "rfo_far", "part": "2", "reason": "Micro-purchase threshold definition" }
+    ],
+    "guidance": "Answer no because $15,000 does not exceed the micro-purchase threshold; cite FAR/RFO FAR 25.100(b)(1)."
+  },
+  {
+    "id": "multiyear_cancellation_ceiling_20m",
+    "match": ["cancellation ceiling of $20 million", "cancellation ceiling of 20 million", "congressional notification", "multiyear contract"],
+    "expectedCitations": ["RFO FAR 17.108(b)", "DFARS RFO 217.170(d)(1)(iv)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "17", "reason": "Multiyear congressional notification threshold" },
+      { "kind": "dfars_rfo", "part": "217", "reason": "DoD multiyear congressional notification overlay" }
+    ],
+    "guidance": "Answer no when the cancellation ceiling is exactly $20 million; the rule triggers above/exceeding the threshold, not equal to it."
+  },
+  {
+    "id": "construction_estimate_handling",
+    "match": ["government estimate of construction costs", "unclassified construction contract", "for official use only"],
+    "expectedCitations": ["DFARS RFO PGI 236.203(1)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "36", "reason": "Construction estimate baseline" },
+      { "kind": "dfars_rfo", "part": "236", "reason": "DoD construction estimate overlay" },
+      { "kind": "dfars_pgi", "part": "236", "reason": "DoD construction estimate marking procedure" }
+    ],
+    "guidance": "For an unclassified DoD construction contract, the Government estimate is designated For Official Use Only; cite DFARS RFO PGI 236.203(1)."
+  },
+  {
+    "id": "motor_vehicle_lease_certification",
+    "match": ["lease motor vehicles", "leased for a period of 60 days", "fuel efficiency and size", "8.1100"],
+    "expectedCitations": ["RFO FAR 8.1100"],
+    "requests": [
+      { "kind": "rfo_far", "part": "8", "reason": "Leasing motor vehicles scope gate" }
+    ],
+    "guidance": "Answer no in the 60-day overseas motor-vehicle lease scenario because RFO FAR 8.1100 is the scope gate for the certification requirement."
+  },
+  {
+    "id": "hca_variable_unit_price_delegation",
+    "match": ["17.106-3(g)", "variable unit prices", "chief of the contracting office"],
+    "expectedCitations": ["RFO FAR 1.108(b)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "1", "reason": "Delegation convention" },
+      { "kind": "rfo_far", "part": "17", "reason": "Variable unit price authority context" }
+    ],
+    "guidance": "Yes, the HCA authority may be delegated unless the FAR says otherwise; cite RFO FAR 1.108(b)."
+  },
+  {
+    "id": "detainee_epw_interrogation",
+    "match": ["enemy prisoner of war", "interrogated by contractor personnel", "detainee may be interrogated"],
+    "expectedCitations": ["DFARS RFO 237.873-4", "DFARS 237.173-4"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "237", "reason": "Detainee interrogation prohibition and waiver" },
+      { "kind": "dfars_pgi", "part": "237", "reason": "Detainee waiver procedure context" }
+    ],
+    "guidance": "Answer generally prohibited, but the Secretary of Defense may waive the prohibition for 60 days; cite the current DFARS RFO 237.873-4 waiver rule and supporting prohibition at 237.873-3(a)."
+  },
+  {
+    "id": "commercial_product_written_determination",
+    "match": ["first time this item has been purchased by the dod", "not solicit from nontraditional defense contractors", "commercial product definition", "800,000"],
+    "expectedCitations": ["DFARS RFO 212.102(a)(i)(A)", "DFARS RFO 212.102(a)(iii)(A)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "12", "reason": "Commercial product procedures" },
+      { "kind": "dfars_rfo", "part": "212", "reason": "DoD written commercial product determination" },
+      { "kind": "dfars_pgi", "part": "212", "reason": "DoD commercial product procedure context" }
+    ],
+    "guidance": "Answer true: a written determination is required for the stated DoD first-time FAR Part 12 supply procurement above the SAT when not using the nontraditional-defense-contractor path."
+  },
+  {
+    "id": "dod_technical_data_far_52227_14",
+    "match": ["technical data will be acquired", "52.227-14", "27.409(b)(1)", "associated technical data"],
+    "expectedCitations": ["RFO FAR 27.400", "DFARS RFO 227.400", "FAR 27.400", "DFARS 227.400"],
+    "requests": [
+      { "kind": "rfo_far", "part": "27", "reason": "RFO FAR Part 27 DoD scope gate" },
+      { "kind": "dfars_rfo", "part": "227", "reason": "DoD technical data overlay and FAR 27.4 redirect" }
+    ],
+    "guidance": "For the DoD classroom/default scenario, answer no: FAR 52.227-14 is not required solely under FAR 27.409(b)(1) because FAR/RFO FAR 27.400 and DFARS/RFO DFARS 227.400 redirect DoD to DFARS 227.71/227.72."
+  },
+  {
+    "id": "uca_initial_spares",
+    "match": ["undefinitized contract action", "uca", "initial spares", "before definitization"],
+    "expectedCitations": ["DFARS RFO 217.7404-5(a)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "217", "reason": "UCA obligation limitation and initial-spares exception" }
+    ],
+    "guidance": "Answer no for a UCA for initial spares; DFARS RFO 217.7404-5(a) excludes initial spares from the normal obligation limits."
+  },
+  {
+    "id": "germany_warranty_construction",
+    "match": ["52.246-21", "warranty of construction", "performed in germany"],
+    "expectedCitations": ["DFARS RFO 246.710(2)", "DFARS 246.710(2)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "46", "reason": "Baseline warranty of construction prescription" },
+      { "kind": "dfars_rfo", "part": "246", "reason": "Germany-specific DoD warranty substitution" }
+    ],
+    "guidance": "Answer no. For DoD fixed-price construction performed in Germany, DFARS RFO 246.710(2) requires 252.246-7002 instead of FAR 52.246-21."
+  },
+  {
+    "id": "centcom_contractor_personnel_deviation",
+    "match": ["2017-o0004", "252.225-7040", "centcom", "qatar", "central command area"],
+    "expectedCitations": ["CD 2017-O0004", "DFARS RFO 225.371-5"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "225", "reason": "CENTCOM contractor personnel class-deviation text" },
+      { "kind": "dfars_pgi", "part": "225", "reason": "Overseas contractor personnel PGI context" }
+    ],
+    "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 225.371-5 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause."
+  },
+  {
+    "id": "military_flight_simulator_waiver",
+    "match": ["military flight simulator", "service contract for a military flight simulator"],
+    "expectedCitations": ["DFARS RFO 237.102-71(b)"],
+    "requests": [
+      { "kind": "dfars_rfo", "part": "237", "reason": "Military flight simulator service-contract prohibition" },
+      { "kind": "dfars_pgi", "part": "237", "reason": "Military flight simulator waiver procedure" }
+    ],
+    "guidance": "Answer no: a DoD activity cannot enter into a service contract for a military flight simulator without a Secretary of Defense waiver; cite DFARS RFO 237.102-71(b)."
+  },
+  {
+    "id": "sdb_subcontractor_representation",
+    "match": ["small disadvantaged business", "written representations", "current, accurate, and complete"],
+    "expectedCitations": ["RFO FAR 19.703(a)(2)(i)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "19", "reason": "Subcontractor size and socioeconomic representation rule" }
+    ],
+    "guidance": "Answer yes: the prime may accept the subcontractor's current, accurate, and complete written representation; cite RFO FAR 19.703(a)(2)(i)."
+  },
+  {
+    "id": "assignment_of_claims_nonpersonal_services",
+    "match": ["assignment of claims", "nonpersonal services", "may not be prohibited"],
+    "expectedCitations": ["DFARS RFO 232.803(b)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "32", "reason": "Assignment of claims baseline" },
+      { "kind": "dfars_rfo", "part": "232", "reason": "DoD assignment of claims nonpersonal-services rule" }
+    ],
+    "guidance": "For a nonpersonal services contract, assignment of claims may not be prohibited; DFARS RFO 232.803(b) says only personal services contracts may prohibit assignment."
+  },
+  {
+    "id": "abilityone_affirmative_responsibility",
+    "match": ["abilityone participating nonprofit agency", "affirmative determination of responsibility", "before making the award"],
+    "expectedCitations": ["RFO FAR 9.102(b)(3)"],
+    "requests": [
+      { "kind": "rfo_far", "part": "9", "reason": "AbilityOne affirmative responsibility exception" }
+    ],
+    "guidance": "Answer no: an affirmative responsibility determination is not required before award to an AbilityOne participating nonprofit agency; cite RFO FAR 9.102(b)(3)."
+  }
+]

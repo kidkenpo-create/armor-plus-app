@@ -1,3 +1,5 @@
+import { getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
+
 const RFO_FAR_BASE = 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-';
 const RFO_CONVENTIONS_URL = 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107';
 const DFARS_RFO_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-';
@@ -18,12 +20,6 @@ export interface SourcePlanItem {
   status: 'R' | 'UTR' | 'planned';
   reason: string;
   excerpt?: string;
-}
-
-interface SourceRequest {
-  kind: 'rfo_far' | 'dfars_rfo' | 'dfars_pgi' | 'rfo_conventions';
-  part: string;
-  reason: string;
 }
 
 interface IssueRule {
@@ -125,7 +121,7 @@ export async function prefetchRelevantParts(question: string): Promise<{ context
 
 function routeQuestion(question: string): SourceRequest[] {
   const lower = question.toLowerCase();
-  const requests: SourceRequest[] = [];
+  const requests: SourceRequest[] = [...getPracticeSourceRequests(question)];
 
   for (const rule of ISSUE_RULES) {
     if (rule.terms.some(term => lower.includes(term))) requests.push(...rule.requests);
@@ -135,7 +131,9 @@ function routeQuestion(question: string): SourceRequest[] {
     const farPart = part.startsWith('2') && part.length === 3 ? String(Number(part.slice(1))) : String(Number(part));
     const dfarsPart = part.startsWith('2') && part.length === 3 ? part : `2${farPart.padStart(2, '0')}`;
     requests.push(req('rfo_far', farPart, 'Named citation detected in user question'));
-    requests.push(req('dfars_rfo', dfarsPart, 'DoD overlay check for named citation'));
+    if (dfarsPart !== '252') {
+      requests.push(req('dfars_rfo', dfarsPart, 'DoD overlay check for named citation'));
+    }
   }
 
   if (/(deadline|days?|threshold|delegate|delegation|responsib|contracting officer|hca|head of the contracting activity)/i.test(question)) {
@@ -210,6 +208,9 @@ function labelFor(request: SourceRequest): string {
 function urlFor(request: SourceRequest): string {
   if (request.kind === 'rfo_far') return `${RFO_FAR_BASE}${String(Number(request.part))}`;
   if (request.kind === 'dfars_rfo') return `${DFARS_RFO_BASE}${request.part.padStart(3, '0')}-Attachment-1.txt`;
+  if (request.kind === 'dfars_pgi' && request.part === '212') {
+    return 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-PGI-RFO-PART-212-Attachment-2.txt';
+  }
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
   return RFO_CONVENTIONS_URL;
 }
@@ -222,7 +223,7 @@ function prepareSourceContent(content: string, request: SourceRequest): string {
 }
 
 function targetedExcerpt(text: string, request: SourceRequest): string {
-  const targets: RegExp[] = [];
+  const targets: RegExp[] = [...commonTargets(request)];
 
   if (request.kind === 'rfo_far' && request.part === '14') {
     targets.push(/14\.211-3\s+Procedures\.\s+\(a\)\s+Step one[\s\S]{0,2200}/i);
@@ -270,6 +271,64 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
   }
 
   return '';
+}
+
+function commonTargets(request: SourceRequest): RegExp[] {
+  const key = `${request.kind}:${request.part}`;
+  const targets: Record<string, RegExp[]> = {
+    'rfo_far:1': [/1\.108[\s\S]{0,2400}/i, /1\.107[\s\S]{0,1800}/i],
+    'rfo_far:2': [/Simplified acquisition threshold[\s\S]{0,1800}/i, /Micro-purchase threshold[\s\S]{0,1200}/i],
+    'rfo_far:5': [/5\.202[\s\S]{0,1600}/i],
+    'rfo_far:6': [/6\.001[\s\S]{0,1400}/i, /6\.302-7[\s\S]{0,1800}/i],
+    'rfo_far:8': [/8\.1100[\s\S]{0,1800}/i, /8\.1102[\s\S]{0,1600}/i],
+    'rfo_far:9': [/9\.102[\s\S]{0,1800}/i, /9\.106[\s\S]{0,1200}/i],
+    'rfo_far:14': [/14\.211-3[\s\S]{0,2200}/i, /14\.308[\s\S]{0,1600}/i],
+    'rfo_far:15': [/15\.206-2[\s\S]{0,1800}/i, /15\.405[\s\S]{0,1800}/i],
+    'rfo_far:17': [/17\.108[\s\S]{0,1800}/i, /17\.106-3[\s\S]{0,1800}/i],
+    'rfo_far:19': [/19\.109[\s\S]{0,2000}/i, /19\.203[\s\S]{0,1600}/i, /19\.703[\s\S]{0,1800}/i],
+    'rfo_far:23': [/23\.106[\s\S]{0,1600}/i],
+    'rfo_far:25': [/25\.100[\s\S]{0,1800}/i, /25\.301-3[\s\S]{0,2000}/i],
+    'rfo_far:28': [/28\.307-2[\s\S]{0,1600}/i, /28\.102[\s\S]{0,1600}/i],
+    'rfo_far:31': [/31\.\d+[\s\S]{0,1600}/i],
+    'rfo_far:32': [/32\.803[\s\S]{0,1600}/i],
+    'rfo_far:33': [/33\.205-1[\s\S]{0,1600}/i, /33\.206[\s\S]{0,1200}/i],
+    'rfo_far:36': [/36\.102[\s\S]{0,2200}/i, /36\.203[\s\S]{0,1600}/i],
+    'rfo_far:37': [/37\.301-1[\s\S]{0,1800}/i],
+    'rfo_far:41': [/41\.102[\s\S]{0,1800}/i],
+    'rfo_far:42': [/42\.505[\s\S]{0,2200}/i],
+    'rfo_far:45': [/45\.000[\s\S]{0,1800}/i],
+    'rfo_far:48': [/48\.\d+[\s\S]{0,2200}/i],
+    'rfo_far:50': [/50\.\d+[\s\S]{0,2200}/i],
+    'rfo_far:52': [/52\.248-1[\s\S]{0,2600}/i, /52\.248-3[\s\S]{0,2600}/i],
+    'dfars_rfo:201': [/201\.170[\s\S]{0,1800}/i, /201\.108[\s\S]{0,1800}/i],
+    'dfars_pgi:201': [/PGI 201\.170-2[\s\S]{0,2000}/i, /PGI 201\.108[\s\S]{0,2000}/i],
+    'dfars_pgi:204': [/PGI 204\.101[\s\S]{0,1300}/i, /Include the contracting officer's telephone number[\s\S]{0,800}/i],
+    'dfars_rfo:205': [/205\.470[\s\S]{0,1800}/i],
+    'dfars_rfo:208': [/208\.7302[\s\S]{0,1600}/i, /SUBPART 208\.73[\s\S]{0,2000}/i],
+    'dfars_pgi:208': [/PGI 208\.73[\s\S]{0,2200}/i, /DoD policy is for maximum participation[\s\S]{0,1000}/i],
+    'dfars_rfo:209': [/209\.171[\s\S]{0,1400}/i],
+    'dfars_pgi:209': [/PGI 209\.171[\s\S]{0,2200}/i],
+    'dfars_rfo:212': [/212\.102[\s\S]{0,2600}/i],
+    'dfars_pgi:212': [/PGI 212\.102[\s\S]{0,2000}/i],
+    'dfars_rfo:216': [/216\.401[\s\S]{0,1800}/i],
+    'dfars_pgi:216': [/PGI 216\.401[\s\S]{0,2200}/i],
+    'dfars_rfo:217': [/217\.7302[\s\S]{0,2200}/i, /217\.7404-5[\s\S]{0,2200}/i, /217\.170[\s\S]{0,2200}/i],
+    'dfars_rfo:225': [/252\.225-7976[\s\S]{0,2200}/i, /2017-O0004[\s\S]{0,1800}/i, /25\.301-3[\s\S]{0,1600}/i],
+    'dfars_pgi:225': [/For work performed in Japan[\s\S]{0,1800}/i, /Class Deviation 2017-O0004[\s\S]{0,1600}/i],
+    'dfars_rfo:228': [/228\.102-1[\s\S]{0,2200}/i, /228\.307[\s\S]{0,1600}/i],
+    'dfars_rfo:232': [/232\.7002[\s\S]{0,1800}/i, /232\.803[\s\S]{0,2000}/i],
+    'dfars_pgi:232': [/PGI 232\.7002[\s\S]{0,1800}/i, /PGI 232\.7004[\s\S]{0,1800}/i],
+    'dfars_rfo:233': [/233\.205[\s\S]{0,1600}/i],
+    'dfars_rfo:236': [/236\.203[\s\S]{0,1600}/i, /236\.602[\s\S]{0,1600}/i],
+    'dfars_pgi:236': [/PGI 236\.203[\s\S]{0,2200}/i, /For Official Use Only[\s\S]{0,800}/i],
+    'dfars_rfo:237': [/237\.102-71[\s\S]{0,1800}/i, /237\.106[\s\S]{0,1400}/i, /237\.301-1[\s\S]{0,1400}/i, /237\.873-4[\s\S]{0,1400}/i],
+    'dfars_pgi:237': [/DoD Instruction 1100\.22[\s\S]{0,1200}/i, /PGI 237\.102-71[\s\S]{0,1800}/i],
+    'dfars_pgi:242': [/PGI 242\.505-1[\s\S]{0,2200}/i],
+    'dfars_rfo:245': [/245\.103-70[\s\S]{0,1600}/i, /245\.103-71[\s\S]{0,1600}/i],
+    'dfars_pgi:245': [/PGI 245\.103-70[\s\S]{0,2000}/i, /PGI 245\.103-71[\s\S]{0,2200}/i],
+  };
+
+  return targets[key] || [];
 }
 
 function trimSource(content: string, kind: SourceRequest['kind']): string {

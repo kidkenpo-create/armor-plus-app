@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import type { ChatCompletionCreateParamsStreaming, ChatCompletionMessageParam } from 'openai/resources/chat/completions';
 import { ARMOR_SYSTEM_PROMPT } from '@/app/lib/armor-prompt';
 import { prefetchRelevantParts } from '@/app/lib/fetcher';
+import { getPracticeIssueInstruction } from '@/app/lib/practice-issue-rules';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
@@ -27,6 +28,7 @@ export async function POST(req: NextRequest) {
     const systemContent = [
       ARMOR_SYSTEM_PROMPT,
       issueSpecificInstruction(prompt),
+      getPracticeIssueInstruction(prompt),
       'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
       context || 'No direct source was retrieved. Mark UTR where source text is required.',
       [
