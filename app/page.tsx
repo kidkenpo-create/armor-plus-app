@@ -85,6 +85,14 @@ function routePreview(question: string): SourcePlanItem[] {
         plan('DFARS RFO Part 227', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-227-Attachment-1.txt', 'DoD technical data overlay'),
       ],
     },
+    {
+      terms: ['acquisition plan', 'acquisition planning', 'responsible for the acquisition plan', 'responsibility for acquisition plan'],
+      items: [
+        plan('RFO FAR Part 7', 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-7', 'Base acquisition planning rule'),
+        plan('DFARS RFO Part 207', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-207-Attachment-1.txt', 'DoD acquisition planning overlay'),
+        plan('DFARS RFO PGI Part 207', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-207-Attachment-2.txt', 'DoD acquisition plan coordination responsibility'),
+      ],
+    },
   ];
 
   const matched = plans.find(group => group.terms.some(term => q.includes(term)));
@@ -96,7 +104,7 @@ function routePreview(question: string): SourcePlanItem[] {
     const farPart = rawPart.startsWith('2') && rawPart.length === 3 ? String(Number(rawPart.slice(1))) : String(Number(rawPart));
     const dfarsPart = rawPart.startsWith('2') && rawPart.length === 3 ? rawPart : `2${farPart.padStart(2, '0')}`;
     return [
-      plan(`RFO FAR Part ${farPart}`, `https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-${farPart.padStart(2, '0')}`, 'Named citation detected'),
+      plan(`RFO FAR Part ${farPart}`, `https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-${farPart}`, 'Named citation detected'),
       plan(`DFARS RFO Part ${dfarsPart}`, `https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-${dfarsPart}-Attachment-1.txt`, 'DoD overlay check'),
     ];
   }

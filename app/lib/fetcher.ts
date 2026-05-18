@@ -53,6 +53,11 @@ const ISSUE_RULES: IssueRule[] = [
     req('rfo_far', '27', 'Patents, data, and copyrights'),
     req('dfars_rfo', '227', 'DoD technical data overlay'),
   ]),
+  issue(['acquisition plan', 'acquisition planning', 'responsible for the acquisition plan', 'responsibility for acquisition plan'], [
+    req('rfo_far', '7', 'Base acquisition planning rule'),
+    req('dfars_rfo', '207', 'DoD acquisition planning overlay'),
+    req('dfars_pgi', '207', 'DoD acquisition plan coordination responsibility'),
+  ]),
   issue(['buy american', 'domestic end product', 'domestic end products'], [
     req('rfo_far', '25', 'Buy American applicability and exceptions'),
     req('dfars_rfo', '225', 'DoD domestic preference overlay'),
@@ -203,7 +208,7 @@ function labelFor(request: SourceRequest): string {
 }
 
 function urlFor(request: SourceRequest): string {
-  if (request.kind === 'rfo_far') return `${RFO_FAR_BASE}${request.part.padStart(2, '0')}`;
+  if (request.kind === 'rfo_far') return `${RFO_FAR_BASE}${String(Number(request.part))}`;
   if (request.kind === 'dfars_rfo') return `${DFARS_RFO_BASE}${request.part.padStart(3, '0')}-Attachment-1.txt`;
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
   return RFO_CONVENTIONS_URL;
@@ -233,6 +238,18 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
 
   if (request.kind === 'rfo_far' && request.part === '46') {
     targets.push(/46\.710[\s\S]{0,1800}/i);
+  }
+
+  if (request.kind === 'rfo_far' && request.part === '7') {
+    targets.push(/7\.101\s+Definitions[\s\S]{0,1600}/i, /7\.102\s+Requirements[\s\S]{0,1800}/i);
+  }
+
+  if (request.kind === 'dfars_rfo' && request.part === '207') {
+    targets.push(/207\.103-70\s+Agency-head responsibilities[\s\S]{0,2200}/i, /207\.104-70\s+General procedures[\s\S]{0,1300}/i);
+  }
+
+  if (request.kind === 'dfars_pgi' && request.part === '207') {
+    targets.push(/PGI 207\.104-70\s+General procedures\.\s+\(b\)[\s\S]{0,1600}/i, /It is incumbent upon the program manager[\s\S]{0,1000}/i);
   }
 
   if (request.kind === 'dfars_rfo' && request.part === '237') {
@@ -307,6 +324,15 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
       /Use the procedures in subparts 227\.71 and 227\.72[\s\S]{0,550}/i,
       /27\.400[\s\S]{0,650}/i,
       /52\.227-14[\s\S]{0,650}/i,
+    );
+  }
+
+  if (/acquisition plan|acquisition planning|responsible|program manager/.test(q)) {
+    patterns.push(
+      /TARGETED REGULATORY EXCERPT:\s*PGI 207\.104-70[\s\S]{0,700}/i,
+      /It is incumbent upon the program manager[\s\S]{0,650}/i,
+      /Planner means the person or office responsible for developing and maintaining a plan[\s\S]{0,500}/i,
+      /207\.104-70\s+General procedures[\s\S]{0,650}/i,
     );
   }
 

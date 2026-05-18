@@ -149,5 +149,17 @@ function issueSpecificInstruction(question: string) {
       'Do not conclude that FAR 27.409 controls unless you first explain why FAR/RFO FAR 27.400 and DFARS/RFO DFARS 227.400 do not displace it.',
     ].join('\n');
   }
+
+  if (/(acquisition plan|acquisition planning|responsible for.*plan|who.*responsible.*plan|207\.104-70)/i.test(question)) {
+    return [
+      'ISSUE-FAMILY OVERRIDE -- DOD ACQUISITION PLAN RESPONSIBILITY:',
+      'Treat as a DoD actor/responsibility question. Do not default to the contracting officer.',
+      'Check RFO FAR Part 7, DFARS RFO Part 207, and DFARS RFO PGI Part 207 before answering.',
+      'For the question "who is responsible for the acquisition plan?", the controlling DoD answer is the program manager based on DFARS RFO PGI 207.104-70(b).',
+      'Operative text: "It is incumbent upon the program manager to coordinate the plan..."',
+      'Explain that RFO FAR Part 7 defines a planner generally, but the DFARS RFO PGI Part 207 text supplies the DoD program-manager responsibility for coordinating the acquisition plan.',
+      'BLUF and STEP 5 must cite DFARS RFO PGI 207.104-70(b) unless the user clearly asks for a non-DoD FAR-only answer.',
+    ].join('\n');
+  }
   return 'ISSUE-FAMILY OVERRIDE: None.';
 }
