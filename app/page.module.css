@@ -30,8 +30,10 @@
 
 .brand strong {
   display: block;
-  font-size: 15px;
+  color: #08245f;
+  font-size: 18px;
   line-height: 1.1;
+  letter-spacing: 0;
 }
 
 .brand span {
@@ -42,15 +44,15 @@
 }
 
 .logoMark {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   display: grid;
   place-items: center;
   overflow: hidden;
-  border: 1px solid var(--border);
-  border-radius: 9px;
+  border: 1px solid rgba(8, 36, 95, 0.14);
+  border-radius: 8px;
   background: #fff;
-  box-shadow: 0 10px 22px rgba(20, 32, 51, 0.08);
+  box-shadow: 0 10px 22px rgba(20, 32, 51, 0.1);
 }
 
 .logoMark img {
@@ -181,6 +183,41 @@
   color: var(--muted);
   font-size: 11px;
   line-height: 1.4;
+}
+
+.capabilityStrip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 0 16px 14px;
+}
+
+.capabilityStrip span {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: linear-gradient(180deg, #fff, #f8fbff);
+  color: var(--text2);
+  font-size: 11px;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.capabilityStrip i {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: rgba(34, 103, 190, 0.09);
+  color: var(--accent);
+  font-style: normal;
+  font: 800 10px/1 var(--mono);
 }
 
 .primaryBtn,
@@ -723,6 +760,36 @@
   text-align: right;
 }
 
+.poweredBadge {
+  position: fixed;
+  left: 18px;
+  bottom: 16px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: calc(100vw - 36px);
+  padding: 7px 10px 7px 8px;
+  border: 1px solid rgba(8, 36, 95, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+  color: #334155;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+  backdrop-filter: blur(12px);
+}
+
+.poweredBadge img {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #fff;
+}
+
 @media (max-width: 1180px) {
   .workspace {
     grid-template-columns: minmax(320px, 420px) 1fr;
@@ -786,7 +853,15 @@
     flex-direction: column;
   }
 
+  .capabilityStrip {
+    grid-template-columns: 1fr;
+  }
+
   .primaryBtn {
     width: 100%;
+  }
+
+  .poweredBadge {
+    display: none;
   }
 }

@@ -457,6 +457,12 @@ export default function Home() {
             <span>Server-side key. Browser never sees `OPENAI_API_KEY`.</span>
           </div>
 
+          <div className={styles.capabilityStrip} aria-label="ARMOR capabilities">
+            <span><i>1</i> Find controlling regulation</span>
+            <span><i>2</i> Compare RFO FAR / DFARS</span>
+            <span><i>3</i> Draft follow-on work</span>
+          </div>
+
           <div className={styles.demoBlock}>
             <span>Regulatory research examples</span>
             <button onClick={() => setDemo(0)}>Preaward debrief deadline</button>
@@ -520,6 +526,11 @@ export default function Home() {
           )}
         </section>
       </main>
+
+      <div className={styles.poweredBadge} aria-label="Powered by AI by Heath">
+        <img src="/robot-fars.jpg" alt="" aria-hidden="true" />
+        <span>powered by AI by Heath</span>
+      </div>
     </div>
   );
 }
