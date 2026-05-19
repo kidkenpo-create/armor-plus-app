@@ -427,6 +427,9 @@ export default function Home() {
             <span>Acquisition Regulation Mission Operations Resource</span>
           </div>
         </div>
+        <div className={styles.headerCredit}>
+          Built by John Wahl and Heath Gross - A WarU Collaborative, supporting the acquisition workforce
+        </div>
         <nav className={styles.topActions}>
           <span className={styles.livePill}>{model}</span>
         </nav>
@@ -528,7 +531,7 @@ export default function Home() {
       </main>
 
       <div className={styles.poweredBadge} aria-label="Powered by AI by Heath">
-        <img src="/robot-fars.jpg" alt="" aria-hidden="true" />
+        <img src="/heath-robot-badge.png" alt="" aria-hidden="true" />
         <span>powered by AI by Heath</span>
       </div>
     </div>

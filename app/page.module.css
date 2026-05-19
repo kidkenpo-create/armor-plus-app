@@ -43,6 +43,17 @@
   line-height: 1.3;
 }
 
+.headerCredit {
+  flex: 1;
+  min-width: 220px;
+  max-width: 620px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.35;
+  text-align: center;
+}
+
 .logoMark {
   width: 46px;
   height: 46px;
@@ -783,10 +794,11 @@
 }
 
 .poweredBadge img {
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
   border-radius: 6px;
   object-fit: cover;
+  object-position: 42% 40%;
   background: #fff;
 }
 
@@ -816,6 +828,11 @@
 
   .topActions {
     justify-content: flex-start;
+  }
+
+  .headerCredit {
+    max-width: 100%;
+    text-align: left;
   }
 
   .workspace {
