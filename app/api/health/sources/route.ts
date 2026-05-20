@@ -1,7 +1,11 @@
 const CHECKS = [
   {
-    name: 'acquisition.gov RFO FAR Part 15',
-    url: 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15',
+    name: 'ARMOR GitHub data/FAR',
+    url: 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/far?ref=main',
+  },
+  {
+    name: 'ARMOR GitHub data/DFARS',
+    url: 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/dfars?ref=main',
   },
   {
     name: 'ARMOR GitHub DFARS RFO Part 237',

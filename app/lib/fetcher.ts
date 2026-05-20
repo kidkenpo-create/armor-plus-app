@@ -4,6 +4,9 @@ const RFO_FAR_BASE = 'https://www.acquisition.gov/far-overhaul/far-part-deviatio
 const RFO_CONVENTIONS_URL = 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107';
 const DFARS_RFO_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-';
 const DFARS_PGI_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-';
+const ARMOR_DATA_CONTENTS = 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/';
+const ARMOR_DATA_TREE = 'https://github.com/kidkenpo-create/ARMOR-plus/tree/main/data';
+const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
 
 export interface FetchResult {
   label: string;
@@ -25,6 +28,29 @@ export interface SourcePlanItem {
 interface IssueRule {
   terms: string[];
   requests: SourceRequest[];
+}
+
+interface GitHubContentPointer {
+  git_url?: string;
+  html_url?: string;
+}
+
+interface GitHubTreeItem {
+  path: string;
+  type: 'blob' | 'tree';
+  size?: number;
+}
+
+interface GitHubTreeResponse {
+  tree?: GitHubTreeItem[];
+}
+
+interface GitHubDataSource {
+  key: 'far' | 'dfars';
+  repo: string;
+  sha: string;
+  htmlUrl: string;
+  tree: GitHubTreeItem[];
 }
 
 const ISSUE_RULES: IssueRule[] = [
@@ -98,7 +124,7 @@ function req(kind: SourceRequest['kind'], part: string, reason: string): SourceR
 
 export async function prefetchRelevantParts(question: string): Promise<{ context: string; routePlan: SourcePlanItem[] }> {
   const requests = routeQuestion(question);
-  const results = await Promise.all(requests.map(fetchSource));
+  const results = await Promise.all(requests.map(request => fetchSource(request, question)));
   const routePlan = results.map(result => ({
     label: result.label,
     url: result.url,
@@ -168,12 +194,20 @@ function dedupe(requests: SourceRequest[]): SourceRequest[] {
   });
 }
 
-async function fetchSource(request: SourceRequest): Promise<FetchResult> {
+async function fetchSource(request: SourceRequest, question: string): Promise<FetchResult> {
+  const legacyResult = await fetchLegacySource(request);
+  if (legacyResult.status === 'R') return legacyResult;
+
+  const dataResult = await fetchGitHubDataSource(request, question);
+  return dataResult || legacyResult;
+}
+
+async function fetchLegacySource(request: SourceRequest): Promise<FetchResult> {
   const label = labelFor(request);
   const url = urlFor(request);
   try {
     const response = await fetch(url, {
-      headers: { 'User-Agent': 'ARMOR-Plus/1.0 DoD-Acquisition-Tool' },
+      headers: { 'User-Agent': GITHUB_USER_AGENT },
       next: { revalidate: 3600 },
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -213,6 +247,191 @@ function urlFor(request: SourceRequest): string {
   }
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
   return RFO_CONVENTIONS_URL;
+}
+
+async function fetchGitHubDataSource(request: SourceRequest, question: string): Promise<FetchResult | null> {
+  const dataKey = dataKeyFor(request);
+  if (!dataKey) return null;
+
+  try {
+    const source = await resolveGitHubDataSource(dataKey);
+    const paths = selectGitHubDataPaths(source.tree, request, question);
+    if (!paths.length) return null;
+
+    const fetched = await Promise.all(paths.map(async path => {
+      const url = rawGitHubUrl(source, path);
+      const response = await fetch(url, {
+        headers: { 'User-Agent': GITHUB_USER_AGENT },
+        next: { revalidate: 3600 },
+      });
+      if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+      return { path, url, text: await response.text() };
+    }));
+
+    const content = fetched
+      .map(item => `\n--- ARMOR GitHub data file: ${item.path} ---\nSource: ${item.url}\n${item.text}\n---`)
+      .join('\n');
+
+    return {
+      label: `${labelFor(request)} - ARMOR GitHub data`,
+      url: source.htmlUrl,
+      content: trimSource(prepareSourceContent(content, request), request.kind),
+      status: 'R',
+      reason: `${request.reason}; fetched from ${ARMOR_DATA_TREE}/${dataKey}`,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function dataKeyFor(request: SourceRequest): 'far' | 'dfars' | null {
+  if (request.kind === 'rfo_far' || request.kind === 'rfo_conventions') return 'far';
+  if (request.kind === 'dfars_rfo' || request.kind === 'dfars_pgi') return 'dfars';
+  return null;
+}
+
+async function resolveGitHubDataSource(key: 'far' | 'dfars'): Promise<GitHubDataSource> {
+  const pointerResponse = await fetch(`${ARMOR_DATA_CONTENTS}${key}?ref=main`, {
+    headers: { 'User-Agent': GITHUB_USER_AGENT },
+    next: { revalidate: 3600 },
+  });
+  if (!pointerResponse.ok) throw new Error(`ARMOR data/${key}: HTTP ${pointerResponse.status}`);
+
+  const pointer = await pointerResponse.json() as GitHubContentPointer;
+  if (!pointer.git_url) throw new Error(`ARMOR data/${key} has no git tree URL`);
+
+  const match = pointer.git_url.match(/repos\/([^/]+\/[^/]+)\/git\/trees\/([A-Za-z0-9]+)/);
+  if (!match) throw new Error(`Unsupported ARMOR data/${key} git URL`);
+
+  const [, repo, sha] = match;
+  const treeResponse = await fetch(`${pointer.git_url}?recursive=1`, {
+    headers: { 'User-Agent': GITHUB_USER_AGENT },
+    next: { revalidate: 3600 },
+  });
+  if (!treeResponse.ok) throw new Error(`ARMOR data/${key} tree: HTTP ${treeResponse.status}`);
+
+  const tree = await treeResponse.json() as GitHubTreeResponse;
+  return {
+    key,
+    repo,
+    sha,
+    htmlUrl: pointer.html_url || `${ARMOR_DATA_TREE}/${key}`,
+    tree: tree.tree || [],
+  };
+}
+
+function rawGitHubUrl(source: GitHubDataSource, path: string): string {
+  return `https://raw.githubusercontent.com/${source.repo}/${source.sha}/${path}`;
+}
+
+function selectGitHubDataPaths(tree: GitHubTreeItem[], request: SourceRequest, question: string): string[] {
+  const files = tree.filter(item => item.type === 'blob' && item.path.startsWith('html/copypaste-AllTopic/') && item.path.endsWith('.html'));
+  const wanted = new Set<string>();
+
+  for (const stem of exactCitationStems(question, request)) {
+    wanted.add(filePathForStem(request, stem));
+  }
+
+  for (const stem of knownDataStems(request, question)) {
+    wanted.add(filePathForStem(request, stem));
+  }
+
+  if (request.kind === 'rfo_conventions') {
+    wanted.add('html/copypaste-AllTopic/1.107.html');
+    wanted.add('html/copypaste-AllTopic/1.108.html');
+  }
+
+  const selected = [...wanted].filter(path => files.some(file => file.path === path));
+  if (selected.length) return selected.slice(0, 10);
+
+  const partPrefix = request.kind === 'dfars_pgi'
+    ? `html/copypaste-AllTopic/PGI_${request.part}.`
+    : `html/copypaste-AllTopic/${String(Number(request.part))}.`;
+
+  return files
+    .filter(file => file.path.startsWith(partPrefix))
+    .sort((a, b) => (a.size || 0) - (b.size || 0))
+    .slice(0, 8)
+    .map(file => file.path);
+}
+
+function filePathForStem(request: SourceRequest, stem: string): string {
+  const normalized = request.kind === 'dfars_pgi' && !stem.startsWith('PGI_') ? `PGI_${stem}` : stem;
+  return `html/copypaste-AllTopic/${normalized}.html`;
+}
+
+function exactCitationStems(question: string, request: SourceRequest): string[] {
+  const stems = new Set<string>();
+  const normalizedPart = String(Number(request.part));
+  const re = /\b(?:dfars\s+rfo\s+pgi|dfars\s+pgi|pgi|dfars\s+rfo|dfars|rfo\s+far|far)?\s*(2?\d{1,3}\.\d+(?:-\d+)?)/gi;
+  let match;
+
+  while ((match = re.exec(question)) !== null) {
+    const citation = match[1];
+    const part = citation.split('.')[0];
+    const farPart = part.startsWith('2') && part.length === 3 ? String(Number(part.slice(1))) : String(Number(part));
+    const requestPart = request.kind === 'rfo_far' ? normalizedPart : request.part;
+
+    if (request.kind === 'rfo_far' && farPart !== requestPart) continue;
+    if (request.kind !== 'rfo_far' && part !== requestPart) continue;
+
+    stems.add(citation.replace(/-\d+$/, ''));
+  }
+
+  return [...stems];
+}
+
+function knownDataStems(request: SourceRequest, question: string): string[] {
+  const q = question.toLowerCase();
+  const key = `${request.kind}:${request.part}`;
+  const stems: Record<string, string[]> = {
+    'rfo_far:1': ['1.107', '1.108'],
+    'rfo_far:7': ['7.101', '7.102'],
+    'rfo_far:8': ['8.1100', '8.1102'],
+    'rfo_far:9': ['9.102', '9.106'],
+    'rfo_far:14': ['14.211', '14.308'],
+    'rfo_far:15': ['15.206', '15.405'],
+    'rfo_far:16': ['16.101', '16.103', '16.401'],
+    'rfo_far:17': ['17.108', '17.106'],
+    'rfo_far:19': ['19.109', '19.203', '19.703'],
+    'rfo_far:25': ['25.100', '25.301'],
+    'rfo_far:27': ['27.400'],
+    'rfo_far:32': ['32.803'],
+    'rfo_far:33': ['33.205', '33.206'],
+    'rfo_far:36': ['36.102', '36.203'],
+    'rfo_far:37': ['37.301'],
+    'rfo_far:42': ['42.505'],
+    'rfo_far:45': ['45.000'],
+    'rfo_far:46': ['46.710'],
+    'dfars_rfo:207': ['207.103', '207.104', '207.105'],
+    'dfars_pgi:207': ['PGI_207.103', 'PGI_207.105'],
+    'dfars_rfo:214': ['214.201', '214.211'],
+    'dfars_rfo:215': ['215.206', '215.300', '215.371'],
+    'dfars_rfo:216': ['216.401'],
+    'dfars_pgi:216': ['PGI_216.401'],
+    'dfars_rfo:217': ['217.170', '217.7302', '217.7404'],
+    'dfars_rfo:219': ['219.703'],
+    'dfars_rfo:225': ['225.370', '225.371', '252.225-7976'],
+    'dfars_pgi:225': ['PGI_225.371'],
+    'dfars_rfo:227': ['227.400'],
+    'dfars_rfo:228': ['228.102', '228.307'],
+    'dfars_rfo:232': ['232.7002', '232.803'],
+    'dfars_pgi:232': ['PGI_232.7002', 'PGI_232.7004'],
+    'dfars_rfo:236': ['236.203', '236.602'],
+    'dfars_pgi:236': ['PGI_236.203'],
+    'dfars_rfo:237': ['237.102', '237.106', '237.173', '237.301', '237.873'],
+    'dfars_pgi:237': ['PGI_237.102'],
+    'dfars_pgi:242': ['PGI_242.505'],
+    'dfars_rfo:245': ['245.103'],
+    'dfars_pgi:245': ['PGI_245.103'],
+    'dfars_rfo:246': ['246.710', '252.246-7002'],
+  };
+
+  const selected = [...(stems[key] || [])];
+  if (/acquisition plan|acquisition planning|responsible|program manager|planner/.test(q) && request.kind === 'dfars_pgi' && request.part === '207') {
+    selected.unshift('PGI_207.105');
+  }
+  return selected;
 }
 
 function prepareSourceContent(content: string, request: SourceRequest): string {
