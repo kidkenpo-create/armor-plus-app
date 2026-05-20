@@ -23,7 +23,23 @@ interface SourcePlanItem {
   excerpt?: string;
 }
 
+interface ChatTurn {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  parsed?: ParsedOutput | null;
+  routePlan?: SourcePlanItem[];
+  timestamp?: string;
+  model?: string;
+}
+
+interface ApiConversationMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
 const GITHUB_REPO = 'https://github.com/kidkenpo-create/ARMOR-plus';
+const MAX_CLIENT_HISTORY_MESSAGES = 8;
 
 function parseOutput(raw: string): ParsedOutput {
   const text = raw.replace(/\*\*/g, '');
@@ -160,6 +176,24 @@ function plan(label: string, url: string, reason: string): SourcePlanItem {
   return { label, url, reason, status: 'planned' };
 }
 
+function newTurnId() {
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+}
+
+function compactChatHistory(turns: ChatTurn[]): ApiConversationMessage[] {
+  return turns
+    .filter(turn => turn.content.trim().length > 0)
+    .slice(-MAX_CLIENT_HISTORY_MESSAGES)
+    .map(turn => ({
+      role: turn.role,
+      content: turn.content.slice(0, 6000),
+    }));
+}
+
+function routingContext(turns: ChatTurn[], question: string) {
+  return [...turns.slice(-4).map(turn => turn.content), question].join('\n\n');
+}
+
 function statusLabel(status: SourcePlanItem['status']) {
   if (status === 'R') return 'Retrieved';
   if (status === 'UTR') return 'UTR';
@@ -194,6 +228,46 @@ function StepBlock({ num, title, content }: { num: string; title: string; conten
       </button>
       {open && <pre className={styles.stepBody}>{content}</pre>}
     </section>
+  );
+}
+
+function AssistantAnswer({ content, parsed }: { content: string; parsed?: ParsedOutput | null }) {
+  const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
+
+  if (!hasStructured) return <pre className={styles.rawCard}>{content}</pre>;
+
+  return (
+    <>
+      {parsed?.bluf && <BlufCard content={parsed.bluf} />}
+      <div className={styles.stepsWrap}>
+        {parsed?.steps.map(step => <StepBlock key={`${step.num}-${step.title}`} {...step} />)}
+      </div>
+    </>
+  );
+}
+
+function ConversationMessage({ turn }: { turn: ChatTurn }) {
+  if (turn.role === 'user') {
+    return (
+      <article className={`${styles.chatMessage} ${styles.userMessage}`}>
+        <div className={styles.messageRole}>You</div>
+        <p>{turn.content}</p>
+      </article>
+    );
+  }
+
+  return (
+    <article className={`${styles.chatMessage} ${styles.assistantMessage}`}>
+      <div className={styles.messageRole}>
+        <span>ARMOR</span>
+        {turn.timestamp && <small>{turn.timestamp}</small>}
+      </div>
+      {turn.content ? (
+        <AssistantAnswer content={turn.content} parsed={turn.parsed} />
+      ) : (
+        <div className={styles.pendingAnswer}>Researching the route and drafting the answer...</div>
+      )}
+    </article>
   );
 }
 
@@ -308,6 +382,7 @@ function ResearchTrace({
 
 export default function Home() {
   const [question, setQuestion] = useState('');
+  const [turns, setTurns] = useState<ChatTurn[]>([]);
   const [streaming, setStreaming] = useState(false);
   const [rawOutput, setRawOutput] = useState('');
   const [parsed, setParsed] = useState<ParsedOutput | null>(null);
@@ -327,16 +402,34 @@ export default function Home() {
     taRef.current.style.height = `${Math.min(taRef.current.scrollHeight, 190)}px`;
   }, [question]);
 
-  const preview = useMemo(() => routePreview(question), [question]);
+  const preview = useMemo(() => routePreview(routingContext(turns, question)), [turns, question]);
   const visibleRoute = routePlan.some(item => item.status !== 'planned') ? routePlan : preview;
+  const hasConversation = turns.length > 0 || streaming || done;
+
+  useEffect(() => {
+    if (!streamRef.current || !hasConversation) return;
+    streamRef.current.lastElementChild?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }, [turns, hasConversation]);
 
   const setDemo = useCallback((index: number) => {
     setQuestion(DEMO_QUESTIONS[index]);
     setError('');
-    setDone(false);
-    setParsed(null);
-    setRawOutput('');
     setRoutePlan(routePreview(DEMO_QUESTIONS[index]));
+  }, []);
+
+  const startNewChat = useCallback(() => {
+    setQuestion('');
+    setTurns([]);
+    setStreaming(false);
+    setRawOutput('');
+    setParsed(null);
+    setError('');
+    setDone(false);
+    setCopied(false);
+    setTimestamp('');
+    rawRef.current = '';
+    setRoutePlan(routePreview(''));
+    taRef.current?.focus();
   }, []);
 
   const runAnalysis = useCallback(async () => {
@@ -351,15 +444,27 @@ export default function Home() {
     setRawOutput('');
     setParsed(null);
     setDone(false);
-    setRoutePlan(routePreview(prompt));
+    setCopied(false);
+    const history = compactChatHistory(turns);
+    const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
+    const assistantTurnId = newTurnId();
+    const routeQuestion = routingContext(turns, prompt);
+    setTurns(current => [
+      ...current,
+      userTurn,
+      { id: assistantTurnId, role: 'assistant', content: '', parsed: null, routePlan: routePreview(routeQuestion), model },
+    ]);
+    setQuestion('');
+    setRoutePlan(routePreview(routeQuestion));
     rawRef.current = '';
     const started = Date.now();
+    let responseModel = model;
 
     try {
       const response = await fetch('/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: prompt }),
+        body: JSON.stringify({ question: prompt, messages: history }),
       });
 
       if (!response.ok) {
@@ -370,8 +475,16 @@ export default function Home() {
       const metaHeader = response.headers.get('x-armor-meta');
       if (metaHeader) {
         const meta = JSON.parse(decodeURIComponent(metaHeader)) as AnalyzeResponseMeta;
-        if (meta.routePlan?.length) setRoutePlan(meta.routePlan);
-        if (meta.model) setModel(meta.model);
+        if (meta.routePlan?.length) {
+          setRoutePlan(meta.routePlan);
+          setTurns(current => current.map(turn => (
+            turn.id === assistantTurnId ? { ...turn, routePlan: meta.routePlan, model: meta.model || turn.model } : turn
+          )));
+        }
+        if (meta.model) {
+          responseModel = meta.model;
+          setModel(meta.model);
+        }
       }
 
       const reader = response.body?.getReader();
@@ -389,19 +502,32 @@ export default function Home() {
           if (!json.text) continue;
           rawRef.current += json.text;
           setRawOutput(rawRef.current);
+          setTurns(current => current.map(turn => (
+            turn.id === assistantTurnId ? { ...turn, content: rawRef.current } : turn
+          )));
           if (streamRef.current) streamRef.current.scrollTop = streamRef.current.scrollHeight;
         }
       }
 
-      setParsed(parseOutput(rawRef.current));
-      setTimestamp(`Completed in ${((Date.now() - started) / 1000).toFixed(1)}s`);
+      const finalParsed = parseOutput(rawRef.current);
+      const completed = `Completed in ${((Date.now() - started) / 1000).toFixed(1)}s`;
+      setParsed(finalParsed);
+      setTimestamp(completed);
+      setTurns(current => current.map(turn => (
+        turn.id === assistantTurnId
+          ? { ...turn, content: rawRef.current, parsed: finalParsed, timestamp: completed, model: responseModel }
+          : turn
+      )));
       setDone(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Unknown analysis error.');
+      const message = err instanceof Error ? err.message : 'Unknown analysis error.';
+      setError(message);
+      setTurns(current => current.filter(turn => turn.id !== assistantTurnId && turn.id !== userTurn.id));
+      setQuestion(prompt);
     } finally {
       setStreaming(false);
     }
-  }, [question]);
+  }, [model, question, turns]);
 
   const copyOutput = useCallback(async () => {
     await navigator.clipboard.writeText(rawRef.current || rawOutput);
@@ -412,8 +538,6 @@ export default function Home() {
   const handleKeyDown = useCallback((event: React.KeyboardEvent) => {
     if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) runAnalysis();
   }, [runAnalysis]);
-
-  const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
 
   return (
     <div className={styles.page}>
@@ -439,25 +563,26 @@ export default function Home() {
         <section className={styles.composerPanel}>
           <div className={styles.panelHeader}>
             <span>Ask ARMOR</span>
+            <button className={styles.textBtn} onClick={startNewChat} disabled={streaming || !hasConversation}>New chat</button>
             <small>Ctrl/⌘ + Enter</small>
           </div>
           <textarea
             ref={taRef}
             className={styles.queryTextarea}
-            placeholder="Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation."
+            placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
             value={question}
             onChange={event => {
               setQuestion(event.target.value);
-              setRoutePlan(routePreview(event.target.value));
+              setRoutePlan(routePreview(routingContext(turns, event.target.value)));
             }}
             onKeyDown={handleKeyDown}
             rows={5}
           />
           <div className={styles.composerFooter}>
             <button className={styles.primaryBtn} onClick={runAnalysis} disabled={streaming}>
-              {streaming ? 'Analyzing...' : 'Run ARMOR analysis'}
+              {streaming ? 'Analyzing...' : hasConversation ? 'Send follow-up' : 'Run ARMOR analysis'}
             </button>
-            <span>Server-side key. Browser never sees `OPENAI_API_KEY`.</span>
+            <span>{hasConversation ? 'Follow-ups include the recent chat context server-side.' : 'Server-side key. Browser never sees `OPENAI_API_KEY`.'}</span>
           </div>
 
           <div className={styles.capabilityStrip} aria-label="ARMOR capabilities">
@@ -479,13 +604,13 @@ export default function Home() {
 
         <section className={styles.outputPanel}>
           <div className={styles.panelHeader}>
-            <span>Structured Determination</span>
+            <span>ARMOR Chat</span>
             {done && <button className={styles.secondaryBtn} onClick={copyOutput}>{copied ? 'Copied' : 'Copy output'}</button>}
           </div>
 
           {error && <div className={styles.errorCard}>{error}</div>}
 
-          {!streaming && !done && !error && (
+          {!hasConversation && !error && (
             <div className={styles.emptyState}>
               <strong>Ready for a CAC-defensible answer.</strong>
               <span>ARMOR will classify the issue, fetch approved sources, run the two-pass gate, then return BLUF plus STEP validation.</span>
@@ -499,32 +624,9 @@ export default function Home() {
             </>
           )}
 
-          {streaming && (
-            <div className={styles.streamCard}>
-              <div className={styles.streamHeader}>
-                <span>Streaming ARMOR methodology</span>
-                <i />
-              </div>
-              <div className={styles.streamBody} ref={streamRef}>
-                {rawOutput}
-                <span className={styles.cursor} />
-              </div>
-            </div>
-          )}
-
-          {done && (
-            <div className={styles.results}>
-              {hasStructured ? (
-                <>
-                  {parsed?.bluf && <BlufCard content={parsed.bluf} />}
-                  <div className={styles.stepsWrap}>
-                    {parsed?.steps.map(step => <StepBlock key={`${step.num}-${step.title}`} {...step} />)}
-                  </div>
-                </>
-              ) : (
-                <pre className={styles.rawCard}>{rawOutput}</pre>
-              )}
-              <div className={styles.timestamp}>{timestamp}</div>
+          {hasConversation && (
+            <div className={styles.conversationList} ref={streamRef}>
+              {turns.map(turn => <ConversationMessage key={turn.id} turn={turn} />)}
             </div>
           )}
         </section>

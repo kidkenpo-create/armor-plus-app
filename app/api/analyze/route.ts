@@ -9,6 +9,12 @@ export const runtime = 'nodejs';
 export const maxDuration = 60;
 
 const model = process.env.OPENAI_MODEL || 'gpt-4o';
+const MAX_SERVER_HISTORY_MESSAGES = 8;
+
+interface ClientConversationMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -16,19 +22,21 @@ export async function POST(req: NextRequest) {
       return jsonError('OPENAI_API_KEY is not configured on the server.', 500);
     }
 
-    const { question } = await req.json();
+    const { question, messages: clientMessages } = await req.json();
     if (!question || typeof question !== 'string' || question.trim().length === 0) {
       return jsonError('Question is required.', 400);
     }
 
     const prompt = question.trim().slice(0, 6000);
-    const { context, routePlan } = await prefetchRelevantParts(prompt);
+    const history = normalizeConversationMessages(clientMessages);
+    const retrievalPrompt = [...history.map(message => message.content), prompt].join('\n\n').slice(-18000);
+    const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
     const systemContent = [
       ARMOR_SYSTEM_PROMPT,
-      issueSpecificInstruction(prompt),
-      getPracticeIssueInstruction(prompt),
+      issueSpecificInstruction(retrievalPrompt),
+      getPracticeIssueInstruction(retrievalPrompt),
       'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
       context || 'No direct source was retrieved. Mark UTR where source text is required.',
       [
@@ -37,12 +45,15 @@ export async function POST(req: NextRequest) {
         'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
         'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
         'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
+        'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
+        'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
         'Before finalizing, self-check that all nine section headers are present.',
       ].join('\n'),
     ].join('\n\n');
 
     const messages: ChatCompletionMessageParam[] = [
       { role: 'system', content: systemContent },
+      ...history,
       { role: 'user', content: prompt },
     ];
 
@@ -100,6 +111,25 @@ function safeErrorMessage(error: unknown) {
     return 'OpenAI rejected the configured API key. Create a new secret key and update .env.local.';
   }
   return message.replace(/(?:sk|proj)-[A-Za-z0-9_-]{12,}/g, '[redacted]');
+}
+
+function normalizeConversationMessages(input: unknown): ChatCompletionMessageParam[] {
+  if (!Array.isArray(input)) return [];
+
+  return input
+    .filter((message): message is ClientConversationMessage => (
+      message
+      && typeof message === 'object'
+      && (message as ClientConversationMessage).role !== undefined
+      && ((message as ClientConversationMessage).role === 'user' || (message as ClientConversationMessage).role === 'assistant')
+      && typeof (message as ClientConversationMessage).content === 'string'
+      && (message as ClientConversationMessage).content.trim().length > 0
+    ))
+    .slice(-MAX_SERVER_HISTORY_MESSAGES)
+    .map(message => ({
+      role: message.role,
+      content: message.content.trim().slice(0, 6000),
+    }));
 }
 
 function issueSpecificInstruction(question: string) {
