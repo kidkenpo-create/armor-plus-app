@@ -38,8 +38,19 @@ interface ApiConversationMessage {
   content: string;
 }
 
+interface ChatSession {
+  id: string;
+  title: string;
+  createdAt: string;
+  updatedAt: string;
+  turns: ChatTurn[];
+  model?: string;
+}
+
 const GITHUB_REPO = 'https://github.com/kidkenpo-create/ARMOR-plus';
 const MAX_CLIENT_HISTORY_MESSAGES = 8;
+const CHAT_HISTORY_KEY = 'armor-plus-chat-history-v1';
+const MAX_SAVED_CHATS = 30;
 
 function parseOutput(raw: string): ParsedOutput {
   const text = raw.replace(/\*\*/g, '');
@@ -194,6 +205,62 @@ function routingContext(turns: ChatTurn[], question: string) {
   return [...turns.slice(-4).map(turn => turn.content), question].join('\n\n');
 }
 
+function chatTitleFromTurns(turns: ChatTurn[]) {
+  const firstQuestion = turns.find(turn => turn.role === 'user')?.content.trim() || 'Untitled ARMOR chat';
+  const compact = firstQuestion.replace(/\s+/g, ' ');
+  return compact.length > 58 ? `${compact.slice(0, 58)}...` : compact;
+}
+
+function normalizeStoredTurn(turn: ChatTurn): ChatTurn {
+  const parsed = turn.role === 'assistant' && turn.content && !turn.parsed ? parseOutput(turn.content) : turn.parsed;
+  return {
+    id: typeof turn.id === 'string' ? turn.id : newTurnId(),
+    role: turn.role === 'assistant' ? 'assistant' : 'user',
+    content: typeof turn.content === 'string' ? turn.content : '',
+    parsed: parsed || null,
+    routePlan: Array.isArray(turn.routePlan) ? turn.routePlan : undefined,
+    timestamp: typeof turn.timestamp === 'string' ? turn.timestamp : undefined,
+    model: typeof turn.model === 'string' ? turn.model : undefined,
+  };
+}
+
+function readChatSessions(): ChatSession[] {
+  try {
+    const raw = window.localStorage.getItem(CHAT_HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as ChatSession[];
+    if (!Array.isArray(parsed)) return [];
+    return parsed
+      .filter(session => session && typeof session.id === 'string' && Array.isArray(session.turns))
+      .map(session => ({
+        id: session.id,
+        title: typeof session.title === 'string' ? session.title : chatTitleFromTurns(session.turns),
+        createdAt: typeof session.createdAt === 'string' ? session.createdAt : new Date().toISOString(),
+        updatedAt: typeof session.updatedAt === 'string' ? session.updatedAt : new Date().toISOString(),
+        turns: session.turns.map(normalizeStoredTurn).filter(turn => turn.content.trim().length > 0),
+        model: typeof session.model === 'string' ? session.model : undefined,
+      }))
+      .filter(session => session.turns.length > 0)
+      .slice(0, MAX_SAVED_CHATS);
+  } catch {
+    return [];
+  }
+}
+
+function writeChatSessions(sessions: ChatSession[]) {
+  try {
+    window.localStorage.setItem(CHAT_HISTORY_KEY, JSON.stringify(sessions.slice(0, MAX_SAVED_CHATS)));
+  } catch {
+    // Local browser storage can be disabled or full; chat still works without saved history.
+  }
+}
+
+function formatSessionTime(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return '';
+  return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
 function statusLabel(status: SourcePlanItem['status']) {
   if (status === 'R') return 'Retrieved';
   if (status === 'UTR') return 'UTR';
@@ -268,6 +335,41 @@ function ConversationMessage({ turn }: { turn: ChatTurn }) {
         <div className={styles.pendingAnswer}>Researching the route and drafting the answer...</div>
       )}
     </article>
+  );
+}
+
+function ChatHistory({
+  sessions,
+  activeSessionId,
+  onOpen,
+}: {
+  sessions: ChatSession[];
+  activeSessionId: string | null;
+  onOpen: (session: ChatSession) => void;
+}) {
+  return (
+    <div className={styles.historyBlock}>
+      <div className={styles.historyHeader}>
+        <span>Recent chats</span>
+        <small>Saved on this browser</small>
+      </div>
+      {sessions.length ? (
+        <div className={styles.historyList}>
+          {sessions.slice(0, 8).map(session => (
+            <button
+              key={session.id}
+              className={`${styles.historyItem} ${session.id === activeSessionId ? styles.historyItemActive : ''}`}
+              onClick={() => onOpen(session)}
+            >
+              <span>{session.title}</span>
+              <small>{formatSessionTime(session.updatedAt)}</small>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p className={styles.historyEmpty}>Your saved chats will appear here.</p>
+      )}
+    </div>
   );
 }
 
@@ -383,6 +485,9 @@ function ResearchTrace({
 export default function Home() {
   const [question, setQuestion] = useState('');
   const [turns, setTurns] = useState<ChatTurn[]>([]);
+  const [chatSessions, setChatSessions] = useState<ChatSession[]>([]);
+  const [activeSessionId, setActiveSessionId] = useState<string | null>(null);
+  const [historyLoaded, setHistoryLoaded] = useState(false);
   const [streaming, setStreaming] = useState(false);
   const [rawOutput, setRawOutput] = useState('');
   const [parsed, setParsed] = useState<ParsedOutput | null>(null);
@@ -395,6 +500,11 @@ export default function Home() {
   const rawRef = useRef('');
   const taRef = useRef<HTMLTextAreaElement>(null);
   const streamRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setChatSessions(readChatSessions());
+    setHistoryLoaded(true);
+  }, []);
 
   useEffect(() => {
     if (!taRef.current) return;
@@ -411,6 +521,33 @@ export default function Home() {
     streamRef.current.lastElementChild?.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }, [turns, hasConversation]);
 
+  useEffect(() => {
+    if (!historyLoaded || !activeSessionId || !turns.some(turn => turn.content.trim())) return;
+    const now = new Date().toISOString();
+
+    setChatSessions(previous => {
+      const existing = previous.find(session => session.id === activeSessionId);
+      const savedTurns = turns
+        .filter(turn => turn.content.trim().length > 0)
+        .map(turn => ({
+          ...turn,
+          parsed: turn.role === 'assistant' && turn.content ? turn.parsed || parseOutput(turn.content) : turn.parsed,
+        }));
+
+      const nextSession: ChatSession = {
+        id: activeSessionId,
+        title: chatTitleFromTurns(savedTurns),
+        createdAt: existing?.createdAt || now,
+        updatedAt: now,
+        turns: savedTurns,
+        model,
+      };
+      const next = [nextSession, ...previous.filter(session => session.id !== activeSessionId)].slice(0, MAX_SAVED_CHATS);
+      writeChatSessions(next);
+      return next;
+    });
+  }, [activeSessionId, historyLoaded, model, turns]);
+
   const setDemo = useCallback((index: number) => {
     setQuestion(DEMO_QUESTIONS[index]);
     setError('');
@@ -420,6 +557,7 @@ export default function Home() {
   const startNewChat = useCallback(() => {
     setQuestion('');
     setTurns([]);
+    setActiveSessionId(null);
     setStreaming(false);
     setRawOutput('');
     setParsed(null);
@@ -431,6 +569,27 @@ export default function Home() {
     setRoutePlan(routePreview(''));
     taRef.current?.focus();
   }, []);
+
+  const openChatSession = useCallback((session: ChatSession) => {
+    const restoredTurns = session.turns.map(normalizeStoredTurn);
+    const lastAssistant = [...restoredTurns].reverse().find(turn => turn.role === 'assistant' && turn.content);
+    const restoredRoute = lastAssistant?.routePlan || routePreview(routingContext(restoredTurns, ''));
+    const restoredParsed = lastAssistant?.parsed || (lastAssistant?.content ? parseOutput(lastAssistant.content) : null);
+
+    setActiveSessionId(session.id);
+    setTurns(restoredTurns);
+    setQuestion('');
+    setStreaming(false);
+    setError('');
+    setDone(Boolean(lastAssistant));
+    setCopied(false);
+    setRawOutput(lastAssistant?.content || '');
+    rawRef.current = lastAssistant?.content || '';
+    setParsed(restoredParsed);
+    setTimestamp(lastAssistant?.timestamp || '');
+    setRoutePlan(restoredRoute);
+    if (session.model || lastAssistant?.model) setModel(session.model || lastAssistant?.model || model);
+  }, [model]);
 
   const runAnalysis = useCallback(async () => {
     const prompt = question.trim();
@@ -445,6 +604,8 @@ export default function Home() {
     setParsed(null);
     setDone(false);
     setCopied(false);
+    const sessionId = activeSessionId || newTurnId();
+    if (!activeSessionId) setActiveSessionId(sessionId);
     const history = compactChatHistory(turns);
     const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
     const assistantTurnId = newTurnId();
@@ -527,7 +688,7 @@ export default function Home() {
     } finally {
       setStreaming(false);
     }
-  }, [model, question, turns]);
+  }, [activeSessionId, model, question, turns]);
 
   const copyOutput = useCallback(async () => {
     await navigator.clipboard.writeText(rawRef.current || rawOutput);
@@ -598,6 +759,12 @@ export default function Home() {
             <button onClick={() => setDemo(2)}>Germany warranty clause</button>
             <button onClick={() => setDemo(3)}>Two-step sealed bidding</button>
           </div>
+
+          <ChatHistory
+            sessions={chatSessions}
+            activeSessionId={activeSessionId}
+            onOpen={openChatSession}
+          />
         </section>
 
         <SourceRail items={visibleRoute} />
