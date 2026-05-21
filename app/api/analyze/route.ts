@@ -37,6 +37,7 @@ export async function POST(req: NextRequest) {
       async start(controller) {
         try {
           controller.enqueue(encoder.encode(': ARMOR stream connected\n\n'));
+          controller.enqueue(send({ meta: { model } }));
 
           const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
           controller.enqueue(send({ meta: { routePlan, model } }));

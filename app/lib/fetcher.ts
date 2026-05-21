@@ -7,6 +7,7 @@ const DFARS_PGI_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-
 const ARMOR_DATA_CONTENTS = 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/';
 const ARMOR_DATA_TREE = 'https://github.com/kidkenpo-create/ARMOR-plus/tree/main/data';
 const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
+const SOURCE_FETCH_TIMEOUT_MS = 5000;
 
 export interface FetchResult {
   label: string;
@@ -52,6 +53,12 @@ interface GitHubDataSource {
   htmlUrl: string;
   tree: GitHubTreeItem[];
 }
+
+type ArmorFetchInit = RequestInit & {
+  next?: {
+    revalidate?: number;
+  };
+};
 
 const ISSUE_RULES: IssueRule[] = [
   issue(['debrief', 'preaward', 'pre-award', 'exclusion', '15.206', '15.505'], [
@@ -206,7 +213,7 @@ async function fetchLegacySource(request: SourceRequest): Promise<FetchResult> {
   const label = labelFor(request);
   const url = urlFor(request);
   try {
-    const response = await fetch(url, {
+    const response = await fetchWithTimeout(url, {
       headers: { 'User-Agent': GITHUB_USER_AGENT },
       next: { revalidate: 3600 },
     });
@@ -260,7 +267,7 @@ async function fetchGitHubDataSource(request: SourceRequest, question: string): 
 
     const fetched = await Promise.all(paths.map(async path => {
       const url = rawGitHubUrl(source, path);
-      const response = await fetch(url, {
+      const response = await fetchWithTimeout(url, {
         headers: { 'User-Agent': GITHUB_USER_AGENT },
         next: { revalidate: 3600 },
       });
@@ -291,7 +298,7 @@ function dataKeyFor(request: SourceRequest): 'far' | 'dfars' | null {
 }
 
 async function resolveGitHubDataSource(key: 'far' | 'dfars'): Promise<GitHubDataSource> {
-  const pointerResponse = await fetch(`${ARMOR_DATA_CONTENTS}${key}?ref=main`, {
+  const pointerResponse = await fetchWithTimeout(`${ARMOR_DATA_CONTENTS}${key}?ref=main`, {
     headers: { 'User-Agent': GITHUB_USER_AGENT },
     next: { revalidate: 3600 },
   });
@@ -304,7 +311,7 @@ async function resolveGitHubDataSource(key: 'far' | 'dfars'): Promise<GitHubData
   if (!match) throw new Error(`Unsupported ARMOR data/${key} git URL`);
 
   const [, repo, sha] = match;
-  const treeResponse = await fetch(`${pointer.git_url}?recursive=1`, {
+  const treeResponse = await fetchWithTimeout(`${pointer.git_url}?recursive=1`, {
     headers: { 'User-Agent': GITHUB_USER_AGENT },
     next: { revalidate: 3600 },
   });
@@ -318,6 +325,25 @@ async function resolveGitHubDataSource(key: 'far' | 'dfars'): Promise<GitHubData
     htmlUrl: pointer.html_url || `${ARMOR_DATA_TREE}/${key}`,
     tree: tree.tree || [],
   };
+}
+
+async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Response> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), SOURCE_FETCH_TIMEOUT_MS);
+
+  try {
+    return await fetch(url, {
+      ...init,
+      signal: controller.signal,
+    });
+  } catch (error) {
+    if (error instanceof Error && error.name === 'AbortError') {
+      throw new Error(`Timed out after ${SOURCE_FETCH_TIMEOUT_MS / 1000}s`);
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function rawGitHubUrl(source: GitHubDataSource, path: string): string {
