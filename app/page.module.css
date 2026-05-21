@@ -110,7 +110,7 @@
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(320px, 420px) minmax(230px, 300px) minmax(420px, 1fr);
+  grid-template-columns: minmax(320px, 420px) minmax(440px, 1fr) minmax(270px, 330px);
   gap: 18px;
   width: min(1500px, calc(100vw - 48px));
   margin: 26px auto 44px;
@@ -118,7 +118,7 @@
 }
 
 .composerPanel,
-.sourceRail,
+.proofPanel,
 .outputPanel,
 .blufCard,
 .stepItem,
@@ -133,7 +133,7 @@
 }
 
 .composerPanel,
-.sourceRail,
+.proofPanel,
 .outputPanel {
   overflow: hidden;
 }
@@ -414,6 +414,33 @@
   display: grid;
   gap: 10px;
   padding: 14px;
+}
+
+.proofPanel .tracePanel,
+.proofPanel .evidencePanel {
+  margin: 14px;
+}
+
+.proofPanel .traceRows {
+  grid-template-columns: 1fr;
+}
+
+.proofPanel .traceRow {
+  min-height: auto;
+  border-right: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.proofPanel .traceRow:last-child {
+  border-bottom: 0;
+}
+
+.proofPanel .evidenceHeader {
+  min-height: auto;
+  align-items: flex-start;
+  padding: 12px 14px;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .sourceItem {
@@ -979,13 +1006,13 @@
     grid-template-columns: minmax(320px, 420px) 1fr;
   }
 
-  .sourceRail {
-    grid-column: 1;
-  }
-
   .outputPanel {
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 1;
+  }
+
+  .proofPanel {
+    grid-column: 1 / -1;
   }
 }
 
@@ -1013,7 +1040,7 @@
     margin-top: 14px;
   }
 
-  .sourceRail,
+  .proofPanel,
   .outputPanel {
     grid-column: auto;
     grid-row: auto;

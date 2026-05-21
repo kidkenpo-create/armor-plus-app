@@ -373,11 +373,21 @@ function ChatHistory({
   );
 }
 
-function SourceRail({ items }: { items: SourcePlanItem[] }) {
+function SourcesEvidencePanel({
+  items,
+  streaming,
+  done,
+  model,
+}: {
+  items: SourcePlanItem[];
+  streaming: boolean;
+  done: boolean;
+  model: string;
+}) {
   return (
-    <aside className={styles.sourceRail}>
+    <aside className={styles.proofPanel}>
       <div className={styles.panelHeader}>
-        <span>Source Route</span>
+        <span>Sources / Evidence</span>
         <a href={GITHUB_REPO} target="_blank" rel="noreferrer">GitHub</a>
       </div>
       <div className={styles.sourceList}>
@@ -390,6 +400,13 @@ function SourceRail({ items }: { items: SourcePlanItem[] }) {
           </a>
         ))}
       </div>
+
+      {(streaming || done) && (
+        <>
+          <ResearchTrace items={items} streaming={streaming} done={done} model={model} />
+          <EvidenceSnapshot items={items} />
+        </>
+      )}
     </aside>
   );
 }
@@ -767,8 +784,6 @@ export default function Home() {
           />
         </section>
 
-        <SourceRail items={visibleRoute} />
-
         <section className={styles.outputPanel}>
           <div className={styles.panelHeader}>
             <span>ARMOR Chat</span>
@@ -784,19 +799,14 @@ export default function Home() {
             </div>
           )}
 
-          {(streaming || done) && (
-            <>
-              <ResearchTrace items={visibleRoute} streaming={streaming} done={done} model={model} />
-              <EvidenceSnapshot items={visibleRoute} />
-            </>
-          )}
-
           {hasConversation && (
             <div className={styles.conversationList} ref={streamRef}>
               {turns.map(turn => <ConversationMessage key={turn.id} turn={turn} />)}
             </div>
           )}
         </section>
+
+        <SourcesEvidencePanel items={visibleRoute} streaming={streaming} done={done} model={model} />
       </main>
 
       <div className={styles.poweredBadge} aria-label="Powered by AI by Heath">
