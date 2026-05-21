@@ -676,7 +676,21 @@ export default function Home() {
           if (!line.startsWith('data: ')) continue;
           const data = line.slice(6).trim();
           if (!data || data === '[DONE]') continue;
-          const json = JSON.parse(data) as { text?: string };
+          const json = JSON.parse(data) as { text?: string; meta?: AnalyzeResponseMeta; error?: string };
+          if (json.error) throw new Error(json.error);
+          if (json.meta) {
+            if (json.meta.routePlan?.length) {
+              setRoutePlan(json.meta.routePlan);
+              setTurns(current => current.map(turn => (
+                turn.id === assistantTurnId ? { ...turn, routePlan: json.meta?.routePlan, model: json.meta?.model || turn.model } : turn
+              )));
+            }
+            if (json.meta.model) {
+              responseModel = json.meta.model;
+              setModel(json.meta.model);
+            }
+            continue;
+          }
           if (!json.text) continue;
           rawRef.current += json.text;
           setRawOutput(rawRef.current);

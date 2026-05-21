@@ -30,67 +30,76 @@ export async function POST(req: NextRequest) {
     const prompt = question.trim().slice(0, 6000);
     const history = normalizeConversationMessages(clientMessages);
     const retrievalPrompt = [...history.map(message => message.content), prompt].join('\n\n').slice(-18000);
-    const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
-    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-    const systemContent = [
-      ARMOR_SYSTEM_PROMPT,
-      issueSpecificInstruction(retrievalPrompt),
-      getPracticeIssueInstruction(retrievalPrompt),
-      'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
-      context || 'No direct source was retrieved. Mark UTR where source text is required.',
-      [
-        'TEMPLATE COMPLIANCE LOCK:',
-        'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
-        'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
-        'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
-        'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
-        'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
-        'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
-        'Before finalizing, self-check that all nine section headers are present.',
-      ].join('\n'),
-    ].join('\n\n');
-
-    const messages: ChatCompletionMessageParam[] = [
-      { role: 'system', content: systemContent },
-      ...history,
-      { role: 'user', content: prompt },
-    ];
-
-    const completionParams: ChatCompletionCreateParamsStreaming = {
-      model,
-      stream: true,
-      messages,
-      ...(model.startsWith('gpt-5')
-        ? { max_completion_tokens: 4500 }
-        : { max_tokens: 4500, temperature: 0.1 }),
-    };
-
-    const stream = await openai.chat.completions.create(completionParams);
 
     const encoder = new TextEncoder();
+    const send = (payload: unknown) => encoder.encode(`data: ${JSON.stringify(payload)}\n\n`);
     const body = new ReadableStream({
       async start(controller) {
         try {
+          controller.enqueue(encoder.encode(': ARMOR stream connected\n\n'));
+
+          const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
+          controller.enqueue(send({ meta: { routePlan, model } }));
+          controller.enqueue(encoder.encode(': ARMOR sources retrieved\n\n'));
+
+          const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+          const systemContent = [
+            ARMOR_SYSTEM_PROMPT,
+            issueSpecificInstruction(retrievalPrompt),
+            getPracticeIssueInstruction(retrievalPrompt),
+            'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
+            context || 'No direct source was retrieved. Mark UTR where source text is required.',
+            [
+              'TEMPLATE COMPLIANCE LOCK:',
+              'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
+              'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
+              'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
+              'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
+              'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
+              'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
+              'Before finalizing, self-check that all nine section headers are present.',
+            ].join('\n'),
+          ].join('\n\n');
+
+          const messages: ChatCompletionMessageParam[] = [
+            { role: 'system', content: systemContent },
+            ...history,
+            { role: 'user', content: prompt },
+          ];
+
+          const completionParams: ChatCompletionCreateParamsStreaming = {
+            model,
+            stream: true,
+            messages,
+            ...(model.startsWith('gpt-5')
+              ? { max_completion_tokens: 4500 }
+              : { max_tokens: 4500, temperature: 0.1 }),
+          };
+
+          const stream = await openai.chat.completions.create(completionParams);
+          controller.enqueue(encoder.encode(': ARMOR model stream started\n\n'));
+
           for await (const chunk of stream) {
             const delta = chunk.choices[0]?.delta?.content || '';
-            if (delta) controller.enqueue(encoder.encode(`data: ${JSON.stringify({ text: delta })}\n\n`));
+            if (delta) controller.enqueue(send({ text: delta }));
           }
           controller.enqueue(encoder.encode('data: [DONE]\n\n'));
           controller.close();
         } catch (error) {
-          controller.error(error);
+          controller.enqueue(send({ error: safeErrorMessage(error) }));
+          controller.enqueue(encoder.encode('data: [DONE]\n\n'));
+          controller.close();
         }
       },
     });
 
-    const meta = encodeURIComponent(JSON.stringify({ routePlan, model }));
     return new Response(body, {
       headers: {
         'Content-Type': 'text/event-stream',
         'Cache-Control': 'no-cache',
         Connection: 'keep-alive',
-        'X-ARMOR-Meta': meta,
+        'X-Accel-Buffering': 'no',
       },
     });
   } catch (error) {
