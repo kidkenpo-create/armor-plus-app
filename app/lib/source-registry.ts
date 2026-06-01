@@ -32,21 +32,25 @@ export function registryRequestsForParts(parts: string[]): SourceRequest[] {
     const farPart = normalizeFarPart(part);
     const records = lookup[farPart] || [];
 
-    if (records.some(isRfoFarGuide)) {
-      requests.push({ kind: 'rfo_far', part: farPart, reason: 'Approved part_lookup.json RFO FAR route' });
+    const rfoFarRecord = records.find(isRfoFarGuide);
+    if (rfoFarRecord) {
+      requests.push(sourceRequestFromRecord('rfo_far', farPart, rfoFarRecord, 'Approved part_lookup.json RFO FAR route'));
     }
 
-    if (records.some(isClassDeviationRecord)) {
-      requests.push({ kind: 'class_deviation', part: farPart, reason: 'Approved part_lookup.json class-deviation route' });
+    const classDeviationRecord = records.find(isClassDeviationRecord);
+    if (classDeviationRecord) {
+      requests.push(sourceRequestFromRecord('class_deviation', farPart, classDeviationRecord, 'Approved part_lookup.json class-deviation route'));
     }
 
     const dfarsPart = toDfarsPart(farPart);
-    if (records.some(isDfarsRfoRecord) || lookup[dfarsPart]?.some(isDfarsRfoRecord)) {
-      requests.push({ kind: 'dfars_rfo', part: dfarsPart, reason: 'Approved part_lookup.json DFARS RFO route' });
+    const dfarsRfoRecord = records.find(isDfarsRfoRecord) || lookup[dfarsPart]?.find(isDfarsRfoRecord);
+    if (dfarsRfoRecord) {
+      requests.push(sourceRequestFromRecord('dfars_rfo', dfarsPart, dfarsRfoRecord, 'Approved part_lookup.json DFARS RFO route'));
     }
 
-    if (records.some(isDfarsPgiRecord) || lookup[dfarsPart]?.some(isDfarsPgiRecord)) {
-      requests.push({ kind: 'dfars_pgi', part: dfarsPart, reason: 'Approved part_lookup.json DFARS PGI route' });
+    const dfarsPgiRecord = records.find(isDfarsPgiRecord) || lookup[dfarsPart]?.find(isDfarsPgiRecord);
+    if (dfarsPgiRecord) {
+      requests.push(sourceRequestFromRecord('dfars_pgi', dfarsPart, dfarsPgiRecord, 'Approved part_lookup.json DFARS PGI route'));
     }
   }
 
@@ -117,6 +121,22 @@ function normalizeFarPart(part: string) {
 
 function toDfarsPart(part: string) {
   return part.startsWith('2') && part.length === 3 ? part : `2${part.padStart(2, '0')}`;
+}
+
+function sourceRequestFromRecord(
+  kind: SourceRequest['kind'],
+  part: string,
+  record: RegistryRecord,
+  reason: string,
+): SourceRequest {
+  return {
+    kind,
+    part,
+    reason,
+    title: record.title,
+    url: record.url,
+    sourceType: record.type,
+  };
 }
 
 function isRfoFarGuide(record: RegistryRecord) {

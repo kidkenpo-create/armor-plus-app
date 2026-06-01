@@ -211,6 +211,10 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
     };
   }
 
+  if (isPdfSource(request, url)) {
+    return fetchApprovedPdfSource(request, label, url);
+  }
+
   try {
     const response = await fetchWithTimeout(url, {
       headers: { 'User-Agent': GITHUB_USER_AGENT },
@@ -239,6 +243,7 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
 }
 
 function labelFor(request: SourceRequest): string {
+  if (request.title) return request.title;
   if (request.kind === 'rfo_far') return `RFO FAR Part ${request.part}`;
   if (request.kind === 'dfars_rfo') return `DFARS RFO Part ${request.part}`;
   if (request.kind === 'dfars_pgi') return `DFARS RFO PGI Part ${request.part}`;
@@ -247,6 +252,7 @@ function labelFor(request: SourceRequest): string {
 }
 
 function urlFor(request: SourceRequest): string {
+  if (request.url) return request.url;
   if (request.kind === 'rfo_far') return `${RFO_FAR_BASE}${String(Number(request.part))}`;
   if (request.kind === 'dfars_rfo') return `${DFARS_RFO_BASE}${request.part.padStart(3, '0')}-Attachment-1.txt`;
   if (request.kind === 'dfars_pgi' && request.part === '212') {
@@ -255,6 +261,38 @@ function urlFor(request: SourceRequest): string {
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
   if (request.kind === 'class_deviation') return `knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#part-${request.part}`;
   return RFO_CONVENTIONS_URL;
+}
+
+async function fetchApprovedPdfSource(request: SourceRequest, label: string, url: string): Promise<FetchResult> {
+  try {
+    const response = await fetchWithTimeout(url, {
+      method: 'HEAD',
+      headers: { 'User-Agent': GITHUB_USER_AGENT },
+      next: { revalidate: 3600 },
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return {
+      label,
+      url,
+      content: '',
+      status: 'UTR',
+      reason: request.reason,
+      error: `Approved ${request.sourceType || 'PDF'} source is reachable, but runtime text extraction is not implemented yet; do not treat the missing text attachment as a 404 or deviation-negative finding.`,
+    };
+  } catch (error) {
+    return {
+      label,
+      url,
+      content: '',
+      status: 'UTR',
+      reason: request.reason,
+      error: error instanceof Error ? error.message : String(error),
+    };
+  }
+}
+
+function isPdfSource(request: SourceRequest, url: string) {
+  return request.sourceType?.toLowerCase() === 'pdf' || url.toLowerCase().endsWith('.pdf');
 }
 
 async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Response> {
