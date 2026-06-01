@@ -17,7 +17,7 @@ interface ClientConversationMessage {
   content: string;
 }
 
-type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation';
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation' | 'force_full_analysis';
 
 export async function POST(req: NextRequest) {
   try {
@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       return jsonError('OPENAI_API_KEY is not configured on the server.', 500);
     }
 
-    const { question, messages: clientMessages } = await req.json();
+    const { question, messages: clientMessages, responseMode: clientResponseMode } = await req.json();
     if (!question || typeof question !== 'string' || question.trim().length === 0) {
       return jsonError('Question is required.', 400);
     }
@@ -43,14 +43,14 @@ export async function POST(req: NextRequest) {
           controller.enqueue(send({ meta: { model } }));
 
           const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
-          const responseMode = chooseResponseMode(prompt, history, routePlan);
-          controller.enqueue(send({ meta: { routePlan, model, responseMode } }));
+          const responseMode = chooseResponseMode(prompt, history, routePlan, normalizeResponseMode(clientResponseMode));
+          controller.enqueue(send({ meta: { routePlan, model, responseMode, responseModeSource: 'client+server' } }));
           controller.enqueue(encoder.encode(': ARMOR sources retrieved\n\n'));
 
           const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
           const systemContent = [
-            ARMOR_SYSTEM_PROMPT,
+            promptForResponseMode(responseMode),
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
             sourceAuthorityInstruction(routePlan),
@@ -139,16 +139,30 @@ function normalizeConversationMessages(input: unknown): ChatCompletionMessagePar
     }));
 }
 
+function normalizeResponseMode(input: unknown): ResponseMode | null {
+  if (
+    input === 'first_turn_full_analysis'
+    || input === 'follow_up_concise_continuation'
+    || input === 'force_full_analysis'
+  ) {
+    return input;
+  }
+  return null;
+}
+
 function chooseResponseMode(
   prompt: string,
   history: ChatCompletionMessageParam[],
   routePlan: Array<{ label: string; url: string; status: string }>,
+  clientResponseMode: ResponseMode | null,
 ): ResponseMode {
+  if (clientResponseMode === 'force_full_analysis') return 'force_full_analysis';
+  if (clientResponseMode === 'first_turn_full_analysis') return 'first_turn_full_analysis';
   if (!history.length) return 'first_turn_full_analysis';
 
   const lower = prompt.toLowerCase();
   if (/(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(prompt)) {
-    return 'first_turn_full_analysis';
+    return 'force_full_analysis';
   }
 
   const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
@@ -157,6 +171,13 @@ function chooseResponseMode(
 
   const hasLowConfidenceRoute = routePlan.length > 0 && routePlan.every(item => item.status !== 'R');
   if (hasLowConfidenceRoute) return 'first_turn_full_analysis';
+
+  if (clientResponseMode === 'follow_up_concise_continuation') {
+    const currentFamily = issueFamily(lower);
+    const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
+    const priorFamily = issueFamily(priorText);
+    if (!currentFamily || currentFamily === priorFamily) return 'follow_up_concise_continuation';
+  }
 
   const currentFamily = issueFamily(lower);
   const priorFamily = issueFamily(priorText);
@@ -190,9 +211,9 @@ function issueFamily(text: string) {
 }
 
 function responseModeInstruction(responseMode: ResponseMode) {
-  if (responseMode === 'first_turn_full_analysis') {
+  if (responseMode === 'first_turn_full_analysis' || responseMode === 'force_full_analysis') {
     return [
-      'RESPONSE MODE: first_turn_full_analysis.',
+      `RESPONSE MODE: ${responseMode}.`,
       'Use full ARMOR format for first questions, major issue changes, low-confidence source status, new controlling citations, correction requests, requests for more research, or explicit requests for full reasoning.',
     ].join('\n');
   }
@@ -226,6 +247,28 @@ function templateInstruction(responseMode: ResponseMode) {
     'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
     'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
     'Before finalizing, self-check that all nine section headers are present.',
+  ].join('\n');
+}
+
+function promptForResponseMode(responseMode: ResponseMode) {
+  if (responseMode !== 'follow_up_concise_continuation') return ARMOR_SYSTEM_PROMPT;
+
+  return [
+    'SYSTEM — DoD Contracting Copilot (RFO FAR + DFARS RFO Class Deviations)',
+    '',
+    'IDENTITY: CAC-defensible RFO FAR/DFARS RFO analysis. Tone: WarU professor. Preserve source discipline and cite traceable authority.',
+    '',
+    'FOLLOW-UP CONTINUATION MODE (HARD OVERRIDE): This response is a routine same-topic continuation. Continue from the prior answer. Do not restart the full ARMOR receipt unless a full-analysis trigger appears.',
+    '',
+    'INTERNAL METHOD: Run the source-authority check, DFARS RFO overlay check, class-deviation materiality check, and citation verification internally before answering. Keep those checks internal unless the answer must switch to full analysis.',
+    '',
+    'SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR and data/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.',
+    '',
+    'VISIBLE OUTPUT: Use only these headings: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+    '',
+    'DO NOT DISPLAY in routine concise mode: 0) BLUF, STEP 1-7, STEP 3A, STEP 3B, Rungs 1-8, P1/P2 logs, Final Receipt, Self-Verification, or a complete route log.',
+    '',
+    'SWITCH TO FULL ARMOR ANALYSIS ONLY IF: issue family changes, new controlling citation is required, source confidence is low, retrieval is incomplete in a way that affects the answer, class-deviation status materially affects the answer, the user asks for full analysis, or the user asks to correct/research more.',
   ].join('\n');
 }
 

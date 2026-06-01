@@ -80,8 +80,13 @@ test('follow-up response mode contract preserves concise continuation behavior',
 
   assert.match(analyze, /first_turn_full_analysis/, 'server should name the full first-turn response mode');
   assert.match(analyze, /follow_up_concise_continuation/, 'server should name the concise follow-up response mode');
+  assert.match(analyze, /force_full_analysis/, 'server should support explicit full-analysis follow-up requests');
+  assert.match(analyze, /promptForResponseMode\(responseMode\)/, 'server should select a mode-specific system prompt');
   assert.match(analyze, /supersedes the full STEP output template/, 'concise mode must override visible full STEP output');
   assert.match(analyze, /Do not include "0\) BLUF", STEP 1-7, STEP 3B, Rungs 1-8/, 'concise mode must bar visible rungs and full steps');
+  assert.match(page, /body: JSON\.stringify\(\{ question: prompt, messages: history, responseMode \}\)/, 'client should send explicit responseMode to the server');
+  assert.match(page, /responseModeForClient\(prompt, turns\)/, 'client should compute responseMode before submitting');
+  assert.match(page, /\[ARMOR responseMode request\]/, 'client should log responseMode for development diagnostics');
   assert.match(page, /Show full analysis/, 'UI should preserve a way to request full analysis from concise follow-ups');
   assert.match(page, /responseMode === 'follow_up_concise_continuation'/, 'UI should recognize concise follow-up metadata');
 });

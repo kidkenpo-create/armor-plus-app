@@ -16,7 +16,7 @@ interface AnalyzeResponseMeta {
   responseMode?: ResponseMode;
 }
 
-type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation';
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation' | 'force_full_analysis';
 
 interface SourcePlanItem {
   label: string;
@@ -213,6 +213,42 @@ function routingContext(turns: ChatTurn[], question: string) {
   return [...turns.slice(-4).map(turn => turn.content), question].join('\n\n');
 }
 
+function explicitFullRequest(value: string) {
+  return /(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|run the full|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(value);
+}
+
+function issueFamilyForText(value: string) {
+  const families: Array<[string, RegExp]> = [
+    ['debriefing', /(debrief|preaward|pre-award|exclusion|15\.206|15\.505)/i],
+    ['detainee', /(detainee|enemy prisoner|epw|interrogat|contractor personnel|237\.873)/i],
+    ['warranty-germany', /(52\.246-21|warranty|construction.*germany|germany.*construction|246\.710)/i],
+    ['sealed-bidding', /(two[- ]step sealed|sealed bidding|first step|technical proposals?|equal low bids?|14\.211|14\.308)/i],
+    ['technical-data', /(52\.227-14|technical data|27\.409|rights in data)/i],
+    ['acquisition-plan', /(acquisition plan|acquisition planning|responsible for.*plan|207\.104-70)/i],
+    ['thresholds', /(section 807|threshold|inflation|201\.108|1\.108)/i],
+    ['subcontracting', /(limitations on subcontracting|subcontracting|small business|2021-o0008|19\.505|19\.507|219\.)/i],
+  ];
+  return families.find(([, pattern]) => pattern.test(value))?.[0] || '';
+}
+
+function citationKeys(value: string) {
+  return [...value.matchAll(/\b(?:rfo\s+far|far|dfars\s+rfo|dfars|pgi)?\s*(2?\d{1,2}\.\d+(?:-\d+)?(?:\([a-z0-9]+\))*)/gi)]
+    .map(match => match[1].toLowerCase());
+}
+
+function responseModeForClient(prompt: string, turns: ChatTurn[]): ResponseMode {
+  const historyText = turns.map(turn => turn.content).join('\n').toLowerCase();
+  if (!turns.some(turn => turn.role === 'assistant' && turn.content.trim())) return 'first_turn_full_analysis';
+  if (explicitFullRequest(prompt)) return 'force_full_analysis';
+  if (citationKeys(prompt).some(citation => !historyText.includes(citation))) return 'first_turn_full_analysis';
+
+  const promptFamily = issueFamilyForText(prompt);
+  const historyFamily = issueFamilyForText(historyText);
+  if (promptFamily && historyFamily && promptFamily !== historyFamily) return 'first_turn_full_analysis';
+
+  return 'follow_up_concise_continuation';
+}
+
 function chatTitleFromTurns(turns: ChatTurn[]) {
   const firstQuestion = turns.find(turn => turn.role === 'user')?.content.trim() || 'Untitled ARMOR chat';
   const compact = firstQuestion.replace(/\s+/g, ' ');
@@ -229,7 +265,11 @@ function normalizeStoredTurn(turn: ChatTurn): ChatTurn {
     routePlan: Array.isArray(turn.routePlan) ? turn.routePlan : undefined,
     timestamp: typeof turn.timestamp === 'string' ? turn.timestamp : undefined,
     model: typeof turn.model === 'string' ? turn.model : undefined,
-    responseMode: turn.responseMode === 'follow_up_concise_continuation' ? 'follow_up_concise_continuation' : 'first_turn_full_analysis',
+    responseMode: turn.responseMode === 'follow_up_concise_continuation'
+      ? 'follow_up_concise_continuation'
+      : turn.responseMode === 'force_full_analysis'
+        ? 'force_full_analysis'
+        : 'first_turn_full_analysis',
   };
 }
 
@@ -667,7 +707,8 @@ export default function Home() {
     const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
     const assistantTurnId = newTurnId();
     const routeQuestion = routingContext(turns, prompt);
-    let responseMode: ResponseMode = 'first_turn_full_analysis';
+    let responseMode = responseModeForClient(prompt, turns);
+    console.info('[ARMOR responseMode request]', responseMode);
     setTurns(current => [
       ...current,
       userTurn,
@@ -683,7 +724,7 @@ export default function Home() {
       const response = await fetch('/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: prompt, messages: history }),
+        body: JSON.stringify({ question: prompt, messages: history, responseMode }),
       });
 
       if (!response.ok) {
@@ -695,6 +736,7 @@ export default function Home() {
       if (metaHeader) {
         const meta = JSON.parse(decodeURIComponent(metaHeader)) as AnalyzeResponseMeta;
         if (meta.responseMode) responseMode = meta.responseMode;
+        console.info('[ARMOR responseMode server]', responseMode);
         if (meta.routePlan?.length) {
           setRoutePlan(meta.routePlan);
           setTurns(current => current.map(turn => (
@@ -722,6 +764,7 @@ export default function Home() {
           if (json.error) throw new Error(json.error);
           if (json.meta) {
             if (json.meta.responseMode) responseMode = json.meta.responseMode;
+            console.info('[ARMOR responseMode stream]', responseMode);
             if (json.meta.routePlan?.length) {
               setRoutePlan(json.meta.routePlan);
               setTurns(current => current.map(turn => (
