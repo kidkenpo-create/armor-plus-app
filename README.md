@@ -68,6 +68,8 @@ This validates live server-side access to `www.acquisition.gov` and the ARMOR Gi
 3. Add `OPENAI_API_KEY` and optionally `OPENAI_MODEL` in Vercel Project Settings -> Environment Variables.
 4. Redeploy.
 
+Vercel preview deployment test.
+
 ## What the App Does
 
 - Accepts a DoD acquisition question.
