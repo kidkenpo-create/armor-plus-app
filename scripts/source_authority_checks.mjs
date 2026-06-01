@@ -54,13 +54,21 @@ test('production prompts do not imply classroom-key answers', () => {
     'app/api/analyze/route.ts',
     'app/lib/practice-issue-rules.json',
   ];
+  const spacedForbiddenPatterns = [
+    ['expected', 'classroom', 'answer'],
+    ['expected', 'classroom', 'determination'],
+    ['legacy', 'classroom', 'key'],
+  ].map(parts => new RegExp(parts.map(part => part.replace('/', '\\/')).join('\\s+'), 'i'));
+  const forbiddenPatterns = [
+    ...spacedForbiddenPatterns,
+    new RegExp(['classroom', 'default'].join('\\s*\\/\\s*'), 'i'),
+  ];
 
   for (const file of productionPromptInputs) {
     const text = read(file);
-    assert.doesNotMatch(text, /expected classroom answer/i, `${file} should not use expected classroom answer language`);
-    assert.doesNotMatch(text, /expected classroom determination/i, `${file} should not use expected classroom determination language`);
-    assert.doesNotMatch(text, /classroom\/default/i, `${file} should not frame production answers as classroom/default`);
-    assert.doesNotMatch(text, /legacy classroom key/i, `${file} should not refer to a classroom key in production guidance`);
+    for (const pattern of forbiddenPatterns) {
+      assert.doesNotMatch(text, pattern, `${file} should not use banned classroom-key phrasing`);
+    }
   }
 });
 
