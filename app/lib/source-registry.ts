@@ -9,6 +9,7 @@ interface RegistryRecord {
   rung_name?: string;
   far_part?: number | string | null;
   type?: string;
+  text_path?: string;
 }
 
 type PartLookup = Record<string, RegistryRecord[]>;
@@ -136,6 +137,7 @@ function sourceRequestFromRecord(
     title: record.title,
     url: record.url,
     sourceType: record.type,
+    textPath: record.text_path,
   };
 }
 

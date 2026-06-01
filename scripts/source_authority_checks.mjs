@@ -77,6 +77,24 @@ test('production prompts do not imply classroom-key answers', () => {
   }
 });
 
+test('Part 252 approved PDF has an explicit local text mirror', () => {
+  const partLookup = JSON.parse(read('knowledge/armor-gpt/part_lookup.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const registry = read('app/lib/source-registry.ts');
+  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
+  const records = partLookup['252'].filter(record => record.url === 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-252-Deviation-Memo.pdf');
+
+  assert.equal(records.length, 1, 'Part 252 should have exactly one approved deviation memo PDF record');
+  assert.equal(records[0].type, 'pdf', 'Part 252 deviation memo should remain the approved PDF artifact');
+  assert.equal(records[0].text_path, mirrorPath, 'Part 252 deviation memo should map to its explicit text mirror');
+  assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'Part 252 text mirror should exist');
+  assert.match(read(mirrorPath), /Class Deviation—Revolutionary F\s*ederal Acquisition Regulation \(FAR\) Overhaul\s+Part 52/i, 'Part 252 text mirror should contain extracted deviation memo text');
+  assert.match(registry, /textPath: record\.text_path/, 'registry should carry only explicit text_path mappings into source requests');
+  assert.match(fetcher, /fetchApprovedTextMirror/, 'fetcher should read approved PDF text mirrors');
+  assert.match(fetcher, /knowledge\/armor-gpt\/pdf-text\//, 'fetcher should restrict PDF mirrors to the approved mirror root');
+  assert.doesNotMatch(fetcher, /replace\([^)]*\.pdf[^)]*\.txt/i, 'fetcher should not infer arbitrary .txt mirrors from PDF URLs');
+});
+
 test('source registry marks GSA submodules as background only, not approved controlling sources', () => {
   const registry = read('app/lib/source-registry.ts');
 

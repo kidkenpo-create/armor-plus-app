@@ -9,6 +9,7 @@ export interface SourceRequest {
   title?: string;
   url?: string;
   sourceType?: string;
+  textPath?: string;
 }
 
 export interface PracticeIssueRule {
