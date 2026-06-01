@@ -17,6 +17,8 @@ interface ClientConversationMessage {
   content: string;
 }
 
+type ResponseMode = 'full' | 'concise';
+
 export async function POST(req: NextRequest) {
   try {
     if (!process.env.OPENAI_API_KEY) {
@@ -41,7 +43,8 @@ export async function POST(req: NextRequest) {
           controller.enqueue(send({ meta: { model } }));
 
           const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
-          controller.enqueue(send({ meta: { routePlan, model } }));
+          const responseMode = chooseResponseMode(prompt, history, routePlan);
+          controller.enqueue(send({ meta: { routePlan, model, responseMode } }));
           controller.enqueue(encoder.encode(': ARMOR sources retrieved\n\n'));
 
           const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -51,18 +54,10 @@ export async function POST(req: NextRequest) {
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
             sourceAuthorityInstruction(routePlan),
+            responseModeInstruction(responseMode),
             'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
             context || 'No direct source was retrieved. Mark UTR where source text is required.',
-            [
-              'TEMPLATE COMPLIANCE LOCK:',
-              'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
-              'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
-              'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
-              'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
-              'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
-              'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
-              'Before finalizing, self-check that all nine section headers are present.',
-            ].join('\n'),
+            templateInstruction(responseMode),
           ].join('\n\n');
 
           const messages: ChatCompletionMessageParam[] = [
@@ -142,6 +137,94 @@ function normalizeConversationMessages(input: unknown): ChatCompletionMessagePar
       role: message.role,
       content: message.content.trim().slice(0, 6000),
     }));
+}
+
+function chooseResponseMode(
+  prompt: string,
+  history: ChatCompletionMessageParam[],
+  routePlan: Array<{ label: string; url: string; status: string }>,
+): ResponseMode {
+  if (!history.length) return 'full';
+
+  const lower = prompt.toLowerCase();
+  if (/(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(prompt)) {
+    return 'full';
+  }
+
+  const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
+  const promptCitations = extractCitationKeys(lower);
+  if (promptCitations.some(citation => !priorText.includes(citation))) return 'full';
+
+  const hasLowConfidenceRoute = routePlan.length > 0 && routePlan.every(item => item.status !== 'R');
+  if (hasLowConfidenceRoute) return 'full';
+
+  const currentFamily = issueFamily(lower);
+  const priorFamily = issueFamily(priorText);
+  if (currentFamily && currentFamily === priorFamily) return 'concise';
+
+  if (/^(what about|what if|and if|so|does that mean|can you clarify|clarify|explain that|make it shorter|draft|turn that into|write an email|write a memo)/i.test(prompt.trim())) {
+    return 'concise';
+  }
+
+  return 'full';
+}
+
+function extractCitationKeys(text: string) {
+  return [...text.matchAll(/\b(?:rfo\s+far|far|dfars\s+rfo|dfars|pgi)?\s*(2?\d{1,2}\.\d+(?:-\d+)?(?:\([a-z0-9]+\))*)/gi)]
+    .map(match => match[1].toLowerCase());
+}
+
+function issueFamily(text: string) {
+  const families: Array<[string, RegExp]> = [
+    ['debriefing', /(debrief|preaward|pre-award|exclusion|15\.206|15\.505)/i],
+    ['detainee', /(detainee|enemy prisoner|epw|interrogat|contractor personnel|237\.873)/i],
+    ['warranty-germany', /(52\.246-21|warranty|construction.*germany|germany.*construction|246\.710)/i],
+    ['sealed-bidding', /(two[- ]step sealed|sealed bidding|first step|technical proposals?|equal low bids?|14\.211|14\.308)/i],
+    ['technical-data', /(52\.227-14|technical data|27\.409|rights in data)/i],
+    ['acquisition-plan', /(acquisition plan|acquisition planning|responsible for.*plan|207\.104-70)/i],
+    ['thresholds', /(section 807|threshold|inflation|201\.108|1\.108)/i],
+    ['subcontracting', /(limitations on subcontracting|subcontracting|small business|2021-o0008|19\.505|19\.507|219\.)/i],
+  ];
+
+  return families.find(([, pattern]) => pattern.test(text))?.[0] || '';
+}
+
+function responseModeInstruction(responseMode: ResponseMode) {
+  if (responseMode === 'full') {
+    return [
+      'RESPONSE MODE: FULL ARMOR ANALYSIS.',
+      'Use full ARMOR format for first questions, major issue changes, low-confidence source status, new controlling citations, correction requests, requests for more research, or explicit requests for full reasoning.',
+    ].join('\n');
+  }
+
+  return [
+    'RESPONSE MODE OVERRIDE: CONCISE FOLLOW-UP.',
+    'This is a same-issue-family follow-up. Preserve all RFO FAR / DFARS RFO source-authority restrictions, but do not repeat full Rungs 1-8 or the complete STEP structure unless the answer changes controlling authority or confidence.',
+    'Use only these headings, in this order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+    'If the follow-up reveals a new issue family, new controlling citation, low confidence, or a correction to the prior answer, switch back to full ARMOR analysis in the response.',
+  ].join('\n');
+}
+
+function templateInstruction(responseMode: ResponseMode) {
+  if (responseMode === 'concise') {
+    return [
+      'CONCISE FOLLOW-UP TEMPLATE LOCK:',
+      'Return every concise heading exactly once and in this exact order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+      'Do not include STEP 1-7 or Rungs 1-8 in concise follow-up mode.',
+      'Use prior chat turns for continuity and cite only retrieved approved authority from LIVE REGULATORY CONTEXT or mark UTR.',
+    ].join('\n');
+  }
+
+  return [
+    'TEMPLATE COMPLIANCE LOCK:',
+    'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
+    'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
+    'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
+    'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
+    'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
+    'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
+    'Before finalizing, self-check that all nine section headers are present.',
+  ].join('\n');
 }
 
 function issueSpecificInstruction(question: string) {
