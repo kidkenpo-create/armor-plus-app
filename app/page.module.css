@@ -205,6 +205,51 @@
   font-weight: 400;
 }
 
+.composerPanel > .queryTextarea,
+.composerPanel > .composerFooter {
+  display: none;
+}
+
+.chatComposer {
+  display: grid;
+  gap: 0;
+  margin: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.chatComposer .queryTextarea {
+  min-height: 128px;
+  max-height: 220px;
+}
+
+.composerTitle {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--border);
+  background: #fbfdff;
+}
+
+.composerTitle span {
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.composerTitle small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 650;
+}
+
 .composerFooter {
   display: flex;
   align-items: center;

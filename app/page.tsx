@@ -774,6 +774,33 @@ export default function Home() {
     if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) runAnalysis();
   }, [runAnalysis]);
 
+  const chatComposer = (
+    <div className={styles.chatComposer}>
+      <div className={styles.composerTitle}>
+        <span>{hasConversation ? 'Continue this chat' : 'Ask ARMOR'}</span>
+        <small>Ctrl/⌘ + Enter</small>
+      </div>
+      <textarea
+        ref={taRef}
+        className={styles.queryTextarea}
+        placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
+        value={question}
+        onChange={event => {
+          setQuestion(event.target.value);
+          setRoutePlan(routePreview(routingContext(turns, event.target.value)));
+        }}
+        onKeyDown={handleKeyDown}
+        rows={5}
+      />
+      <div className={styles.composerFooter}>
+        <button className={styles.primaryBtn} onClick={runAnalysis} disabled={streaming}>
+          {streaming ? 'Analyzing...' : hasConversation ? 'Send follow-up' : 'Run ARMOR analysis'}
+        </button>
+        <span>{hasConversation ? 'Follow-ups append below this thread and include recent context server-side.' : 'Server-side key. Browser never sees `OPENAI_API_KEY`.'}</span>
+      </div>
+    </div>
+  );
+
   return (
     <div className={styles.page}>
       <header className={styles.topbar}>
@@ -802,7 +829,7 @@ export default function Home() {
             <small>Ctrl/⌘ + Enter</small>
           </div>
           <textarea
-            ref={taRef}
+            aria-hidden="true"
             className={styles.queryTextarea}
             placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
             value={question}
@@ -868,6 +895,8 @@ export default function Home() {
               <div ref={conversationEndRef} />
             </div>
           )}
+
+          {chatComposer}
 
           {(streaming || done) && (
             <div className={styles.mobileTrace}>
