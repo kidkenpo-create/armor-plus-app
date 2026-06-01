@@ -48,6 +48,22 @@ test('prompt and analyze route enforce source authority lock', () => {
   assert.match(analyze, /sourceAuthorityInstruction\(routePlan\)/, 'analyze route must inject runtime source authority status');
 });
 
+test('production prompts do not imply classroom-key answers', () => {
+  const productionPromptInputs = [
+    'app/lib/armor-prompt.ts',
+    'app/api/analyze/route.ts',
+    'app/lib/practice-issue-rules.json',
+  ];
+
+  for (const file of productionPromptInputs) {
+    const text = read(file);
+    assert.doesNotMatch(text, /expected classroom answer/i, `${file} should not use expected classroom answer language`);
+    assert.doesNotMatch(text, /expected classroom determination/i, `${file} should not use expected classroom determination language`);
+    assert.doesNotMatch(text, /classroom\/default/i, `${file} should not frame production answers as classroom/default`);
+    assert.doesNotMatch(text, /legacy classroom key/i, `${file} should not refer to a classroom key in production guidance`);
+  }
+});
+
 test('source registry marks GSA submodules as background only, not approved controlling sources', () => {
   const registry = read('app/lib/source-registry.ts');
 
