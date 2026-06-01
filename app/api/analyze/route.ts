@@ -4,6 +4,7 @@ import type { ChatCompletionCreateParamsStreaming, ChatCompletionMessageParam } 
 import { ARMOR_SYSTEM_PROMPT } from '@/app/lib/armor-prompt';
 import { prefetchRelevantParts } from '@/app/lib/fetcher';
 import { getPracticeIssueInstruction } from '@/app/lib/practice-issue-rules';
+import { sourceAuthorityInstruction } from '@/app/lib/source-registry';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
@@ -49,6 +50,7 @@ export async function POST(req: NextRequest) {
             ARMOR_SYSTEM_PROMPT,
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
+            sourceAuthorityInstruction(routePlan),
             'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
             context || 'No direct source was retrieved. Mark UTR where source text is required.',
             [

@@ -1,0 +1,48 @@
+RFO FAR CONVENTIONS REFERENCE — REF 3
+DoD Contracting Copilot | Check during Rung 8
+Live fetch: https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107
+
+Log each convention A/N/U (Applicable/Not Applicable/Uncertain)
+
+THE SIX RFO FAR CONVENTIONS:
+
+RFO FAR Convention (a) — Scope of subparts
+Log A when: Question involves whether one subpart rule applies to another subpart topic.
+
+RFO FAR Convention (b) — Delegation of authority
+Rule: Each authority is delegable unless specifically stated otherwise. Silence = delegation permitted.
+Log A when: Question asks whether an authority can be delegated.
+Example: Can HCA authority under RFO FAR 17.106-3(g) be delegated? YES — silent on delegation.
+
+RFO FAR Convention (c) — Dollar thresholds
+Rule: Dollar thresholds include all options and are subject to inflation adjustment.
+Log A when: Question involves a specific dollar threshold.
+
+RFO FAR Convention (d) — Application of RFO FAR changes
+Rule: RFO FAR changes apply to solicitations issued AFTER effective date unless Federal Register says otherwise.
+Log A when: Question involves whether new RFO FAR rule applies to existing solicitation.
+Example: New clause issued — must CO amend existing solicitation? NO — Convention (d) controls.
+
+RFO FAR Convention (e) — Citations include amendments
+Log A when: Question involves which version of an RFO FAR provision applies.
+
+RFO FAR Convention (f) — Imperative sentences
+Rule: SHALL/MUST with no named actor → contracting officer is responsible party.
+Log A when: Question asks WHO is responsible for action in imperative sentence with no named actor.
+Example: Who notifies Congress per RFO FAR 6.302-7(c)(2)? THE CONTRACTING OFFICER — Convention (f).
+
+TRIGGER DECISION:
+1. Question asks about DELEGATION? → Log Convention (b) A
+2. Question involves DOLLAR THRESHOLD? → Log Convention (c) A
+3. New RFO FAR rule + EXISTING SOLICITATION? → Log Convention (d) A
+4. WHO is responsible + no named actor in RFO FAR text? → Log Convention (f) A
+5. None apply? → Log all six N and document why.
+
+VALIDATED EXAMPLES:
+HCA delegation under RFO FAR 17.106-3(g) → Convention (b) A → YES delegable
+New RFO FAR clause, existing solicitation → Convention (d) A → NO amendment required
+Who notifies Congress RFO FAR 6.302-7(c)(2) → Convention (f) A → CO responsible
+Agency head delegation under RFO FAR 23.106(b)(1) → Convention (b) A → YES delegable
+
+LOGGING FORMAT FOR STEP 5:
+RFO FAR Conventions: a[A/N/U] b[A/N/U] c[A/N/U] d[A/N/U] e[A/N/U] f[A/N/U]

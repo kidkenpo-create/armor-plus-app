@@ -1,15 +1,23 @@
 const CHECKS = [
   {
-    name: 'ARMOR GitHub data/FAR',
-    url: 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/far?ref=main',
-  },
-  {
-    name: 'ARMOR GitHub data/DFARS',
-    url: 'https://api.github.com/repos/kidkenpo-create/ARMOR-plus/contents/data/dfars?ref=main',
+    name: 'RFO FAR Part 14',
+    url: 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-14',
   },
   {
     name: 'ARMOR GitHub DFARS RFO Part 237',
     url: 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-237-Attachment-1.txt',
+  },
+  {
+    name: 'ARMOR GitHub DFARS RFO PGI Part 207',
+    url: 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-207-Attachment-2.txt',
+  },
+  {
+    name: 'ARMOR approved source registry',
+    url: 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/master_index.json',
+  },
+  {
+    name: 'ARMOR approved part lookup',
+    url: 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/part_lookup.json',
   },
 ];
 

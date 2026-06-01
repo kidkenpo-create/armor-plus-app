@@ -1,6 +1,6 @@
 import practiceRules from './practice-issue-rules.json';
 
-export type SourceKind = 'rfo_far' | 'dfars_rfo' | 'dfars_pgi' | 'rfo_conventions';
+export type SourceKind = 'rfo_far' | 'dfars_rfo' | 'dfars_pgi' | 'rfo_conventions' | 'class_deviation';
 
 export interface SourceRequest {
   kind: SourceKind;
@@ -53,6 +53,7 @@ function labelFor(request: SourceRequest): string {
   if (request.kind === 'rfo_far') return `RFO FAR Part ${request.part}`;
   if (request.kind === 'dfars_rfo') return `DFARS RFO Part ${request.part}`;
   if (request.kind === 'dfars_pgi') return `DFARS RFO PGI Part ${request.part}`;
+  if (request.kind === 'class_deviation') return `Approved Class Deviation Part ${request.part}`;
   return 'RFO FAR Conventions';
 }
 

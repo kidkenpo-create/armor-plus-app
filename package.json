@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "node --test scripts/source_authority_checks.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

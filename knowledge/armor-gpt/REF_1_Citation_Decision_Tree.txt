@@ -1,0 +1,66 @@
+CITATION DECISION TREE — REF 1
+DoD Contracting Copilot | Check during PRE-SELECTION CHECK and VERIFICATION LOOP
+
+STEP 1 — CLASSIFY QUESTION TYPE BEFORE SELECTING ANY CITE
+
+TYPE 1 — PROCEDURAL
+Trigger words: required, must, shall, steps, how do you, what happens, what to do, what is the process
+Cite requirement: Procedural paragraph with SHALL or MUST verb
+REJECT: Definitions, scope paragraphs, general policy statements
+
+TYPE 2 — APPLICABILITY / COVERAGE
+Trigger words: apply, applicable, covered, does it apply, when does X apply, is X required
+Cite preference order:
+  1. "Applies to…" coverage sentence — ELIGIBLE even if in Scope section
+  2. Policy sentence — only if first place stating applicability
+  3. Definitions — SUPPORTING ONLY, never controlling
+KEYWORD MIRROR RULE: Question says "apply" → prefer cite with "applies"
+TITLE TRAP EXCEPTION: Scope paragraph with "applies to…" matching the fact pattern = ELIGIBLE cite
+
+TYPE 3 — DEFINITIONAL
+Trigger words: what is, define, what does X mean, what counts as
+Cite requirement: Definition paragraph or scope defining the term
+NOT exempt from full STEP methodology — BLUF first, no conversational prose answers.
+
+STEP 2 — TITLE TRAP DECISION
+Is the candidate cite in a section titled General/Scope/Purpose/Definitions/Policy?
+  TYPE 1 question → REJECT. Find specific procedural section.
+  TYPE 2 question → CHECK: Does the paragraph say "applies to…"?
+    YES + matches fact pattern → ELIGIBLE. Keep as candidate.
+    NO → REJECT. Find specific applicability section.
+  TYPE 3 question → Definitions section is acceptable.
+
+STEP 3 — SPECIFICITY CHECK
+TYPE 1: Does a more specific section with SHALL/MUST exist in same Subpart?
+  YES → That section controls. Reject broader cite.
+TYPE 2: Does a more specific APPLICABILITY paragraph exist?
+  YES → More specific applicability controls.
+  IMPORTANT: A policy directive is NOT more specific than a coverage sentence for applicability questions.
+  CRITICAL EXAMPLE — Type 2 Applicability:
+  Puerto Rico Buy American construction → RFO FAR 25.003 is DEFINITION (supporting only)
+  Controlling cite = RFO FAR 25.200(b) — the "It applies to…" coverage sentence
+  NEVER use a definitions paragraph as controlling for Type 2 questions
+
+STEP 4 — CONTROLLING CITE vs SUPPORTING CHAIN
+CONTROLLING CITE = sentence that directly answers the question
+SUPPORTING CITE = definition, background, or context sentence
+RULES:
+- One controlling cite only. Source: RFO FAR via acquisition.gov or DFARS RFO via GitHub.
+- Definitions are SUPPORTING — never swap them to controlling position
+- Exception: question is itself definitional (Type 3)
+- If controlling cite depends on a defined term → put definition in STEP 4 reasoning, NOT as controlling cite
+
+STEP 5 — VERIFICATION LOOP QUICK CHECK
+Before finalizing, confirm ALL SIX:
+[ ] 1. Cite answers WHAT TO DO (not WHAT IT IS) — unless Type 3
+[ ] 2. Title trap passed (or Applicability Exception documented)
+[ ] 3. No more specific section exists (per question type rules)
+[ ] 4. RFO FAR Conventions (a-f) logged A/N/U for each
+[ ] 5. No "silent" conclusion unless RFO FAR Conventions logged and none resolves
+[ ] 6. GitHub/DFARS RFO file fetched for applicable parts
+Any box unchecked → REJECT and restart.
+
+SOURCE REMINDER:
+- RFO FAR text → live fetch acquisition.gov
+- DFARS RFO Class Deviations → GitHub kidkenpo-create/ARMOR-plus
+- Never cite legacy FAR or legacy DFARS — only RFO FAR and DFARS RFO
