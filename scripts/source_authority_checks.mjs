@@ -74,6 +74,35 @@ test('app code does not use legacy acquisition.gov FAR/DFARS URLs', () => {
   }
 });
 
+test('DFARS RFO registry supports approved nonstandard PDF sources', () => {
+  const partLookup = JSON.parse(read('knowledge/armor-gpt/part_lookup.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const registry = read('app/lib/source-registry.ts');
+
+  assert.ok(partLookup['219'].some(record => record.url === 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-219-Attachment-1.txt'), 'Part 219 DFARS RFO text source should be listed');
+  assert.ok(partLookup['219'].some(record => record.url === 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-219-Attachment-2.txt'), 'Part 219 DFARS RFO PGI text source should be listed');
+  assert.ok(partLookup['252'].some(record => record.type === 'pdf' && record.url === 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-252-Deviation-Memo.pdf'), 'Part 252 approved PDF source should be listed');
+
+  assert.match(registry, /sourceRequestFromRecord/, 'registry should carry approved record URL into source requests');
+  assert.match(fetcher, /if \(request\.url\) return request\.url/, 'fetcher should prefer approved registry URLs over generated names');
+  assert.match(fetcher, /fetchApprovedPdfSource/, 'fetcher should handle approved PDF sources without using missing text attachment URLs');
+  assert.match(fetcher, /runtime text extraction is not implemented yet/, 'PDF sources should produce clear UTR text-extraction status');
+});
+
+test('DFARS RFO sample raw GitHub sources are reachable or correctly absent', async () => {
+  const samples = [
+    ['DFARS RFO Part 219', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-219-Attachment-1.txt', 200],
+    ['DFARS RFO PGI Part 219', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-219-Attachment-2.txt', 200],
+    ['DFARS RFO Part 252 approved PDF', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-252-Deviation-Memo.pdf', 200],
+    ['DFARS RFO Part 252 missing generated text attachment', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-252-Attachment-1.txt', 404],
+  ];
+
+  for (const [label, url, expectedStatus] of samples) {
+    const response = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'ARMOR-Plus/1.0 Source-Test' } });
+    assert.equal(response.status, expectedStatus, `${label} should return HTTP ${expectedStatus}: ${url}`);
+  }
+});
+
 test('follow-up response mode contract preserves concise continuation behavior', () => {
   const analyze = read('app/api/analyze/route.ts');
   const page = read('app/page.tsx');

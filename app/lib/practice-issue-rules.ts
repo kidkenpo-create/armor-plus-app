@@ -6,6 +6,9 @@ export interface SourceRequest {
   kind: SourceKind;
   part: string;
   reason: string;
+  title?: string;
+  url?: string;
+  sourceType?: string;
 }
 
 export interface PracticeIssueRule {
