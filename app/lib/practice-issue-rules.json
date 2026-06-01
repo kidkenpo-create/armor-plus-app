@@ -259,7 +259,7 @@
       { "kind": "rfo_far", "part": "19", "reason": "Limitations on subcontracting baseline" },
       { "kind": "dfars_rfo", "part": "219", "reason": "DoD small business overlay" }
     ],
-    "guidance": "For the noncommercial supply small-business set-aside scenario, expected classroom answer is no under CD 2021-O0008 Revision 1; mark deviation source currency if not retrieved."
+    "guidance": "For the noncommercial supply small-business set-aside scenario, the expected result under the identified deviation pathway is no under CD 2021-O0008 Revision 1; mark deviation source currency if not retrieved."
   },
   {
     "id": "contractor_claim_email",
@@ -328,7 +328,7 @@
       { "kind": "rfo_far", "part": "33", "reason": "Day-counting rule cross-reference" },
       { "kind": "dfars_rfo", "part": "215", "reason": "DoD source selection overlay" }
     ],
-    "guidance": "Compute the deadline as September 5, 2023. In RFO mode cite RFO FAR 15.206-2(a)(1); legacy classroom key may show FAR 15.505(a)(1)."
+    "guidance": "Compute the deadline as September 5, 2023. In RFO mode cite RFO FAR 15.206-2(a)(1); legacy FAR crosswalk references may show FAR 15.505(a)(1)."
   },
   {
     "id": "contractor_sources_of_supply",
@@ -470,7 +470,7 @@
       { "kind": "rfo_far", "part": "27", "reason": "RFO FAR Part 27 DoD scope gate" },
       { "kind": "dfars_rfo", "part": "227", "reason": "DoD technical data overlay and FAR 27.4 redirect" }
     ],
-    "guidance": "For the DoD classroom/default scenario, answer no: FAR 52.227-14 is not required solely under FAR 27.409(b)(1) because FAR/RFO FAR 27.400 and DFARS/RFO DFARS 227.400 redirect DoD to DFARS 227.71/227.72."
+    "guidance": "For the identified DoD issue-family pathway, the likely determination is no: FAR 52.227-14 is not required solely under FAR 27.409(b)(1) because FAR/RFO FAR 27.400 and DFARS/RFO DFARS 227.400 redirect DoD to DFARS 227.71/227.72."
   },
   {
     "id": "uca_initial_spares",

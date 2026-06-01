@@ -48,6 +48,35 @@ test('prompt and analyze route enforce source authority lock', () => {
   assert.match(analyze, /sourceAuthorityInstruction\(routePlan\)/, 'analyze route must inject runtime source authority status');
 });
 
+test('production prompts do not imply classroom-key answers', () => {
+  const productionPromptInputs = [
+    'app/lib/armor-prompt.ts',
+    'app/api/analyze/route.ts',
+    'app/lib/practice-issue-rules.json',
+  ];
+  const spacedForbiddenPatterns = [
+    ['expected', 'classroom', 'result'],
+    ['expected', 'classroom', 'answer'],
+    ['expected', 'classroom', 'determination'],
+    ['classroom', 'result'],
+    ['classroom', 'answer'],
+    ['classroom', 'determination'],
+    ['legacy', 'classroom'],
+    ['classroom', 'key'],
+  ].map(parts => new RegExp(parts.join('\\s+'), 'i'));
+  const forbiddenPatterns = [
+    ...spacedForbiddenPatterns,
+    new RegExp(['classroom', 'default'].join('\\s*\\/\\s*'), 'i'),
+  ];
+
+  for (const file of productionPromptInputs) {
+    const text = read(file);
+    for (const pattern of forbiddenPatterns) {
+      assert.doesNotMatch(text, pattern, `${file} should not use banned classroom-style phrasing`);
+    }
+  }
+});
+
 test('source registry marks GSA submodules as background only, not approved controlling sources', () => {
   const registry = read('app/lib/source-registry.ts');
 
