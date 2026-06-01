@@ -11133,6 +11133,7 @@
       "id": "GH-DFARS-252-RFO-ATT0",
       "title": "DFARS RFO PART 252 - Deviation Memo",
       "url": "https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-252-Deviation-Memo.pdf",
+      "text_path": "knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt",
       "rung": "3",
       "rung_name": "DFARS RFO CDs",
       "type": "pdf",

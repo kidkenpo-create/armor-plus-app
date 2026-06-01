@@ -1,5 +1,7 @@
 import { getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
 import { registryRequestsForParts } from './source-registry';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
 const RFO_FAR_BASE = 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-';
 const RFO_CONVENTIONS_URL = 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107';
@@ -7,6 +9,7 @@ const DFARS_RFO_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-
 const DFARS_PGI_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-';
 const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
 const SOURCE_FETCH_TIMEOUT_MS = 5000;
+const PART_252_DEVIATION_MEMO_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
 export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback is disabled for controlling authority; use RFO FAR, DFARS RFO, DFARS RFO PGI, or approved class-deviation text only.';
 
 export interface FetchResult {
@@ -264,6 +267,11 @@ function urlFor(request: SourceRequest): string {
 }
 
 async function fetchApprovedPdfSource(request: SourceRequest, label: string, url: string): Promise<FetchResult> {
+  if (request.textPath) {
+    const mirrorResult = await fetchApprovedTextMirror(request, label, url);
+    if (mirrorResult.status === 'R') return mirrorResult;
+  }
+
   try {
     const response = await fetchWithTimeout(url, {
       method: 'HEAD',
@@ -289,6 +297,39 @@ async function fetchApprovedPdfSource(request: SourceRequest, label: string, url
       error: error instanceof Error ? error.message : String(error),
     };
   }
+}
+
+async function fetchApprovedTextMirror(request: SourceRequest, label: string, url: string): Promise<FetchResult> {
+  try {
+    const textPath = approvedTextMirrorPath(request.textPath || '');
+    const text = await fs.readFile(textPath, 'utf8');
+    const prepared = prepareSourceContent(text, request);
+    return {
+      label,
+      url,
+      content: trimSource(prepared, request.kind),
+      status: 'R',
+      reason: request.reason,
+    };
+  } catch {
+    return {
+      label,
+      url,
+      content: '',
+      status: 'UTR',
+      reason: request.reason,
+      error: 'Approved PDF text mirror was mapped but could not be read; runtime PDF extraction is not implemented yet.',
+    };
+  }
+}
+
+function approvedTextMirrorPath(textPath: string) {
+  const normalized = textPath.replace(/\\/g, '/');
+  if (normalized !== PART_252_DEVIATION_MEMO_TEXT_PATH) {
+    throw new Error('Unapproved PDF text mirror path.');
+  }
+
+  return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DFARS-RFO-PART-252-Deviation-Memo.txt');
 }
 
 function isPdfSource(request: SourceRequest, url: string) {
