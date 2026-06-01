@@ -17,7 +17,7 @@ interface ClientConversationMessage {
   content: string;
 }
 
-type ResponseMode = 'full' | 'concise';
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation';
 
 export async function POST(req: NextRequest) {
   try {
@@ -144,29 +144,29 @@ function chooseResponseMode(
   history: ChatCompletionMessageParam[],
   routePlan: Array<{ label: string; url: string; status: string }>,
 ): ResponseMode {
-  if (!history.length) return 'full';
+  if (!history.length) return 'first_turn_full_analysis';
 
   const lower = prompt.toLowerCase();
   if (/(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(prompt)) {
-    return 'full';
+    return 'first_turn_full_analysis';
   }
 
   const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
   const promptCitations = extractCitationKeys(lower);
-  if (promptCitations.some(citation => !priorText.includes(citation))) return 'full';
+  if (promptCitations.some(citation => !priorText.includes(citation))) return 'first_turn_full_analysis';
 
   const hasLowConfidenceRoute = routePlan.length > 0 && routePlan.every(item => item.status !== 'R');
-  if (hasLowConfidenceRoute) return 'full';
+  if (hasLowConfidenceRoute) return 'first_turn_full_analysis';
 
   const currentFamily = issueFamily(lower);
   const priorFamily = issueFamily(priorText);
-  if (currentFamily && currentFamily === priorFamily) return 'concise';
+  if (currentFamily && currentFamily === priorFamily) return 'follow_up_concise_continuation';
 
   if (/^(what about|what if|and if|so|does that mean|can you clarify|clarify|explain that|make it shorter|draft|turn that into|write an email|write a memo)/i.test(prompt.trim())) {
-    return 'concise';
+    return 'follow_up_concise_continuation';
   }
 
-  return 'full';
+  return 'first_turn_full_analysis';
 }
 
 function extractCitationKeys(text: string) {
@@ -190,27 +190,29 @@ function issueFamily(text: string) {
 }
 
 function responseModeInstruction(responseMode: ResponseMode) {
-  if (responseMode === 'full') {
+  if (responseMode === 'first_turn_full_analysis') {
     return [
-      'RESPONSE MODE: FULL ARMOR ANALYSIS.',
+      'RESPONSE MODE: first_turn_full_analysis.',
       'Use full ARMOR format for first questions, major issue changes, low-confidence source status, new controlling citations, correction requests, requests for more research, or explicit requests for full reasoning.',
     ].join('\n');
   }
 
   return [
-    'RESPONSE MODE OVERRIDE: CONCISE FOLLOW-UP.',
-    'This is a same-issue-family follow-up. Preserve all RFO FAR / DFARS RFO source-authority restrictions, but do not repeat full Rungs 1-8 or the complete STEP structure unless the answer changes controlling authority or confidence.',
-    'Use only these headings, in this order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
-    'If the follow-up reveals a new issue family, new controlling citation, low confidence, or a correction to the prior answer, switch back to full ARMOR analysis in the response.',
+    'RESPONSE MODE: follow_up_concise_continuation.',
+    'This instruction supersedes the full STEP output template for this response only. Continue to run the internal ARMOR gates and source-authority checks, but do not print the full STEP structure, Rungs 1-8, or Final Receipt unless a full-analysis trigger applies.',
+    'This is a same-issue-family follow-up. Preserve all RFO FAR / DFARS RFO source-authority restrictions internally.',
+    'Use only these visible headings, in this order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+    'If you determine the follow-up actually introduces a new issue family, new controlling citation, material class-deviation effect, low confidence, or correction to the prior answer, say you are switching to full ARMOR analysis and then use the full template.',
   ].join('\n');
 }
 
 function templateInstruction(responseMode: ResponseMode) {
-  if (responseMode === 'concise') {
+  if (responseMode === 'follow_up_concise_continuation') {
     return [
       'CONCISE FOLLOW-UP TEMPLATE LOCK:',
       'Return every concise heading exactly once and in this exact order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
-      'Do not include STEP 1-7 or Rungs 1-8 in concise follow-up mode.',
+      'Do not include "0) BLUF", STEP 1-7, STEP 3B, Rungs 1-8, P1/P2 logs, or Self-Verification in the visible answer.',
+      'Do not use the words "STEP 1", "STEP 2", "STEP 3A", "STEP 3B", "Rungs", "Final Receipt", or "Self-Verification" in concise continuation mode.',
       'Use prior chat turns for continuity and cite only retrieved approved authority from LIVE REGULATORY CONTEXT or mark UTR.',
     ].join('\n');
   }

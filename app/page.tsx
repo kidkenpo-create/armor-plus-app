@@ -16,7 +16,7 @@ interface AnalyzeResponseMeta {
   responseMode?: ResponseMode;
 }
 
-type ResponseMode = 'full' | 'concise';
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation';
 
 interface SourcePlanItem {
   label: string;
@@ -229,7 +229,7 @@ function normalizeStoredTurn(turn: ChatTurn): ChatTurn {
     routePlan: Array.isArray(turn.routePlan) ? turn.routePlan : undefined,
     timestamp: typeof turn.timestamp === 'string' ? turn.timestamp : undefined,
     model: typeof turn.model === 'string' ? turn.model : undefined,
-    responseMode: turn.responseMode === 'concise' ? 'concise' : 'full',
+    responseMode: turn.responseMode === 'follow_up_concise_continuation' ? 'follow_up_concise_continuation' : 'first_turn_full_analysis',
   };
 }
 
@@ -310,7 +310,7 @@ function StepBlock({ num, title, content }: { num: string; title: string; conten
 function AssistantAnswer({
   content,
   parsed,
-  responseMode = 'full',
+  responseMode = 'first_turn_full_analysis',
 }: {
   content: string;
   parsed?: ParsedOutput | null;
@@ -319,7 +319,7 @@ function AssistantAnswer({
   const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
 
   if (!hasStructured) {
-    return <pre className={`${styles.rawCard} ${responseMode === 'concise' ? styles.conciseCard : ''}`}>{content}</pre>;
+    return <pre className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>{content}</pre>;
   }
 
   return (
@@ -357,7 +357,7 @@ function ConversationMessage({
       {turn.content ? (
         <>
           <AssistantAnswer content={turn.content} parsed={turn.parsed} responseMode={turn.responseMode} />
-          {turn.responseMode === 'concise' && (
+          {turn.responseMode === 'follow_up_concise_continuation' && (
             <button className={styles.showFullBtn} type="button" onClick={onShowFullAnalysis}>
               Show full analysis
             </button>
@@ -667,7 +667,7 @@ export default function Home() {
     const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
     const assistantTurnId = newTurnId();
     const routeQuestion = routingContext(turns, prompt);
-    let responseMode: ResponseMode = 'full';
+    let responseMode: ResponseMode = 'first_turn_full_analysis';
     setTurns(current => [
       ...current,
       userTurn,
