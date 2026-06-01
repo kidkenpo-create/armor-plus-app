@@ -1,0 +1,177 @@
+--- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 128 ---
+OFFICE OF THE UNDER SECRETARY OF DEFENSE 
+3000 DEFENSE PENTAGON 
+WASHINGTON, DC  20301-3000 
+ 
+ 
+  
+        ACQUISITION 
+ AND SUSTAINMENT 
+ 
+ 
+In reply refer to 
+DARS Tracking Number: 2021-O0008, Revision 1 
+ 
+MEMORANDUM FOR COMMANDER, UNITED STATES CYBER  
+    COMMAND (ATTN:  ACQUISITION EXECUTIVE) 
+COMMANDER, UNITED STATES SPECIAL OPERATIONS 
+COMMAND (ATTN:  ACQUISITION EXECUTIVE) 
+COMMANDER, UNITED STATES TRANSPORTATION  
+    COMMAND (ATTN:  ACQUISITION EXECUTIVE) 
+DEPUTY ASSISTANT SECRETARY OF THE ARMY 
+     (PROCUREMENT) 
+DEPUTY ASSISTANT SECRETARY OF THE NAVY 
+     (PROCUREMENT) 
+DEPUTY ASSISTANT SECRETARY OF THE AIR FORCE 
+     (CONTRACTING) 
+DEFENSE AGENCY AND DOD FIELD ACTIVITY DIRECTORS 
+ 
+SUBJECT:  Class Deviation—Limitations on Subcontracting for Small Business  
+ 
+  This class deviation revises and supersedes Class Deviation 2021-O0008, issued on 
+September 10, 2021.  Effective immediately, contracting officers shall use the clause in the 
+Attachment, 52.219-14, Limitations on Subcontracting (DEVIATION 2021-O0008), in lieu of the 
+clause at Federal Acquisition Regulation (FAR) 52.219-14. 
+ 
+  This class deviation implements the Small Business Administration’s (SBA’s) final rule 
+issued on November 29, 2019 (84 FR 65647), which amended its regulations to include certain 
+exclusions to the limitations on subcontracting for services contracts.  These exclusions are addressed 
+in paragraph (e)(1) of the attached deviation clause.  The final rule for FAR Case 2017-019 published 
+in the Federal Register on September 23, 2022 (87 FR 58219), and effective October 28, 2022, 
+modified the FAR to incorporate the limitations on subcontracting requirements for small business 
+joint ventures in SBA’s final rule issued on July 25, 2016 (81 FR 48558), resulting in revisions to 
+paragraph (g) of FAR clause 52.219-14.  These revisions are included in the attached deviation 
+clause. 
+ 
+  This class deviation remains in effect until incorporated into the FAR or until otherwise 
+rescinded.  My point of contact is Ms. Jeanette Snyder, who is available via email at 
+jeanette.m.snyder4.civ@mail.mil. 
+ 
+ 
+ 
+ 
+ 
+ John M. Tenaglia 
+ Principal Director, 
+ Defense Pricing and Contracting 
+Attachment: 
+As stated 
+TENAGLIA.JOHN
+.M.1154945926
+Digitally signed by 
+TENAGLIA.JOHN.M.1154945926 
+Date: 2023.02.15 13:26:48 -05'00'
+
+--- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 129 ---
+Attachment  
+Class Deviation 2021-O0008, Revision 1 
+Limitations on Subcontracting for Small Business 
+Changes are indicated by a change bar in the right-hand margin. 
+ 
+52.219-14  Limitations on Subcontracting (DEVIATION 2021-O0008) 
+Use the following clause in lieu of the Federal Acquisition Regulation (FAR) clause 52.219-14, 
+as prescribed at FAR 19.507(e): 
+LIMITATIONS ON SUBCONTRACTING (FEB 2023) (DEVIATION 2021-O0008) 
+ (a)  This clause does not apply to the unrestricted portion of a partial set-aside. 
+ (b)  Definition.  Similarly situated entity, as used in this clause, means a first-tier 
+subcontractor, including an independent contractor, that—  
+  (1)  Has the same small business program status as that which qualified the prime 
+contractor for the award (e.g., for a small business set-aside contract, any small business concern, 
+without regard to its socioeconomic status); and 
+ 
+  (2)  Is considered small for the size standard under the North American Industry 
+Classification System (NAICS) code the prime contractor assigned to the subcontract. 
+ 
+ (c)  Applicability.  This clause applies only to—  
+ 
+  (1)  Contracts that have been set aside for any of the small business concerns identified in 
+19.000(a)(3); 
+ 
+  (2)  Part or parts of a multiple-award contract that have been set aside for any of the small 
+business concerns identified in 19.000(a)(3); 
+ 
+  (3)  Contracts that have been awarded on a sole-source basis in accordance with subparts 
+19.8, 19.13, 19.14, and 19.15; 
+ 
+  (4)  Orders expected to exceed the simplified acquisition threshold and that are—  
+  (i)  Set aside for small business concerns under multiple-award contracts, as described 
+in 8.405-5 and 16.505(b)(2)(i)(F); or 
+  (ii)  Issued directly to small business concerns under multiple-award contracts as 
+described in 19.504(c)(1)(ii); 
+  (5)  Orders, regardless of dollar value, that are—  
+   (i)  Set aside in accordance with subparts 19.8, 19.13, 19.14, or 19.15 under multiple-
+award contracts, as described in 8.405-5 and 16.505(b)(2)(i)(F); or 
+   (ii)  Issued directly to concerns that qualify for the programs described in subparts 
+19.8, 19.13, 19.14, or 19.15 under multiple-award contracts, as described in 19.504(c)(1)(ii); and 
+  (6)  Contracts using the HUBZone price evaluation preference to award to a HUBZone 
+small business concern unless the concern waived the evaluation preference.
+
+--- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 130 ---
+Attachment  
+Class Deviation 2021-O0008, Revision 1 
+Limitations on Subcontracting for Small Business 
+Changes are indicated by a change bar in the right-hand margin. 
+ 
+ (d)  Independent contractors. An independent contractor shall be considered a subcontractor. 
+ (e)  Limitations on subcontracting.  By submission of an offer and execution of a contract, 
+the Contractor agrees that in performance of a contract assigned a North American Industry 
+Classification System (NAICS) code for— 
+  (1)  Services (except construction), it will not pay more than 50 percent of the amount 
+paid by the Government for contract performance, excluding certain other direct costs and 
+certain work performed outside the United States (see paragraph (e)(1)(i)), to subcontractors that  
+are not similarly situated entities.  Any work that a similarly situated entity further subcontracts 
+will count towards the prime contractor’s 50 percent subcontract amount that cannot be 
+exceeded.  When a contract includes both services and supplies, the 50 percent limitation shall 
+apply only to the service portion of the contract.  The following services may be excluded from 
+the 50 percent limitation: 
+ 
+   (i)  Other direct costs, to the extent they are not the principal purpose of the 
+acquisition and small business concerns do not provide the service.  Examples include airline 
+travel, work performed by a transportation or disposal entity under a contract assigned the 
+environmental remediation NAICS code 562910), cloud computing services, or mass media 
+purchases.  
+   ( ii)  Work performed outside the United States on awards made pursuant to the 
+Foreign Assistance Act of 1961, or work performed outside the United States required to be 
+performed by a local contractor. 
+  (2)  Supplies (other than procurement from a nonmanufacturer of such supplies), it will 
+not pay more than 50 percent of the amount paid by the Government for contract performance, 
+excluding the cost of materials, to subcontractors that are not similarly situated entities.  Any 
+work that a similarly situated entity further subcontracts will count towards the prime 
+contractor’s 50 percent subcontract amount that cannot be exceeded.  When a contract includes 
+both supplies and services, the 50 percent limitation shall apply only to the supply portion of the 
+contract; 
+  (3)  General construction, it will not pay more than 85 percent of the amount paid by the 
+Government for contract performance, excluding the cost of materials, to subcontractors that are 
+not similarly situated entities.  Any work that a similarly situated entity further subcontracts will 
+count towards the prime contractor’s 85 percent subcontract amount that cannot be exceeded; or 
+  (4)  Construction by special trade contractors , it will not pay more than 75 percent of the 
+amount paid by the Government for contract performance, excluding the cost of materials, to 
+subcontractors that are not similarly situated entities.  Any work that a similarly situated entity 
+further subcontracts will count towards the prime contractor’s 75 percent subcontract amount 
+that cannot be exceeded. 
+ (f)  The Contractor shall comply with the limitations on subcontracting as follows: 
+  (1)  For contracts, in accordance with paragraphs (c)(1), (2), (3) and (6) of this clause –
+
+--- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 131 ---
+Attachment  
+Class Deviation 2021-O0008, Revision 1 
+Limitations on Subcontracting for Small Business 
+Changes are indicated by a change bar in the right-hand margin. 
+ 
+  [Contracting Officer check as appropriate.] 
+ __ By the end of the base term of the contract and then by the end of each subsequent 
+option period; or 
+ __ By the end of the performance period for each order issued under the contract. 
+  (2)  For orders, in accordance with paragraphs (c)(4) and (5) of this clause, by the end of 
+the performance period for the order. 
+ (g)  A joint venture agrees that, in the performance of the contract, the applicable percentage 
+specified in paragraph (e) of this clause will be performed by the aggregate of the joint venture 
+participants. 
+ (1)  In a joint venture comprised of a small business protégé and its mentor approved by 
+the Small Business Administration, the small business protégé shall perform at least 40 percent 
+of the work performed by the joint venture.  Work performed by the small business protégé in 
+the joint venture must be more than administrative functions. 
+ (2)  In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the 
+work performed by the joint venture.  Work performed by the 8(a) participants in the joint 
+venture must be more than administrative functions. 
+(End of clause)

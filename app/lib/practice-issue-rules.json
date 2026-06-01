@@ -257,7 +257,16 @@
     "expectedCitations": ["CD 2021-O0008 Revision 1"],
     "requests": [
       { "kind": "rfo_far", "part": "19", "reason": "Limitations on subcontracting baseline" },
-      { "kind": "dfars_rfo", "part": "219", "reason": "DoD small business overlay" }
+      { "kind": "dfars_rfo", "part": "219", "reason": "DoD small business overlay" },
+      {
+        "kind": "class_deviation",
+        "part": "19",
+        "reason": "CD 2021-O0008 Revision 1 limitations-on-subcontracting deviation",
+        "title": "Class Deviation 2021-O0008 Revision 1 - Limitations on Subcontracting for Small Business",
+        "url": "knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1",
+        "sourceType": "pdf",
+        "textPath": "knowledge/armor-gpt/pdf-text/CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt"
+      }
     ],
     "guidance": "For the noncommercial supply small-business set-aside scenario, the expected result under the identified deviation pathway is no under CD 2021-O0008 Revision 1; mark deviation source currency if not retrieved."
   },

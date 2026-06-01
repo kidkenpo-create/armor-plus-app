@@ -95,6 +95,27 @@ test('Part 252 approved PDF has an explicit local text mirror', () => {
   assert.doesNotMatch(fetcher, /replace\([^)]*\.pdf[^)]*\.txt/i, 'fetcher should not infer arbitrary .txt mirrors from PDF URLs');
 });
 
+test('FAR 52.219-14 route retrieves CD 2021-O0008 approved text mirror', () => {
+  const practiceRules = JSON.parse(read('app/lib/practice-issue-rules.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const registry = read('app/lib/source-registry.ts');
+  const mirrorPath = 'knowledge/armor-gpt/pdf-text/CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt';
+  const rule = practiceRules.find(item => item.id === 'limitations_on_subcontracting_class_deviation');
+  const request = rule?.requests?.find(item => item.kind === 'class_deviation' && item.textPath === mirrorPath);
+
+  assert.ok(request, 'FAR 52.219-14 limitations-on-subcontracting route should request the CD 2021-O0008 mirror');
+  assert.equal(request.url, 'knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1', 'CD 2021-O0008 mirror should preserve the approved PDF artifact URL');
+  assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'CD 2021-O0008 text mirror should exist');
+  const mirror = read(mirrorPath);
+  assert.match(mirror, /DARS Tracking Number:\s*2021-O0008,\s*Revision 1/i, 'mirror should contain the CD 2021-O0008 Revision 1 memo');
+  assert.match(mirror, /52\.219-14\s+Limitations on Subcontracting \(DEVIATION 2021-O0008\)/i, 'mirror should contain the deviation clause heading');
+  assert.match(mirror, /in lieu of the\s+clause at Federal Acquisition Regulation \(FAR\) 52\.219-14/i, 'mirror should contain the operative in-lieu-of text');
+  assert.match(fetcher, /if \(request\.kind === 'class_deviation'\)[\s\S]{0,180}request\.textPath/, 'class-deviation fetch should read an explicit text mirror before returning UTR');
+  assert.match(fetcher, /CD_2021_O0008_TEXT_PATH/, 'fetcher should approve the CD 2021-O0008 mirror explicitly');
+  assert.match(registry, /class deviation 2021-o0008/, 'source authority should recognize only the approved CD 2021-O0008 class-deviation mirror');
+  assert.doesNotMatch(fetcher, /replace\([^)]*\.pdf[^)]*\.txt/i, 'fetcher should not infer arbitrary class-deviation mirrors from PDF URLs');
+});
+
 test('source registry marks GSA submodules as background only, not approved controlling sources', () => {
   const registry = read('app/lib/source-registry.ts');
 
