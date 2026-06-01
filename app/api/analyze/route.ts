@@ -312,7 +312,7 @@ function issueSpecificInstruction(question: string) {
       'Treat this as clause_applicability with DoD assumed unless the user clearly says non-DoD.',
       'Before applying FAR 27.409, check the scope gate at FAR/RFO FAR 27.400 and the DFARS/RFO DFARS overlay at 227.400.',
       'For DoD, DFARS/RFO DFARS 227.400 redirects use to subparts 227.71 and 227.72 instead of FAR subpart 27.4.',
-      'Expected classroom determination for the stated scenario: No, FAR 52.227-14 is not required solely under FAR 27.409(b)(1); use the applicable DFARS technical-data framework instead.',
+      'Likely determination under the identified issue-family pathway: No, FAR 52.227-14 is not required solely under FAR 27.409(b)(1); use the applicable DFARS technical-data framework instead.',
       'For this exact scenario, the BLUF must be Conditional unless an active class-deviation source was retrieved and checked. Do not write Definitive when class-deviation currency is UTR.',
       'Mark Class Deviations as UTR if no active class-deviation source appears in LIVE REGULATORY CONTEXT. Do not claim "no deviations found" without a retrieved class-deviation source.',
       'For STEP 3B rung 5 in this issue, write exactly: "5. Class Deviations -- UTR: active class-deviation source not retrieved; no deviation-negative certification." unless a class-deviation source was actually retrieved.',
