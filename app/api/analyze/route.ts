@@ -17,13 +17,15 @@ interface ClientConversationMessage {
   content: string;
 }
 
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation' | 'force_full_analysis';
+
 export async function POST(req: NextRequest) {
   try {
     if (!process.env.OPENAI_API_KEY) {
       return jsonError('OPENAI_API_KEY is not configured on the server.', 500);
     }
 
-    const { question, messages: clientMessages } = await req.json();
+    const { question, messages: clientMessages, responseMode: clientResponseMode } = await req.json();
     if (!question || typeof question !== 'string' || question.trim().length === 0) {
       return jsonError('Question is required.', 400);
     }
@@ -41,28 +43,21 @@ export async function POST(req: NextRequest) {
           controller.enqueue(send({ meta: { model } }));
 
           const { context, routePlan } = await prefetchRelevantParts(retrievalPrompt);
-          controller.enqueue(send({ meta: { routePlan, model } }));
+          const responseMode = chooseResponseMode(prompt, history, routePlan, normalizeResponseMode(clientResponseMode));
+          controller.enqueue(send({ meta: { routePlan, model, responseMode, responseModeSource: 'client+server' } }));
           controller.enqueue(encoder.encode(': ARMOR sources retrieved\n\n'));
 
           const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
           const systemContent = [
-            ARMOR_SYSTEM_PROMPT,
+            promptForResponseMode(responseMode),
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
             sourceAuthorityInstruction(routePlan),
+            responseModeInstruction(responseMode),
             'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
             context || 'No direct source was retrieved. Mark UTR where source text is required.',
-            [
-              'TEMPLATE COMPLIANCE LOCK:',
-              'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
-              'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
-              'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
-              'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
-              'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
-              'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
-              'Before finalizing, self-check that all nine section headers are present.',
-            ].join('\n'),
+            templateInstruction(responseMode),
           ].join('\n\n');
 
           const messages: ChatCompletionMessageParam[] = [
@@ -142,6 +137,139 @@ function normalizeConversationMessages(input: unknown): ChatCompletionMessagePar
       role: message.role,
       content: message.content.trim().slice(0, 6000),
     }));
+}
+
+function normalizeResponseMode(input: unknown): ResponseMode | null {
+  if (
+    input === 'first_turn_full_analysis'
+    || input === 'follow_up_concise_continuation'
+    || input === 'force_full_analysis'
+  ) {
+    return input;
+  }
+  return null;
+}
+
+function chooseResponseMode(
+  prompt: string,
+  history: ChatCompletionMessageParam[],
+  routePlan: Array<{ label: string; url: string; status: string }>,
+  clientResponseMode: ResponseMode | null,
+): ResponseMode {
+  if (clientResponseMode === 'force_full_analysis') return 'force_full_analysis';
+  if (clientResponseMode === 'first_turn_full_analysis') return 'first_turn_full_analysis';
+  if (!history.length) return 'first_turn_full_analysis';
+
+  const lower = prompt.toLowerCase();
+  if (/(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(prompt)) {
+    return 'force_full_analysis';
+  }
+
+  const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
+  const promptCitations = extractCitationKeys(lower);
+  if (promptCitations.some(citation => !priorText.includes(citation))) return 'first_turn_full_analysis';
+
+  const hasLowConfidenceRoute = routePlan.length > 0 && routePlan.every(item => item.status !== 'R');
+  if (hasLowConfidenceRoute) return 'first_turn_full_analysis';
+
+  if (clientResponseMode === 'follow_up_concise_continuation') {
+    const currentFamily = issueFamily(lower);
+    const priorText = history.map(message => String(message.content || '')).join('\n').toLowerCase();
+    const priorFamily = issueFamily(priorText);
+    if (!currentFamily || currentFamily === priorFamily) return 'follow_up_concise_continuation';
+  }
+
+  const currentFamily = issueFamily(lower);
+  const priorFamily = issueFamily(priorText);
+  if (currentFamily && currentFamily === priorFamily) return 'follow_up_concise_continuation';
+
+  if (/^(what about|what if|and if|so|does that mean|can you clarify|clarify|explain that|make it shorter|draft|turn that into|write an email|write a memo)/i.test(prompt.trim())) {
+    return 'follow_up_concise_continuation';
+  }
+
+  return 'first_turn_full_analysis';
+}
+
+function extractCitationKeys(text: string) {
+  return [...text.matchAll(/\b(?:rfo\s+far|far|dfars\s+rfo|dfars|pgi)?\s*(2?\d{1,2}\.\d+(?:-\d+)?(?:\([a-z0-9]+\))*)/gi)]
+    .map(match => match[1].toLowerCase());
+}
+
+function issueFamily(text: string) {
+  const families: Array<[string, RegExp]> = [
+    ['debriefing', /(debrief|preaward|pre-award|exclusion|15\.206|15\.505)/i],
+    ['detainee', /(detainee|enemy prisoner|epw|interrogat|contractor personnel|237\.873)/i],
+    ['warranty-germany', /(52\.246-21|warranty|construction.*germany|germany.*construction|246\.710)/i],
+    ['sealed-bidding', /(two[- ]step sealed|sealed bidding|first step|technical proposals?|equal low bids?|14\.211|14\.308)/i],
+    ['technical-data', /(52\.227-14|technical data|27\.409|rights in data)/i],
+    ['acquisition-plan', /(acquisition plan|acquisition planning|responsible for.*plan|207\.104-70)/i],
+    ['thresholds', /(section 807|threshold|inflation|201\.108|1\.108)/i],
+    ['subcontracting', /(limitations on subcontracting|subcontracting|small business|2021-o0008|19\.505|19\.507|219\.)/i],
+  ];
+
+  return families.find(([, pattern]) => pattern.test(text))?.[0] || '';
+}
+
+function responseModeInstruction(responseMode: ResponseMode) {
+  if (responseMode === 'first_turn_full_analysis' || responseMode === 'force_full_analysis') {
+    return [
+      `RESPONSE MODE: ${responseMode}.`,
+      'Use full ARMOR format for first questions, major issue changes, low-confidence source status, new controlling citations, correction requests, requests for more research, or explicit requests for full reasoning.',
+    ].join('\n');
+  }
+
+  return [
+    'RESPONSE MODE: follow_up_concise_continuation.',
+    'This instruction supersedes the full STEP output template for this response only. Continue to run the internal ARMOR gates and source-authority checks, but do not print the full STEP structure, Rungs 1-8, or Final Receipt unless a full-analysis trigger applies.',
+    'This is a same-issue-family follow-up. Preserve all RFO FAR / DFARS RFO source-authority restrictions internally.',
+    'Use only these visible headings, in this order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+    'If you determine the follow-up actually introduces a new issue family, new controlling citation, material class-deviation effect, low confidence, or correction to the prior answer, say you are switching to full ARMOR analysis and then use the full template.',
+  ].join('\n');
+}
+
+function templateInstruction(responseMode: ResponseMode) {
+  if (responseMode === 'follow_up_concise_continuation') {
+    return [
+      'CONCISE FOLLOW-UP TEMPLATE LOCK:',
+      'Return every concise heading exactly once and in this exact order: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+      'Do not include "0) BLUF", STEP 1-7, STEP 3B, Rungs 1-8, P1/P2 logs, or Self-Verification in the visible answer.',
+      'Do not use the words "STEP 1", "STEP 2", "STEP 3A", "STEP 3B", "Rungs", "Final Receipt", or "Self-Verification" in concise continuation mode.',
+      'Use prior chat turns for continuity and cite only retrieved approved authority from LIVE REGULATORY CONTEXT or mark UTR.',
+    ].join('\n');
+  }
+
+  return [
+    'TEMPLATE COMPLIANCE LOCK:',
+    'Return every required section exactly once and in this exact order: 0) BLUF, STEP 1, STEP 2, STEP 3A, STEP 3B, STEP 4, STEP 5, STEP 6, STEP 7.',
+    'Do not omit STEP 1 or STEP 4. If no acquisition facts are provided, write "STEP 1 -- Acquisition Facts: N/A."',
+    'STEP 4 is always required. If the synthesis is brief, still write 2 concise sentences.',
+    'If the live context contains a retrieved source URL, include that URL in the matching rung. Do not mark a retrieved source as Silent or N/A.',
+    'If this is a follow-up correction or request for more research, use the prior chat turns for continuity, but update the final answer when the retrieved authority or user correction requires it.',
+    'When correcting an earlier answer, explicitly identify the corrected controlling citation in STEP 5 and final determination.',
+    'Before finalizing, self-check that all nine section headers are present.',
+  ].join('\n');
+}
+
+function promptForResponseMode(responseMode: ResponseMode) {
+  if (responseMode !== 'follow_up_concise_continuation') return ARMOR_SYSTEM_PROMPT;
+
+  return [
+    'SYSTEM — DoD Contracting Copilot (RFO FAR + DFARS RFO Class Deviations)',
+    '',
+    'IDENTITY: CAC-defensible RFO FAR/DFARS RFO analysis. Tone: WarU professor. Preserve source discipline and cite traceable authority.',
+    '',
+    'FOLLOW-UP CONTINUATION MODE (HARD OVERRIDE): This response is a routine same-topic continuation. Continue from the prior answer. Do not restart the full ARMOR receipt unless a full-analysis trigger appears.',
+    '',
+    'INTERNAL METHOD: Run the source-authority check, DFARS RFO overlay check, class-deviation materiality check, and citation verification internally before answering. Keep those checks internal unless the answer must switch to full analysis.',
+    '',
+    'SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR and data/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.',
+    '',
+    'VISIBLE OUTPUT: Use only these headings: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
+    '',
+    'DO NOT DISPLAY in routine concise mode: 0) BLUF, STEP 1-7, STEP 3A, STEP 3B, Rungs 1-8, P1/P2 logs, Final Receipt, Self-Verification, or a complete route log.',
+    '',
+    'SWITCH TO FULL ARMOR ANALYSIS ONLY IF: issue family changes, new controlling citation is required, source confidence is low, retrieval is incomplete in a way that affects the answer, class-deviation status materially affects the answer, the user asks for full analysis, or the user asks to correct/research more.',
+  ].join('\n');
 }
 
 function issueSpecificInstruction(question: string) {

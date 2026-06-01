@@ -205,6 +205,51 @@
   font-weight: 400;
 }
 
+.composerPanel > .queryTextarea,
+.composerPanel > .composerFooter {
+  display: none;
+}
+
+.chatComposer {
+  display: grid;
+  gap: 0;
+  margin: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.chatComposer .queryTextarea {
+  min-height: 128px;
+  max-height: 220px;
+}
+
+.composerTitle {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--border);
+  background: #fbfdff;
+}
+
+.composerTitle span {
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.composerTitle small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 650;
+}
+
 .composerFooter {
   display: flex;
   align-items: center;
@@ -421,6 +466,14 @@
   margin: 14px;
 }
 
+.desktopTrace {
+  display: block;
+}
+
+.mobileTrace {
+  display: none;
+}
+
 .proofPanel .traceRows {
   grid-template-columns: 1fr;
 }
@@ -555,6 +608,10 @@
   overflow: hidden;
 }
 
+.tracePanel[open] {
+  border-color: rgba(34, 103, 190, 0.22);
+}
+
 .evidencePanel {
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -636,8 +693,29 @@
   justify-content: space-between;
   gap: 12px;
   padding: 0 14px;
-  border-bottom: 1px solid var(--border);
   background: #fbfdff;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tracePanel[open] .traceHeader {
+  border-bottom: 1px solid var(--border);
+}
+
+.traceHeader::-webkit-details-marker {
+  display: none;
+}
+
+.traceHeader::after {
+  content: '+';
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tracePanel[open] .traceHeader::after {
+  content: '-';
 }
 
 .traceHeader span {
@@ -964,6 +1042,30 @@
   box-shadow: none;
 }
 
+.conciseCard {
+  border-left: 4px solid rgba(34, 103, 190, 0.45);
+  background: #fbfdff;
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.showFullBtn {
+  justify-self: start;
+  min-height: 30px;
+  border: 1px solid rgba(34, 103, 190, 0.25);
+  border-radius: 7px;
+  padding: 0 11px;
+  background: #fff;
+  color: var(--accent);
+  font: 800 11px/1 var(--sans);
+  cursor: pointer;
+}
+
+.showFullBtn:hover {
+  background: var(--accentWash);
+}
+
 .timestamp {
   color: var(--muted);
   font-size: 11px;
@@ -1052,6 +1154,15 @@
 
   .traceRows {
     grid-template-columns: 1fr;
+  }
+
+  .desktopTrace {
+    display: none;
+  }
+
+  .mobileTrace {
+    display: block;
+    margin: 0 18px 18px;
   }
 
   .traceRow {

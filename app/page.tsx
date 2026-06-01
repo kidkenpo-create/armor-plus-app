@@ -13,7 +13,10 @@ interface ParsedOutput {
 interface AnalyzeResponseMeta {
   routePlan?: SourcePlanItem[];
   model?: string;
+  responseMode?: ResponseMode;
 }
+
+type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation' | 'force_full_analysis';
 
 interface SourcePlanItem {
   label: string;
@@ -31,6 +34,7 @@ interface ChatTurn {
   routePlan?: SourcePlanItem[];
   timestamp?: string;
   model?: string;
+  responseMode?: ResponseMode;
 }
 
 interface ApiConversationMessage {
@@ -209,6 +213,42 @@ function routingContext(turns: ChatTurn[], question: string) {
   return [...turns.slice(-4).map(turn => turn.content), question].join('\n\n');
 }
 
+function explicitFullRequest(value: string) {
+  return /(show full|full analysis|full armor|complete step|complete armor|rungs? 1-8|step\s*[1-7]|final receipt|full reasoning|run the full|research more|deeper research|wrong|incorrect|correct the answer|new controlling|controlling citation|class deviation|deviation)/i.test(value);
+}
+
+function issueFamilyForText(value: string) {
+  const families: Array<[string, RegExp]> = [
+    ['debriefing', /(debrief|preaward|pre-award|exclusion|15\.206|15\.505)/i],
+    ['detainee', /(detainee|enemy prisoner|epw|interrogat|contractor personnel|237\.873)/i],
+    ['warranty-germany', /(52\.246-21|warranty|construction.*germany|germany.*construction|246\.710)/i],
+    ['sealed-bidding', /(two[- ]step sealed|sealed bidding|first step|technical proposals?|equal low bids?|14\.211|14\.308)/i],
+    ['technical-data', /(52\.227-14|technical data|27\.409|rights in data)/i],
+    ['acquisition-plan', /(acquisition plan|acquisition planning|responsible for.*plan|207\.104-70)/i],
+    ['thresholds', /(section 807|threshold|inflation|201\.108|1\.108)/i],
+    ['subcontracting', /(limitations on subcontracting|subcontracting|small business|2021-o0008|19\.505|19\.507|219\.)/i],
+  ];
+  return families.find(([, pattern]) => pattern.test(value))?.[0] || '';
+}
+
+function citationKeys(value: string) {
+  return [...value.matchAll(/\b(?:rfo\s+far|far|dfars\s+rfo|dfars|pgi)?\s*(2?\d{1,2}\.\d+(?:-\d+)?(?:\([a-z0-9]+\))*)/gi)]
+    .map(match => match[1].toLowerCase());
+}
+
+function responseModeForClient(prompt: string, turns: ChatTurn[]): ResponseMode {
+  const historyText = turns.map(turn => turn.content).join('\n').toLowerCase();
+  if (!turns.some(turn => turn.role === 'assistant' && turn.content.trim())) return 'first_turn_full_analysis';
+  if (explicitFullRequest(prompt)) return 'force_full_analysis';
+  if (citationKeys(prompt).some(citation => !historyText.includes(citation))) return 'first_turn_full_analysis';
+
+  const promptFamily = issueFamilyForText(prompt);
+  const historyFamily = issueFamilyForText(historyText);
+  if (promptFamily && historyFamily && promptFamily !== historyFamily) return 'first_turn_full_analysis';
+
+  return 'follow_up_concise_continuation';
+}
+
 function chatTitleFromTurns(turns: ChatTurn[]) {
   const firstQuestion = turns.find(turn => turn.role === 'user')?.content.trim() || 'Untitled ARMOR chat';
   const compact = firstQuestion.replace(/\s+/g, ' ');
@@ -225,6 +265,11 @@ function normalizeStoredTurn(turn: ChatTurn): ChatTurn {
     routePlan: Array.isArray(turn.routePlan) ? turn.routePlan : undefined,
     timestamp: typeof turn.timestamp === 'string' ? turn.timestamp : undefined,
     model: typeof turn.model === 'string' ? turn.model : undefined,
+    responseMode: turn.responseMode === 'follow_up_concise_continuation'
+      ? 'follow_up_concise_continuation'
+      : turn.responseMode === 'force_full_analysis'
+        ? 'force_full_analysis'
+        : 'first_turn_full_analysis',
   };
 }
 
@@ -302,10 +347,20 @@ function StepBlock({ num, title, content }: { num: string; title: string; conten
   );
 }
 
-function AssistantAnswer({ content, parsed }: { content: string; parsed?: ParsedOutput | null }) {
+function AssistantAnswer({
+  content,
+  parsed,
+  responseMode = 'first_turn_full_analysis',
+}: {
+  content: string;
+  parsed?: ParsedOutput | null;
+  responseMode?: ResponseMode;
+}) {
   const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
 
-  if (!hasStructured) return <pre className={styles.rawCard}>{content}</pre>;
+  if (!hasStructured) {
+    return <pre className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>{content}</pre>;
+  }
 
   return (
     <>
@@ -317,7 +372,13 @@ function AssistantAnswer({ content, parsed }: { content: string; parsed?: Parsed
   );
 }
 
-function ConversationMessage({ turn }: { turn: ChatTurn }) {
+function ConversationMessage({
+  turn,
+  onShowFullAnalysis,
+}: {
+  turn: ChatTurn;
+  onShowFullAnalysis: () => void;
+}) {
   if (turn.role === 'user') {
     return (
       <article className={`${styles.chatMessage} ${styles.userMessage}`}>
@@ -334,7 +395,14 @@ function ConversationMessage({ turn }: { turn: ChatTurn }) {
         {turn.timestamp && <small>{turn.timestamp}</small>}
       </div>
       {turn.content ? (
-        <AssistantAnswer content={turn.content} parsed={turn.parsed} />
+        <>
+          <AssistantAnswer content={turn.content} parsed={turn.parsed} responseMode={turn.responseMode} />
+          {turn.responseMode === 'follow_up_concise_continuation' && (
+            <button className={styles.showFullBtn} type="button" onClick={onShowFullAnalysis}>
+              Show full analysis
+            </button>
+          )}
+        </>
       ) : (
         <div className={styles.pendingAnswer}>Researching the route and drafting the answer...</div>
       )}
@@ -407,7 +475,9 @@ function SourcesEvidencePanel({
 
       {(streaming || done) && (
         <>
-          <ResearchTrace items={items} streaming={streaming} done={done} model={model} />
+          <div className={styles.desktopTrace}>
+            <ResearchTrace items={items} streaming={streaming} done={done} model={model} />
+          </div>
           <EvidenceSnapshot items={items} />
         </>
       )}
@@ -483,11 +553,11 @@ function ResearchTrace({
   ];
 
   return (
-    <section className={styles.tracePanel}>
-      <div className={styles.traceHeader}>
+    <details className={styles.tracePanel}>
+      <summary className={styles.traceHeader}>
         <span>Research Trace</span>
-        <small>Visible audit path, not hidden model reasoning</small>
-      </div>
+        <small>Visible audit path</small>
+      </summary>
       <div className={styles.traceRows}>
         {rows.map(row => (
           <div key={row.label} className={styles.traceRow}>
@@ -499,7 +569,7 @@ function ResearchTrace({
           </div>
         ))}
       </div>
-    </section>
+    </details>
   );
 }
 
@@ -521,6 +591,7 @@ export default function Home() {
   const rawRef = useRef('');
   const taRef = useRef<HTMLTextAreaElement>(null);
   const streamRef = useRef<HTMLDivElement>(null);
+  const conversationEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setChatSessions(readChatSessions());
@@ -539,8 +610,8 @@ export default function Home() {
 
   useEffect(() => {
     if (!streamRef.current || !hasConversation) return;
-    streamRef.current.lastElementChild?.scrollIntoView({ block: 'start', behavior: 'smooth' });
-  }, [turns, hasConversation]);
+    conversationEndRef.current?.scrollIntoView({ block: 'end', behavior: 'smooth' });
+  }, [turns, rawOutput, streaming, hasConversation]);
 
   useEffect(() => {
     if (!historyLoaded || !activeSessionId || !turns.some(turn => turn.content.trim())) return;
@@ -612,6 +683,11 @@ export default function Home() {
     if (session.model || lastAssistant?.model) setModel(session.model || lastAssistant?.model || model);
   }, [model]);
 
+  const requestFullAnalysis = useCallback(() => {
+    setQuestion('Show full analysis for the prior answer, including the complete ARMOR STEP structure and final receipt.');
+    window.setTimeout(() => taRef.current?.focus(), 0);
+  }, []);
+
   const runAnalysis = useCallback(async () => {
     const prompt = question.trim();
     if (!prompt) {
@@ -631,10 +707,12 @@ export default function Home() {
     const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
     const assistantTurnId = newTurnId();
     const routeQuestion = routingContext(turns, prompt);
+    let responseMode = responseModeForClient(prompt, turns);
+    console.info('[ARMOR responseMode request]', responseMode);
     setTurns(current => [
       ...current,
       userTurn,
-      { id: assistantTurnId, role: 'assistant', content: '', parsed: null, routePlan: routePreview(routeQuestion), model },
+      { id: assistantTurnId, role: 'assistant', content: '', parsed: null, routePlan: routePreview(routeQuestion), model, responseMode },
     ]);
     setQuestion('');
     setRoutePlan(routePreview(routeQuestion));
@@ -646,7 +724,7 @@ export default function Home() {
       const response = await fetch('/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: prompt, messages: history }),
+        body: JSON.stringify({ question: prompt, messages: history, responseMode }),
       });
 
       if (!response.ok) {
@@ -657,10 +735,12 @@ export default function Home() {
       const metaHeader = response.headers.get('x-armor-meta');
       if (metaHeader) {
         const meta = JSON.parse(decodeURIComponent(metaHeader)) as AnalyzeResponseMeta;
+        if (meta.responseMode) responseMode = meta.responseMode;
+        console.info('[ARMOR responseMode server]', responseMode);
         if (meta.routePlan?.length) {
           setRoutePlan(meta.routePlan);
           setTurns(current => current.map(turn => (
-            turn.id === assistantTurnId ? { ...turn, routePlan: meta.routePlan, model: meta.model || turn.model } : turn
+            turn.id === assistantTurnId ? { ...turn, routePlan: meta.routePlan, model: meta.model || turn.model, responseMode } : turn
           )));
         }
         if (meta.model) {
@@ -683,10 +763,12 @@ export default function Home() {
           const json = JSON.parse(data) as { text?: string; meta?: AnalyzeResponseMeta; error?: string };
           if (json.error) throw new Error(json.error);
           if (json.meta) {
+            if (json.meta.responseMode) responseMode = json.meta.responseMode;
+            console.info('[ARMOR responseMode stream]', responseMode);
             if (json.meta.routePlan?.length) {
               setRoutePlan(json.meta.routePlan);
               setTurns(current => current.map(turn => (
-                turn.id === assistantTurnId ? { ...turn, routePlan: json.meta?.routePlan, model: json.meta?.model || turn.model } : turn
+                turn.id === assistantTurnId ? { ...turn, routePlan: json.meta?.routePlan, model: json.meta?.model || turn.model, responseMode } : turn
               )));
             }
             if (json.meta.model) {
@@ -699,9 +781,9 @@ export default function Home() {
           rawRef.current += json.text;
           setRawOutput(rawRef.current);
           setTurns(current => current.map(turn => (
-            turn.id === assistantTurnId ? { ...turn, content: rawRef.current } : turn
+            turn.id === assistantTurnId ? { ...turn, content: rawRef.current, responseMode } : turn
           )));
-          if (streamRef.current) streamRef.current.scrollTop = streamRef.current.scrollHeight;
+          conversationEndRef.current?.scrollIntoView({ block: 'end', behavior: 'smooth' });
         }
       }
 
@@ -711,7 +793,7 @@ export default function Home() {
       setTimestamp(completed);
       setTurns(current => current.map(turn => (
         turn.id === assistantTurnId
-          ? { ...turn, content: rawRef.current, parsed: finalParsed, timestamp: completed, model: responseModel }
+          ? { ...turn, content: rawRef.current, parsed: finalParsed, timestamp: completed, model: responseModel, responseMode }
           : turn
       )));
       setDone(true);
@@ -734,6 +816,33 @@ export default function Home() {
   const handleKeyDown = useCallback((event: React.KeyboardEvent) => {
     if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) runAnalysis();
   }, [runAnalysis]);
+
+  const chatComposer = (
+    <div className={styles.chatComposer}>
+      <div className={styles.composerTitle}>
+        <span>{hasConversation ? 'Continue this chat' : 'Ask ARMOR'}</span>
+        <small>Ctrl/⌘ + Enter</small>
+      </div>
+      <textarea
+        ref={taRef}
+        className={styles.queryTextarea}
+        placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
+        value={question}
+        onChange={event => {
+          setQuestion(event.target.value);
+          setRoutePlan(routePreview(routingContext(turns, event.target.value)));
+        }}
+        onKeyDown={handleKeyDown}
+        rows={5}
+      />
+      <div className={styles.composerFooter}>
+        <button className={styles.primaryBtn} onClick={runAnalysis} disabled={streaming}>
+          {streaming ? 'Analyzing...' : hasConversation ? 'Send follow-up' : 'Run ARMOR analysis'}
+        </button>
+        <span>{hasConversation ? 'Follow-ups append below this thread and include recent context server-side.' : 'Server-side key. Browser never sees `OPENAI_API_KEY`.'}</span>
+      </div>
+    </div>
+  );
 
   return (
     <div className={styles.page}>
@@ -763,7 +872,7 @@ export default function Home() {
             <small>Ctrl/⌘ + Enter</small>
           </div>
           <textarea
-            ref={taRef}
+            aria-hidden="true"
             className={styles.queryTextarea}
             placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
             value={question}
@@ -819,7 +928,22 @@ export default function Home() {
 
           {hasConversation && (
             <div className={styles.conversationList} ref={streamRef}>
-              {turns.map(turn => <ConversationMessage key={turn.id} turn={turn} />)}
+              {turns.map(turn => (
+                <ConversationMessage
+                  key={turn.id}
+                  turn={turn}
+                  onShowFullAnalysis={requestFullAnalysis}
+                />
+              ))}
+              <div ref={conversationEndRef} />
+            </div>
+          )}
+
+          {chatComposer}
+
+          {(streaming || done) && (
+            <div className={styles.mobileTrace}>
+              <ResearchTrace items={visibleRoute} streaming={streaming} done={done} model={model} />
             </div>
           )}
         </section>
