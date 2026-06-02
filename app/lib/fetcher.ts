@@ -268,7 +268,7 @@ function urlFor(request: SourceRequest): string {
     return 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-PGI-RFO-PART-212-Attachment-2.txt';
   }
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
-  if (request.kind === 'class_deviation') return `knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#part-${request.part}`;
+  if (request.kind === 'class_deviation') return `/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#part-${request.part}`;
   return RFO_CONVENTIONS_URL;
 }
 

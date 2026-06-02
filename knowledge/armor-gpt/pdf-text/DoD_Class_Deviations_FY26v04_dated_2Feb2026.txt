@@ -1,4 +1,4 @@
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 1 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 1 ---
 Class Deviations)HEUXDU\
 The Principal Director of Defense Pricing, Contracting, and
 Acquisition Policy (DPCAP) issues class deviations when necessary
@@ -123,7 +123,7 @@ VLJQDWXUHDUHDYDLODEOHDW
 KWWSVZZZDFTRVGPLO 
 GSDSGDUV FODVVBGHYLDWLRQVKWPO
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 2 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 2 ---
 (22 May 2024)
 Attachment, Class Deviation 2024-O0013, Revision 1 –
 Safeguarding Covered Defense Information and Cyber
@@ -195,7 +195,7 @@ Executive Order 14026, Increasing the Minimum Wage for Federal
 Contractors
 (4 October 2023)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 3 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 3 ---
 Class Deviation 2023-O0008 – Commercial Products and
 Commercial Services Omnibus Clause for Acquisitions Using the
 Procurement Desktop-Defense System
@@ -263,7 +263,7 @@ Class Deviation 2020-O0016 – Original Documents, Signatures,
 Seals, and Notarization
 (30 April 2020)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 4 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 4 ---
 Attachment 1, Class Deviation 2020-O0016 – Original
 Documents, Signatures, Seals, and Notarization
 (30 April 2020)
@@ -333,7 +333,7 @@ Personnel Performing in the United States Central Command
 Area of Responsibility
 (15 September 2017)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 5 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 5 ---
 Class Deviation 2016-O0008 - Contractor Personnel Performing
 in United States Africa Command Area of Responsibility
 (10 June 2016)
@@ -381,7 +381,7 @@ Significant Contract Termination
 This page last updated: February 2, 2026 Accessibility/Section 508USA.govWeb PolicyExternal Links DisclaimerFreedom of InformationDoD No FEAR ActDoD Inspector GeneralPrivacy and Security
 Download PDF Viewer | Download Word Doc Viewer | Download PowerPoint Viewer | Download Excel Viewer
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 6 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 6 ---
 OFFICE OF THE ASSISTANT SECRETARY OF WAR
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20301-3000 
@@ -427,7 +427,7 @@ A
 ll contract actions including deviation clause 252.232-7998, Obligations in Advance of 
 Fiscal Year 2026 Funding (DEVIATION 2026-O0044), must be appropriately authorized in
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 7 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 7 ---
 Class Deviation 2026-O0044 
 Contract Obligations In Advance of Fiscal Year 2026 Funds 
 Page 2 of 2 
@@ -449,7 +449,7 @@ A
 ttachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 8 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 8 ---
 Attachment 
 Class Deviation 2026-O0044 
 Contract Obligations in Advance of Fiscal Year 2026 Appropriations 
@@ -477,7 +477,7 @@ Contracting Officer for this contractual action.
 (
 End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 9 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 9 ---
 OFFICE OF THE ASSISTANT SECRETARY OF WAR
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20301-3000 
@@ -523,7 +523,7 @@ A
 ttachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 10 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 10 ---
 Attachment A1 
 Class Deviation 2026-O0033 
 Acquisition of Dinnerware and Stainless Steel Flatware 
@@ -546,7 +546,7 @@ his paragraph (c), in subcontracts, including subcontracts for commercial items,
 acquisition of dinnerware or stainless-steel flatware. 
 (End of clau se)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 11 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 11 ---
 OF
 FICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON
@@ -595,7 +595,7 @@ manufacturing semiconductors; and tools for designing semiconductors.
 “Hu
 awei” means—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 12 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 12 ---
 DARS Tracking Number: 2025-O0007 
 Prohibition on the Procurement of Covered Semiconductor Products and Services from   
 Companies Providing Covered Semiconductor Products and Services to Huawei 
@@ -636,7 +636,7 @@ A
 ttachments: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 13 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 13 ---
 Attachment 1 
 Class Deviation 2025-O0007 
 Prohibition on the Procurement of Covered Semiconductor Products and Services from   
@@ -686,7 +686,7 @@ not knowingly provide covered semiconductor products and services to Huawei, as
 described in paragraphs (a) and (b) of this provision, in the performance of any 
 contract resulting from this solicitation.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 14 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 14 ---
 Attachment 1 
 Class Deviation 2025-O0007 
 Prohibition on the Procurement of Covered Semiconductor Products and Services from   
@@ -695,7 +695,7 @@ Page 2 of 2
 (
 End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 15 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 15 ---
 Attachment A2 
 Class Deviation 2025-O0007 
 Prohibition on the Procurement of Covered Semiconductor Products and Services from   
@@ -745,7 +745,7 @@ Technologies Company.
 (
 End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 16 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 16 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
@@ -788,7 +788,7 @@ Principal Director,
 Defense Pricing, Contracting, and 
 Acquisition Policy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 17 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 17 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
@@ -839,7 +839,7 @@ and Commercial Services.
 (iii) 52.212-5, Contract Terms and Conditions Required To Implement Statutes
 or Executive Orders—Commercial Products and Commercial Services .
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 18 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 18 ---
 Class Deviation 2024-O0004 
 Revocation of Executive Order on Sustainability 
  
@@ -890,7 +890,7 @@ Policy
 Attachments: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 19 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 19 ---
 Attachment 1 
 Class Deviation 2025-O0004 
 Revocation of Executive Order on Sustainable Procurement 
@@ -931,7 +931,7 @@ The term includes, with respect to forestry materials, forest products that meet
 requirements, notwithstanding the market share the product holds, the age of the product, or 
 whether the market for the product is new or emerging. (7 U.S.C. 8101) (7 CFR 3201.2).
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 20 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 20 ---
 Attachment 1 
 Class Deviation 2025-O0004 
 Revocation of Executive Order on Sustainable Procurement 
@@ -978,7 +978,7 @@ performed by contractors performing management and operation of Government-owned
 to the same extent that, at the time of award, an agency would be required to comply if an agency 
 operated or supported the facility.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 21 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 21 ---
 Attachment 1 
 Class Deviation 2025-O0004 
 Revocation of Executive Order on Sustainable Procurement 
@@ -994,7 +994,7 @@ determining which statutory purchasing programs apply to a specific product or s
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 22 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 22 ---
 Attachment 2 
 Class Deviation 2025-O0004 
 Revocation of Executive Order on Sustainable Procurement 
@@ -1035,7 +1035,7 @@ Contracting Officer has indicated as being incorporated in this contract by refe
 implement provisions of law or Executive orders applicable to acquisitions of commercial 
 products and commercial services: [Contracting Officer check as appropriate.]
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 23 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 23 ---
 Attachment 2 
 Class Deviation 2025-O0004 
 Revocation of Executive Order on Sustainable Procurement 
@@ -1067,7 +1067,7 @@ sustainable products and services that apply to the acquisition).
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 24 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 24 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -1122,7 +1122,7 @@ Employment Opportunity for Construction.
 (d)  52.222-24, Preaward On-Site Equal Opportunity Compliance Evaluation. 
 (e)  52.222-25, Affirmative Action Compliance.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 25 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 25 ---
 Class Deviation 2025-O0003 
 Restoring Merit-Based Opportunity in Federal Contracts 
  
@@ -1173,7 +1173,7 @@ Acquisition Policy
 Attachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 26 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 26 ---
 Attachment 1 
 Class Deviation 2025-O0003 
 Restoring Merit-Based Opportunity in Federal Contracts 
@@ -1227,7 +1227,7 @@ EXECUTIVE ORDERS—COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 27 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 27 ---
 Attachment 1 
 Class Deviation 2025-O0003 
 Restoring Merit-Based Opportunity in Federal Contracts 
@@ -1281,7 +1281,7 @@ PRODUCTS AND COMMERCIAL SERVICES)
  
  (a)  * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 28 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 28 ---
 Attachment 1 
 Class Deviation 2025-O0003 
 Restoring Merit-Based Opportunity in Federal Contracts 
@@ -1330,7 +1330,7 @@ SUBCONTRACTS FOR COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (MAR
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 29 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 29 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -1389,7 +1389,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2025.06.02 15:28:20 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 30 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 30 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
@@ -1435,7 +1435,7 @@ o U
 ses network connectivity or data storage located in, or administered by an entity
 domiciled in, a covered foreign country; or
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 31 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 31 ---
 DARS Tracking Number: 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
  
@@ -1485,7 +1485,7 @@ Secretary of Defense may waive the prohibition on a case-by-case basis by certif
 to the congressional defense committees that the procurement is required in the national interest 
 of the United States.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 32 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 32 ---
 DARS Tracking Number: 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
  
@@ -1517,7 +1517,7 @@ TENAGLIA.JOHN.M.1154945926
 Date: 2024.08.28 18:22:23 
 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 33 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 33 ---
 Attachment 
 Class Deviation 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -1569,7 +1569,7 @@ covered foreign country;
    (iii)  Uses a ground control system or operating software developed in a 
 covered foreign country, or by an entity domiciled in a covered foreign country; or
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 34 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 34 ---
 Attachment 
 Class Deviation 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -1621,7 +1621,7 @@ solicitation.
  
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 35 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 35 ---
 Attachment 
 Class Deviation 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -1674,7 +1674,7 @@ services or equipment, that—
    (i)  Is manufactured in a covered foreign country, or by an entity 
 domiciled in a covered foreign country;
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 36 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 36 ---
 Attachment 
 Class Deviation 2024-O0014 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -1726,7 +1726,7 @@ services.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 37 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 37 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20 301-3000 
@@ -1780,7 +1780,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2024.05.22 17:25:46 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 38 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 38 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -1830,7 +1830,7 @@ covered defense information.
 other information, as described in the Controlled Unclassified Information (CUI) 
 Registry at http://www.archives.gov/cui/registry/category-list.html, that requires
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 39 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 39 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -1880,7 +1880,7 @@ the Armed Forces in a contingency operation.
  Technical information means technical data or computer software, as those terms 
 are defined in the clause at DFARS 252.227-7013, Rights in Technical Data— Other
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 40 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 40 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -1930,7 +1930,7 @@ award.
     (B)  The Contractor shall submit requests to vary from NIST SP 800-171 
 in writing to the Contracting Officer, for consideration by the DoD CIO.  The Contractor
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 41 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 41 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -1979,7 +1979,7 @@ specific data, and user accounts.  This review shall also include analyzing cove
 contractor information system(s) that were part of the cyber incident, as well as other 
 information systems on the Contractor’s network(s), that may have been accessed as a
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 42 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 42 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -2029,7 +2029,7 @@ under this clause that includes contractor attributional/proprietary information
 including such information submitted in accordance with paragraph (c).  To the 
 maximum extent practicable, the Contractor shall identify and mark
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 43 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 43 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -2079,7 +2079,7 @@ disclosure of electronic communications and data.
  
  (l)  Other safeguarding or reporting requirements.  The safeguarding and cyber
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 44 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 44 ---
 Attachment 
 Class Deviation 2024-O0013, Revision 1 
 Safeguarding Covered Defense Information and Cyber Incident Reporting 
@@ -2114,7 +2114,7 @@ reporting a cyber incident to DoD as required in paragraph (c) of this clause.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 45 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 45 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
@@ -2164,7 +2164,7 @@ ombatant command” means any of the following:
 (1
 ) United States Africa Command .
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 46 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 46 ---
 Class Deviation 2024-O0011 
 Special Acquisition Authority for Rapid Contracting for Combatant Commanders 
 Page 2 of 4 
@@ -2214,7 +2214,7 @@ greater than $15 million.
 Contracting officers may treat acquisitions of supplies or services made pursuant to
 this deviation as acquisitions of commercial products or commercial services.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 47 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 47 ---
 Class Deviation 2024-O0011 
 Special Acquisition Authority for Rapid Contracting for Combatant Commanders 
 (C) P
@@ -2257,7 +2257,7 @@ shall notify DPC via email at osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil that the
 operation has ended.  
 Page 3 of 4
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 48 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 48 ---
 Class Deviation 2024-O0011 
 Special Acquisition Authority for Rapid Contracting for Combatant Commanders 
 Page 4 of 4 
@@ -2278,7 +2278,7 @@ TENAGLIA.JOHN.M.1154
 Date: 2024.04.15 
 11:06:18 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 49 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 49 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20 301-3000 
@@ -2322,7 +2322,7 @@ quantified list of the annual greenhouse gas emissions of the entity or individu
 (
 B) Prohibition on Required Disclosure of Information Relating to Greenhouse Gas Emissions.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 50 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 50 ---
 Class Deviation 2024-O0009, Revision 1 
 Prohibition on Required Disclosure of Information Relating to Greenhouse Gas Emissions 
 Page 2 of 2 
@@ -2364,7 +2364,7 @@ Principal Director,
 Defense Pricing, Contracting, and 
 Acquisition Policy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 51 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 51 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
@@ -2413,7 +2413,7 @@ In addition to the restriction at DFARS 225.7002-1(b), the restriction at 10 U.S
 now requires full domestic production of U.S. flags acquired by DoD and applies to acquisitions 
 greater than $10,000 for contracts and subcontracts for the procurement of U.S. flags.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 52 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 52 ---
 Class Deviation 2024-O0008, Revision 1 
 Revision of Small Purchase Exception for the Acquisition of U.S. Flags 
 2 
@@ -2434,7 +2434,7 @@ ZIEGLER.KIMBERLY.R
 Date: 2024.03.05 
 17:05:52 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 53 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 53 ---
 Attachment 1 
 Class Deviation 2024-O0008, Revision 1 
 Revision of Small Purchase Exception for the Acquisition of U.S. Flags 
@@ -2468,7 +2468,7 @@ commercial products and commercial services.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 54 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 54 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -2522,7 +2522,7 @@ conclusion of the acquisition in relation to a target cost.
  For those contract actions  approved by the Director, DPC/PCF, contracting officers 
 shall—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 55 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 55 ---
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
 2 
@@ -2574,7 +2574,7 @@ osd.pentagon.ousd-a-s-mbx.dpc-pcf@mail.mil as they become available.
 National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2019 (Pub. L. 115-232), as 
 amended by section 825 of the NDAA for FY 2020 (Pub. L. 116-92), section 818 of the NDAA
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 56 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 56 ---
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
 3 
@@ -2604,7 +2604,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2024.02.08 13:44:18 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 57 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 57 ---
 Attachment 1 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2646,7 +2646,7 @@ II.  Prime Contractor Information
 Contractor Name and Location: ___________________________________________________________ 
 Contractor CAGE Code:  _________________________________________________________________
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 58 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 58 ---
 Attachment 1 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2691,7 +2691,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________
 _____________________________________________________________________________________
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 59 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 59 ---
 Attachment 1 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2743,7 +2743,7 @@ identify the fixed and variable components of the historical actuals, and provid
 level of detail that will support the Government’s appropriate use of the historical actuals in the 
 evaluation of the proposed cost for the current requirement.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 60 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 60 ---
 Attachment 1 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2796,7 +2796,7 @@ to the historical actuals, the contracting officer should also consider requirin
 its subcontractors to disclose suppliers’ quotes, offers, and agreed-to vendor pricing for the current 
 requirement as those data become available.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 61 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 61 ---
 Attachment 1 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2842,7 +2842,7 @@ to have a proposal evaluation plan in place in order to ensure that the optimal 
 to permit efficient and effective proposal evaluation, negotiation, and establishment of a fair and 
 reasonable price.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 62 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 62 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2900,7 +2900,7 @@ controlling document, unless it was previously submitted to the contracting offi
 Offeror shall submit, at a minimum, information that is adequate for evaluating the 
 reasonableness of the price for this acquisition, including prices at which the same item
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 63 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 63 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -2958,7 +2958,7 @@ costs of performance for prior purchases of the same or similar products for the
 Department of Defense.  If the Offeror is not granted an exception from the requirement 
 to submit certified cost or pricing data, the following applies:
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 64 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 64 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3015,7 +3015,7 @@ No.).
 agreement was reached or, if applicable, an earlier date agreed upon between the 
 parties that is as close as practicable to the date of agreement on price.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 65 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 65 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3072,7 +3072,7 @@ this provision shall include all data necessary to permit a determination that t
 proposed price is fair and reasonable, to include the requirements in DFARS 
 215.402(a)(i) and 215.404-1(b).
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 66 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 66 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3132,7 +3132,7 @@ required submission format for each type of data.  The type and extent of data r
 may differ based on the dollar value of the subcontract proposal, or other appropriate 
 considerations.  At a minimum, the Contracting Officer shall identify the specific prior
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 67 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 67 ---
 Attachment 2 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3180,7 +3180,7 @@ subcontract.
  
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 68 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 68 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3240,7 +3240,7 @@ items.
      ( 1)  The original contract or subcontract was granted an exception 
 from certified cost or pricing data requirements because the price agreed upon was
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 69 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 69 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3300,7 +3300,7 @@ stablish price reasonableness for this contract modification, and describe the r
 submission format for each type of data.  At a minimum, the Contracting Officer will 
 identify the specific prior DoD purchases of the same or similar products for which the
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 70 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 70 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3360,7 +3360,7 @@ price was agreed to.
 the Contractor’s judgment on the estimate of future costs or projections.  It applies to 
 the data upon which the judgment or estimate was based.  This distinction between fact
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 71 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 71 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3419,7 +3419,7 @@ description of the data and the format that are required, including access to re
 necessary to permit an adequate evaluation of the proposed price in accordance with 
 FAR 15.403-3].
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 72 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 72 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3479,7 +3479,7 @@ subcontracts, the Contracting Officer will describe the specific certified cost 
 data that is to be provided by each affected lower-tier subcontractor. The subcontractor 
 and lower tier subcontractors to which the pilot authority is flowed down are not
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 73 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 73 ---
 Attachment 3 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3517,7 +3517,7 @@ the subcontract or subcontract modification.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 74 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 74 ---
 Attachment 4 
 Class Deviation 2024-O0007 
 Section 890 Pilot Program to Accelerate Contracting and Pricing Processes 
@@ -3564,7 +3564,7 @@ pilot program.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 75 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 75 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -3617,7 +3617,7 @@ o Disaster relief and other urgent lifesaving measures;
  
  Vital to the national security interests of the United States; or
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 76 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 76 ---
 Class Deviation 2024-O0006, Revision 1 
 Prohibition Regarding Russian Fossil Fuel and 
 Fossil Fuel Business Operations 
@@ -3671,7 +3671,7 @@ ZIEGLER.KIMBERLY.R.
 Date: 2024.03.05 
 17:30:16 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 77 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 77 ---
 Attachment 
 Class Deviation 2024-O0006, Revision 1 
 Prohibition Regarding Russian Fossil Fuel and  
@@ -3725,7 +3725,7 @@ business or commerce.  The term does not include—
  
   (1)  Any shipment subject to price caps as specified in the—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 78 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 78 ---
 Attachment 
 Class Deviation 2024-O0006, Revision 1 
 Prohibition Regarding Russian Fossil Fuel and  
@@ -3778,7 +3778,7 @@ by—
   (2)  A fossil fuel company that operates in the Russian Federation, except if the fossil 
 fuel company transports oil or gas—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 79 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 79 ---
 Attachment 
 Class Deviation 2024-O0006, Revision 1 
 Prohibition Regarding Russian Fossil Fuel and  
@@ -3798,7 +3798,7 @@ acquisition of commercial products or commercial services.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 80 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 80 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -3851,7 +3851,7 @@ provided support to Ukraine, Taiwan, or Israel; or
  “Head of an agency” means the Secretary of Defense; the Secretary of the Army; the 
 Secretary of the Navy; or the Secretary of the Air Force.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 81 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 81 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -3906,7 +3906,7 @@ purchase to be made, outside the United States.
 (3)  Simplified procedures at FAR subpart 13.5 are authorized for purchases of products 
 and services for amounts greater than the simplified acquisition threshold but not greater than
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 82 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 82 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -3961,7 +3961,7 @@ Ukraine, Taiwan, or Israel; or
  
 (G)  Multiyear Procurement Authority For Certain Munitions.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 83 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 83 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -4015,7 +4015,7 @@ may be used:
  
    (g)  106,000 Guided Multiple Launch Rocket Systems (GMLRS);
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 84 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 84 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -4069,7 +4069,7 @@ subject to the availability of appropriations for that purpose for such later fi
  
 (H)  Special Reporting Requirements.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 85 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 85 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -4123,7 +4123,7 @@ osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil.  The notification shall include the f
   (i)  Expected outcome of using the authority, including estimated reductions in 
 schedule.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 86 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 86 ---
 Class Deviation 2024-O0005 
 Temporary Authorizations for Covered Contracts Related to Ukraine, Taiwan, and Israel 
  
@@ -4154,7 +4154,7 @@ TENAGLIA.JOHN.M
 Date: 2024.01.08 
 14:23:30 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 87 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 87 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -4209,7 +4209,7 @@ exercising the authorities provided by this class deviation, which may be exerci
 written notification from a combatant commander identifying persons or entities within the 
 combatant commander’s area of responsibility that are believed to have—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 88 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 88 ---
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
 Authorization of Additional Access to Records 
@@ -4246,7 +4246,7 @@ AWN.1082406898
 Date: 2023.12.22 
 11:55:02 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 89 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 89 ---
 Attachment 1 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
@@ -4298,7 +4298,7 @@ diligence, as required by paragraph (a) of this clause; or
 Activity determines in writing that any funds received under this contract have been 
 provided directly or indirectly to a person or entity who is actively opposing United
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 90 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 90 ---
 Attachment 1 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
@@ -4320,7 +4320,7 @@ over $50,000 and will be performed outside the United States and its outlying ar
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 91 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 91 ---
 Attachment 2 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and  
@@ -4357,7 +4357,7 @@ and will be performed outside the United States and its outlying areas.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 92 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 92 ---
 Attachment 3 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
@@ -4405,7 +4405,7 @@ contractor failed to exercise due diligence (see paragraph (a)(1) of the clause
 252.225-7993 of this class deviation) to ensure that none of the funds received under 
 the contract are provided directly or indirectly to such identified person or entity; or
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 93 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 93 ---
 Attachment 3 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
@@ -4451,7 +4451,7 @@ United States and its outlying areas, the contracting officer shall check the cu
 prohibited or restricted persons or entities in SAM Exclusions prior to awarding the 
 contract.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 94 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 94 ---
 Attachment 3 
 Class Deviation 2024-O0003 
 Prohibition on Providing Funds to the Enemy and 
@@ -4493,7 +4493,7 @@ the time the contract was terminated or voided.
 b. Reports may be submitted in unclassified form, but with a classified annex; or in 
 classified form, as appropriate.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 95 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 95 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -4544,7 +4544,7 @@ Federal Register at 89 FR 13950 and was effective on February 23, 2024.
   This deviation does not alter any requirements or procedures relating to pending 
 applications for certification.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 96 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 96 ---
 Class Deviation 2024-O0002, Revision 1 
 The Service-Disabled Veteran-Owned Small Business Program 
  
@@ -4571,7 +4571,7 @@ TENAGLIA.JOHN.M.1154945926
 Date: 2024.03.14 17:27:11 
 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 97 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 97 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -4625,7 +4625,7 @@ E.O. 14026 are not currently being enforced as to contracts or subcontracts to w
 Texas, Louisiana, or Mississippi (including their agencies) are a party.  The injunction becomes 
 effective on October 4, 2023.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 98 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 98 ---
 Class Deviation 2024-O0001 
 Implementation of Injunction on Executive Order 14026,  
 Increasing Minimum Wage for Federal Contactors 
@@ -4678,7 +4678,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2023.10.04 13:06:40 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 99 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 99 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -4735,7 +4735,7 @@ to commercial products and commercial services.  This deviation also authorizes 
 the attached deviation clause required by future changes to the clause at FAR 52.212-5 that are 
 published in the FAR.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 100 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 100 ---
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions 
 Using the Procurement Desktop-Defense System 
@@ -4763,7 +4763,7 @@ TENAGLIA.JOHN.M.1154945926
 Date: 2023.09.18 13:53:01 
 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 101 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 101 ---
 Attachment 
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions  
@@ -4811,7 +4811,7 @@ course of business or pursuant to a provision of law.
  (b)(1) Notwithstanding the requirements of any other clauses of this contract, the Contractor 
 is not required to flow down any FAR clause, other than those in this paragraph (b)(1) in a
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 102 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 102 ---
 Attachment 
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions 
@@ -4856,7 +4856,7 @@ clause 52.222-40.
 chapter 78 and E.O. 13627). 
 __(B) Alternate I (Mar 2015) of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627).
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 103 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 103 ---
 Attachment 
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions 
@@ -4904,7 +4904,7 @@ Alternate II (2023-OZZZZ) (OCT 2023). As prescribed in 12.301(b)(4)(ii), substit
 following paragraphs (a)(1) and (b)(1) for paragraphs (a)(1) and (b)(1) of the basic deviation 
 clause as follows:
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 104 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 104 ---
 Attachment 
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions 
@@ -4948,7 +4948,7 @@ specified in FAR 19.702(a) on the date of subcontract award, the subcontractor m
  (J) 52.222-36, Equal Opportunity for Workers with Disabilities ( JUN 2020) (29 
 U.S.C. 793).
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 105 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 105 ---
 Attachment 
 Class Deviation 2023-O0008 
 Commercial Products and Commercial Services Omnibus Clause for Acquisitions 
@@ -4991,7 +4991,7 @@ paragraph (d) of FAR clause 52.247–64.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 106 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 106 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -5047,7 +5047,7 @@ contain an internal combustion engine or gas tank.
 • “Hydrogen-powered vehicle” means a vehicle that uses hydrogen as the main source 
 of motive power, either through a fuel cell or internal combustion.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 107 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 107 ---
 Class Deviation 2023-O0006 
 Limitations on the Procurement DoD Non-Tactical Vehicles 
  
@@ -5074,7 +5074,7 @@ Jeanette Snyder, DPC/DARS, who may be reached at jeanette.m.snyder4.civ@mail.mil
  Principal Director,  
       Defense Pricing and Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 108 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 108 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -5128,7 +5128,7 @@ coatings.
  This class deviation implements section 333 of the William M. (Mac) Thornberry 
 National Defense Authorization Act for Fiscal Year 2021 (Pub. L. 116-283) that prohibits DoD
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 109 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 109 ---
 Class Deviation 2022-O0010, Revision 1 
 Prohibition on Procurement of Certain Items Containing Perfluorooctane  
 Sulfonate or Perfluorooctanoic Acid  
@@ -5164,7 +5164,7 @@ M.1154945926
 Date: 2022.12.23 
 10:00:36 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 110 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 110 ---
 Attachment 1 
 Class Deviation 2022-O0010, Revision 1 
 Prohibition on Procurement of Certain Items Containing Perfluorooctane  
@@ -5200,7 +5200,7 @@ providing as part of its offer any covered items containing PFOS or PFOA.
  
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 111 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 111 ---
 Attachment 1 
 Class Deviation 2022-O0010, Revision 1 
 Prohibition on Procurement of Certain Items Containing Perfluorooctane  
@@ -5244,7 +5244,7 @@ commercial services.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 112 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 112 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -5297,7 +5297,7 @@ order, delivery order, or modification using this exception to certified cost or
 contracting officers will enter 873Authority (exactly as shown, without spaces) in the 
 Description of Requirements data field of the associated contract action report.  Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 113 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 113 ---
 Class Deviation 2022-O0005, Revision 2 
 Pilot Program for Streamlining Awards for 
 Innovative Technology Projects 
@@ -5337,7 +5337,7 @@ ohn M. Tenaglia
 Principal Director, 
     Defense Pricing and Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 114 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 114 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -5394,7 +5394,7 @@ report such waivers through the digital waiver portal accessed via SAM.gov withi
 days of award.  The MIAO will not make a determination on these individual 
 nonavailability waiver determinations; or
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 115 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 115 ---
 Class Deviation 2022-O0004 
 Requirements for Nonavailability Waiver Determinations  
 Under the Buy American Statute 
@@ -5448,7 +5448,7 @@ strategic nonavailability waiver determination review process as required by Exe
 marketplace that demonstrates a priority to support Made in America purchasing, increase public 
 trust and confidence in the Federal Government’s commitment to an expanded U.S.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 116 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 116 ---
 Class Deviation 2022-O0004 
 Requirements for Nonavailability Waiver Determinations  
 Under the Buy American Statute 
@@ -5483,7 +5483,7 @@ Date: 2021.11.16
 17:04:42 -05'00'
 A
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 117 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 117 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -5534,7 +5534,7 @@ Modifications.
  52.215-12, Subcontractor Certified Cost or Pricing Data. 
  52.215-13, Subcontractor Certified Cost or Pricing Data—Modifications.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 118 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 118 ---
 /0 /1 /2 /3 /3 /i255 /5 /6 /7 /8 /2 /9 /8 /10 /11 /i255 /12 /13 /12 /12 /14 /15 /13 /13 /13 /16 /17 /i255 /18 /6 /7 /8 /3 /8 /10 /11 /i255 /16 /i255
 /19 /20 /21 /6 /3 /20 /10 /1 /22 /i255 /23 /10 /21 /i255 /15 /24 /9 /2 /8 /11 /8 /11 /25 /i255 /0 /6 /21 /9 /8 /23 /8 /6 /22 /i255 /0 /10 /3 /9 /i255 /10 /21 /i255 /26 /21 /8 /27 /8 /11 /25 /i255 /5 /2 /9 /2 /i255 /23 /10 /21 /i255
 /28 /29 /24 /27 /10 /11 /9 /21 /2 /27 /9 /3 /i255 /2 /11 /22 /i255 /26 /21 /8 /27 /6 /i255 /30 /22 /31 /29 /3 /9/32/6/11 /9 /3 /i255
@@ -5566,7 +5566,7 @@ Modifications.
 /78 /82 /81 /88 /91 /i255 /76 /92 /76 /72 /67 /72 /92 /67 /92 /93 /i255
 /72 /76 /91 /72 /75 /91 /94 /94 /i255 /95 /92 /74 /96 /92 /92 /96
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 119 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 119 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5617,7 +5617,7 @@ defense—
 superior bargaining position and thus the price of the contract would not have been modified 
 even if accurate, complete, and current certified cost or pricing data had been submitted;
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 120 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 120 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5667,7 +5667,7 @@ overpayment to be computed from the date(s) of overpayment to the Contractor to 
 Government is repaid by the Contractor at the applicable underpayment rate effective for each 
 quarter prescribed by the Secretary of the Treasury under 26 U.S.C. 6621(a)(2); and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 121 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 121 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5720,7 +5720,7 @@ adjustment.
 prescribed in subsection 15.406-2 of the Federal Acquisition Regulation that, to the best of its 
 knowledge and belief, the data submitted under paragraph (b) above were accurate, complete,
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 122 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 122 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5772,7 +5772,7 @@ price or cost shall be reduced accordingly and the contract shall be modified to
 reduction.  This right to a price reduction is limited to that resulting from defects in data relating 
 to modifications for which this clause becomes operative under paragraph (a) of this clause.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 123 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 123 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5823,7 +5823,7 @@ data were not submitted before such date.
  
    (ii) An offset shall not be allowed if—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 124 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 124 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5876,7 +5876,7 @@ estimate, including those used in projecting from known data, and the nature and
 contingencies included in the price), unless an exception under FAR 15.403-1(b) applies.  If the 
 $2 million threshold for submission of certified cost or pricing data is adjusted for inflation as set
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 125 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 125 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5929,7 +5929,7 @@ involving a pricing adjustment expected to exceed $2 million, the Contractor sha
 subcontractor to submit certified cost or pricing data (actually or by specific identification in  
 writing), in accordance with Federal Acquisition Regulation (FAR) 15.408, Table 15-2 (to
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 126 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 126 ---
 Attachment 1 
 Class Deviation 2022-O0001, Revision 1 
 Threshold for Obtaining Certified Cost or Pricing Data for  
@@ -5957,7 +5957,7 @@ whichever is later.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 127 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 127 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -6019,7 +6019,7 @@ TENAGLIA.JOHN.M.1154945926
 Date: 2023.05.24 16:25:43 
 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 128 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 128 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -6083,7 +6083,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2023.02.15 13:26:48 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 129 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 129 ---
 Attachment  
 Class Deviation 2021-O0008, Revision 1 
 Limitations on Subcontracting for Small Business 
@@ -6127,7 +6127,7 @@ award contracts, as described in 8.405-5 and 16.505(b)(2)(i)(F); or
   (6)  Contracts using the HUBZone price evaluation preference to award to a HUBZone 
 small business concern unless the concern waived the evaluation preference.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 130 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 130 ---
 Attachment  
 Class Deviation 2021-O0008, Revision 1 
 Limitations on Subcontracting for Small Business 
@@ -6173,7 +6173,7 @@ that cannot be exceeded.
  (f)  The Contractor shall comply with the limitations on subcontracting as follows: 
   (1)  For contracts, in accordance with paragraphs (c)(1), (2), (3) and (6) of this clause –
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 131 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 131 ---
 Attachment  
 Class Deviation 2021-O0008, Revision 1 
 Limitations on Subcontracting for Small Business 
@@ -6197,7 +6197,7 @@ work performed by the joint venture.  Work performed by the 8(a) participants in
 venture must be more than administrative functions. 
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 132 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 132 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -6247,7 +6247,7 @@ USSOUTHCOM, as follows—
 contractor personnel support and tracking; and 
 • Personnel recovery requirements.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 133 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 133 ---
 Class Deviation 2021-O0004
 Requirements for Contractor Personnel Performing in the 
 U.S. Southern Command Area of Responsibility
@@ -6270,7 +6270,7 @@ Date: 2021.02.18
 16:25:25 -05'00'
 y
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 134 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 134 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6327,7 +6327,7 @@ this contract.
 Contractor shall ensure that the following requirements are met prior to Contractor 
 personnel travel and performance in the USSOUTHCOM AOR and maintained
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 135 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 135 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6388,7 +6388,7 @@ USSOUTHCOM AOR;
  
    (ii)  Identify safety and security contingency planning activities; and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 136 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 136 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6449,7 +6449,7 @@ Contractor shall comply with the SPOT Business Rules at
 https://www.acq.osd.mil/log/PS/spot.html and shall routinely check, at a minimum 
 every 30 days, the SPOT Business Rules for up-to-date information.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 137 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 137 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6505,7 +6505,7 @@ committed by a civilian national of the United States;
 offenses on the premises of U.S. diplomatic, consular, military, or other U.S. 
 Government missions outside the United States (e.g., 18 U.S.C. 7(9));
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 138 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 138 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6565,7 +6565,7 @@ preceding paragraphs, must be re-screened annually for potential Force Health
 Protection and medical risks pursuant to SC Regulation 40-501 and supplementing 
 Medical Directives.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 139 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 139 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6626,7 +6626,7 @@ carry weapons and which weapons and ammunition will be allowed.
   (2)  If Contractor personnel are authorized to carry weapons, after the 
 Contracting Officer coordinates with the USSOUTHCOM J341 Protection Branch to
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 140 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 140 ---
 Attachment 
 Class Deviation 2021-O0004 
 Requirements for Contractor Personnel Performing in the  
@@ -6681,7 +6681,7 @@ including this paragraph (n), in all subcontracts.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 141 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 141 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -6737,7 +6737,7 @@ Such Network is Designed to Block Access to Certain Websites—Representation
 (DEVIATION 2021-O0003) (APRIL 2021), in all solicitations, including solicitations for the 
 acquisition of commercial items under FAR part 12.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 142 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 142 ---
 Class Deviation 2021-O0003 
 Prohibition Against Using Fiscal Year 2021 Funds to Maintain or Establish a 
 Computer Network Unless Designed to Block Access to Certain Websites 
@@ -6757,7 +6757,7 @@ Digitally signed by
 NEILSON.LINDA.W.1231832218
 Date: 2021.04.02 12:54:40 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 143 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 143 ---
 Attachment 1 
 Class Deviation 2021-O0003 
 Prohibition Against Using Fiscal Year 2021 Funds to Maintain or Establish a 
@@ -6799,7 +6799,7 @@ unless such network is designed to block access to pornography websites.
  
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 144 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 144 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
 WASHINGTON, DC  20301-3000 
@@ -6850,7 +6850,7 @@ so that neither clause remains in contracts.
 Communities Through the Federal Government, revoked Executive Order 13950, Combating 
 Race and Sex Stereotyping, on January 20, 2021.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 145 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 145 ---
 Class Deviation 2021-O0001 Rescission
 Combating Race and Sex Stereotyping
 Page 2 of 2
@@ -6866,7 +6866,7 @@ TENAGLIA.JOHN.M.1154945926
 Date: 2021.01.28 12:52:04 
 -05'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 146 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 146 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20301-3000 
@@ -6911,7 +6911,7 @@ notarized authorization of release by the surety required by FAR 28.203-5(a); an
 ○ 52.228-11, Pledges of Assets (DEVIATION 2020-O0016), which removes the
 requirement for the Standard Form 28 to be sworn and notarized.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 147 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 147 ---
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
  
@@ -6957,7 +6957,7 @@ Date: 2020.04.30 16:43:04
 -04'00'
 A
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 148 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 148 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7011,7 +7011,7 @@ SUBPART 28.2 – SURETIES AND OTHER SECURITY FOR BONDS
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 149 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 149 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7065,7 +7065,7 @@ signed by the surety saying that it approves of such release.
  
 PART 32 – CONTRACT FINANCING
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 150 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 150 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7117,7 +7117,7 @@ representative to sign the assignment.
 (3)  Assignments by an individual shall be signed by that  
 individual.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 151 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 151 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7170,7 +7170,7 @@ return email or other electronic means to the undersigned.
  
   ______________________________  [Email Address of Assignee]
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 152 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 152 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7223,7 +7223,7 @@ O0016)
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 153 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 153 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7276,7 +7276,7 @@ this Agreement as of the day and year first above written.
 By _______________________________________________ 
 Title _____________________________________________
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 154 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 154 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7330,7 +7330,7 @@ CHANGE-OF-NAME AGREEMENT
  
  (b)  In consideration of these facts, the parties agree that-
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 155 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 155 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7384,7 +7384,7 @@ PLEDGES OF ASSETS (APR 2020)(DEVIATION 2020-O0016)
 individual surety on a bid guarantee, a performance bond, or a 
 payment bond—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 156 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 156 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7438,7 +7438,7 @@ Practice, as promulgated by the Appraisal Foundation.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 157 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 157 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7490,7 +7490,7 @@ the increase in contract price.
 protection by directing the Contractor to increase the penal 
 amount of the existing bond or to obtain an additional bond.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 158 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 158 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7544,7 +7544,7 @@ price payable for the specified minimum quantity.  Original
 contract price does not include the price of any options, except 
 those options exercised at the time of contract award.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 159 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 159 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7596,7 +7596,7 @@ paragraphs (b) and (d) of the basic clause:
 the protection of the Government in an amount equal to ______  
 percent of the original contract price.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 160 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 160 ---
 Attachment 1 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7611,7 +7611,7 @@ may secure the additional protection by directing the Contractor
 to increase the penal amount of the existing bond or to obtain 
 an additional bond.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 161 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 161 ---
 Attachment 2 
 Class Deviation 2020-O0016 
 Original Documents, Signatures, Seals, and Notarization  
@@ -7658,7 +7658,7 @@ file the copy of the instrument and original notice.
  
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 162 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 162 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON 
@@ -7704,7 +7704,7 @@ equipment, that is manufactured—
 o In the People’s Republic of China; or
 o By an entity domiciled in the People’s Republic of China.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 163 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 163 ---
 DARS Tracking Number: 2020-O0015 
  
  
@@ -7739,7 +7739,7 @@ Grover, who is available at (703) 697-9352 or jeffrey.c.grover.civ@mail.mil.
  Acting Principal Director,  
       Defense Pricing and Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 164 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 164 ---
 Attachment 1 
 Class Deviation 2020-O0015 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -7792,7 +7792,7 @@ an entity domiciled in, the People’s Republic of China; or
   (2)  A system for the detection or identification of a UAS, or any related services 
 or equipment, that is manufactured—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 165 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 165 ---
 Attachment 1 
 Class Deviation 2020-O0015 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -7819,7 +7819,7 @@ or other contractual instrument resulting from this solicitation.
  
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 166 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 166 ---
 Attachment 2 
 Class Deviation 2020-O0015 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -7872,7 +7872,7 @@ administered by an entity domiciled in, the People’s Republic of China; or
   (2)  A system for the detection or identification of a UAS, or any related 
 services or equipment, that is manufactured—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 167 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 167 ---
 Attachment 2 
 Class Deviation 2020-O0015 
 Prohibition on Procurement of Foreign-Made Unmanned Aircraft Systems 
@@ -7891,7 +7891,7 @@ including subcontracts for the acquisition of commercial items.
  
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 168 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 168 ---
 OFFICE OF THE UNDER SECRETARY OF DEFE
 NSE 
 3000 DEFENSE PENTAGON
@@ -7943,7 +7943,7 @@ Digitally signed by
 HERRINGTON.KIM.1507719313 
 Date: 2020.04.20 17:41:20 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 169 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 169 ---
 OFF
 ICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON
@@ -7991,7 +7991,7 @@ As expressed in the OUSD(A&S) Defense Pricing and Contracting Memorandum,
 Managing Defense Contracts Impacts of the Novel Coronavirus, dated March 30, 2020, it is 
 important that our military, civilian, and contractor communities work together to  withstand the
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 170 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 170 ---
 Class Deviation 2020-O0013, Revision 4  
 CARES Act Section 3610 Implementation 
  
@@ -8045,7 +8045,7 @@ many contractors, some will have a more immediate need for relief than others.
 Section 3610 seeks to provide many flexibilities for contracting officers, including the 
 authority to:
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 171 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 171 ---
 Class Deviation 2020-O0013, Revision 4  
 CARES Act Section 3610 Implementation 
  
@@ -8098,7 +8098,7 @@ Response Act (Pub. L. 116–127) and any applicable credits the contractor is al
 under the CARES Act or other credit allowed by law that is specifically identifiable with 
 the public health emergency declared on January 31, 2020 for COVID–19; and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 172 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 172 ---
 Class Deviation 2020-O0013, Revision 4  
 CARES Act Section 3610 Implementation 
  
@@ -8130,7 +8130,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926
 Date: 2021.03.23 17:58:37 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 173 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 173 ---
 Attachment 
 Class Deviation 2020-O0013, Revision 4 
 CARES Act Section 3610 Implementation 
@@ -8184,7 +8184,7 @@ granting paid leave as a result of the COVID-19 national emergency and that woul
 be incurred in the normal course of the contractor’s business.  Costs of paid leave that 
 would be incurred without regard to the existence of the COVID-19 national emergency
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 174 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 174 ---
 Attachment 
 Class Deviation 2020-O0013, Revision 4 
 CARES Act Section 3610 Implementation 
@@ -8230,7 +8230,7 @@ law that is specifically identifiable with the public health emergency declared 
 separate line item that cites the purpose of the funds is for reimbursement under section 
 3610 of the CARES Act.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 175 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 175 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON
@@ -8283,11 +8283,11 @@ TENAGLIA.JOHN.M.11549459
 Date: 2022.09.20 10:45:20 
 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 176 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 176 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE3000 DEFENSE PENTAGONWASHINGTON, DC 20301-3000ACQUISITIONAND SUSTAINMENT
 In reply refer toDARS Tracking Number: 2020-O0011, Revision 1, RescissionMEMORANDUM FOR COMMANDER, UNITED STATES CYBERCOMMAND (ATTN:  ACQUISITION EXECUTIVE)COMMANDER, UNITED STATES SPECIAL OPERATIONS COMMAND (ATTN:  ACQUISITION EXECUTIVE)COMMANDER, UNITED STATES TRANSPORTATION    COMMAND (ATTN:  ACQUISITION EXECUTIVE)DEPUTY ASSISTANT SECRETARY OF THE ARMY     (PROCUREMENT)DEPUTY ASSISTANT SECRETARY OF THE NAVY     (PROCUREMENT)DEPUTY ASSISTANT SECRETARY OF THE AIR FORCE     (CONTRACTING)DEFENSE AGENCY AND DOD FIELD ACTIVITY DIRECTORSSUBJECT:  Rescission of Class Deviation, Revision 1—Submission of Interim Vouchers Under Classified ContractsEffective October 1, 2022, this memorandum rescinds Class Deviation 2020-O0011 and its Revision 1.  In response to the Coronavirus Disease 2019 (COVID-19) national emergency, Class Deviation 2020-O0011, Revision 1, required contracting officers to direct contractors to submit interim vouchers under classified contracts, using an appropriate method, directly to the payment office listed in the contract and accordingly to consider the interim vouchers provisionally approved by the Defense Contract Audit Agency (DCAA).  The deviation therefore relieved the requirement to submit interim vouchers to DCAA prior to payment.Effective October 1, 2022, contractors will be required to submit, using an appropriate method, interim vouchers to DCAA in accordance with Federal Acquisition Regulation (FAR)42.803(b)(1) and Defense Federal Acquisition Regulation Supplement (DFARS)242.803(b)(i)(A) and (B).  My point of contact is Mr. David E. Johnson, Senior Procurement Analyst, OUSD(A&S) DPC/DARS at david.e.johnson3.civ@mail.mil.John M. TenagliaPrincipal Director,Defense Pricing and Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 177 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 177 ---
 O
 FFICE OF THE UNDER SECRETARY OF DEFENSE 
 3000 DEFENSE PENTAGON
@@ -8335,11 +8335,11 @@ TENAGLIA.JOHN.M.1
 Date: 2023.04.19 
 11:07:11 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 178 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 178 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE3000 DEFENSE PENTAGONWASHINGTON, DC 20301-3000ACQUISITIONAND SUSTAINMENT
 In reply refer toDARS Tracking Number: 2020-O0011, Revision 1, RescissionMEMORANDUM FOR COMMANDER, UNITED STATES CYBERCOMMAND (ATTN:  ACQUISITION EXECUTIVE)COMMANDER, UNITED STATES SPECIAL OPERATIONS COMMAND (ATTN:  ACQUISITION EXECUTIVE)COMMANDER, UNITED STATES TRANSPORTATION    COMMAND (ATTN:  ACQUISITION EXECUTIVE)DEPUTY ASSISTANT SECRETARY OF THE ARMY     (PROCUREMENT)DEPUTY ASSISTANT SECRETARY OF THE NAVY     (PROCUREMENT)DEPUTY ASSISTANT SECRETARY OF THE AIR FORCE     (CONTRACTING)DEFENSE AGENCY AND DOD FIELD ACTIVITY DIRECTORSSUBJECT:  Rescission of Class Deviation, Revision 1—Submission of Interim Vouchers Under Classified ContractsEffective October 1, 2022, this memorandum rescinds Class Deviation 2020-O0011 and its Revision 1.  In response to the Coronavirus Disease 2019 (COVID-19) national emergency, Class Deviation 2020-O0011, Revision 1, required contracting officers to direct contractors to submit interim vouchers under classified contracts, using an appropriate method, directly to the payment office listed in the contract and accordingly to consider the interim vouchers provisionally approved by the Defense Contract Audit Agency (DCAA).  The deviation therefore relieved the requirement to submit interim vouchers to DCAA prior to payment.Effective October 1, 2022, contractors will be required to submit, using an appropriate method, interim vouchers to DCAA in accordance with Federal Acquisition Regulation (FAR)42.803(b)(1) and Defense Federal Acquisition Regulation Supplement (DFARS)242.803(b)(i)(A) and (B).  My point of contact is Mr. David E. Johnson, Senior Procurement Analyst, OUSD(A&S) DPC/DARS at david.e.johnson3.civ@mail.mil.John M. TenagliaPrincipal Director,Defense Pricing and Contracting
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 179 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 179 ---
 OFFICE OF THE UNDER SECRETARY OF DEFENSE
 3000 DEFENSE PENTAGON
 WASHINGTON, DC  20301-3000 
@@ -8383,7 +8383,7 @@ award to either small or large business concerns, contracting officers are remin
 both the clauses at FAR 52.232-16 and at DFARS 252.232-7004 (DEVIATION 2020-O0010) in 
 the solicitation to enable use of the appropriate clause in the eventual award.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 180 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 180 ---
 Class Deviation 2020-O0010, Revision 2 
 Progress Payment Rates 
 Page 
@@ -8415,7 +8415,7 @@ Digitally signed by
 TENAGLIA.JOHN.M.1154945926 
 Date: 2023.05.08 13:18:15 -04'00'
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 181 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 181 ---
 Class Deviation 2020-O0010, Revision 2 
 Progress Payment Rates 
 Attachment 
@@ -8434,7 +8434,7 @@ Actions) to 95 percent.
 (E
 nd of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 182 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 182 ---
 ACQUISITIO N 
 AND SUSTAINM E NT 
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
@@ -8475,7 +8475,7 @@ patricia. g.foley.civ@mail.mil.
 Attachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 183 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 183 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8517,7 +8517,7 @@ Government and solely for official purposes in connection with the United States
 Armed Forces; 
 (4) Not have  SOFA Article XIV status; and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 184 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 184 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8562,7 +8562,7 @@ itations of United States law.
 designated as having SOFA Article I(b) status or SOFA Article XIV status, which is 
 documented on a Letter of Authorization (LOA) signed by the Contracting Officer.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 185 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 185 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8600,7 +8600,7 @@ Instruction 64-100 and, in specific and limited circumstances, USFJ Instruction 
 (i) The Contracting Officer, through consultation with their legal counsel
 and the USFJ/J06 office, makes the determination of status under SOFA Article I(b)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 186 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 186 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8647,7 +8647,7 @@ contractor personnel.
 Officer is required for SOFA-covered contractor personnel travel to, from, or within 
 Japan.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 187 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 187 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8688,7 +8688,7 @@ use; and reasonable quantities of clothing and household goods for everyday priv
 which are mailed into Japan through United States military post offices as provided for 
 in paragraphs 2 and 3 of SOFA Article XI.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 188 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 188 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8731,7 +8731,7 @@ or designee.  Logistical support includes the following:
 commissary. 
 (B) Military banking facilities.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 189 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 189 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8764,7 +8764,7 @@ performing in Japan are familiar with and comply with, all applicable—
 (i) United States, host country, and third-country national laws;
 (ii) Provisions of applicable treaties and international agreements;
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 190 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 190 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8801,7 +8801,7 @@ authorized by law or DoD policy.
 (6) The appropriate investigative authorities to which suspected crimes shall be
 reported include the following—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 191 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 191 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8840,7 +8840,7 @@ wage;
 (H) Be notified of their rights, wages, and prohibited activities prior to
 signing their employment contract; and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 192 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 192 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8879,7 +8879,7 @@ vaccinations are current.
 documents required to enter and exit Japan, and other appropriate DoD identity 
 credential.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 193 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 193 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8916,7 +8916,7 @@ assistance.
 (i) Use the SPOT web-based system, or its successor, to account for all
 SOFA-covered contractor personnel performing in Japan under the contract;
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 194 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 194 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8961,7 +8961,7 @@ and credible manner.  Criminal conduct and dishonorable personal behavior, commi
 either on or off duty, adversely impacts Unite States and Japanese relations, tarnishes 
 the image of the DoD and USFJ, and hampers the Force’s military readiness.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 195 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 195 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -8999,7 +8999,7 @@ including the Common Access Card, to appropriate U.S. Government authorities at 
 end of their employment under this contract. 
 (h) Protective equipment.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 196 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 196 ---
 Attachment 
 Class Deviation 2018-O0019 
 Contractor Personnel Performing in Japan 
@@ -9034,7 +9034,7 @@ including this paragraph (m), in all subcontracts that will require subcontracto
 personnel to perform in Japan. 
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 197 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 197 ---
 ACQUISITION 
 ANO SUSTAINMENT 
 OFFICE OF THE UNDER SECRETARY OF DEFENSE 
@@ -9080,7 +9080,7 @@ Director, Defense Pricing/Defense
 Procurement and Acquisition Policy 
 nO
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 198 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 198 ---
 DARS Tracking Number: 2018-00002 
 Section 830(d) Pilot Program for Acceleration of Foreign Military Sales 
 Attachment 
@@ -9093,7 +9093,7 @@ b. Contracting Officer name and contact information.
 3. Identify Contract Business Analysis Repository (CBAR) point of contact, if available.
 4. FMS Case Identifier Code and point of contact.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 199 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 199 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -9137,7 +9137,7 @@ utilizing this authority, the contracting officer shall-
 • Follow the procedures in attaclunent 1, which addresses the use of appropriate
 solicitation provisions, contract clauses, and evaluation of offers;
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 200 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 200 ---
 Class Deviation 2017-00009 
 Products and Services from the Africa Host Nation-Djibouti 
 • Prepare a written individual or class determination, using a format substantially the
@@ -9160,7 +9160,7 @@ As stated
 Page 2 of 2 
 Defense Pricing
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 201 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 201 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9191,7 +9191,7 @@ FAR subpart 25.4 are not applicable.
 *
 * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 202 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 202 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9221,7 +9221,7 @@ unless—
 authorized for an acquisition in support of DoD activities in Djibouti. 
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 203 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 203 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9256,7 +9256,7 @@ entity that—
 payment of taxes or use of products, materials, or labor that are primarily grown, 
 mined, manufactured, produced, or sourced from Djibouti.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 204 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 204 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9295,7 +9295,7 @@ activities in Djibouti.
 competition or provide a preference as described in paragraph (a) of this section because 
 such limitation or preference is necessary to—
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 205 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 205 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9333,7 +9333,7 @@ acquisitions meeting the criteria in paragraph (a) of this subsection as follows
 (i) The contracting officer is authorized to make a determination that
 applies to an individual acquisition with a value of less than $93 million.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 206 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 206 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9375,7 +9375,7 @@ Commander’s policy and contracting activity procedures, the price evaluation f
 be applied to offers of products or services that are not products or services from the 
 African host nation—Djibouti.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 207 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 207 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9412,7 +9412,7 @@ include the clause at 252.225-7977 (DEVIATION 2017-O0009):
 (ii) 252.225-7021, Trade Agreements.
 * * * * *
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 208 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 208 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9447,7 +9447,7 @@ the prices of offers of products or services that are not products or services f
 African host nation—Djibouti.   
 (End of provision)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 209 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 209 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9486,7 +9486,7 @@ services other than products or services from the African host nation—Djibouti
 to use construction material from the African host nation—Djibouti). 
  (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 210 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 210 ---
 Attachment 1 
 DARS Tracking Number 2017-O0009 
 Products and Services from the African Host Nation–Djibouti 
@@ -9520,7 +9520,7 @@ nation—Djibouti.
 to use construction material from the African host nation—Djibouti. 
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 211 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 211 ---
 Attachment 2 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9554,7 +9554,7 @@ nation— Djibouti.
 number of the applicable provision and/or clause prescribed at DFARS
 225.7798-6 (DEVIATION 2017-O0009)].
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 212 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 212 ---
 Attachment 2 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9588,7 +9588,7 @@ offers are solicited from as many potential sources as is practicable.]
 7. [Identify whether a notice was or will be publicized as required by FAR
 subpart 5.2 and, if not, which exception in FAR 5.202 applies.]
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 213 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 213 ---
 Attachment 2 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9610,7 +9610,7 @@ more)
 Name: __________________________ 
 Contracting Activity: _____________
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 214 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 214 ---
 Attachment 3 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9644,7 +9644,7 @@ nation country (Djibouti).
 number of the applicable provision and/or clause prescribed at DFARS
 225.7798-6 (DEVIATION 2017-O0009)].
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 215 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 215 ---
 Attachment 3 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9681,7 +9681,7 @@ offers are solicited from as many potential sources as is practicable.]
 7. [Identify whether a notice was or will be publicized as required by FAR
 subpart 5.2 and, if not, which exception in FAR 5.202 applies.]
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 216 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 216 ---
 Attachment 3 
 DARS Tracking Number 2017-O0009 
 Products and Services From the African Host Nation–Djibouti 
@@ -9698,7 +9698,7 @@ HEAD OF CONTRACTING ACTIVITY
 Name: __________________________ 
 Contracting Activity: _____________
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 217 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 217 ---
 ACQUISIT ION, 
 TECHNO LOGY. 
 AND LOGISTICS 
@@ -9738,7 +9738,7 @@ ralph.t.b01ja.mil@mail.mil.
 Attachments: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 218 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 218 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9787,7 +9787,7 @@ typically limited to force protection, emergency medical care, and basic human n
 (e.g., bottled water, latrine facilities, security, and food when necessary) when performing 
 Page 1 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 219 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 219 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9831,7 +9831,7 @@ medical and dental care. Emergency medical and dental care includes medical care
 situations in which life, limb, or eyesight is jeopardized. Examples of emergency 
 Page 2 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 220 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 220 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9875,7 +9875,7 @@ of war training in accordance with paragraph (e)(l)(vii) of this clause.
 Assault Prevention and Response Program; 
 Page 3 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 221 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 221 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9917,7 +9917,7 @@ http://www.dodig.mil/HOTLINE/index.html;
 base. 
 Page 4 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 222 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 222 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9957,7 +9957,7 @@ venue); and
 contract. 
 Page 5 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 223 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 223 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -9999,7 +9999,7 @@ responsibilities, may be required for some Contractor personnel as specified in 
 contract. 
 Page 6 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 224 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 224 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -10044,7 +10044,7 @@ support for contingency operations, humanitarian assistance and peacekeeping
 operations, or military exercises designated by USCENTCOM. 
 Page 7 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 225 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 225 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -10088,7 +10088,7 @@ performance evaluations for future contract opportunities in accordance with FAR
 subpart 42.15, Contractor Performance Information. 
 Page 8 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 226 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 226 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -10133,7 +10133,7 @@ issue, unless otherwise directed by the Contracting Officer.
 USCENTCOM AOR be authorized to carry weapons for individual self-defense, the 
 Page 9 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 227 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 227 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -10177,7 +10177,7 @@ organization local purchases of goods and services designated as scarce, in acco
 with instructions provided by the Contracting Officer. 
 Page 10 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 228 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 228 ---
 Attachment 
 Class Deviation 2017-00004 
 Contractor Personnel Performing in the United States Central Command Area of Responsibility 
@@ -10210,7 +10210,7 @@ performing in the USCENTCOM AOR.
 (End of clause) 
 Page 11 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 229 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 229 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -10251,7 +10251,7 @@ value, during all operational phases (including Phase 0), and not limited to con
 of declared contingency operations. This clause facilitates enforcement of the USAFRICOM 
 Commander's requirement.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 230 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 230 ---
 This class deviation remains in effect until incorporated in the DF ARS, or otherwise 
 rescinded. My point of contact is Mr. Scott Calisti, DPAP/PACC, at 571-256-7011, or 
 scott.r.calisti.civ@mail.mil. 
@@ -10263,7 +10263,7 @@ Director, Defense Procurement
 and Acquisition Policy 
 Page 2 of2
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 231 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 231 ---
 Attachment I 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10311,7 +10311,7 @@ who are permanent residents in the operational area) who perform support
 functions away from the close proximity of, and do not reside with, the U.S. Armed 
 Page 1 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 232 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 232 ---
 Attachment 1 
 Class Deviation 2016-00008
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10355,7 +10355,7 @@ duty or service under 38 U.S.C. 106 note.
 (l)(i) The Combatant Commander will develop a security plan for protection of
 Page 2 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 233 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 233 ---
 Attachment 1 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10404,7 +10404,7 @@ carry it with them at all times while deployed.
 all other support required for its personnel engaged in the USAFRICOM area of 
 Page 3 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 234 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 234 ---
 Attachment l 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10449,7 +10449,7 @@ work on a contract in the deployed area, before beginning such work, information
 following: 
 Page 4 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 235 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 235 ---
 Attachment 1 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10488,7 +10488,7 @@ understand;
 (vii) Receive wages that are not below the legal in-country minimum wage;
 Page 5 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 236 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 236 ---
 Attachment I 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10532,7 +10532,7 @@ Clearance Program. For this purpose, CAAF are considered non-DoD personnel
 traveling under DoD sponsorship. 
 Page 6 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 237 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 237 ---
 Attachment 1 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10575,7 +10575,7 @@ non-CAAF are subject to the jurisdiction of the Uniform Code of Military Justice
 committed by or against contractor personnel to appropriate investigative authorities; 
 Page 7 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 238 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 238 ---
 and, 
 Attachment l 
 Class Deviation 2016-00008 
@@ -10622,7 +10622,7 @@ peiformance, for 30 days or longer under a contract valued at or above $150,000
 Page 8 of 11 
 ..
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 239 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 239 ---
 Attachment 1 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRJCOM AOR 
@@ -10671,7 +10671,7 @@ clothing and individual equipment and shall provide training, if
 necessary, to ensure the safety and secm·ity of contractor personnel. 
 Page 9 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 240 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 240 ---
 Attachment l 
 Class Deviation 2016-00008 
 Contractor Personnel Perfom1ing in the USAFRICOM AOR 
@@ -10715,7 +10715,7 @@ licenses to operate all vehicles or equipment necessa1y to perform the contract 
 Page IO of 11 
 r
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 241 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 241 ---
 Attachment 1 
 Class Deviation 2016-00008 
 Contractor Personnel Performing in the USAFRICOM AOR 
@@ -10754,7 +10754,7 @@ perform in the USAFRICOM area of responsibility.
 (End of clause) 
 Page 11 of 11
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 242 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 242 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -10800,7 +10800,7 @@ million to $100 million.
 Nevertheless, the Government reserves the right to review the EVMS if the EVM 
 reporting data quality appears suspect, e.g., when a contracting officer, program office, buying
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 243 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 243 ---
 command, or higher headquarters asks for DCMA assistance due to a concern about the quality 
 of EVM data reported on a given contract, or when the EVM data is not in compliance with one 
 or more of the 32 EIA-748 guidelines. 
@@ -10814,7 +10814,7 @@ Director, Defense Procurement
 and Acquisition Policy 
 Page 2 of2
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 244 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 244 ---
 Attachment 
 DARS Tracking Number 2015-O0017 
 Class Deviation—Earned Value Management System Threshold 
@@ -10854,7 +10854,7 @@ offeror anticipates that the EVMS will be compliant with the guidelines in ANSI/
 (1) The offeror shall submit a written description of the management procedures it will
 use and maintain in the performance of any resultant contract to comply with the requirements
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 245 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 245 ---
 Attachment 
 DARS Tracking Number 2015-O0017 
 Class Deviation—Earned Value Management System Threshold 
@@ -10896,7 +10896,7 @@ the system that is needed for management purposes.
 EVMS guidelines in the American National Standards Institute/Electronic Industries 
 Alliance Standard 748, Earned Value Management Systems (ANSI/EIA-748); and
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 246 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 246 ---
 Attachment 
 DARS Tracking Number 2015-O0017 
 Class Deviation—Earned Value Management System Threshold 
@@ -10942,7 +10942,7 @@ During such reviews, the Government and the Contractor will jointly assess the
 Contractor’s baseline to be used for performance measurement to ensure complete 
 coverage of the statement of work, logical scheduling of the work activities, adequate
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 247 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 247 ---
 Attachment 
 DARS Tracking Number 2015-O0017 
 Class Deviation—Earned Value Management System Threshold 
@@ -10984,7 +10984,7 @@ standards (guidelines 1, 3, 6, 7, 8, 9, 10, 12, 16, 21, 23, 26, 27, 28, 30, or 3
 Contracting Officer determines that the existing earned value management system 
 contains one or more significant deficiencies in one or more of the remaining 16
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 248 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 248 ---
 Attachment 
 DARS Tracking Number 2015-O0017 
 Class Deviation—Earned Value Management System Threshold 
@@ -11022,7 +11022,7 @@ if subcontractors have not been selected) designated for application of the EVMS
 requirements of this clause.] 
 (End of clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 249 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 249 ---
 ACQUISITTON, 
 TECHNOLOGY 
 ANO LOGISTICS 
@@ -11067,7 +11067,7 @@ Ric 1
 Director De rement 
 and Acquisiti icy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 250 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 250 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -11121,7 +11121,7 @@ As stated
 Director. Defer{se PyLcurement
 and Acquisition/Policy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 251 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 251 ---
 Case 1:95-cv-02301-EGS Document 260 Filed 01/31/14 Page 1 of 5 
 OARS Tracking Number: 2014-00007 
 Attachment 
@@ -11150,7 +11150,7 @@ Circuit in Case No. 12-5330; and
 WHEREAS, the parties have agreed to settle this case on the terms and conditions 
 set forth herein.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 252 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 252 ---
 Case 1:95-cv-02301-EGS Document 260 Filed 01/31/14 Page 2 of s
 OARS Tracking Number: 2014-00007 
 Attachment 
@@ -11177,7 +11177,7 @@ attorney's fees, costs, and other litigation expenses on account of (i) this
 action from its inception up to the date this Stipulation and Agreement of
 2
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 253 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 253 ---
 Case 1:95-cv-02301-EGS Document 260 Filed 01/31/14 Page 3 of 5 
 DARS Tracking Number: 2014-00007 
 Attachment 
@@ -11205,7 +11205,7 @@ writing, (ii) shall be given at least thirty days prior to the date on which
 Defendants propose to begin such contracting activities, and (iii) shall be
 3
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 254 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 254 ---
 Case 1:95-cv-02301-EGS Document 260 Filed 01/31/14 . Page 4 of 5 
 OARS Tracking Number: 2014-00007 
 Attachment 
@@ -11227,7 +11227,7 @@ applicability before bringing the dispute to the Court's attention.
 enter into this Stipulation. 
 4
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 255 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 255 ---
 Case 1:95-cv-02301-EGS Document 260 Filed 01/31/14 Page 5 of 5 
 OARS Tracking Number: 2014-00007 
 Attachment 
@@ -11259,7 +11259,7 @@ Washington, D.C. 20530
 (202) 252-2506
 Counsel for Defendants
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 256 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 256 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -11303,7 +11303,7 @@ Contracting officers are encouraged to manually register and complete assessment
 on science and technology contracts and delivery/task orders under budget accounts 6.1 (basic 
 research), 6.2 (applied research), and 6.3 (advanced technology development) over $1,000,000,
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 257 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 257 ---
 DARS Tracking Number 2013-O0018 
 Class Deviation—Past Evaluation Thresholds and Reporting Requirements 
 2 of 2 
@@ -11320,7 +11320,7 @@ As stated
 Director, De 
 andAcq
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 258 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 258 ---
 Attachment 
 DARS Tracking Number 2013-O0018 
 Class Deviation—Past Evaluation Thresholds and Reporting Requirements 
@@ -11356,7 +11356,7 @@ sectors. DoD includes health care under the services business
 sector and includes fuels under the operations support business 
 sector.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 259 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 259 ---
 3
 ACQ UISITION , 
 T ECHNO L OGY 
@@ -11394,7 +11394,7 @@ and Acqms1t n olicy
 Attachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 260 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 260 ---
 Attachment 
 OARS Tracking Number 2013-00017 
 Class Deviation-Contractor Demobilization 
@@ -11434,7 +11434,7 @@ Contractor intends to use to remove its personnel and equipment from the CJOA
 and whether that method of transportation is Government or Contractor-furnished. 
 If Government-furnished transportation is authorized, the plan must identify the
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 261 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 261 ---
 Attachment 
 DARS Tracking Number 2013-00017 
 Class Deviation--Contractor Demobilization 
@@ -11474,7 +11474,7 @@ may only be extended for a period up to 30 calendar days after expiration of the
 current performance period. The request shall contain the following information: 
 (i) The names of each individual requiring an extension.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 262 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 262 ---
 (ii) The required extension period.
 Attachment 
 OARS Tracking Number 2013-00017 
@@ -11514,7 +11514,7 @@ corrections and then notify the Installation Mayor, Garrison Commander, or their
 designees to arrange for a re-inspection of the facility. If the Installation Mayor or 
 Garrison Commander inspects the facility and finds that damages or deficiencies
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 263 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 263 ---
 Attachment 
 DARS Tracking Nwnber 2013-00017 
 Class Deviation-Contractor Demobilization 
@@ -11536,7 +11536,7 @@ payment.
 including this paragraph (t), in all subcontracts. 
 (End of Clause)
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 264 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 264 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -11576,7 +11576,7 @@ otherwise rescinded. My point of contact is Mr. Mark Gomersall who may be reache
 Attachment: 
 As stated
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 265 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 265 ---
 OFFICE OF THE DIRECTOR 
 DEFENSE CONTRACT AUDIT AGENCY 
 DEPARTMENT OF DEFENSE 
@@ -11598,7 +11598,7 @@ Policy and Procedures
 f Patrick J. Fitzgerald 
 Director
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 266 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 266 ---
 Attachment, Page 2 of 4 
 DCAA Policy and Procedures for 
 Sampling Low-Risk Incurred Cost Proposals 
@@ -11646,7 +11646,7 @@ $100,000
 ENCLOSURE 
 Page 1 of3
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 267 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 267 ---
 Attachment, Page 3 of 4 
 DCAA Policy and Procedures for 
 Sampling Low-Risk Incurred Cost Proposals 
@@ -11687,7 +11687,7 @@ hand for which the audit has not started.
 July 6, 2012 ENCLOSURE 
 Page 2 of3
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 268 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 268 ---
 Attachment, Page 4 of 4 
 DCAA Policy and Procedures for
 Sampling Low-Risk Incurred Cost Proposals 
@@ -11733,7 +11733,7 @@ were in the sampling pool using the procedures discussed above.
 ENCLOSURE 
 Page 3 of3
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 269 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 269 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -11781,7 +11781,7 @@ Pitsch, who may be reached at 571-372-6090, or dus · itsch(a),osd ·
 Director curernent 
 and A olicy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 270 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 270 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
@@ -11830,7 +11830,7 @@ As stated
 ense Procurement 
 sition Policy
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 271 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 271 ---
 Page 1 of 3   Attachment A  
 Attac hmen t A 
 Deviation from FAR Part 31 - Contract Cost Principles and Procedures 
@@ -11865,7 +11865,7 @@ meet this requirement ; and
 applicable regulatory body that oversees the utility rate determinations of the 
 business segment perfor ming the contract.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 272 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 272 ---
 Page 2 of 3   Attachment A  
 d. The contract provides the Government with access to all records related to the accounting 
 practices used to determine the costs and the supporting data for any estimates of 
@@ -11905,7 +11905,7 @@ incurrence of the CIAC tax is necessary to achiev e the most benefic ial busines
 Government and allowing the CIAC tax will res ult in significant benefits to the Government that 
 outweigh the cost of allowing the tax.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 273 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 273 ---
 Page 3 of 3   Attachment A  
 b. The HCA has adequately documented, in writing : 
 (i) The basis for the DoD detem1ination of fair market value using a generally accepted 
@@ -11921,7 +11921,7 @@ the difference between:
 methodology; and 
 (ii) The fair market value determination of the IRS in assessing the tax.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 274 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 274 ---
 .. 
 Ms. Deidre A. Lee 
 Directer, D1ftmt l'rowrem.ent and. 
@@ -11951,7 +11951,7 @@ Siricercly.
 ~""-~ AntbonyM.~ 
 Member
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 275 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 275 ---
 Endoa:ure 
 The Cost Accounting Standards are hereby waive4 for contracts enbed into under the 
 authority of 10 U.S.C. 2686., .. Utility Systems, Conveyance Authority" that meet all of the 
@@ -11987,7 +11987,7 @@ negotiated bad the business unit used complfant accounting practices that were i
 accordance with FERC. NARUC, RUS, or A WW A, and were consistent with 1hc
 contractor's 'Written and established practices. _The Oovemment shall be entitled to a
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 276 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 276 ---
 credit or cash recovery (at the Government's option) for the amount of the increased 
 price plus interest. The interest shall be computed from the date the payment by the 
 Govemment mi.til the date of repayment by the contractor. The inte?est rate shall be the 
@@ -12015,7 +12015,7 @@ contractor records. incluclins but not Ibnited to the accounting practices and
 cosc records in use at the time of the contract award and at the time of the
 price rede'termioation.
 
---- Source: knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 277 ---
+--- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 277 ---
 ACQUISITION, 
 TECHNOLOGY 
 AND LOGISTICS 
