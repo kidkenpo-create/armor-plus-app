@@ -72,10 +72,27 @@ test('baseline FAR/DFARS data fallback cannot be returned as controlling context
 test('prompt and analyze route enforce source authority lock', () => {
   const prompt = read('app/lib/armor-prompt.ts');
   const analyze = read('app/api/analyze/route.ts');
+  const registry = read('app/lib/source-registry.ts');
 
   assert.match(prompt, /BASELINE FAR\/DFARS FALLBACK BAR/, 'prompt must bar baseline fallback as controlling authority');
   assert.match(prompt, /DEFINITIVE ANSWER LOCK/, 'prompt must require retrieved approved source text before a Definitive answer');
   assert.match(analyze, /sourceAuthorityInstruction\(routePlan\)/, 'analyze route must inject runtime source authority status');
+  assert.match(registry, /No specific active class-deviation source was selected by the route/, 'source authority should distinguish no selected class-deviation source from failed retrieval');
+  assert.match(registry, /Mark class-deviation rungs Checked or N\/A, not UTR/, 'source authority should not force UTR when no class-deviation source was selected');
+  assert.match(registry, /A specific class-deviation source was selected but approved source text was not retrieved/, 'source authority should preserve true UTR for selected class-deviation sources that fail retrieval');
+  assert.match(registry, /isClassDeviationRouteItem/, 'source authority should classify selected class-deviation route items explicitly');
+});
+
+test('two-step sealed bidding does not become Conditional solely from non-selected class-deviation rungs', () => {
+  const prompt = read('app/lib/armor-prompt.ts');
+  const analyze = read('app/api/analyze/route.ts');
+
+  assert.match(analyze, /RFO FAR 14\.211-3\(a\)\(1\)/, 'two-step override should preserve the current RFO FAR controlling citation');
+  assert.match(analyze, /mark class-deviation rungs Checked or N\/A instead of UTR/, 'two-step override should prevent misleading UTR when no class-deviation source is selected');
+  assert.match(analyze, /do not make the answer Conditional solely for class-deviation status/, 'two-step override should prevent Conditional solely from optional deviation status');
+  assert.match(prompt, /UTR only when a specific selected source failed retrieval/, 'full prompt should define UTR narrowly');
+  assert.match(prompt, /Optional or non-selected rungs should be Checked\/N\/A, not UTR/, 'full prompt should direct non-selected rungs away from UTR');
+  assert.doesNotMatch(prompt, /UTR any rung -> STEP 7 genuine unknown/, 'full prompt should not downgrade for every optional UTR-style rung');
 });
 
 test('production prompts do not imply classroom-key answers', () => {

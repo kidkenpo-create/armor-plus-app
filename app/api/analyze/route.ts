@@ -281,6 +281,7 @@ function issueSpecificInstruction(question: string) {
       'Do not include FAR 14.503-1, FAR 14.502, or FAR subpart 14.5 anywhere in the answer unless the user explicitly asks for legacy FAR or a crosswalk.',
       'Use acquisition.gov RFO FAR Part 14 text. The operative RFO FAR 14.211-3(a)(1) step-one rule begins: "Synopsize requests for technical proposals in accordance with Part 5."',
       'BLUF must cite RFO FAR 14.211-3(a)(1). STEP 5 cite must be RFO FAR 14.211-3(a)(1).',
+      'If LIVE REGULATORY CONTEXT does not include a selected class-deviation source for this Part 14 issue, mark class-deviation rungs Checked or N/A instead of UTR, and do not make the answer Conditional solely for class-deviation status.',
     ].join('\n');
   }
 
