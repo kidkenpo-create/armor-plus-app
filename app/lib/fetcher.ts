@@ -10,7 +10,7 @@ const DFARS_PGI_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-
 const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
 const SOURCE_FETCH_TIMEOUT_MS = 5000;
 const PART_252_DEVIATION_MEMO_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
-const CD_2021_O0008_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt';
+const DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
 export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback is disabled for controlling authority; use RFO FAR, DFARS RFO, DFARS RFO PGI, or approved class-deviation text only.';
 
 export interface FetchResult {
@@ -334,8 +334,8 @@ function approvedTextMirrorPath(textPath: string) {
   if (normalized === PART_252_DEVIATION_MEMO_TEXT_PATH) {
     return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DFARS-RFO-PART-252-Deviation-Memo.txt');
   }
-  if (normalized === CD_2021_O0008_TEXT_PATH) {
-    return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt');
+  if (normalized === DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH) {
+    return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt');
   }
 
   throw new Error('Unapproved PDF text mirror path.');
@@ -412,6 +412,13 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
 
   if (request.kind === 'dfars_rfo' && request.part === '227') {
     targets.push(/227\.400\s+Scope of subpart[\s\S]{0,1400}/i);
+  }
+
+  if (request.kind === 'class_deviation' && request.part === '19') {
+    targets.push(
+      /DARS Tracking Number:\s*2021-O0008,\s*Revision 1[\s\S]{0,13000}/i,
+      /Attachment\s+Class Deviation 2021-O0008,\s*Revision 1[\s\S]{0,9500}/i,
+    );
   }
 
   for (const target of targets) {
