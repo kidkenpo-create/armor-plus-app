@@ -78,6 +78,13 @@ export function isApprovedControllingSource(label: string, url: string) {
     return true;
   }
 
+  if (
+    lowerLabel.includes('class deviation 2021-o0008')
+    && lowerUrl.includes('knowledge/armor-gpt/dod_class_deviations_fy26v04_dated_2feb2026.pdf#cd-2021-o0008-revision-1')
+  ) {
+    return true;
+  }
+
   return false;
 }
 
