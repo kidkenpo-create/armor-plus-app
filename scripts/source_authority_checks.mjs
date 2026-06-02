@@ -9,7 +9,6 @@ const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 test('ARMOR GPT knowledge files are normalized under knowledge/armor-gpt', () => {
   const files = [
     'knowledge/armor-gpt/02_FAR_Competition_and_Sealed_Bidding.txt',
-    'knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf',
     'knowledge/armor-gpt/master_index.json',
     'knowledge/armor-gpt/part_lookup.json',
     'knowledge/armor-gpt/REF_1_Citation_Decision_Tree.txt',
@@ -18,6 +17,37 @@ test('ARMOR GPT knowledge files are normalized under knowledge/armor-gpt', () =>
 
   for (const file of files) {
     assert.ok(fs.existsSync(path.join(root, file)), `${file} should exist`);
+  }
+});
+
+test('DoD class deviations use one public PDF and one internal text mirror', () => {
+  const publicPdfPath = 'public/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf';
+  const privatePdfPath = 'knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf';
+  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
+  const oneOffMirrorPath = 'knowledge/armor-gpt/pdf-text/CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt';
+  const publicPdf = path.join(root, publicPdfPath);
+  const mirror = read(mirrorPath);
+
+  assert.ok(fs.existsSync(publicPdf), 'official DoD FY26v04 citation PDF should be served from public/');
+  assert.ok(fs.statSync(publicPdf).size > 1_000_000, 'official public PDF should be the full source artifact');
+  assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'approved internal text mirror should exist');
+  assert.ok(!fs.existsSync(path.join(root, privatePdfPath)), 'private duplicate PDF should not exist when the public PDF is the official citation target');
+  assert.ok(!fs.existsSync(path.join(root, oneOffMirrorPath)), 'one-off CD 2021-O0008 mirror should not be retained when the full FY26v04 mirror contains the text');
+  assert.ok(!fs.existsSync(path.join(root, 'public/knowledge/armor-gpt/pdf-text')), 'internal text mirrors should not be exposed from public/');
+  assert.match(mirror, /Source: \/knowledge\/armor-gpt\/DoD_Class_Deviations_FY26v04_dated_2Feb2026\.pdf \| Page 1/, 'mirror page headers should point to the public official PDF path');
+  assert.doesNotMatch(mirror, /Source: knowledge\/armor-gpt\/DoD_Class_Deviations_FY26v04_dated_2Feb2026\.pdf/, 'mirror should not point back to the removed private duplicate PDF');
+
+  for (const pattern of [
+    /Class Deviation 2026-O0044/i,
+    /Class Deviation 2026-O0033/i,
+    /Class Deviation 2025-O0007/i,
+    /Class Deviation 2024-O0014/i,
+    /Class Deviation 2021-O0008,\s*Revision 1/i,
+    /52\.219-14\s+Limitations on Subcontracting \(DEVIATION 2021-O0008\)/i,
+    /252\.\s*232-7998[\s,]+Obligations in Advance of\s+Fiscal Year 2026 Funding/i,
+    /252\.225-7965\s+Acquisition of Dinnerware and Stainless-Steel Flatware/i,
+  ]) {
+    assert.match(mirror, pattern, `full FY26v04 text mirror should contain ${pattern}`);
   }
 });
 
@@ -104,7 +134,7 @@ test('FAR 52.219-14 route retrieves CD 2021-O0008 approved text mirror', () => {
   const request = rule?.requests?.find(item => item.kind === 'class_deviation' && item.textPath === mirrorPath);
 
   assert.ok(request, 'FAR 52.219-14 limitations-on-subcontracting route should request the approved DoD class-deviation text mirror');
-  assert.equal(request.url, 'knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1', 'CD 2021-O0008 mirror should preserve the approved PDF artifact URL');
+  assert.equal(request.url, '/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1', 'CD 2021-O0008 mirror should preserve the public approved PDF artifact URL');
   assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'full DoD class-deviation text mirror should exist');
   const mirror = read(mirrorPath);
   assert.match(mirror, /DARS Tracking Number:\s*2021-O0008,\s*Revision 1/i, 'mirror should contain the CD 2021-O0008 Revision 1 memo');
