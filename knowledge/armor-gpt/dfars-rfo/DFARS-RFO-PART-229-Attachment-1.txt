@@ -1,0 +1,381 @@
+PART 229-TAXES
+
+SUBPART 229.1-GENERAL
+
+
+229.101-70  Resolving tax problems.
+
+   (a)(1) Within DoD, the agency-designated legal counsels are the defense agency General Counsels, the General Counsels of the Navy and Air Force, and for the Army, the Chief, Contract Law Division, Office of the Judge Advocate General.  For additional information on the designated legal counsels, see PGI 229.101-70(a).
+
+      (2) Before purchasing goods or services from a foreign source, consult the agency-designated counsel.
+
+	(b)  For information on fuel excise taxes, see PGI 229.101-70 (b).
+
+	(c)  For guidance on directing a contractor to litigate the applicability of a particular tax, see PGI 229.101-70 (c).
+
+	(d)  For information on tax relief agreements between the United States and European foreign governments, see PGI 229.101-70 (d).
+
+229.170  Reporting of foreign taxation on U.S. assistance programs.
+
+229.170-1  Definition.
+
+"Commodities," as used in this section, means any materials, articles, supplies, goods, or equipment.
+
+229.170-2  Policy.
+
+	(a)  By law, bilateral agreements with foreign governments must include a provision that commodities acquired under contracts funded by U.S. assistance programs must be exempt from taxation by the foreign government.  If taxes or customs duties nevertheless are imposed, the foreign government must reimburse the amount of such taxes to the U.S. Government (Section 579 of Division E of the Consolidated Appropriations Act, 2003 (Pub. L. 108-7).
+
+	(b)  This foreign tax exemption-
+
+		(1)  Applies to a contract or subcontract for commodities when-
+
+			(i)  The funds are appropriated by the annual foreign operations appropriations act; and
+
+			(ii)  The value of the contract or subcontract is $500 or more;
+
+		(2)  Does not apply to the acquisition of services;
+
+		(3)  Generally, is implemented through letters of offer and acceptance, other country-to-country agreements, or Federal interagency agreements; and
+
+		(4)  Requires reporting of noncompliance for effective implementation.
+
+229.170-3  Reports.
+The contracting officer must submit a report to the designated Security Assistance Office when a foreign government or entity imposes tax or customs duties on commodities acquired under contracts or subcontracts meeting the criteria of 229.170-2(b)(1).  Follow the procedures at PGI 229.170-3 for submission of reports.
+
+229.170-4  Contract clause.
+Insert the clause at 252.229-7011, Reporting of Foreign Taxes-U.S. Assistance Programs, in solicitations and contracts funded with U.S. assistance appropriations provided in the annual foreign operations appropriations act.
+
+SUBPART 229.2-FEDERAL EXCISE TAXES
+
+229.204  Federal excise tax on specific foreign contract payments.
+The contracting officer must not authorize the Governmentwide commercial purchase card as a method of payment during any contract period of performance if the contract includes the clause at FAR 52.229-12, Tax on Certain Foreign Procurements, unless the contract also includes the clause at 252.229-7014, Full Exemption from Two-Percent Excise Tax on Certain Foreign Procurements, indicating that the contractor is fully exempt from the tax.
+
+SUBPART 229.4-CONTRACT CLAUSES
+
+229.402  Foreign contracts.
+
+229.402-70  Additional provisions and clauses.
+
+	(a)  Insert the basic or the alternate of the clause at 252.229-7001, Tax Relief, in solicitations and contracts when a contract will be awarded to a foreign concern for performance in a foreign country.
+
+		(1)  Insert the basic clause in solicitations and contracts when the contract will be performed in a foreign country other than Germany.
+
+		(2)  Insert the alternate I clause in solicitations and contracts when the contract will be performed in Germany.
+
+	(b)  Insert the clause at 252.229-7002, Customs Exemptions (Germany), in solicitations and contracts requiring the import of U.S. manufactured products into Germany.
+
+	(c)(1)  Insert the clause at 252.229-7003, Tax Exemptions (Italy), in solicitations and contracts when contract performance will be in Italy.
+
+		(2)  Insert the provision at 252.229-7012, Tax Exemptions (Italy)-Representation, in solicitations that contain the clause at 252.229-7003, Tax Exemptions (Italy).  If the solicitation includes the provision at FAR 52.204-7, do not separately list 252.229-7012 in the solicitation.
+
+	(d)  Insert the clause at 252.229-7004, Status of Contractor as a Direct Contractor (Spain), in solicitations and contracts requiring the import into Spain of supplies for construction, development, maintenance, or operation of Spanish-American installations and facilities.
+
+	(e)(1)  Insert the clause at 252.229-7005, Tax Exemptions (Spain), in solicitations and contracts when contract performance will be in Spain.
+
+		(2)  Insert the provision at 252.229-7013, Tax Exemptions (Spain)-Representation, in solicitations that contain the clause at 252.229-7005, Tax
+ Exemptions (Spain).  If the solicitation includes the provision at FAR 52.204-7, do not separately list 252.229-7013 in the solicitation.
+ 
+	(f)  Insert the clause at 252.229-7006, Value Added Tax Exclusion (United Kingdom), in solicitations and contracts when contract performance will be in the United Kingdom.
+
+	(g)  Insert the clause at 252.229-7007, Verification of United States Receipt of Goods, in solicitations and contracts when contract performance will be in the United Kingdom.
+
+	(h)  Insert the clause at 252.229-7008, Relief from Import Duty (United Kingdom), in solicitations issued and contracts awarded in the United Kingdom.
+
+	(i)  Insert the clause at 252.229-7009, Relief from Customs Duty and Value Added Tax on Fuel (Passenger Vehicles) (United Kingdom), in solicitations issued and contracts awarded in the United Kingdom for fuels (gasoline or diesel) and lubricants used in passenger vehicles (excluding taxis).
+
+	(j)  Insert the clause at 252.229-7010, Relief from Customs Duty on Fuel (United Kingdom), in solicitations issued and contracts awarded in the United Kingdom that require the use of fuels (gasoline or diesel) and lubricants in taxis or vehicles other than passenger vehicles.
+
+	(k)  Insert the clause at 252.229-7014, Full Exemption from Two-Percent Excise Tax on Certain Foreign Procurements, in contracts that include the clause at FAR 52.229-12, Tax on Certain Foreign Procurements, when the contractor has-
+
+		(1)  Represented that it is a foreign person in response to the provision at FAR 52.229-11, Tax on Certain Foreign Procurements-Notice and Representation; and
+
+		(2)  Indicated that it is fully exempt from the tax for reasons cited on their IRS Form W-14, Certificate of Foreign Contracting Party Receiving Federal Procurement Payments.
+
+SUBPART 229.70-SPECIAL PROCEDURES FOR OVERSEAS CONTRACTS
+
+To obtain tax relief for overseas contracts, follow the procedures at PGI 229.70. 
+
+
+SUBPART 252.2--TEXT OF PROVISIONS AND CLAUSES
+
+252.229-7000  Reserved.
+
+252.229-7001  Tax Relief.
+ 
+      Basic.  As prescribed in 229.402-70(a) and (a)(1), use the following clause:
+ 
+TAX RELIEF-BASIC (APR 2020)
+ 
+      (a)  Prices set forth in this contract are exclusive of all taxes and duties from which the United States Government is exempt by virtue of tax agreements between the United States Government and the Contractor's government.  The following taxes or duties have been excluded from the contract price:
+ 
+NAME OF TAX:  (Offeror insert)RATE (PERCENTAGE):  (Offeror insert) 
+      (b)  Invoices submitted in accordance with the terms and conditions of this contract shall be exclusive of all taxes or duties for which relief is available. The Contractor's invoice shall list separately the gross price, amount of tax deducted, and net price charged.
+ 
+      (c)  When items manufactured to United States Government specifications are being acquired, the Contractor shall identify the materials or components intended to be imported in order to ensure that relief from import duties is obtained.  If the Contractor intends to use imported products from inventories on hand, the price of which includes a factor for import duties, the Contractor shall ensure the United States Government's exemption from these taxes.  The Contractor may obtain a refund of the import duties from its government or request the duty-free import of an amount of supplies or components corresponding to that used from inventory for this contract.
+ 
+(End of clause)
+ 
+      Alternate I.  As prescribed in 229.402-70(a) and (a)(2), use the following clause, which adds a paragraph (d) not included in the basic clause:
+ 
+TAX RELIEF-ALTERNATE I (APR 2020)
+ 
+      (a)  Prices set forth in this contract are exclusive of all taxes and duties from which the United States Government is exempt by virtue of tax agreements between the United States Government and the Contractor's government. The following taxes or duties have been excluded from the contract price:
+ 
+NAME OF TAX:  [Offeror insert]RATE (PERCENTAGE):  [Offeror insert] 
+      (b)  Invoices submitted in accordance with the terms and conditions of this contract shall be exclusive of all taxes or duties for which relief is available. The Contractor's invoice shall list separately the gross price, amount of tax deducted, and net price charged.
+ 
+      (c)  When items manufactured to United States Government specifications are being acquired, the Contractor shall identify the materials or components intended to be imported in order to ensure that relief from import duties is obtained. If the Contractor intends to use imported products from inventories on hand, the price of which includes a factor for import duties, the Contractor shall ensure the United States Government's exemption from these taxes. The Contractor may obtain a refund of the import duties from its government or request the duty-free import of an amount of supplies or components corresponding to that used from inventory for this contract.
+ 
+      (d)   Tax relief will be claimed in Germany pursuant to the provisions of the Agreement Between the United States of America and Germany Concerning Tax Relief to be Accorded by Germany to United States Expenditures in the Interest of Common Defense. The Contractor shall use Abwicklungsschein fuer abgabenbeguenstigte Lieferungen/Leistungen nach dem Offshore Steuerabkommen (Performance Certificate for Tax-Free Deliveries/Performance according to the Offshore Tax Relief Agreement) or other documentary evidence acceptable to the German tax authorities. All purchases made and paid for on a tax-free basis during a 30-day period may be accumulated, totaled, and reported as tax-free.
+ 
+(End of clause)
+
+ 
+252.229-7002  Customs Exemptions (Germany).
+As prescribed in 229.402-70(b), use the following clause:
+ 
+CUSTOMS EXEMPTIONS (GERMANY) (JUN 1997)
+ 
+Imported products required for the direct benefit of the United States Forces are authorized to be acquired duty-free by the Contractor in accordance with the provisions of the Agreement Between the United States of America and Germany Concerning Tax Relief to be Accorded by Germany to United States Expenditures in the Interest of Common Defense.
+ 
+(End of clause)
+
+252.229-7003  Tax Exemptions (Italy).
+As prescribed in 229.402-70(c)(1), use the following clause:
+ 
+TAX EXEMPTIONS (ITALY) (MAR 2012)
+ 
+      (a)  As the Contractor represented in its offer, the contract price, including the prices in subcontracts awarded under this contract, does not include taxes from which the United States Government is exempt.
+ 
+      (b)  The United States Government is exempt from payment of Imposta Valore Aggiunto (IVA) tax in accordance with Article 72 of the IVA implementing decree on all supplies and services sold to United States Military Commands in Italy.
+ 
+              (1)  The Contractor shall include the following information on invoices submitted to the United States Government:
+ 
+                    (i)  The contract number.
+ 
+                    (ii)  The IVA tax exemption claimed pursuant to Article 72 of Decree Law 633, dated October 26, 1972.
+ 
+                    (iii)  The following fiscal code(s):  [Contracting Officer must insert the applicable fiscal code(s) for military activities within Italy:  80028250241 for Army, 80156020630 for Navy, or 91000190933 for Air Force].
+ 
+              (2)(i)  Upon receipt of the invoice, the paying office will include the following certification on one copy of the invoice:
+ 
+"I certify that this invoice is true and correct and reflects expenditures made in Italy for the Common Defense by the United States Government pursuant to international agreements.  The amount to be paid does not include the IVA tax, because this transaction is not subject to the tax in accordance with Article 72 of Decree Law 633, dated October 26, 1972." 
+An authorized United States Government official will sign the copy of the invoice containing this certification.
+ 
+                    (ii)  The paying office will return the certified copy together with payment to the Contractor.  The payment will not include the amount of the IVA tax.
+ 
+                    (iii)  The Contractor shall retain the certified copy to substantiate non-payment of the IVA tax.
+ 
+              (3)  The Contractor may address questions regarding the IVA tax to the Ministry of Finance, IVA Office, Rome (06) 520741.
+ 
+      (c)  In addition to the IVA tax, purchases by the United States Forces in Italy are exempt from the following taxes:
+ 
+              (1)  Imposta di Fabbricazione (Production Tax for Petroleum Products).
+ 
+              (2)  Imposta di Consumo (Consumption Tax for Electrical Power).
+ 
+              (3)  Dazi Doganali (Customs Duties).
+ 
+              (4)  Tassa di Sbarco e d'Imbarco sulle Merci Transportate per Via Aerea e per Via Maritima (Port Fees).
+ 
+              (5)  Tassa de Circolazione sui Veicoli (Vehicle Circulation Tax).
+ 
+              (6)  Imposta di Registro (Registration Tax).
+ 
+              (7)  Imposta di Bollo (Stamp Tax).
+ 
+(End of clause)
+
+252.229-7004  Status of Contractor as a Direct Contractor (Spain).
+As prescribed in 229.402-70(d), use the following clause:
+ 
+STATUS OF CONTRACTOR AS A DIRECT CONTRACTOR (SPAIN) (JUN 1997)
+ 
+      (a)  "Direct Contractor," as used in this clause, means an individual, company, or entity with whom an agency of the United States Department of Defense has executed a written agreement that allows duty-free import of equipment, materials, and supplies into Spain for the construction, development, maintenance, and operation of Spanish-American installations and facilities.
+ 
+      (b)  The Contractor is hereby designated as a Direct Contractor under the provisions of Complementary Agreement 5, articles 11, 14, 15, 17, and 18 of the Agreement on Friendship, Defense and Cooperation between the United States Government and the Kingdom of Spain, dated July 2, 1982.  The Agreement relates to contracts to be performed in whole or part in Spain, the provisions of which are hereby incorporated into and made a part of this contract by reference.
+ 
+      (c)  The Contractor shall apply to the appropriate Spanish authorities for approval of status as a Direct Contractor in order to complete duty-free import of non-Spanish equipment, materials, and supplies represented as necessary for contract performance by the Contracting Officer.  Orders for equipment, materials, and supplies placed prior to official notification of such approval shall be at the Contractor's own risk.  The Contractor must submit its documentation in sufficient time to permit processing by the appropriate United States and Spanish Government agencies prior to the arrival of the equipment, materials, or supplies in Spain.  Seasonal variations in processing times are common, and the Contractor should program its projects accordingly.  Any delay or expense arising directly or indirectly from this process shall not excuse untimely performance (except as expressly allowed in other provisions of this contract), constitute a direct or constructive change, or otherwise provide a basis for additional compensation or adjustment of any kind.
+ 
+      (d)  To ensure that all duty-free imports are properly accounted for, exported, or disposed of, in accordance with Spanish law, the Contractor shall obtain a written bank letter of guaranty payable to the Treasurer of the United States, or such other authority as may be designated by the Contracting Officer, in the amount set forth in paragraph (g) of this clause, prior to effecting any duty-free imports for the performance of this contract.
+ 
+      (e)  If the Contractor fails to obtain the required guaranty, the Contractor agrees that the Contracting Officer may withhold a portion of the contract payments in order to establish a fund in the amount set forth in paragraph (g) of this clause.  The fund shall be used for the payment of import taxes in the event that the Contractor fails to properly account for, export, or dispose of equipment, materials, or supplies imported on a duty-free basis.
+ 
+      (f)  The amount of the bank letter of guaranty or size of the fund required under paragraph (d) or (e) of this clause normally shall be 5 percent of the contract value.  However, if the Contractor demonstrates to the Contracting Officer's satisfaction that the amount retained by the United States Government or guaranteed by the bank is excessive, the amount shall be reduced to an amount commensurate with contingent import tax and duty-free liability.  This bank guaranty or fund shall not be released to the Contractor until the Spanish General Directorate of Customs verifies the accounting, export, or disposition of the equipment, material, or supplies imported on a duty-free basis.
+ 
+      (g)  The amount required under paragraph (d), (e), or (f) of this clause is (Contracting Officer insert amount at time of contract award) .
+ 
+      (h)  The Contractor agrees to insert the provisions of this clause, including this paragraph (h), in all subcontracts.
+ 
+(End of clause)
+
+252.229-7005  Tax Exemptions (Spain).
+As prescribed in 229.402-70(e)(1), use the following clause:
+ 
+TAX EXEMPTIONS (SPAIN) (MAR 2012)
+ 
+      (a)  As the Contractor represented in its offer, the contract price, including the prices in subcontracts awarded under this contract, does not include taxes from which the United States Government is exempt.
+ 
+      (b)  In accordance with tax relief agreements between the United States Government and the Spanish Government, and because the incumbent contract arises from the activities of the United States Forces in Spain, the contract will be exempt from the following excise, luxury, and transaction taxes:
+ 
+              (1)  Derechos de Aduana (Customs Duties).
+ 
+              (2)  Impuesto de Compensacion a la Importacion (Compensation Tax on Imports).
+ 
+              (3)  Transmissiones Patrionomiales (Property Transfer Tax).
+ 
+              (4)  Impuesto Sobre el Lujo (Luxury Tax).
+ 
+              (5)  Actos Juridocos Documentados (Legal Official Transactions).
+ 
+              (6)  Impuesto Sobre el Trafico de Empresas (Business Trade Tax).
+ 
+              (7)  Impuestos Especiales de Fabricacion (Special Products Tax).
+ 
+              (8)  Impuesto Sobre el Petroleo y Derivados (Tax on Petroleum and its By-Products).
+ 
+              (9)  Impuesto Sobre el Uso de Telefona (Telephone Tax).
+ 
+              (10)  Impuesto General Sobre la Renta de Sociedades y demas Entidades Juridicas (General Corporation Income Tax).
+ 
+              (11)  Impuesto Industrial (Industrial Tax).
+ 
+              (12)  Impuesto de Rentas Sobre el Capital (Capital Gains Tax).
+ 
+              (13)  Plus Vailia (Increase on Real Property).
+ 
+              (14)  Contribucion Territorial Urbana (Metropolitan Real Estate Tax).
+ 
+              (15)  Contribucion Territorial Rustica y Pecuaria (Farmland Real Estate Tax).
+ 
+              (16)  Impuestos de la Diputacion (County Service Charges).
+ 
+              (17)  Impuestos Municipal y Tasas Parafiscales (Municipal Tax and Charges).
+ 
+(End of clause)
+
+ 
+252.229-7006  Value Added Tax Exclusion (United Kingdom)
+As prescribed in 229.402-70(f), use the follow clause:
+ 
+VALUE ADDED TAX EXCLUSION (UNITED KINGDOM) (DEC 2011)
+ 
+The supplies or services identified in this contract are to be delivered at a price exclusive of value added tax under arrangements between the appropriate United States authorities and Her Majesty's Revenue and Customs (HMRC Reference Notice 431, entitled Relief from Customs Duty and/or Value Added Tax on United States Government Expenditures in the United Kingdom). By executing this contract, the Contracting Officer certifies that these supplies or services are being purchased for United States Government official purposes only.
+ 
+(End of clause)
+
+252.229-7007  Verification of United States Receipt of Goods.
+As prescribed in 229.402-70(g), use the following clause:
+ 
+VERIFICATION OF UNITED STATES RECEIPT OF GOODS (JUN 1997)
+ 
+The Contractor shall insert the following statement on all Material Inspection and Receiving Reports (DD Form 250 series) for Contracting Officer approval:
+ 
+"I certify that the items listed on this invoice have been received by the United States."
+ 
+(End of clause)
+
+252.229-7008  Relief from Import Duty (United Kingdom).
+As prescribed in 229.402-70(h), use the following clause:
+ 
+RELIEF FROM IMPORT DUTY (UNITED KINGDOM) (DEC 2011)
+ 
+Any import dutiable articles, components, or raw materials supplied to the United States Government under this contract shall be exclusive of any United Kingdom import duties. Any imported items supplied for which import duty already has been paid will be supplied at a price exclusive of the amount of import duty paid. The Contractor is advised to contact Her Majesty's Revenue and Customs to obtain a refund upon completion of the contract (Reference HMRC Notice No. 431, entitled "Relief from Customs Duty and/or Value Added Tax on United States Government Expenditures in the United Kingdom").
+ 
+(End of clause)
+ 
+252.229-7009  Relief from Customs Duty and Value Added Tax on Fuel (Passenger Vehicles) (United Kingdom).
+As prescribed in 229.402-70(i), use the following clause:
+ 
+RELIEF FROM CUSTOMS DUTY AND VALUE ADDED TAX ON FUEL (PASSENGER VEHICLES) (UNITED KINGDOM) (JUN 1997)
+ 
+      (a)  Pursuant to an agreement between the United States Government and Her Majesty's (HM) Customs and Excise, fuels and lubricants used by passenger vehicles (except taxis) in the performance of this contract will be exempt from customs duty and value added tax.  Therefore, the procedures outlined in HM Customs and Excise Notice No. 431B, August 1982, and any amendment thereto, shall be used to obtain relief from both customs duty and value added tax for fuel used under the contract.  These procedures shall apply to both loaded and unloaded miles.  The unit prices shall be based on the recoupment by the Contractor of customs duty in accordance with the following allowances:
+ 
+              (1)  Vehicles (except taxis) with a seating capacity of less than 29, one gallon for every 27 miles.
+ 
+              (2)  Vehicles with a seating capacity of 29-53, one gallon for every 13 miles.
+ 
+              (3)  Vehicles with a seating capacity of 54 or more, one gallon for every
+10 miles.
+ 
+      (b)  In the event the mileage of any route is increased or decreased within 10 percent, resulting in no change in route price, the customs duty shall be reclaimed from HM Customs and Excise on actual mileage performed.
+ 
+(End of clause)
+ 
+252.229-7010  Relief from Customs Duty on Fuel (United Kingdom).
+As prescribed in 229.402-70(j), use the following clause:
+ 
+RELIEF FROM CUSTOMS DUTY ON FUEL (UNITED KINGDOM) (JUN 1997)
+ 
+      (a)  Pursuant to an agreement between the United States Government and Her Majesty's (HM) Customs and Excise, it is possible to obtain relief from customs duty on fuels and lubricants used in support of certain contracts.  If vehicle fuels and lubricants are used in support of this contract, the Contractor shall seek relief from customs duty in accordance with HM Customs Notice No. 431, February 1973, entitled "Relief from Customs Duty and/or Value Added Tax on United States Government Expenditures in the United Kingdom."  Application should be sent to the Contractor's local Customs and Excise Office.
+ 
+      (b)  Specific information should be included in the request for tax relief, such as the number of vehicles involved, types of vehicles, rating of vehicles, fuel consumption, estimated mileage per contract period, and any other information that will assist HM Customs and Excise in determining the amount of relief to be granted.
+ 
+      (c)  Within 30 days after the award of this contract, the Contractor shall provide the Contracting Officer with evidence that an attempt to obtain such relief has been initiated.  In the event the Contractor does not attempt to obtain relief within the time specified, the Contracting Officer may deduct from the contract price the amount of relief that would have been allowed if HM Customs and Excise had favorably considered the request for relief.
+ 
+      (d)  The amount of any rebate granted by HM Customs and Excise shall be paid in full to the United States Government.  Checks shall be made payable to the Treasurer of the United States and forwarded to the Administrative Contracting Officer.
+ 
+(End of clause)
+
+252.229-7011  Reporting of Foreign Taxes - U.S. Assistance Programs.
+As prescribed in 229.170-4, use the following clause:
+ 
+REPORTING OF FOREIGN TAXES - U.S. ASSISTANCE PROGRAMS (SEP 2005)
+ 
+      (a)  Definition.  "Commodities," as used in this clause, means any materials, articles, supplies, goods, or equipment.
+ 
+      (b)  Commodities acquired under this contract shall be exempt from all value added taxes and customs duties imposed by the recipient country.  This exemption is in addition to any other tax exemption provided through separate agreements or other means.
+ 
+      (c)  The Contractor shall inform the foreign government of the tax exemption, as documented in the Letter of Offer and Acceptance, country-to-country agreement, or interagency agreement.
+ 
+      (d)  If the foreign government or entity nevertheless imposes taxes, the Contractor shall promptly notify the Contracting Officer and shall provide documentation showing that the foreign government was apprised of the tax exemption in accordance with paragraph (c) of this clause.
+ 
+      (e)  The Contractor shall insert the substance of this clause, including this paragraph (e), in all subcontracts for commodities that exceed $500.
+ 
+(End of clause)
+
+252.229-7012  Tax Exemptions (Italy)-Representation.
+As prescribed in 229.402-70(c)(2), use the following provision:
+ 
+TAX EXEMPTIONS (ITALY)-REPRESENTATION (MAR 2012)
+ 
+      (a)  Exemptions.  The United States Government is exempt from payment of-
+ 
+              (1)  Imposta Valore Aggiunto (IVA) tax in accordance with Article 72 of the IVA implementing decree on all supplies and services sold to United States Military Commands in Italy; and
+ 
+              (2)  The other taxes specified in paragraph (c) of the clause DFARS 252.229-7003, Tax Exemptions (Italy).
+ 
+      (b)  Representation.  By submission of its offer, the offeror represents that the offered price, including the prices of subcontracts to be awarded under the contract, does not include the taxes identified herein, or any other taxes from which the United States Government is exempt.
+ 
+(End of provision)
+ 
+252.229-7013  Tax Exemptions (Spain)-Representation.
+As prescribed in 229.402-70(e)(2), use the following provision:
+ 
+TAX EXEMPTIONS (SPAIN)-REPRESENTATION (APR 2012)
+ 
+      (a)  Exemptions.  In accordance with tax relief agreements between the United States Government and the Spanish Government, and because the resultant contract arises from the activities of the United States Forces in Spain, the contract will be exempt from the excise, luxury, and transaction taxes listed in paragraph (b) of the clause DFARS 252.229-7005, Tax Exemptions (Spain).
+ 
+      (b)  Representation.  By submission of its offer, the offeror represents that the offered price, including the prices of subcontracts to be awarded under the contract, does not include the taxes identified herein, or any other taxes from which the United States Government is exempt.
+ 
+(End of provision)
+
+252.229-7014  Full Exemption from Two-Percent Excise Tax on Certain Foreign Procurements.
+As prescribed in 229.402-70(k), use the following clause:
+ 
+FULL EXEMPTION FROM TWO-PERCENT EXCISE TAX ON CERTAIN FOREIGN PROCUREMENTS (OCT 2022)
+ 
+      (a)  As the Contractor represented in its offer, any item, including any item delivered under subcontract; any service; or any combination thereof delivered under this contract is fully exempt from the 2-percent excise tax withholding imposed by 26 U.S.C. 5000C and implemented by Federal Acquisition Regulation (FAR) 52.229-12, Tax on Certain Foreign Procurements.
+ 
+      (b)  If the full exemption no longer applies due to a change in circumstances during the performance of the contract, causing the Contractor to become subject to the withholding for the 2-percent excise tax as imposed by 26 U.S.C. 5000C, then the Contractor shall immediately comply with the notification and billing requirements of FAR clause 52.229-12.
+ 
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0007
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 29
+Defense FAR Supplement (DFARS) Part 229
+
+
+
+Page 1 of 7
+

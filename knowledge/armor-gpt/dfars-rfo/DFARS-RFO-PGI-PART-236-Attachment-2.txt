@@ -1,0 +1,199 @@
+PGI 236- CONSTRUCTION AND ARCHITECT-ENGINEER CONTRACTS
+
+PGI 236.1- PRE-SOLICITATION
+
+PGI 236.101 Construction.
+
+PGI 236.101-1 Acquisition Strategy.
+
+ (b)(1)(70)  Definition:  "lump sum" means a single payment of money, as opposed to a
+series of payments made over time.
+
+  (i)  An example of a line item with lump sum pricing in accordance with DFARS part
+204 is as follows:
+
+ITEM
+NO.
+SUPPLIES/SERVICE QUANTITY UNIT UNIT PRICE AMOUNT
+0001 Repave runway 4 at Joint
+Base Andrews
+Firm Fixed Price
+PSC: Z1BD
+ACRN: AA
+1   Job  $1,501,866.08  $1,501,866.08
+
+Note that payment would occur upon completion and acceptance of the entire effort.
+Progress payments based on estimates of the percentage of completion (see FAR 52.232-
+5- Payments Under Fixed-Price Construction Contracts) could occur prior to that point.
+
+  (ii)  An example of a line item with unit pricing in accordance with DFARS part 204 is
+as follows:
+
+ITEM NO. SUPPLIES/SERVICE QUANTITY UNIT UNIT
+PRICE
+AMOUNT
+0001 Repave runway 4 at Joint
+Base Andrews
+Firm Fixed Price
+PSC: Z1BD
+ACRN: AA
+525,128  Square
+Foot
+ $2.86  $1,501,866.08
+
+Note that this allows the contractor to invoice for completed quantities of work, in
+accordance with FAR 32.102 (d), as those are accepted.  Progress payments based on
+estimates of the percentage of completion (see FAR 52.232-5- Payments Under Fixed-
+Price Construction Contracts) could also occur prior to that point.
+
+(2)  For additive or deductive items-
+
+ (A)  Use a bid schedule with-
+
+  (1)  A first or base bid item covering the work generally as specified; and
+
+(2)  A list of priorities that contains one or more additive or deductive bid items that
+progressively add or omit specified features of the work in a stated order of priority.
+(Normally, do not mix additive and deductive bid items in the same solicitation.)
+
+ (B)  Before opening the bids, record in the contract file the amount of funds available for
+the project.
+
+ (C)  Determine the low bidder and the items to be awarded in accordance with the
+procedures in the clause at 252.236-7007, Additive or Deductive Items.
+
+PGI 236.101-4-Advance notices and solicitations.
+
+ (b)(1)  The contracting officer shall report data on the timelines for definitization of all
+requests for equitable adjustment (REAs) for change orders received from contractors
+under construction contracts.  The contracting officer shall report this data using the
+PALT/Protest/REA Tracker module in the Procurement Integrated Enterprise
+Environment at https://piee.eb.mil within 10 business days of definitization.  Data to be
+reported includes-
+
+   (A)  The contract number against which the REA was submitted;
+
+   (B)  The contractor that submitted the REA;
+
+   (C)  Date of receipt of the REA; and
+
+   (D)  Date of definitization of the REA and contract modification number.
+
+  (2)  Individually reported records will be aggregated by the PALT/Protest/REA
+Tracker module.  The PALT/Protest/REA Tracker module will aggregate the timelines for the
+definitization of REAs for change orders under construction contracts.  Contracting officers
+shall attach the aggregate results for the military department or defense agency to
+solicitations in accordance with FAR 36.101-4.  See PGI 205.103-70) for further instructions
+regarding the solicitation notice.
+
+PGI 236.101-6  Government cost estimate.
+
+ (1)  Designate the Government estimate as "CUI" (see https://www.dodcui.mil/) unless
+the information is classified.  If it is, handle the estimate in accordance with security
+regulations.
+
+ (2)  For sealed bid acquisitions-
+
+  (i)  File a sealed copy of the Government estimate with the bids.  (In the case of two-
+step acquisitions, this is done in the second step.)
+
+  (ii)  After the bids are read and recorded, remove the "CUI" marking (see
+https://www.dodcui.mil/) and read and record the estimate as if it were a bid, in the same
+detail as the bids.
+
+PGI 236.102-70  Notice.
+
+During the applicable notice periods, synopsis of the proposed contract action and
+administrative actions leading to the award may be started.
+
+PGI 236.2- EVALUATION AND AWARD
+
+PGI 236.201 Construction.
+
+PGI 236.201-170  Construction in foreign countries.
+
+ (b)  When a technical working agreement with a foreign government is required for a
+construction contract-
+
+  (i)  Consider inviting the Army Office of the Chief of Engineers, or the Naval Facilities
+Engineering Command, to participate in the negotiations.
+
+  (ii)  The agreement should, as feasible and where not otherwise provided for in other
+agreements, cover all elements necessary for the construction that are required by laws,
+regulations, and customs of the United States and the foreign government, including-
+
+   (A)  Acquisition of all necessary rights;
+
+   (B)  Expeditious, duty-free importation of labor, material, and equipment;
+
+   (C)  Payment of taxes applicable to contractors, personnel, materials, and
+equipment;
+
+   (D)  Applicability of workers' compensation and other labor laws to citizens of the
+United States, the host country, and other countries;
+
+   (E)  Provision of utility services;
+
+   (F)  Disposition of surplus materials and equipment;
+
+   (G)  Handling of claims and litigation; and
+
+   (H)  Resolution of any other foreseeable problems that can be appropriately
+included in the agreement.
+
+PGI 236.202 Architect and engineering services.
+
+PGI 236.202-1  Evaluation.
+
+The evaluation criteria should be project specific.  Use the information in the DD Form 1391,
+FY__ Military Construction Project Data, when available, and other pertinent project data in
+preparing the evaluation criteria.
+
+ (a)  Use performance evaluation data from the Contractor Performance Assessment
+Report System (CPARS).
+
+ (b)  The primary factor in architect-engineer contractor selection is the determination of
+the most highly qualified firm.  Also consider secondary factors such as geographic proximity
+and equitable distribution of work, but do not attribute greater significance to the secondary
+factors than to qualifications and past performance.  Do not reject the overall most highly
+qualified firm solely in the interest of equitable distribution of contracts.
+
+(1)  Consider the volume of work awarded by DoD during the previous 12 months.
+In considering equitable distribution of work among architect-engineer firms, include small
+business concerns; historically black colleges and universities and minority institutions; firms
+that have not had prior DoD contracts; and small disadvantaged business concerns and joint
+ventures with small disadvantaged business participants if the North American Industry
+Classification System (NAICS) Industry Subsector of the acquisition is one in which use of a
+price evaluation adjustment is currently authorized (see FAR 19.201(b)).
+
+   (i)  Use data extracted from the Federal Procurement Data System (FPDS).
+
+   (ii)  Do not consider awards to overseas offices for projects outside the United
+States, its territories and possessions.  Do not consider awards to a subsidiary if the
+subsidiary is not normally subject to management decisions, bookkeeping, and policies of a
+holding or parent company or an incorporated subsidiary that operates under a firm name
+different from the parent company.  This allows greater competition.
+
+  (2)  Consider as appropriate superior performance evaluations on recently
+completed DoD contracts.
+
+  (3)  Consider the extent to which potential contractors identify and commit to small
+business, to small disadvantaged business (SDB) if the NAICS Industry Subsector of the
+subcontracted effort is one in which use of an evaluation factor or subfactor for participation
+of SDB concerns is currently authorized (see FAR 19.201(b)), and to historically black
+college or university and minority institution performance as subcontractors.
+
+PGI 236.202-371  Statutory Fee Limitation.
+
+This fee limitation applies only to Departments of the Army, Navy, and Air Force
+requirements (e.g., if the Department of the Army awards a contract for the Defense
+Logistics Agency or the Department of the Interior, this fee limitation does not apply).  See
+FAR 15.404-9(c)(4)(ii) for the fee limitation that applies to other DoD components and civilian
+agencies.
+
+PGI 236.3  POSTAWARD
+
+PGI 236.371  Architect-Engineer post construction evaluation.
+In addition to the requirements at FAR 42.1102(f), prepare a separate performance
+evaluation after actual construction of the project.  The evaluating official should be the
+person most familiar with the architect-engineer contractor's performance.

@@ -1,0 +1,265 @@
+PGI 232-CONTRACT FINANCING
+
+PGI 232.006-5  Reporting.
+Departments and agencies, in accordance with department/agency procedures, shall prepare and submit to the Under Secretary of Defense (Acquisition and Sustainment), 
+through the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, 
+annual reports (Report Control Symbol DD-AT&L(A)1891) containing the information required by FAR 32.006-5.
+
+PGI 232.070  Responsibilities.
+
+	(c)  The Under or Assistant Secretary, or other designated official, responsible for the comptroller function within the department or agency is the focal point for financing matters at the department/agency headquarters.  Departments and agencies may establish contract financing offices at operational levels.
+
+		(i)  Department/agency contract financing offices are:
+
+			(A)  Army:  Office of the Assistant Secretary of the Army (Financial Management).
+
+			(B)  Navy:  Office of the Assistant Secretary of the Navy (Financial Management and Comptroller), Office of Financial Operations.
+
+			(C)  Air Force:  Air Force Contract Financing Office (SAF/FMPB).
+
+			(D)  Defense agencies:  Office of the agency comptroller.
+
+		(ii)  Contract financing offices should participate in?
+
+			(A)  Developing regulations for contract financing;
+
+			(B)  Developing contract provisions for contract financing; and
+
+			(C)  Resolving specific cases that involve unusual contract financing requirements.
+
+PGI 232.072  Financial responsibility of contractors.
+
+PGI 232.072-3  Cash flow forecasts.
+
+	(d)  Cash flow forecasts must?
+
+		(1)  Show the origin and use of all material amounts of cash within the entire business unit responsible for contract performance, period by period, for the length of the contract (or until the risk of a cash crisis ends); and
+
+		(2)  Provide an audit trail to the data and assumptions used to prepare it.
+
+	(e)  Cash flow forecasts can be no more reliable than the assumptions on which they are based.  Most important of these assumptions are?
+
+		(1)  Estimated amounts and timing of purchases and payments for materials, parts, components, subassemblies, and services;
+
+		(2)  Estimated amounts and timing of payments for purchase or production of capital assets, test facilities, and tooling;
+
+		(3)  Amounts and timing of fixed cash charges such as debt installments, interest, rentals, taxes, and indirect costs;
+
+		(4)  Estimated amounts and timing of payments for projected labor, both direct and indirect;
+
+		(5)  Reasonableness of projected manufacturing and production schedules;
+
+		(6)  Estimated amounts and timing of billings to customers (including progress payments), and customer payments;
+
+		(7)  Estimated amounts and timing of cash receipts from lenders or other credit sources, and liquidation of loans; and
+
+		(8)  Estimated amounts and timing of cash receipts from other sources.
+
+PGI 232.1-FINANCING FOR OTHER THAN A COMMERCIAL PURCHASE
+
+PGI 232.102  Description of contract financing methods.
+
+PGI 232.102-70  Provisional delivery payments.
+
+	(a)  The contracting officer may establish provisional delivery payments to pay contractors for the costs of supplies and services delivered to and accepted by the Government under the following contract actions, if undefinitized:
+
+		(1)  Letter contracts contemplating a fixed-price contract.
+
+		(2)  Orders under basic ordering agreements.
+
+		(3)  Spares provisioning documents annexed to contracts. 
+
+		(4)  Unpriced equitable adjustments on fixed-price contracts.
+
+		(5)  Orders under indefinite-delivery contracts.
+
+	(b)  Provisional delivery payments must be-
+
+		(1)  Used sparingly;
+
+		(2)  Priced conservatively; and
+
+		(3)  Reduced by liquidating previous progress payments in accordance with the Progress Payments clause.
+
+	(c)  Provisional delivery payments must not-
+
+		(1)  Include profit;
+
+		(2)  Exceed funds obligated for the undefinitized contract action; or
+
+		(3)  Influence the definitized contract price.
+
+PGI 232.4-ADVANCE PAYMENTS FOR OTHER THAN COMMERCIAL ACQUISITIONS
+
+PGI 232.409-1  Recommendation for approval.
+
+To ensure uniform application of this subpart (see FAR 32.402(e)(1)), the departmental/agency contract financing office shall prepare the documents required by FAR 32.409-1(e) and (f).
+
+PGI 232.410  Findings, determination, and authorization.
+
+If an advance payment procedure is used without a special bank account, replace paragraph (a)(4) of the Findings, Determination, and Authorization for Advance Payments at FAR 32.410 with:
+
+	"(4)  The proposed advance payment clause contains appropriate provisions as security for advance payments.  These provisions include a requirement that the outstanding advance payments will be liquidated from cost reimbursements as they become due the contractor.  This security is considered adequate to protect the interest of the Government".
+
+PGI 232.5-PROGRESS PAYMENTS BASED ON COSTS
+
+PGI 232.501  General.
+
+PGI 232.501-2  Unusual progress payments.
+Unusual progress payment arrangements require the advance approval of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (DPCAP).  Contracting officers must submit all unusual progress payment requests to the department or agency contract financing office for approval and submission to DPCAP.
+
+PGI 232.6--CONTRACT DEBTS
+
+PGI 232.603  Debt determination.
+Upon transfer of a case to the contract financing office, the contracting officer must close the debt record by reference to the date of transfer.
+
+PGI 232.604  Demand for payment.
+
+	(1)  For contract debts resulting from other than a termination for default, the office that first determines an amount due, whether it be the contract administration office, the contracting office, the disbursing office, or the selling office/agency, must-
+
+		(i)  Make a demand for payment; and
+
+		(ii)  Provide a copy of the demand to the payment office cited in the contract.
+
+	(2)  For contract debts resulting from a termination for default, the contracting officer must make the demand and direct the debtor to make such payment to the designated office.
+
+PGI 232.670  Transfer of responsibility for debt collection.
+Disbursing officers will transfer responsibility for debt collection to department/agency contract financing offices in accordance with comptroller regulations.  Notwithstanding the transfer of the debt collection responsibility, contracting officers must continue to provide assistance as requested by the debt collection office.
+
+PGI 232.671  Bankruptcy reporting.
+
+	(1)  For those debts covered by this subpart, the department or agency that awarded the contract must furnish the Department of Justice any claims in bankruptcy, insolvency, or in proceedings for reorganization or arrangement.  Furnish claims that-
+
+		(i)  Have been transferred to a contract financing office;
+
+		(ii)  Are on the way to a contract financing office at the inception of bankruptcy or insolvency proceedings;
+
+		(iii)  Are pending and not forwarded to a contract financing office at the inception of bankruptcy or insolvency proceedings; and
+
+		(iv)  Are the result of bankruptcy or insolvency proceedings.
+
+	(2)  The contract financing office or other office designated within a department or agency will furnish proof of claims to the Department of Justice.
+
+	(3)  The office of origin of a debt will provide, as soon as possible, information on a bankruptcy, insolvency, reorganization, or rearrangement to the office designated within a department/agency to receive this information.
+
+	(4)  The information and proof of claim requirements in paragraphs (2) and (3) of this section do not apply to debts of less than $600.
+
+PGI 232.10-PERFORMANCE-BASED PAYMENTS
+
+PGI 232.1001  Policy.
+
+	(a)  Contracting officer action.  Performance-based payments are not practical for use on all fixed-price contracts because they require considerable effort between the contractor and Government to identify the appropriate performance-based payment events and establish the proper completion criteria for those events.  Additionally, FAR 32.1003 prohibits contracts from having both progress payments and performance-based payment financing on a contract at the same time.  Additional information and instruction on performance-based payments are provided in the DoD Performance-based Payments Guide on the Defense Pricing, Contracting, and Acquisition Policy (Price, Cost and Finance) website under Pricing Topics, Performance Based Payment.  See https://www.acq.osd.mil/asda/dpc/pcf/docs/resources-training/Performance_Based_Payment_(PBP)_Guide.pdf.
+
+PGI 232.70-ELECTRONIC SUBMISSION AND PROCESSING OF PAYMENT REQUESTS AND RECEIVING REPORTS
+
+PGI 232.7003  Procedures.
+
+	(a)  DoD officials receiving payment requests in electronic form must process the payment requests in electronic form.  The WAWF system provides the method to electronically process payment requests and receiving reports.
+
+		(1)  Documents necessary for payment, such as receiving reports, invoice approvals, contracts, contract modifications, and required certifications, must be processed in electronic form.
+
+		(2)  Scanned documents and other commonly used file formats are only acceptable for processing supporting documentation.
+
+	(b)  If one of the exceptions to submission in electronic form at 232.7002(a) applies, the contracting officer must-
+
+		(1)  Consult the payment office and the contract administration office regarding the alternative method to be used for submission of payment requests or receiving reports (e.g., facsimile or conventional mail); and
+
+		(2)  Provide procedures for invoicing in the contract administration data section of the contract or task or delivery order (e.g., section G, an addendum to FAR 52.212-4, or applicable clause) for submission of invoices by nonelectronic means.  If submission of invoices by nonelectronic means is temporary, the procedures should specify the time period for which they apply.
+
+PGI  232.7004  Contract clause instructions.
+
+	(b)(1)  The clause 252.232-7006, Wide Area WorkFlow Payment Instructions must be located in the contract administration section of the contract (e.g. Section G).
+
+		(2)  Complete paragraph (f)(1)(ii)(A) of the clause, if applicable, by inserting one of the following document types appropriate to the work being performed: 
+
+			(i)  Invoice and Receiving Report.
+
+			(ii)  Navy Shipbuilding Invoice-Fixed Price.
+
+			(iii)  Reparables Receiving Report (for repair services).
+
+			(iv)  Energy Invoice and Energy Receiving Report.
+
+		(3)  Complete paragraph (f)(1)(ii)(B) of the clause, if applicable, by inserting one of the following document types appropriate to the work being performed:
+
+			(i)  Invoice and Receiving Report.
+
+			(ii)  Invoice 2-in-1 (Services only).
+
+			(iii)  Construction and Facilities Management Invoice.
+
+			(iv)  Navy Construction/Facilities Management Invoice.
+
+			(v)  Telecom Invoice (Contractual).
+
+		(4)  Do not use the Combo selection for a receiving report.
+
+		(5)  Complete paragraph (f)(3) of the clause before contract award.  Selection of applicable DoDAACs is dependent on the document type and the entitlement system used by the DoD Component.
+
+			(i)  To determine applicable DoDAACs, use the guidance for WAWF payment instructions at https://piee.eb.mil/.
+
+			(ii)  If a DoDAAC field is not listed in paragraph (f)(3) Routing Data Table, select "Other DoDAAC(s)" and list the DoDAAC field name(s) as  they appear in the WAWF system and applicable DoDAAC(s).
+
+			(iii)  When multiple "Ship to" and inspection/acceptance locations" (i.e. DoDAACs) exist, enter "See schedule."  The corresponding schedule in the contract/order must cite all applicable DoDAACs.
+
+			(iv)  Validate DoDAACs using the following resources:
+
+				(A)  For inspector, acceptor and local processing office roles, use https://piee.eb.mil/ and click on the "Active DoDAACs & Roles link" in the "Help" section on the home page to validate active DoDAACs and user roles in WAWF.
+
+				(B)  For all other DoDAACs, use https://www.daas.dla.mil/daasinq/.
+
+		(6)  Complete paragraph (g) by entering the WAWF point of contact information for the contracting activity, if applicable.  List parties to be notified of document submission.
+
+PGI 232.71-LEVIES ON CONTRACT PAYMENTS
+
+PGI 232.7101  Policy and procedures.
+
+Background.  The Internal Revenue Service (IRS) is authorized to collect overdue taxes through a continuous levy up to 100 percent of the debt on certain vendor contract payments disbursed by the Defense Finance and Accounting Service.  The levy is continuous until the overdue taxes are paid in full, or other arrangements are made to satisfy the debt.  Contractors are required to promptly notify the procuring contracting officer when a tax levy that may result in an inability to perform the contract is imposed, so that the contracting officer and the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (DPCAP), can take appropriate action to mitigate any possible adverse effect on national security.
+
+	(b)  Procuring contracting officer procedures for reviewing the contractor's rationale and submitting the required documentation.
+
+		(i)  When the procuring contracting officer receives notification from the contractor that the tax levy may result in an inability to perform the contract, the procuring contracting officer must promptly review the contractor's assessment and either agree or disagree that the levy may result in an inability to perform.  The procuring contracting officer must alert the administrative contracting officer and the cognizant contract auditor when a notice of levy has been received and must obtain any necessary assistance from the administrative contracting officer or contract auditor when performing this review.
+
+		(ii)  If the procuring contracting officer does not agree with the contractor's assessment, the procuring contracting officer must notify the contractor of this determination, and no further action will be taken.
+
+		(iii)  If the procuring contracting officer agrees with the contractor's assessment that the levy may result in an inability to perform the contract, the procuring contracting officer must document, in writing, whether the inability to perform-
+
+			(A)  Adversely affects national security; and/or
+
+			(B)  Will result in significant additional costs to the Government (e.g., cost of re-procurement, loss of contract financing payments when the product produced to date is not salvageable).
+
+		(iv)  If the procuring contracting officer believes that the levy will impact national security and/or result in significant additional costs to DoD, the procuring contracting officer must, in accordance with agency procedures, promptly notify the Principal Director, DPCAP, via email at osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil.  The notification to the Principal Director, DPCAP, must include-
+
+			(A)  The rationale supporting the recommendation that the levy may result in an inability to perform the contract;
+
+			(B)  A description of the adverse effect on national security, if applicable; and
+
+			(C)  A description and estimate of the additional costs to the Government, if applicable.  Since prompt notification to the Principal Director, DPCAP, is essential, the procuring contracting officer should not delay the notification while trying to achieve more precise data.
+
+	(c)  Principal Director, DPCAP, procedures.  The Principal Director, DPCAP, will promptly evaluate the procuring contracting officer's notification package.
+
+		(i)  If the Principal Director, DPCAP, disagrees with the recommendation of the procuring contracting officer, the Principal Director, DPCAP, will notify the procuring contracting officer through the same agency channels that were used for submission of the notification.
+
+		(ii)  If the Principal Director, DPCAP, agrees with the recommendation of the procuring contracting officer-
+
+			(A)  When there is an adverse effect on national security, the Principal Director, DPCAP, will notify the payment office, the IRS, and the procuring contracting officer that the total amount of the levy should be promptly returned to the contractor; or
+			(B)  When there is not an adverse effect on national security, but the levy will result in significant additional costs to DoD, the Principal Director, DPCAP, will promptly notify the procuring contracting officer and the IRS.  The Principal Director, DPCAP, notification to the IRS will-
+
+				(1)  State that the procuring contracting officer has notified the contractor and has recommended that the contractor contact the IRS to resolve the situation;
+
+				(2)  Request that the IRS expedite resolution of the situation with the contractor; and
+
+				(3)  Include an estimate of additional costs to DoD that will result if the contractor is unable to perform on the contract.
+
+	(d)  Procuring contracting officer procedures for notifying the contractor of the decision of the Principal Director, DPCAP.  The procuring contracting officer shall promptly notify the contractor, in writing, of the decision made by the Principal Director, DPCAP, including the actions to be taken (if any).
+
+
+Attachment A2
+DARS Tracking Number: 2026-O0022
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 32
+Defense FAR Supplement (DFARS) Part 232
+
+
+
+	Page 1 of 20	
+

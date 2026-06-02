@@ -1,0 +1,70 @@
+PGI 241-ACQUISITION OF UTILITY SERVICES
+
+PGI 241.1--GENERAL
+
+PGI 241.103  Statutory and delegated authority.
+
+Summary of Statutory Authority for Utility/Energy Purchases 
+
+Acquisition TypeAuthorityMaximum Term
+ (years)Energy Commodities (purchased as supplies) (natural gas & electricity) *10 U.S.C. 3501/ 
+10 U.S.C. 28295  (4) **Utility Service Contracts
+(in support of privatization) 10 U.S.C. 2688(d)(2)50Utility Service Contracts ***
+               (when not in support of privatization)10 U.S.C. 3201-3205
+40 U.S.C. 113(e)(3) 10
+* Section 8093 of Public Law 100-202 specifically precludes the Federal Government from expending appropriated funds to purchase electricity in a manner inconsistent with State law and regulation.  
+** 5 years in support of facilities and installations (10 U.S.C. 3501) and 4 years for military family housing (10 U.S.C. 2829).
+*** GSA has delegated to DoD its authority, under 40 U.S.C. 501(b), to enter into utility service contracts for periods not exceeding 10 years.  Absent this authority, the length of DoD utility service contracts in support of facilities and installations would be limited to 5 years (10 U.S.C. 3531) and, for military family housing, would be limited to 4 years (10 U.S.C. 2829).
+PGI 241.2--ACQUIRING UTILITY SERVICES
+
+PGI 241.202 Procedures.
+      
+		(1)  Connection and service charges.  The Government may pay a connection charge when required to cover the cost of the necessary connecting facilities.  A connection charge based on the estimated labor cost of installing and removing the facility must not include salvage cost.  A lump-sum connection charge must be no more than the agreed cost of the connecting facilities less net salvage.  The order of precedence for contractual treatment of connection and service charges is-
+
+			(i)  No connection charge.
+
+			(ii)  Termination liability.  Use when an obligation is necessary to secure the required services.  The obligation must be not more than the agreed connection charge, less any net salvage material costs.   Use of a termination liability instead of a connection charge requires the approval of the service power procurement officer or designee.
+
+			(iii)  Connection charge, refundable.  Use a refundable connection charge when the supplier refuses to provide the facilities based on lack of capital or published rules which prohibit providing up-front funding.  The contract should provide for refund of the connection charge within five years unless a longer period or omission of the refund requirement is authorized by the service power procurement officer or designee.
+
+			(iv)  Connection and service charges, nonrefundable.  The Government may pay certain nonrefundable, nonrecurring charges including service initiation charges, a contribution in aid of construction, membership fees, and charges required by the supplier's rules and regulations to be paid by the customer.  If possible, consider sharing with other than Government users the use of (and costs for) facilities when large nonrefundable charges are required.
+      
+	(2)(A) Do not use the connection charge provisions for the installation of Government-owned distribution lines and facilities. The acquisition of such facilities must be authorized by legislation and accomplished in accordance with FAR Part 36. Also, do not use the connection charge provisions for the installation of new facilities related to the supplier's production and general "backbone" system unless authorized by legislation.
+
+		(B) Construction labor standards ordinarily do not apply to construction accomplished under the connection charge provisions of this part. However, if installation includes construction of a public building or public work per FAR 36.102, construction labor standards may apply.
+      
+PGI 241.205 Separate contracts.
+
+		(1) Definitions. As used in this section-
+
+	"Definite term contract" means a contract for utility services for a definite period of not less than one nor more than ten years.
+
+	"Indefinite term contract" means a month-to-month contract for utility services that may be terminated by the Government upon proper notice.
+
+		(2) Requests for proposals must state the anticipated service period in terms of months or years. If the period extends beyond the current fiscal year, evaluate offers of incentives for a definite term contract.
+
+		(3) The solicitation may permit offerors the choice of proposing on the basis of-
+
+			(i) A definite term not to exceed the anticipated service period; or
+
+			(ii) An indefinite term contract.
+
+		(4) If the expected service period is less than the current fiscal year, the solicitation must be on the basis of an indefinite term contract.
+
+		(5) Contracts for utility services for leased premises must identify the lease document on the face of the contract.
+
+		(6) Use an indefinite term utility service contract when it is considered to be in the Government's best interest to-
+
+			(i) Have the right to terminate on a 30-day (or longer) notice. A notice of up to one year may be granted by an installation if needed to obtain a more favorable rate, more advantageous conditions, or for other valid reasons; or
+
+			(ii) Grant the supplier the right to terminate the contract when of benefit to the Government in the form of lower rates, larger discounts, or more favorable terms and conditions.
+
+Attachment A2
+DARS Tracking Number: 2026-O0039
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 41
+Defense FAR Supplement (DFARS) Part 241
+
+
+
+Page 1 of 3
+

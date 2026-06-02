@@ -1,0 +1,95 @@
+	
+PGI 234-MAJOR SYSTEM ACQUISITION
+
+PGI 234.2-EARNED VALUE MANAGEMENT SYSTEM
+
+PGI 234.201  Policy.
+
+	(1)(iii)  When the program manager decides to implement earned value management on contracts and subcontracts valued at less than $20,000,000, a cost-benefit analysis must be conducted and the results documented in the contract file.  Considerations for determining the effectiveness of applying earned value management in these situations and guidance for tailoring reporting are available in-
+
+			(1)  The Integrated Program Management Data Analysis Report (IPMDAR) Implementation & Tailoring Guide; and
+
+			(2)  The DoD Earned Value Management Implementation Guide.
+
+		(iv)  In extraordinary cases where cost/schedule visibility is required and cannot be obtained using other means, the program manager must request a waiver for individual contracts from the Milestone Decision Authority.  In these cases, the program manager will conduct a business case analysis that includes rationale as to why a cost or fixed-price incentive contract was not an appropriate contracting vehicle.  Considerations for determining the effectiveness of applying earned value management in these situations and guidance for tailoring reporting can be found in-
+			(1)  DoD Instruction 5000.85, paragraph 3C.3.c.(3); and
+			(2)  The DoD Earned Value Management Implementation Guide.
+
+	(2)  The procuring contracting officer must obtain the assistance of the administrative contracting officer in determining the adequacy of an earned value management system (EVMS) plan that an offeror proposes for compliance with ANSI/EIA-748, under the provision at DFARS 252.234-7001, Notice of Earned Value Management System.  The Government will review and approve the offeror's EVMS plan before contract award.  Instructions for performing EVMS plan reviews can be found at https://www.dcma.mil/HQ/EVMS.
+	(4)  Additional guidance on earned value management can be found in-
+		(A)  The Guidebook for Earned Value Management System (EVMS) System-Level 
+Surveillance at https://www.dcma.mil/HQ/EVMS/;
+
+		(B)  The Guidebook for Earned Value Management System - Program Analysis; and
+
+		(C)  The Program Managers' Guide to the Integrated Baseline Review Process (the IBR Guide).
+
+	(7)  Disposition of findings.
+
+		(ii)  Initial determination.
+
+			(B)(1)  Within 30 days of receiving the report, if the contracting officer makes a 
+determination that there is a material weakness, the contracting officer should provide an initial determination of material weaknesses and a copy of the report to the contractor and 
+require the contractor to submit a written response.
+
+				(3)  Evaluation of contractor's response.  Within 30 days of receiving the contractor's response, the contracting officer, in consultation with the auditor or cognizant functional specialist, should evaluate the contractor's response and make a final determination.
+
+		(iii)  Final determination.
+
+			(B)(1)  Monitoring contractor's corrective action.  The contracting officer and cognizant functional specialist or auditor must monitor the contractor's progress in correcting material weaknesses and deficiencies.  If the contractor fails to make adequate progress, the contracting officer must take whatever action is necessary to ensure that the contractor corrects the weaknesses and deficiencies.  Actions the contracting officer may take include:  withdraw or withhold approval of the system; bringing the issue to the attention of higher level management, as applicable; recommending non-award of potential contracts; and for material weaknesses, implementing or increasing the withholding in accordance with 252.242-7005, Contractor Business Systems.
+
+				(2)  Correction of material weaknesses.
+
+					(i)  When the contractor notifies the contracting officer that the 
+contractor has corrected the material weaknesses, the contracting officer must request the cognizant functional specialist or auditor to review the correction to determine whether the weaknesses and deficiencies have been resolved.
+
+					(ii)  The contracting officer must determine whether the contractor has corrected the weaknesses and deficiencies.
+
+					(iii)  If the contracting officer determines the contractor has corrected 
+the weaknesses and deficiencies, send the contracting officer's notification to the cognizant 
+functional specialist; auditor; payment office; appropriate action officers responsible for reporting past performance at the requiring activities; and each contracting and contract administration office having substantial business with the contractor as applicable.
+
+PGI 234.70-ACQUISITION OF MAJOR WEAPON SYSTEMS AS COMMERCIAL PRODUCTS
+
+PGI 234.7002  Policy.
+	
+	(d) Commerciality determination. To the extent necessary to make a commercial product determination in accordance with 212.102(a)(iii) that relies on paragraph (1), (2), (3), (4), or (5) of the "commercial product" definition at FAR 2.101 for a subsystem, component, or spare part as described in paragraphs (b) and (c) of 234.7002, the provision at 252.215-7010, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, requires submissions from the offeror.
+
+	(e)  Relevant information to determine price reasonableness. For products relying on paragraph (3)(ii) of the "commercial product" definition at FAR 2.101, see FAR 15.403-2(c)(3)(iii)(C). See 212.209(a) for requirements of 10 U.S.C. 3453 with regard to market research.
+
+			(5)  The Department of Defense Guidebook for Acquiring Commercial Items, Part B, provides additional guidance on the use of value analysis.  See "Value Analysis" within the section on "Price Analysis Techniques" at https://www.acq.osd.mil/asda/dpc/cp/policy/docs/guidebook/Guidebook_Part_B_Commercial_Item_Pricing_20180126.pdf.
+
+PGI 234.71-COST AND SOFTWARE DATA REPORTING  
+
+PGI 234.7100  Policy.
+
+The Cost Assessment and Program Evaluation (CAPE) office, may be contacted at-
+
+Cost Assessment and Program Evaluation
+Attn:  Deputy Director, Cost Assessment
+1800 Defense Pentagon
+Washington, DC 20301-1800
+osd.mc-alex.cape.mbx.cade-helpdesk@mail.mil
+https://cade.osd.mil/
+
+PGI 234.72-ACQUISITION STRATEGY FOR MAJOR SYSTEMS
+
+PGI 234.7202  Procedures.
+
+		(b) Use of cost-reimbursement line items for production of major defense acquisition programs. (1)  For additional contract type approval requirements for cost-reimbursement contracts, see 216.301-3.  For fixed-price incentive (firm target) contracts, see PGI 216.403-1(1)(ii)(B) and (C).
+ 
+		(e) Development and demonstration of initial or additional prototype units. 
+
+			(3)  Upon request by Defense Pricing, Contracting, and Acquisition Policy (Contract Policy), contracting activities must provide the benefits derived from the use of contract line items or contract options for the development and demonstration or initial production of technology developed under the contract, or the delivery of initial or additional items in accordance with DFARS 235.016 and 234.005-1.
+
+Attachment A2
+DARS Tracking Number: 2026-O0011
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 34
+Defense FAR Supplement (DFARS) Part 234
+
+
+
+
+Page 1 of 16
+
+

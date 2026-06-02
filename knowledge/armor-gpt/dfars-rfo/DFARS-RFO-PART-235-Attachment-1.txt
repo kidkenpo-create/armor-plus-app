@@ -1,0 +1,419 @@
+PART 235-RESEARCH AND DEVELOPMENT CONTRACTING
+
+
+
+235.001  Definitions.
+"Research and development" means those efforts described by the Research, Development, Test, and Evaluation (RDT&E) budget activity definitions found in the DoD Financial Management Regulation (DoD 7000.14-R), Volume 2B, Chapter 5.
+
+SUBPART 235.1-PRESOLICITATION
+
+235.170 Contracting methods and contract type.
+
+	(a)  For major defense acquisition programs as defined in 10 U.S.C. 4201-
+
+		(1)  Follow the procedures at 234.7202; and
+
+		(2)  Notify the milestone decision authority of an intent not to exercise a fixed-price production option on a development contract for a major weapon system reasonably in advance of the expiration of the option exercise period.
+
+	(b)  For other than major defense acquisition programs-
+
+		(1)  Do not award a fixed-price type contract for a development program effort unless-
+
+			(i) The level of program risk permits realistic pricing;
+
+			(ii)  The use of a fixed-price type contract permits an equitable and sensible allocation of program risk between the Government and the contractor; and
+
+			(iii)  A written determination that the criteria of paragraphs (b)(1)(i) and (ii) of this section have been met is executed-
+
+				(A) By the USD(A&S) if the contract is over $25 million and is for: research and development for a non-major system; the development of a major system (as defined in FAR 2.101); or the development of a subsystem of a major system; or
+
+				(B) By the contracting officer for any development not covered by paragraph (b)(1)(iii)(A) of this section.
+
+			(2)  Obtain USD(A&S) approval of the Government's prenegotiation position before negotiations begin, and obtain USD(A&S) approval of the negotiated agreement with the contractor before the agreement is executed, for any action that is-
+
+				(i)  An increase of more than $250 million in the price or ceiling price of a fixed-price type development contract, or a fixed-price type contract for the lead ship of a class;
+
+			(ii)  A reduction in the amount of work under a fixed-price type development contract or a fixed-price type contract for the lead ship of a class, when the value of the work deleted is $100 million or more; or
+
+			(iii)  A repricing of fixed-price type production options to a development contract, or a contract for the lead ship of a class, that increases the price or ceiling price by more than $250 million for equivalent quantities.
+
+235.171   Manufacturing Technology Program.
+
+In accordance with 10 U.S.C. 4841(d) and 4872, for acquisitions under the Manufacturing Technology Program-
+
+	(a)  Award all contracts using competitive procedures; and
+
+	(b)  Include in all solicitations an evaluation factor that addresses the extent to which offerors propose to share in the cost of the project (see FAR 15.104).
+
+235.172   Competition.
+
+	(a)(1)  The use of a broad agency announcement with peer or scientific review for the award of science and technology proposals in accordance with 235.102(a) fulfills the requirement for full and open competition (see 206.101(b)(3)).
+
+		(2)  Use of a commercial solutions opening with scientific, technological, or other subject-matter expert peer review for the award of innovative solutions or potential capabilities in accordance with subpart 212.70 fulfills the requirement for full and open competition (see 206.101-70).
+
+	(b)  For a contract that is initially awarded through the competitive selection of a proposal resulting from a broad agency announcement, see subpart 234.72 for the use of contract line items or contract options for the development and demonstration or initial production of technology developed under the contract or the delivery of initial or additional items.
+
+235.173  Special use allowances for research facilities acquired by educational institutions.
+For information on special use allowances for research facilities acquired by educational institutions, see PGI 235.173.
+
+235.174  Indemnification against unusually hazardous risks.
+
+235.174-1  Indemnification under research and development contracts.
+
+	(a)  Under 10 U.S.C. 3861, and with authorization from the Secretary concerned, contracts for research and/or development may include provisions for indemnification of the contractor or subcontractors for-
+
+		(1)  Claims by third persons (including employees) for death, bodily injury, or loss of or damage to property; 
+
+		(2)  Loss of or damage to the contractor's property; and  
+			
+		(3)  Liability, loss or damage that-
+
+			(i)  Results from a risk that the contract defines as "unusually hazardous";
+
+			(ii)  Arises from the direct performance of the contract; and
+
+			(iii)  Is not compensated by insurance or other means.
+
+	(b)  Clearly define the specific unusually hazardous risks to be indemnified.  Submit this definition for approval with the request for authorization to grant indemnification.  Include the approved definition in the contract.
+
+235.174-2  Indemnification under contracts involving both research and development and other work.
+These contracts may provide for indemnification under the authority of both 10 U.S.C. 3861 and Public Law 85-804.  Public Law 85-804 will apply only to work to which 10 U.S.C. 3861 does not apply.  Actions under Public Law 85-804 must also comply with FAR 50.104-3.
+
+235.175  Export-controlled items.
+For requirements regarding access to export-controlled items, see subpart 225.79.
+
+235.176  Contract clauses.
+When the contractor is to be indemnified in accordance with 235.174-1, use either-
+
+	(a)  Insert the clause at 252.235-7000, Indemnification Under 10 U.S.C. 3861-Fixed Price; or  252.235-7001, Indemnification Under 10 U.S.C. 3861-Cost-Reimbursement, as appropriate, when the contractor is to be indemnified in accordance with 235.174-1.
+
+	(b)  Use a clause substantially the same as the clause at 252.235-7002, Animal Welfare, in solicitations and contracts involving research, development, test, and evaluation or training that use live vertebrate animals.
+
+	(c)  Insert the basic or the alternate of the clause at 252.235-7003, Frequency Authorization, in solicitations and contracts for developing, producing, constructing, testing, or operating a device requiring a frequency authorization.
+
+		(1)  Insert the basic clause if agency procedures do not authorize the use of DD Form 1494, Application for Equipment Frequency Allocation, to obtain radio frequency authorization.
+
+		(2)  Insert the alternate I clause if agency procedures authorize the use of DD Form 1494, Application for Equipment Frequency Allocation, to obtain frequency authorization.
+
+	(d)  Insert the clause at 252.235-7010, Acknowledgment of Support and Disclaimer, in solicitations and contracts for research and development.
+
+	(e)  Insert the at 252.235-7011, Final Scientific or Technical Report, in solicitations and contracts for research and development.
+
+	(f)  Insert the clause at 252.235-7004, Protection of Human Subjects, in solicitations and contracts that include or may include research involving human subjects in accordance with 32 CFR Part 219, DoD Issuance 3216.02, and 10 U.S.C. 980, including research that meets exemption criteria under 32 CFR 219.101(b).  The clause-
+
+		(1)  Applies to solicitations and contracts awarded by any DoD component, regardless of mission or funding Program Element Code; and
+
+		(2)  Does not apply to use of cadaver materials alone, which are not directly regulated by 32 CFR Part 219 or DoD Issuance 3216.02, and which are governed by other DoD policies and applicable State and local laws.
+
+235.102  Broad agency announcement.
+
+	(a)  General.  A broad agency announcement with peer or scientific review may be used for the award of science and technology proposals.  Science and technology proposals include proposals for the following:
+
+		(i)  Basic research (budget activity 6.1).
+
+		(ii)  Applied research (budget activity 6.2).
+
+		(iii)  Advanced technology development (budget activity 6.3).
+
+		(iv)  Advanced component development and prototypes (budget activity 6.4).
+
+
+SUBPART 235.2-EVALUATION AND AWARD
+
+235.201 Evaluation for award.
+See 209.570 for limitations on the award of contracts to contractors acting as lead system integrators.
+
+
+SUBPART 235.3-POSTAWARD
+
+235.301 Scientific and technical reports.
+
+	(b)  For DoD, the Defense Technical Information Center is responsible for collecting all scientific and technical reports.  For access to these reports, follow the procedures at PGI 235.301(b).
+
+SUBPART 235.4-FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTERS
+
+	235.402  Policy.
+
+	(b)  No DoD fiscal year 1992 or later funds may be obligated or expended to finance activities of a DoD Federally Funded Research and Development Center (FFRDC) if a member of its board of directors or trustees simultaneously serves on the board of directors or trustees of a profit-making company under contract to DoD, unless the FFRDC has a DoD-approved conflict of interest policy for its members (Section 8107 of Pub. L. 102-172 and similar sections in subsequent Defense appropriations acts).
+
+235.403 Sponsoring agreements.
+
+      (b)(4)  DoD-sponsored FFRDCs that function primarily as research laboratories (The Center for Communications and Computing operated by The Institute for Defense Analysis, Lincoln Laboratory operated by Massachusetts Institute of Technology, and Software Engineering Institute operated by Carnegie Mellon) may respond to solicitations and announcements for programs which promote research, development, demonstration, or transfer of technology (Section 217, Pub. L. 103-337).
+
+SUBPART 252.2--TEXT OF PROVISIONS AND CLAUSES
+
+
+252.235-7000  Indemnification Under 10 U.S.C. 3861--Fixed Price.
+As prescribed in 235.176(a), use the following clause:
+ 
+INDEMNIFICATION UNDER 10 U.S.C. 3861-FIXED PRICE (DEC 2022)
+ 
+      (a)  This clause provides for indemnification under 10 U.S.C. 3861 if the Contractor meets all the terms and conditions of this clause.
+ 
+      (b)  Claims, losses, and damages covered-
+ 
+              (1)  Claims by third persons for death, bodily injury, sickness, or disease, or the loss, damage, or lost use of property.  Claims include those for reasonable expenses of litigation or settlement.  The term "third persons" includes employees of the contractor;
+ 
+              (2)  The loss, damage, and lost use of the Contractor's property, but excluding lost profit; and
+ 
+              (3)  Loss, damage, or lost use of the Government's property.
+ 
+      (c)  The claim, loss, or damage-
+ 
+              (1)  Must arise from the direct performance of this contract;
+ 
+              (2)  Must not be compensated by insurance or other means, or be within deductible amounts of the Contractor's insurance;
+ 
+              (3)  Must result from an unusually hazardous risk as specifically defined in the contract;
+ 
+              (4)  Must not result from willful misconduct or lack of good faith on the part of any of the Contractor's directors or officers, managers, superintendents, or other equivalent representatives who have supervision or direction of-
+ 
+                    (i)  All or substantially all of the Contractor's business;
+ 
+                    (ii)  All or substantially all of the Contractor's operations at any one plant or separate location where this contract is being performed; or
+ 
+                    (iii)  A separate and complete major industrial operation connected with the performance of this contract;
+ 
+              (5)  Must not be a liability assumed under any contract or agreement (except for subcontracts covered by paragraph (h) of this clause), unless the Contracting Officer (or in contracts with the Department of the Navy, the Department) specifically approved the assumption of liability; and
+ 
+              (6)  Must be certified as just and reasonable by the Secretary of the department or designated representative.
+ 
+      (d)  The Contractor shall buy and maintain, to the extent available, insurance against unusually hazardous risks in the form, amount, period(s) of time, at the rate(s), and with such insurers, as the Contracting Officer (or, for Navy contracts, the Department) may from time to time require and approve.  If the cost of this insurance is higher than the cost of the insurance the Contractor had as of the date of the contract, the Government shall reimburse the Contractor for the difference in cost, as long as it is properly allocable to this contract and is not included in the contract price.  The Government shall not be liable for claims, loss, or damage if insurance was available and is either required or approved under this paragraph.
+ 
+      (e)  A reduction of the insurance coverage maintained by the Contractor on the date of the execution of this contract shall not increase the Government's liability under this clause unless the Contracting Officer consents, and the contract price is equitably adjusted, if appropriate, to reflect the Contractor's consideration for the Government's assumption of increased liability.
+ 
+      (f)  Notice.  The Contractor shall-
+ 
+              (1)  Promptly notify the Contracting Officer of any occurrence, action, or claim that might trigger the Government's liability under this clause;
+ 
+              (2)  Furnish the proof or evidence of any claim, loss, or damage in the form and manner that the Government requires; and
+ 
+              (3)  Immediately provide copies of all pertinent papers that the Contractor receives or has received.
+ 
+      (g)  The Government may direct, participate in, and supervise the settlement or defense of the claim or action.  The Contractor shall comply with the Government's directions and execute any authorizations required.
+ 
+      (h)  Flowdown.  The Government shall indemnify the Contractor if the Contractor has an obligation to indemnify a subcontractor under any subcontract at any tier under this contract for the unusually hazardous risk identified in this contract only if-
+ 
+              (1)  The Contracting Officer gave prior written approval for the Contractor to provide in a subcontract for the Contractor to indemnify the subcontractor for unusually hazardous risks defined in this contract;
+ 
+              (2)  The Contracting Officer approved those indemnification provisions;
+ 
+              (3)  The subcontract indemnification provisions entitle the Contractor, or the Government, or both, to direct, participate in, and supervise the settlement or defense of relevant actions and claims; and
+ 
+              (4)  The subcontract provides the same rights and duties, the same provisions for notice, furnishing of papers and the like, between the Contractor and the subcontractor, as exist between the Government and the Contractor under this clause.
+ 
+      (i)  The Government may discharge its obligations under paragraph (h) of this clause by making payments directly to subcontractors or to persons to whom the subcontractors may be liable.
+ 
+      (j)  The rights and obligations of the parties under this clause shall survive the termination, expiration, or completion of this contract.
+ 
+(End of clause)
+ 
+252.235-7001  Indemnification Under 10 U.S.C. 3861--Cost Reimbursement.
+As prescribed in 235.176(a), use the following clause:
+ 
+INDEMNIFICATION UNDER 10 U.S.C. 3861-COST REIMBURSEMENT
+(DEC 2022)
+ 
+      (a)  This clause provides for indemnification under 10 U.S.C. 3861 if the Contractor meets all the terms and conditions of this clause.
+ 
+      (b)  Claims, losses, and damages covered-
+ 
+              (1)  Claims by third persons for death, bodily injury, sickness, or disease, or the loss, damage, or lost use of property.  Claims include those for reasonable expenses of litigation or settlement.  The term "third persons" includes employees of the Contractor;
+ 
+              (2)  The loss, damage, and lost use of the Contractor's property, but excluding lost profit; and
+ 
+              (3)  Loss, damage, or lost use of the Government's property.
+ 
+      (c)  The claim, loss, or damage-
+ 
+              (1)  Must arise from the direct performance of this contract;
+ 
+              (2)  Must not be compensated by insurance or other means, or be within deductible amounts of the Contractor's insurance;
+ 
+              (3)  Must result from an unusually hazardous risk as specifically defined in the contract;
+ 
+              (4)  Must not result from willful misconduct or lack of good faith on the part of any of the Contractor's directors or officers, managers, superintendents, or other equivalent representatives who have supervision or direction of-
+ 
+                    (i)  All or substantially all of the Contractor's business;
+ 
+                    (ii)  All or substantially all of the Contractor's operations at any one plant or separate location where this contract is being performed; or
+ 
+                    (iii)  A separate and complete major industrial operation connected with the performance of this contract;
+ 
+              (5)  Must not be a liability assumed under any contract or agreement (except for subcontracts covered by paragraph (i) of this clause), unless the Contracting Officer (or in contracts with the Department of the Navy, the Department) specifically approved the assumption of liability; and
+ 
+              (6)  Must be certified as just and reasonable by the Secretary of the department or designated representative.
+ 
+      (d)  A reduction of the insurance coverage maintained by the Contractor on the date of the execution of this contract shall not increase the Government's liability under this clause unless the Contracting Officer consents, and the contract price is equitably adjusted, if appropriate, to reflect the Contractor's consideration for the Government's assumption of increased liability.
+ 
+      (e)  Notice.  The Insurance--Liability to Third Persons clause of this contract applies also to claims under this clause.  In addition, the Contractor shall-
+ 
+              (1)  Promptly notify the Contracting Officer of any occurrence, action, or claim that might trigger the Government's liability under this clause;
+ 
+              (2)  Furnish the proof or evidence of any claim, loss, or damage in the form and manner that the Government requires; and
+ 
+              (3)  Immediately provide copies of all pertinent papers that the contractor receives or has received.
+ 
+      (f)  The Government may direct, participate in, and supervise the settlement or defense of the claim or action.  The Contractor shall comply with the Government's directions, and execute any authorizations required.
+ 
+      (g)  The Limitation of Cost clause of this contract does not apply to the Government's obligations under this clause.  The obligations under this clause are excepted from the release required by the Allowable Cost, Fee, and Payment clause of this contract.
+ 
+      (h)  Under this clause, a claim, loss, or damage arises from the direct performance of this contract if the cause of the claim, loss, or damage occurred during the period of performance of this contract or as a result of the performance of this contract.
+ 
+      (i)  Flowdown.  The Government shall indemnify the Contractor if the Contractor has an obligation to indemnify a subcontractor under any subcontract at any tier under this contract for the unusually hazardous risk identified in this contract only if-
+ 
+              (1)  The Contracting Officer gave prior written approval for the Contractor to provide in a subcontract for the Contractor to indemnify the subcontractor for unusually hazardous risks defined in this contract;
+ 
+              (2)  The Contracting Officer approved those indemnification provisions;
+ 
+              (3)  The subcontract indemnification provisions entitle the Contractor, or the Government, or both, to direct, participate in, and supervise the settlement or defense of relevant actions and claims; and
+ 
+              (4)  The subcontract provides the same rights and duties, the same provisions for notice, furnishing of paper and the like, between the Contractor and the subcontractor, as exist between the Government and the Contractor under this clause.
+ 
+      (j)  The Government may discharge its obligations under paragraph (i) of this clause by making payments directly to subcontractors or to persons to whom the subcontractors may be liable.
+ 
+      (k)  The rights and obligations of the parties under this clause shall survive the termination, expiration, or completion of this contract.
+ 
+(End of clause)
+ 
+252.235-7002  Animal Welfare.
+As prescribed in 235.176(b), use the following clause:
+ 
+ANIMAL WELFARE (DEC 2014)
+ 
+      (a)(1)  The Contractor shall register its research, development, test, and evaluation or training facility with the Secretary of Agriculture in accordance with 7 U.S.C. 2136 and 9 CFR subpart C, and section 2.30, unless otherwise exempt from this requirement by meeting the conditions in 7 U.S.C. 2136 and 9 CFR parts 1 through 4 for the duration of the activity. The Contractor shall have its proposed animal use approved in accordance with Department of Defense Instruction (DoDI) 3216.01, Use of Animals in DoD Programs, by a DoD Component Headquarters Oversight Office. The Contractor shall furnish evidence of such registration and approval to the Contracting Officer before beginning work under this contract.
+ 
+              (2)  The Contractor shall make its animals, and all premises, facilities, vehicles, equipment, and records that support animal care available during business hours and at other times mutually agreeable to the Contractor and the United States Department of Agriculture Office of Animal and Plant Health Inspection Service (USDA/APHIS) representative, personnel representing the DoD component oversight offices, as well as the Contracting Officer, to ascertain that the Contractor is compliant with 7 U.S.C. 2131-2159 and 9 CFR parts 1 through 4.
+ 
+      (b)  The Contractor shall acquire animals in accordance with DoDI 3216.01, current at time of award (http://www.dtic.mil/whs/directives/corres/pdf/321601p.pdf).
+ 
+      (c)  The Contractor agrees that the care and use of animals will conform with the pertinent laws of the United States, regulations of the Department of Agriculture, and policies and procedures of the Department of Defense (see 7 U.S.C. 2131 et seq., and 9 CFR subchapter A, parts 1 through 4, DoDI 3216.01, Army Regulation 40-33/ SECNAVINST 3900.38C/AFMAN 40-401(I)/DARPAINST 18/USUHSINST 3203). The Contractor shall also comply with DoDI 1322.24, Medical Readiness Training, if this contract includes acquisition of training.
+ 
+      (d)  The Contracting Officer may immediately suspend, in whole or in part, work and further payments under this contract for failure to comply with the requirements of paragraphs (a) through (c) of this clause.
+ 
+              (1)  The suspension will stay in effect until the Contractor complies with the requirements.
+ 
+              (2)  Failure to complete corrective action within the time specified by the Contracting Officer may result in termination of this contract and, if applicable, removal of the Contractor's name from the approved vendor list for live animals used in medical training.
+ 
+      (e)  The Contractor may request registration of its facility by contacting USDA/APHIS/AC, 4700 River Road, Unit 84, Riverdale, MD 20737-1234, or via the APHIS Animal Care website at: http://www.aphis.usda.gov/wps/portal/aphis/ourfocus/animalwelfare.
+ 
+      (f)  The Contractor shall include the substance of this clause, including this paragraph (f), in all subcontracts involving research, development, test, and evaluation or training that use live vertebrate animals.
+ 
+(End of clause)
+ 
+252.235-7003  Frequency Authorization.
+ 
+      Basic.  As prescribed in 235.176(c) and (c)(1), use the following clause:
+ 
+FREQUENCY AUTHORIZATION-BASIC (MAR 2014)
+ 
+      (a)  The Contractor shall obtain authorization for radio frequencies required in support of this contract.
+ 
+      (b)  For any experimental, developmental, or operational equipment for which the appropriate frequency allocation has not been made, the Contractor shall provide the technical operating characteristics of the proposed electromagnetic radiating device to the Contracting Officer during the initial planning, experimental, or developmental phase of contract performance.
+ 
+      (c)  The Contracting Officer shall furnish the procedures for obtaining radio frequency authorization.
+ 
+      (d)  The Contractor shall include this clause, including this paragraph (d), in all subcontracts requiring the development, production, construction, testing, or operation of a device for which a radio frequency authorization is required.
+ 
+(End of clause)
+ 
+      Alternate I.  As prescribed at 235.176(c) and (c)(2), use the following clause, which uses a different paragraph (c) than the basic clause:
+ 
+FREQUENCY AUTHORIZATION-ALTERNATE I (MAR 2014)
+ 
+      (a)  The Contractor shall obtain authorization for radio frequencies required in support of this contract.
+ 
+      (b)  For any experimental, developmental, or operational equipment for which the appropriate frequency allocation has not been made, the Contractor shall provide the technical operating characteristics of the proposed electromagnetic radiating device to the Contracting Officer during the initial planning, experimental, or developmental phase of contract performance.
+ 
+      (c)  The contractor shall use DD Form 1494, Application for Equipment Frequency Allocation, to obtain radio frequency authorization.
+ 
+      (d)  The Contractor shall include this clause, including this paragraph (d), in all subcontracts requiring the development, production, construction, testing, or operation of a device for which a radio frequency authorization is required.
+ 
+(End of clause)
+ 
+252.235-7004  Protection of Human Subjects.
+ 
+  As prescribed in 235.176(f), use the following clause:
+ 
+PROTECTION OF HUMAN SUBJECTS (JUL 2009)
+ 
+   (a)  Definitions.  As used in this clause-
+ 
+            (1)  "Assurance of compliance" means a written assurance that an institution will comply with requirements of 32 CFR Part 219, as well as the terms of the assurance, which the Human Research Protection Official determines to be appropriate for the research supported by the Department of Defense (DoD) component (32 CFR 219.103). 
+ 
+            (2)  "Human Research Protection Official (HRPO)" means the individual designated by the head of the applicable DoD component and identified in the component's Human Research Protection Management Plan as the official who is responsible for the oversight and execution of the requirements of this clause, although some DoD components may use a different title for this position.
+ 
+            (3)  "Human subject" means a living individual about whom an investigator (whether professional or student) conducting research obtains data through intervention or interaction with the individual, or identifiable private information (32 CFR 219.102(f)).  For example, this could include the use of human organs, tissue, and body fluids from individually identifiable living human subjects as well as graphic, written, or recorded information derived from individually identifiable living human subjects.
+ 
+            (4)  "Institution" means any public or private entity or agency (32 CFR 219.102(b)).
+ 
+            (5)  "Institutional Review Board (IRB)" means a board established for the purposes expressed in 32 CFR Part 219 (32 CFR 219.102(g)).
+ 
+            (6)  "IRB approval" means the determination of the IRB that the research has been reviewed and may be conducted at an institution within the constraints set forth by the IRB and by other institutional and Federal requirements (32 CFR 219.102(h)).
+ 
+            (7)  "Research" means a systematic investigation, including research, development, testing, and evaluation, designed to develop or contribute to generalizable knowledge.  Activities that meet this definition constitute research for purposes of 32 CFR Part 219, whether or not they are conducted or supported under a program that is considered research for other purposes.  For example, some demonstration and service programs may include research activities (32 CFR 219.102(d)).
+ 
+   (b)  The Contractor shall oversee the execution of the research to ensure compliance with this clause.  The Contractor shall comply fully with 32 CFR Part 219 and DoD Directive 3216.02, applicable DoD component policies, 10 U.S.C. 980, and, when applicable, Food and Drug Administration policies and regulations. 
+ 
+   (c)  The Contractor shall not commence performance of research involving human subjects that is covered under 32 CFR Part 219 or that meets exemption criteria under 32 CFR 219.101(b), or expend funding on such effort, until and unless the conditions of either the following paragraph (c)(1) or (c)(2) have been met:
+ 
+            (1)  The Contractor furnishes to the HRPO, with a copy to the Contracting Officer, an assurance of compliance and IRB approval and receives notification from the Contracting Officer that the HRPO has approved the assurance as appropriate for the research under the Statement of Work and also that the HRPO has reviewed the protocol and accepted the IRB approval for compliance with the DoD component policies.  The Contractor may furnish evidence of an existing assurance of compliance for acceptance by the HRPO, if an appropriate assurance has been approved in connection with previous research.  The Contractor shall notify the Contracting Officer immediately of any suspensions or terminations of the assurance.
+
+
+            (2)  The Contractor furnishes to the HRPO, with a copy to the Contracting Officer, a determination that the human research proposed meets exemption criteria in 32 CFR 219.101(b) and receives written notification from the Contracting Officer that the exemption is determined acceptable.  The determination shall include citation of the exemption category under 32 CFR 219.101(b) and a rationale statement.  In the event of a disagreement regarding the Contractor's furnished exemption determination, the HRPO retains final judgment on what research activities or classes of research are covered or are exempt under the contract.
+ 
+   (d)  DoD staff, consultants, and advisory groups may independently review and inspect the Contractor's research and research procedures involving human subjects and, based on such findings, DoD may prohibit research that presents unacceptable hazards or otherwise fails to comply with DoD procedures.
+
+
+   (e)  Failure of the Contractor to comply with the requirements of this clause will result in the issuance of a stop-work order under Federal Acquisition Regulation clause 52.242-15 to immediately suspend, in whole or in part, work and further payment under this contract, or will result in other issuance of suspension of work and further payment for as long as determined necessary at the discretion of the Contracting Officer. 
+          
+    (f)  The Contractor shall include the substance of this clause, including this paragraph (f), in all subcontracts that may include research involving human subjects in accordance with 32 CFR Part 219, DoD Directive 3216.02, and 10 U.S.C. 980, including research that meets exemption criteria under 32 CFR 219.101(b).  This clause does not apply to subcontracts that involve only the use of cadaver materials.
+ 
+(End of clause)
+
+
+252.235-7005  Reserved.
+ 
+252.235-7006  Reserved.
+ 
+252.235-7007  Reserved.
+ 
+252.235-7008  Reserved.
+ 
+252.235-7009  Reserved.
+ 
+252.235-7010  Acknowledgment of Support and Disclaimer.
+As prescribed in 235.176(d), use the following clause:
+ 
+ACKNOWLEDGMENT OF SUPPORT AND DISCLAIMER (MAY 1995)
+ 
+      (a)  The Contractor shall include an acknowledgment of the Government's support in the publication of any material based on or developed under this contract, stated in the following terms:  This material is based upon work supported by the (name of contracting agency(ies)) under Contract No. (Contracting agency(ies) contract number(s)).
+ 
+      (b)  All material, except scientific articles or papers published in scientific journals, must, in addition to any notices or disclaimers by the Contractor, also contain the following disclaimer:  Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the (name of contracting agency(ies)).
+ 
+(End of clause)
+ 
+252.235-7011  Final Scientific or Technical Report.
+As prescribed in 235.176(e), use the following clause:
+ 
+FINAL SCIENTIFIC OR TECHNICAL REPORT (DEC 2019)
+ 
+The Contractor shall-
+ 
+      (a)  Submit an electronic copy of the approved final scientific or technical report, not a summary, delivered under this contract to the Defense Technical Information Center (DTIC)] through the web-based input system at https://discover.dtic.mil/submit-documents/ as required by DoD Instruction 3200.12, DoD Scientific and Technical Information Program (STIP). Include a completed Standard Form (SF) 298, Report Documentation Page, in the document, or complete the web-based SF 298.
+ 
+      (b)  For instructions on submitting multi-media reports, follow the instructions at https://discover.dtic.mil/submit-documents/.
+ 
+      (c)  Email classified reports (up to Secret) to dtic.belvoir.da.mbx.tr@mail.smil.mil. If a SIPRNET email capability is not available, follow the classified submission instructions at https://discover.dtic.mil/submit-documents/.
+ 
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0014
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 35
+Defense FAR Supplement (DFARS) Part 235
+
+
+Page 1 of 7
+
+

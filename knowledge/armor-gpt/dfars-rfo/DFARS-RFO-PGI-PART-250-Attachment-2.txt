@@ -1,0 +1,109 @@
+PGI-EXTRAORDINARY CONTRACTUAL ACTIONS AND THE SAFETY ACT
+
+PGI 250.1-EXTRAORDINARY CONTRACTUAL ACTIONS
+
+PGI 250.101 General.
+
+PGI 250.101-370 Records.
+
+	(a) Departments and agencies must-
+   
+		(1) Prepare a preliminary record when a request for a contract adjustment under FAR 50.103 is filed (see DFARS 250.103-5(1)).
+      
+		(2) Prepare a final record stating the disposition of the request (see PGI 250.103-6).
+      
+		(3) Designate the offices or officials responsible for preparing, submitting, and receiving all records required by DFARS Subpart 250.1. Records must be maintained by the contract adjustment boards of the Army, Navy, and Air Force, respectively, and by the headquarters of the defense agencies.
+      
+	(b) A suggested format for the record is the Record of Request for Adjustment shown at the end of this section.  This format permits the information required for the preliminary and final records to be combined on one form. 
+   
+The following instructions are provided for those items in the format that are not self-explanatory:
+   
+		(1) Extent of performance as of date of request.  State the degree of completion of the contract; e.g., 50 percent completed or performance not yet begun.  If work is completed, state the date of completion and whether final payment has been made.
+      
+      (2) Award procedure.  State whether the contract was awarded under sealed bidding or negotiated procedures.  Cite the specific authority for using other than full and open competition, if applicable, e.g., 10 U.S.C. 3204(a).
+      
+      (3) Type of contract.  State the type of contract (see FAR Part 16); e.g., FFP (firm-fixed-price).
+      
+      (4) Category of case.  State whether the request involves a modification without consideration, a mistake, or an informal commitment.  If the case involves more than one category, identify both; list the most significant category first.
+      
+      (5) Amount or description of request.  If the request is expressed in dollars, state the amount and whether it is an increase or decrease.  If the request cannot be expressed in monetary terms, provide a brief description; e.g., "Cancellation" or "Modification." Even if the adjustment is not easily expressed in terms of dollars, if the contractor has made an estimate in the request, that estimate should be stated.
+      
+		(6) Action below Secretarial level.  State the disposition of the case, the office that took the action and the date the action was taken.  The disposition should be stated as "Withdrawn," "Denied," "Approved," or "Forwarded." If the request was approved, in whole or in part, state the dollar amount or nature of the action (as explained in paragraph (2)(v) of this section).  The date should correspond with the date of the memorandum of decision or of the letter forwarding the request to the contract adjustment board or other deciding body.
+      
+      (7) Action by contract adjustment board and date.  State the disposition and date of disposition of the case by the contract adjustment board.  Provide the same information as for paragraph (2)(vi) of this section.
+      
+      (8) Implementation and date.  State the appropriate action; e.g., "Modification," "New Contract," or "Letter of Denial."
+      
+?	PRELIMINARYRECORD OF FINAL	?REQUEST FOR ADJUSTMENTDATE OF REQUESTPUBLIC LAW 85-804DATE RECEIVED BY GOVERNMENTCONTRACTOR'S NAME AND ADDRESS
+?  SMALL BUSINESSNAME AND ADDRESS OF CONTRACTOR'S REPRESENTATIVE, IF ANY
+COGNIZANT CONTRACTING OFFICER OR OFFICE
+PROCURING ACTIVITYPROPERTY OR SERVICE INVOLVEDEXTENT OF PERFORMANCE AS OF DATE OF REQUESTCONTRACT NUMBER
+DATEADVERTISED OR NEGOTIATEDTYPE OF CONTRACTCATEGORY OF CASE
+AMOUNT OF DESCRIPTION OF REQUESTACTION BELOW SECRETARIAL LEVEL
+DATEACTION BY CAB
+DATEIMPLEMENTATION
+DATEADDITIONAL DATA OR REMARKS
+DATE THIS RECORD SIGNEDSIGNATURE
+
+PGI 250.103 Contract adjustments.
+
+PGI 250.103-5 Processing cases.
+
+	(1) The officer or official responsible for the case must forward to the contract adjustment board, through departmental channels, two copies of the following:
+      
+		(i) A letter stating-
+         
+			(A) The nature of the case;
+            
+			(B) The basis for the board's authority to act;
+            
+			(C) The findings of fact essential to the case (see FAR 50.103-4).  Arrange the findings chronologically with cross-references to supporting enclosures;
+            
+			(D) The conclusions drawn;
+            
+			(E) The recommended disposition; and
+            
+			(F) If contractual action is recommended, a statement by the signer that the action will facilitate the national defense.
+            
+		(ii) The contractor's request.
+         
+		(iii) All evidentiary materials.
+         
+		(iv) All endorsements, reports and comments of cognizant Government officials.
+         
+	(2) A letter to the Board recommending an amendment without consideration where essentiality is a factor (see FAR 50.103-2(a)(1)) should also provide-
+      
+		(i) The information required by FAR 50.103-4(a) and (b), and
+         
+		(ii) Findings as to-
+         
+			(A) The contractor's performance record, including the quality of product, rate of production, and promptness of deliveries;
+            
+			(B) The importance to the Government, particularly to the active duty military, of the performance of the contract and the importance of the contractor to the national defense;
+            
+			(C) The forecast of future contracts with the contractor; and
+            
+			(D) Other available sources of supply for the supplies or services covered by the contract, and the time and cost of having contract performance completed by such other sources.
+            
+PGI 250.103-6 Disposition.
+
+	(1) When the request for relief is denied or approved below the Secretarial level, submit the following documents to the appropriate office within 30 days after the close of the month in which the decision is executed:
+      
+		(i) Two copies of the memorandum of decision.
+         
+		(ii) Except for the Army, one copy of the contractual document implementing any decision approving contractual action.
+         
+		(iii) One copy of a final record, as described at PGI 250.101-370.
+         
+	(2) When a contract adjustment board decision is implemented, the activity that forwarded the case to the board must prepare and submit to the board the documents identified in paragraphs (1)(ii) and (iii) of this section.
+
+Attachment A2
+DARS Tracking Number: 2026-O0030
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 50
+Defense FAR Supplement (DFARS) Part 250
+ 
+
+Page 1 of 5
+
+
+

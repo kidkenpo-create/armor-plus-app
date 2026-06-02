@@ -1,0 +1,269 @@
+
+PGI PART 247-TRANSPORTATION
+
+PGI 247.2-CONTRACTS FOR TRANSPORTATION OR FOR TRANSPORTATION-RELATED SERVICES
+
+PGI 247.200  Scope of subpart.
+For general cargo provisions, see DTR 4500.9-R, Defense Transportation Regulation (DTR), Part II, Chapter 201, paragraphs L, M, N, and S (available at https://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_201.pdf).
+
+PGI 247.270-2  Technical provisions.
+
+	(a)  Because conditions vary at different ports, and sometimes within the same port, developing standard technical provisions covering all phases of stevedoring operations might be impracticable.
+
+	(b)  When including rail car, truck, or intermodal equipment loading and unloading, or other dock and terminal work under a stevedoring contract, include these requirements as separate items of work.
+
+PGI 247.271-2  Procedures.
+
+	(a)  Contiguous United States military activities assigned multi-service personal 
+property areas of responsibility.
+
+		(1)  When two or more military installations or activities have personal property responsibilities in a given area, one activity must contract for the estimated requirements of all activities in the area. The installation commanders concerned must designate the activity by mutual agreement.
+
+		(2)  The Commander, United States Army Transportation Command (ARTRANS), must designate the contracting activity when local commanders are unable to reach agreement.
+
+	(b)  Additional services and excess requirements.
+
+		(1)  When requiring activities need additional services that exceed 
+contractor capabilities available under contracts, contracting officers should use 
+simplified acquisition procedures to satisfy those excess requirements. 
+
+		(2)  Additional services are those not specified in the bid items.
+
+			(i)  Additional services may include-
+
+				(A)  Hoisting or lowering of articles;
+
+				(B)  Waiting time;
+
+				(C)  Special packaging; and
+
+				(D)  Stuffing or unstuffing of sea van containers.
+
+			(ii)  Contracting officers should consider contracting for local moves that do not require drayage by using hourly rate or constructive weight methods. The rate will include those services necessary for completion of the movement, including-
+
+				(A)  Packing and unpacking;
+
+				(B)  Movement;
+
+				(C)  Inventorying; and
+
+				(D)  Removal of debris.
+
+			(iii)  Each personal property shipping activity must determine if 
+local requirements exist for any additional services.
+
+			(iv)  The contracting officer may obtain additional services by-
+
+				(A)  Including them as items within the contract, provided they are not used in the evaluation of bids (see DFARS 252.247-7008, Evaluation of Bids); or
+
+				(B)  Using simplified acquisition procedures.
+
+			(v)  Either predetermine prices for additional services with the contractor, or negotiate them on a case-by-case basis.
+
+			(vi)  The contracting officer must authorize the contractor to perform any additional services, other than attempted pick up or delivery, regardless of the contracting method.
+
+			(vii)  To the maximum extent possible, identify additional services required that are incidental to an order before placing the order, or, when applicable, during the pre-move survey.
+
+	(c)  Contract distribution.
+
+		(1)  Contiguous United States personal property shipping activities must send the 
+copy to the Commander, United States Army Transportation Command (ARTRANS), ATTN:  AMSSD-PP, 709 Ward Drive, Scott AFB IL 62225.
+
+		(2)  In the European and Pacific areas, personal property shipping activities must send the copy to either the Property Directorate, ARTRANS Europe, or the Field Office-Pacific.
+
+		(3)  Other overseas personal property shipping activities must send the copy to the Commander, Military Surface Deployment and Distribution Command, ATTN: AMSSD-PP, 709 Ward Drive, Scott AFB IL 62225.
+
+	(d)  When preparing solicitations for personal property for shipment or storage, and intra-area or intra-city movement, contracting officers should follow the procedures 
+in DTR 4500.9-R, Part IV, Chapter 404 at https://www.ustranscom.mil/dtr/part-iv/dtr_part_iv_404.pdf, and Appendix G at https://www.ustranscom.mil/dtr/part-iv/dtr_part_iv_app_g.pdf.
+
+PGI 247.271-3  Solicitation provisions, schedule formats, and contract clauses.
+
+	(c)  DTR 4500.9-R, Defense Transportation Regulation, Part IV, Attachment A-G3 
+(available at https://www.ustranscom.mil/dtr/part-iv/dtr_part_iv_att_A-g3.pdf), contains guidance on schedules as follows:
+
+	Schedule I Outbound Services, Pages 6-12.
+
+	Schedule II Inbound Services, Pages 13-17.
+
+	Schedule III Intra-City and Intra-Area Moves, Page 18.
+
+		(1)  Demurrage and detention charges.
+
+			(i)  Carrier demurrage/detention is a charge made against a consignor (shipper) or consignee (receiver) for the extended use of carrier-furnished equipment when delays attributable to the consignor or consignee occur.  Carrier demurrage/detention rules usually allow a period of free time for loading, unloading, or holding equipment.
+
+			(ii)  Carrier-published demurrage/detention rules and charges are not uniform from one carrier to another.  Contracting officers should specifically address them in the contract.  While demurrage/detention rules are published in individual carrier tariffs or agency tenders, Contracting Officers may negotiate contract-specific demurrage/detention rules and charges independent of any existing tariffs or tenders.
+
+		(6)  Process any modification of schedule format, other than those authorized in paragraph (c) of this subsection, as a request for deviation to the Commander, ARTRANS.
+
+PGI 247.3-TRANSPORTATION IN SUPPLY CONTRACTS
+
+PGI 247.301  General.
+Transportation guidance relating to Governmentwide commercial purchase card purchases is available in the Department of Defense Government Charge Card Guidebook for Establishing and Managing Purchase, Travel, and Fuel Card Programs, Appendix C, at
+https://www.acq.osd.mil/asda/dpc/ce/pc/docs-guides.html.
+
+PGI 247.305  Solicitation provisions, contract clauses, and transportation factors.
+
+PGI 247.305-10  Packing, marking, and consignment instructions.
+Follow the procedures in DTR 4500.9-R, Defense Transportation Regulation, Part II, Chapter 208 https://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_208.pdf.  Additional guidance for marking can be found at MIL-STD-129P and AR 700-15.  Consignment locations can be found in the Transportation Facilities Guide (TFG) on the ARTRANS website at https://eta-teams.transport.mil.  Access to this site requires an Electronic Transportation Account.
+
+PGI 247.370  DD Form 1384, Transportation Control and Movement.
+
+	(a)  The transportation office of the shipping activity prepares the DD Form 1384 to accompany all shipments made through a military air or water port, in accordance with DoD 4500.9-R, Defense Transportation Regulation, Part II, Chapter 203.
+
+	(b)  DTR 4500.9-R, Defense Transportation Regulation, Part II, Chapter 203 is available at https://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_203.pdf.
+
+PGI 247.371  DD Form 1653, Transportation Data for Solicitations.
+The transportation specialist prepares the DD Form 1653 to accompany requirements for the acquisition of supplies. The completed form should contain recommendations for suitable f.o.b. terms and other suggested transportation provisions for inclusion in the solicitation.
+
+247.372  DD Form 1654, Evaluation of Transportation Cost Factors.
+Contracting personnel may use the DD Form 1654 to furnish information to the transportation office for development of cost factors for use by the contracting officer in the evaluation of f.o.b. origin offers.
+
+PGI 247.5-OCEAN TRANSPORTATION BY U.S.-FLAG VESSELS
+
+PGI 247.573  General.
+
+	(a)  Delegated authority.
+
+		(1)  The authority to make determinations that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States, or is otherwise not available, is delegated in the Secretary of Defense Memorandum dated August 25, 2021, to-
+
+			(i)  The Commander, United States Transportation Command (USTRANSCOM); and
+
+			(ii)  The Secretary of the Navy.
+
+		(2)  In accordance with the Commander, USTRANSCOM, Memorandum dated March 1, 2023, the authority at paragraph (a)(1) of this section is further delegated as follows:
+
+			(i)  The Director, Acquisition (TCAQ) is delegated the authority to make determinations that a U.S.-flag vessel is not available for liner or intermodal services at a fair and reasonable rate for commercial vessels of the United States.
+
+			(ii)  The Commander, United States Army Transportation Command (ARTRANS) is delegated the authority to make determinations that a U.S.-flag vessel is otherwise not available for liner or intermodal services.
+
+			(iii)  The Commander, Military Sealift Command (MSC) is delegated the authority to make determinations that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States or is otherwise not available for charter contracts.
+
+		(3)  In accordance with the Secretary of the Navy Memorandum dated March 3, 2022, the Commander, MSC is delegated the authority to make determinations that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States or is otherwise not available for charter contracts.
+
+		(4)  Contracting officers are not delegated the authority at paragraph (a)(1) of this section and therefore are not authorized to waive the use of U.S.-flag vessels.
+
+	(b)  Procedures.
+
+		(1)  Follow these procedures when ocean transportation is not the principal purpose of the contract, and the cargo to be transported is owned by, destined for use by, or otherwise transported by DoD.
+
+			(i)(A)  If the contractor notifies the contracting officer that the contractor considers that no U.S.-flag vessels are available, review that notification.  If the contracting officer agrees with the contractor's request, then request a nonavailability waiver, in determination and findings format, using details received from the contractor in accordance with paragraph (d) of the clause at DFARS 252.247-7023, from-
+
+					(1)  The Commander, MSC, through the Contracts and Business Management Directorate, MSC (MSC_N103_FFW@us.navy.mil), for vessel charters; or
+
+					(2)  The Commander, ARTRANS, by email at usarmy.scott.sddc.mbx.g3-ffw-team@army.mil for ocean liner and intermodal transportation.
+
+				(B)  Pursuant to their delegations from the Secretary of the Navy or the Commander, USTRANSCOM, the Commander, MSC, or the Commander, ARTRANS, will make a determination to approve a waiver based on nonavailability of a U.S.-flag vessel.  Upon receipt of an approved waiver, provide the contractor with written approval to use a non-U.S. flag carrier in accordance with that waiver.  Variances from that approved waiver, including changing the foreign-flag vessel approved for use, may require a new request and approval from the cognizant waiver approval authority.  Additionally, see contractors' bill of lading submission requirement at paragraph (e) of the clause at DFARS 252.247-7023.
+
+			(ii)  If the contractor notifies the contracting officer that the contractor considers that U.S.-flag carriers are not available at a fair and reasonable rate for commercial vessels of the United States, and if the contracting officer agrees with the contractor's assertion, then-
+
+				(A)  Prepare a waiver request in determination and findings format, and-
+
+					(1)  Take into consideration that the Military Cargo Preference Act of 1904 is, in part, a subsidy of the U.S.-flag commercial shipping industry that recognizes that 
+lower prices may be available from foreign-flag carriers.  Therefore, a lower price for use of a 
+foreign-flag vessel is not a sufficient basis, on its own, to determine that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States for the services sought.  However, such a price differential may indicate a need for further 
+review;
+
+					(2)  Include a description of efforts taken pursuant to FAR 15.405 to negotiate a reasonable price.  For the purpose of FAR 15.405(d), this waiver request is the referral to a level above the contracting officer; and
+
+					(3)  Include an analysis of price reasonableness, taking into account 
+factors such as-
+
+						(i)  A comparison of U.S.-flag rates charged on comparable routes, or for similar services;
+
+						(ii)  Any other relevant economic and financial considerations; and
+
+				(B)  Forward the waiver request to-
+
+					(1)  The Commander, MSC, through the Contracts and Business Management Directorate, MSC (MSC_N103_FFW@us.navy.mil), for charters; or
+
+					(2)  The USTRANSCOM Director of Acquisition, through the Sealift Services Division (transcom.scott.tcaq.mbx.i-foreign-flag-waiver@mail.mil), for ocean liner 
+and intermodal transportation.
+
+				(C)  Pursuant to their delegations from the Secretary of the Navy and the Commander, USTRANSCOM, the Commander, MSC, or the USTRANSCOM Director of Acquisition, will make a determination whether to approve the request that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States.  Upon receipt of an approved waiver, provide the contractor with written approval to use a non-U.S. flag carrier, in accordance with the terms of that waiver.  Variances from that approved waiver, including changing the foreign-flag vessel approved for use, may require a new request and approval from the cognizant waiver approval authority.  Additionally, see contractors' bill of lading submission requirement at paragraph (e)(1) of the clause at DFARS 252.247-7023.
+
+		(2)  Follow these procedures when the direct purchase of ocean transportation services is the principal purpose of the contract.
+
+			(i)  Direct purchase of ocean transportation may include-
+
+				(A)  Contracts for full or partial charter vessel services;
+
+				(B)  Dedicated contractor contracts for charter vessel services;
+
+				(C)  Ocean bills of lading;
+
+				(D)  Subcontracts under Government contracts or agreements for ocean transportation services;
+
+				(E)  Ocean liner contracts (including contracts where ocean liner transportation is part of an intermodal movement); and
+
+				(F)  Ferry service.
+
+			(ii)  Coordinate these acquisitions, as appropriate, with USTRANSCOM, the DoD single manager for commercial transportation and related services, other than Service-
+unique or theater-assigned transportation assets, in accordance with DoDD 4500.09, Transportation and Traffic Management, and DoDI 4500.57, Transportation and Traffic Management.
+
+			(iii)  All solicitations within the scope of this section must provide-
+
+				(A)  A preference for U.S.-flag vessels in accordance with the Military Cargo Preference Act of 1904;
+
+				(B)  An evaluation criterion for offeror participation in the Voluntary 
+Intermodal Sealift Agreement (for cargo movement only); and
+
+				(C)  An evaluation criterion considering the extent to which offerors have had overhaul, repair, and maintenance work for all covered vessels in an offeror's fleet 
+performed in shipyards located in the United States or Guam as applicable under DFARS 247.572(d).
+
+			(iv)  Do not award a contract of the type described in paragraph (b)(2)(i) of this 
+section for a foreign-flag vessel unless-
+
+				(A)  The Commander, MSC, or the Commander, ARTRANS, has issued a waiver that no U.S.-flag vessels are available;
+
+					(1)  The Commander, MSC, and the Commander, ARTRANS, are authorized to issue waivers regarding the availability of U.S.-flag vessels to ensure the proper use of Government and private U.S. vessels;
+
+					(2)  Request such waivers-
+
+						(i)  For vessel charters, through the Contracts and Business 
+Management Directorate, MSC (MSC_N103_FFW@us.navy.mil); and
+
+						(ii)  For ocean liner and intermodal transportation, including contracts for shipment of military household goods and privately-owned vehicles, through 
+ARTRANS by email at usarmy.scott.sddc.mbx.g3-ffw-team@army.mil;
+
+					(3)  For ocean liner and intermodal transportation, in the absence of 
+regularly scheduled U.S.-flag service to fulfill stated DoD requirements, the Commander, 
+ARTRANS, may grant, on a case-by-case basis, an on-going nonavailability waiver for foreign-flag service approval with predetermined review date(s);
+
+					(4)  Prepare a waiver request documenting nonavailability in determination and findings format and forward the waiver request to-
+
+						(i)  The Commander, MSC, through the Contracts and Business Management Directorate, MSC (MSC_N103_FFW@us.navy.mil), for vessel charters; or
+
+						(ii)  The Commander, ARTRANS, by email at usarmy.scott.sddc.mbx.g3-ffw-team@mail.mil for ocean liner and intermodal transportation; and
+
+					(5)  Upon receipt of an approved waiver, provide the contractor with written approval to use a non-U.S. flag carrier, in accordance with that waiver.
+
+				(B)  Pursuant to their delegations from the Secretary of the Navy and the Commander, USTRANSCOM, the Commander, MSC, or the USTRANSCOM Director of Acquisition possess approval authority to grant a waiver based on nonavailability of a U.S.-flag vessel based on a determination that the proposed freight charges for U.S.-flag vessels are not fair and reasonable for commercial vessels of the United States.
+
+					(1)  After considering the factors in paragraph (b)(1)(ii)(A)(1) of this section, if the contracting officer concludes that the freight or charter charges proposed by U.S.-flag carriers may not be fair and reasonable for commercial vessels of the United States, then prepare a waiver request in determination and findings format that includes-
+
+						(i)  A description of efforts taken pursuant to FAR 15.405 to negotiate a reasonable price.  For the purpose of FAR 15.405(d), this waiver request is the 
+referral to a level above the contracting officer; and
+
+						(ii)  An analysis of price reasonableness, taking into consideration factors such as those listed at paragraph (b)(1)(ii)(A)(3) of this section.
+
+					(2)  Forward the waiver request to-
+
+						(i)  The Commander, MSC, through the Contracts and Business 
+Management Directorate, MSC (MSC_N103_FFW@us.navy.mil), for vessel charters; or
+
+						(ii)  The USTRANSCOM Director of Acquisition, through the Sealift 
+Services Division (transcom.scott.tcaq.mbx.i-foreign-flag-waiver@mail.mil).
+
+					(3)  Upon receipt of a an approved waiver, provide the contractor with written approval to use a non-U.S. flag carrier, in accordance with 
+that waiver.
+
+		(3)  When security background checks are required pursuant to paragraph (c)(2) of the clause at DFARS 252.247-7027, Riding Gang Member Requirements, specify in the contract the responsible security office to coordinate a Tier 1 investigation pursuant to Federal Investigations Notice 15-03, dated November 4, 2014.  Accordingly, specify in the contract the requirement for Tier 1 investigations to satisfy the requirement for background checks at paragraph (c)(2) of the clause at DFARS 252.247-7027.
+ 
+Attachment A2
+DARS Tracking Number: 2026-O0047
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 47
+Defense FAR Supplement (DFARS) Part 247
+
+
+Page 1 of 1
+

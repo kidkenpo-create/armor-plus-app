@@ -1,0 +1,532 @@
+PGI 208-REQUIRED SOURCES OF SUPPLIES AND SERVICES
+
+PGI 208.1-PRESOLICITATION
+
+PGI 208.103  Mandatory sources of supplies.
+
+	(a)(1)(i)  The DLA Disposition Services Reutilization, Transfer, or Donation (RTD) Office maintains the DoD-wide inventory of available property.  Information on available property in the DoD-wide inventory can be obtained by-
+
+				(A)  Sending a request to the DLA Disposition Services RTD Office at drmsrtd@dla.mil; or
+
+				(B)  Searching the inventory on the DLA Disposition Service RTD website at https://amps.dla.mil/oim. 
+
+			(ii)  Information on gaining access to and searching for available property on the RTD website can be found at https://www.dla.mil/DispositionServices/DDSR/PropertySearch/PropertySearch/.
+
+			(iii)  General information on DLA Disposition Service's RTD Program can be found at https://www.dla.mil/DispositionServices/Offers/Reutilization.aspx.
+
+PGI 208.105  Contractor use of Government supply sources.
+
+PGI 208.105-70-Fuel funded by the Defense Working Capital Fund
+
+	(a)(4)  When authorizing contractors to use Defense Logistics Agency (DLA) Energy as a source of fuel in performance of other than cost-reimbursement contracts, contracting officers must-
+
+			(i)  Comply with the requirements of FAR 8.105-2 and DFARS 208.105-2 including the execution of a letter of authorization;
+
+			(ii)  Include FAR clause 52.208-10, Government Supply Sources, and DFARS clause 252.208-7999, Ordering From Government Supply Sources, in the contract;
+
+			(iii)  Obtain a current DLA Energy Fuel Purchase Authorization (FPA) from DLA Energy by emailing dlaenergyfpa@dla.mil;
+
+			(iv)  Email to DLA Energy, at dlaenergyfpa@dla.mil, a copy of the-
+
+				(A)  Completed FPA;
+
+				(B)  Letter of authorization from the contracting officer; and 
+
+				(C)  Documentation showing the inclusion of FAR clause 52.208-10 and DFARS clause 252.208-7999 in the underlying contract. 
+
+			(v)  Upon receipt of the documentation in paragraph (a)(4)(iv)(A)-(C) of this section, DLA Energy will work with all parties to review the FPA for accuracy and completion.  If approved, DLA Energy will assign a Department of Defense Activity Address Code for the fuel sales.
+
+			(vi)  Use a format substantially the same as the following when authorizing contractor use of Government Supply Sources.  Specify the terms of the purchase, including contractor acceptance of any Government materiel, payment terms, and the addresses required by paragraph (e) of the clause at 252.208-7999, Ordering from Government Supply Sources.
+
+AUTHORIZATION TO PURCHASE FROM GOVERNMENT SUPPLY SOURCES
+(SAMPLE FORMAT)SUBJECT:  Authorization to Purchase from Government Supply Sources
+_________________________________________________(Contractor's Name)
+_________________________________________________(Contractor's Address)
+__________________________________________________(CAGE Code)
+
+	1.  You are hereby authorized to use Government sources in performing Contract No. __________________ for [insert the requiring activity's DoD Activity Address Code (DoDAAC)], as follows:  [Insert applicable purchasing authority given to the contractor.]
+
+	2.a.  Purchase Orders Under Federal Supply Schedules or Personal Property Rehabilitation Price Schedules.  Place orders in accordance with the terms and conditions of the attached Schedule(s) and this authorization.  Attach a copy of this authorization to the order (unless a copy was previously furnished to the Federal Supply Schedule or Personal Property Rehabilitation Price Schedule contractor).  Insert the following statement in the order:
+
+This order is placed under written authorization from ______________________________________ dated ____________________ (*___________).  In the event of any inconsistency between the terms and conditions of this order and those of the Federal Supply Schedule or Personal Property Rehabilitation Price Schedule contract, the latter will govern.
+	b.  Requisitioning from the General Services Administration (GSA) or the Department of Defense (DoD).  Place orders in accordance with this authorization and, as appropriate, the following:
+
+		(1)  Federal Standard Requisitioning and Issue Procedures (FEDSTRIP) (GSA FEDSTRIP Operating Guide:  FPMR 101-26.2 (41 CFR 101-26.2)).  Copies are available from the Superintendent of Documents, Government Printing Office, Washington, DC  
+20402; telephone (202) 512-1800; facsimile (202) 512-2250.
+
+		(2)  Military Standard Requisitioning and Issue Procedures (MILSTRIP) (DoD 4000.25-1-M).  Copies are available from the Defense Logistics Agency, Administrative Support Center East, ATTN:  ASCE-WS, 14 Dedication Drive, Suite 3, POD 43, New Cumberland, PA  17070-5011; telephone 1-888-DLA-PUBS(352-7827), or (717) 770-6034; facsimile (717) 770-4817.
+
+	c.  Enterprise Software Initiative.  Place orders in accordance with the terms and 
+conditions of the attached Enterprise Software Agreement(s), or instructions for obtaining commercial software or software maintenance from Enterprise Software Initiative inventories, and this authorization.  Attach a copy of this authorization to the order (unless a copy was previously furnished to the Enterprise Software Agreement contractor).  Insert the following statement in the order:
+
+	This order is placed under written authorization from __________________________ dated___________ (*___________).  In the event of any inconsistency between the terms and conditions of this order, and those of the Enterprise Software Agreement, the latter will govern.
+
+		3.  [Insert other provisions as necessary.]
+
+		4.  This authority is not transferable or assignable.
+
+		5.  The DoD Activity Address Directory (DoDAAD) (DLM 4000.25, Volume 6, Chapter 2) Activity Address Code** to which this Authorization applies is ___________.
+
+		6.  This Authorization expires _______________________________.
+
+_____________________________
+(Contracting Officer)
+	*     Insert "a copy of which is attached," "a copy of which you have on file," or other suitable language, as appropriate.
+	**   The requiring activity assumes responsibility for monitoring and controlling all activity 
+address codes used in the letters of authority.
+	
+PGI 208.105-270  Contracting office responsibilities.
+
+	(a)  The DoD Activity Address Code (DoDAAC) assigned in accordance with paragraph 5 of the authorization format in PGI 208.105-2 must be assigned to the contractor for authorization to use Government supply sources only for the contract number cited in paragraph 1 of the authorization format.
+	
+	(b)  The authorization to use Government sources of supply is unique to each contract and must not be transferred or assigned to any other contractor or contract.  Therefore, the same DoDAAC must not be assigned to any other contract number during the period of performance for the contract.  After 24 months has lapsed beyond contract closeout, the DoDAAC may be reused for another contract.
+
+PGI 208.2-ACQUISITION FROM ABILITYONE PARTICIPATING NONPROFIT AGENCIES
+
+PGI 208.201  General.
+Ordering offices may use DD Form 1155, Order for Supplies or Services, to place orders with central nonprofit agencies.
+
+PGI 208.4-ORDERING UNDER THE FEDERAL SUPPLY SCHEDULE
+
+PGI 208.470  General.
+
+	(1)  When ordering from schedules, ordering offices-
+
+		(i)  May use DD Form 1155, Order for Supplies or Services, to place orders for-
+
+			(A)  Commercial products or commercial services at or below the simplified 
+acquisition threshold; and
+
+			(B)  Other than commercial products or commercial services at any dollar value. 
+
+		(ii)  Must use SF 1449, Solicitation/Contract/Order for Commercial Products and Commercial Services, to place orders for commercial products or commercial services 
+exceeding the simplified acquisition threshold (see FAR 12.204); and
+
+		(iii)  May use SF 1449 to place orders for other than commercial products or commercial services at any dollar value.
+
+	(2)  Schedule orders may be placed orally if-
+
+		(i)  The contractor agrees to furnish a delivery ticket for each shipment under the order (in the number of copies required by the ordering office).  The ticket must include the-
+
+			(A)  Contract number;
+
+			(B)  Order number under the contract;
+
+			(C)  Date of order;
+
+			(D)  Name and title of person placing the order;
+
+			(E)  Itemized listing of supplies or services furnished; and
+
+			(F)  Date of delivery or shipment; and
+
+		(ii)  Invoicing procedures are agreed upon.  Optional methods of submitting invoices for payment are permitted, such as-
+
+			(A)  An individual invoice with a receipted copy of the delivery ticket;
+
+			(B)  A summarized monthly invoice covering all oral orders made during the month, with receipted copies of the delivery tickets (this option is preferred if there are many oral orders); or
+
+			(C)  A contracting officer statement that the Government has received the supplies.
+
+	(3)  For purchases where cash payment is an advantage, the use of imprest funds in accordance with DFARS 212.403 is authorized when the contractor agrees to the procedure.
+
+	(4)  If permitted under the schedule contract, use of the Governmentwide commercial purchase card--
+
+		(i)  Is mandatory for placement of orders valued at or below the micro-purchase threshold; and
+
+		(ii)  Is optional for placement of orders valued above the micro-purchase
+
+
+
+
+
+PGI 208.70-ACQUISITION UNDER THE INTEGRATED MATERIAL MANAGEMENT PROGRAM
+
+PGI 208.7002  Assignment authority.
+
+Under the DoD IMM Program, contracting responsibility for certain commodities is assigned to a single department, agency, or the General Services Administration (GSA).  Consumable and nonconsumable commodity assignments are made-
+
+		(1)(i)To the departments and agencies, by the Deputy Assistant Secretary of 
+Defense (Logistics);
+
+			(ii)  To the military departments for nonconsumable items (repair parts) under each commodity Federal Stock Class.
+
+		(2)  To GSA, through agreement with GSA, by the Deputy Assistant Secretary of 
+Defense (Logistics);
+
+		(3)  For acquisitions to be made in the contiguous United States for commodities not assigned under paragraphs (a)(1) or(2),  of this section, by  the Deputy Assistant Secretary of Defense (Logistics).
+
+			(i)  Agreement may be on either a one-time or a continuing basis.  The submission of a military interdepartmental purchase request (MIPR) by a requiring activity and its acceptance by the contracting activity of another department, even though based on an oral communication, constitutes a one-time agreement.
+
+			(ii)  Consider repetitive delegated acquisition responsibilities for coordinated acquisition assignment.  If not considered suitable for coordinated acquisition assignment, formalize continuing agreements and distribute them to all activities concerned.
+
+PGI 208.7002-1  Acquiring department responsibilities.
+
+The acquiring department generally is responsible under the integrated material management (IMM) program for-
+
+	(1)  Operational aspects of acquisition planning (phasing the submission of requirements to contracting, consolidating or dividing requirements, analyzing the market, and determining patterns for the phased placement of orders to avoid unnecessary production fluctuations and meet the needs of requiring departments at the lowest price);
+
+	(2)  Purchasing;
+
+	(3)  Performing or assigning contract administration, including follow-up and expediting of inspection and transportation; and
+
+	(4)  Obtaining licenses under patents and settling patent infringement claims arising out of the acquisition.  (Acquiring departments must obtain approval from the department whose funds are to be charged for obtaining licenses or settling claims.)
+
+PGI 208.7002-2  Requiring department responsibilities.
+
+The requiring department is responsible for-
+
+	(1)  Ensuring compliance with the order of priority in FAR 8.1 for use of Government supply sources before submitting a requirement to the acquiring department for contracting action; and
+
+	(2)  Providing the acquiring department-
+
+		(i)  The complete and certified documentation required by FAR 6.104.  A requiring department official, equivalent to the appropriate level in FAR 6.104, must approve the documentation before submission of the military interdepartmental purchase request (MIPR) to the acquiring department;
+
+		(ii)  Any additional supporting data that the acquiring department contracting officer requests (e.g., the results of any market survey or why none was conducted, and actions the requiring department will take to overcome barriers to competition in the future);
+
+		(iii)  The executed determination and findings required by FAR 6.103-7;
+
+		(iv)  When a requiring department requests an acquiring department to contract for supplies or services using full and open competition after exclusion of sources, all data required by FAR 6.102-1;
+
+		(v)  When the requiring department specifies a foreign end product, any determinations required by DFARS Part 225 or FAR Part 25;
+
+		(vi)  A complete definition of the requirements, including a list (or copies) of specifications, drawings, and other data required for the acquisition.  The requiring department need not furnish Federal, military, departmental, or other specifications or drawings or data that are available to the acquiring department;
+
+		(vii)  Justification required by FAR 17.2 for any option quantities requested;
+
+		(viii)  A statement as to whether used or reconditioned material, former Government surplus property, or residual inventory will be acceptable, and if so-
+
+			(A)  A list of any supplies that need not be new; and
+
+			(B)  The basis for determining the acceptability of such supplies (see FAR 11.302(b));
+
+		(ix)  A statement as to whether the acquiring department may exceed the total MIPR estimate and, if so, by what amount; and
+
+		(x)  Unless otherwise agreed between the departments, an original and six copies of each MIPR and its attachments (except specifications, drawings, and other data).
+
+
+
+
+
+
+PGI 208.7003  Applicability.
+
+PGI 208.7003-1  Assignments under integrated materiel management.
+
+	(b)  When an item assigned for IMM is to be acquired by the requiring activity under DFARS 208.7003-1(a)(3), the contracting officer must-
+
+		(i)  Document the contract file with a statement of the specific advantage of local purchase for an acquisition exceeding the micro-purchase threshold; and 
+
+		(ii)  Ensure that a waiver is obtained from the IMM manager before initiating an acquisition exceeding the simplified acquisition threshold in FAR Part 2, if the IMM assignment is to the General Services Administration (GSA), the Defense Logistics Agency 
+(DLA), or another Service contracting office.  Submit requests for waiver-
+
+
+			(A)  For GSA, to:  Commissioner (F)
+							  Federal Supply Service
+							  Washington, DC 20406
+
+			(B)  For DLA, to:  DLA Land and Maritime
+							  ATTN:  DSCC-BDL
+							  P.O. Box 3990
+							  Columbus, OH  43216-5000
+	
+							  DLA Energy
+							  ATTN:  DESC-CPA
+							  8725 John J. Kingman Road
+							  Fort Belvoir, VA  22060-6222
+	
+							  DLA  Aviation
+							  ATTN:  DSCR-BA
+							  8000 Jefferson Davis Highway
+							  Richmond, VA  23297-5000
+	
+							  DLA Troop Support
+							  ATTN:  DSCP-ILSI (for General and Industrial) 										              DSCP-OCS (for Medical, Clothing, and Textiles)
+							  700 Robbins Avenue, Bldg. 4
+							  Philadelphia, PA  19111-5096
+
+		(iii)  In addition, forward a copy of each request to:
+
+							  Defense Logistics Agency
+							  Logistics Operations
+							  ATTN:  J-335
+							  8725 John J. Kingman Road
+							  Fort Belvoir, VA  22060-6221
+
+			For AMC:		  HQ, Army Materiel Command
+							  ATTN:  AMCLG-SL
+							  4400 Martin Road
+							  Redstone Arsenal, AL 35898
+			
+			For Navy:		Commanding Officer
+     Naval Inventory Control Point Code M0418
+     P.O. Box 2020
+     Mechanicsburg, PA 17055-0788
+
+			For Air Force:	Commander
+							HQ Air Force Materiel Command (AFMC)  
+							ATTN: A4SI
+							4375 Chidlaw Road
+							Wright-Patterson AFB (WPAFB), OH 45433
+
+			For Marine Corps: 	Commandant of the Marine Corps 
+								HQ USMC ATTN: LPS-4
+								Washington, D.C. 20380-001
+
+PGI 208.7004  Procedures.
+
+PGI 208.7004-1  Purchase authorization from requiring department.
+
+	(1)  Requiring departments send their requirements to acquiring departments on either a DD Form 448, Military Interdepartmental Purchase Request (MIPR), or a DD Form 416, Requisition for Coal, Coke or Briquettes.  A MIPR or a DD Form 416 is the acquiring department's authority to acquire the supplies or services on behalf of the requiring department.
+
+	(2)  The acquiring department is authorized to create obligations against the funds cited in a MIPR without further referral to the requiring department.  The acquiring department has no responsibility to determine the validity of a stated requirement in an approved MIPR, but it should bring apparent errors in the requirement to the attention of the requiring department.
+
+	(3)  Changes that affect the contents of the MIPR must be processed as a MIPR amendment regardless of the status of the MIPR.  The requiring department may initially transmit changes electronically or by some other expedited means, but must confirm changes by a MIPR amendment.
+
+	(4)  The requiring department must submit requirements for additional line items of supplies or services not provided for in the original MIPR as a new MIPR.  The requiring department may use a MIPR amendment for increased quantities only if-
+
+		(i)  The original MIPR requirements have not been released for solicitation; and
+
+		(ii)  The acquiring department agrees.
+
+PGI 208.7004-2  Acceptance by acquiring department.
+
+	(1)  Acquiring departments formally accept a MIPR by DD Form 448-2, Acceptance of MIPR, as soon as practicable, but no later than 30 days after receipt of the MIPR.  If the 30 day time limit cannot be met, the acquiring department must inform the requiring department of the reason for the delay, and the anticipated date the MIPR will be accepted.  The acquiring department must accept MIPRs in writing before expiration of the funds.
+
+	(2)  The acquiring department in accepting a MIPR will determine whether to use Category I (reimbursable funds citation) or Category II (direct funds citation) methods of funding.
+
+		(i)  Category I method of funding is used under the following circumstances and results in citing the funds of the acquiring department in the contract:
+
+			(A)  Delivery is from existing inventories of the acquiring department;
+
+			(B)  Delivery is by diversion from existing contracts of the acquiring department;
+
+			(C)  Production or assembly is through Government work orders in Government-owned plants;
+
+			(D)  Production quantities are allocated among users from one or more contracts, and the identification of specific quantities of the end item to individual contracts is not feasible at the time of MIPR acceptance;
+
+			(E)  Acquisition of the end items involves separate acquisition of components to be assembled by the acquiring department;
+
+			(F)  Payments will be made without reference to deliveries of end items (e.g., cost-reimbursement type contracts and fixed-price contracts with progress payment clauses); or
+
+			(G)  Category II method of funding is not feasible and economical.
+
+		(ii)  Category II method of funding is used in circumstances other than those in paragraph (2)(i) of this subsection.  Category II funding results in citation of the requiring department's funds and MIPR number in the resultant contract.
+
+	(3)  When the acquiring departments accepts a MIPR for Category I funding-
+
+		(i)  The DD Form 448-2, Acceptance of MIPR, is the authority for the requiring department to record the obligation of funds;
+
+		(ii)  The acquiring department will annotate the DD Form 448-2 if contingencies, price revisions, or variations in quantities are anticipated.  The acquiring department will periodically advise the requiring department, prior to submission of billings, of any changes in the acceptance figure so that the requiring department may issue an amendment to the MIPR, and the recorded obligation may be adjusted to reflect the current price;
+
+		(iii)  If the acquiring department does not qualify the acceptance of a MIPR for anticipated contingencies, the price on the acceptance will be final and will be billed at time of delivery; and
+
+		(iv)  Upon receipt of the final billing (SF 1080, Voucher for Transferring Funds), the requiring department may adjust the fiscal records accordingly without authorization from or notice to the acquiring department.
+
+	(4)  When the MIPR is accepted for Category II funding, a conformed copy of the contract (see DFARS 204.802(1)(ii)) is the authority to record the obligation.  When all awards have been placed to satisfy the total MIPR requirement, any unused funds remaining on the MIPR become excess to the acquiring department.  The acquiring department will immediately notify the requiring department of the excess funds by submitting an Acceptance of MIPR (DD Form 448-2).  This amendment is authorization for the requiring department to withdraw the funds.  The acquiring department is prohibited from further use of such excess funds.
+
+	(5)  When the acquiring department requires additional funds to complete the contracting action for the requiring department, the request for additional funds must identify the exact items involved, and the reason why additional funds are required.  The requiring department must act quickly to-
+
+		(i)  Provide the funds by an amendment of the MIPR; or
+
+		(ii)  Reduce the requirements.
+
+	(6)  The accepting activity of the acquiring department must remain responsible for the MIPR even though that activity may split the MIPR into segments for action by other contracting activities.
+
+PGI 208.7004-3  Use of advance MIPRs.
+
+	(1)  An advance MIPR is an unfunded MIPR provided to the acquiring department in advance of the funded MIPR so that initial steps in planning the contract action can begin at an earlier date.
+
+	(2)  In order to use an advance MIPR, the acquiring department and the requiring department must agree that its use will be beneficial.  The departments may execute a blanket agreement to use advance MIPRs.
+
+	(3)  The requiring department must not release an advance MIPR to the acquiring department without obtaining proper internal approval of the requirement.
+
+	(4)  When advance MIPRs are used, mark "ADVANCE MIPR" prominently on the DD Form 448.
+
+	(5)  For urgent requirements, the advance MIPR may be transmitted electronically.
+
+	(6)  On the basis of an advance MIPR, the acquiring department may take the initial steps toward awarding a contract, such as obtaining internal coordination and preparing an acquisition plan.  Acquiring departments may determine the extent of these initial actions but must not award contracts on the basis of advance MIPRs.
+
+PGI 208.7004-4  Cutoff dates for submission of Category II MIPRs.
+
+	(1)  Unless otherwise agreed between the departments, May 31 is the cutoff date for the receipt of MIPRs citing expiring appropriations which must be obligated by September 30 of that fiscal year.  If circumstances arise that require the submission of MIPRs citing expiring appropriations after the cutoff date, the requiring department will communicate with the acquiring department before submission to find out whether the acquiring department can execute a contract or otherwise obligate the funds by the end of the fiscal year.  Acquiring departments will make every effort to obligate funds for all such MIPRs accepted after the cutoff date.  However, acceptance of a late MIPR does not constitute assurance by the acquiring department that all such funds will be obligated.
+
+	(2)  Nothing in these instructions is intended to restrict the processing of MIPRs when the acquiring department is capable of executing contracts or otherwise obligating funds before the end of the fiscal year.
+
+	(3)  The May 31 cutoff date does not apply to MIPRs citing continuing appropriations.
+
+PGI 208.7004-5  Notification of inability to obligate on Category II MIPRs.
+
+On August 1, the acquiring department will advise the requiring department of any Category II MIPRs on hand citing expiring appropriations it will be unable to obligate prior to the fund expiration date.  If an unforeseen situation develops after August 1 that will prevent execution of a contract, the acquiring department will notify the requiring department as quickly as possible and will return the MIPR.  The letter of transmittal returning the MIPR will authorize purchase by the requiring department and state the reason that the acquisition could not be accomplished.
+
+PGI 208.7004-6  Cancellation of requirements.
+
+	(1)  Category I MIPRs.  The requiring department will notify the acquiring department by electronic or other immediate means when cancelling all or part of the supplies or services requested in the MIPR.  Within 30 days, the acquiring department will notify the requiring department of the quantity of items available for termination and the amount of funds in excess of the estimated settlement costs.  Upon receipt of this information, the requiring department will issue a MIPR amendment to reduce the quantities and funds accordingly.
+
+	(2)  Category II MIPRs.  The requiring department will notify the acquiring department electronically or by other immediate means when cancelling all or any part of the supplies or services requested in the MIPR.
+
+		(i)  If the acquiring department has not entered into a contract for the supplies or services to be cancelled, the acquiring department will immediately notify the requiring department.  Upon receipt of such notification, the requiring department must initiate a MIPR amendment to revoke the estimated amount shown on the original MIPR for the cancelled items.
+
+		(ii)  If the items to be cancelled have already been placed under contract-
+
+			(A)  As soon as practicable, but in no event more than 45 days after receipt of the cancellation notice from the requiring department, the contracting officer must issue a termination data letter to the requiring department (original and four copies) containing, as a minimum, the information in Table 8-1, Termination Data Letter.
+
+			(B)  The termination contracting officer (TCO) will review the proceedings at least every 60 days to reassess the Government's probable obligation.  If any additional funds are excess to the probable settlement requirements, or if it appears that previous release of excess funds will result in a shortage of the amount that will be required for settlement, the TCO will promptly notify the contracting office which will amend the termination data letter.  The requiring department will process a MIPR amendment to reflect the reinstatement of funds within 30 days after receiving the amended termination data letter.
+
+			(C)  Upon receipt of a copy of the termination settlement agreement, the requiring department will prepare a MIPR amendment, if required, to remove any remaining excess funds.
+
+TABLE 8-1, TERMINATION DATA LETTERSUBJECT:Termination Data Re:Contract No. ___________________________ Termination No. ________________________ 
+Contract _______________________________	(a)  As termination action is now in progress on the above contract, the following information is submitted:
+
+		(1)  Brief Description of items terminated.
+
+		(2)  You are notified that the sum of $________ is available for release under the subject contract.  This sum represents the difference between $________, the value of items terminated under the contract, and $________, estimated to be required for settlement of the terminated contract.  The estimated amount available for release is allocated by the appropriations cited on the contract as follows:
+
+MIPR NO.________ ACCOUNTING CLASSIFICATION________ AMOUNT________
+Total available for release at this time $________
+
+	(b)  Request you forward an amendment to MIPR ________ on DD Form 448-2 to reflect the reduced quantity and amount of funds available for release.
+
+	(c)  Periodic reviews (not less than 60 days) will be made as termination proceedings progress to redetermine the Government's probable obligation.
+______________________
+Contracting Officer
+PGI 208.7004-7  Termination for default.
+
+	(1)  When the acquiring department terminates a contract for default, it will ask the requiring department if the supplies or services to be terminated are still required so that repurchase action can be started.
+
+	(2)  The requiring department will not deobligate funds on a contract terminated for default until receipt of a settlement modification or other written evidence from the acquiring department authorizing release of funds.
+
+	(3)  On the repurchase action, the acquiring department will not exceed the unliquidated funds on the defaulted contract without receiving additional funds from the requiring department.
+
+PGI 208.7004-8  Transportation funding.
+
+The requiring department will advise the acquiring department or the transportation officer in the contract administration office of the fund account to be charged for transportation costs.  The requiring department may cite the fund account on each MIPR or provide the funding cite to the transportation officer at the beginning of each fiscal year for use on Government bills of lading.  When issuing a Government bill of lading, show the requiring department as the department to be billed and cite the appropriate fund account.
+
+PGI 208.7004-9  Status reporting.
+
+	(1)  The acquiring department will maintain a system of MIPR follow-up to inform the requiring department of the current status of its requests.  In addition, the contract administration office will maintain a system of follow-up in order to advise the acquiring department on contract performance.
+
+	(2)  If requested by the requiring department, the acquiring department will furnish the requiring department a copy of the solicitation when the MIPR is satisfied through Category II funding.
+
+	(3)  Any reimbursement billings, shipping document, contractual documents, project orders, or related documentation furnished to the requiring department will identify the requiring department's MIPR number, quantities of items, and funding information.
+
+PGI 208.7004-10  Administrative costs.
+
+	The acquiring department bears the administrative costs of acquiring supplies for the requiring department.  However, when an acquisition responsibility is transferred to another department, funds appropriated or to be appropriated for administrative costs will transfer to the successor acquiring department.  The new acquiring department must assume budget cognizance as soon as possible.
+
+PGI 208.71-ACQUISITION FOR NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA)
+
+PGI 208.7102  Procedures.
+
+PGI 208.7102-1  General.
+
+	(1)  Departments and agencies must not claim reimbursement for administrative costs incident to acquisitions for NASA, unless agreed otherwise prior to the time the services are performed.
+
+	(2)  When contracting or performing field service functions for NASA, departments and agencies-
+
+		(i)  Will use their own methods, except when otherwise required by the terms of the agreement; and
+
+		(ii)  Normally will use their own funds and will not cite NASA funds on any defense obligation or payment document.
+
+PGI 208.7102-2  Purchase request and acceptance.
+
+	(1)  NASA will use NASA Form 523, NASA-Defense Purchase Request, to request acquisition of supplies or services.
+
+	(2)  Except as provided in paragraph (4) of this subsection, departments and agencies will respond within 30 days to a NASA purchase request by forwarding DD Form 448-2, Acceptance of MIPR.  Forward each DD Form 448-2 in quadruplicate and indicate action status as well as the name and address of the DoD acquisition activity for future use by the NASA initiator.
+
+	(3)  To the extent feasible, all documents related to the NASA action will reference the NASA-Defense Purchase Request number and the item number when appropriate.
+
+	(4)  Departments and agencies are not required to accept NASA-Defense Purchase Requests for common-use standard stock items that the supplying department has on hand or on order for prompt delivery at published prices.
+
+PGI 208.7102-3  Changes in estimated total prices.
+When a department or agency determines that the estimated total price (Block 6F, NASA Form 523) for NASA items is not sufficient to cover the required reimbursement, or is in excess of the amount required, the department/agency will forward a request for amendment to the NASA originating office.  Indicate in the request a specific dollar amount, rather than a percentage, and include justification for any upward adjustment requested.  Upon approval of a request, NASA will forward an amendment of its purchase request to the contracting activity.
+
+PGI 208.7102-4  Payments.
+Departments and agencies will submit SF 1080, Voucher for Transferring Funds, billings to the NASA office designated in Block 9 of the NASA-Defense Purchase Request, except where agreements provide that reimbursement is not required.  Departments and agencies will support billings in the same manner as billings between departments and agencies.
+
+
+PGI 208.73-USE OF GOVERNMENT-OWNED PRECIOUS METALS
+
+	a)  Definitions.
+
+As used in this subpart-
+
+	"Defense Supply Center, Philadelphia (DSCP)" means the Defense Logistics Agency field activity located at 700 Robbins Avenue, Philadelphia, PA  19111-5096, which is the assigned commodity integrated material manager for refined precious metals and is responsible for the storage and issue of such material.
+
+	"Dual pricing evaluation procedure" means a procedure where offerors submit two prices for precious metals bearing items--one based on Government-furnished precious metals and one based on contractor-furnished precious metals.  The contracting officer evaluates the prices to determine which is in the Government's best interest.
+
+	"Precious Metals Indicator Code (PMIC)" means a single-digit, alpha-numeric code assigned to national stock numbered items in the Defense Integrated Data System Total Item Record used to indicate the presence or absence of precious metals in the item.  PMICs and the content value of corresponding items are listed in DoD 4100.39-M, Federal Logistics Information System (FLIS) Procedures Manual, Volume 10, Chapter 4, Table 160.
+
+	"Refined precious metal" means recovered silver, gold, platinum, palladium, iridium, rhodium, or ruthenium, in bullion, granulation or sponge form, which has been purified to at least .999 percentage of fineness.
+
+	b)  Policy.
+DoD policy is for maximum participation in the Precious Metals Recovery Program.  DoD components must furnish recovered precious metals contained in the DSCP inventory to production contractors rather than use contractor-furnished precious metals whenever the contracting officer determines it to be in the Government's best interest.
+
+	c)  Procedures.
+
+	(1)  Item managers and contracting officers will use the PMIC and/or other relevant data furnished with a purchase request to determine the applicability of this subpart.
+
+	(2)  When an offeror advises of a precious metals requirement, the contracting officer must use the procedures in Chapter 11 of DoD 4160.21-M, Defense Materiel Disposition Manual, to determine availability of required precious metal assets and current Government-furnished materiel (GFM) unit prices.  If the precious metals are available, the contracting officer must evaluate offers and award the contract on the basis of the offer that is in the best interest of the Government.
+
+	(3)  When the clause prescribed by DFARS 208.7305 is included in a solicitation, the contracting officer must ensure that Section B, Schedule of Supplies or Services and Prices, is structured to-
+
+		(i)  Permit insertion of alternate prices for each deliverable contract line item number that uses precious metals; and
+
+		(ii)  Use dual pricing evaluation procedures.
+
+	d)  Refined precious metals.
+
+	The following refined precious metals are currently managed by DSCP:
+
+Precious MetalNational Stock Number (NSN)Gold9660-00-042-7733Silver9660-00-106-9432Platinum Granules9660-00-042-7768Platinum Sponge9660-00-151-4050Palladium Granules9660-00-042-7765Palladium Sponge9660-01-039-0320Rhodium 9660-01-010-2625Iridium 9660-00-011-1937Ruthenium9660-01-039-0313
+
+PGI 208.74-ENTERPRISE SOFTWARE AGREEMENTS
+
+PGI 208.7401  Definitions.
+
+	As used in this subpart-
+
+	"Golden Disk" means a purchased license or entitlement to distribute an unlimited or bulk number of copies of software throughout DoD.
+
+	"Software product manager" means the Government official who manages an enterprise software agreement.
+
+PGI 208.7403  Acquisition procedures.
+
+	(1)  After requirements are determined, the requiring official must review the information at the ESI website to determine if the required commercial software or related services are available from DoD inventory (e.g., Golden Disks and DoD-wide software maintenance agreements).  If the software or services are available, the requiring official must fulfill the requirement from the DoD inventory.
+
+	(2)  If the required commercial software or related services are not in the DoD inventory, and not on an ESA, the contracting officer or requiring official may fulfill the requirement by other means.  Existing ESAs are listed on the ESI website.
+
+	(3)  If the commercial software or related services are on an ESA, the contracting officer or requiring official must review the terms and conditions and prices in accordance with otherwise applicable source selection requirements.
+
+	(4)  If an ESA's terms and conditions and prices represent the best value to the Government, the contracting officer or requiring official must fulfill the requirement for software or services through the ESA.
+
+	(5)  If existing ESAs do not represent the best value to the Government, the software product manager (SPM) must be given an opportunity to provide the same or a better value to the Government under the ESAs before the contracting officer or requiring official may continue with alternate acquisition methods.
+
+		(i)  The contracting officer or requiring official must notify the SPM of specific concerns about existing ESA terms and conditions or prices through the ESI webpage.
+
+		(ii)  The SPM must consider adjusting, within the scope of the ESA, terms and conditions or prices to provide the best value to the customer.
+
+			(A)  Within 3 working days, the SPM must-
+
+				(1)  Update the ESA;
+
+				(2)  Provide an estimated date by which the update will be accomplished; or
+
+				(3)  Inform the contracting officer or requiring official that no change will be made to the ESA.
+
+			(B)  If the SPM informs the contracting officer or requiring official that no change will be made to the ESA terms and conditions or prices, the contracting officer or requiring official may fulfill the requirement by other means.
+
+			(C)  If the SPM does not respond within 3 working days or does not plan to adjust the ESA within 90 days, the contracting officer or requiring official may fulfill the requirement by other means.
+
+		(iii)  A management official designated by the department or agency may waive the requirement to obtain commercial software or related services through an ESA after the steps in paragraphs (5)(i) and (5)(ii)(A) of this section are complete.  The rationale for use of an alternate source must be included in the waiver request and must be provided to the SPM.
+
+
+PGI 251-[RESERVED]
+Attachment A2
+DARS Tracking Number: 2026-O0049
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 8
+Defense FAR Supplement (DFARS) Part 208
+
+
+Page 33 of 43
+

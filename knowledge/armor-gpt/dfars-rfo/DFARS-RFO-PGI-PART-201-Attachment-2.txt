@@ -1,0 +1,290 @@
+PGI 201-FEDERAL ACQUISITION REGULATIONS SYSTEM
+
+PGI 201.1-FRAMEWORK
+
+PGI 201.101-70  Maintenance of the FAR, DFARS, and PGI.
+
+	(a)  DoD Instruction 5000.35, Defense Acquisition Regulations (DAR) System prescribes the composition and operation of the DAR Council.
+
+	(b)(1)  Departments and agencies process proposed revisions of FAR or DFARS through channels to the Director of the DAR Council.  Process the proposed revision as a memorandum in the following format, addressed to the Director, DAR Council via email at osd.pentagon.ousd-a-s.mbx.dfars@mail.mil.
+
+			I.  PROBLEM:  Succinctly state the problem created by current FAR and/or DFARS coverage and describe the factual and/or legal reasons necessitating the change to the regulation.
+
+			II.  RECOMMENDATION:  Identify the FAR and/or DFARS citations to be revised.  Attach as TAB A a copy of the existing coverage, conformed to include the proposed additions and deletions.  Indicate deleted coverage by using strikethrough to mark the current words being deleted, and insert proposed language in brackets at the appropriate locations within the existing coverage.
+
+			III.  DISCUSSION:  Include a complete, convincing explanation of why the change is necessary and how the recommended revision will solve the problem.  Address advantages and disadvantages of the proposed revision, as well as any cost or administrative impact on Government activities and contractors.  Identify any potential impact of the change on automated systems, e.g., automated financial and procurement systems.  Provide any other background information that would be helpful in explaining the issue.
+
+			IV.  COLLATERALS:  Address the need for public comment (FAR 1.201(b)), the Paperwork Reduction Act, and the Regulatory Flexibility Act (FAR 1.201(b)(2)).
+
+			V.  DEVIATIONS:  If a recommended DFARS revision is a deviation from the FAR, identify the deviation and include under separate TAB a justification for the deviation that addresses the requirements of DFARS 201.302(2).  The justification should be in the form of a memorandum for the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, Office of the Under Secretary of Defense (Acquisition and Sustainment) (USD(A&S)).
+
+		(ii)  The public may offer proposed revisions of FAR or DFARS by submission of a memorandum, in the format (including all of the information) prescribed in paragraph (b)(1) of this section, to the Director of the DAR Council.
+
+	(c)  The DAR Council is also responsible for maintenance of the DFARS Procedures, Guidance, and Information (PGI).
+
+PGI 201.105  OMB approval under the Paperwork Reduction Act.
+The information collection and recordkeeping requirements contained in the DFARS and PGI have been approved by the Office of Management and Budget.  The following OMB control numbers apply:
+
+DFARS SegmentOMB Control No.215.403-50704-0497217.7004(a)0704-0214217.7404-3(b)0704-0214217.7505(d)0704-0214231.205-180704-0483232.100704-0359239.74080704-0341242.11060704-0250252.204-70000704-0225252.204-70080704-0478252.204-70100704-0454252.204-70120704-0478252.204-70230704-0519252.205-70000704-0286252.208-70000704-0187252.209-70010704-0187252.209-70020704-0187252.209-70040704-0187252.209-70080704-0477252.215-70020704-0232252.215-70080704-0574252.215-70100704-0574252.216-70000704-0259252.216-70010704-0259252.216-70030704-0259252.217-70120704-0214252.217-70260704-0214252.217-70280704-0214252.219-70030704-0386252.223-70010704-0272252.223-70020704-0272252.223-70030704-0272252.223-70040704-0272252.223-70070704-0272252.225-70000704-0229252.225-70030704-0229252.225-70040704-0229252.225-70050704-0229252.225-70100704-0229252.225-70130704-0229252.225-70180704-0229252.225-70200704-0229252.225-70210704-0229252.225-70230704-0229252.225-70250704-0229252.225-70320704-0229252.225-70330704-0229252.225-70350704-0229252.225-70390704-0549252.225-70400704-0460252.225-70460704-0229252.225-70490704-0525252.225-70500704-0187252.225-70570750-0005252.225-70580750-0005252.227-70130704-0369252.227-70140704-0369252.227-70170704-0369252.227-70180704-0369252.227-70190704-0369252.227-70250704-0369252.227-70280704-0369252.227-70370704-0369252.228-70000704-0216252.228-70050704-0216252.228-70060704-0216252.229-70100704-0390252.232-70020704-0321252.232-70070704-0359252.234-70020704-0479252.235-70000704-0187252.235-70010704-0187252.235-70030704-0187252.236-70000704-0255252.236-70020704-0255252.236-70030704-0255252.236-70040704-0255252.236-70100704-0255252.236-70120704-0255252.237-70000704-0231252.237-70110704-0231252.237-70230704-0231252.237-70240704-0231252.239-70000704-0341252.239-70090704-0478252.239-70100704-0478252.242-70040704-0250252.243-70020704-0397252.244-70010704-0253252.245-70030704-0246252.245-70050704-0246252.246-70030704-0441252.246-70050704-0441252.246-70060704-0441252.246-70080704-0441252.247-70000704-0245252.247-70010704-0245252.247-70020704-0245252.247-70070704-0245252.247-70220704-0245252.247-70230704-0245252.247-70260704-0245252.247-70280704-0245252.249-70020704-0533252.251-70000704-0252252.270-70020750-0012Appendix F0704-0248Appendix I0704-0332DD Form 16390704-0246DD Form 16590704-0245DD Form 20630704-0231DD Form 21390704-0229DD Form 2500704-0248DD Form 250-10704-0248
+PGI 201.108  Statutory acquisition-related dollar thresholds-adjustment for inflation.
+The matrix showing the most recent escalation adjustments of statutory acquisition-related dollar thresholds in the DFARS is available at https://www.acq.osd.mil/dpap/dars/pgi/docs/2024-D002_(f)_Threshold_Matrix_APR_25_CPI_7.30.2025.xls. 
+
+PGI 201.170  Peer reviews.
+
+	(a)  Defense Pricing, Contracting, and Acquisition Policy peer reviews.
+
+		(1)  The Office of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (DPCAP), using the procedures in this section, will organize teams of reviewers and facilitate peer reviews for solicitations and contracts as follows:
+
+			(i)  DPCAP will conduct the preaward peer reviews for competitive procurements prior to the three phases of the acquisition (see PGI 201.170-2(a)) for all procurements with an estimated value of $1 billion or more under major defense acquisition programs for which USD(A&S) is the milestone decision authority or USD(A&S) designates as requiring a peer review regardless of value.  DoD components may request DPCAP-led peer reviews for acquisitions valued below the $1 billion threshold.  DPCAP will conduct these reviews upon approval by the Director, DPCAP (Contract Policy).
+
+			(ii)  DPCAP will conduct the preaward peer reviews for noncompetitive procurements prior to the two phases of the acquisition (see PGI 201.170-2(b)) for contract actions, e.g., new contracts, modifications to existing contracts, requests for equitable adjustment, claims valued at $1 billion or more, or for any other contract action USD(A&S) designates as requiring a peer review regardless of value.  DoD components may request DPCAP-led peer reviews for contract actions valued below the $1 billion threshold.  DPCAP will conduct these reviews upon approval by the Director, DPCAP (Price, Cost and Finance).
+
+			(iii)  Use the following criteria to identify actions that are subject to peer review:
+
+				(A)  If the not-to-exceed amount for an undefinitized contract action or an unpriced change order exceeds the peer review threshold, then the resulting definitization modification(s) will be subject to peer review regardless of actual performance up to the point of definitization.
+
+				(B)  For indefinite-delivery indefinite-quantity (IDIQ) contracts that will establish pricing terms that apply to orders, use the total maximum dollar value for purposes of the peer review threshold.  IDIQ contracts that will not establish pricing terms in the basic contract are not subject to peer review, but individual orders that exceed the threshold are subject to peer review.
+
+				(C)  For noncompetitive contract actions, use the greater of the following when considering the firm requirement for all supplies or services:
+
+					(1)  The approved Government objective amount.
+
+					(2)  The contractor proposed amount.
+
+		(2)  To facilitate planning for peer reviews, the military departments and defense agencies must provide a rolling annual forecast of acquisitions that will be subject to DPCAP peer reviews at the end of each quarter (i.e., March 31; June 30; September 30; December 31).
+
+			(i)  Military departments and defense agencies must submit quarterly forecasts for competitive peer reviews to the Director, DPCAP (Contract Policy), at osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil.
+
+			(ii)  Military departments and defense agencies must submit quarterly forecasts for noncompetitive peer reviews to the Director, DPCAP (Price, Cost and Finance), at osd.pentagon.ousd-a-s.mbx.dpc-pcf-peer-reviews@mail.mil.
+
+	(b)  Component peer reviews.  The military departments and defense agencies must establish procedures for-
+
+		(1)  Preaward peer reviews of solicitations for competitive procurements not subject to paragraph (a)(1)(i) of this section; and
+
+		(2)  Preaward peer reviews of noncompetitive procurements not subject to paragraph (a)(1)(ii) of this section.
+
+	(c)  DoD components may request a DPCAP-led peer review for procurements that would not otherwise require a DPCAP-led peer review.
+
+	(d)  Military departments and defense agencies must, on or about June 30 and December 31 of each year, submit recommended best practices and lessons learned from competitive acquisition peer reviews under major defense acquisition programs to osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil.  Submissions that have broad applicability may be selected for posting at https://www.acq.osd.mil/asda/dpc/cp/policy/competitive-source-selection.html.
+
+PGI 201.170-1  Objectives of peer reviews.
+
+The objectives of peer reviews are to-
+
+	(a)  Ensure that DoD contracting officers are implementing policy and regulations in a consistent and appropriate manner;
+
+	(b)  Continue to improve the quality of contracting processes throughout DoD; and
+
+	(c)  Facilitate cross-sharing of best practices and lessons learned throughout DoD.  DPCAP maintains a compilation of peer review lessons learned and best practices that is available at https://www.acq.osd.mil/asda/dpc/cp/policy/peer-reviews.html for competitive peer reviews and at https://www.acq.osd.mil/asda/dpc/pcf/ss-peer-reviews.html for noncompetitive peer reviews.
+
+PGI 201.170-2  Preaward peer reviews.
+
+	(a)  Preaward peer reviews for competitive acquisitions must be conducted prior to each of the following three phases of the acquisition:
+
+		(1)  Issuance of the solicitation.
+
+		(2)  Request for final proposal revisions (if applicable).
+
+		(3)  Contract award.
+
+	(b)  Preaward peer reviews for noncompetitive acquisitions must be conducted prior to each of the following two phases of the acquisition:
+
+		(1)  Negotiation.
+
+		(2)  Contract award.
+
+PGI 201.170-3  Administration of peer reviews.
+
+	(a)  The results and recommendations that are products of peer reviews are intended to be advisory in nature; however, in the event the peer review report includes a recommendation that is identified as "significant" and the contracting officer does not intend to follow that recommendation, the senior procurement official of the contracting activity for the reviewed organization must be made aware of this fact before action is taken (or inaction, as applicable) that is contrary to the recommendation.  Reviews will be conducted in a manner that preserves the authority, judgment, and discretion of the contracting officer and the senior officials of the requiring activity.
+
+	(b)  Peer review teams should be comprised of senior contracting officials and attorneys as appropriate.  Teams may include civilian employees or military personnel external to the department, agency, or component that is the subject of the peer review.
+
+	(c)  Reviews are generally conducted remotely.  However, a peer review may be conducted at the location of the executing contracting organization when appropriate.
+
+	(d)  See paragraph (g) of this section for a list of the documents that must be made available to the competitive peer review team, along with the specific elements the team will examine.  See paragraph (h) of this section for a list of the documents that must be made available to the noncompetitive peer review team, along with a link to the noncompetitive peer review preparation resource.
+
+	(e)  The review team observations and recommendations will be communicated to the contracting officer and the senior procurement official immediately upon completion of a review.
+
+	(f)  The contracting officer must document the disposition of all peer review recommendations (i.e., state whether the recommendation will be followed and, if not, why not) as a signed memorandum for the record in the applicable contract file.  For competitive acquisitions, the contracting officer must submit this memorandum to osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil prior to the next phase peer review or prior to contract award for phase 3 reviews.  For noncompetitive acquisitions, the contracting officer must submit this memorandum to osd.pentagon.ousd-a-s.mbx.dpc-pcf-peer-reviews@mail.mil prior to the phase 2 peer review or prior to contract award for phase 2 reviews.
+
+	(g)  Required documents and elements for competitive acquisition preaward peer review.  Submit any required peer review documents to osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil.
+
+		(1)  Required documents.  At a minimum, peer review teams must have access to the following documents, as applicable, at least 5 business days prior to the scheduled date of a peer review:
+
+			(i)  The most recent acquisition decision memorandum for the program.
+
+			(ii)  The acquisition strategy, or acquisition plan.
+
+			(iii)  The source selection plan.
+
+			(iv)  The draft for phase 1 or final request for proposals (RFP) and all amendments, with a synopsis of what, if any, RFP requirements (technical and contractual) were changed and why.
+
+			(v)  The source selection evaluation board (SSEB) analysis and findings to ensure the evaluation of offers was consistent with the source selection plan and RFP criteria.
+
+			(vi)  Any meeting minutes memorializing discussions between the Government and offerors.
+
+			(vii)  All evaluation notices generated as a result of deficiencies in the offerors' proposals as well as the offerors' responses to those evaluation notices.
+
+			(viii)  All minutes memorializing the conduct of source selection advisory council (SSAC) deliberations held to date.
+
+			(ix)  The offerors' responses to the request for final proposal revision.
+
+			(x)  The final SSAC deliberation.
+
+			(xi)  The final source selection authority (SSA) determination and source selection decision.
+
+			(xii)  Award or incentive fee arrangements, documentation of any required head of the contracting activity determinations and findings regarding nonavailability of objective criteria.
+
+		(2)  Peer review teams may make recommendations on any aspect of the procurement, including the following:
+
+			(i)  The process was well understood by both Government and Industry.
+
+			(ii)  Source selection was carried out in accordance with the source selection plan and RFP.
+
+			(iii)  The SSEB evaluation was clearly documented.
+
+			(iv)  The SSAC advisory panel recommendation was clearly documented.
+
+			(v)  The SSA decision was clearly derived from the conduct of the source selection process.
+
+			(vi)  All source selection documentation is consistent with the Section M evaluation criteria.
+
+			(vii)  The business arrangement.
+
+	(h)  Required documents and preparation resource for noncompetitive acquisition preaward peer review.  Submit any required peer review documents to osd.pentagon.ousd-a-s.mbx.dpc-pcf-peer-reviews@mail.mil.
+
+		(1)  Required documents.  At a minimum, peer review teams must have access to the following documents, as applicable, at least 5 business days prior to the scheduled date of a peer review:
+
+			(i)  Preliminary price negotiation memorandum or business clearance for phase 1 or price negotiation memorandum or business clearance for phase 2, including all listed attachments.
+
+			(ii)  Summary documents to support a discussion of salient aspects of the acquisition, e.g., business/contract clearance charts.  Special charts do not need to be developed for the peer review.
+
+			(iii)  The anticipated or negotiated language of clauses affecting the price or the business arrangement, e.g., economic price adjustment, performance-based payments, incentive, award-fee, or award-term provisions, terms establishing price adjustment when using demand bands, reopener clauses, exchange rate clauses, or other clauses.
+
+			(iv)  Award-fee plan and documentation of any required head of the contracting activity determination and findings regarding nonavailability of objective criteria (see FAR 16.401(e)(1)).
+
+			(v)  Defense Contract Audit Agency audits and Defense Contract Management Agency technical and/or price analyses, upon request.
+
+			(vi)  The proposed performance-based payments schedule and Government analysis, if use of performance-based payments is contemplated.
+
+			(vii)  Any other documents deemed necessary by the review team.
+
+		(2)  Noncompetitive peer review preparation resource.  The noncompetitive peer review preparation resource is available at https://www.acq.osd.mil/asda/dpc/pcf/ss-peer-reviews.html.  The resource identifies frequently addressed areas of emphasis.  It is recommended that acquisition teams review these listed areas of interest in advance of releasing a request for proposal.
+
+PGI 201.2-AGENCY ACQUISITION REGULATIONS
+
+PGI 201.201  Policy.
+
+PGI 201.201-70  Numbering.
+
+	(a)  Text that supplements the FAR uses the same numbering as its FAR counterpart, with the number 70 and up added to the FAR part, subpart, or section number.  When the text exceeds one paragraph, the paragraphs use the FAR numbering sequence, which is (a)(1)(i)(A)(1)(i).  For example, DFARS text supplementing FAR 1.101 would be numbered 201.101-70.  The paragraphs in 201.101-70 would be (a), (b), and (c).
+
+	(b)  Text that implements the FAR uses the same numbering as its FAR counterpart.  However, when the text uses a different number of paragraphs than the FAR, the text uses supplemental numbering.
+
+
+	(c)  Paragraph numbering below the 4th level (i.e., (A)) does not repeat the numbering sequence.  It uses italicized Arabic numerals (e.g., 1) at the 5th level and then italicized lower case Roman numerals (e.g., i) at the final level.
+
+	(d)  Examples of DFARS numbering are in Table 1, DFARS Numbering.
+
+	(e)  Department, agency, and component supplements must parallel the FAR and DFARS numbering, except department and agency supplemental numbering uses section numbers of 90 and up, instead of 70 and up.
+
+
+TABLE 1, DFARS NUMBERINGFARIs Implemented AsIs Supplemented As19219219.7019.5219.5219.57019.501219.501219.501-7019.501-1219.501-1219.501-70 or 219.57019.501-1(a)219.501-1(a)219.501-70 or 219.57019.501-1(a)(1)219.501-1(a)(1)219.501-70 or 219.570
+201.201-71  Local solicitation provisions and contract clauses.
+
+	(a)  Contract clauses and solicitation provisions developed by departments and agencies (i.e., local clauses) that constitute a significant revision must be published for public comment in the Federal Register in accordance with DFARS 201.101.
+
+		(1)  A local clause is considered a significant revision if the clause-
+
+			(i)  Contains a new certification requirement for contractors or offerors that is not imposed by statute (see FAR 1.106 and DFARS 201.106);
+
+			(ii)  Constitutes a deviation (as defined at FAR 1.3) from the parts and subparts identified at DFARS 201.302; or
+
+			(iii)  Will be used on a repetitive basis and-
+
+				(A)  Imposes a new requirement for the collection of information from 10 or more members of the public (see FAR 1.105); or
+
+				(B)  Has any cost or administrative impact on contractors or offerors beyond that contained in the FAR or DFARS.
+
+		(2)  A local clause is not considered a significant revision, if the clause-
+
+			(i)  Is for a one-time use intended to meet the needs of an individual acquisition (e.g., a clause developed as a result of negotiations and documented in the business clearance or similar document), except for clauses that constitute a deviation (as defined at FAR 1.301) from the parts and subparts identified at DFARS 201.302; or
+
+			(ii)  May be used on a repetitive basis and has no new or additional cost or administrative impact on contractors or offerors beyond any cost or administrative impact contained in existing FAR or DFARS coverage.
+
+PGI 201.270  Agency control and compliance procedures.
+
+	(a)  Agencies must control the use of clauses or provisions other than those prescribed by the FAR or DFARS (i.e., local clauses) and shall include procedures to ensure that a local clause-
+
+		(1)  Is evaluated to determine whether the local clause constitutes a significant revision;
+
+		(2)  Is numbered in accordance with FAR 52.1 and DFARS 252.1 (see 252.103);
+
+		(3)  Is accompanied by a prescription in the appropriate part and subpart of the department or agency FAR supplement where the subject matter of the clause receives its primary treatment;
+
+		(4)  If it constitutes a significant revision-
+
+			(i)  Is published for public comment in the Federal Register in accordance with FAR 1.201 and DFARS 201.201;
+
+			(ii)  Complies with the Paperwork Reduction Act 1980 (44 USC chapter 35), in accordance with FAR 1.105 and 1.301; and
+
+			(iii)  Complies with the Regulatory Flexibility Act (5 U.S.C. 601, et seq.), in accordance with FAR 1.301; and
+
+		(5)  When Federal Register publication is required for any policy, procedure, clause, or form, the department or agency requesting Under Secretary of Defense (Acquisition and Sustainment) approval for use of the policy, procedure, clause, or form must include an analysis of the public comments in the request for approval.  
+
+PGI 201.4-CAREER DEVELOPMENT, CONTRACTING AUTHORITY, AND RESPONSIBILITIES
+
+PGI 201.404  Contracting officer's representative.
+
+PGI 201.404-70  Roles and responsibilities.
+
+Contracting officers must inform all individuals performing on their behalf of their delegated roles and responsibilities and the relationships among the parties.
+
+	(a)  When designating Department of State personnel as a contracting officer's representative (COR for contracts executed by DoD in support of Department of State in Iraq), follow the procedures in the Director, Defense Procurement and Acquisition Policy memorandum dated July 11, 2011, Contracting Officer's Representative Designation-Iraq.
+
+	(b)  DoD COR certification standards define minimum COR competencies, experience, and training requirements according to the nature and complexity of the requirement and contract performance risk.  These COR certification standards should be considered when developing service requirements, soliciting proposals, and performing surveillance during contract performance.  The DoD standards and policy are provided in DoD Instruction 5000.72, DoD Standard for Contracting Officer's Representative (COR) Certification.
+
+	(c)  Guidance on the appointment and duties of CORs is provided in the DoD COR Guidebook.
+
+	(d)  DoD components must use the Joint Appointment Module (JAM), within the Procurement Integrated Enterprise Environment (PIEE), to electronically track COR nominations, appointments, terminations, and training certifications for contracts assigned a COR.  Components must use the Surveillance and Performance Monitoring (SPM) Module, located in the PIEE, for all other contract surveillance actions.  Further guidance on the use of JAM and SPM Module is available at https://piee.eb.mil/piee-landing/.
+
+	(e)  A COR assists in the technical monitoring or administration of a contract.
+
+		(1)  Unless an exemption applies, contracting officers must designate a COR for all service contracts, including both firm-fixed-price and other than firm-fixed-price contracts, and supply contracts with cost-reimbursable line items awarded by a DoD component or by any other Federal agency on behalf of DoD within 3 business days of contract award.  The surveillance activities performed by CORs should be tailored to the dollar value and complexity of the specific contract for which they are designated.  For geographically dispersed large contracts with multiple task orders, contracting officers should consider appointing multiple or alternate CORs to assist with surveillance duties.  These CORs should have specific duties based on criteria, such as geographic region or distinct task areas, to avoid conflicting or duplicative direction.  Contracting officers may exempt service contracts from this requirement when-
+
+			(i)  The contract will be awarded using simplified acquisition procedures;
+
+			(ii)  The requirement is not complex; and 
+
+			(iii)  The contracting officer documents the file, in writing, with the specific reasons why the appointment of a COR is unnecessary.
+
+		(2)  For supply contracts with cost-reimbursement contracts line items, contracting officers must either retain or delegate surveillance activities to a COR or DCMA.  Contracting officers may delegate surveillance activities to both a COR and DCMA on the same contract.  However, contracting officers must not delegate the same surveillance activities to the COR and DCMA.
+
+		(3)  The contracting officer must ensure the written designation required by FAR 1.404(a)(1) is maintained in JAM or the SPM Module.
+
+	(f)  A COR must maintain an electronic COR Surveillance file in the SPM Module for each contract assigned.  This file must include, at a minimum-
+
+			(1)  A copy of the contracting officer's letter of designation and other documentation describing the COR's duties and responsibilities; and
+
+			(2)  Documentation of actions taken in accordance with the delegation of authority.
+
+	(g)  Contracting officers, must, at a minimum, review the COR's files within six months of contract award and annually thereafter, for accuracy and completeness.  More frequent reviews may be conducted in subsequent years based upon the risks, complexity, and value of the contract.  The results of the contracting officer's review must be documented in the SPM Module.
+
+	(h)  Within 30 days of completing the COR file review, contracting officers must-
+
+			(1)  Provide COR performance feedback to their supervisor; and
+
+			(2)  Discuss any performance inadequacies with the COR.
+
+	(i)  Prior to contract closeout, the COR will ensure the COR Surveillance files for the assigned contract are complete and available to the contracting officer.
+
+Attachment A2
+DARS Tracking Number: 2026-O0002
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 1
+Defense FAR Supplement (DFARS) Part 201
+
+
+
+Page 1 of 16
+
+

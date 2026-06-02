@@ -1,0 +1,269 @@
+
+PGI PART 227-PATENTS, DATA, AND COPYRIGHTS
+
+PGI 227.6-FOREIGN LICENSE AND TECHNICAL ASSISTANCE AGREEMENTS
+
+PGI 227.673  Foreign license and technical assistance agreements between the Government and domestic concerns.
+
+	(a)  Contracts between the Government and a primary source to provide technical assistance or patent rights to a second source for the manufacture of supplies or performance of services must, to the extent practicable, specify the rights in patents and data and any other rights to be supplied to the second source.  Each contract should provide, in connection with any separate agreement between the primary source and the second source for patent rights or technical assistance relating to the articles or services involved in the contract, that-
+
+		(1)  The primary source and its subcontractors shall not make, on account of any purchases by the Government or by others with funds derived through the Foreign Military Financing Program or otherwise through the Government, any charge to the second source for royalties or amortization for patents or inventions in which the Government holds a royalty-free license; or data which the Government has the right to possess, use, and disclose to others; or any technical assistance provided to the second source for which the Government has paid under a contract between the Government and the primary source; and
+
+		(2)  The separate agreement between the primary and second source shall include a statement referring to the contract between the Government and the primary source, and it must conform to the requirements of the International Traffic in Arms Regulations (see PGI 227.675-1).
+
+	(b)  Consider the following factors, among others, in negotiating the price to be paid the primary source under contracts within (a) of this section-
+
+		(1)  The actual cost of providing data, personnel, manufacturing aids, samples, spare parts, etc.;
+
+		(2)  The extent to which the Government has contributed to the development of the supplies or services, and to the methods of manufacture or performance, through past contracts for research and development or for manufacture of the supplies or performance of the services; and
+
+		(3)  The Government's patent rights and rights in data relating to the supplies or services and to the methods of manufacture or of performance.
+
+PGI 227.674  Supply contracts between the Government and a foreign government or concern.
+
+In negotiating contract prices with a second source, including the redetermination of contract prices, or in determining the allowability of costs under a cost-reimbursement contract with a second source-
+
+	(a)  Obtain from the second source a detailed statement for patent rights, rights in data, and other technical assistance provided to the second source, including identification and description of such patents, data, and technical assistance; and
+
+	(b)  Do not accept or allow charges which in effect are-
+
+		(1)  For royalties or amortization for patents or inventions in which the Government holds a royalty-free license; or
+
+		(2)  For data which the Government has a right to possess, use, and disclose to others; or
+
+		(3)  For any technical assistance provided to the second source for which the Government has paid under a contract between the Government and a primary source.
+
+PGI 227.675  Foreign license and technical assistance agreements between a domestic concern and a foreign government or concern.
+
+PGI 227.675-1  Statutes, regulation and guidance.
+
+See applicable export control regulations, policies, and guidance in the-
+
+	(a)  Arms Export Control Act (AECA) (22 U.S.C. Chapter 39); 
+
+	(b)  Export Control Reform Act of 2018 (ECRA), 50 U.S.C. 4801-4852; 
+
+	(c)  International Traffic in Arms Regulations (ITAR), 22 CFR Parts 120-130; 
+
+	(d)  Export Administration Regulations (EAR), 15 CFR Parts 730-774; 
+
+	(e)  DoDI 2040.02, International Transfers of Technology, Articles, and Services;
+
+	(f)  DoDI 5230.24, Distribution Statements on DoD Technical Information; and
+
+	(g)  DoDM 5105.38-M, Security Assistance Management Manual (SAMM).
+
+PGI 227.675-2  Review of agreements.
+
+	(a)  In reviewing foreign license and technical assistance agreements between primary and second sources, the Department concerned must, insofar as its interests are involved, indicate whether the agreement meets the requirements of sections 124.07-124.10 of the ITAR (see PGI 227.675-1) or in what respects the agreement is deficient. Paragraphs (b) through (g) of this subsection provide general guidance.
+
+	(b)  When the Government will likely purchase from the second source the supplies or services involved in the agreement, or that Foreign Military Financing Program funds will be provided for the procurement of the supplies or services, the following guidance applies:
+
+		(1)  If the agreement specifies a reduction in charges thereunder, with respect to purchases by or for the Government or by others with funds derived through the Foreign Military Financing Program or otherwise through the Government, in recognition of the Government's rights in patents and data, the Department, before indicating its approval, concerned should evaluate the amount of the reduction to determine whether the amount is fair and reasonable in the circumstances.
+
+		(2)  If the agreement does not specify any reduction in charges or otherwise fails to give recognition to the Government's rights in the patents or data involved, approval should be conditioned upon amendment of the agreement to reflect a reduction, evaluated by the Department concerned as acceptable to the Government, in any charge thereunder with respect to purchases made by or for the Government or by others with funds derived through the Foreign Military Financing Program or otherwise through the Government, in accordance with section 124.10 of the International Traffic in Arms Regulations.
+
+		(3)  If the agreement provides that no charge is to be made to the second source for data or patent rights to the extent of the Government's rights, the Department concerned should evaluate the acceptability of the provision before indicating its approval.
+
+		(4)  If circumstances do not permit the evaluation called for in (b) (1), (2), or (3) of this subsection, follow the guidance in (c) of this subsection.
+
+	(c)  When the Government will unlikely purchase from the second source the supplies or services involved in the agreement nor that Foreign Military Financing Program funds will be provided for the purchase of the supplies or services, then the following guidance applies:
+
+		(1)  If the agreement provides for charges to the second source for data or patent rights, fulfill the requirements of section 124.10 insofar as the Department of Defense is concerned if:
+
+			(i)  The agreement requires the second source to advise the primary source when the second source has knowledge of any purchase made or to be made from the second source by or for the Government or by others with funds derived through the Foreign Military Financing Program or otherwise through the Government;
+
+			(ii)  The primary source separately agrees with the Government that upon such advice to the primary source from the second source or from the Government or otherwise as to any such a purchase or prospective purchase, the primary source will negotiate with the Department concerned an appropriate reduction in its charges to the second source in recognition of any Government rights in patents or data; and
+
+			(iii)  The agreement between the primary and second sources further provides that in the event of any such purchase and resulting reduction in charges, the second source should pass on this reduction to the Government by giving the Government a corresponding reduction in the purchase price of the article or service.
+
+		(2)  If the agreement provides that no charge is to be made to the second source for data or patent rights to the extent to which the Government has rights, the Department concerned should-
+
+			(i)  Evaluate the acceptability of the provision before indicating its approval; or
+ 
+			(ii) Explicitly condition its approval on the right to evaluate the acceptability of the provision at a later time.
+
+	(d)  When there is a technical assistance agreement between the primary source and the Government related to the agreement between the primary and second sources that is under review, the latter agreement must reflect the arrangements contemplated with respect thereto by the Government's technical assistance agreement with the primary source.
+
+	(e)  Every agreement must provide that any license rights transferred under the agreement are subject to existing rights of the Government.
+
+	(f)(1)  In connection with every agreement referred to in (b) of this section, a request should be made to the primary source-
+
+			(i)  To identify the patents, data, and other technical assistance to be provided to the second source by the primary source or any of its subcontractors,
+
+		  	(ii)  To identify any such patents and data in which, to the knowledge of the primary source, the Government may have rights, and
+
+			(iii)  To segregate the charges made to the second source for each such category or item of patents, data, and other technical assistance.
+
+		(2)  Reviewing personnel should verify this information or, where the primary source does not furnish it, obtain such information from Governmental sources so far as practicable.
+
+	(g)  The Department concerned should make clear that its approval of any agreement does not necessarily recognize the propriety of the charges or the amounts thereof, nor constitute approval of any of the business arrangements in the agreement, unless the Department expressly intends by its approval to commit itself to the fairness and reasonableness of a particular charge or charges.  In any event, a disclaimer should be made to charges or business terms not affecting any purchase made by or for the Government or by others with funds derived through the Foreign Military Financing Program or otherwise through the Government.
+
+PGI 227.71-TECHNICAL DATA, COMPUTER SOFTWARE, COMPUTER SOFTWARE DOCUMENTATION, AND ASSOCIATED RIGHTS RELATED TO OTHER THAN COMMERCIAL PRODUCTS, COMPONENTS, SERVICES, PROCESSES, AND COMPUTER SOFTWARE
+
+
+PGI 227.7103-13   Government right to review, verify, challenge, and validate asserted restrictions.
+
+	(d)  Challenge and validation. 
+
+		(4) Challenge notice.  
+
+			(iii)  The challenge notice must include the information in paragraph (f) of the clause at 252.227-YYYY.
+
+
+PGI 227.7103-18  Acquisition of other than commercial technical data, computer software, and computer software documentation and associated rights.  
+
+	(a)  Applicable Guidance.  See DoDI 5010.44, Intellectual Property (IP) Acquisition and Licensing, sections 4.1 and 4.2, when formulating business advice and contract implementation strategies regarding the program manager's tailoring of technical data requirements to the needs of the Government.
+
+	(b)  Compliance with applicable policies.  Work closely with data managers and requirements personnel to ensure that technical data, computer software, and computer software documentation requirements included in solicitations are consistent with the policy expressed in 227.7103-1. 
+
+	(c)  Acquisition of technical data.  (1)(i)  Data managers or other requirements personnel are responsible for identifying the Government's life-cycle needs for technical data.  
+
+			(ii)  When establishing technical-data needs, requirements personnel must give consideration to- 
+
+				(A)  The offeror's economic interests in technical data pertaining to items, components, or processes that have been developed at private expense (including the economic interests of small businesses and nontraditional contractors); 
+
+				(B)  The Government's costs to acquire, maintain, store, retrieve, and protect the technical data; 
+
+		 		(C)  Reprocurement needs; 
+
+				(D)  Repair, maintenance, and overhaul philosophies; 
+
+				(E)  Spare and repair part considerations; and 
+
+				(F)  Whether procurement of the items, components, or processes can be accomplished on a form, fit, or function basis.  
+
+			(iii)  When the Government will likely obtain unlimited or government purpose rights in technical data necessary for competitive spare or repair parts procurements, such data should be identified as deliverable technical data items; and 
+
+			(iv)  The fact that reprocurement needs might not justify acquiring detailed manufacturing or process data when- 
+
+				(A)  Items or components can be acquired using performance specifications, form, fit, and function data; or 
+
+				(B)  When a sufficient number of alternate sources exist that will likely provide such items on a performance specification or form, fit, or function basis.
+
+		(2)  When reviewing offers received in response to a solicitation or other request for data, data managers should, as appropriate, balance the original assessment of the Government's data needs with data prices contained in the offer.
+
+	(d)  Acquisition of computer software and computer software documentation.  (1) (i)  Data managers or other requirements personnel are responsible for identifying the Government's life-cycle needs for computer software and computer software documentation. 
+
+			(ii)  To the maximum extent practicable, assessment of life-cycle needs should include consideration of periodic delivery of computer software and computer software documentation including all executable code, source code, associated scripts, build procedures, automation scripts, tools, databases, libraries, test results, data sets, firmware, training materials, and any other elements necessary to integrate, test and evaluate, debug, deploy, and operate the software application in all relevant environments (e.g., development, staging, production).  
+
+			(iii)  See DoDI 5010.44, Intellectual Property (IP) Acquisition and Licensing, sections 4.1 and 4.2, when formulating business advice and contract implementation strategies regarding the program manager's tailoring of software requirements to the needs of the Government. 
+
+			(iv)  In addition to desired software performance, compatibility, or other technical considerations, identification of life-cycle needs should include consideration of such factors as-
+
+				(A)  The offeror's economic interests in software that has been developed at private expense (including the economic interests of small businesses and nontraditional contractors);
+
+				(B)  The Government's costs to develop, acquire, maintain, store, retrieve, and protect the computer software and computer software documentation;
+
+				(C)  Multiple site or shared use requirements;
+
+				(D)  Whether the Government's software maintenance philosophy will require the right to modify or have third parties modify the software; and
+
+				(E)  Any special computer software documentation requirements.
+
+		(2) (i) Procurement planning.  The assessment of life-cycle needs should consider delivery timelines to facilitate transition to a different contractor or to the Government.  This approach facilitates management of program risk and supports options for flexibility in the transition of software sustainment to another organization.  Ensure that, wherever practicable, solicitations and contracts include the requirements for periodic delivery and any delivery timelines for computer software and computer software documentation, based upon the assessment of life-cycle needs.  To the maximum extent practicable, when assessing the life-cycle needs, data managers or other requirements personnel will address in the procurement planning and requirements documents (e.g., acquisition plans, purchase requests) the acquisition at appropriate times in the life cycle of all computer software, related recorded information, and associated license rights necessary to-
+
+				(A) Reproduce, build, or recompile the software from its source code and required software libraries (e.g., software libraries called, invoked, or linked by the computer software source code that are necessary for the operation of the software).  (Based on the results of the assessment of life-cycle needs, and to the maximum extent practicable, all software capability descriptions should accompany source code (e.g., features, story points, use cases) and all as-built architecture and design products, traceability products, interface definitions including interfaces to proprietary software elements, and any other requisite documentation.);
+
+				(B) Conduct required computer software testing and evaluation;
+
+				(C) Integrate and deploy computer programs on relevant hardware including developmental, operational, diagnostic, training, or simulation environments; and
+
+				(D) Sustain and support the software over its life cycle.
+
+			(ii) Alternatives to delivery of source code and related software design details. The assessment of life-cycle needs should consider alternatives to the delivery of source code and related software design details for privately developed computer software as necessary to meet the Government's needs, such as-
+
+				(A) Technical data and computer software sufficient to implement a modular open system approach or a similar approach. 
+
+					(1) In determining whether the Government should require delivery of computer software source code and related software design details developed exclusively or partially at private expense, data managers and other requirements personnel are responsible for considering whether these alternatives permit the Government to-
+
+						(i)  Acquire the amount of data needed to procure and support systems, material, and services in an economical manner based on a cost or price analysis;
+
+						(ii)  Meet its management, engineering, and logistics needs; and
+
+						(iii)  Maintain the currency of acquired technical data or software consistent with the assessment of life-cycle needs.
+
+					(2)  To the extent practicable, the Government should also require open interface documentation for any privately developed computer software used in or interoperable with software developed for the Government, to allow for technology insertion on all sides of the interface, as applicable, and to support the use of modular open system approaches;
+
+				(B) Access to technical data or computer software, including access agreements for cloud-based or subscription-based software products or services. 
+
+					(1)  Access agreements permit the Government to view, print, download, annotate, modify, or make derivatives of technical data or computer software stored within a contractor-controlled repository or facility (e.g., in an online environment or in person).  Examples of access arrangements include remote online authorization to access an integrated data environment, product data management system operated by the contractor, or mechanisms authorizing physical entry to a contractor-controlled data repository, or cloud-based or subscription-based software products or services.  The negotiated access agreement must stipulate permissions based on the assessment of life-cycle needs; make the access agreement part of the contract.
+
+					(2)  For each technical data or computer software requirement, the requiring activity should determine whether the Government's needs can be better satisfied through access or formal delivery of the technical data or software (e.g., physical or electronic transfer of the data into Government custody).  The Government should consider access to technical data or software when-
+
+						(i)  The delivery of technical data or software is not cost-effective or feasible for technical, legal, or contractual reasons; and
+
+						(ii)  Access meets the Government's needs for such technical data or software throughout the life-cycle of the program;
+
+				(C)  Software support and maintenance provided directly from the contractor; or
+
+				(D)  Other contracting or licensing mechanisms including priced options, specially negotiated licenses, direct licensing between contractors for qualifying second sources, data escrow agreements, deferred delivery solutions, and subscription agreements. 
+
+					(1)(i)  Under a data escrow agreement, the Government and the contractor identify a third-party escrow agent that will keep designated technical data or computer software for safekeeping until a contractually specified condition occurs.  
+
+						(ii)  If a contractually specified condition occurs, then the Government may obtain delivery of the escrowed technical data or computer software. 
+
+						(iii)  Include the data escrow agreement in the contract.  Include in the contract the Government's license rights in the escrowed technical data or computer software.  
+
+					(2)  Use of data escrow agreements is not preferable in all cases but may be useful when formal delivery or access is not feasible or cost-effective during the contract's period of performance or delivery schedule.
+
+		(3)  When reviewing offers received in response to a solicitation or other request for computer software or computer software documentation, data managers should, if appropriate, balance the original assessment of the Government's needs with prices offered.
+
+	(e)  Contract implementation of technical data and software requirements.  Ensure that, wherever practicable, solicitations and contracts-
+
+		(1)  Identify the type and quantity of the technical data to be delivered under the contract and the format and media in which the data will be delivered;
+
+		(2)  Identify the types of computer software and the quantity of computer programs and computer software documentation to be delivered, any requirements for multiple users at one site or multiple site licenses, and the format and media in which the software or documentation will be delivered;
+
+		(3)  Establish each type of data item, computer software, or computer software documentation to be delivered as a separate contract line item (this requirement may be satisfied by an exhibit to the contract);
+
+		(4)  Identify the prices established for each separately priced deliverable item of technical data, computer software, or computer software documentation under a fixed-price type contract;
+
+		(5)  Include delivery schedules and acceptance criteria for each deliverable item of technical data or computer software;
+
+		(6)  Specifically identify the place of delivery for each deliverable item of technical data or computer software; and
+
+		(7)  Specify in the negotiated terms that any required other than commercial computer software, related recorded information, and associated license rights identified in the assessment of life-cycle needs in paragraph (b) of this section must, to the extent appropriate-
+
+			(i)  Include computer software delivered in a digital format compatible with applicable computer programs on relevant system hardware;
+
+			(ii)  Not rely on additional internal or external other than commercial or commercial technical data and software, unless such technical data or software is-
+
+				(A)  Included in the items to be delivered with license rights sufficient to meet the Government's needs; or
+
+				(B)  Commercially available with license rights sufficient to meet the Government's needs; and
+
+			(iii)  Include sufficient information, with license rights sufficient to meet the Government's needs, to support maintenance and understanding of interfaces and software version history when the negotiated terms do not allow for the inclusion of the external or additional other than commercial or commercial technical data and software.
+
+PGI 227.7104  Contracts under the Small Business Innovation Research Program and Small Business Technology Transfer Program.
+
+PGI 227.7104-1  Policy.
+See section 4(c) of the Small Business Administration's Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) Program Policy Directive (effective May 3, 2023) for guidance on examples of SBIR/STTR phase III, which is available at https://www.sbir.gov/sites/default/files/SBA%20SBIR_STTR_POLICY_DIRECTIVE_May2023.pdf.
+
+
+PGI 227.7104-2  Rights in SBIR or STTR data.
+
+The clause under which the SBIR/STTR data were generated or developed will govern the Government's license rights in such SBIR/STTR data.  The following examples illustrate the definition of the SBIR/STTR data protection period and the applicability of the DFARS 252.227-7993 clause:
+
+	(1)  Redelivery of SBIR data.
+
+		(i)  SBIR data first generated under a prior SBIR clause and redelivered under the current SBIR clause.  In this example, a contractor generates and delivers SBIR data under a 2016 phase II SBIR contract that includes a prior version of the clause at DFARS 252.227-7993.  The contractor delivers identical data in a contiguous series of follow-on contracts, including a later phase III contract that is an extension of the research effort in the 2016 contract.  That phase III contract includes the current version of the clause at DFARS 252.227-7993.  The contractor asserts SBIR data rights in these data.  The 2016 contract included the clause at DFARS 252.227-7993, which defined the SBIR data protection period as the period commencing with contract award and ending upon the date 5 years after completion of the project from which such data were generated.  This previous definition of the SBIR data protection period applies to the redelivered SBIR data in the contiguous series of follow-on contracts, including the later phase III contract.  The SBIR data protection period is extended because the later contract derives from, extends, or completes an effort made under a prior SBIR contract that included the prior version of the clause at DFARS 252.227-7993.  This is the case even under later contracts that include the current version of the clause at DFARS 252.227-7993 with a non-extendable 20-year SBIR/STTR data protection period.  In addition, the SBIR data protection period from the prior version of the clause at DFARS 252.227-7993 may be extended indefinitely for subsequent redeliveries of identical SBIR data as long as the SBIR project has not been completed.
+
+		(ii)  SBIR data first delivered with the 20-year SBIR data protection period and later redelivered under the current SBIR clause.  In another example, a contractor generates and delivers SBIR data under a 2021 phase II SBIR contract.  The contractor delivers identical data under a later phase III contract that is an extension of the research effort in the 2021 contract.  The contractor asserts SBIR data rights in these data.  That 2021 contract included a version of the DFARS 252.227-7993 clause that defines the SBIR data protection period as the period commencing on the date of contract award and ending 20 years after that date.  The same definition of the SBIR/STTR data protection period applies to the redelivered SBIR data in the later phase III contract.  Redelivery of identical SBIR data under any later contract will not extend the 20-year SBIR data protection period.
+
+	(2)  Modifications to previously delivered SBIR or STTR data.  A contractor generates and delivers SBIR/STTR data under a phase II STTR contract with the current version of the clause at DFARS 252.227-7993.  The contractor develops and delivers modified STTR data under a later phase III contract.  The contractor asserts SBIR/STTR data rights in these data.  The previously delivered portions of the STTR data will be governed by the previous SBIR/STTR data protection period, while the newly developed portions of the STTR data will be governed by a new 20-year SBIR/STTR data protection period.
+
+	(3)  SBIR or STTR data delivered under a contract and the contractor was not awarded a SBIR or STTR contract.  A subcontractor was awarded a SBIR phase I contract.  Later, the subcontractor performed SBIR phase III work under a contract awarded to a contractor who was not awarded a SBIR or STTR contract.  The subcontractor furnished technical data and computer software deliverables related to SBIR phase III work performed under this contract.  This technical data and computer software was furnished to the Government with SBIR data rights.  The clause at DFARS 252.227-7993 should have been included either in the initial contract or via a contract modification, and the Government's rights in this SBIR data are subject to the terms of the clause at DFARS 252.227-7993.
+
+PGI 227.7106  Contracts for special works.
+
+	(c)  Examples of special works include, but are not limited, to audiovisual works,  scripts, soundtracks, musical compositions, and adaptations; histories of departments, agencies, services or units thereof; surveys of Government establishments; instructional works or guidance to Government officers and employees on the discharge of their official duties; reports, books, studies, surveys or similar documents; collections of data containing information pertaining to individuals that, if disclosed, would violate the right of privacy or publicity of the individuals to whom the information relates; or investigative reports.
+
+Attachment A2
+DARS Tracking Number: 2026-O0036
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 27
+Defense FAR Supplement (DFARS) Part 227
+
+
+Page 1 of 1
+

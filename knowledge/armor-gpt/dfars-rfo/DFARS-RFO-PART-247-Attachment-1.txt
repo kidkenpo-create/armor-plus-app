@@ -1,0 +1,967 @@
+
+PART 247-TRANSPORTATION
+
+247.001  [Reserved]
+
+SUBPART 247.1-GENERAL
+
+247.101  Policies.
+
+	(h)  Shipping documents covering f.o.b. origin shipments. 
+
+		(i)  Procedures for the contractor to obtain bills of lading are in the clause at 252.247-7028, Application for U.S. Government Shipping Documentation/Instructions.
+
+		(ii)  The term "commercial bills of lading" includes the use of any commercial form or procedure.
+
+
+SUBPART 247.2-CONTRACTS FOR TRANSPORTATION OR FOR TRANSPORTATION-RELATED SERVICES
+
+247.200  Scope of subpart.
+This subpart does not apply to the operation of vessels owned by, or bareboat chartered by, the Government.  See additional guidance at PGI 247.200 for procurement of transportation or related services.
+
+247.206  [Reserved]
+
+247.207  Solicitation provisions, contract clauses, and special requirements.
+
+	(1)  Insert the clause at 252.247-7003, Pass-Through of Motor Carrier Fuel Surcharge Adjustment to the Cost Bearer, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are for carriage in which a motor carrier, broker, or freight forwarder will provide or arrange truck transportation services that provide for a fuel-related adjustment.
+
+	(2)  Insert the clause at 252.247-7028, Application for U.S. Government Shipping Documentation/Instructions in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, when shipping under Bills of Lading and Domestic Route Order under FOB origin contracts, Export Traffic Release regardless of FOB terms, or foreign military sales shipments.
+
+247.270  Stevedoring contracts.
+
+247.270-1  [Reserved]
+
+247.270-2  Technical provisions.
+See PGI 247.270-2 for guidance regarding technical provisions of stevedoring contracts.
+
+247.270-3  Evaluation of bids and proposals.
+
+As a minimum, require that offers include-
+
+	(a)  Tonnage or commodity rates that apply to the bulk of the cargo worked under normal conditions;
+
+	(b)  Labor-hour rates that apply to services not covered by commodity rates, or to work performed under hardship conditions; and
+
+	(c)  Rates for equipment rental.
+
+247.270-4  Contract clauses.
+
+Insert the following clauses in solicitations and contracts for stevedoring services as indicated:
+
+	(a)  252.247-7000, Hardship Conditions.
+
+	(b)  252.247-7002, Revision of Prices, when using negotiation.
+
+	(c)  252.247-7007, Liability and Insurance.
+
+247.271  Contracts for the preparation of personal property for shipment or storage or for performance of intra-city or intra-area movement.
+
+247.271-1  Policy.
+
+When establishing maximum requirements-minimum capability- 
+
+		(1)  Establish realistic quantities on the Estimated Quantities Report in DoD 4500.9-R, Defense Transportation Regulation, Part IV;
+
+		(2)  Ensure that the Government's minimum acceptable daily capability-
+
+			(i)  Will at least equal the maximum authorized individual weight allowance as prescribed by the Joint Federal Travel Regulations; and
+
+			(ii)  Will encourage maximum participation of small business concerns as offerors.
+
+247.271-2  Procedures.
+Follow the procedures at PGI 247.271-2 for contracting for the preparation of personal property for shipment or storage.
+
+247.271-3  Solicitation provisions, schedule formats, and contract clauses.
+
+When acquiring services for the preparation of personal property for movement or storage, or for performance of intra-city or intra-area movement, use the following provisions, clauses, and schedules.  Revise solicitation provisions and schedules, as appropriate, if using negotiation rather than sealed bidding.  Overseas commands, except those in Alaska and Hawaii, may modify these clauses to conform to local practices, laws, and regulations.
+
+	(a)  In solicitations and resulting contracts, use the schedules provided by the installation personal property shipping office.  Follow the procedures at PGI 247.271-3(c).
+
+	(b)  In addition to designating each ordering activity, as required by the clause at FAR 52.216-18, Ordering, identify by name or position title the individuals authorized to place orders for each activity.
+
+	(c)  The clause at 252.247-7014, Demurrage.  See additional information at PGI 247.271-3(c)(1) for demurrage and detention charges.
+
+	(d)  The clause at 252.247-7016, Contractor Liability for Loss and Damage.
+
+	(e)  The clauses at FAR 52.247-8, Estimated Weight or Quantities Not Guaranteed, and FAR 52.247-13, Accessorial Services-Moving Contracts.
+
+247.272  Preparation of solicitations and contracts.
+
+Consider using the following as evaluation factors or subfactors:
+
+	(1)  Record of claims involving loss or damage; and
+
+	(2)  Commitment of transportation assets to readiness support (e.g., Civil Reserve Air Fleet and Voluntary Intermodal Sealift Agreement).
+
+SUBPART 247.3-TRANSPORTATION IN SUPPLY CONTRACTS
+
+247.301  General.
+See PGI 247.301 for transportation guidance relating to Government Purchase Card purchases.
+
+247.301-70  [Reserved]
+
+247.301-71  Evaluation factor or subfactor.
+For contracts that will include a significant requirement for transportation of items outside the contiguous United States, include an evaluation factor or subfactor that favors suppliers, third-party logistics providers, and integrated logistics managers that commit to using carriers that participate in one of the readiness programs (e.g., Civil Reserve Air Force Fleet and Voluntary Intermodal Sealift Agreement).
+
+247.305  Solicitation provisions, contract clauses, and transportation factors.
+
+247.305-10  Packing, marking, and consignment instructions.
+Follow the procedures at PGI 247.305-10 for preparation of consignment instructions.
+
+247.370  DD Form 1384, Transportation Control and Movement Document.
+See PGI 247.370 regarding DD Form 1384.
+
+247.371  DD Form 1653, Transportation Data for Solicitations.
+See PGI 247.371 regarding DD Form 1653.
+
+247.372  DD Form 1654, Evaluation of Transportation Cost Factors.
+See PGI 247.372 regarding DD form 1654.
+
+SUBPART 247.5-OCEAN TRANSPORTATION BY U.S.-FLAG VESSELS
+
+247.570  Scope.
+
+This subpart-
+
+	(a)  Implements-
+
+		(1)  The Military Cargo Preference Act of 1904 ("the 1904 Act"), 10 U.S.C. 2631, which applies to the ocean transportation of cargo owned by, destined for use by, or otherwise transported by DoD;
+
+		(2)  Section 1017 of the National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2007 (Pub. L. 109-364) (10 U.S.C. 2631 note), which requires consideration, in solicitations requiring a covered vessel, of the extent to which offerors have had overhaul, repair, and maintenance work performed in shipyards located in the United States or Guam;
+
+		(3)  Section 3504 of the NDAA for FY 2009 (Pub. L. 110-417) (10 U.S.C. chapter 257 note), which addresses requirements that apply to riding gang members and DoD-exempted individuals (see 252.247-7027(c)) who perform work on U.S.-flag vessels under DoD contracts for transportation services documented under 46 U.S.C. chapter 121; and
+
+		(4)  Section 1024 of the NDAA for FY 2021 (Pub. L. 116-283), which updates the listed circumstances where DoD may waive the requirement that DoD supplies be transported by sea in vessels belonging to the United States or vessels of the United States, and it modifies the requirement for reflagging or repair work in the United States for vessels used under time-charter contracts.
+
+	(b)  Does not specifically implement the Cargo Preference Act of 1954 ("the 1954 Act"), 46 U.S.C. chapter 553.  The 1954 Act is applicable to DoD, but DFARS coverage is not required because compliance with the 1904 Act historically has resulted in DoD exceeding the 1954 Act's requirements; and
+
+	(c)  Does not implement-
+
+		(1)  Section 27 of the Merchant Marine Act, 1920 (46 U.S.C. chapters 121 and 552), commonly known as the "Jones Act," for the application of coastwise trade; or
+
+		(2)  Waivers thereof pursuant to 46 U.S.C. 501.
+
+
+
+
+247.571  Definitions.
+As used in this subpart-
+
+"Corrective and preventive maintenance or repair" means-
+
+	(1)  Maintenance or repair actions performed as a result of a failure in order to return or restore equipment to acceptable performance levels; and
+
+	(2)  Scheduled maintenance or repair actions to prevent or discover functional failures.
+
+"Covered vessel" means a vessel-
+
+	(1)  Owned, operated, or controlled by the offeror; and
+
+	(2)  Qualified to engage in the carriage of cargo in the coastwise or noncontiguous trade under 46 U.S.C. 12112 and 50501 and 46 U.S.C. chapter 551.
+
+"Foreign-flag vessel" means any vessel that is not a U.S.-flag vessel.
+
+"Ocean transportation" means any water-borne transportation aboard a ship, vessel, boat, barge, ferry, or the like outside the internal waters of the United States (as defined in 33 CFR 2.24).
+
+"Overhaul, repair, and maintenance work" means work requiring a shipyard period greater than or equal to 5 calendar days.
+
+"Reflagging or repair work" means work performed on a vessel-
+
+	(1)  To enable the vessel to meet applicable standards to become a vessel of the United States; or
+
+	(2)  To convert the vessel to a more useful military configuration.
+
+"Supplies" means supplies that are clearly identifiable for eventual use by or owned by DoD at the time of transportation by sea, or are otherwise transported by DoD, regardless of ownership or use by DoD. An item is clearly identifiable for eventual use by DoD if, for example, the contract documentation contains a reference to a DoD contract number or a military destination.
+
+"U.S.-flag vessel" means either a vessel belonging to the United States or a vessel of the United States as that term is defined in 46 U.S.C. 116.
+
+247.572  Policy.
+
+	(a)  In accordance with 10 U.S.C. 2631(a), DoD contractors are required to transport supplies exclusively on U.S.-flag vessels. In accordance with 10 U.S.C. 2631(b), DoD (see 247.573(a)) may waive this requirement when a U.S.-flag vessel-
+
+		(1)  Is not available at a fair and reasonable rate for commercial vessels of the United States; or
+
+		(2)  Is not otherwise available.
+
+	(b)  Contracts must provide for the use of vessels belonging to the United States when security classifications prohibit the use of other than vessels belonging to the United States.
+
+	(c)  In accordance with 10 U.S.C. 2631(c)-
+
+		(1)  Any vessel used under a time charter contract for the transportation of supplies under this section are required to have the following work performed in the United States or its outlying areas:
+
+			(i)  Reflagging or repair work, if the reflagging or repair work is performed-
+
+				(A)  On a vessel for which the contractor submitted an offer in response to the solicitation for the contract; and
+
+				(B)  Prior to acceptance of the vessel by the Government.
+
+			(ii)  Corrective and preventive maintenance or repair work for the duration of the contract, to the greatest extent practicable.
+
+		(2)  The Secretary of Defense may waive this requirement if the Secretary determines that such waiver is critical to the national security of the United States.  In accordance with 10 U.S.C. 2631(c)(2), DoD must immediately submit, in writing, a notice to the congressional committees listed at 10 U.S.C. 2631(e) of such a waiver and the reason for the waiver.
+
+	(d)  In accordance with section 1017 of the NDAA for FY 2007 (Pub. L. 109-364), when obtaining carriage requiring a covered vessel, the consider the extent to which offerors have had overhaul, repair, and maintenance work for covered vessels performed in shipyards located in the United States or Guam.
+
+	(e)  In accordance with section 3504 of the NDAA for FY 2009 (Pub. L. 110-417), do not award, renew or extend, or exercise an option under a charter of, or contract for carriage of cargo by, a U.S.-flag vessel documented under 46 U.S.C. chapter 121, unless the contract contains the clause at 252.247-7027.
+
+247.573  General.
+
+	(a)  Delegated authority.  Pursuant to 10 U.S.C. 2631(b)(2), the Secretary of Defense has delegated (see PGI 247.573) the authority to make determinations either that a U.S.-flag vessel is not available at a fair and reasonable rate for commercial vessels of the United States or is otherwise not available to-
+
+		(1)  The Commander, United States Transportation Command; and
+
+		(2)  The Secretary of the Navy.
+
+	(b)  Procedures.  (1)  Follow the procedures at PGI 247.573(b)(1) when purchase of ocean transportation services is incidental to a contract for supplies, services, or construction.
+
+		(2)  Follow the procedures at PGI 247.573(b)(2) when direct purchase of ocean transportation services is the principal purpose of the contract.
+
+		(3)  See PGI 247.573(b)(3) for agency and department procedures relating to annual reporting requirements of waivers granted for nonavailability of U.S.-flag vessels.
+
+		(4)  Follow the procedures at PGI 247.573(b)(4) to accomplish security background checks pursuant to clause 252.247-7027, Riding Gang Member Requirements.
+
+		(5)(i)  In accordance with 10 U.S.C. 2631(d), exercise contractual rights and remedies against contractors who fail to comply. Such remedies may include the determination that a contractor is ineligible for award of future contracts, termination of an existing contract, or suspension or debarment of the contractor. See part 242 regarding assessments of the contractor's past performance.
+
+			(ii)  Consider an equitable adjustment in the event of a contractor's unauthorized use of foreign-flag vessels in the performance of a contract.
+
+247.574  Solicitation provisions and contract clauses.
+
+	(a)  Insert the basic or one of the alternates of the clause at 252.247-7023, Transportation of Supplies by Sea, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, except those for direct purchase of ocean transportation services.
+
+		(1)  Insert the basic clause unless any of the supplies to be transported are commercial products and commercial services that are-
+
+			(i)  Shipped in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations when the contract is not a construction contract; or
+
+			(ii)  Commissary or exchange cargoes transported outside of the Defense Transportation System when the contract is not a construction contract.
+
+		(2)  Insert the alternate I clause if any of the supplies to be transported are commercial products and commercial services that are shipped in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations when the contract is not a construction contract.
+
+		(3)  Insert the alternate II clause if any of the supplies to be transported are commercial products and commercial services that are commissary or exchange cargoes transported outside of the Defense Transportation System (10 U.S.C. 2643), when the contract is not a construction contract.
+
+	(b)  Insert the clause at 252.247-7025, Reflagging or Repair Work, in all time charter solicitations and contracts, including time charter solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, for the use of a vessel for the transportation of supplies, unless a waiver applies (see 247.572(c)(2)).
+
+	(c)  Insert the provision at 252.247-7026, Evaluation Preference for Use of Domestic Shipyards-Applicable to Acquisition of Carriage by Vessel for DoD Cargo in the Coastwise or Noncontiguous Trade, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, that require a covered vessel for carriage of cargo for DoD.
+
+	(d)  Insert the clause at 252.247-7027, Riding Gang Member Requirements, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, for the charter of, or contract for carriage of cargo by, a U.S.-flag vessel documented 46 U.S.C. chapter 121.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.247-7000 Hardship conditions.
+As prescribed in 247.270-4(a), use the following clause:
+
+HARDSHIP CONDITIONS (AUG 2000)
+
+	(a) If the Contractor finds unusual ship, dock, or cargo conditions associated with loading or unloading a particular cargo, that will work a hardship on the Contractor if loaded or unloaded at the basic commodity rates, the Contractor shall-
+
+		(1) Notify the Contracting Officer before performing the work, if feasible, but no later than the vessel sailing time; and
+
+		(2) Submit any associated request for price adjustment to the Contracting Officer within 10 working days of the vessel sailing time.
+
+	(b) Unusual conditions include, but are not limited to, inaccessibility of place of stowage to the ship's cargo gear, side port operations, and small quantities of cargo in any one hatch.
+
+	(c) The Contracting Officer will investigate the conditions promptly after receiving the notice. If the Contracting Officer finds that the conditions are unusual and do materially affect the cost of loading or unloading, the Contracting Officer will authorize payment at the applicable man-hour rates set forth in the schedule of rates of this contract.
+
+(End of clause)
+
+252.247-7001 [Reserved]
+
+252.247-7002 Revision of prices.
+As prescribed in 247.270-4(b), use the following clause:
+
+REVISION OF PRICES (DEC 1991)
+
+	(a) Definition. Wage adjustment, as used in this clause, means a change in the wages, salaries, or other terms or conditions of employment which-
+
+		(1) Substantially affects the cost of performing this contract;
+
+		(2) Is generally applicable to the port where work under this contract is performed; and
+
+		(3) Applies to operations by the Contractor on non-Government work as well as to work under this contract.
+
+	(b) General. The prices fixed in this contract are based on wages and working conditions established by collective bargaining agreements, and on other conditions in effect on the date of this contract. The Contracting Officer and the Contractor may agree to increase or decrease such prices in accordance with this clause.
+
+	(c) Demand for negotiation. (1) At any time, subject to the limitations specified in this clause, either the Contracting Officer or the Contractor may deliver to the other a written demand that the parties negotiate to revise the prices under this contract.
+
+		(2) No such demand shall be made before 90 days after the date of this contract, and thereafter neither party shall make a demand having an effective date within 90 days of the effective date of any prior demand. However, this limitation does not apply to a wage adjustment during the 90 day period.
+
+		(3) Each demand shall specify a date (the same as or subsequent to the date of the delivery of the demand) as to when the revised prices shall be effective. This date is the effective date of the price revision.
+
+			(i) If the Contractor makes a demand under this clause, the demand shall briefly state the basis of the demand and include the statements and data referred to in paragraph (d) of this clause.
+
+			(ii) If the demand is made by the Contracting Officer, the Contractor shall furnish the statements and data within 30 days of the delivery of the demand.
+
+	(d) Submission of data. At the times specified in paragraphs (c)(3)(i) and (ii) of this clause, the Contractor shall submit-
+
+		(1) A new estimate and breakdown of the unit cost and the proposed prices for the services the Contractor will perform under this contract after the effective date of the price revision, itemized to be consistent with the original negotiations of the contract;
+
+		(2) An explanation of the difference between the original (or last preceding) estimate and the new estimate;
+
+		(3) Such relevant operating data, cost records, overhead absorption reports, and accounting statements as may be of assistance in determining the accuracy and reliability of the new estimate;
+
+		(4) A statement of the actual costs of performance under this contract to the extent that they are available at the time of the negotiation of the revision of prices under this clause; and
+
+		(5) Any other relevant data usually furnished in the case of negotiations of prices under a new contract. The Government may examine and audit the Contractor's accounts, records, and books as the Contracting Officer considers necessary.
+
+	(e) Negotiations. (1) Upon the filing of the statements and data required by paragraph (d) of this clause, the Contractor and the Contracting Officer shall negotiate promptly in good faith to agree upon prices for services the Contractor will perform on and after the effective date of the price revision.
+
+		(2) If the prices in this contract were established by competitive negotiation, they shall not be revised upward unless justified by changes in conditions occurring after the contract was awarded.
+
+		(3) The agreement reached after each negotiation will be incorporated into the contract by supplemental agreement.
+
+	(f) Disagreements. If, within 30 days after the date on which statements and data are required pursuant to paragraph (c) of this clause, the Contracting Officer and the Contractor fail to agree to revised prices, the failure to agree shall be resolved in accordance with the Disputes clause of this contract. The prices fixed by the Contracting Officer will remain in effect for the balance of the contract, and the Contractor shall continue performance.
+
+	(g) Retroactive changes in wages or working conditions. (1) In the event of a retroactive wage adjustment, the Contractor or the Contracting Officer may request an equitable adjustment in the prices in this contract.
+
+		(2) The Contractor shall request a price adjustment within 30 days of any retroactive wage adjustment. The Contractor shall support its request with-
+
+			(i) An estimate of the changes in cost resulting from the retroactive wage adjustment;
+
+			(ii) Complete information upon which the estimate is based; and
+
+			(iii) A certified copy of the collective bargaining agreement, arbitration award, or other document evidencing the retroactive wage adjustment.
+
+		(3) Subject to the limitation in paragraph (g)(2) of this clause as to the time of making a request, completion or termination of this contract shall not affect the Contractor's right under paragraph (g) of this clause.
+
+		(4) In case of disagreement concerning any question of fact, including whether any adjustment should be made, or the amount of such adjustment, the disagreement will be resolved in accordance with the Disputes clause of this contract.
+
+		(5) The Contractor shall notify the Contracting Officer in writing of any request by or on behalf of the employees of the Contractor which may result in a retroactive wage adjustment. The notice shall be given within 20 days after the request, or if the request occurs before contract execution, at the time of execution.
+
+(End of clause)
+
+252.247-7003 Pass-Through of Motor Carrier Fuel Surcharge Adjustment To The Cost Bearer.
+As prescribed in 247.207, use the following clause:
+
+PASS-THROUGH OF MOTOR CARRIER FUEL SURCHARGE ADJUSTMENT TO THE COST BEARER (JAN 2023)
+
+	(a) This clause implements section 884 of the National Defense Authorization Act for Fiscal Year 2009 (Pub. L. 110-417).
+
+	(b) Unless an exception is authorized by the Contracting Officer, the Contractor shall pass through any motor carrier fuel-related surcharge adjustments to the person, corporation, or entity that directly bears the cost of fuel for shipment(s) transported under this contract.
+
+	(c) Subcontracts. The Contractor shall insert the substance of this clause, including this paragraph (c), in all subcontracts, including subcontracts for commercial products or commercial services, with motor carriers, brokers, or freight forwarders.
+
+(End of clause)
+
+252.247-7004--252.247-7006 [Reserved]
+
+252.247-7007 Liability and insurance.
+As prescribed in 247.270-4(c), use the following clause:
+
+LIABILITY AND INSURANCE (DEC 1991)
+
+	(a) The Contractor shall be-
+
+		(1) Liable to the Government for loss or damage to property, real and personal, owned by the Government or for which the Government is liable;
+
+		(2) Responsible for, and hold the Government harmless from, loss of or damage to property not included in paragraph (a)(1); and
+
+		(3) Responsible for, and hold the Government harmless from, bodily injury and death of persons, resulting either in whole or in part from the negligence or fault of the Contractor, its officers, agents, or employees in the performance of work under this contract.
+
+	(b) For the purpose of this clause, all cargo loaded or unloaded under this contract is agreed to be property owned by the Government or property for which the Government is liable.
+
+		(1) The amount of the loss or damage as determined by the Contracting Officer will be withheld from payments otherwise due the Contractor.
+
+		(2) Determination of liability and responsibility by the Contracting Officer will constitute questions of fact within the meaning of the Disputes clause of this contract.
+
+	(c) The general liability and responsibility of the Contractor under this clause are subject only to the following specific limitations. The Contractor is not responsible to the Government for, and does not agree to hold the Government harmless from, loss or damage to property or bodily injury to or death of persons if-
+
+		(1) The unseaworthiness of the vessel, or failure or defect of the gear or equipment furnished by the Government, contributed jointly with the fault or negligence of the Contractor in causing such damage, injury, or death; and
+
+			(i) The Contractor, his officers, agents, and employees, by the exercise of due diligence, could not have discovered such unseaworthiness or defect of gear or equipment; or
+
+			(ii) Through the exercise of due diligence could not otherwise have avoided such damage, injury, or death.
+
+		(2) The damage, injury, or death resulted solely from an act or omission of the Government or its employees, or resulted solely from proper compliance by officers, agents, or employees of the Contractor with specific directions of the Contracting Officer.
+
+	(d) The Contractor shall at its own expense acquire and maintain insurance during the term of this contract, as follows-
+
+		(1) Standard workmen's compensation and employer's liability insurance and longshoremen's and harbor workers' compensation insurance, or such of these as may be proper under applicable state or Federal statutes.
+
+			(i) The Contractor may, with the prior approval of the Contracting Officer, be a self-insurer against the risk of this paragraph (d)(1).
+
+			(ii) This approval will be given upon receipt of satisfactory evidence that the Contractor has qualified as a self-insurer under applicable provision of law.
+
+		(2) Bodily injury liability insurance in an amount of not less than $300,000 on account of any one occurrence.
+
+		(3) Property damage liability insurance (which shall include any and all property, whether or not in the care, custody, or control of the Contractor) in an amount of not less than $300,000 for any one occurrence.
+
+	(e) Each policy shall provide, by appropriate endorsement or otherwise, that cancellation or material change in the policy shall not be effective until after a 30 day written notice is furnished the Contracting Officer.
+
+	(f) The Contractor shall furnish the Contracting Officer with satisfactory evidence of the insurance required in paragraph (d) before performance of any work under this contract.
+
+	(g) The Contractor shall, at its own cost and expense, defend any suits, demands, claims, or actions, in which the United States might be named as a co-defendant of the Contractor, resulting from the Contractor's performance of work under this contract. This requirement is without regard to whether such suit, demand, claim, or action was the result of the Contractor's negligence. The Government shall have the right to appear in such suit, participate in defense, and take such actions as may be necessary to protect the interest of the United States.
+
+	(h) It is expressly agreed that the provisions in paragraphs (d) through (g) of this clause shall not in any manner limit the liability or extend the liability of the Contractor as provided in paragraphs (a) through (c) of this clause.
+
+	(i) The Contractor shall-
+
+		(1) Equitably reimburse the Government if the Contractor is indemnified, reimbursed, or relieved of any loss or damage to Government property;
+
+		(2) Do nothing to prevent the Government's right to recover against third parties for any such loss or damage; and
+
+		(3) Furnish the Government, upon the request of the Contracting Officer, at the Government's expense, all reasonable assistance and cooperation in obtaining recovery, including the prosecution of suit and the execution of instruments of assignment in favor of the Government.
+
+(End of clause)
+
+252.247-7008--252.247-7013 [Reserved]
+
+252.247-7014 Demurrage.
+As prescribed in 247.271-3(c), use the following clause:
+
+DEMURRAGE (DEC 1991)
+
+The Contractor shall be liable for all demurrage, detention, or other charges as a result of its failure to load or unload trucks, freight cars, freight terminals, vessel piers, or warehouses within the free time allowed under applicable rules and tariffs.
+
+(End of clause)
+
+252.247-7015 [Reserved]
+
+252.247-7016 Contractor liability for loss or damage.
+As prescribed in 247.271-3(d), use the following clause:
+
+CONTRACTOR LIABILITY FOR LOSS OR DAMAGE (DEC 1991)
+
+	(a) Definitions. As used in this clause-
+
+Article means any shipping piece or package and its contents.
+
+Schedule means the level of service for which specific types of traffic apply as described in DoD 4500.34-R, Personal Property Traffic Management Regulation.
+
+	(b) For shipments picked up under Schedule I, Outbound Services, or delivered under Schedule II, Inbound Services-
+
+		(1) If notified within one year after delivery that the owner has discovered loss or damage to the owner's property, the Contractor agrees to indemnify the Government for loss or damage to the property which arises from any cause while it is in the Contractor's possession. The Contractor's liability is-
+
+			(i) Non-negligent damage. For any cause, other than the Contractor's negligence, indemnification shall be at a rate not to exceed sixty cents per pound per article.
+
+			(ii) Negligent damage. When loss or damage is caused by the negligence of the Contractor, the liability is for the full cost of satisfactory repair or for the current replacement value of the article.
+
+		(2) The Contractor shall make prompt payment to the owner of the property for any loss or damage for which the Contractor is liable.
+
+		(3) In the absence of evidence or supporting documentation which places liability on a carrier or another contractor, the destination contractor shall be presumed to be liable for the loss or damage, if timely notified.
+
+	(c) For shipments picked up or delivered under Schedule III, Intra-City and Intra-Area-
+
+		(1) If notified of loss or damage within 75 days following delivery, the Contractor agrees to indemnify the Government for loss or damage to the owner's property.
+
+		(2) The Contractor's liability shall be for the full cost of satisfactory repair, or for the current replacement value of the article less depreciation, up to a maximum liability of $1.25 per pound times the net weight of the shipment.
+
+	(3) The Contractor has full salvage rights to damaged items which are not repairable and for which the Government has received compensation at replacement value.
+
+(End of clause)
+
+252.247-7017--252.247-7021 [Reserved]
+
+252.247-7022 [Reserved]
+
+252.247-7023 Transportation of Supplies by Sea.
+As prescribed in 247.574(a) and (a)(1), use the following basic clause:
+
+TRANSPORTATION OF SUPPLIES BY SEA-BASIC (OCT 2024)
+
+	(a) Definitions. As used in this clause-
+
+Foreign-flag vessel means any vessel that is not a U.S.-flag vessel.
+
+Ocean transportation means any water-borne transportation aboard a ship, vessel, boat, barge, ferry, or the like outside the internal waters of the United States as defined in 33 CFR 2.24.
+
+Subcontractor means a supplier, materialman, distributor, or vendor at any level below the prime contractor whose contractual obligation to perform results from, or is conditioned upon, award of the prime contract and who is performing any part of the work or other requirement of the prime contract.
+
+Supplies means supplies that are clearly identifiable for eventual use by or owned by DoD at the time of transportation by sea, or are otherwise transported by DoD, regardless of ownership or use by DoD. An item is clearly identifiable for eventual use by DoD if, for example, the contract documentation contains a reference to a DoD contract number or a military destination.
+
+U.S.-flag vessel means either a vessel belonging to the United States or a vessel of the United States as that term is defined in 46 U.S.C. 116.
+
+	(b) If the transportation of supplies by sea is anticipated under this contract, the Contractor shall-
+
+		(1) Notify the Contracting Officer and Maritime Administration (MARAD) at Cargo.Marad@dot.gov-
+
+			(i) Within 3 business days after contract award; or
+
+			(ii) Immediately prior to the shipment departure date necessary to meet delivery schedules, whichever is earlier; and
+
+		(2) Include in the notification-
+
+			(i) A statement of the Contractor's intent to transport supplies by sea;
+
+			(ii) The contract number; and
+
+			(iii) The task-order or delivery-order number, when applicable.
+
+	(c)(1) The Contractor shall use U.S.-flag vessels when transporting any supplies by sea under this contract.
+
+		(2) A subcontractor transporting supplies by sea under this contract shall use U.S.-flag vessels if-
+
+			(i) This contract is a construction contract; or
+
+			(ii) The supplies being transported are-
+
+				(A) Other than commercial products or
+
+				(B) Commercial products that-
+
+		(1) The Contractor is reselling or distributing to the Government without adding value (generally, the Contractor does not add value to items that it contracts for f.o.b. destination shipment);
+
+		(2) Are shipped in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations; or
+
+		(3) Are commissary or exchange cargoes transported outside of the Defense Transportation System in accordance with 10 U.S.C. 2643.
+
+	(d) The Contractor and its subcontractors may request, via the Contracting Officer, a waiver of the requirement to use a U.S.-flag vessel, or identification of any available U.S.-flag vessels, if the Contractor or a subcontractor sufficiently explains that-
+
+		(1) U.S.-flag vessels are not available at a fair and reasonable rate for commercial vessels of the United States; or
+
+		(2) U.S.-flag vessels are otherwise not available.
+
+	(e) The Contractor must submit any request for use of foreign-flag vessels in writing to the Contracting Officer at least 45 days prior to the sailing date necessary to meet its delivery schedules. The Contracting Officer will process requests submitted after such date(s) as expeditiously as possible, however, if a DoD waiver is not approved prior to the shipper's sailing date, this will not of itself constitute a compensable delay under this or any other clause of this contract. Requests shall contain at a minimum-
+
+		(1) Type, weight, and cube of cargo;
+
+		(2) Required shipping date(s) and required delivery date(s);
+
+		(3) Special handling and discharge requirements;
+
+		(4) Loading and discharge points;
+
+		(5) Name of shipper and consignee;
+
+		(6) Prime contract number; and
+
+		(7) A documented description of current, diligent efforts made to secure U.S.-flag vessels, including points of contact (with names and telephone numbers) with at least two U.S.-flag carriers contacted. Copies of quotes will suffice for this purpose. Copies of telephone notes, emails, and other relevant communications will otherwise be considered for this purpose.
+
+	(f) The Contractor shall, within 30 days after each shipment covered by this clause, provide the Contracting Officer and MARAD at Cargo.Marad@dot.gov, Attention: Military Team, one copy of the rated on board vessel operating carrier's ocean bill of lading, which shall contain the following information:
+
+		(1) Prime contract number;
+
+		(2) Name of vessel;
+
+		(3) Vessel flag of registry;
+
+		(4) Date of loading;
+
+		(5) Port of loading;
+
+		(6) Port of final discharge;
+
+		(7) Description of commodity;
+
+		(8) Gross weight in pounds and cubic feet if available;
+
+		(9) Total ocean freight in U.S. dollars; and
+
+		(10) Name of the carrier.
+
+	(g) If this contract exceeds the simplified acquisition threshold, the Contractor shall provide with its final invoice under this contract a representation that to the best of its knowledge and belief-
+
+		(1) No ocean transportation was used in the performance of this contract;
+
+		(2) Ocean transportation was used and only U.S.-flag vessels were used for all ocean shipments under the contract;
+
+		(3) Ocean transportation was used, and the Contractor had received a prior-approved waiver for U.S.-flag vessels for all foreign-flag ocean transportation; or
+
+		(4) Ocean transportation was used and some or all of the shipments were made on foreign-flag vessels without the written consent of DoD. The Contractor shall describe these shipments in the following format:
+
+
+Item Description
+
+Contract Line Items
+
+Quantity
+
+Total
+
+	(h) If this contract exceeds the simplified acquisition threshold and the final invoice does not include the required representation, the Government will reject and return it to the Contractor as an improper invoice for the purposes of the Prompt Payment clause of this contract. In the event there has been unauthorized use of foreign-flag vessels in the performance of this contract, the Contracting Officer is entitled to equitably adjust the contract, based on the unauthorized use.
+
+	(i) If the Contractor did not anticipate transporting any supplies by sea at the time of contract award and, therefore, did not provide the notification required by paragraph (b) of this clause, but prior to shipment of supplies, the Contractor learns that supplies will be transported by sea, the Contractor shall-
+
+		(1) Provide the notification required by paragraph (b) of this clause to the Contracting Officer and MARAD as soon as it is known that supplies will be transported by sea; and
+
+		(2) Comply with all the terms and conditions of this clause.
+
+	(j) Subcontracts. In the award of subcontracts for the types of supplies described in paragraph (c)(2) of this clause, including subcontracts for commercial products, the Contractor shall flow down the requirements of this clause as follows:
+
+		(1) The Contractor shall insert the substance of this clause, including this paragraph (j), in subcontracts that exceed the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+		(2) The Contractor shall insert the substance of paragraphs (a) through (f) of this clause, and this paragraph (j), in subcontracts that are at or below the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+(End of clause)
+
+Alternate I.   As prescribed in 247.574(a) and (a)(2), use the following clause, which uses a different paragraph (c) than the basic clause:
+
+TRANSPORTATION OF SUPPLIES BY SEA-ALTERNATE I (OCT 2024)
+
+	(a) Definitions. As used in this clause-
+
+Foreign-flag vessel means any vessel that is not a U.S.-flag vessel.
+
+Ocean transportation means any water-borne transportation aboard a ship, vessel, boat, barge, ferry, or the like outside the internal waters of the United States as defined in 33 CFR 2.24.
+
+Subcontractor means a supplier, materialman, distributor, or vendor at any level below the prime contractor whose contractual obligation to perform results from, or is conditioned upon, award of the prime contract and who is performing any part of the work or other requirement of the prime contract.
+
+Supplies means supplies that are clearly identifiable for eventual use by or owned by DoD at the time of transportation by sea, or are otherwise transported by DoD, regardless of ownership or use by DoD. An item is clearly identifiable for eventual use by DoD if, for example, the contract documentation contains a reference to a DoD contract number or a military destination.
+
+U.S.-flag vessel means either a vessel belonging to the United States or a vessel of the United States as that term is defined in 46 U.S.C. 116.
+
+	(b) If the transportation of supplies by sea is anticipated under this contract, the Contractor shall-
+
+		(1) Notify the Contracting Officer and Maritime Administration (MARAD) at Cargo.Marad@dot.gov-
+
+			(i) Within 3 business days after contract award; or
+
+			(ii) Immediately prior to the shipment departure date necessary to meet delivery schedules, whichever is earlier; and
+
+		(2) Include in the notification-
+
+			(i) A statement of the Contractor's intent to transport supplies by sea;
+
+			(ii) The contract number; and
+
+			(iii) The task-order or delivery-order number, when applicable.
+
+	(c)(1) The Contractor shall use U.S.-flag vessels when transporting any supplies by sea under this contract.
+
+		(2) A subcontractor transporting supplies by sea under this contract shall use U.S.-flag vessels if the supplies being transported are-
+
+			(i) Other than commercial products; or
+
+			(ii) Commercial products that-
+
+				(A) The Contractor is reselling or distributing to the Government without adding value (generally, the Contractor does not add value to items that it subcontracts for f.o.b. destination shipment);
+
+				(B) Are shipped in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations (Note: This contract requires shipment of commercial products in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations); or
+
+				(C) Are commissary or exchange cargoes transported outside of the Defense Transportation System in accordance with 10 U.S.C. 2643.
+
+	(d) The Contractor and its subcontractors may request, via the Contracting Officer, a waiver of the requirement to use a U.S.-flag vessel, or identification of any available U.S.-flag vessels, if the Contractor or a subcontractor sufficiently explains that-
+
+		(1) U.S.-flag vessels are not available at a fair and reasonable rate for commercial vessels of the United States; or
+
+		(2) U.S.-flag vessels are otherwise not available.
+
+	(e) The Contractor must submit any request for use of foreign-flag vessels in writing to the Contracting Officer at least 45 days prior to the sailing date necessary to meet its delivery schedules. The Contracting Officer will process requests submitted after such date(s) as expeditiously as possible, however, if a DoD waiver is not approved prior to the shipper's sailing date, this will not of itself constitute a compensable delay under this or any other clause of this contract. Requests shall contain at a minimum-
+
+		(1) Type, weight, and cube of cargo;
+
+		(2) Required shipping date(s) and required delivery date(s);
+
+		(3) Special handling and discharge requirements;
+
+		(4) Loading and discharge points;
+
+		(5) Name of shipper and consignee;
+
+		(6) Prime contract number; and
+
+		(7) A documented description of current, diligent efforts made to secure U.S.-flag vessels, including points of contact (with names and telephone numbers) with at least two U.S.-flag carriers contacted. Copies of quotes will suffice for this purpose. Copies of telephone notes, emails, and other relevant communications will otherwise be considered for this purpose.
+
+	(f) The Contractor shall, within 30 days after each shipment covered by this clause, provide the Contracting Officer and MARAD at Cargo.Marad@dot.gov, Attention: Military Team, one copy of the rated on board vessel operating carrier's ocean bill of lading, which shall contain the following information:
+
+		(1) Prime contract number;
+
+		(2) Name of vessel;
+
+		(3) Vessel flag of registry;
+
+		(4) Date of loading;
+
+		(5) Port of loading;
+
+		(6) Port of final discharge;
+
+		(7) Description of commodity;
+
+		(8) Gross weight in pounds and cubic feet if available;
+
+		(9) Total ocean freight in U.S. dollars; and
+
+		(10) Name of the carrier.
+
+	(g) If this contract exceeds the simplified acquisition threshold, the Contractor shall provide with its final invoice under this contract a representation that to the best of its knowledge and belief-
+
+		(1) No ocean transportation was used in the performance of this contract;
+
+		(2) Ocean transportation was used and only U.S.-flag vessels were used for all ocean shipments under the contract;
+
+		(3) Ocean transportation was used, and the Contractor had had received a prior-approved waiver for U.S.-flag vessels for all foreign-flag ocean transportation; or
+
+		(4) Ocean transportation was used and some or all of the shipments were made on foreign-flag vessels without the written consent of the DoD. The Contractor shall describe these shipments in the following format:
+
+Item description
+
+Contract line items
+
+Quantity
+
+TOTAL
+
+	(h) If this contract exceeds the simplified acquisition threshold and the final invoice does not include the required representation, the Government will reject and return it to the Contractor as an improper invoice for the purposes of the Prompt Payment clause of this contract. In the event there has been unauthorized use of foreign-flag vessels in the performance of this contract, the Contracting Officer is entitled to equitably adjust the contract, based on the unauthorized use.
+
+	(i) If the Contractor did not anticipate transporting any supplies by sea at the time of contract award and, therefore, did not provide the notification required by paragraph (b) of this clause, but prior to shipment of supplies, the Contractor learns that supplies will be transported by sea, the Contractor shall-
+
+		(1) Provide the notification required by paragraph (b) of this clause to the Contracting Officer and MARAD as soon as it is known that supplies will be transported by sea; and
+
+		(2) Comply with all the terms and conditions of this clause.
+
+	(j) Subcontracts. In the award of subcontracts for the types of supplies described in paragraph (c)(2) of this clause, including subcontracts for commercial products, the Contractor shall flow down the requirements of this clause as follows:
+
+		(1) The Contractor shall insert the substance of this clause, including this paragraph (j), in subcontracts that exceed the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+		(2) The Contractor shall insert the substance of paragraphs (a) through (f) of this clause, and this paragraph (j), in subcontracts that are at or below the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+(End of clause)
+
+Alternate II.   As prescribed in 247.574(a) and (a)(3), use the following clause, which uses a different paragraph (c) than the basic clause:
+
+TRANSPORTATION OF SUPPLIES BY SEA-ALTERNATE II (OCT 2024)
+
+	(a) Definitions. As used in this clause-
+
+Foreign-flag vessel means any vessel that is not a U.S.-flag vessel.
+
+Ocean transportation means any water-borne transportation aboard a ship, vessel, boat, barge, ferry, or the like outside the internal waters of the United States as defined in 33 CFR 2.24.
+
+Subcontractor means a supplier, materialman, distributor, or vendor at any level below the prime contractor whose contractual obligation to perform results from, or is conditioned upon, award of the prime contract and who is performing any part of the work or other requirement of the prime contract.
+
+Supplies means supplies that are clearly identifiable for eventual use by or owned by DoD at the time of transportation by sea, or are otherwise transported by DoD, regardless of ownership or use by DoD. An item is clearly identifiable for eventual use by DoD if, for example, the contract documentation contains a reference to a DoD contract number or a military destination.
+
+U.S.-flag vessel means either a vessel belonging to the United States or a vessel of the United States as that term is defined in 46 U.S.C. 116.
+
+	(b) If the transportation of supplies by sea is anticipated under this contract, the Contractor shall-
+
+		(1) Notify the Contracting Officer and Maritime Administration (MARAD) at Cargo.Marad@dot.gov-
+
+			(i) Within 3 business days after contract award; or
+
+			(ii) Immediately prior to the shipment departure date necessary to meet delivery schedules, whichever is earlier; and
+
+		(2) Include in the notification-
+
+			(i) A statement of the Contractor's intent to transport supplies by sea;
+
+			(ii) The contract number; and
+
+			(iii) The task-order or delivery-order number, when applicable.
+
+	(c)(1) The Contractor shall use U.S.-flag vessels when transporting any supplies by sea under this contract.
+
+		(2) A subcontractor transporting supplies by sea under this contract shall use U.S.-flag vessels if the supplies being transported are-
+
+			(i) Other than commercial products; or
+
+			(ii) Commercial products that-
+
+				(A) The Contractor is reselling or distributing to the Government without adding value (generally, the Contractor does not add value to items that it subcontracts for f.o.b. destination shipment);
+
+				(B) Are shipped in direct support of U.S. military contingency operations, exercises, or forces deployed in humanitarian or peacekeeping operations; or
+
+				(C) Are commissary or exchange cargoes transported outside of the Defense Transportation System in accordance with 10 U.S.C. 2643 (Note: This contract requires transportation of commissary or exchange cargoes outside of the Defense Transportation System in accordance with 10 U.S.C. 2643).
+
+	(d) The Contractor and its subcontractors may request, via the Contracting Officer, a waiver of the requirement to use a U.S.-flag vessel, or identification of any available U.S.-flag vessels, if the Contractor or a subcontractor sufficiently explains that-
+
+		(1) U.S.-flag vessels are not available at a fair and reasonable rate for commercial vessels of the United States; or
+
+		(2) U.S.-flag vessels are otherwise not available.
+
+	(e) The Contractor must submit any request for use of foreign-flag vessels in writing to the Contracting Officer at least 45 days prior to the sailing date necessary to meet its delivery schedules. The Contracting Officer will process requests submitted after such date(s) as expeditiously as possible, however, if a DoD waiver is not approved prior to the shipper's sailing date, this will not of itself constitute a compensable delay under this or any other clause of this contract.
+
+		(2) Required shipping date(s) and required delivery date(s);
+
+		(3) Special handling and discharge requirements;
+
+		(4) Loading and discharge points;
+
+		(5) Name of shipper and consignee;
+
+		(6) Prime contract number; and
+
+		(7) A documented description of current, diligent efforts made to secure U.S.-flag vessels, including points of contact (with names and telephone numbers) with at least two U.S.-flag carriers contacted. Copies of quotes will suffice for this purpose. Copies of telephone notes, emails, and other relevant communications will otherwise be considered for this purpose.
+
+	(f) The Contractor shall, within 30 days after each shipment covered by this clause, provide the Contracting Officer and MARAD at Cargo.Marad@dot.gov, Attention: Military Team, one copy of the rated on board vessel operating carrier's ocean bill of lading, which shall contain the following information:
+
+		(1) Prime contract number;
+
+		(2) Name of vessel;
+
+		(3) Vessel flag of registry;
+
+		(4) Date of loading;
+
+		(5) Port of loading;
+
+		(6) Port of final discharge;
+
+		(7) Description of commodity;
+
+		(8) Gross weight in pounds and cubic feet if available;
+
+		(9) Total ocean freight in U.S. dollars; and
+
+		(10) Name of steamship company.
+
+	(g) If this contract exceeds the simplified acquisition threshold, the Contractor shall provide with its final invoice under this contract a representation that to the best of its knowledge and belief-
+
+		(1) No ocean transportation was used in the performance of this contract;
+
+		(2) Ocean transportation was used and only U.S.-flag vessels were used for all ocean shipments under the contract;
+
+		(3) Ocean transportation was used, and the Contractor had the written consent of the Contracting Officer for all foreign-flag ocean transportation; or
+
+		(4) Ocean transportation was used and some or all of the shipments were made on foreign-flag vessels without the written consent of the Contracting Officer. The Contractor shall describe these shipments in the following format:
+
+Item description
+
+Contract line items
+
+Quantity
+
+TOTAL
+
+	(h) If this contract exceeds the simplified acquisition threshold and the final invoice does not include the required representation, the Government will reject and return it to the Contractor as an improper invoice for the purposes of the Prompt Payment clause of this contract. In the event there has been unauthorized use of foreign-flag vessels in the performance of this contract, the Contracting Officer is entitled to equitably adjust the contract, based on the unauthorized use.
+
+	(i) If the Contractor did not anticipate transporting any supplies by sea at the time of contract award, and, therefore, did not provide the notification required by paragraph (b) of this clause, but prior to shipment of the supplies, the Contractor learns after the award of the contract that supplies will be transported by sea, the Contractor shall-
+
+		(1) Provide the notification required by paragraph (b) of this clause to the Contracting Officer and MARAD as soon as it is known that supplies will be transported by sea; and
+
+		(2) Comply with all the terms and conditions of this clause.
+
+	(j) Subcontracts. In the award of subcontracts for the types of supplies described in paragraph (c)(2) of this clause, including subcontracts for commercial products, the Contractor shall flow down the requirements of this clause as follows:
+
+		(1) The Contractor shall insert the substance of this clause, including this paragraph (j), in subcontracts that exceed the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+		(2) The Contractor shall insert the substance of paragraphs (a) through (f) of this clause, and this paragraph (j), in subcontracts that are at or below the simplified acquisition threshold in part 2 of the Federal Acquisition Regulation.
+
+(End of clause)
+
+252.247-7024 [Reserved]
+
+252.247-7025 Reflagging or Repair Work.
+As prescribed in 247.574(b), use the following clause:
+
+REFLAGGING OR REPAIR WORK (OCT 2024)
+
+	(a) Definitions. As used in this clause-
+
+Corrective and preventive maintenance or repair means-
+
+		(1) Maintenance or repair actions performed as a result of a failure in order to return or restore equipment to acceptable performance levels; and
+
+		(2) Scheduled maintenance or repair actions to prevent or discover functional failures.
+
+Reflagging or repair work means work performed on a vessel-
+
+		(1) To enable the vessel to meet applicable standards to become a vessel of the United States; or
+
+		(2) To convert the vessel to a more useful military configuration.
+
+	(b) Requirement. Unless DoD waives this requirement, the Contractor shall ensure performance of the following in the United States or its outlying areas:
+
+		(1) Reflagging or repair work, if the reflagging or repair work is performed-
+
+			(i) On a vessel for which the Contractor submitted an offer in response to the solicitation for this contract; and
+
+			(ii) Prior to acceptance of the vessel by the Government.
+
+		(2) Corrective and preventive maintenance or repair work for the duration of the contract, to the greatest extent practicable.
+
+(End of clause)
+
+252.247-7026 Evaluation Preference for Use of Domestic Shipyards-Applicable to Acquisition of Carriage by Vessel for DoD Cargo in the Coastwise or Noncontiguous Trade.
+As prescribed in 247.574(c), use the following provision:
+
+EVALUATION PREFERENCE FOR USE OF DOMESTIC SHIPYARDS-APPLICABLE TO ACQUISITION OF CARRIAGE BY VESSEL FOR DOD CARGO IN THE COASTWISE OR NONCONTIGUOUS TRADE (OCT 2024)
+
+	(a) Definitions. As used in this provision-
+
+Covered vessel means a vessel-
+
+		(1) Owned, operated, or controlled by the offeror; and
+
+		(2) Qualified to engage in the carriage of cargo in the coastwise or noncontiguous trade under 46 U.S.C. 12112 and 50501 and 46 U.S.C. chapter 551.
+
+Foreign shipyard means a shipyard that is not a U.S. shipyard.
+
+Overhaul, repair, and maintenance work means work requiring a shipyard period greater than or equal to 5 calendar days.
+
+U.S. shipyard means a shipyard that is located in any State of the United States or in Guam.
+
+	(b) This solicitation includes an evaluation criterion that considers the extent to which the Offeror has had overhaul, repair, and maintenance work for covered vessels performed in U.S. shipyards.
+
+	(c) The Offeror shall provide the following information with its offer, addressing all covered vessels for which overhaul, repair, and maintenance work has been performed during the period covering the current calendar year, up to the date of proposal submission, and the preceding four calendar years:
+
+		(1) Name of vessel.
+
+		(2) Description and cost of qualifying shipyard work performed in U.S. shipyards.
+
+		(3) Description and cost of qualifying shipyard work performed in foreign shipyards and whether-
+
+			(i) Such work was performed as emergency repairs in foreign shipyards due to accident, emergency, Act of God, or an infirmity to the vessel, and safety considerations warranted taking the vessel to a foreign shipyard; or
+
+			(ii) Such work was paid for or reimbursed by the U.S. Government.
+
+		(4) Names of shipyards that performed the work.
+
+		(5) Inclusive dates of work performed.
+
+	(d) Offerors are responsible for submitting accurate information. The Contracting Officer-
+
+		(1) Will use the information to evaluate offers in accordance with the criteria specified in the solicitation; and
+
+		(2) Reserves the right to request supporting documentation if determined necessary in the proposal evaluation process.
+
+	(e) The Department of Defense will provide the information submitted in response to this provision to the congressional defense committees, as required by section 1017 of Public Law 109-364 (10 U.S.C. 2631 note).
+
+(End of provision)
+
+252.247-7027 Riding Gang Member Requirements.
+As prescribed in 247.574(d), use the following clause:
+
+RIDING GANG MEMBER REQUIREMENTS (MAY 2018)
+
+	(a) Definition. Riding gang member, as used in this clause, has the same definition as "riding gang member" in title 46 U.S.C. 2101.
+
+	(b) Requirements relating to riding gang members. Notwithstanding 46 U.S.C. 8106, the Contractor shall ensure each riding gang member holds a valid U.S. Merchant Mariner's Document issued under 46 U.S.C. chapter 73, or a transportation security card issued under section 70105 of such title.
+
+	(c) Exemption. (1) An individual is exempt from the requirements of paragraph (b) of this clause and shall not be treated as a riding gang member for the purposes of section 8106 of title 46, if that individual is on a vessel for purposes other than engaging in the operation or maintenance of the vessel and is-
+
+			(i) One of the personnel who accompanies, supervises, guards, or maintains unit equipment aboard a ship, commonly referred to as supercargo personnel;
+
+			(ii) One of the force protection personnel of the vessel;
+
+			(iii) A specialized repair technician; or
+
+			(iv) An individual who is otherwise required by the Secretary of Defense or designee to be aboard the vessel.
+
+		(2) Any individual who is exempt under paragraph (c)(1) of this clause must pass a DoD background check before going aboard the vessel.
+
+			(i) The Contractor shall-
+
+				(A) Render all necessary assistance to U.S. Armed Forces personnel with respect to the identification and screening of exempted individuals. This will require, at a minimum, the Contractor to submit the name and other biographical information necessary to the Government official specified in the contract for the purposes of conducting a background check; and
+
+				(B) Deny access or immediately remove any individual(s) from the vessel deemed unsuitable for any reason by the Government agency conducting the background checks. The Contractor agrees to replace any such individual promptly and require such replacements to fully comply with all screening requirements.
+
+			(ii) The head of the contracting activity may waive this requirement if the individual possesses a valid U.S. Merchant Mariner's Document issued under 46 U.S.C. chapter 73, or a transportation security card issued under section 70105 of such title.
+
+		(3) An individual exempted under paragraph (c)(1) of this clause is not treated as a riding gang member and shall not be counted as an individual in addition to the crew for the purposes of 46 U.S.C. 3304.
+
+(End of clause)
+
+252.247-7028 Application for U.S. Government Shipping Documentation/Instructions.
+As prescribed in 247.207, use the following clause:
+
+APPLICATION FOR U.S. GOVERNMENT SHIPPING DOCUMENTATION/INSTRUCTIONS (JUN 2012)
+
+	(a) Except as provided in paragraph (b) of this clause, the Contractor shall request bills of lading by submitting a DD Form 1659, Application for U.S. Government Shipping Documentation/Instructions, to the-
+
+		(1) Transportation Officer, if named in the contract schedule; or
+
+		(2) Contract administration office.
+
+	(b) If an automated system is available for shipment requests, use service/agency systems (e.g., Navy's Global Freight Management-Electronic Transportation Acquisition (GFM-ETA) and Financial Air Clearance Transportation System (FACTS) Shipment Processing Module, Air Force's Cargo Movement Operations System, DCMA's Shipment Instruction Request (SIR) E-tool, and DLA's Distribution Standard System Vendor Shipment Module in lieu of DD Form 1659.
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0047
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 47
+Defense FAR Supplement (DFARS) Part 247
+
+
+	Page 1 of 1	
+		
+

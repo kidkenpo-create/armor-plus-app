@@ -1,0 +1,460 @@
+PART 245-GOVERNMENT PROPERTY
+
+SUBPART 245.1-GENERAL
+
+245.101  Definitions.
+"Mapping, charting, and geodesy property," as used in this subpart, is defined in the clause at 252.245-7000, Government-Furnished Mapping, Charting, and Geodesy Property.
+
+245.102  Policy.
+See the policy guidance at PGI 245.102-70.
+
+	(1)  Mapping, charting, and geodesy property.  All Government-furnished mapping, charting, and geodesy (MC&G) property is controlled by the Director, National Geospatial Intelligence Agency.
+      
+		(i)  MC&G property must not be duplicated, copied, or otherwise reproduced for purposes other than those necessary for contract performance.
+         
+		(ii)  Upon completion of contract performance, the contracting officer must-
+
+			(A)  Contact the Director, National Geospatial-Intelligence Agency, 7500 Geoint Drive, Springfield, VA 22150, for disposition instructions;
+            
+			(B)  Direct the contractor to destroy or return all Government-furnished MC&G property not consumed during contract performance; and
+            
+			(C)  Specify the destination and means of shipment for property to be returned to the Government.
+            
+	(2)  Government supply sources.  When a contractor will be responsible for preparing requisitioning documentation to acquire Government-furnished property (GFP) from Government supply sources, require the contractor to prepare the documentation in accordance with DLM 4000.25, Defense Logistics Management Standards (DLMS), Volume 2, Supply Standards and Procedures.  Copies are available from the address cited at 208.105
+      
+	(3)  Acquisition and management of industrial resources.  See Subpart 237.75 for policy relating to facilities projects.
+      
+	(4)  GFP identification.
+      
+		(i)  It is DoD policy that GFP be tagged, labeled, or marked based on DoD marking standards (MIL Standard 130) or other standards, when the requiring activity determines that such items are subject to serialized item management (serially-managed items). Identify the list of GFP subject to serialized item management in the contract in accordance with 245.102, Government-furnished property attachments to solicitations and awards.
+         
+		(ii)  Exceptions.  The Contractor is not required to tag, label, or mark-
+         
+			(A)  GFP that was previously tagged, labeled, or marked;
+            
+			(B)  Items, as determined by the head of the agency, that are to be used to support a contingency operation; or to facilitate defense against or recovery from nuclear, biological, chemical, or radiological attack;
+            
+			(C)  Items for which a determination and findings has been executed concluding that it is more cost effective for the Government requiring activity to assign, mark, and register the unique item identification after delivery of an item acquired from a small business concern or a commercial product acquired under FAR part 12 or part 8.
+            
+				(1)  The determination and findings must be executed by-
+                  
+					(i)  The Component Acquisition Executive for an Acquisition Category (ACAT) I program; or
+                     
+					(ii)  The head of the contracting activity for all other programs.
+                     
+				(2)  Provide a copy of the executed determination and findings to the Office of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (Contracting eBusiness) via email at osd.pentagon.ousd-a-s.mbx.dpc-cb@mail.mil.
+                  
+			(D)  Items that are contractor-acquired property;
+            
+			(E)  Property under any statutory leasing authority;
+            
+			(F)  Property to which the Government has acquired a lien or title solely because of partial, advance, progress, or performance-based payments;
+            
+			(G)  Intellectual property or software; or
+            
+			(H)  Real property.
+            
+	(5)  Reporting loss of Government property.  Contractors are required to report all Government property in the GFP module of the Procurement Integrated Enterprise Environment (PIEE) in accordance with  the clause at 252.245-7005, Management and Reporting of Government Property.
+      
+245.103  General.
+
+245.103-70  Furnishing Government property to contractors.
+Follow the procedures at PGI 245.103-70 for furnishing Government property to contractors.
+
+245.103-71  Transferring Government property accountability.
+Follow the procedures at PGI 245.103-71 for transferring Government property accountability.
+
+245.103-72  Government-furnished property attachments to solicitations and awards.
+When performance will require the use of GFP, contracting officers must include the GFP attachment to solicitations and awards.  See PGI 245.103-72 for procedures and helpful links.
+
+245.103-73  Government property under sustainment contracts.
+See PGI 245.103-73 for information on the reporting requirements for Government inventory held by contractors under sustainment contracts. 
+
+245.103-74  Contracting office responsibilities.
+See PGI 245.103-74 for contracting office responsibilities.
+
+245.104  Responsibility and liability for Government property.
+In addition to the contract types listed at FAR 45.104, contractors are not held liable for loss of Government property under negotiated fixed-price contracts awarded on a basis other than submission of certified cost or pricing data.
+
+245.105  Contractors property management system compliance.
+
+	(a)  Definitions . As used in this section-
+   
+	"Acceptable property management system" means a property system that complies with the system criteria in paragraph (c) of the clause at 252.245-7003, Contractor Property Management Administration.
+   
+	"Property management system" means the contractor's system or systems for managing and controlling Government property.
+   
+	(b)  Policy.  The cognizant contracting officer, in consultation with the property administrator, must-
+   
+		(1)  Determine the acceptability of the system and approve or disapprove the system; and
+
+		(2)  Pursue correction of any weaknesses or deficiencies.
+      
+	(c)  In evaluating the acceptability of a contractor's property management system, the contracting officer, in consultation with the property administrator, must determine whether the contractor's property management system complies with the system criteria for an acceptable property management system as prescribed in the clause at 252.245-7003, Contractor Property Management System Administration.
+   
+	(d)  Disposition of findings-
+   
+		(1)  Reporting of findings.  The property administrator must document findings and recommendations in a report to the contracting officer.  If the property administrator identifies any material weaknesses, the report must describe the underlying deficiencies in sufficient detail to allow the contracting officer to understand the weaknesses or deficiencies.
+
+		(2)  Initial determination.
+      
+			(i)  The contracting officer must review findings and recommendations and, if there are no material weaknesses, must promptly notify the contractor, in writing, that the contractor's property management system is acceptable and approved; or
+         
+			(ii)  If the contracting officer finds that there are one or more material weaknesses due to the contractor's failure to meet one or more of the property management system criteria in the clause at 252.245-7003, the contracting officer must-
+         
+				(A)  Promptly make an initial written determination on any material weaknesses and notify the contractor, in writing, providing a description of each material weakness in sufficient detail to allow the contractor to understand the weakness (see PGI 245.105 (d)(2));
+
+				(B)  Request the contractor to respond, in writing, to the initial determination within 30 days and;
+            
+				(C)  Evaluate the contractor's response to the initial determination, in consultation with the property administrator, and make a final determination.
+            
+	(3)  Final determination.
+      
+			(i)  The contracting officer must make a final determination and notify the contractor, in writing, that-
+         
+				(A)  The contractor's property management system is acceptable and approved, and no material weaknesses remain; or 
+            
+				(B)  Material weaknesses remain.  The notice must identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action.  The contracting officer must-
+            
+					(1)  Request that the contractor, within 45 days of receipt of the final determination, either correct the weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+               
+					(2)  Disapprove the system in accordance with the clause at 252.245-7003; and
+               
+					(3)  Withhold payments in accordance with the clause at 252.242-7005 , Contractor Business Systems, if the clause is included in the contract.
+               
+			(ii)  Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses in PGI 245.105 (d)(3).
+         
+	(e)  System approval.  The contracting officer must promptly approve a previously disapproved property management system and notify the contractor when the contracting officer determines, in consultation with the property administrator, that there are no remaining material weaknesses.
+   
+	(f)  Contracting officer notifications.  The cognizant contracting officer must promptly distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+   
+245.107  Contract clauses.
+
+	(1)(i)  In lieu of the prescription at FAR 45.107(d), insert the clause at FAR 52.245-1, Government Property, in all purchase orders for repair, maintenance, overhaul, or modification of Government property regardless of the unit acquisition cost of the items to be repaired.
+      
+		(ii)  For negotiated fixed-price contracts awarded on a basis other than submission of certified cost or pricing data for which Government property is provided, insert the clause at FAR 52.245-1, Government Property, without its Alternate I.
+         
+	(2)  Insert the clause at 252.245-7000, Government-Furnished Mapping, Charting, and Geodesy Property, in solicitations and contracts when mapping, charting, and geodesy property will be furnished.
+      
+	(3)  Insert the clause at 252.245-7003, Contractor Property Management System Administration, in solicitations and contracts containing the clause at FAR 52.245-1, Government Property.
+      
+	(4)  Insert the clause at 252.245-7005, Management and Reporting of Government Property, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that contain the clause at FAR 52.245-1, Government Property.
+      
+
+SUBPART 245.3-AUTHORIZING THE USE AND RENTAL OF GOVERNMENT PROPERTY
+
+245.370  Contracts with foreign governments or international organizations.
+
+	(a)  Definition.  As used in this subpart-
+
+"Major defense equipment" is defined in DoD Directive 2140.2, Recoupment of Nonrecurring Costs on Sales of U.S. Items, as any item of significant military equipment on the United States Munitions List having a nonrecurring research, development, test, and evaluation cost of more than $50 million or a total production cost of more than $200 million.
+
+	(b)  General.
+      
+		(1)  Approval.  A contractor may use Government property on work for foreign governments and international organizations only when approved in writing by the contracting officer having cognizance of the property.  The contracting officer may grant approval, provided-
+         
+			(i)  The use will not interfere with foreseeable requirements of the United States;
+            
+			(ii)  The work is undertaken as a DoD foreign military sale; or
+            
+			(iii)  For a direct commercial sale, the foreign country or international organization would be authorized to contract with the department concerned under the Arms Export Control Act.
+            
+		(2)  Use charges.
+         
+			(i)  The Use and Charges clause is applicable on direct commercial sales to foreign governments or international organizations.
+            
+			(ii)  When a particular foreign government or international organization has funded the acquisition of property, do not assess the foreign government or international organization rental charges or nonrecurring recoupments for the use of such property.
+            
+	(c)  Special tooling and special test equipment.
+      
+		(1)  DoD normally recovers a fair share of nonrecurring costs of special tooling and special test equipment by including these costs in its calculation of the nonrecurring cost recoupment charge when major defense equipment is sold by foreign military sales or direct commercial sales to foreign governments or international organizations.  
+         
+		(2)  When the cost thresholds in paragraph (2)(i) of this section are not met, the contracting officer must assess rental charges for use of special tooling and special test equipment pursuant to the Use and Charges clause if administratively practicable.
+         
+	(d)  Waivers.
+      
+		(1)  Rental charges for use of U.S. production and research property on commercial sales transactions to the Government of Canada are waived for all commercial contracts.  This waiver is based on an understanding wherein the Government of Canada has agreed to waive its rental charges.
+         
+		(2)  Requests for waiver or reduction of charges for the use of Government property on work for foreign governments or international organizations must be submitted to the contracting officer, who is authorized to approve the requests in consultation with the appropriate functional specialist.
+         
+SUBPART 245.4-TITLE TO GOVERNMENT PROPERTY
+
+245.402  Title to contractor-acquired property.
+
+245.402-70  Policy.
+Review the guidance at PGI 245.402-70 with regard to oversight and surveillance of contractor-acquired property.
+
+245.402-71  Delivery of contractor-acquired property.
+Follow the procedures at PGI 245.402-71 for the delivery of contractor-acquired property.
+
+SUBPART 245.6-REPORTING, REUTILIZATION, AND DISPOSAL
+
+245.602  Reutilization of Government property.
+
+245.602-1  Inventory disposal schedules.
+See PGI 245.602-1 for guidance on inventory disposal schedules.
+
+245.602-3  Screening.
+
+Property will be screened DoD-wide, including the contracting agency, requiring agency, and, as appropriate, the General Services Administration.  The requiring agency must have priority for retention of listed items.  All required screening must be completed before any sale of contractor inventory, including contractor inventory in overseas locations (foreign excess personal property) can take place.  Upon request of the prospective reutilization, transfer, donation, or sales customer, the plant clearance officer must arrange for inspection of property at the contractor's plant in such a manner as to avoid interruption of the contractor's operations, and consistent with any security requirements.
+
+245.602-70  Plant clearance procedures.
+Follow the procedures at PGI 245.602-70 for establishing and processing a plant clearance case.
+
+245.604  Sale of surplus personal property.
+Follow the procedures at PGI 245.604 when selling surplus personal property.
+   
+   
+   
+   
+   
+Part 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.245-7000  Government-furnished mapping, charting, and geodesy property.
+As prescribed in 245.107(2), use the following clause:
+
+GOVERNMENT-FURNISHED MAPPING, CHARTING, AND GEODESY PROPERTY (APR 2012)
+
+	(a)  Definition-Mapping, charting, and geodesy (MC&G) property means geodetic, geomagnetic, gravimetric, aeronautical, topographic, hydrographic, cultural, and toponymic data presented in the form of topographic, planimetric, relief, or thematic maps and graphics; nautical and aeronautical charts and publications; and in simulated, photographic, digital, or computerized formats.
+
+	(b)  The Contractor shall not duplicate, copy, or otherwise reproduce MC&G property for purposes other than those necessary for performance of the contract.
+
+	(c)  At the completion of performance of the contract, the Contractor, as directed by the Contracting Officer, shall either destroy or return to the Government all Government-furnished MC&G property not consumed in the performance of this contract.
+(End of clause)
+
+252.245-7003 Contractor Property Management System Administration.
+As prescribed in 245.107(3), insert the following clause:
+
+CONTRACTOR PROPERTY MANAGEMENT SYSTEM ADMINISTRATION (JAN 2025)
+
+	(a)  Definitions.  As used in this clause-
+
+	Acceptable property management system means a property system that complies with the system criteria in paragraph (c) of this clause.
+
+	Material weakness means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+Property management system means the Contractor's system or systems for managing and controlling Government property.
+
+	(b) General.  The Contractor shall establish and maintain an acceptable property management system.  Failure to maintain an acceptable property management system, as defined in this clause, may result in disapproval of the system by the Contracting Officer and/or withholding of payments.
+
+	(c) System criteria.  The Contractor's property management system shall be in accordance with paragraphs (b) and (f) of the contract clause at Federal Acquisition Regulation 52.245-1.
+
+	(d) Material weaknesses.  (1) The Contracting Officer will provide an initial determination to the Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weaknesses or deficiency.
+
+		(2)  The Contractor shall respond within 30 days to a written initial determination from the Contracting Officer that identifies material weaknesses in the Contractor's property management system.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and
+
+			(iii)  System disapproval, if the Contracting Officer determines that one or more material weaknesses remain.
+
+	(e)  If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the material weaknesses.
+
+	(f)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's property management system, and the contract includes the clause at 252.242-7005, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+252.245-7005 Management and Reporting of Government Property.
+As prescribed in 245.107(4), use the following clause:
+
+MANAGEMENT AND REPORTING OF GOVERNMENT PROPERTY (JAN 2024)
+
+	(a)  Definitions.  As used in this clause-
+
+	As is means that the Government makes no warranty with respect to the serviceability and/or suitability of the Government property for contract performance and that the Government will not pay for any repairs, replacement, and/or refurbishment of the property.
+
+	Commercial and Government Entity (CAGE) code means-
+
+		(1)  An identifier assigned to entities located in the United States or its outlying areas by the Defense Logistics Agency (DLA) Commercial and Government Entity (CAGE) Branch to identify a commercial or government entity by unique location; or
+
+		(2)  An identifier assigned by a member of the North Atlantic Treaty Organization (NATO) or by the NATO Support and Procurement Agency (NSPA) to entities located outside the United States and its outlying areas that the DLA Commercial and Government Entity (CAGE) Branch records and maintains in the CAGE master file.  This type of code is known as a NATO CAGE (NCAGE) code.
+
+	Contractor-acquired property, contractor inventory, Government property, Government-furnished property, and loss of Government property have the meanings given in the Federal Acquisition Regulation (FAR) 52.245-1, Government Property, clause of this contract.
+	
+	Demilitarization means the act of eliminating the functional capabilities and inherent military design features from DoD personal property.  Methods and degree range from removal and destruction of critical features to total destruction by cutting, tearing, crushing, mangling, shredding, melting, burning, etc.
+
+	Export-controlled items has the meaning given in the Defense Federal Acquisition Regulation Supplement (DFARS) 252.225-7048, Export-Controlled Items, clause of this contract.
+
+	Ineligible transferee means an individual, an entity, or a country-
+
+		(1)  Excluded from Federal programs by the General Services Administration as identified in the System for Award Management Exclusions located at https://sam.gov;
+
+		(2)  Delinquent on obligations to the U.S. Government under surplus sales contracts;
+
+		(3)  Designated by the Department of Defense as ineligible, debarred, or suspended from defense contracts; or
+
+		(4)   Subject to denial, debarment, or other sanctions under export control laws and related laws and regulations, and orders administered by the Department of State, the Department of Commerce, the Department of Homeland Security, or the Department of the Treasury.
+
+	Item unique identification means a system of assigning, reporting, and marking DoD property with unique item identifiers that have machine-readable data elements to distinguish an item from all other like and unlike items.
+
+	National stock number means a 13-digit stock number used to identify items of supply.  It consists of a four-digit Federal Supply Code and a nine-digit National Item Identification Number.
+
+	Reparable item means an item, typically in unserviceable condition, furnished to the contractor for maintenance, repair, modification, or overhaul.
+Scrap means property that has no value except for its basic material content.  For purposes of demilitarization, scrap is defined as recyclable waste and discarded materials derived from items that have been rendered useless beyond repair, rehabilitation, or restoration such that the item's original identity, utility, form, fit, and function have been destroyed.  Items can be classified as scrap if processed by cutting, tearing, crushing, mangling, shredding, or melting.  Intact or recognizable components and parts are not "scrap."
+
+	Serially-managed item means an item designated by DoD to be uniquely tracked, controlled, or managed in maintenance, repair, and/or supply systems by means of its serial number or unique item identifier.
+
+	Serviceable or usable property means property with potential for reutilization or sale as is or with minor repairs or alterations.
+
+	Supply condition code means a classification of materiel in terms of readiness for issue and use or to identify action underway to change the status of materiel.
+
+	Unique item identifier (UII) means a set of data elements marked on an item that is globally unique and unambiguous.  The term includes a concatenated UII or a DoD recognized unique identification equivalent.
+
+	(b)  Reporting Government property.  (1) The Contractor shall use the Government Furnished Property (GFP) module of the Procurement Integrated Enterprise Environment (PIEE) to-
+
+		(i)  Report receipt of GFP;
+
+		(ii)  Report the transfer of GFP to another DoD contract;
+
+		(iii)  Report the shipment of GFP to the Government or to a contractor.  The GFP module generates the electronic equivalent of the DD Form 1149, DD Form 1348-1, or other required shipping documents;
+
+	(iv)  Report when serially-managed items of GFP are incorporated into a higher-level component, assembly, or end item;
+
+	(v)  Report the loss of Government property in accordance with paragraph (f)(1)(vii) of the FAR 52.245-1 clause of this contract;
+
+	(vi)  Complete the plant clearance inventory schedule in accordance with paragraph (j)(2) of the FAR 52.245-1 clause of this contract, unless disposition instructions are otherwise included in this contract.  The GFP module generates the electronic equivalent of the Standard Form (SF) 1428, Inventory Disposal Schedule; and
+
+	(vii)  Submit a request to buy back or to convert to GFP items of Contractor-acquired property.
+
+		(2)  Information regarding the GFP module is available in the GFP Module Vendor Guide at https://dodprocurementtoolbox.com/site-pages/gfp-resources.  Users may also register for access to the GFP module and obtain training on the PIEE home page at https://piee.eb.mil.
+
+		(3)  In complying with paragraphs (b)(1)(i) through (iv) of this clause, the Contractor shall report the updated status of the property to the GFP module within 7 business days of the date the change in status occurs, unless otherwise specified in the contract.
+
+		(4)  The Contractor shall use Wide Area WorkFlow in accordance with DFARS Appendix F, Material Inspection and Receiving Report, to report the shipment of reparable items after completion of repair, maintenance, modification, or overhaul.
+
+		(5)  When Government property is in the possession of subcontractors, the Contractor shall ensure that reporting is accomplished using the data elements required in paragraph (c) of this clause.
+
+	(c)  Records of Government property.  To facilitate reporting of Government property to the GFP module, the Contractor's property records, in addition to the requirements of paragraph (f)(1)(iii) of the FAR 52.245-1 clause of this contract, shall enable recording of the following data elements:
+
+		(1)  National stock number (NSN).  If an NSN is not available, use either the combination of the manufacturer's CAGE code and part number, or model number.
+
+		(2)  CAGE code on the accountable Government contract.
+
+		(3)  Received/sent (shipped) date.
+
+		(4)  Accountable Government contract number.
+
+		(5)  Serial number (for serially-managed items that do not have a UII); and
+
+		(6)  Supply condition code (only required for reporting of reparable items).  For information on Federal supply condition codes, see DLM 4000.25, Defense Logistics Management Standards (DLMS), Volume 2, Supply Standards and Procedures, Appendix 2.5 at https://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/v2/.
+
+	(d)  Marking, reporting, and UII registration of GFP requirements.  The Contractor-
+
+		(1)  Shall assign the UII and mark the reparable items identified as serially managed in the GFP attachment to this contract with an item unique identification (IUID) data matrix, when the technical drawing for the item is accessible to the Contractor and includes IUID data matrix location and marking method;
+
+		(2)  Shall report the UII either before or during shipment of the repaired item;
+
+		(3)  Is not required to mark items that were previously marked with an IUID data matrix and registered in accordance with DFARS 252.211-7003, Item Unique Identification and Valuation; and
+
+		(4)  Shall assign a new UII, then mark and register the item, when the conditions of paragraph (d)(1) are met, if an item is found to be marked but not registered in the IUID Registry.
+
+	(e)  Disposing of Government property.  (1) The Contractor shall complete the plant clearance inventory schedule using the plant clearance capability of the GFP module of the PIEE to generate an electronic equivalent of the SF 1428, Inventory Disposal Schedule.  The plant clearance inventory schedule requires the following:
+
+			(i)  If known, the applicable Federal supply code (FSC) for all items, except items in scrap condition.
+
+			(ii)  If known, the manufacturer name for all aircraft components under Federal supply group 16 or 17 and FSCs 2620, 2810, 2915, 2925, 2935, 2945, 2995, 4920, 5821, 5826, 5841, 6340, and 6615.
+
+			(iii)  The manufacturer name, make, model number, model year, and serial number for all aircraft under FSCs 1510 and 1520.
+
+		(2)  If the schedules are acceptable, the plant clearance officer will confirm acceptance in the GFP module plant clearance capability, which will transmit a notification to the Contractor.  The electronic acceptance is equivalent to the DD Form 1637, Notice of Acceptance of Inventory.
+
+	(f)  Demilitarization, mutilation, and destruction.  If demilitarization, mutilation, or destruction of contractor inventory is required, the Contractor shall demilitarize, mutilate, or destroy contractor inventory, in accordance with the terms and conditions of the contract and consistent with Defense Demilitarization Manual, DoD Manual (DoDM) 4160.28-M, edition in effect as of the date of this contract.  If the property is available for purchase, the plant clearance officer may authorize the purchaser to demilitarize, mutilate, or destroy as a condition of sale provided the property is not inherently dangerous to public health and safety.
+
+	(g)  Classified Contractor inventory.  The Contractor shall dispose of classified contractor inventory in accordance with applicable security guides and regulations or as directed by the Contracting Officer.
+
+	(h)  Inherently dangerous Contractor inventory.  Contractor inventory that is dangerous to public health or safety shall not be disposed of unless rendered innocuous or until adequate safeguards are provided.
+
+	(i)  Contractor inventory located in foreign countries.  Consistent with contract terms and conditions, property disposition shall be in accordance with foreign and U.S. laws and regulations, including laws and regulations involving export controls, host nation requirements, final governing standards, and government-to-government agreements.  The Contractor's responsibility to comply with all applicable laws and regulations regarding export-controlled items exists independent of, and is not established or limited by, the information provided by this clause.
+
+	(j)  Disposal of scrap-(1) Contractor scrap procedures. 
+
+			(i)  The Contractor shall include, within its property management procedure, a process for the accountability and management of Government-owned scrap.  The process shall, at a minimum, provide for the effective and efficient disposition of scrap, including sales to scrap dealers, so as to minimize costs, maximize sales proceeds, and contain the necessary internal controls for mitigating the improper release of non-scrap property.
+
+			(ii)  The Contractor may commingle Government and contractor-owned scrap and provide routine disposal of scrap, with plant clearance officer concurrence, when determined to be effective and efficient.
+
+		(2)  Scrap warranty.  The plant clearance officer may require the Contractor to secure from scrap buyers a DD Form 1639, Scrap Warranty.
+
+	(k)  Sale of surplus Contractor inventory-
+
+		(1)  Sales procedures. 
+
+			(i)  The Contractor shall conduct sales of contractor inventory (both useable property and scrap) in accordance with the requirements of this contract and plant clearance officer direction.  The Contractor shall include in its invitation for bids the sales terms and conditions provided by the plant clearance officer.
+
+			(ii)  The Contractor may conduct internet-based sales, to include use of a third party.
+
+			(iii)  If the Contractor wishes to bid on the sale, the Contractor or its employees shall submit bids to the plant clearance officer prior to soliciting bids from other prospective bidders.
+
+			(iv)  The Contractor shall solicit bids to obtain adequate competition.  Negotiated sales are subject to obtaining such competition as is feasible under the circumstances of the negotiated sale.
+
+			(v)  The Contractor shall solicit bids at least 15 calendar days before bid opening to allow adequate opportunity to inspect the property and prepare bids.
+(vi) For large sales, the Contractor may use summary lists of items offered as bid sheets with detailed descriptions attached.
+
+			(vii)  In addition to providing notice of the proposed sale to prospective bidders, the Contractor may, when the results are expected to justify the additional expense, display a notice of the proposed sale in appropriate public places, e.g., publish a sales notice on the internet, in appropriate trade journals or magazines, and in local newspapers.
+
+			(viii)  The plant clearance officer or designated Government representative will witness the bid opening.  The Contractor shall submit the bid abstract in electronic format to the plant clearance officer within 2 days of bid opening.  If the Contractor is unable to submit the bid abstract electronically, the Contractor may submit 2 copies of the abstract manually within 2 days of bid opening.  The plant clearance officer will not approve award to any bidder who is an ineligible transferee.
+
+		(2)  Required terms and conditions for sales contracts.  The Contractor shall include the following terms and conditions in sales contracts:
+
+			(i)  For sales contracts or other documents transferring title:
+
+	"The Purchaser certifies that the property covered by this contract will be used 
+in [insert name of country].  In the event of resale or export by the Purchaser of any of the property, the Purchaser agrees to obtain the appropriate U.S. and foreign export or re-export license approval."
+
+			(ii)  For sales contracts that require demilitarization, mutilation, or destruction of property:
+
+"The following items [insert list provided by plant clearance officer] require demilitarization, mutilation, or destruction by the Purchaser.  Additional instructions are provided in accordance with Defense Demilitarization Manual, DoDM 4160.28-M, edition in effect as of the date of this sales contract.  A Government representative will certify and verify demilitarization of items.  Prepare demilitarization certificates in accordance with DoDM 4160.28, Volume 2, section 4.5, DEMIL Certificate (see figure 2, Example DEMIL Certificate)."
+
+			(iii)  Removal and title transfer:
+
+"Property requiring demilitarization shall not be removed, and title shall not pass to the Purchaser, until demilitarization has been accomplished and verified by a Government representative."
+
+			(iv)  Assumption of cost incident to demilitarization:
+
+"The Purchaser agrees to assume all costs incident to the demilitarization and to restore the working area to its present condition after removing the demilitarized property."
+
+			(v)  Failure to demilitarize:
+
+"If the Purchaser fails to demilitarize, mutilate, or destroy the property as specified in the sales contract, the Contractor may, upon giving 10 days written notice to the Purchaser-
+
+				(A)  Repossess, demilitarize, and return the property to the Purchaser, in which case the Purchaser hereby agrees to pay to the Contractor, prior to the return of the property, all costs incurred by the Contractor in repossessing, demilitarizing, and returning the property;
+
+				(B)  Repossess, demilitarize, and resell the property, and charge the defaulting Purchaser with all costs incurred by the Contractor.  The Contractor shall deduct these costs from the purchase price and refund the balance of the purchase price, if any, to the Purchaser.  In the event the costs exceed the purchase price, the defaulting Purchaser hereby agrees to pay these costs to the Contractor; or
+
+				(C)  Repossess and resell the property under similar terms and conditions and charge the defaulting Purchaser with all costs incurred by the Contractor. The Contractor shall deduct these costs from the original purchase price and refund the balance of the purchase price, if any, to the defaulting Purchaser.  Should the excess costs to the Contractor exceed the purchase price, the defaulting Purchaser hereby agrees to pay these costs to the Contractor."
+
+	(l)  Restrictions on purchase or retention of Contractor inventory.  The Contractor may not knowingly sell the inventory to any person or that person's agent, employee, or household member if that person-
+
+		(1)  Is a civilian employee of DoD or the U.S. Coast Guard;
+
+		(2)  Is a member of the Armed Forces of the United States, including the U.S. Coast Guard; or
+
+		(3)  Has any functional or supervisory responsibilities for or within DoD's property disposal, disposition, or plant clearance programs or for the disposal of contractor inventory.
+
+	(m)  Proceeds from sales of surplus property.  Unless otherwise provided in the contract, the proceeds of any sale, purchase, or retention shall be-
+
+		(1)  Forwarded to the Contracting Officer;
+
+		(2)  Credited to the Government as part of the settlement agreement pursuant to the termination of the contract;
+
+		(3)  Credited to the price or cost of the contract; or
+
+		(4)  Applied as otherwise directed by the Contracting Officer.
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0046
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 45
+Defense FAR Supplement (DFARS) Part 245
+
+
+Page 1 of 24
+
+

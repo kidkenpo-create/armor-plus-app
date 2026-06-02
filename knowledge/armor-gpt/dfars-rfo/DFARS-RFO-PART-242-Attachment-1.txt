@@ -1,0 +1,1027 @@
+
+PART 242-CONTRACT ADMINISTRATION AND AUDIT SERVICES 
+
+242.001-70  Interagency agreements.
+
+	(a)  DoD requires reimbursement, at a rate set by the Under Secretary of Defense (Comptroller/Chief Financial Officer), from non-DoD organizations, except for-
+
+		(1)  Quality assurance, contract administration, and audit services provided under a no-charge reciprocal agreement;
+
+		(2)  Services performed under subcontracts awarded by the Small Business Administration under FAR 19.108; and
+
+		(3)  Quality assurance performed for the Canadian Department of National Defence and pricing services performed for Public Works and Government Services Canada (PWGSC), operating as Public Services and Procurement Canada (PSPC).
+
+	(b)  Departments and agencies may request an exception from the reimbursement policy in paragraph ((a) of this section from the Under Secretary of Defense (Comptroller/Chief Financial Officer).  The request must show that an exception is in the best interest of the Government.
+
+	(c)  Departments and agencies must pay for services performed by non-DoD activities, foreign governments, or international organizations, unless specified otherwise by reciprocal agreements.
+
+	(d)  Foreign governments and international organizations may request contract administration services on their direct purchases from U.S. producers.  Direct purchase is the purchase of defense supplies in the United States through commercial channels for use by the foreign government or international organization.
+
+		(1) PWGSC, operating as PSPC, is permitted to submit its requests for contract administration services directly to the cognizant contract administration office.
+
+		(2) Other foreign governments (including Canadian government organizations other than PSPC and international organizations send their requests for contract administration services to the DoD Central Control Point (CCP) at the Headquarters, Defense Contract Management Agency, International and Federal Business Team.  Contract administration offices provide services only upon request from the CCP.  The CCP must follow the procedures at PGI 242.001-70(d)(2).
+
+SUBPART 242.2-CONTRACT ADMINISTRATION SERVICES
+
+242.202-70 Assignment of contract administration.
+
+	(a)  Unless an exception in paragraph (b) of this section applies, the Defense Contract Management Agency (DCMA) must administer any contract that requires performance of any contract administration function at or near a contractor facility.  
+
+		(1)  DCMA has contracting personnel assigned to perform contract administration at contractor facilities. 
+
+		(2)  Contracting activities may not locate contracting office personnel at contractor facilities, except-
+
+			(i) In support of contracts retained for administration in accordance with paragraph (b) of this section; or
+
+			(ii) As permitted under subpart 242.74.
+
+		(3)  DCMA must provide preaward survey assistance for work performed on a base, post, camp, station, or other military installation.  The contracting office and the DCMA preaward survey monitor should jointly determine the scope of the survey and individual responsibilities.
+
+	(b)  DoD activities must retain contract administration for any of the following contracts:
+
+		(1) The National Security Agency contracts;
+
+		(2) Contracts for research and development with universities;
+
+		(3) Flight training contracts;
+
+		(4) Management and professional support services contracts;
+
+		(5) Mapping, charting, and geodesy services contracts;
+
+		(6) Base, post, camp, and station purchases, including services performed onsite (see PGI 242.202-70(b)(6));
+
+		(7) Contracts for operation or maintenance of, or installation of equipment at, radar or communication network sites;
+
+		(8) Communications services contracts;
+
+		(9) Contracts for installation, operation, and maintenance of space-track sensors and relays;
+
+		(10) Dependents Medicare program contracts;
+
+		(11) Stevedoring contracts;
+
+		(12) Contracts for construction and maintenance of military and civil public works, including harbors, docks, port facilities, military housing, development of recreational facilities, water resources, flood control, and public utilities;
+
+		(13) Architect-engineer services contracts;
+
+		(14) Airlift and sealift services contracts (Air Mobility Command and Military Sealift Command may perform contract administration services at contractor locations involved solely in performance of airlift or sealift contracts);
+
+		(15) Subsistence supply contracts;
+
+		(16) Contracts at ballistic missile sites (contract administration offices may perform supporting administration of these contracts at missile activation sites during the installation, test, and checkout of the missiles and associated equipment);
+
+		(17) Contracts for operation and maintenance of, or installation of equipment at, military test ranges, facilities, and installations; and
+
+		(18) The Defense Energy Support Center, Defense Logistics Agency, contracts.
+
+		(19) Contracts awarded to commercial entities for shipbuilding, conversion, and repair at the facilities of such entities.
+
+242.202-71  Secondary delegations of contract administration.
+
+	(a)  A contract administration office may request support, in special circumstances, from a component not listed in the Federal Directory of Contract Administration Services Components (available via the internet at https://piee.eb.mil/pcm/xhtml/unauth/index.xhtml).
+
+	(b)  Follow the procedures at PGI 242.202-71 when requesting support on a subcontract that includes foreign military sale contract requirements.  
+
+SUBPART 242.3-CONTRACT ADMINISTRATION OFFICE FUNCTIONS
+
+242.301  General.
+Contract administration services performed outside the United States should be performed in accordance with FAR 42.301 unless there are established policies and procedures addressing the specific situation.  In this case, coordinate proposed actions with the appropriate U.S. country teams or commanders of unified and specified commands.
+
+242.302-70  Contract administration functions.
+
+	(a)(1)  See 242.7502 for ACO responsibilities upon receipt of  an audit report identifying significant accounting system or related internal control weaknesses or deficiencies.
+
+		(2)  For contract administration functions related to IR&D projects and B&P projects performed by major contractors, see 242.570-3(a).
+
+		(3)  Perform all payment administration in accordance with the applicable payment clauses.
+
+		(4)  Do not delegate the responsibility to make payments to the Defense Contract Management Agency (DCMA).  Follow the procedures at PGI 242.302-70(a)(4) for designation of payment offices.
+
+		(5)  See PGI 223.370-4 for contract administration responsibilities of contracts for ammunition and explosives.
+
+		(6)  Incorporate requirements for surveillance of aircraft flight and ground operations into the contract, task order, or delivery order.  Use the applicable version of the combined regulation/instruction entitled "Contractor's Flight and Ground Operations" (Air Force Instruction 10-220, Army Regulation 95-20, Naval Air Systems Command (NAVAIR) Instruction 3710.1 (Series), Coast Guard Instruction M13020.3 (Series), and Defense Contract Management Agency Instruction 8210-1 (Series)).  See PGI 242.302-70(a)(6).
+
+		(7)  Support program offices and buying activities in preaward efforts leading to a solicitation or award.
+
+		(8)  Serve as the single point of contact for all Single Process Initiative (SPI) Management Council activities.  The ACO must negotiate and execute facility-wide class modifications and agreements for SPI processes, when authorized by the affected components.
+
+		(9)  DCMA is responsible for reviewing earned value management system (EVMS) plans and for verifying initial and continuing contractor compliance with DoD EVMS criteria.  Do not retain this function.
+
+		(10)  Require contractor implementation of the Synchronized Predeployment and Operational Tracker (SPOT) and maintain surveillance over contractor compliance with SPOT business rules available at the website: https://www.acq.osd.mil/asds/log/cso/ocs/spot.html for contracts incorporating the clause at 252.225-7040, Contractor Personnel Supporting U.S. Armed Forces Deployed Outside the United States.  See PGI 242.302-70(a)(10) for guidance on assessing contractor's implementation of SPOT.
+
+		(11)  Maintain surveillance over contractor compliance with trafficking in persons requirements for all DoD contracts for services incorporating the clause at FAR 52.222-50, Combating Trafficking in Persons, and, when necessary, its Alternate I, as identified in the clause prescription at FAR 22.1703-2.  (See PGI 222.1703.)
+
+		(12)  Approve or disapprove contractor business systems, as identified in the clause at 252.242-7998, Contractor Business Systems.
+
+		(13)  See PGI 242.302-70(a)(13) for guidelines on monitoring contractor costs.
+
+		(14)  Review and audit contractor identification of contractor-approved suppliers for the acquisition of electronic parts, as identified in the clause at 252.246-7008, Sources of Electronic Parts.
+
+	(b)(1)  Issue, negotiate, and execute orders under basic ordering agreements for overhaul, maintenance, and repair of ships, only upon prior coordination and agreement with the ACO.
+
+		(2)  Work with the contract administration office (CAO) to resolve questioned direct costs.  
+
+			(i)  Negotiate or settle questioned direct costs in an incurred cost audit, except for classified contracts.  The procuring contracting officer may delegate this authority to the CAO only upon prior coordination and agreement with the CAO.  Upon such delegation, the procuring contracting officer must provide the CAO access within 30 days to all supporting documentation in their possession related to the questioned direct costs in an incurred cost audit.
+
+			(ii)  After settlement of the questioned direct costs, the CAO must provide the procuring contracting office the results of the settlement.  The procuring contracting office must make any adjustments resulting from the settlement on affected contracts and report such adjustments to the CAO.
+
+SUBPART 242.4--CORPORATE ADMINISTRATIVE CONTRACTING OFFICER
+
+242.402  Assignment and location.
+
+	(c)  If the agencies cannot agree, refer the matter to the Principal Director, 
+Defense Pricing, Contracting, and Acquisition Policy.
+
+SUBPART 242.5-INDIRECT COST RATES
+
+242.505  Final indirect cost rates.
+
+See DoD Class Deviation 2012-O0013, DCAA Policy and Procedure for Sampling Low-Risk Incurred Cost Proposals. 
+
+242.505-1  Contracting officer determination procedure.
+
+	(a)  Applicability and responsibility.
+
+		(1)  The corporate administrative contracting officer and individual administrative contracting officers must jointly decide how to conduct negotiations.  Follow the procedures at PGI 242.505-1(a)(1) when negotiations are conducted on a coordinated basis.
+
+242.505-2  Auditor determination procedure.
+
+	(b)  Procedures.
+
+		(2)(iii)  When agreement cannot be reached with the contractor, the auditor will issue a DCAA Form 1, Notice of Contract Costs Suspended and/or Disapproved, in addition to the advisory report to the administrative contracting officer.
+
+242.507  Quick-closeout procedure.
+
+	(a)  Defense Contract Management Agency (DCMA) administrative contracting officers are authorized to negotiate the settlement of direct and indirect costs for a specific contract, task order, or delivery order to be closed in advance of the determination of final direct costs and indirect rates set forth in FAR 42.505, regardless of the dollar value or percentage of unsettled direct or indirect costs allocable to the contract, task order, or delivery order.
+
+		(2)  In lieu of the thresholds at FAR 42.507(a)(2), the amount of unsettled direct costs and indirect costs to be allocated to the contract, task order, or delivery order will be considered relatively insignificant when the total unsettled direct costs and indirect costs to be allocated to any one contract, task order, or delivery order do not exceed $2 million, regardless of the total contract, task order, or delivery order amount.
+
+
+242.570  Independent research and development and bid and proposal costs.
+
+242.570-1  Scope.
+This section implements 10 U.S.C. 3762, Independent research and development costs: allowable costs; 10 U.S.C. 3763, Bid and proposal costs: allowable costs; and 10 U.S.C. 3847, Defense Contract Audit Agency: annual report.
+
+242.570-2  Policy.
+Defense contractors are encouraged to engage in independent research and development (IR&D) projects that will advance the needs of DoD for future technology and advanced capability (see part 231).
+
+242.570-3  Responsibilities.
+
+	(a)  The cognizant administrative contracting officer (ACO) or corporate ACO must determine cost allowability of IR&D costs and bid and proposal (B&P) costs as set forth in 231.205-18 and FAR 31.205-18.
+
+	(b)  The Defense Contract Audit Agency (DCAA)-
+
+		(1)  Submit an annual report on the DoD-wide B&P program, to the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, Office of the Under Secretary of Defense for Acquisition and Sustainment, in connection with 10 U.S.C. 3763(c); DCMA or the military department responsible for performing contract administration functions is responsible for providing DCAA with statistical information, as necessary; and
+
+		(2)  For IR&D costs and B&P costs incurred under any DoD contract in the previous Government fiscal year, submit an annual report to the congressional defense committees as required by 10 U.S.C. 3847.
+
+	(c)  The Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&E)), is responsible for establishing a regular method for communication-
+
+		(1)(i)  From DoD to contractors, of timely and comprehensive information regarding planned or expected needs of DoD for future technology and advanced capability, by posting information on communities of interest and upcoming meetings on the Defense Technical Information Center (DTIC) website at https://defenseinnovationmarketplace.dtic.mil/communities-of-interest; and
+
+			(ii)  From contractors to DoD, of brief technical descriptions of contractor IR&D projects; and
+
+		(2)  By providing OUSD(R&E) contact information:  osd.pentagon.ousd-re.mbx.communications@mail.mil.
+
+
+SUBPART 242.6-DISALLOWANCE OF COSTS
+
+
+242.603-70  Disallowing costs after incurrence.
+
+	(a)  Contracting officer receipt of vouchers.  Contracting officer receipt of vouchers is applicable only for cost-reimbursement contracts with the Canadian Commercial Corporation.  See PGI 225.870-5 for invoice procedures.
+
+	(b)  Auditor receipt of voucher.
+
+		(1)  The contract auditor is the authorized representative of the contracting officer for-
+
+			(i)  Receiving vouchers from contractors electronically or by other delivery methods as directed by the terms of the contract;
+
+			(ii)  Approving interim vouchers, that were selected using sampling methodologies for provisional payment and sending them to the disbursing office after a pre-payment review.  Interim vouchers not selected for a pre-payment review are considered provisionally approved and will be sent directly to the disbursing office.  All provisionally approved interim vouchers are subject to a later audit of actual costs incurred;
+
+			(iii)  Reviewing completion/final vouchers and sending them to the administrative contracting officer; and
+
+			(iv)  Issuing DCAA Forms 1, Notice of Contract Costs Suspended and/or Disapproved, to deduct costs where allowability is questionable.
+
+		(2)  The administrative contracting officer-
+
+			(i)  Approves all completion/final vouchers and sends them to the disbursing officer; and
+
+			(ii)  May issue or direct the issuance of DCAA Form 1 on any cost when there is reason to believe it should be suspended or disallowed.
+
+SUBPART 242.8-PRODUCTION SURVEILLANCE AND REPORTING
+
+242.803-70  Surveillance requirements.
+
+The cognizant contract administration office-
+
+	(a)  Must perform production surveillance on all contractors that have Criticality Designator A or B contracts;
+
+	(b)  Must not perform production surveillance on contractors that have only Criticality Designator C contracts, unless specifically requested by the contracting officer; and
+
+	(c)  When production surveillance is required-
+
+		(1)  Conduct a periodic risk assessment of the contractor to determine the degree of production surveillance needed for all contracts awarded to that contractor.  The risk assessment must consider information provided by the contractor and the contracting officer;
+
+		(2)  Develop a production surveillance plan based on the risk level determined during a risk assessment;
+
+		(3)  Modify the production surveillance plan to incorporate any special surveillance requirements for individual contracts, including any requirements identified by the contracting officer; and
+
+		(4)  Monitor contract progress and identify potential contract delinquencies in accordance with the production surveillance plan.  Contracts with Criticality Designator C are exempt from this requirement unless specifically requested by the contracting officer.
+
+242.804-70  Assignment of criticality designator.
+See PGI 242.804-70 for criticality designator assignment procedures.
+	
+242.804-71  Reporting requirements.
+See PGI 242.804-71 for production and surveillance reporting requirements  
+	
+242.805-70  Contract clause.
+
+	(a)  When using the clause at FAR 52.242-2, include the following instructions in the contract schedule-
+
+		(1)  Frequency and timing of reporting (normally five working days after each reporting period);
+
+		(2)  Line items, exhibits, or exhibit line items requiring reports;
+
+		(3)  Offices (with addressees/codes) where reports should be sent (always include the contracting office and contract administration office); and
+
+		(4)  The following requirements for report content-
+
+			(i)  The problem, actual or potential, and its cause;
+
+			(ii)  Items and quantities affected;
+
+			(iii)  When the delinquency started or will start;
+
+			(iv)  Actions taken to overcome the delinquency;
+
+			(v)  Estimated recovery date; and/or
+
+			(vi)  Proposed schedule revision.
+
+
+SUBPART 242.9-NOVATION AND CHANGE-OF-NAME AGREEMENTS
+
+242.902-70  Processing agreements.
+Process and execute novation and change-of-name agreements in accordance with the procedures at PGI 242.902-70.
+
+242.903  Applicability of novation agreements.
+
+	(i)  When a novation agreement is required and the transferee intends to incur restructuring costs as defined at 231.205-70, include the following provision as paragraph (b)(7) of the novation agreement instead of the paragraph (b)(7) provided in the sample format at FAR 42.903(i):
+
+		"(7)(i)  Except as set forth in paragraph (7)(ii), the Transferor and the Transferee agree that the Government is not obligated to pay or reimburse either of them for, or otherwise give effect to, any costs, taxes, or other expenses, or any related increases, directly or indirectly arising out of or resulting from the transfer or this Agreement, other than those that the Government in the absence of this transfer or Agreement would have been obligated to pay or reimburse under the terms of the contracts.
+
+			(ii)  The Government recognizes that restructuring by the Transferee incidental to the acquisition/merger may be in the best interests of the Government.  Restructuring costs that are allowable under Part 31 of the Federal Acquisition Regulation (FAR) or Part 231 of the Defense Federal Acquisition Regulation Supplement (DFARS) may be reimbursed under flexibly-priced novated contracts, provided the Transferee demonstrates that the restructuring will reduce overall costs to the Department of Defense (DoD) (and to the National Aeronautics and Space Administration (NASA), where there is a mix of DoD and NASA contracts), and the requirements included in DFARS 231.205-70 are met.  Restructuring costs are prohibited on novated contracts unless there is an audit of the restructuring proposal; a determination by the contracting officer of overall reduced costs to DoD/NASA; and an Advance Agreement setting forth a cumulative cost ceiling for restructuring projects and the period to which such costs shall be assigned".
+
+SUBPART 242.11-CONTRACTOR PERFORMANCE INFORMATION
+
+242.1102-70  Policy.
+
+	(a)  Include the following in the Contractor Performance Assessment Reporting System (CPARS)-
+
+		(1)  Assessments of the contractor's performance against, and efforts to achieve, the goals identified in its comprehensive small business subcontracting plan when the contract contains 252.219-7997 Small Business Subcontracting Plan (Test Program);
+
+		(2)  Notations on contractors that have denied multiple requests for submission of data other than certified cost or pricing data over the preceding 3-year period, but nevertheless received an award, unless exempted by the head of the contracting activity (10 U.S.C. 3705(b)(2)(B)); and
+
+		(3)  Information on contractor compliance with requirements of the clause at 252.247-7023, Transportation of Supplies by Sea (see 10 U.S.C. 2631(d)).
+
+	(b)  Evaluate contractor performance for contracts, task orders, and delivery orders using the thresholds at DFARS 215.104-70(g) in lieu of the thresholds at FAR 42.1102(b) through (d).  
+
+	(c)  See DFARS subparts 208.2 and 208.3 for evaluating service contracts awarded to AbilityOne participating nonprofit agencies and Federal Prison Industries, Inc., respectively. 
+
+SUBPART 242.70-CONTRACTOR BUSINESS SYSTEMS
+
+242.7000  Contractor business system deficiencies.
+
+	(a)  Definitions.  As used in this subpart-
+
+"Acceptable contractor business systems" means contractor business systems that comply with the terms and conditions of the applicable business system clauses listed in the definition of "contractor business systems" in this section.
+
+"Contractor business systems" means-
+
+		(i)  Accounting system, if the contract includes the clause at 252.242-7999, Accounting System Administration;
+
+		(ii)  Earned value management system, if the contract includes the clause at 252.234-7999, Earned Value Management System;
+
+		(iii)  Estimating system, if the contract includes the clause at 252.215-7002, Cost Estimating System Requirements;
+
+		(iv)  Material management and accounting system, if the contract includes the clause at 252.242-7997, Material Management and Accounting System;
+
+		(v)  Property management system, if the contract includes the clause at 252.245-7003, Contractor Property Management System Administration; and
+
+		(vi)  Purchasing system, if the contract includes the clause at 252.244-7998, Contractor Purchasing System Administration.  
+
+"Covered contract" means a contract that is subject to the Cost Accounting Standards under 41 U.S.C. chapter 15, as implemented in regulations found at 48 CFR 9903.201-1 
+(10 U.S.C. 3841 note prec).
+
+	(b)  Determination to withhold payments.  If the contracting officer makes a final determination to disapprove a contractor's business system in accordance with the clause at 252.242-7998, Contractor Business Systems, the contracting officer must-
+
+		(1)  In accordance with agency procedures, identify one or more covered contracts containing the clause at 252.242-7998 from which payments will be withheld.  When identifying the covered contracts from which to withhold payments, the contracting officer must  ensure that the total amount of payment withholding under  252.242-7998, when there are material weaknesses in multiple contractor business systems, does not exceed 10 percent of progress payments, performance-based payments, and interim payments under cost-reimbursement, labor-hour, and time-and-materials contracts billed under each of the identified covered contracts.  Similarly, the contracting officer must ensure that the total amount of payment withholding under the clause at 252.242-7998 for each business system does not exceed 5 percent of progress payments, performance-based payments, and interim payments under cost-reimbursement, labor-hour, and time-and-materials contracts billed under each of the identified covered contracts.  The contracting officer has the sole discretion to identify the covered contracts from which to withhold payments.
+
+		(2)  Promptly notify the contractor, in writing, of the contracting officer's determination to implement payment withholding in accordance with the clause at 252.242-7998.  Include the notice of payment withholding in the written final determination for the contractor business system and inform the contractor that-
+
+			(i)  Payments must be withheld from the contract or contracts identified in the written determination in accordance with the clause at 252.242-7998 until the contracting officer determines that there are no remaining material weaknesses; and
+
+			(ii)  The contracting officer reserves the right to take other actions within the terms and conditions of the contract.
+
+		(3)  Provide a copy of the determination to all contracting officers administering the selected contracts from which payments will be withheld.  The contracting officer must also provide a copy of the determination to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+	(c)  Monitoring contractor's corrective action.  In consultation with the auditor or functional specialist, monitor the contractor's progress in correcting the weaknesses.  Notify the contractor of any decision to decrease or increase the amount of payment withholding in accordance with the clause at 252.242-7998.
+
+	(d)  Correction of material weaknesses.
+
+		(1)  If the contractor notifies the contracting officer that the contractor has corrected the material weaknesses, the contracting officer must request the auditor or functional specialist to review the correction to verify that the weaknesses have been corrected.  If, after receipt of verification, the contracting officer determines that the contractor has corrected all material weaknesses as directed by the contracting officer's final determination, the contracting officer must discontinue the withholding of payments, release any payments previously withheld, and approve the system, unless other material weaknesses remain.
+
+		(2)  Prior to the receipt of verification, the contracting officer may discontinue withholding payments pending receipt of verification, and release any payments previously withheld, if the contractor submits evidence that the material weaknesses have been corrected, and the contracting officer, in consultation with the auditor or functional specialist, determines that there is a reasonable expectation that the corrective actions have been implemented by the contractor and are expected to correct the material weaknesses.
+
+		(3)  Within 90 days of receipt of the contractor notification that the contractor has corrected the material weaknesses, the contracting officer must-
+
+			(i)  Make a determination that-
+
+				(A)  The contractor has corrected all material weaknesses as directed by the contracting officer's final determination in accordance with paragraph (d)(1) of this section;
+
+				(B)  There is a reasonable expectation that the corrective actions have been implemented in accordance with paragraph (d)(2) of this section; or
+
+				(C)  The contractor has not corrected all material weaknesses as directed by the contracting officer's final determination in accordance with paragraph (d)(1) of this section, or there is not a reasonable expectation that the corrective actions have been implemented in accordance with paragraph (d)(2) of this section; or
+
+			(ii)  Reduce withholding directly related to the material weaknesses covered under the corrective action plan by at least 50 percent of the amount being withheld from progress payments and performance-based payments, and direct the contractor, in writing, to reduce the percentage withheld on interim cost vouchers by at least 50 percent, until the contracting officer makes a determination in accordance with paragraph (d)(3)(i) of this section.
+
+		(4)  If, at any time, the contracting officer determines that the contractor has failed to correct the material weaknesses identified in the contractor's notification, the contracting officer will continue, reinstate, or increase withholding from progress payments and performance-based payments, and direct the contractor, in writing, to continue, reinstate, or increase the percentage withheld on interim cost vouchers to the percentage initially withheld, until the contracting officer determines that the contractor has corrected all material weaknesses as directed by the contracting officer's final determination.
+
+	(e)  Sample formats.  See PGI 242.7000 for sample formats of contracting officer determinations for use with the clause at 252.242-7998.
+
+242.7001  Contract clause.
+Insert the clause at 252.242-7998, Contractor Business Systems, in solicitations and contracts (other than in contracts with educational institutions, Federally Funded Research and Development Centers (FFRDCs), or University Associated Research Centers (UARCs) operated by educational institutions) when- 
+
+	(a)  The resulting contract will be a covered contract as defined in 242.7000(a); and
+
+	(b)  The solicitation or contract includes any of the following clauses:
+
+		(1)  252.215-7002, Cost Estimating System Requirements.
+
+		(2)  252.234-7999, Earned Value Management System.
+
+		(3)  252.242-7997, Material Management and Accounting System.
+
+		(4)  252.242-7999, Accounting System Administration.
+
+		(5)  252.244-7998, Contractor Purchasing System Administration.  
+
+		(6)  252.245-7003, Contractor Property Management System
+Administration.
+
+SUBPART 242.71-VOLUNTARY REFUNDS
+
+242.7100  General.
+A voluntary refund is a payment or credit (adjustment under one or more contracts or subcontracts) to the Government from a contractor or subcontractor that is not required by any contractual or other legal obligation.  Follow the procedures at PGI 242.7100 for voluntary refunds.
+
+SUBPART 242.72-CONTRACTOR MATERIAL MANAGEMENT AND ACCOUNTING SYSTEM
+
+242.7200  Scope of subpart.
+
+	(a)  This subpart provides policies, procedures, and standards for use in the evaluation of a contractor's material management and accounting system (MMAS).
+
+	(b)  The policies, procedures, and standards in this subpart-
+
+		(1)  Apply only when the contractor has contracts exceeding the simplified acquisition threshold that are not for the acquisition of commercial products or commercial services and are either-
+
+			(i)  Cost-reimbursement contracts; or
+
+			(ii)  Fixed-price contracts with progress payments made on the basis of costs incurred by the contractor as work progresses under the contract; and
+
+		(2)  Do not apply to small businesses, educational institutions, or nonprofit organizations.
+
+242.7201  Definitions.
+
+As used in this subpart-
+
+	"Acceptable material management and accounting system" means a material management and accounting system that generally complies with the system criteria in paragraph (d) of the clause at 252.242-7997, Material Management and Accounting System.
+
+	"Material management and accounting system (MMAS)" means the contractor's system or systems for planning, controlling, and accounting for the acquisition, use, issuing, and disposition of material.  Material management and accounting systems may be manual or automated.  They may be stand-alone systems, or they may be integrated with planning, engineering, estimating, purchasing, inventory, accounting, or other systems.
+
+	"Valid time-phased requirements" means material that is-
+
+		(1)  Needed to fulfill the production plan, including reasonable quantities for scrap, shrinkage, yield, etc.; and
+
+		(2)  Charged or billed to contracts or other cost objectives in a manner consistent with the need to fulfill the production plan.
+
+242.7202  Policy.
+
+	(a)  Contractors are required to have an MMAS that conforms to the standards in paragraph (d) of the clause at 252.242-7997, Material Management and Accounting System, so that the system-
+
+		(1)  Reasonably forecasts material requirements;
+
+		(2)  Ensures the costs of purchased and fabricated material charged or allocated to a contract are based on valid time-phased requirements; and
+
+		(3)  Maintains a consistent, equitable, and unbiased logic for costing of material transactions.
+
+	(b)  If appropriate, in consultation with the auditor and functional specialist-
+
+		(1)  Determine the acceptability of the contractor's MMAS and approve or disapprove the system; and
+
+		(2)  Pursue correction of any weaknesses or deficiencies.
+
+	(c)  In consultation with the auditor and functional specialist, if appropriate, determine whether the contractor's MMAS complies with the system criteria for an acceptable MMAS as prescribed in the clause at 252.242-7997, Material Management and Accounting System.
+
+242.7203  Review procedures.
+
+	(a)  Criteria for conducting reviews.  Conduct an MMAS review when-
+
+		(1)  A contractor has $40 million of qualifying sales to the Government during the contractor's preceding fiscal year; and
+
+		(2)  The administrative contracting officer (ACO), with advice from the auditor, determines an MMAS review is needed based on a risk assessment of the contractor's past experience and current vulnerability.
+
+	(b)  Qualifying sales.  Qualifying sales are sales for which certified cost or pricing data were required under 10 U.S.C. 3702, as implemented in FAR 15.403, or that are contracts priced on other than a firm-fixed-price or fixed-price with economic price adjustment basis.  Sales include prime contracts, subcontracts, and modifications to such contracts and subcontracts.
+
+	(c)  Disposition of findings-
+
+		(1)  Reporting of findings.  The auditor or functional specialist must document findings and recommendations in a report provided to the contracting officer.  If the auditor or functional specialist identifies any material weakness, the report must describe the weaknesses or deficiencies in sufficient detail to allow the contracting officer to understand the weaknesses or deficiencies.
+
+		(2)  Initial determination.
+
+			(i)  Review findings and recommendations and, if there are no material weaknesses, promptly notify the contractor, in writing, that the contractor's MMAS is acceptable and approved; or
+
+			(ii)  If there are one or more material weaknesses due to the contractor's failure to meet one or more of the MMAS system criteria in the clause at 252.242-7997-
+
+				(A)  Promptly make an initial written determination on any material weaknesses and notify the contractor, in writing, providing a description of each material weakness in sufficient detail to allow the contractor to understand the weakness or deficiency;
+
+				(B)  Request the contractor to respond, in writing, to the initial determination within 30 days; and
+
+				(C)  Promptly evaluate the contractor's response to the initial determination in consultation with the auditor or functional specialist and make a final determination (see PGI 242.7203(c)(2)).
+
+		(3)  Final determination.
+
+			(i)  The ACO must make a final determination and notify the contractor that-
+
+				(A)  The contractor's MMAS is acceptable and approved, and no deficiencies remain; or
+
+				(B)  Material weaknesses remain.  Identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action.  The contracting officer must -
+
+					(1)  Request that the contractor, within 45 days of receipt of the final determination, either correct the weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+
+					(2)  Disapprove the system in accordance with the clause at 252.242-7997; and
+
+					(3)  Withhold payments in accordance with the clause at 252.242-7998, Contractor Business Systems, if the clause is included in the contract.
+
+			(ii)  Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses in PGI 242.7203(c)(3).
+
+	(d)  System approval.  Promptly approve a previously disapproved MMAS and notify the contractor when the contracting officer determines that there are no remaining material weaknesses.
+
+	(e)  Contracting officer notifications.  Promptly distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+242.7204  Contract clause.
+
+Insert the clause at 252.242-7997, Material Management and Accounting System, in all solicitations and contracts exceeding the simplified acquisition threshold that are not for the acquisition of commercial products or commercial services and-
+
+	(a)  Are not awarded to small businesses, educational institutions, or nonprofit organizations; and
+
+	(b)  Are either-
+
+		(1)  Cost-reimbursement contracts; or
+
+		(2)  Fixed-price contracts with progress payments made on the basis of costs incurred by the contractor as work progresses under the contract.
+
+SUBPART 242.73--CONTRACTOR INSURANCE/PENSION REVIEW
+
+242.7301  General.
+
+	(a)  The administrative contracting officer (ACO) is responsible for determining the allowability of insurance/pension costs in Government contracts and for determining the need for a Contractor/Insurance Pension Review (CIPR).  Defense Contract Management Agency (DCMA) insurance/pension specialists and Defense Contract Audit Agency (DCAA) auditors assist ACOs in making these determinations, conduct CIPRs when needed, and perform other routine audits as authorized under FAR 42.505 and 52.215-2.  A CIPR is a DCMA/DCAA joint review that-
+
+		(1)  Provides an in-depth evaluation of a contractor's-
+
+			(i)  Insurance programs;
+
+			(ii)  Pension plans;
+
+			(iii)  Other deferred compensation plans; and
+
+			(iv)  Related policies, procedures, practices, and costs; or
+
+		(2)  Concentrates on specific areas of the contractor's insurance programs, pension plans, or other deferred compensation plans.
+
+	(b)  DCMA is the DoD Executive Agent for the performance of all CIPRs.
+
+	(c)  DCAA is the DoD agency designated for the performance of contract audit responsibilities related to Cost Accounting Standards administration as described in FAR subparts 30.1, 30.2, and 30.4 as they relate to a contractor's insurance programs, pension plans, and other deferred compensation plans.
+
+242.7302  Requirements.
+
+	(a)(1)  Conduct an in-depth CIPR as described at DFARS 242.7301(a)(1)  when-
+
+			(i)  A contractor has $50 million of qualifying sales to the Government during the contractor's preceding fiscal year; and
+
+			(ii)  The ACO, with advice from DCMA insurance/pension specialists and DCAA auditors, determines a CIPR is needed based on a risk assessment of the contractor's past experience and current vulnerability.
+
+		(2)  Qualifying sales are sales for which certified cost or pricing data were required under 10 U.S.C. 3702, as implemented in FAR 15.403, or that are contracts priced on other than a firm-fixed-price or fixed-price with economic price adjustment basis.   Sales include prime contracts, subcontracts, and modifications to such contracts and subcontracts.
+
+	(b)  A special CIPR that concentrates on specific areas of a contractor's insurance programs, pension plans, or other deferred compensation plans must be performed for a contractor (including, but not limited to, a contractor meeting the requirements in paragraph (a) of this section) when any of the following circumstances exists, but only if the circumstance(s) may result in a material impact on Government contract costs:
+
+		(1)  Information or data reveals a deficiency in the contractor's 
+insurance/pension program.
+
+		(2)  The contractor proposes or implements changes in its insurance, pension, or deferred compensation plans.
+
+		(3)  The contractor is involved in a merger, acquisition, or divestiture.
+
+		(4)  The Government needs to follow up on contractor implementation of prior CIPR recommendations.
+
+	(c)  The DCAA auditor must use relevant findings and recommendations of previously performed CIPRs in determining the scope of any audits of insurance and pension costs.
+
+	(d)  When a Government organization believes that a review of the contractor's insurance/pension program should be performed, that organization should provide a recommendation for a review to the ACO.  If the ACO concurs, the review should be performed as part of an ACO-initiated special CIPR or as part of a CIPR already scheduled for the near future.
+
+242.7303  Responsibilities.
+Follow the procedures at PGI 242.7303 when conducting a CIPR.
+
+
+SUBPART 242.74-TECHNICAL REPRESENTATION AT CONTRACTOR FACILITIES
+
+242.7400  General.
+
+	(a)  Program managers may determine that they need technical representation in contractor facilities to perform non-contract administration technical duties and to provide liaison, guidance, and assistance on systems and programs.  In these cases, the program manager may assign technical representatives under the procedures in 242.7401.
+
+	(b)  A technical representative is a representative of a DoD program, project, or system office performing non-contract administration technical duties at or near a contractor facility.  A technical representative is not-
+
+		(1)  A representative of a contract administration or contract audit component; or
+
+		(2)  A contracting officer's representative (see 201.404).
+
+242.7401  Procedures.
+When the program, project, or system manager determines that a technical representative is required, follow the procedures at PGI 242.7401.
+
+SUBPART 242.75-CONTRACTOR ACCOUNTING SYSTEMS AND RELATED CONTROLS
+
+242.7501  Definitions.
+As used in this subpart-
+
+	"Acceptable accounting system" means a system that complies with the system criteria in paragraph (c) of the clause at 252.242-7999, Accounting System Administration, to provide reasonable assurance that-
+
+		(1)  Applicable laws and regulations are complied with;
+
+		(2)  The accounting system and cost data are reliable;
+
+		(3)  Risk of misallocations and mischarges are minimized; and
+
+		(4)  Contract allocations and charges are consistent with billing procedures.
+
+	"Accounting system" means the contractor's system or systems for accounting methods, procedures, and controls established to gather, record, classify, analyze, summarize, interpret, and present accurate and timely financial data for reporting in compliance with applicable laws, regulations, and management decisions, and may include subsystems for specific areas such as indirect and other direct costs, compensation, billing, labor, and general information technology.
+
+242.7502  Policy.
+
+	(a)  Contractors receiving cost-reimbursement, incentive type, time-and-materials, or labor-hour contracts, or contracts which provide for progress payments based on costs or on a percentage or stage of completion, are required to maintain an accounting system.
+
+	(b)  In consultation with the auditor or functional specialist-
+
+		(1)  Determine the acceptability of a contractor's accounting system and approve or disapprove the system; and
+
+		(2)  Pursue correction of any weaknesses or deficiencies.
+
+	(c)  In evaluating the acceptability of a contractor's accounting system, in consultation with the auditor or functional specialist, determine whether the contractor's accounting system complies with the system criteria for an acceptable accounting system as prescribed in the clause at 252.242-7999, Accounting System Administration.
+
+	(d)  Disposition of findings-
+
+		(1)  Reporting of findings.  The auditor must submit its findings and recommendations in a report to the contracting officer.  If the auditor identifies any material weaknesses, the report must describe the weaknesses or deficiencies in sufficient detail to allow the contracting officer to understand the weaknesses or deficiencies.  Follow the procedures at PGI 242.7502 for reporting of deficiencies.
+
+		(2)  Initial determination.
+
+			(i)  Review findings and recommendations and, if there are no material weaknesses, promptly notify the contractor, in writing, that the contractor's accounting system is acceptable and approved; or
+
+			(ii)  If there are one or more material weaknesses due to the contractor's failure to meet one or more of the accounting system criteria in the clause at 252.242-7999-
+
+				(A)  Promptly make an initial written determination on any material weaknesses and notify the contractor, in writing, providing a description of each material weakness in sufficient detail to allow the contractor to understand the weakness;
+
+				(B)  Request the contractor to respond, in writing, to the initial determination within 30 days; and
+
+				(C)  Promptly evaluate the contractor's response to the initial determination, in consultation with the auditor or functional specialist, and make a final determination.
+
+		(3)  Final determination.
+
+			(i)  Make a final determination and notify the contractor, in writing, that-
+
+				(A)  The contractor's accounting system is acceptable and approved, and no material weaknesses remain; or
+
+				(B)  Material weaknesses remain.  Identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action.  
+
+					(1)  Request that the contractor, within 45 days of receipt of the final determination, either correct the weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+
+					(2)  Make a determination to disapprove the system in accordance with the clause at 252.242-7999; and
+
+					(3)  Withhold payments in accordance with the clause at 252.242-7998, Contractor Business Systems, if the clause is included in the contract.
+
+			(ii)  Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses in PGI 242.7502(d)(3).
+
+	(e)  System approval.  Promptly approve a previously disapproved accounting system and notify the contractor when there are no remaining material weaknesses.
+
+	(f)  Contracting officer notifications.  Promptly distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+	(g)  Mitigating the risk of deficiencies on specific proposals.
+
+		(1)  Field pricing teams must discuss identified deficiencies and their impact in all reports on contractor proposals until the deficiencies are resolved.
+
+		(2)  When negotiating a proposal generated by an accounting system with an identified deficiency, evaluate whether the deficiency impacts the negotiations.  If it does not, proceed with negotiations.  See PGI 242.7502(g) for alternatives actions. 
+
+242.7503  Contract clause.
+Insert the clause at 252.242-7999, Accounting System Administration, in solicitations and contracts when contemplating-
+
+	(a)  A cost-reimbursement, incentive type, time-and-materials, or labor-hour contract; or
+
+	(b)  A contract with progress payments made on the basis of costs incurred by the contractor or on a percentage or stage of completion.
+
+SUBPART 242.76-POSTAWARD ORIENTATION
+
+242.7600  Scope of subpart
+This subpart prescribes policies and procedures for the postaward orientation of contractors and subcontractors through (a) a conference or (b) a letter or other form of written communication.
+
+
+242.7601 General.
+
+	(a) A postaward orientation aids both Government and contractor personnel to (l) achieve a clear and mutual understanding of all contract requirements and (2) identify and resolve potential problems. However, it is not a substitute for the contractor's fully understanding the work requirements at the time offers are submitted, nor is it to be used to alter the final agreement arrived at in any negotiations leading to contract award.
+
+	(b) Postaward orientation is encouraged to assist-
+
+		(1) Small business concerns;
+
+		(2) Small disadvantaged business concerns;
+
+		(3) Veteran-owned small business concerns;
+
+		(4) Service-disabled veteran-owned small business concerns;
+
+		(5) HUBZone small business concerns; and
+
+		(6) Women-owned small business concerns (including economically disadvantaged women-owned small business concerns and women-owned small business concerns eligible under the Women-Owned Small Business Program).
+
+	(c) While cognizant Government or contractor personnel may request the contracting officer to arrange for orientation, it is up to the contracting officer to decide whether a postaward orientation in any form is necessary.
+
+242.7602  Selecting contracts for postaward orientation.
+See PGI 242.7602 when selecting contracts for postaward orientation. 
+
+242.7603  Postaward conferences.
+
+242-7603-1  Postaward conference arrangements.
+Follow the procedures at PGI 242-7603-1 when planning a postaward conference.
+
+242.7603-2  Postaward conference procedure.
+
+	(a)  DD Form 1484, Post-Award Conference Record, may be used in conducting a postaward conference and in preparing the conference report.
+
+	(b)  For contracts that include the clause at 252.234-7004, Cost and Software Data Reporting, discuss the contractor's standard cost and software data reporting (CSDR) process that satisfies the guidelines contained in the DoD 5000.04-M-1, CSDR Manual, and the requirements in the Government-approved CSDR plan for the contract, DD Form 2794, and related Resource Distribution Table.
+
+	(c)  See PGI 242.7603-3 for additional postaward conference procedures.
+
+242.7603-3  Postaward conference report.
+See PGI 242.7603-3 for postaward conference report content and chairperson responsibilities. 
+
+242.7604  Postaward letters.
+A letter or other written form of communication to the contractor may serve as adequate postaward orientation.  The letter should identify the Government representative responsible for administering the contract and cite any unusual or significant contract requirements.  Do not make changes to the contract in a postaward letter (see PGI 242.7603-2(c)).
+
+242.7605  Postaward subcontractor conferences.
+
+	(a)  The prime contractor is generally responsible for conducting postaward conferences with subcontractors. However, the prime contractor may invite Government representatives, including those involved in contract administration, to a conference with subcontractors, or the Government may request that the prime contractor initiate a conference with subcontractors. 
+
+	(b)  Government representatives must- 
+
+		(1)  Recognize the lack of privity of contract between the Government and subcontractors, 
+
+		(2)   Not take action that is inconsistent with or alters subcontracts, and 
+
+		(3)   Ensure that any changes in direction or commitment affecting the prime contract or contractor resulting from a subcontractor conference are made by written direction of the contracting officer to the prime contractor (see PGI 242.7603-2).
+
+SUBPART 252.2--TEXT OF PROVISIONS AND CLAUSES
+
+252.242-7000  Reserved.
+
+252.242-7001  Reserved.
+
+252.242-7002  Reserved.
+
+252.242-7003  Reserved.
+
+252.242-7997  Material Management and Accounting System.  (DEVIATION 2026-O0050)
+As prescribed in 242.7204, use the following clause:
+
+MATERIAL MANAGEMENT AND ACCOUNTING SYSTEM 
+(DEVIATION 2026-O0050) (MAR 2026)
+
+	(a)  Definitions.  As used in this clause-
+
+"Acceptable material management and accounting system" means a material management and accounting system that generally complies with the system criteria in paragraph (d) of this clause.
+
+"Contractor" means a business unit as defined in Federal Acquisition Regulation (FAR) 2.101.
+
+"Material management and accounting system (MMAS)" means the Contractor's system or systems for planning, controlling, and accounting for the acquisition, use, issuing, and disposition of material.  Material management and accounting systems may be manual or automated.  They may be stand-alone systems, or they may be integrated with planning, engineering, estimating, purchasing, inventory, accounting, or other systems.
+
+"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+"Valid time-phased requirements" means material that is-
+
+		(1)  Needed to fulfill the production plan, including reasonable quantities for scrap, shrinkage, yield, etc.; and
+
+		(2)  Charged or billed to contracts or other cost objectives in a manner consistent with the need to fulfill the production plan.
+
+	(b)  General.  The Contractor shall-
+
+		(1)  Maintain an MMAS that-
+
+			(i)  Reasonably forecasts material requirements;
+
+			(ii)  Ensures that costs of purchased and fabricated material charged or allocated to a contract are based on valid time-phased requirements; and
+
+			(iii)  Maintains a consistent, equitable, and unbiased logic for costing of material transactions; and
+
+		(2)  Assess its MMAS and take reasonable action to comply with the MMAS standards in paragraph (e) of this clause.
+
+	(c)  Disclosure and maintenance requirements.  The Contractor shall-
+
+		(1)  Have policies, procedures, and operating instructions that adequately describe its MMAS;
+
+		(2)  Provide to the Administrative Contracting Officer (ACO), upon request, the results of internal reviews that it has conducted to ensure compliance with established MMAS policies, procedures, and operating instructions; and
+
+		(3)  Disclose significant changes in its MMAS to the ACO at least 30 days prior to implementation.
+
+	(d)  System criteria.  The MMAS shall have adequate internal controls to ensure system and data integrity, and shall-
+
+		(1)  Have an adequate system description including policies, procedures, and operating instructions that comply with the FAR and Defense FAR Supplement;
+
+		(2)  Ensure that costs of purchased and fabricated material charged or allocated to a contract are based on valid time-phased requirements as impacted by minimum/economic order quantity restrictions.
+
+			(i)  A 98 percent bill of material accuracy and a 95 percent master production schedule accuracy are desirable as a goal in order to ensure that requirements are both valid and appropriately time-phased.
+
+			(ii)  If systems have accuracy levels below these, the Contractor shall provide adequate evidence that-
+
+				(A)  There is no material harm to the Government due to lower accuracy levels; and
+
+				(B)  The cost to meet the accuracy goals is excessive in relation to the impact on the Government;
+
+		(3)  Provide a mechanism to identify, report, and resolve system control weaknesses and manual override.  Systems should identify operational exceptions, such as excess/residual inventory, as soon as known;
+
+		(4)  Provide audit trails and maintain records (manual and those in machine-readable form) necessary to evaluate system logic and to verify through transaction testing that the system is operating as desired;
+
+		(5)  Establish and maintain adequate levels of record accuracy and include reconciliation of recorded inventory quantities to physical inventory by part number on a periodic basis.  A 95 percent accuracy level is desirable.  If systems have an accuracy level below 95 percent, the Contractor shall provide adequate evidence that-
+
+			(i)  There is no material harm to the Government due to lower accuracy levels; and
+
+			(ii)  The cost to meet the accuracy goal is excessive in relation to the impact on the Government;
+
+		(6)  Provide detailed descriptions of circumstances that will result in manual or system generated transfers of parts;
+
+		(7)  Maintain a consistent, equitable, and unbiased logic for costing of material transactions as follows:
+
+			(i)  The Contractor shall maintain and disclose written policies describing the transfer methodology and the loan/pay-back technique.
+
+			(ii)  The costing methodology may be standard or actual cost, or any of the inventory costing methods in 48 CFR 9904.411-50(b).  The Contractor shall maintain consistency across all contract and customer types, and from accounting period to accounting period for initial charging and transfer charging.
+
+			(iii)  The system should transfer parts and associated costs within the same billing period.  In the few instances where this may not be appropriate, the Contractor may accomplish the material transaction using a loan/pay-back technique.  The "loan/pay-back technique" means that the physical part is moved temporarily from the contract, but the cost of the part remains on the contract.  The procedures for the loan/pay-back technique must be approved by the ACO.  When the technique is used, the Contractor shall have controls to ensure-
+
+				(A)  Parts are paid back expeditiously;
+
+				(B)  Procedures and controls are in place to correct any overbilling that might occur;
+
+				(C)  Monthly, at a minimum, identification of the borrowing contract and the date the part was borrowed; and
+
+				(D)  The cost of the replacement part is charged to the borrowing contract;
+
+		(8)  Where allocations from common inventory accounts are used, have controls (in addition to those in paragraphs (d)(2) and (7) of this clause) to ensure that-
+
+			(i)  Reallocations and any credit due are processed no less frequently than the routine billing cycle;
+
+			(ii)  Inventories retained for requirements that are not under contract are not allocated to contracts; and
+
+			(iii)  Algorithms are maintained based on valid and current data;
+
+		(9)  Have adequate controls to ensure that physically commingled inventories that may include material for which costs are charged or allocated to fixed-price, cost-reimbursement, and commercial contracts do not compromise requirements of any of the standards in paragraphs (d)(1) through (8) of this clause.  Government-furnished material shall not be-
+
+			(i)  Physically commingled with other material; or
+
+			(ii)  Used on commercial work; and
+
+		(10)  Be subjected to periodic internal reviews to ensure compliance with established policies and procedures.
+
+	(e)  Material weaknesses.
+
+		(1)  The Contracting Officer will provide an initial determination to the 
+Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weaknesses or deficiencies.
+
+		(2)  The Contractor shall respond within 30 days to a written initial 
+determination from the Contracting Officer that identifies material weaknesses in the 
+Contractor's MMAS.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and
+
+			(iii)  System disapproval if the Contracting Officer determines that one or more material weaknesses remain.
+
+	(f)  If the Contractor receives the Contracting Officer's final determination of 
+material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the material weaknesses.
+
+	(g)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's MMAS, and the contract includes the clause at 252.242-7998, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+252.242-7998  Contractor Business Systems. (DEVIATION 2026-O0050)
+As prescribed in 242.7001, use the following clause:
+
+CONTRACTOR BUSINESS SYSTEMS (DEVIATION 2026-O0050) (MAR 2026)
+
+	(a)  This clause only applies to covered contracts that are subject to the Cost Accounting Standards under 41 U.S.C. chapter 15, as implemented in regulations found at 48 CFR 9903.201-1 (see the FAR Appendix).
+
+	(b)  Definitions.  As used in this clause-
+
+"Acceptable contractor business systems" means contractor business systems that comply with the terms and conditions of the applicable business system clauses listed in the definition of "contractor business systems" in this clause.
+
+"Contractor business systems" means-
+
+		(1)  Accounting system, if this contract includes the clause at 252.242-7999, Accounting System Administration;
+
+		(2)  Earned value management system, if this contract includes the clause at 252.234-7999, Earned Value Management System);
+
+		(3)  Estimating system, if this contract includes the clause at 252.215-7002, Cost Estimating System Requirements; 
+
+		(4)  Material management and accounting system, if this contract includes the clause at 252.242-7997, Material Management and Accounting System;
+
+		(5)  Property management system, if this contract includes the clause at 252.245-7003, Contractor Property Management System Administration; and
+
+		(6)  Purchasing system, if this contract includes the clause at 252.244-7998, Contractor Purchasing System Administration. 
+
+"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+	(c)  General.  The Contractor shall establish and maintain acceptable business systems in accordance with the terms and conditions of this contract.
+
+	(d)  Material weaknesses.
+
+		(1)  The Contractor shall respond, in writing, within 30 days to an initial 
+determination that there are one or more material weaknesses in one or more of the Contractor's business systems.
+
+		(2)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the final determination as to whether the Contractor's business system contains material weaknesses.  If the Contracting Officer determines that the Contractor's business system contains material weaknesses, the final 
+determination will include a notice to withhold payments.
+
+	(e)  Withholding payments.
+
+		(1)  If the Contracting Officer issues the final determination with a notice to withhold payments for material weaknesses in a contractor business system required under this contract, the Contracting Officer will withhold 5 percent of amounts due from progress payments and performance-based payments, and direct the Contractor, in writing, to withhold 5 percent from its billings on interim cost vouchers on cost-reimbursement, labor-hour, and time-and-materials contracts until the Contracting Officer has determined that the Contractor has corrected all material weaknesses as directed by the Contracting Officer's final determination.  The Contractor shall, within 45 days of receipt of the notice, either correct the weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses.
+
+		(2)  If the Contractor submits an acceptable corrective action plan within 45 days of receipt of a notice of the Contracting Officer's intent to withhold payments, and the Contracting Officer, in consultation with the auditor or functional specialist, determines that the Contractor is effectively implementing such plan, the Contracting Officer will reduce withholding directly related to the material weaknesses covered under the corrective action plan, to 2 percent from progress payments and performance-based payments, and direct the Contractor, in writing, to reduce the percentage withheld on interim cost vouchers to 2 percent until the Contracting Officer determines the Contractor has corrected all material weaknesses as directed by the Contracting Officer's final determination.  However, if at any time, the Contracting Officer determines that the Contractor has failed to follow the accepted corrective action plan, the Contracting Officer will increase withholding from progress payments and performance-based payments, and direct the Contractor, in writing, to increase the percentage withheld on interim cost vouchers to the percentage initially withheld, until the Contracting Officer determines that the Contractor has corrected all material weaknesses as directed by the Contracting Officer's final determination.
+
+		(3)  Payment withhold percentage limits.
+
+			(i)  The total percentage of payments withheld on amounts due under each 
+progress payment, performance-based payment, or interim cost voucher on this contract shall not exceed-
+
+				(A)  Five percent for one or more material weaknesses in any single 
+contractor business system; and
+
+				(B)  Ten percent for material weaknesses in multiple contractor business systems.
+
+			(ii)  If this contract contains pre-existing withholds, and the application of any subsequent payment withholds will cause withholding under this clause to exceed the payment withhold percentage limits in paragraph (e)(3)(i) of this clause, the Contracting Officer will reduce the payment withhold percentage in the final determination to an amount that will not exceed the payment withhold percentage limits.
+
+		(4)  For the purpose of this clause, payment means any of the following payments authorized under this contract:
+
+			(i)  Interim payments under-
+
+				(A)  Cost-reimbursement contracts;
+
+				(B)  Incentive type contracts;
+
+				(C)  Time-and-materials contracts;
+
+				(D)  Labor-hour contracts.
+
+			(ii)  Progress payments.
+
+			(iii)  Performance-based payments.
+
+		(5)  Payment withholding shall not apply to payments on fixed-price line items where performance is complete and the items were accepted by the Government.
+
+		(6)  The withholding of any amount or subsequent payment to the Contractor shall not be construed as a waiver of any rights or remedies the Government has under this contract.
+
+		(7)  Notwithstanding the provisions of any clause in this contract providing for interim, partial, or other payment withholding on any basis, the Contracting Officer may withhold payment in accordance with the provisions of this clause.
+
+		(8)  The payment withholding authorized in this clause is not subject to the interest-penalty provisions of the Prompt Payment Act.
+
+	(f)  Correction of weaknesses.
+
+		(1)  The Contractor shall notify the Contracting Officer, in writing, when the Contractor has corrected the business system's weaknesses.
+
+		(2)  Once the Contractor has notified the Contracting Officer that all weaknesses have been corrected, the Contracting Officer will take one of the following actions:
+
+			(i)  If the Contracting Officer determines that the Contractor has corrected all material weaknesses as directed by the Contracting Officer's final determination, the Contracting Officer will, as appropriate, discontinue the withholding of progress payments and performance-based payments, and direct the Contractor, in writing, to discontinue the payment withholding from billings on interim cost vouchers under this contract associated with the Contracting Officer's final determination, and authorize the Contractor to bill for any monies previously withheld that are not also being withheld due to other material weaknesses.  Any payment withholding under this contract due to other material weaknesses will remain in effect until the Contracting Officer determines that those material weaknesses are corrected.
+
+			(ii)  If the Contracting Officer determines that the Contractor still has material weaknesses, the Contracting Officer will continue the withholding of progress payments and performance-based payments, and the Contractor shall continue withholding amounts from its billings on interim cost vouchers in accordance with paragraph (e) of this clause, and not bill for any monies previously withheld.
+
+			(iii)  If the Contracting Officer determines, based on the evidence submitted by the Contractor, that there is a reasonable expectation that the corrective actions have been implemented and are expected to correct the material weaknesses, the Contracting Officer will discontinue withholding payments, release any payments previously withheld directly related to the material weaknesses identified in the Contractor notification, direct the Contractor, in writing, to discontinue the payment withholding from billings on interim cost vouchers associated with the Contracting Officer's final determination, and authorize the Contractor to bill for any monies previously withheld.
+
+			(iv)  If, within 90 days of receipt of the Contractor notification that the Contractor has corrected the material weaknesses, the Contracting Officer has not made a determination in accordance with paragraph (f)(2)(i), (ii), or (iii) of this clause, the Contracting Officer will reduce withholding directly related to the material weaknesses identified in the Contractor notification by at least 50 percent of the amount being withheld from progress payments and performance-based payments, and direct the Contractor, in writing, to reduce the payment withholding from billings on interim cost vouchers directly related to the material weaknesses identified in the Contractor notification by a specified percentage that is at least 50 percent, but not authorize the Contractor to bill for any monies previously withheld until the Contracting Officer makes a determination in accordance with paragraph (f)(2)(i), (ii), or (iii) of this clause.
+
+			(v)  At any time after the Contracting Officer reduces or discontinues the withholding of progress payments and performance-based payments, or directs the Contractor to reduce or discontinue the payment withholding from billings on interim cost vouchers under this contract, if the Contracting Officer determines that the Contractor has failed to correct the material weaknesses identified in the Contractor's notification, the Contracting Officer will reinstate or increase withholding from progress payments and performance-based payments, and direct the Contractor, in writing, to reinstate or increase the percentage withheld on interim cost vouchers to the percentage initially withheld, until the Contracting Officer determines that the Contractor has corrected all material weaknesses as directed by the Contracting Officer's final determination.
+
+(End of clause)
+
+252.242-7999  Accounting System Administration. (DEVIATION 2026-O0050)
+As prescribed in 242.7503, use the following clause:
+
+ACCOUNTING SYSTEM ADMINISTRATION
+(DEVIATION 2026-O0050) (MAR 2026)
+
+	(a)  Definitions.  As used in this clause-
+
+"Acceptable accounting system" means a system that complies with the system criteria in paragraph (c) of this clause to provide reasonable assurance that-
+
+		(1)  Applicable laws and regulations are complied with;
+
+		(2)  The accounting system and cost data are reliable;
+
+		(3)  Risk of misallocations and mischarges are minimized; and
+
+		(4)  Contract allocations and charges are consistent with billing procedures.
+
+"Accounting system" means the Contractor's system or systems for accounting methods, procedures, and controls established to gather, record, classify, analyze, summarize, interpret, and present accurate and timely financial data for reporting in compliance with applicable laws, regulations, and management decisions, and may include subsystems for specific areas such as indirect and other direct costs, compensation, billing, labor, and general information technology.
+
+"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+	(b)  General.  The Contractor shall establish and maintain an acceptable accounting system.  Failure to maintain an acceptable accounting system, as defined in this clause, shall result in the withholding of payments if the contract includes the clause at 252.242-7998, Contractor Business Systems, and also may result in disapproval of the system.
+
+	(c)  System criteria.  The Contractor's accounting system shall provide for-
+
+		(1)  A sound internal control environment, accounting framework, and organizational structure;
+
+		(2)  Proper segregation of direct costs from indirect costs;
+
+		(3)  Identification and accumulation of direct costs by contract;
+
+		(4)  A logical and consistent method for the accumulation and allocation of indirect costs to intermediate and final cost objectives;
+
+		(5)  Accumulation of costs under general ledger control;
+
+		(6)  Reconciliation of subsidiary cost ledgers and cost objectives to general ledger;
+
+		(7)  Approval and documentation of adjusting entries;
+
+		(8)  Management reviews or internal audits of the system to ensure compliance with the Contractor's established policies, procedures, and accounting practices;
+
+		(9)  A timekeeping system that identifies employees' labor by intermediate or final cost objectives;
+
+		(10)  A labor distribution system that charges direct and indirect labor to the appropriate cost objectives;
+
+		(11)  Interim (at least monthly) determination of costs charged to a contract through routine posting of books of account;
+
+		(12)  Exclusion from costs charged to Government contracts of amounts which are not allowable in terms of Federal Acquisition Regulation (FAR) part 31, Contract Cost Principles and Procedures, and other contract provisions;
+
+		(13)  Identification of costs by contract line item and by units (as if each unit or line item were a separate contract), if required by the contract; 
+
+		(14)  Segregation of preproduction costs from production costs, as applicable;
+
+		(15)  Cost accounting information, as required-
+
+			(i)  By contract clauses concerning limitation of cost (FAR 52.232-20), limitation of funds (FAR 52.232-22), or allowable cost and payment (FAR 52.216-7); and
+
+			(ii)  To readily calculate indirect cost rates from the books of accounts;
+
+		(16)  Billings that can be reconciled to the cost accounts for both current and cumulative amounts claimed and comply with contract terms; 
+
+		(17)  Adequate, reliable data for use in pricing follow-on acquisitions; and
+
+		(18)  Accounting practices in accordance with standards promulgated by the Cost Accounting Standards Board, if applicable, otherwise, Generally Accepted Accounting Principles.
+
+	(d)  Material weaknesses.
+
+		(1)  The Contracting Officer will provide an initial determination to the Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weakness or deficiency.
+
+		(2)  The Contractor shall respond within 30 days to a written initial determination from the Contracting Officer that identifies material weaknesses in the Contractor's accounting system.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and
+
+			(iii)  System disapproval, if the Contracting Officer determines that one or more material weaknesses remain.
+
+	(e)  If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the material weaknesses.
+
+	(f)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's accounting system, and the contract includes the clause at 252.242-7998, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+
+Attachment A1
+DARS Tracking Number: 2026-O0050
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 42
+Defense FAR Supplement (DFARS) Part 242
+
+
+
+	Page 1 of 9	
+

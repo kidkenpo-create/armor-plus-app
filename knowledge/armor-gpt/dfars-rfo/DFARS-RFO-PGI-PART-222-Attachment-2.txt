@@ -1,0 +1,588 @@
+PGI PART 222-APPLICATION OF LABOR LAWS TO GOVERNMENT ACQUISITIONS
+
+PGI 222.1- BASIC LABOR POLICIES
+
+PGI 222.101-1  Labor relations.
+
+Obtain approval from the labor advisor before-
+
+ (1)  Contacting a national office of a labor organization, a Government agency
+headquarters, or any other organization on labor relations matters or disputes; or
+
+ (2)  Making recommendations for plant seizure or injunctive action relating to potential or
+actual work stoppages.
+
+PGI 222.104  Postaward.
+
+PGI 222.104-1  General.
+
+The contract administration office must-
+
+ (1)  Notify the labor advisor, the contracting officer, and the head of the contracting
+activity when interference is likely; and
+
+ (2)  Disseminate information on labor disputes in accordance with departmental
+procedures.
+
+PGI 222.104-170  Impact of labor disputes on defense programs.
+
+ (a)  If the dispute involves a product, project (including construction), or service that must
+be obtained in order to meet schedules for urgently needed military programs or
+requirements, each department and agency must consider the degree of impact of potential
+or actual labor disputes, and each contracting activity involved must obtain and develop data
+reflecting the impact of a labor dispute.  Upon determining the impact, the head of the
+contracting activity must submit a report of findings and recommendations to the labor
+advisor.
+
+ (b)(i)  The report to the labor advisor must be in narrative form and must include-
+
+   (A)  Location of dispute and name of contractor or subcontractor involved;
+
+   (B)  A description of the impact, including how the specific items or services
+affect the specific programs or requirements;
+
+   (C)  Identity of alternate sources available to furnish the supply or service within
+the time required; and
+
+(D)  A description of any action taken to reduce the impact.
+
+  (ii)  The head of the contracting activity must submit impact reports to the agency
+head when-
+
+   (A)  Specifically requested; or
+
+   (B)  The department or agency considers the impact to be of sufficient urgency
+to warrant the attention of the agency head.
+
+  (iii)  The labor advisor will expand the report submitted under paragraph (b)(ii) of this
+subsection by addressing the following, as appropriate:
+
+   (A)  Description of military program, project, or service.  Identify item, project, or
+service that will be or is being affected by the work stoppage.  Describe its normal use and
+current functions in combat, combat support, or deterrent operations.  For components or
+raw materials, identify the end item(s) for which they are used.
+
+   (B)  Requirements and assets.  Identify requirements and assets in appropriate
+detail in terms commonly used by the DoD component.
+
+    (1)  For production programs, include requirements for each using military
+service.  Where applicable, state in detail production schedule, inventory objectives, assets
+against these objectives, and critical shortages.  For spares and highly expendable items,
+such as ground and air ammunition, show usage (consumption) rates and assets in
+absolute terms and in terms of daily, weekly, or monthly supplies.  For components, include
+requirements for spares.
+
+    (2)  For projects, describe the potential adverse effects of a delay in meeting
+schedules, and its impact on the national security.
+
+    (3)  For services, describe how a loss or interruption affects the ability to
+support Defense operations in terms of traffic requirements, assets, testing programs, etc.
+
+   (C)  Possible measures to minimize strike impact.  Describe-
+
+    (1)  Capabilities, if any, to substitute items or to use alternate sources and
+indicate the number of other facilities available and the relative capabilities of such facilities
+in meeting total requirements;
+
+    (2)  How much time would be required to replace the loss of the facilities or
+service affected by a work stoppage; and
+
+    (3)  The feasibility of transferring assets from theater to theater to relieve
+deficits in some areas of urgency.
+
+(D)  Conclusion.
+
+    (1)  Describe the impact on operations of a 15-30, 30-60, and a 60-90 day
+work stoppage.
+
+    (2)  Estimate the degree of criticality of a program, project, or service
+resulting from a work stoppage on a calendar basis, indicating the increased impact, if any,
+as the stoppage lengthens.  Criticality is measured by the number of days required for the
+work stoppage to have an effect on operational capability.  This time must be stated in terms
+of days.
+
+PGI 222.104-171   Removal of items from contractors' facilities affected by work
+stoppages.
+
+ (a)  When a contractor is unable to deliver urgent and critical items because of a work
+stoppage at its facility, before removing any items from the facility-
+
+  (i)  Contact the labor advisor to obtain the opinion of the national office of the
+Federal Mediation and Conciliation Service or other mediation agency regarding the effect
+movement of the items would have on labor negotiations.  Normally removals will not be
+made if they will adversely affect labor negotiations.
+
+  (ii)  Provide a written request for removal of the material to the cognizant contract
+administration office.  The request should include the following information:
+
+   (A)  Contract number.
+
+   (B)  A statement as to the urgency and criticality of the item needed.
+
+   (C)  A description of the items to be moved (nature of the item, amount,
+approximate weight and cubic feet, item number, etc.).
+
+   (D)  Mode of transportation by which the items are to be moved, if different than
+in the contract, and whether by Government or commercial bill of lading.
+
+   (E)  Destination of the material, if different from that specified in the contract.
+
+  (iii)  With the assistance of the labor advisor or the contract administration office,
+attempt to have both the management and the labor representatives involved agree to
+shipment of the material by normal means.
+
+  (iv)  If agreement for removal of the needed items cannot be reached following the
+procedures in paragraphs (a) (i) through (iii) of this section, the commander of the contract
+administration office, after obtaining approval from the labor advisor, may seek the
+concurrence of the parties to the dispute to permit movement of the material by military
+vehicles with military personnel.  On receipt of such concurrences, the commander may
+proceed to make necessary arrangements to move the material.
+
+  (v)  If agreement for removal of the needed items cannot be reached following any
+of the procedures in paragraphs (a) (i) through (iv) of this section, refer the matter to the
+
+labor advisor with the information required by 222.104-170(b).  If the labor advisor is
+unsuccessful in obtaining concurrence of the parties for the movement of the material and
+further action to obtain the material is necessary, refer the matter to the agency head.  Upon
+review and verification that the items are urgently or critically needed and cannot be moved
+with the consent of the parties, the agency head, on a nondelegable basis, may order
+removal of the items from the facility.
+
+PGI 222.104-172  Acquisition of stevedoring services during labor disputes.
+
+ (a)  Use the following procedures only in the order listed when a labor dispute delays
+performance of a contract for stevedoring services that are urgently needed.
+
+  (1)  Attempt to have management and labor voluntarily agree to exempt military
+supplies from the labor dispute by continuing the movement of such material.
+
+  (2)  Divert vessels to alternate ports able to provide necessary stevedoring services.
+
+  (3)  Consider contracting with reliable alternative sources of supply within the
+stevedoring industry.
+
+  (4)  Utilize civil service stevedores to perform the work performed by contract
+stevedores.
+
+  (5)  Utilize military personnel to handle the cargo which was being handled by
+contract stevedores prior to the labor dispute.
+
+ (b)  Notify the labor advisor when a deviation from the procedures in paragraph (a) of this
+subsection is required.
+
+PGI 222.4- LABOR STANDARDS FOR CONTRACTS INVOLVING CONSTRUCTION
+
+PGI 222.402-3  Construction Wage Rate Requirements statute .
+
+ (d) Obtain clarification concerning the proper application of wage rate schedules to the
+type or types of construction involved from-
+
+  (i)  For the Army - The appropriate district commander, Corps of Engineers.
+
+  (ii)  For the Navy - The cognizant Naval Facilities Engineering Command division.
+
+  (iii)  For the Air Force - The appropriate Regional Industrial Relations Office.
+
+PGI 222.402-370 Reporting to the Department of Labor.
+
+Not later than April 1 of each year, each agency must furnish the Administrator, Wage and
+Hour Division, with a general outline of its proposed construction program for the coming
+fiscal year.  The Department of Labor uses this information to determine where it will conduct
+general wage determination surveys.
+
+ (a)  For individual projects of $500,000 or more, the agency must indicate-
+
+(1)  The anticipated type of construction;
+
+  (2)  The estimated dollar value; and
+
+  (3)  The location in which the work is to be performed (city, town, village, county, or
+other civil subdivision of the state).
+
+ (b)  The report format is contained in Department of Labor All Agency Memo 144,
+December 27, 1985.
+
+ (c)  The report control number is 1671-DOL-AN.
+
+PGI 222.404 Postaward.
+
+PGI 222.404-2 Enforcement.
+
+ (c) Investigations. (1)  Under Reorganization Plan No. 14 of 1950, contracting agencies
+are tasked with the primary responsibility for the conduct of labor standards compliance
+activities for construction contracts subject to the Construction Wage Rate Requirements
+statute.  When such compliance assurance activities disclose potential violations that are
+substantial in amount (wage underpayments in excess of $1,000) or when requested by the
+Department of Labor, the contracting officer or a designee should take the following steps to
+ensure compliance with the investigative requirements of the Department of Labor:
+
+  (i)  Beginning of the investigation.  The investigator must-
+
+   (A)  Inform the contractor of the investigation in advance;
+
+   (B)  Verify the exact legal name of the contractor, its address, and the names
+and titles of its principal officers;
+
+   (C)  Outline the general scope of the investigation, including the examination of
+pertinent records and the interview of employees;
+
+   (D)  Inform the contractor that the names of the employees to be interviewed will
+not be divulged to the contractor; and
+
+   (E)  When requested, provide a letter from the contracting officer verifying the
+investigator's authority.
+
+  (ii)  Conduct of the investigation.  Labor standards investigations are comprised of
+the following essential components:
+
+   (A)  Review of the contract.
+
+    (1)  Verify that all required labor standards and clauses and wage
+determinations are included in the contract.
+
+(2)  Review the following items in the contract file, if applicable:
+
+     (i)  List of subcontractors.
+
+     (ii)  Payroll statements for the contractor and subcontractors.
+
+     (iii)  Approvals of additional classifications.
+
+     (iv)  Data regarding apprentices and trainees as required by FAR
+22.404-1(f)(1) and 22.404-1(f)(3)(i).
+
+     (v)  Daily inspector's report or other inspection reports.
+
+     (vi)  Employee interview statements.
+
+     (vii)  Standard Form (SF) 1413, Statement and Acknowledgement.
+
+   (B)  Interview of the complainant.  If the investigation is based upon the receipt
+of a complaint, the investigator should interview the complainant unless this is impractical.
+The interview must cover all aspects of the complaint to ensure that all pertinent information
+is obtained.  Whenever an investigation does not include an interview of the complainant,
+explain such omission in the investigator's report.
+
+   (C)  Interview of employees and former employees.
+
+    (1)  Interview a sufficient number of employees or former employees, who
+represent all classifications, to develop information regarding the method and amount of
+payments, deductions, hours worked, and the type of work performed.
+
+    (2)  Interview employees at the job site if the interviews can be conducted
+privately and in such a manner so as to cause the least inconvenience to the employer and
+employees.
+
+    (3)  Former employees may be interviewed elsewhere.
+
+    (4)  Do not disclose to any employee any information, finding,
+recommendation, or conclusion relating to the investigation except to the extent necessary
+to obtain required information.
+
+    (5)  Do not disclose any employee's statement to anyone, except a
+Government representative working on the case, without the employee's written permission.
+
+    (6)  Obtain information by mail when personal interviews are impractical.
+
+    (7)  Use SF 1445, Labor Standards Interview, for employee interviews.
+
+    (8)  Ask employees to sign their statements and to initial any changes.
+
+(9)  Provide an evaluation of each employee's credibility.
+
+   (D)  Interview of foremen.  Interview foremen to obtain information concerning
+the contractor's compliance with the labor standards provisions with respect to employees
+under the foreman's supervision and the correctness of the foreman's classification as a
+supervisory employee.  All procedures established for the conduct of employee interviews,
+and the recording and use of information obtained, apply to foremen interviews.
+
+   (E)  Interview of the contractor.
+
+    (1)  Interview the contractor whenever the investigation indicates the
+possibility of a violation.
+
+    (2)  Inform the contractor that-
+
+     (i)  The interview does not mean that a violation has been found or that
+a requirement for corrective action exists; and
+
+     (ii)  The purpose of the interview is to obtain only such data as the
+contractor may desire to present in connection with the investigation.
+
+    (3)  Do not disclose the identity of any individual who filed a complaint or
+was interviewed.
+
+   (F)  Review of contractor and subcontractor records.
+
+    (1)  Review contractor and subcontractor records such as basic time cards,
+books, cancelled payroll checks, fringe benefits, and payment records.  Compare them with
+submitted payrolls.  When discrepancies are found, include pertinent excerpts or copies of
+the records in the investigation report with a statement of the discrepancy and any
+explanation the investigator obtains.  When wages include contributions or anticipated costs
+for fringe payments requiring approval of the Secretary of Labor, examine the contractor
+records to ensure such approval has been obtained and that any requirements specified in
+the approval have been met.
+
+    (2)  Review contractor's and subcontractor's weekly payrolls and payroll
+statements for completeness and accuracy regarding the following:
+
+     (i)  Identification of employees, payroll amount, the contract, contractor,
+subcontractor, and payroll period.
+
+     (ii)  Inclusion of only job classifications and wage rates specified in the
+contract specifications, or otherwise established for the contract or subcontract.
+
+     (iii)  Computation of daily and weekly hours.
+
+(iv)  Computation of time-and-one half for work in excess of 40 hours
+per week in accordance with FAR 22.404-2(b).
+
+     (v)  Gross weekly wages.
+
+     (vi)  Deductions.
+
+     (vii)  Computation of net weekly wages paid to each employee.
+
+     (viii)  Ratio of helpers, apprentices, and trainees to laborers and
+mechanics.
+
+     (ix)  Apprenticeship and trainee registration and ratios.
+
+     (x)  Computation of fringe benefits payments.
+
+    (3)  Transcribe the contractor's records whenever they contain information
+at variance with payrolls or other submitted documents.
+
+     (i)  Make the transcriptions in sufficient detail to permit them to be used
+to check computations of restitution and to determine amounts to be withheld from the
+contractor.
+
+     (ii)  Follow the form used by the contractor.
+
+     (iii)  Place comments or explanations concerning the transcriptions on
+separate memoranda or in the narrative report.
+
+     (iv)  Determine whether the wage determination, any modifications of
+the determination, and any additional classifications are posted as required.
+
+  (iii)  Submission of the report of investigation.  The investigator must submit a report
+of the investigation in accordance with agency procedures.  Each report must include at
+least-
+
+   (A)  The basis for the investigation, including the name of the complainant;
+
+   (B)  Names and addresses of prime contractors and subcontractors involved,
+and names and titles of their principal officers;
+
+   (C)  Contract number, date, dollar value of prime contract, and date and number
+of wage determination included in the contract;
+
+   (D)  Description of the contract and subcontract work involved;
+
+   (E)  Summary of the findings with respect to each of the items listed in PGI
+222.406-8(1)(ii);
+
+(F)  Concluding statement concerning-
+
+    (1)  The types of violations, including the amount of kickbacks under the
+Copeland Act, underpayments of basic hourly rates and fringe benefits under the Wage
+Rate Requirements statute, or underpayments and liquidated damages under the Contract
+Work Hours and Safety Standards statute;
+
+    (2)  Whether violations are considered to be willful or due to the negligence
+of the contractor or its agent;
+
+    (3)  The amount of funds withheld from the contractor; and
+
+    (4)  Other violations found; and
+
+   (G)  Exhibits indexed and appropriately tabbed, including copies of the following,
+when applicable-
+
+    (1)  Complaint letter;
+
+    (2)  Contract wage determination;
+
+    (3)  Preconstruction letter and memorandum of preconstruction conference;
+
+    (4)  Payrolls and statements indicating violations;
+
+    (5)  Transcripts of pertinent records of the contractor, and approvals of fringe
+benefit payments;
+
+    (6)  Employee interview statements;
+
+    (7)  Foreman interview statements;
+
+    (8)  Statements of others interviewed, including Government personnel;
+
+    (9)  Detailed computations showing kickbacks, underpayments, and
+liquidated damages;
+
+    (10)  Summary of all payments due to each employee or to a fund plan or
+program, and liquidated damages; and
+
+    (11)  Receipts and cancelled checks.
+
+ (d)  This report must include at least--
+
+  (i)  SF 1446, Labor Standards Investigation Summary Sheet;
+
+(ii)  Contracting officer's findings;
+
+  (iii)  Statement as to the disposition of any contractor rebuttal to the findings;
+
+  (iv)  Statement as to whether the contractor has accepted the findings and has paid
+any restitution or liquidated damages;
+
+  (v)  Statement as to the disposition of funds available;
+
+  (vi)  Recommendations as to disposition or further handling of the case (when
+appropriate, include recommendations as to the reduction, waiver, or assessment of
+liquidated damages, whether the contractor should be debarred, and whether the file should
+be referred for possible criminal prosecution); and
+
+  (vii)  When applicable, the following exhibits:
+
+   (A)  Investigator's report.
+
+   (B)  Copy of the contractor's written rebuttal or a summary of the contractor's
+oral rebuttal of the contracting officer's findings.
+
+   (C)  Copies of correspondence between the contractor and contracting officer,
+including a statement of specific violations found, corrective action requested, and the
+contractor's letter of acceptance or rejection.
+
+   (D)  Evidence of the contractor's payment of restitution or liquidated damages
+(copies of receipts, cancelled checks, or supplemental payrolls).
+
+   (E)  Letter from the contractor requesting relief from the liquidated damage
+provisions of the Contract Work Hours and Safety Standards statute.
+
+ (e)  Withholding payments.
+
+  (1)  Contact the labor advisor for assistance when payments due a contractor are
+not available to satisfy that contractor's liability for Construction Wage Rate Requirements or
+CWHSS statute wage underpayments or liquidated damages.
+
+PGI 222.10- SERVICE CONTRACT LABOR STANDARDS
+
+PGI 222.1002-3  Obtaining wage determinations.
+
+ (1)  Secure the assistance of cognizant customer/technical personnel to ensure
+maximum use of the Service Contract Act Directory of Occupations (Directory) and
+incorporation of all service employee classes (Directory and non-Directory) expected to be
+utilized.
+
+(2)  When the statement of work job title, for which there is a Directory equivalent, differs
+from the Directory job title, provide a cross-reference on the e98.
+
+ (3)  Include and note as such any classifications and minimum hourly wage rates
+conformed under any predecessor contract.  When a previously conformed classification is
+not included in the Directory, include the job description on the e98.
+
+PGI 222.13- EQUAL OPPORTUNITIES FOR VETERANS
+
+PGI 222.1302 Presolicitation.
+
+PGI 222.1302-3  Waivers.
+
+ (c)   When seeking a waiver of any of the terms of the clause at FAR 52.222-35, Equal
+Opportunity for Veterans, submit a waiver request through contracting channels to the labor
+advisor.  If the request is justified, the labor advisor will endorse the request and forward it
+for action to-
+
+  (i)  The agency head for waivers under FAR 22.1305(a); or
+
+  (ii)  The Secretary of Defense, without the power of redelegation, for waivers under
+FAR 22.1305(b).
+
+PGI 222.17- COMBATING TRAFFICKING IN PERSONS
+For a sample checklist for auditing compliance with Combating Trafficking in Persons policy,
+click here.
+
+PGI 222.1703-1  Policy.
+
+ (1)  The Office of the Under Secretary of Defense for Personnel and Readiness
+(OUSD(P&R)) is responsible for developing overall guidance on personnel policy issues
+relating to Combating Trafficking in Persons (CTIP).  The DoD CTIP website is
+http://ctip.defense.gov/.  The website includes DoD policy on CTIP, CTIP training
+information, and links to the National TIP hotline, the DoD IG website, the Department of
+State Office to Monitor and Combat Trafficking in Persons, and other Government and non-
+Government organization websites.
+
+ (2)  Department of Defense Instruction 2200.01, reissued June 21, 2019, entitled
+Combating Trafficking in Persons (CTIP), (located at
+https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/220001p.pdf?ver=2019-
+06-21-102951-257), requires the incorporation of terms and conditions in contracts
+performed either inside or outside the United States that-
+
+  (i)  Prohibit any activities on the part of contractor employees that support or
+promote trafficking in persons; and
+
+  (ii)  Impose suitable penalties on contractors who fail to monitor the conduct of their
+employees.
+
+(3)  DoD Instruction 5525.11, Criminal Jurisdiction Over Civilians Employed By or
+Accompanying the Armed Forces Outside the United States, Certain Service Members, and
+Former Service Members, dated March 3, 2005, located at
+http://www.dtic.mil/whs/directives/corres/pdf/552511p.pdf, and as supplemented by
+Directive-Type Memorandum 09-015 at http://www.dtic.mil/whs/directives/corres/pdf/DTM-
+09-015.pdf, implements policies and procedures, and assigns responsibilities, under the
+Military Extraterritorial Jurisdiction Act of 2000, as amended by section 1088 of the National
+Defense Authorization Act for Fiscal Year 2005, for exercising extraterritorial criminal
+jurisdiction over certain current and former members of the U.S. Armed Forces, and over
+civilians employed by or accompanying the U.S. Armed Forces outside the United States.
+
+ (4)  Quality assurance surveillance plans (QASPs) that are developed in accordance
+with DFARS 237.172 should appropriately describe how the contracting officer's
+representative will monitor the contractor's performance regarding trafficking in persons
+such that non-compliance with FAR clause 52.222-50, Combating Trafficking in Persons, is
+brought to the immediate attention of the contracting officer.
+
+ (5)  PD2 users must not use system overrides or other administrative methods of
+developing clauses for use in PD2-generated contracts to avoid the inclusion of the clause
+at FAR 52.222-50, with its Alternate I, if appropriate, in solicitations and contracts.
+
+ (6)  Rely on the requiring activity to ascertain the existence of any additional Geographic
+Combatant Commander's (GCC's)/Subordinate Joint Force Commander, Trafficking In
+Persons, Directives or Notices, as required under PGI 225.370, checklist item #12, that
+would require the use of Alternate I with the clause at FAR 52.222-50, Combating Trafficking
+in Persons, as required by FAR 22.1705 for contracts performed outside the United States.
+The webpage is provided at https://www.acq.osd.mil/asda/dpc/cp/cc/aor.html and by
+clicking on the pertinent GCC Area of Responsibility.
+
+PGI 222.1704  Violations.
+
+ (a)(1)  If the contracting officer receives information indicating that the contractor, a
+contractor employee, a subcontractor, or a subcontractor employee has failed to comply with
+the requirements of the clause at FAR 52.222-50, then-
+
+   (i)  Through the contracting officer's local commander or other designated
+representative, immediately notify the Combatant Commander responsible for the
+geographical area in which the incident has occurred; and
+
+   (ii)  Provide information about any investigation and enforcement to-
+
+    (A)  Program Manager, DoD CTIP Policy and Programs Support at
+https://ctip.defense.gov/ or by email to dodctip@mail.mil; and
+
+    (B)  Defense Pricing, Contracting, and Acquisition Policy (Contract
+Policy) by email to osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil.
+
+  (2)  Reports may be made to the DoD Inspector General Hotline at
+http://www.dodig.mil/hotline/ or 800-424-9098.
+
+  (3)  Reports also may be made to the National Human Trafficking Hotline at 1-888-
+373-7888 or to the Hotline website at https://humantraffickinghotline.org/.
+
+PGI 222.74- RESTRICTIONS ON THE USE OF MANDATORY ARBITRATION
+AGREEMENTS
+
+PGI 222.7404 Waiver.
+
+ (c)  Requests for waivers to the policy at DFARS 222.7402 must be submitted to the
+Secretary of Defense through the Office of the Principal Director, Defense Pricing,
+Contracting, and Acquisition Policy (Contract Policy).  Requests for waivers may be
+submitted via email at osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil.
+Include "Waiver-Mandatory Arbitration" in the subject line of the message.

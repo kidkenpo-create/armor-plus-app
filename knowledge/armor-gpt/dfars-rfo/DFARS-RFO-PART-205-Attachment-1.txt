@@ -1,0 +1,110 @@
+PART 205-PUBLICIZING CONTRACT ACTIONS
+
+
+SUBPART 205.0-SCOPE OF PART
+
+205.002  Policy.
+
+205.002-70  Preparation and transmittal of synopses.
+
+	(a)  See PGI 205.002-70(a) for numbering synopses notices.
+
+	(b)  See PGI 205.002-70(b) for small business events.
+
+SUBPART 205.1-PRESOLICITATION
+
+205.101  Presolicitation Notice.
+
+205.101-70  Availability of DoD solicitations.
+See PGI 205.101-70 for policy and procedures related to the Solicitation Module within the Procurement Integrated Enterprise Environment.
+
+205.102  Paid Advertisements.
+Heads of contracting activities are delegated authority to approve the publication of paid advertisements in newspapers.
+
+205.103-70  Special Notices.
+See PGI 205.103-70 for instructions on the solicitation notice regarding timely definitization of equitable adjustments for change orders under construction contracts.
+
+	(b)(i) See DFARS 207.107 for DoD-funded acquisitions that involve bundling.
+
+SUBPART 205.2-SOLICITATION
+
+205.201  Solicitation Notice.
+
+205.201-70  Timing. 
+
+	(a)  Allow at least 45 days response time when requested by a qualifying or designated country source (as these terms are used in Part (as these terms are used in Part 225) and the request is consistent with the Government's requirement.
+
+	(b)  When using competitive procedures, if a solicitation allowed fewer than 30 days for receipt of offers and resulted in only one offer, the contracting officer must resolicit, allowing an additional period of at least 30 days for receipt of offers, except as provided in 215.371-4 and 215.371-5.
+
+SUBPART 205.3--SYNOPSES OF CONTRACT AWARDS
+
+205.301  General.
+
+205.301-70  Synopsis of exceptions to domestic source requirements.
+
+	(a) In accordance with 10 U.S.C. 4862(k), synopsize through the Governmentwide point of entry (https://www.sam.gov), awards exceeding the simplified acquisition threshold that are for the acquisition of any clothing, fiber, yarn, or fabric items described in 225.7002-1(a)(1)(ii) through (x), if-
+
+			(1)  The Secretary concerned has determined that domestic items are not available, in accordance with 225.7002-2(b); or
+
+			(2)  The acquisition is for chemical warfare protective clothing, and the contracting officer has determined that an exception to domestic source requirements applies because the acquisition furthers an agreement with a qualifying country, in accordance with 225.7002-2(n).
+
+		(b)  The synopsis must be submitted in sufficient time to permit its publication not later than 7 days after contract award.
+
+		(c)  In addition to the information otherwise required in a synopsis of contract award, the synopsis must include one of the following statements as applicable:
+
+			(1)  "The exception at DFARS 225.7002-2(b) applies to this acquisition, because the Secretary concerned has determined that items grown, reprocessed, reused, or produced in the United States cannot be acquired as and when needed in satisfactory quality and sufficient quantity at U.S. market prices."
+
+			(2)  "The exception at DFARS 225.7002-2(n) applies to this acquisition, because the contracting officer has determined that this acquisition of chemical warfare protective clothing furthers an agreement with a qualifying country identified in DFARS 225.003."
+
+205.302  Public Announcement.
+
+	(a)  Requirement.
+
+		(i)  The threshold for DoD awards is $9 million.  Report all contractual actions, including modifications, that have a face value, excluding unexercised options, of more than $9 million.
+
+			(A)  For undefinitized contractual actions, report the not-to-exceed (NTE) amount.  Later, if the definitized amount exceeds the NTE amount by more than $9 million, report only the amount exceeding the NTE.
+
+			(B)  For indefinite delivery, time and material, labor hour, and similar contracts, report the initial award if the estimated face value, excluding unexercised options, is more than $9 million.  Do not report orders up to the estimated value, but after the estimated value is reached, report subsequent modifications and orders that have a face value of more than $9 million.
+
+			(C)  Do not report the same work twice.
+
+		(ii)  See PGI 205.302 for reporting of contract actions in paragraph (a)(i) of this section.
+
+SUBPART 205.70-RELEASE OF INFORMATION
+
+205.701  Contract clause.
+Insert the clause at 252.205-7000, Provision of Information to Cooperative Agreement Holders, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, except for solicitations and contracts solely for the acquisition of commercially available off-the-shelf items, that are expected to exceed $1.5 million.  This clause implements 10 
+U.S.C. 4957.
+
+SUBPART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.205-7000  Provision of Information to Cooperative Agreement Holders.
+As prescribed in 205.701, insert the following clause:
+
+PROVISION OF INFORMATION TO COOPERATIVE AGREEMENT HOLDERS 
+(OCT 2024)
+
+	(a)  Definition.  As used in this clause-
+
+		"Cooperative agreement holder" means a State or local government; a nonprofit 
+organization; a tribal organization (as defined in section 4(c) of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 5304(l)); or an economic enterprise (as defined in section 3(e) of the Indian Financing Act of 1974 (25 U.S.C. 1452(e))) whether such economic enterprise is organized for profit or nonprofit purposes; which has an agreement with the Under Secretary of Defense for Acquisition and 
+Sustainment to furnish procurement technical assistance to business entities (as defined in 10 U.S.C. 4951).
+
+	(b)  The Contractor shall provide cooperative agreement holders, upon their request, with a list of those appropriate employees or offices responsible for entering into subcontracts under defense contracts.  The list shall include the business address, telephone number, and area of responsibility of each employee or office.
+
+	(c)  The Contractor need not provide the listing to a particular cooperative agreement holder more frequently than once a year.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0003
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 5
+Defense FAR Supplement (DFARS) Part 205
+
+
+Page 2 of 2
+
+

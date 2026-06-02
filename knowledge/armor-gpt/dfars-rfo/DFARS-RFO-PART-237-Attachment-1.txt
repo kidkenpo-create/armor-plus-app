@@ -1,0 +1,1130 @@
+PART 237-SERVICE CONTRACTING
+
+237.001  Definition.
+As used in this subpart-
+
+	"Nonprofit organization" means any organization that is-
+
+		(1)  Described in Section 501(c) of the Internal Revenue Code of 1986; and
+
+		(2)  Exempt from tax under Section 501(a) of that Code.
+
+SUBPART 237.2-PERSONAL SERVICES
+
+237.201  Presolicitation.
+
+237.201-170  Policy.
+
+	(a)  Personal services contracts for expert and consultant services are authorized by 10 U.S.C. 129b and must also be authorized by a determination and findings (D&F) in accordance with department and agency regulations.  See PGI 237.201-170(a) for further D&F guidance.
+
+	(b)  Personal services contracts for health care are authorized by 10 U.S.C. 1091.
+
+		(1)  This authority may be used to acquire-
+
+			(i)  Direct health care services provided in medical treatment facilities;
+
+			(ii)  Health care services at locations outside of medical treatment facilities (such as the provision of medical screening examinations at military entrance processing stations); and
+
+			(iii)  Services of clinical counselors, family advocacy program staff, and victim's services representatives to members of the Armed Forces and covered beneficiaries who require such services, provided in medical treatment facilities or elsewhere.  Persons with whom a personal services contract may be entered into under this authority include clinical social workers, psychologists, psychiatrists, and other comparable professionals who have advanced degrees in counseling or related academic disciplines and who meet all requirements for State licensure and board certification requirements, if any, within their fields of specialization.
+
+		(2)  Select sources for personal services contracts with individuals under the authority of 10 U.S.C. 1091 using the procedures in this section.  These procedures do not apply to contracts awarded to business entities other than individuals.  Selections made using the procedures in this section are exempt by statute from FAR Part 6 competition requirements.
+
+		(3)  Approval requirements for-
+
+			 (i) Direct health care personal services contracts (see paragraphs (b)(1)(i) and (ii) of this section) and a pay cap are in DoDI 6025.5, Personal Services Contracts for Health Care Providers.  
+
+				(A)  A request for a personal services contract for direct health care services must be approved by the commander of the medical/dental treatment facility where the services will be performed.
+
+				(B)  A request for a personal services contract for a location outside of a medical treatment facility must be approved by the chief of the medical facility who is responsible for the area in which the services will be performed.
+
+			(ii)  Services of clinical counselors, family advocacy program staff, and victim's services representatives (see paragraph (b)(1)(iii) of this section), shall be in accordance with agency procedures.
+
+		(4)  The contracting officer must ensure that the requiring activity provides a copy of the approval with the purchase request.
+
+		(5)  The contracting officer must provide adequate advance notice of contracting opportunities to individuals residing in the area of the facility.  The notice will include the qualification criteria against which individuals responding will be evaluated.  The contracting officer will solicit applicants through at least one local publication which serves the area of the facility.  Acquisitions under this section for personal service contracts are exempt from the posting and synopsis requirements of FAR Part 5.
+
+		(6)  The contracting officer shall provide the qualifications of individuals responding to the notice to the commander of the facility for evaluation and ranking in accordance with agency procedures.  Individuals must be considered solely based on the professional qualifications established for the particular personal services being acquired and the Government's estimate of reasonable rates, fees, or other costs.  The commander of the facility shall provide the contracting officer with rationale for the ranking of individuals, consistent with the required qualifications.
+
+		(7)  Upon receipt from the facility of the ranked listing of applicants, the contracting officer will either-
+
+			(i)  Enter into negotiations with the highest ranked applicant.  If a mutually satisfactory contract cannot be negotiated, the contracting officer will terminate negotiations with the highest ranked applicant and enter into negotiations with the next highest.
+
+			(ii)  Enter into negotiations with all qualified applicants and select based on qualifications and rates, fees, or other costs.
+
+		(8)  In the event only one individual responds to an advertised requirement, the contracting officer is authorized to negotiate the contract award.  In this case, the individual must still meet the minimum qualifications of the requirement, and the contracting officer must be able to make a determination that the price is fair and reasonable.
+
+		(9)  If a fair and reasonable price cannot be obtained from a qualified individual, the requirement should be canceled and acquired using procedures other than those set forth in this section.
+
+	(c)(1)  In accordance with 10 U.S.C. 129b(d), an agency may enter into a personal services contract if-
+
+			 (i)  The personal services-
+
+				(A)  Are to be provided by individuals outside the United States, regardless of their nationality;
+
+				(B)  Directly support the mission of a defense intelligence component or counter-intelligence organization of DoD; or
+
+				(C)  Directly support the mission of the special operations command of DoD; and
+
+			(ii)  The head of the contracting activity provides written approval for the proposed contract.  The approval must include a determination that addresses the following:
+
+				(A)  The services to be procured are urgent or unique;
+
+				(B)  It would not be practical to obtain such services by other means; and
+
+				(C)  For acquisition of services in accordance with paragraph (c)(1)(A) of this section, the services to be acquired are necessary and appropriate for supporting DoD activities and programs outside the United States.
+
+		(2)  The contracting officer will ensure that the applicable requirements of paragraph (c)(2) of this section have been satisfied and will include the approval documentation in the contract file.
+
+	(d)  The requirements of 5 U.S.C. 3109, Employment of Experts and Consultants; Temporary or Intermittent, do not apply to contracts entered into in accordance with paragraph (c)(1) of this section.
+
+	(e)  See PGI 237.876 for requirements for certification and approval of requirements for services to prevent contracts from being awarded or administered in a manner that constitutes an unauthorized personal services contract.
+
+	(f)(1)  Payment to each expert or consultant for personal services under 5 U.S.C. 3109 shall not exceed the highest rate fixed by the Classification Act Schedules for grade GS-15 (see 5 CFR 304.105(a)).
+
+		(2)  The contract may provide for the same per diem and travel expenses authorized for a Government employee, including actual transportation and per diem in lieu of subsistence for travel between home or place of business and official duty station.
+
+		(3)  Coordinate with the civilian personnel office on benefits, taxes, personnel ceilings, and maintenance of records.
+
+
+
+
+SUBPART 237.3--INHERENTLY GOVERNMENTAL FUNCTIONS
+
+237.301  Presolicitation.
+
+237.301-1 Policy.
+
+	(a)(i)  In addition to the prohibition on award of contracts for the performance of inherently governmental functions, contracting officers must not award contracts for functions that are exempt from private sector performance (see 207.503-70(a)(2)).  See part 207 for the associated documentation requirement.
+
+SUBPART 237.4-ADVISORY AND ASSISTANCE SERVICES
+
+237.470  Acquisition of audit services.
+
+	(a)  General policy.
+
+		(1)  Do not contract for audit services unless-
+
+			(i)  The cognizant DoD audit organization determines that expertise required to perform the audit is not available within the DoD audit organization; or
+
+			(ii)  Temporary audit assistance is required to meet audit reporting requirements mandated by law or DoD regulation.
+
+		(2)  See PGI 237.470 for a list of DoD publications that govern the conduct of audits.
+
+	(b)  Contract period.  Except in unusual circumstances, award contracts for recurring audit services for a 1-year period with at least 2 option years.
+
+	(c)  Approvals.  Do not issue a solicitation for audit services unless the requiring activity provides evidence that the cognizant DoD audit organization has approved the statement of work.  The requiring agency must obtain the same evidence of approval for subsequent material changes to the statement of work.
+
+	(d)  Transparency requirement for firms used to support DoD audits.
+
+		(1)  This paragraph (d) implements the requirements of Section 1006 of Pub. L. 115-232 and Section 1011 of Pub. L. 116-92 for transparency of accounting firms used to support DoD audits; and extends the statutory requirement, as a matter of DoD policy, to firms other than accounting firms in order to ensure consistent availability of data for contracting officer evaluation and appropriate use.
+
+		(2)  This requirement applies to solicitations and contracts for-
+
+			(i)  Financial statement auditing required under 31 U.S.C. 3521(e); or
+
+			(ii)  Audit remediation services in support of the Financial Improvement and Audit Remediation Plan described in 10 U.S.C. 240b.
+
+		(3)  Any firm responding to a solicitation or awarded a contract for the acquisition of the services described in paragraph (d)(2) of this section is required to represent with regard to whether it has been subject to disciplinary proceedings within the last 3 years and, if the offeror represents that it has, to disclose to DoD before any contract action (including award, renewals, and modifications)-
+
+			(i)  The details of any disciplinary proceedings, with respect to the firm or its associated persons (including principals and employees), before an entity with the authority to enforce compliance with rules or laws applying to audit services or audit remediation services offered by accounting firms or firms other than accounting firms; and
+
+			(ii)  For subsequent contract actions after contract award, whether there has been any change regarding previously reported disciplinary proceedings since the last contract action.
+
+	(e)  Solicitation provisions and contract clauses.
+
+		(1)  Insert the provision at 252.237-7997, Notice of Special Standards of Responsibility, in solicitations for audit services.
+
+		(2)  Insert the clause at 252.237-7001, Compliance with Audit Standards, in solicitations and contracts for audit services.
+
+		(3)  Insert the provision at 252.237-7025, Preaward Transparency Requirements for Firms Offering to Support Department of Defense Audits-Representation and Disclosure, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, that include the clause at 252.237-7026, Postaward Transparency Requirements for Firms that Support Department of Defense Audits.
+
+		(4)  Insert the clause at 252.237-7026, Postaward Transparency Requirements for Firms that Support Department of Defense Audits, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that-
+
+			(i)  Exceed the simplified acquisition threshold; and
+
+			(ii)  Are for the acquisition of financial statement auditing or audit remediation services as described in paragraph (d)(2) of this section.
+
+237.471  Consulting services.
+See 209.572 for requirements related to conflicts of interest in consulting services
+
+
+SUBPART 237.8-OTHER SERVICE CONSIDERATIONS
+
+237.802  Presolicitation.
+
+
+
+237.802-70  Prohibition on contracting for firefighting or security-guard functions.
+
+	(a)  The DoD is prohibited from contracting for the performance of firefighting or security-guard functions at any military installation or facility (10 U.S.C. 2465), unless-
+
+		(1)  The contract will be performed outside the U.S. and its outlying areas to avoid using members of the armed forces for firefighting or security-guard functions at the expense of unit readiness;
+
+		(2)  The contract will be performed on a Government-owned but privately operated installation; 
+
+		(3)  The contract (or renewal of a contract) is for the performance of a function under contract on September 24, 1983; or
+
+		(4)  The contract-
+
+			(i)  Is for the performance of firefighting functions;
+
+			(ii)  Is for a period of 1 year or less; and
+
+			(iii)  Covers only the performance of firefighting functions normally performed by members of the armed forces who are or will be deployed and unavailable.
+
+	(b)  This prohibition does not apply to services at installations being closed (Section 2907 of Pub. L. 103-160) (see Subpart 237.74).
+
+237.802-71  Limitation on service contracts for military flight simulators.
+
+	(a)  As used in this section-
+
+		(1)  "Military flight simulator" means any system to simulate the form, fit, and function of a military aircraft that has no commonly available commercial variant.
+
+		(2)  "Service contract" means any contract entered into by DoD, the principal purpose of which is to furnish services in the United States through the use of service employees as defined in 41 U.S.C. 6701.
+
+	(b)  The DoD is prohibited from using a service contract to acquire a military flight simulator (Section 832 of Pub. L. 109-364, and section 883(b) of Pub. L. 110-181).  However, the Secretary of Defense may waive this prohibition if-
+
+		(1)  A waiver is in the national interest; and
+
+		(2)  An economic analysis is provided to the congressional defense committees at least 30 days before the waiver takes effect.  This economic analysis must include, at a minimum-
+
+			(i)  A clear explanation of the need for the contract; and
+
+			(ii)  At least two alternatives for fulfilling the requirements that the contract is meant to fulfill, including the following for each alternative:
+
+				(A)  A rationale for including the alternative.
+
+				(B)  A cost estimate of the alternative and an analysis of the quality of each cost estimate.
+
+				(C)  A discussion of the benefits to be realized from the alternative.
+
+				(D)  A best value determination of each alternative and a detailed explanation of the life-cycle cost calculations used in the determination.
+
+	(c)  Follow the procedures at PGI 237.802-71 when submitting a waiver request. 
+
+237.802-72  Contracts for management services.
+
+DoD may award a services contract for acquisition support functions that support the development or production of a major system (Section 802 of Pub. L. 110-181), only if-
+
+	(a)  The contract prohibits the contractor from performing inherently governmental functions;
+
+	(b)  The DoD organization responsible for the development or production of the major system ensures that Federal employees are responsible for determining-
+
+		(1)  Courses of action to be taken in the best interest of the Government; and
+
+		(2)  Best technical performance for the warfighter; and
+
+	(c)  The contract prohibits the prime contractor from advising or recommending the award of a contract or subcontract for the development or production of the major system to an entity it owns in whole or in part.
+
+237.802-73  Prohibition on contracts for services of senior mentors.
+
+	(a)  "Senior mentors," as used in this section, means retired flag, general, or other military officers or retired senior civilian officials who provide expert experience-based mentoring, teaching, training, advice, and recommendations to senior military officers, staff, and students as they participate in war games, warfighting courses, operational planning, operational exercises, and decision-making exercises.
+
+	(b)  DoD is prohibited from contracting for the services of senior mentors.  See PGI 237.802-73 for references to DoD policy and implementation guidance. 
+
+237.802-74  Taxonomy for the acquisition of services, and supplies and equipment.
+See PGI 237.802-74 for guidance on the taxonomy for the acquisition of services and the acquisition of supplies and equipment.
+
+
+
+237.802-75  Acquisition of Services pathway.
+See PGI 237.802-75 for information on the Adaptive Acquisition Framework, Acquisition of Services pathway.
+
+237.802-76  Acquisition of computer software and computer software documentation under services contracts.
+
+	(a)  See 227.7202 for policy on the acquisition of commercial computer software and commercial computer software documentation for services contracts that require the development or modification of commercial computer software.
+
+	(b)  See 227.7103 for policy on the acquisition of other than commercial computer software and other than commercial computer software documentation for services contracts that require the development or modification of other than commercial computer software.
+
+237.802-77  Preference for certain commercial services.
+See part 212 for procedures for implementation of the preference for commercial facilities-related services, knowledge-based services (except engineering services), medical services, or transportation services, as required by Section 876 of Pub. L. 114-328.
+
+237.802-78  Public-private competition.
+See PGI 207.170 for information on the Governmentwide moratorium and restrictions on public-private competitions conducted pursuant to Office of Management and Budget (OMB) Circular A-76.
+
+237.802-79  Private sector notification requirements in support of in-sourcing actions.
+
+	(a)  Contracting officers will provide written notification to affected incumbent contractors of Government in-sourcing determinations (10 U.S.C. 2463).  
+
+	(b)  See PGI 237.802-79 for notification procedures and for further information in memorandum, "Private Sector Notification Requirements in Support of In-sourcing Actions," dated January 29, 2013.
+
+237.803  Evaluation and award.
+
+237.803-2  Funding and term of service contracts.
+
+	(a)(i)  Personal service contracts for expert or consultant services shall not exceed 1 year.  The nature of the duties must be-
+
+				(A)  Temporary (not more than 1 year); or
+
+				(B)  Intermittent (not cumulatively more than 130 days in 1 year).
+
+			(ii)  The contracting officer may enter into a contract, exercise an option, or place an order under a contract for severable services for a period that begins in one fiscal year and ends in the next fiscal year if the period of the contract awarded, option exercised, or order placed does not exceed 1 year (10 U.S.C. 3133).
+
+237.870  Approval of contracts and task orders for services.
+
+237.870-1  Scope.
+This section-
+
+	(a)  Implements 10 U.S.C. 4501; and
+
+	(b)  Applies to services acquired for DoD, regardless of whether the services are acquired through-
+
+		(1)  A DoD contract or task order; or
+
+		(2)  A contract or task order awarded by an agency other than DoD.
+
+237.870-2  Approval requirements.
+
+	(a)  Acquisition of services through a contract or task order that is not performance based.
+
+		(1)  For acquisitions at or below $100 million, obtain the approval of the official designated by the department or agency.
+
+		(2)  For acquisitions exceeding $100 million, obtain the approval of the senior procurement executive.
+
+	(b)  Acquisition of services through use of a contract or task order issued by a non-DoD agency.  Comply with the review, approval, and reporting requirements established in accordance with part 217 when acquiring services through use of a contract or task order issued by a non-DoD agency.
+
+237.871  Training for contractor personnel interacting with detainees.
+
+237.871-1  Scope. 
+This section implements policies to prevent the abuse of detainees, as required by Section 1092 of Pub. L. 108-375.
+
+237.871-2  Definition.
+As used in this section-
+
+"Combatant commander," "detainee," and "personnel interacting with detainees," as used in this section, are defined in the clause at 252.237-7998, Training for Contractor Personnel Interacting with Detainees.
+
+237.871-3  Policy.
+
+	(a)  DoD contracts involving contractor personnel who interact with detainees will include a requirement that such contractor personnel-
+
+		(1)  Receive Government-provided training regarding the international obligations and laws of the United States applicable to the detention of personnel, including the Geneva Conventions; and
+
+		(2)  Provide a copy of the training receipt document to the contractor.
+
+	(b)  The combatant commander responsible for the area where the detention or interrogation facility is located will arrange for the training and a training receipt document to be provided to contractor personnel.  For combatant commander geographic areas of responsibility and contact information, see PGI 237.871-3(b).
+
+237.871-4  Contract clause.
+Insert the clause at 252.237-7998, Training for Contractor Personnel Interacting with Detainees, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are for the acquisition of services if-
+
+	(a)  The clause at 252.225-7040, Contractor Personnel Supporting U.S. Armed Force(s) Deployed Outside the United States, is included in the solicitation or contract; or
+
+	(b)  The services will be performed at a facility holding detainees, and contractor personnel in the course of their duties may be expected to interact with the detainees.
+
+237.872  Service contracts surveillance.
+
+	(a)  See PGI 237.872 for guidance concerning quality assurance surveillance plans. 
+
+	(b)  See PGI 216.505-70 for guidance regarding minimum labor category qualifications for orders issued under multiple award services contracts.
+
+237.873  Prohibition on interrogation of detainees by contractor personnel.
+
+237.873-1  Scope.
+This section implements policies prohibiting interrogation of detainees by contractor personnel, as required by Section 1038 of Pub. L. 111-84.
+
+237.873-2  Definitions.
+As used in this section-
+
+"Detainee" means any person captured, detained, held, or otherwise under the effective control of DoD personnel (military or civilian) in connection with hostilities.  This includes, but is not limited to, enemy prisoners of war, civilian internees, and retained personnel.  This does not include DoD personnel or DoD contractor personnel being held for law enforcement purposes.
+
+"Interrogation of detainees" means a systematic process of formally and officially questioning a detainee for the purpose of obtaining reliable information to satisfy foreign intelligence collection requirements.
+
+237.873-3  Policy.
+
+	(a)  No detainee may be interrogated by contractor personnel.
+
+	(b)  Contractor personnel with proper training and security clearances may be used as linguists, interpreters, report writers, information technology technicians, and other employees filling ancillary positions, including as trainers of and advisors to interrogators, in interrogations of detainees if-
+
+		(1)  Such personnel are subject to the same laws, rules, procedures, and policies pertaining to detainee operations and interrogations as those that apply to Government personnel in such positions in such interrogations; and
+
+		(2)  Appropriately qualified and trained DoD personnel (military or civilian) are available to oversee the contractor's performance and to ensure that contractor personnel do not perform activities that are prohibited under this section.
+
+		(3)  See PGI 237.873-3 for a listing of applicable DoD policies pertaining to detainee operations and interrogations.
+
+237.873-4  Waiver.
+The Secretary of Defense may waive the prohibition in 237.873-3(a) for a period of 60 days, if the Secretary determines such a waiver is vital to the national security interests of the United States.  The Secretary may renew a waiver issued pursuant to this paragraph for an additional 30-day period, if the Secretary determines that such a renewal is vital to the national security interests of the United States.  Not later than five days after issuance of the waiver, the Secretary shall submit written notification to Congress.  See specific waiver procedures at DoDI 1100.22.
+
+237.873-5  Contract clause.
+Insert the clause at 252.237-7010, Prohibition on Interrogation of Detainees by Contractor Personnel, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are for the provision of services.
+
+237.874  Disclosure of information to litigation support contractors.
+See part 204 for disclosure of information to litigation support contractors.
+
+237.875  Training that uses live vertebrate animals.
+Insert the clause at 252.235-7002, Animal Welfare, as prescribed in 235.072(a), when contracting for training that will use live vertebrate animals.
+
+237.876  Certification of nonpersonal services.
+
+	(a)  The agency head must employ procedures to ensure that requirements for service contracts are vetted and approved as a safeguard to prevent contracts from being awarded or administered in a manner that constitutes an unauthorized personal services contract.  
+
+	(b)  Follow the procedures at PGI 237.876, to include substantially similar certifications in conjunction with service contract requirements and place the certification in the contract file.  The program manager or other official responsible for the requirement, at a level specified by the agency, should execute the certification.  
+
+	(c)  Contracting officers and program managers should remain aware of the descriptive elements at FAR 37.201-2 to ensure that a service contract does not inadvertently become administered as a personal-services contract.
+
+SUBPART 237.70--MORTUARY SERVICES
+
+237.7000  Scope.
+This subpart-
+
+	(a)  Applies to contracts for mortuary services (the care of remains) for military personnel within the United States; and
+
+	(b)  May be used as guidance in areas outside the United States for mortuary services for deceased military and civilian personnel.
+
+237.7001  Method of acquisition.
+
+	(a)  Requirements type contract.  By agreement among the military activities, one activity in each geographical area will contract for the estimated requirements for the care of remains for all military activities in the area.  Use a requirements type contract (see FAR 16.503) when the estimated annual requirements for the activities in the area are ten or more.
+
+	(b)  Purchase order.  Where no contract exists, use DD Form 1155, Order for Supplies or Services, to obtain mortuary services.
+
+237.7002  Area of performance and distribution of contracts.
+
+Follow the procedures at PGI 237.7002 for-
+
+	(a)  Defining the geographical area to be covered by the contract; and
+
+	(b)  Distributing copies of the contract.
+
+
+237.7003  Solicitation provisions and contract clauses.
+
+	(a)  Insert the following clauses in all mortuary service solicitations and contracts, except do not use the clauses at 252.237-7004, Area of Performance, in solicitations or contracts that include port of entry requirements:
+
+		(1)  252.237-7003, Requirements, (insert activities authorized to place orders in paragraph (e) of the clause).
+
+		(2)  252.237-7004, Area of Performance.
+
+		(3)  252.237-7005, Performance and Delivery.
+
+		(4)  252.237-7006, Subcontracting.
+
+		(5)  252.237-7007, Termination for Default.
+
+		(6)  252.237-7008, Group Interment.
+
+		(7)  252.237-7009, Permits.
+
+		(8)  252.237-7011, Preparation History.
+
+	(b)  Insert the clause at FAR 52.245-1, Government Property, with its Alternate I, in solicitations and contracts that include port of entry requirements.
+
+SUBPART 237.71-LAUNDRY AND DRY CLEANING SERVICES
+
+237.7100  Scope.
+This subpart-
+
+	(a)  Applies to contracts for laundry and dry cleaning services within the United States; and
+
+	(b)  May be used as guidance in areas outside the United States.
+
+237.7101  Solicitation provisions and contract clauses.
+
+	(a)  Insert the provision at 252.237-7012, Instruction to Offerors (Count-of-Articles), in solicitations for laundry and dry cleaning services to be provided on a count-of-articles basis.
+
+	(b)  Insert the provision at 252.237-7013, Instruction to Offerors (Bulk Weight), in solicitations for laundry services to be provided on a bulk weight basis.
+
+	(c)  Insert the clause at 252.237-7014, Loss or Damage (Count-of-Articles), in solicitations and contracts for laundry and dry cleaning services to be provided on a count-of-articles basis.
+
+	(d)  Insert the clause at 252.237-7015, Loss or Damage (Weight of Articles), in solicitations and contracts for laundry and dry cleaning services to be provided on a bulk weight basis.
+
+		(1)  Insert a reasonable per pound price in paragraph (b) of the clause, based on the average per pound value.  When the contract requires laundry services on a bag type basis, insert reasonable per pound prices by bag type.
+
+		(2)  Insert an appropriate percentage in paragraph (e) of the clause, not to exceed eight percent.
+
+	(e)  Insert the basic or an alternate of the clause at 252.237-7016, Delivery Tickets, in all solicitations and contracts for laundry and dry cleaning services.
+
+		(1)  Insert the basic clause when services are not to be provided on a bulk weight basis.
+
+		(2)  Insert the alternate I clause when services are for bag type laundry to be provided on a bulk weight basis.
+
+		(3)  Insert the alternate II clause when services are unsorted laundry to be provided on a bulk weight basis.
+
+	(f)  Insert the clause at 252.237-7017, Individual Laundry, in solicitations and contracts for laundry and dry cleaning services to be provided to individual personnel.
+
+		(1)  Insert the number of pieces of outer garments in paragraphs (d)(1) and (2) of the clause.
+
+		(2)  The number of pieces and composition of a bundle in paragraphs (d)(1) and (2) of the clause may be modified to meet local conditions.
+
+	(g)  Insert the clause at 252.237-7018, Special Definitions of Government Property, in all solicitations and contracts for laundry and dry cleaning services.
+
+SUBPART 237.72--EDUCATIONAL SERVICE AGREEMENTS
+
+237.7200  Scope.
+
+	(a)  This subpart prescribes acquisition procedures for educational services from schools, colleges, universities, or other educational institutions.  This subpart does not include tuition assistance agreements, i.e., payment by the Government of partial tuition under the off-duty educational program.
+
+	(b)  As used in the subpart-
+
+		(1)  "Facilities" does not include the institution's dining rooms or dormitories; and 
+
+		(2)  "Fees" does not include charges for meals or lodging.
+
+237.7201  Educational service agreement.
+
+	(a)  An educational service agreement is not a contract but is an ordering agreement under which the Government may order educational services.
+
+	(b)  Educational service agreements provide for ordering educational services when-
+
+		(1)  The Government pays normal tuition and fees for educational services provided to a student by the institution under its normal schedule of tuition and fees applicable to all students generally; and
+
+		(2)  Enrollment is at the institution under the institution's normal rules and in courses and curricula which the institution offers to all students meeting admission requirements.
+
+237.7202  Limitations.
+Educational service agreements are not used to provide special courses or special fees for Government students.
+
+237.7203  Duration.
+
+	(a)  Educational service agreements are for an indefinite duration and remain in effect until terminated.
+
+	(b)  The issuing activity must establish procedures to review each educational service agreement at least once each year.  Review dates should consider the institution's academic calendar and occur at least 30 days before the beginning of a term.  The purpose of the review is to incorporate changes to reflect requirements of any statute, Executive Order, FAR, or DFARS.
+
+	(c)  If the contracting officer and the institution do not agree on required changes, terminate the agreement.
+
+237.7204  Format and clauses for educational service agreements.
+See PGI 237.7204 for format and clauses for educational service agreements. 
+
+SUBPART 237.73--SERVICES OF STUDENTS AT RESEARCH AND DEVELOPMENT LABORATORIES
+
+237.7300  Scope.
+This subpart implements acquisition of temporary or intermittent services of students at institutions of higher learning to provide technical support at defense research and development laboratories (10 U.S.C. 4143).
+
+237.7301  Definitions.
+As used in this subpart-
+
+	(a)  "Institution of higher learning" means any public or private post-secondary school, junior college, college, university, or other degree granting educational institution that-
+
+		(1)  Is located in the United States or its outlying areas;
+
+		(2)  Has an accredited education program approved by an appropriate accrediting body; and
+
+		(3)  Offers a program of study at any level beyond high school.
+
+	(b)  "Student" means an individual enrolled (or accepted for enrollment) at an institution of higher learning before the term of the student technical support contract.  The individual must remain in good standing in a curriculum designed to lead to the granting of a recognized degree, during the term of the contract.
+
+	(c)  "Technical support" means any scientific or engineering work in support of the mission of the DoD laboratory involved.  It does not include administrative or clerical services.
+
+237.7302  Policy.
+Acquisition of services of students at institutions of higher learning is generally by contract between a nonprofit organization employing the student and the Government.  When it is in the best interest of the Government, contracts may be made directly with students.  These services are not subject to the requirements of FAR Part 19, FAR 13.102, or DFARS part 219.  Award authority for these contracts is 10 U.S.C. 3204(a) and 10 U.S.C. 4143.
+
+237.7303  Contract clauses.
+Contracts made directly with students are nonpersonal service contracts but must include the clauses at FAR 52.232-3, Payments Under Personal Services Contracts, and FAR 52.249-12, Termination (Personal Services).
+
+SUBPART 237.74--SERVICES AT INSTALLATIONS BEING CLOSED
+
+237.7400  Scope.
+This subpart implements procedures for contracting, through use of other than full and open competition, with local governments for police, fire protection, airfield operation, or other community services at military installations to be closed under the Defense Authorization Amendments and Base Closure and Realignment Act (Pub. L. 100-526), as amended, and the Defense Base Closure and Realignment Act of 1990 (Pub. L. 101-510), as amended.
+
+237.7401  Policy.
+
+The authority in 206.103-5(c)(ii) to contract with local governments-
+
+	(a)  May be exercised without regard to the provisions of 10 U.S.C. Chapter 146, Contracting for Performance of Civilian Commercial or Industrial Type Functions;
+
+	(b)  May not be exercised earlier than 180 days before the date the installation is scheduled to be closed;
+
+	(c)  Requires a determination by the head of the contracting activity that the services being acquired under contract with the local government are in the best interests of the DoD.  
+
+237.7402  Contract clause.
+Insert the clause at 252.237-7022, Services at Installations Being Closed, in solicitations and contracts based upon the authority of this subpart.
+
+SUBPART 237.75-ACQUISITION AND MANAGEMENT OF INDUSTRIAL RESOURCES
+
+237.7501  Definition.
+As used in this subpart-
+
+"Facilities project,"  means a Government project to provide, modernize, or replace real property for use by a contractor in performing a Government contract or subcontract.
+
+237.7502  Policy.
+
+	(a)  Comply with DoD Directive 4275.5, Acquisition and Management of Industrial Resources, in processing requests for facilities projects.  
+
+	(b)  Departments and agencies shall submit reports of facilities projects to the House and Senate Armed Services Committees-
+
+		(1)  At least 30 days before starting facilities projects involving real property (10 U.S.C. 2662); and
+
+		(2)  In advance of starting construction for a facilities project regardless of cost.  
+
+	(c)  See PGI 237.7502 for notification guidance for projects that are not included in the annual budget.
+
+SUBPART 237.76-CONTINUATION OF ESSENTIAL CONTRACTOR SERVICES
+
+237.7600  Scope.
+This subpart prescribes procedures for the acquisition of essential contractor services which support mission-essential functions.
+
+237.7601  Definitions.
+As used in this subpart-
+
+"Essential contractor service" and "mission-essential functions" are defined in the clause at 252.237-7023, Continuation of Essential Contractor Services.
+
+237.7602  Policy.
+
+	(a)  Contractors providing services designated as essential contractor services must permit continuation of  such services during periods of crisis in accordance with the terms and conditions of their contracts.  Generally, only specifically designated service functions, identified by the functional commander or civilian equivalent, are considered mission-essential functions, not the entire contract.
+
+	(b)  For Government-determined essential contractor services, the contractor shall provide a mission-essential contractor services plan to be incorporated in the contract.  The contracting officer, with input from the functional manager, will assess the sufficiency of the contractor-provided plan.  During a crisis, plan activation requires contracting officer authorization at the direction of the appropriate functional commander or civilian equivalent.
+
+	(c)  Follow the procedures at PGI 207for preparing acquisition plans.
+
+237.7603  Solicitation provision and contract clause.
+
+	(a)  Insert the clause at 252.237-7023, Continuation of Essential Contractor Services in all solicitations and contracts for services that are in support of mission-essential functions.
+
+	(b)  Insert the provision at 252.237-7024, Notice of Continuation of Essential Contractor Services in all solicitations for services that include the clause 252.237-7023.
+
+
+
+
+SUBPART 237.77- COMPETITION FOR RELIGIOUS-RELATED SERVICES
+
+237.7700  Scope of subpart.
+This subpart implements Section 898 of Pub. L. 114-92 for the acquisition of religious-related services to be performed on a U.S. military installation.
+
+237.7701  Policy.
+
+	(a)  Do not exclude nonprofit organizations  from competitions  for religious-related services performed on a United States military installation. 
+
+	(b)  See 219.104-70 when an acquisition for religious-related services to be performed on a U.S. military installation is set aside for any of the small business concerns identified in FAR 19.000(a)(3). 
+
+SUBPART 237.78-TRANSFER AND ADOPTION OF MILITARY ANIMALS
+
+237.7800  Scope of subpart.
+This subpart implements 10 U.S.C. 2387, which requires, under certain circumstances, the transfer of a contract working dog to the Department of the Air Force, 341st Training Squadron, for veterinary screening and care (10 U.S.C. 2583).
+
+
+237.7801  Definition.
+As used in this subpart-
+
+"Contract working dog,"  means a dog that-
+
+	(1)  Performs a service for DoD pursuant to a contract; and
+
+	(2)  Is trained and kenneled by an entity that provides such a dog pursuant to such a contract.
+
+237.7802  Policy.
+
+	(a)  In accordance with 10 U.S.C. 2387, DoD will transfer a contract working dog to the Department of the Air Force, 341st Training Squadron, for veterinary screening and care after the service life of the dog has terminated.
+
+	(b)  The service life of a contract working dog may be terminated if-
+
+		(1)  The final contractual obligation of the dog preceding transfer is with DoD; and
+
+		(2)  The dog cannot be used by another department or agency of the Federal Government due to age, injury, or performance.
+
+	(c)  A contract working dog that has reached the end of its service life will be transferred for care, reclassification as a military animal, and placement for 
+adoption (10 U.S.C. 2583).
+
+
+237.7803  Procedures.
+Contracting officers, at the request of the requiring activity, may issue a determination that the service life of a contract working dog has terminated if the conditions in 237.7802(b) have been documented by the requiring activity.
+
+237.7804  Contract clause.
+Insert the clause at 252.237-7027, Transfer and Adoption of Military Animals, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that require the services of a contract working dog.
+
+
+PART 252- SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.237-7997  Notice of Special Standards of Responsibility.
+As prescribed in 237.470(e)(1), insert the following provision:
+
+NOTICE OF SPECIAL STANDARDS OF RESPONSIBILITY 
+(DEVIATION 2026-O0026)(FEB 2026)
+
+	(a)  To be determined responsible, the Offeror must meet the general standards of responsibility set forth at FAR 9.104-1 and the following criteria, as described in Chapter 3, General Standards, of "Government Auditing Standards."
+
+		(1)  Qualifications;
+
+		(2)  Independence; and
+
+		(3)  Quality Control.
+
+	(b)  "Government Auditing Standards" is issued by the Comptroller General of the United States. To obtain a digital copy or for more information on obtaining a hardcopy of the "Government Auditing Standards," see website: https://www.gao.gov/yellowbook.  
+
+	(c)  The apparently successful Offeror, before award, shall give the Contracting Officer evidence that it is licensed by the cognizant licensing authority in the state or other political jurisdiction where the Offeror operates its professional practice.
+
+(End of provision)
+
+252.237-7998  Training for Contractor Personnel Interacting with Detainees.
+As prescribed in 237.871-4, insert the following clause:
+
+TRAINING FOR CONTRACTOR PERSONNEL INTERACTING WITH DETAINEES
+(DEVIATION 2026-O0023) (FEB 2026)
+
+	(a)  Definitions.  As used in this clause-
+
+		"Combatant Commander" means the commander of a unified or specified combatant command established in accordance with 10 U.S.C. 161.
+
+		"Detainee" means a person in the custody or under the physical control of the Department of Defense on behalf of the United States Government as a result of armed conflict or other military operation by United States armed forces.
+
+		"Personnel interacting with detainees" means personnel who, in the course of their duties, are expected to interact with detainees.
+
+	(b)  Training requirement.  This clause implements Section 1092 of the National Defense Authorization Act for Fiscal Year 2005 (Pub. L. 108-375).
+
+		(1)  The Combatant Commander responsible for the area where a detention or interrogation facility is located will arrange for training to be provided to contractor personnel interacting with detainees.  The training will address the international obligations and laws of the United States applicable to the detention of personnel, including the Geneva Conventions.  The Combatant Commander will arrange for a training receipt document to be provided to personnel who have completed the training.
+
+		(2)(i)  The Contractor shall arrange for its personnel interacting with detainees to-
+
+			(A)  Receive the training specified in paragraph (b)(1) of this clause-
+
+				(1)  Prior to interacting with detainees, or as soon as possible if, for compelling reasons, the Contracting Officer authorizes interaction with detainees prior to receipt of such training; and 
+
+				(2)  Annually thereafter; and
+
+			(B)  Provide a copy of the training receipt document specified in paragraph (b)(1) of this clause to the Contractor for retention.
+
+		(ii)  To make these arrangements, the following points of contact apply:
+
+[Contracting Officer to insert applicable contact information cited in PGI 237.871-3(b).]
+
+		(3)  The Contractor shall retain a copy of the training receipt document(s) provided in accordance with paragraphs (b)(1) and (2) of this clause until the contract is closed, or 3 years after all work required by the contract has been completed and accepted by the Government, whichever is sooner.
+
+	(c)  Subcontracts.  The Contractor shall include the substance of this clause, including this paragraph (c), in all subcontracts, including subcontracts for commercial services, that may require subcontractor personnel to interact with detainees in the course of their duties.
+
+(End of clause)
+
+
+
+252.237-7001  Compliance with Audit Standards.
+As prescribed in 237.470(e)(2), insert the following clause:
+
+COMPLIANCE WITH AUDIT STANDARDS (MAY 2000)
+
+The Contractor, in performance of all audit services under this contract, shall comply with "Government Auditing Standards" issued by the Comptroller General of the United States.
+
+(End of clause)
+
+252.237-7003  Requirements.
+As prescribed in 237.7003(a) and (a)(1), insert the following clause:
+
+REQUIREMENTS (DEC 1991)
+
+	(a)  Except as provided in paragraphs (c) and (d) of this clause, the Government will order from the Contractor all of its requirements in the area of performance for the supplies and services listed in the schedule of this contract.
+
+	(b)  Each order will be issued as a delivery order and will list-
+
+		(1)  The supplies or services being ordered;
+
+		(2)  The quantities to be furnished;
+
+		(3)  Delivery or performance dates;
+
+		(4)  Place of delivery or performance;
+
+		(5)  Packing and shipping instructions;
+
+		(6)  The address to send invoices; and
+
+		(7)  The funds from which payment will be made.
+
+	(c)  The Government may elect not to order supplies and services under this contract in instances where the body is removed from the area for medical, scientific, or other reason.
+
+	(d)  In an epidemic or other emergency, the contracting activity may obtain services beyond the capacity of the Contractor's facilities from other sources.
+
+	(e)  Contracting Officers of the following activities may order services and supplies under this contract-
+
+
+(End of clause)
+
+252.237-7004  Area of Performance.
+As prescribed in 237.7003(a) and (a)(2), insert the following clause:
+
+AREA OF PERFORMANCE (DEC 1991)
+
+	(a)  The area of performance is as specified in the contract.
+
+	(b)  The Contractor shall take possession of the remains at the place where they are located, transport them to the Contractor's place of preparation, and later transport them to a place designated by the Contracting Officer.
+
+	(c)  The Contractor will not be reimbursed for transportation when both the place where the remains were located, and the delivery point are within the area of performance.
+
+	(d)  If remains are located outside the area of performance, the Contracting Officer may place an order with the Contractor under this contract or may obtain the services elsewhere.  If the Contracting Officer requires the Contractor to transport the remains into the area of performance, the Contractor shall be paid the amount per mile in the schedule for the number of miles required to transport the remains by a reasonable route from the point where located to the boundary of the area of performance.
+
+	(e)  The Contracting Officer may require the Contractor to deliver remains to any point within 100 miles of the area of performance.  In this case, the Contractor shall be paid the amount per mile in the schedule for the number of miles required to transport the remains by a reasonable route from the boundary of the area of performance to the delivery point.
+
+(End of clause)
+
+252.237-7005  Performance and Delivery.
+As prescribed in 237.7003(a) and (a)(3), insert the following clause:
+
+PERFORMANCE AND DELIVERY (DEC 1991)
+
+	(a)  The Contractor shall furnish the material ordered and perform the services specified as promptly as possible but not later than 36 hours after receiving notification to remove the remains, excluding the time necessary for the Government to inspect and check results of preparation.
+
+	(b)  The Government may, at no additional charge, require the Contractor to hold the remains for an additional period not to exceed 72 hours from the time the remains are casketed and final inspection completed.
+
+(End of clause)
+
+252.237-7006  Subcontracting.
+As prescribed in 237.7003(a) and (a)(4), insert the following clause:
+
+SUBCONTRACTING (DEC 1991)
+
+The Contractor shall not subcontract any work under this contract without the Contracting Officer's written approval.  This clause does not apply to contracts of employment between the Contractor and its personnel.
+
+(End of clause)
+
+252.237-7007  Termination for Default.
+As prescribed in 237.7003(a) and (a)(5), insert the following clause:
+
+TERMINATION FOR DEFAULT (DEC 1991)
+
+	(a)  This clause supplements and is in addition to the Default clause of this contract.
+
+	(b)  The Contracting Officer may terminate this contract for default by written notice without the ten-day notice required by paragraph (a)(2) of the Default clause if-
+
+		(1)  The Contractor, through circumstances reasonably within its control or that of its employees, performs any act under or in connection with this contract, or fails in the performance of any service under this contract and the act or failures may reasonably be considered to reflect discredit upon the Department of Defense in fulfilling its responsibility for proper care of remains;
+
+		(2)  The Contractor, or its employees, solicits relatives or friends of the deceased to purchase supplies or services not under this contract.  (The Contractor may furnish supplies or arrange for services not under this contract, only if representatives of the deceased voluntarily request, select, and pay for them.);
+
+		(3)  The services or any part of the services are performed by anyone other than the Contractor or the Contractor's employees without the written authorization of the Contracting Officer;
+
+		(4)  The Contractor refuses to perform the services required for any particular remains; or
+
+		(5)  The Contractor mentions or otherwise uses this contract in its advertising in any way.
+
+(End of clause)
+
+252.237-7008  Group Interment.
+As prescribed in 237.7003(a) and (a)(6), insert the following clause:
+
+GROUP INTERMENT (DEC 1991)
+
+The Government will pay the Contractor for supplies and services provided for remains interred as a group on the basis of the number of caskets furnished, rather than on the basis of the number of persons in the group.
+
+(End of clause)
+
+252.237-7009  Permits.
+As prescribed in 237.7003(a) and (a)(7), insert the following clause:
+
+PERMITS (DEC 1991)
+
+The Contractor shall meet all State and local licensing requirements and obtain and furnish all necessary health department and shipping permits at no additional cost to the Government.  The Contractor shall ensure that all necessary health department permits are in order for disposition of the remains.
+
+(End of clause)
+
+252.237-7010  Prohibition on Interrogation of Detainees by Contractor Personnel.
+As prescribed in 237.873-5, insert the following clause:
+
+PROHIBITION ON INTERROGATION OF DETAINEES BY CONTRACTOR 
+PERSONNEL (JAN 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+"Detainee" means any person captured, detained, held, or otherwise under the effective control of DoD personnel (military or civilian) in connection with hostilities.  This includes, but is not limited to, enemy prisoners of war, civilian internees, and retained personnel.  This does not include DoD personnel or DoD contractor personnel being held for law enforcement purposes.
+
+"Interrogation of detainees" means a systematic process of formally and officially questioning a detainee for the purpose of obtaining reliable information to satisfy foreign intelligence collection requirements.
+
+	(b)  Contractor personnel shall not interrogate detainees.
+
+	(c)  Subcontracts.  The Contractor shall include the substance of this clause, including this paragraph (c), in all subcontracts, including subcontracts for commercial services, that may require subcontractor personnel to interact with detainees in the course of their duties.
+
+(End of clause)
+
+252.237-7011  Preparation History.
+As prescribed in 237.7003(a) and (a)(8), insert the following clause:
+
+PREPARATION HISTORY (DEC 1991)
+
+For each body prepared, or for each casket handled in a group interment, the Contractor shall state briefly the results of the embalming process on a certificate furnished by the Contracting Officer.
+
+(End of clause)
+
+252.237-7012  Instruction to Offerors (Count-of-Articles).
+As prescribed in 237.7101(a), use the following provision:
+
+INSTRUCTION TO OFFERORS (COUNT-OF-ARTICLES) (DEC 1991)
+
+	(a)  The Offeror shall include unit prices for each item in a lot.  Unit prices shall include all costs to the Government of providing the services, including pickup and delivery charges.
+
+	(b)  Failure to offer on any item in a lot shall be cause for rejection of the offer on that lot.  The Contracting Officer will evaluate offers based on the estimated quantities in the solicitation.
+
+	(c)  Award generally will be made to a single offeror for all lots.  However, the Contracting Officer may award by individual lot when it is more advantageous to the Government.
+
+	(d)  Prospective offerors may inspect the types of articles to be serviced.  Contact the Contracting Officer to make inspection arrangements.
+
+(End of provision)
+
+252.237-7013  Instruction to Offerors (Bulk Weight).
+As prescribed in 237.7101(b), insert the following provision:
+
+INSTRUCTION TO OFFERORS (BULK WEIGHT) (DEC 1991)
+
+	(a)  Offers shall be submitted on a unit price per pound of serviced laundry.  Unit prices shall include all costs to the Government of providing the service, including pickup and delivery charges.
+
+	(b)  The Contracting Officer will evaluate bids based on the estimated pounds of serviced laundry stated in the solicitation.
+
+	(c)  Award generally will be made to a single offeror for all lots.  However, the Contracting Officer may award by individual lot when it is more advantageous to the Government.
+
+	(d)  Prospective offerors may inspect the types of articles to be serviced.  Contact the Contracting Officer to make inspection arrangements.
+
+(End of provision)
+
+252.237-7014  Loss or Damage (Count-of-Articles).
+As prescribed in 237.7101(c), insert the following clause:
+
+LOSS OR DAMAGE (COUNT-OF-ARTICLES) (DEC 1991)
+
+	(a)  The count-of-articles will be-
+
+		(1)  The count of the Contracting Officer; or
+
+		(2)  The count agreed upon as a result of a joint count by the Contractor and the Contracting Officer at the time of delivery to the Contractor.
+
+	(b)  The Contractor shall-
+
+		(1)  Be liable for return of the number and kind of articles furnished for service under this contract; and
+
+		(2)  Shall indemnify the Government for any loss or damage to such articles.
+
+	(c)  The Contractor shall pay to the Government the value of any lost or damaged property using Federal supply schedule price lists.  If the property is not on these price lists, the Contracting Officer shall determine a fair and reasonable price.
+
+	(d)  The Contracting Officer will allow credit for any depreciation in the value of the property at the time of loss or damage.  The Contracting Officer and the Contractor shall mutually determine the amount of the allowable credit.
+
+	(e)  Failure to agree upon the value of the property or on the amount of credit due will be treated as a dispute under the Disputes clause of this contract.
+
+	(f)  In case of damage to any property that the Contracting Officer and the Contractor agree can be satisfactorily repaired, the Contractor may repair the property at its expense in a manner satisfactory to the Contracting Officer, rather than make payment under paragraph (c) of this clause.
+
+(End of clause)
+
+252.237-7015  Loss or Damage (Weight of Articles).
+As prescribed in 237.7101(d), insert the following clause:
+
+LOSS OR DAMAGE (WEIGHT OF ARTICLES) (DEC 1991)
+
+	(a)  The Contractor shall-
+
+		(1)  Be liable for return of the articles furnished for service under this contract; and
+
+		(2)  Indemnify the Government for any articles delivered to the Contractor for servicing under this contract that are lost or damaged, and in the opinion of the Contracting Officer, cannot be repaired satisfactorily.
+
+	(b)  The Contractor shall pay to the Government _________ per pound for lost or damaged articles.  The Contractor shall pay the Government only for losses which exceed the maximum weight loss in paragraph (e) of this clause.
+
+	(c)  Failure to agree on the amount of credit due will be treated as a dispute under the Disputes clause of this contract.
+
+	(d)  In the case of damage to any articles that the Contracting Officer and the Contractor agree can be satisfactorily repaired, the Contractor shall repair the articles at its expense in a manner satisfactory to the Contracting Officer.
+
+	(e)  The maximum weight loss allowable in servicing the laundry is ______ percent of the weight recorded on delivery tickets when the laundry is picked up.  Any weight loss in excess of this amount shall be subject to the loss provisions of this clause.
+
+(End of clause)
+
+252.237-7016  Delivery Tickets.
+
+	Basic.  As prescribed in 237.7101(e) and (e)(1), insert the following clause:
+
+DELIVERY TICKETS-BASIC (NOV 2014)
+
+	(a)  The Contractor shall complete delivery tickets in the number of copies required and in the form approved by the Contracting Officer, when it receives the articles to be serviced.
+
+	(b)  The Contractor shall include one copy of each delivery ticket with its invoice for payment.
+
+(End of clause)
+
+	Alternate I.  As prescribed in 237.7101(e) and (e)(2), insert the following clause, which includes paragraphs (c), (d), and (e) not included in the basic clause:
+
+DELIVERY TICKETS-ALTERNATE I (NOV 2014)
+
+	(a)  The Contractor shall complete delivery tickets in the number of copies required and in the form approved by the Contracting Officer, when it receives the articles to be serviced.
+
+	(b)  The Contractor shall include one copy of each delivery ticket with its invoice for payment.
+
+	(c)  Before the Contractor picks up articles for service under this contract, the Contracting Officer will ensure that-
+
+		(1)  Each bag contains only articles within a single bag type as specified in the schedule; and
+
+		(2)  Each bag is weighed, and the weight and bag type are identified on the bag.
+
+	(d)  The Contractor shall, at time of pickup-
+
+		(1)  Verify the weight and bag type and record them on the delivery ticket; and
+
+		(2)  Provide the Contracting Officer, or representative, a copy of the delivery ticket.
+
+	(e)  At the time of delivery, the Contractor shall record the weight and bag type of serviced laundry on the delivery ticket.  The Contracting Officer will ensure that this weight and bag type are verified at time of delivery.
+
+(End of clause)
+
+	Alternate II.  As prescribed in 237.7101(e) and (e)(3), insert the following clause, which includes paragraphs (c), (d), and (e) not included in the basic clause:
+
+DELIVERY TICKETS-ALTERNATE II (NOV 2014)
+
+	(a)  The Contractor shall complete delivery tickets in the number of copies required and in the form approved by the Contracting Officer, when it receives the articles to be serviced.
+
+	(b)  The Contractor shall include one copy of each delivery ticket with its invoice for payment.
+
+	(c)  Before the Contractor picks up articles for service under this contract, the Contracting Officer will ensure that each bag is weighed and that the weight is identified on the bag.
+
+	(d)  The Contractor, at time of pickup, shall verify and record the weight on the delivery ticket and shall provide the Contracting Officer, or representative, a copy of the delivery ticket.
+
+	(e)  At the time of delivery, the Contractor shall record the weight of serviced laundry on the delivery ticket.  The Contracting Officer will ensure that this weight is verified at time of delivery.
+
+(End of clause)
+
+252.237-7017  Individual Laundry.
+As prescribed in 237.7101(f), insert the following clause:
+
+INDIVIDUAL LAUNDRY (DEC 1991)
+
+	(a)  The Contractor shall provide laundry service under this contract on both a unit bundle and on a piece-rate bundle basis for individual personnel.
+
+	(b)  The total number of pieces listed in the "Estimated Quantity" column in the schedule is the estimated amount of individual laundry for this contract.  The estimate is for information only and is not a representation of the amount of individual laundry to be ordered.  Individuals may elect whether or not to use the laundry services.
+
+	(c)  Charges for individual laundry will be on a per unit bundle or a piece-rate basis.  The Contractor shall provide individual laundry bundle delivery tickets for use by the individuals in designating whether the laundry is a unit bundle or a piece-rate bundle.  An individual laundry bundle will be accompanied by a delivery ticket listing the contents of the bundle.
+
+	(d)  The maximum number of pieces to be allowed per bundle is as specified in the schedule and as follows-
+
+		(1)  Bundle consisting of 26 pieces, including laundry bag.  This bundle will contain approximately _______ pieces of outer garments which shall be starched and pressed.  Outer garments include, but are not limited to, shirts, trousers, jackets, dresses, and coats.
+
+		(2)  Bundle consisting of 13 pieces, including laundry bag.  This bundle will contain approximately _____ pieces of outer garments which shall be starched and pressed.  Outer garments include, but are not limited to, shirts, trousers, jackets, dresses, and coats.
+
+(End of clause)
+
+252.237-7018  Special Definitions of Government Property.
+As prescribed in 237.7101(g), use the following clause:
+
+SPECIAL DEFINITIONS OF GOVERNMENT PROPERTY (DEC 1991)
+
+Articles delivered to the Contractor to be laundered or dry-cleaned, including any articles which are actually owned by individual Government personnel, are Government-owned property, not Government-furnished property.  Government-owned property does not fall under the requirements of any Government-furnished property clause of this contract.
+
+(End of clause)
+
+252.237-7022  Services at Installations Being Closed.
+As prescribed in 237.7402, use the following clause:
+
+SERVICES AT INSTALLATIONS BEING CLOSED (MAY 1995)
+
+Professional employees shall be used by the local government to provide services under this contract to the extent that professionals are available in the area under the jurisdiction of such government.
+
+(End of clause)
+
+
+
+252.237-7023  Continuation of Essential Contractor Services.
+As prescribed in 237.7603(a), use the following clause:
+
+CONTINUATION OF ESSENTIAL CONTRACTOR SERVICES (OCT 2010)
+
+	(a)  Definitions.  As used in this clause-
+
+		(1)  "Essential contractor service" means a service provided by a firm or individual under contract to DoD to support mission-essential functions, such as support of vital systems, including ships owned, leased, or operated in support of military missions or roles at sea; associated support activities, including installation, garrison, and base support services; and similar services provided to foreign military sales customers under the Security Assistance Program.  Services are essential if the effectiveness of defense systems or operations has the potential to be seriously impaired by the interruption of these services, as determined by the appropriate functional commander or civilian equivalent.
+
+		(2)  "Mission-essential functions" means those organizational activities that must be performed under all circumstances to achieve DoD component missions or responsibilities, as determined by the appropriate functional commander or civilian equivalent.  Failure to perform or sustain these functions would significantly affect DoD's ability to provide vital services or exercise authority, direction, and control.
+
+	(b)  The Government has identified all or a portion of the contractor services performed under this contract as essential contractor services in support of mission essential functions.  These services are listed in attachment __, Mission-Essential Contractor Services, dated __________.
+
+	(c)(1)  The Mission-Essential Contractor Services Plan submitted by the Contractor, is incorporated in this contract.
+
+		(2)  The Contractor shall maintain and update its plan as necessary.  The Contractor shall provide all plan updates to the Contracting Officer for approval.
+
+		(3)  As directed by the Contracting Officer, the Contractor shall participate in training events, exercises, and drills associated with Government efforts to test the effectiveness of continuity of operations procedures and practices. 
+
+	(d)(1)  Notwithstanding any other clause of this contract, the contractor shall be responsible to perform those services identified as essential contractor services during crisis situations (as directed by the Contracting Officer), in accordance with its Mission-Essential Contractor Services Plan.
+
+		(2)  In the event the Contractor anticipates not being able to perform any of the essential contractor services identified in accordance with paragraph (b) of this section during a crisis situation, the Contractor shall notify the Contracting Officer or other designated representative as expeditiously as possible and use its best efforts to cooperate with the Government in the Government's efforts to maintain the continuity of operations.
+
+	(e)  The Government reserves the right in such crisis situations to use Federal employees, military personnel or contract support from other contractors, or to enter into new contracts for essential contractor services.
+
+	(f)  Changes. The Contractor shall segregate and separately identify all costs incurred in continuing performance of essential services in a crisis situation.  The Contractor shall notify the Contracting Officer of an increase or decrease in costs within ninety days after continued performance has been directed by the Contracting Officer, or within any additional period that the Contracting Officer approves in writing, but not later than the date of final payment under the contract.  The Contractor's notice shall include the Contractor's proposal for an equitable adjustment and any data supporting the increase or decrease in the form prescribed by the Contracting Officer.  The parties shall negotiate an equitable price adjustment to the contract price, delivery schedule, or both as soon as is practicable after receipt of the Contractor's proposal.
+
+	(g)  The Contractor shall include the substance of this clause, including this paragraph (g), in subcontracts for the essential services.
+
+(End of Clause)
+
+252.237-7024  Notice of Continuation of Essential Contractor Services.
+As prescribed in 237.7603(b), use the following provision:
+
+NOTICE OF CONTINUATION OF ESSENTIAL CONTRACTOR SERVICES 
+(OCT 2010)
+
+	(a)  Definitions.  "Essential contractor service" and "mission-essential functions" have the meanings given in the clause at 252.237-7023, Continuation of Essential Contractor Services, in this solicitation.
+
+	(b)  The offeror shall provide with its offer a written plan describing how it will continue to perform the essential contractor services listed in attachment ___, Mission Essential Contractor Services, dated ________, during periods of crisis.  The offeror shall-
+
+		(1)  Identify provisions made for the acquisition of essential personnel and resources, if necessary, for continuity of operations for up to 30 days or until normal operations can be resumed; 
+
+		(2)  Address in the plan, at a minimum- 
+
+			(i)  Challenges associated with maintaining essential contractor services during an extended event, such as a pandemic that occurs in repeated waves;
+
+			(ii)  The time lapse associated with the initiation of the acquisition of essential personnel and resources and their actual availability on site;
+
+			(iii)  The components, processes, and requirements for the identification, training, and preparedness of personnel who are capable of relocating to alternate facilities or performing work from home;
+
+			(iv)  Any established alert and notification procedures for mobilizing identified "essential contractor service" personnel; and
+
+			(v)  The approach for communicating expectations to contractor employees regarding their roles and responsibilities during a crisis.
+
+(End of provision)
+
+252.237-7025  Preaward Transparency Requirements for Firms Offering to Support Department of Defense Audits-Representation and Disclosure.
+As prescribed in 237.470(e)(3), use the following provision:
+
+PREAWARD TRANSPARENCY REQUIREMENTS FOR FIRMS OFFERING TO SUPPORT DEPARTMENT OF DEFENSE AUDITS-REPRESENTATION AND DISCLOSURE (OCT 2022)
+
+	(a)  Representation.  The Offeror represents that within the 3-year period preceding this offer, the Offeror and/or any of its principals or employees have [  ] have not [  ] been the subject of disciplinary proceedings before an entity with the authority to enforce compliance with rules or laws applying to audit services or audit remediation services offered by the Offeror, that-
+
+		(1)  Are not yet fully adjudicated or settled; or
+
+		(2)  Were fully adjudicated or settled against the Offeror and/or its principals or employees.
+
+	(b)  Disclosure.  If the Offeror checked "have" in the representation in paragraph (a) of this provision, the Offeror shall, at a minimum, disclose for each such proceeding-
+
+		(1)  The entity hearing the case;
+
+		(2)  The case or file number; and
+
+		(3)  The allegation or conduct at issue and, if fully adjudicated or settled, a brief description of the outcome.
+
+	(c)  Treatment of statements.  The Government will safeguard and treat as confidential all statements provided pursuant to this provision where the statement has been marked "confidential" or "proprietary" by the Offeror.  Statements so marked will not be released by the Government to the public pursuant to a request under the Freedom of Information Act, 5 U.S.C. 552, without prior notification to the Offeror and opportunity for the Offeror to claim an exemption from release.  The Government will treat any statement provided pursuant to this provision as confidential to the extent required by any other applicable law.
+
+(End of provision)
+
+
+
+252.237-7026  Postaward Transparency Requirements for Firms that Support Department of Defense Audits.
+As prescribed in 237.470(e)(4), use the following clause:
+
+POSTAWARD TRANSPARENCY REQUIREMENTS FOR FIRMS THAT SUPPORT DEPARTMENT OF DEFENSE AUDITS (OCT 2022)
+
+	(a)  Prior to each contract action under this contract (including renewal or modification), the Contractor shall disclose the details of any disciplinary proceedings, with respect to the firm and/or its principals or employees, before an entity with the authority to enforce compliance with rules or laws applying to audit services or audit remediation services offered by the Contractor, and whether there has been any change with regard to previously reported proceedings since the last contract action.
+
+	(b)  The disclosure shall, at a minimum, include-
+
+		(1)  The entity hearing the case;
+
+		(2)  The case or file number; and
+
+		(3)  A brief description of the allegation or conduct at issue and, if fully adjudicated or settled, a brief description of the outcome.
+
+	(c)  The Government will safeguard and treat as confidential all statements provided pursuant to this clause where the statement has been marked "confidential" or "proprietary" by the Contractor.  Statements so marked will not be released by the Government to the public pursuant to a request under the Freedom of Information Act, 5 U.S.C. 552, without prior notification to the Contractor and opportunity for the Contractor to claim an exemption from release.  The Government will treat any statement provided pursuant to this clause as confidential to the extent required by any other applicable law.
+
+(End of clause)
+
+252.237-7027  Transfer and Adoption of Military Animals.
+As prescribed in 237.7804, use the following clause:
+
+TRANSFER AND ADOPTION OF MILITARY ANIMALS (FEB 2024)
+
+	(a)  Definition.  As used in this clause-
+	
+		"Contract working dog" means a dog that-
+
+			(1)  Performs a service for DoD pursuant to a contract; and
+
+			(2)  Is trained and kenneled by an entity that provides such a dog pursuant to such a contract.
+
+	(b)  In accordance with 10 U.S.C. 2387, if the Contracting Officer determines that the service life of a contract working dog has terminated, the dog will be transferred to the Department of the Air Force, 341st Training Squadron, for veterinary screening and care, reclassification as a military animal, and placement for adoption in accordance with 10 U.S.C. 2583.
+
+	(c)  The service life of a contract working dog may be terminated if the Contracting Officer determines that-
+
+		(1)  The final contractual obligation of the dog preceding transfer is with DoD; and
+
+		(2)  The dog cannot be used by another department or agency of the Federal Government due to age, injury, or performance.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0023
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 37
+Defense FAR Supplement (DFARS) Part 237
+
+
+
+Page 2 of 2
+

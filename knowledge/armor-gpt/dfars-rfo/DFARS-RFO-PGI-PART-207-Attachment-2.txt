@@ -1,0 +1,278 @@
+PGI 207-ACQUISITION PLANNING
+
+PGI 207.1-ACQUISITION PLANS
+
+PGI 207.103-70  Agency-head responsibilities.
+
+	(d)  Submit acquisition plans for procurement of conventional ammunition to-
+
+			Joint Program Executive Office Armaments and Ammunition
+			ATTN:  SFAE-AA
+			Building 1
+			Picatinny Arsenal, NJ  07806-5000
+
+			Telephone:  Commercial 973-724-7101; DSN 880-7101
+			Email: usarmy.pica.peo-ammo.list.zjs-section-806@army.mil 
+
+PGI 207.104-70  General procedures.
+
+	(b)  For acquisitions covered by DFARS 207.103-70(a)(1) and (2), correlate the plan to the DoD Future Years Defense Program, applicable budget submissions, and the decision coordinating paper/program memorandum, as appropriate.  It is incumbent upon the program manager to coordinate the plan with all those who have a responsibility for the development, management, or administration of the acquisition.  The acquisition plan should be provided to the contract administration organization to facilitate resource allocation and planning for the evaluation, identification, and management of contractor performance risk.
+
+	(1)  Acquisition background and objectives.
+
+		(i)  Statement of need.  Include-
+
+			(A)  Applicability of an acquisition decision document, a milestone decision review, or a service review, as appropriate.
+
+			(B)  The date approval for operational use has been or will be obtained.  If waivers are requested, describe the need for the waivers.
+
+			(C)  A milestone chart depicting the acquisition objectives.
+
+			(D)  Milestones for updating the acquisition plan.  Indicate when the plan will be updated.  Program managers should schedule recurring reviews and updates to coincide with DAB reviews and the transition from one phase to another (e.g., system development and demonstration to production and deployment).
+
+			(E)  Supplies and services.  To determine if acquisitions for supplies or services are covered by DFARS 208.2, acquisition officials must use the AbilityOne Program Procurement List published by the Committee for Purchase From People Who Are Blind or Severely Disabled at http://www.abilityone.gov/procurement_list/index.html (see FAR Part 8.2).
+
+		(ii)  Life-cycle cost.  When acquiring tents or other temporary structures, consider total life-cycle costs in accordance with DFARS 215.101.
+
+		(iii)  Acquisition streamlining.  See DoDD 5000.1, The Defense Acquisition System, and guidebooks at https://aaf.dau.edu/guidebooks/.
+
+	(2)  Plan of action.
+
+		(i)  Competition.  For information on various approaches that may be used to competitively fulfill DoD requirements, see the Office of the Under Secretary of Defense for Acquisition, Technology, and Logistics Actions to Improve Competition.
+
+		(ii)  Acquisition considerations.  When supplies or services will be acquired by placing an order under a non-DoD contract (e.g., a Federal Supply Schedule contract), regardless of whether the order is placed by DoD or by another agency on behalf of DoD, address the method of ensuring that the order will be consistent with DoD statutory and regulatory requirements applicable to the acquisition and the requirements for use of DoD appropriated funds.
+
+		(iii)  Budgeting and funding.  Include specific references to budget line items and program elements, where applicable, estimated production unit cost, and the total cost for remaining production.
+
+		(iv)  Product or service descriptions.  For development acquisitions, describe the market research undertaken to identify commercial products or commercial services, commercial products or commercial services with modifications, or nondevelopmental items other than commercial products (see FAR part 10) that could satisfy the acquisition objectives.
+
+		(v)  Logistics considerations.
+
+			(A)  Describe the extent of integrated logistics support planning, including total life cycle system management and performance-based logistics.  Reference approved plans.  See PGI 245.103-73 for information on reporting requirements for Government inventory held by contractors under sustainment contracts in accordance with DoD Manual 4140.01, Volume 6, DoD Supply Chain Materiel Management Procedures: Materiel Returns, Retention, and Disposition.
+
+			(B)(1)  Discuss the mission profile, reliability, and maintainability (R&M) program plan, R&M predictions, redundancy, qualified parts lists, parts and material qualification, R&M requirements imposed on vendors, failure analysis, corrective action and feedback, and R&M design reviews and trade-off studies.  Also discuss corrosion prevention and mitigation plans.
+
+				(2)  See the Under Secretary of Defense Acquisition and Sustainment Policy Memo, dated January 31, 2019, entitled "Implementation of 10 U.S.C. 2443-Sustainment Factors in Weapon System Design" and DoD Instruction 5000.02, Operation of the Adaptive Acquisition Framework, policies and procedures.
+
+			(C)  For all acquisitions, see part 227 regarding technical data and associated license rights, and computer software and associated license rights.  For acquisitions involving major weapon systems and subsystems of major weapon systems, see the additional requirements at DFARS 207.106-70.
+
+			(D)  See DoD 4120.24-M, Defense Standardization Program (DSP) Policies and Procedures.
+
+			(E)  Describe the extent of Computer-Aided Acquisition and Logistics Support (CALS) implementation (see MIL-STD-1840C, Automated Interchange of Technical Information).
+
+		(vi)  Environmental and energy conservation objectives.
+
+			(A)  Discuss actions taken to ensure either elimination of or authorization to use class I ozone-depleting chemicals and substances (see DFARS part 223).
+
+			(B)  Ensure compliance with DoDI 4715.23, Integrated Recycling and Solid Waste Management.
+
+		(vii)  Other considerations.
+
+			(A)  National Technology and Industrial Base.  For major defense acquisition programs, address the following (10 U.S.C. 4811(c))-
+
+				(1)  An analysis of the capabilities of the national technology and industrial base to develop, produce, maintain, and support such program, including consideration of the following factors related to foreign dependency (10 U.S.C. 4816)-
+
+					(i)  The availability of essential raw materials, special alloys, composite materials, components, tooling, and production test equipment for the sustained production of systems fully capable of meeting the performance objectives established for those systems; the uninterrupted maintenance and repair of such systems; and the sustained operation of such systems.
+
+					(ii)  The identification of items specified in paragraph (b)(19)(A)(1)(i) of this section that are available only from sources outside the national technology and industrial base.
+
+					(iii)  The availability of alternatives for obtaining such items from within the national technology and industrial base if such items become unavailable from sources outside the national technology and industrial base; and an analysis of any military vulnerability that could result from the lack of reasonable alternatives.
+
+					(iv)  The effects on the national technology and industrial base that result from foreign acquisition of firms in the United States.
+
+				(2)  Consideration of requirements for efficient manufacture during the design and production of the systems to be procured under the program.
+
+				(3)  The use of advanced manufacturing technology, processes, and systems during the research and development phase and the production phase of the program.
+
+				(4)  To the maximum extent practicable, the use of contract solicitations that encourage competing offerors to acquire, for use in the performance of the contract, modern technology, production equipment, and production systems (including hardware and software) that increase the productivity of the offerors and reduce the life-cycle costs.
+
+				(5)  Methods to encourage investment by U.S. domestic sources in advanced manufacturing technology production equipment and processes through-
+
+					(i)  Recognition of the contractor's investment in advanced manufacturing technology production equipment, processes, and organization of work systems that build on workers' skill and experience, and work force skill development in the development of the contract objective; and
+
+					(ii)  Increased emphasis in source selection on the efficiency of production.
+
+				(6)  Expanded use of commercial manufacturing processes rather than processes specified by DoD.
+
+				(7)  Elimination of barriers to, and facilitation of, the integrated manufacture of commercial products or commercial services and items being produced under DoD contracts.
+
+				(8)  Expanded use of commercial products or commercial services, commercial products or commercial services with modifications, or to the extent commercial products or commercial services that meet the agency's needs are not available, nondevelopmental items other than commercial products (see FAR part 10).
+
+				(9)  Acquisition of major weapon systems as commercial products (see DFARS part 234).
+
+			(B)  Industrial capability (IC).
+
+				(1)  Provide the program's IC strategy that assesses the capability of the U.S. industrial base to achieve identified surge and mobilization goals.  If no IC strategy has been developed, provide supporting rationale for this position.
+
+				(2)  If, in the IC strategy, the development of a detailed IC plan was determined to be applicable, include the plan by text or by reference.  If the development of the IC plan was determined not to be applicable, summarize the details of the analysis forming the basis of this decision.
+
+				(3)  If the program involves peacetime and wartime hardware configurations that are supported by logistics support plans, identify their impact on the IC plan.
+
+			(C)  Special considerations for acquisition planning for crisis situations.  Ensure that the requirements of DoD Instruction 1100.22, Policy and Procedures for Determining Workforce Mix, are addressed.  Also-
+
+				(1)  Acquisition planning must consider whether a contract is likely to be performed in crisis situations outside the United States and must develop appropriately detailed measures for inclusion in the contract.  Combatant commanders establish operational plans identifying essential services that must continue during crisis.  DoDI 1100.22 requires Combatant Commanders to develop contingency plans if they have a reasonable doubt that a contractor will continue to provide essential services during a mobilization or crisis.  When planning the acquisition, consider these operational plans and the resources available to carry out these plans.
+
+				(2)  During acquisition planning, identify which services have been declared so essential that they must continue during a crisis situation.  A best practice is to create a separate section, paragraph, line, or other designation in the contract for these essential services so they can be tracked to an option or separate contract line item.
+
+				(3)  The requirements for the contractor written plan for continuity of essential services and the criteria for assessing the sufficiency of the plan will be determined/tailored for each acquisition of essential services by the contracting officer in coordination with the functional manager.  The contractor's written plan, including prices/cost, shall be considered and evaluated in conjunction with the technical evaluation of offers.
+
+				(4)  Operational-specific contractor policies and requirements resulting from combatant commander "integrated planning" will be described in operation plans (OPLAN), operation orders (OPORD) or separate annexes, and must be incorporated into applicable contracts.  The plans may include rules for theater entry, country clearance, use of weapons, living on-base, etc.  Therefore, the requiring activity is responsible for obtaining pertinent OPLANs, OPORDs, and annexes (or unclassified extracts) from the affected combatant command or military service element or component and for ensuring that the contract is consistent with the theater OPLAN and OPORD.
+
+				(5)  Ask the requiring activity to confirm that the appropriate personnel department has determined that inherently Governmental functions are not included in the contract requirements.  If contract services will become inherently Governmental during a time of crisis, ensure that the contract states that work will be removed from the contract (temporarily or permanently) upon the occurrence of a triggering event (specified in the contract) or upon notice from the contracting officer that informs the contractor when its responsibility to perform affected duties will stop or restart.  The contract should require the contractor to have a plan for restarting performance after the crisis ends.
+
+				(6)  If the combatant commander's contingency plan requires military members to replace contractor employees during a crisis or contingency, acquisition planning must consider whether the contract should require the contractor to train military members to do that.
+
+				(7)  For acquisitions that have or may have some portion of delivery of items or performance in a foreign country, address considerations and requirements set forth in DFARS 225.770, Contracts requiring performance or delivery in a foreign country; 225.771, Contractor personnel supporting U.S. Armed Forces deployed outside the United States; 225.772, Antiterrorism/force protection, and 225.773, Contract administration in support of contingency operations.
+
+				(8)  Contract administration planning considerations for contracts in support of contingency operations.
+
+					(i)  When delegation of contract administration services to a contracting officer located in a different geographic area to support a contract for the delivery of items or performance in a joint operations area will or may occur, address the resourcing of contract administration and oversight personnel, including administrative contracting officers, quality assurance specialists, contract administrators, property administrators, and contracting officers' representatives.
+
+					(ii)  If contract delivery of items or performance in support of contingency operations will or may occur in an austere, uncertain, or hostile environment, address the need for logistics support of contract administration and oversight personnel.
+
+					(iii)  When some portion of contract delivery of items or performance may take place in a contingency area, address pertinent combatant commander or joint force commander requirements and considerations for contract administration.  Such requirements will be maintained on the particular combatant commander operational contract support website, https://www.acq.osd.mil/asda/dpc/cp/cc/aor.html.
+
+					(iv)  When contracts are awarded for performance in a contingency area, the head of the contracting activity is responsible for planning to ensure that contingency contracts will be closed in a timely manner considering personnel turnover and preaward, contract administration, and other contracting workload.  A plan for reachback support of contract closeouts should be included, if required.
+
+				(9)  For contracts that will incorporate the clause at DFARS 252.225-7040, Contractor Personnel Supporting U.S. Armed Forces Deployed Outside the United States, in accordance with DFARS 225.771-5(a), or otherwise require accountability for contractor personnel, consider the requirements and resources necessary for both the Government and contractor to keep the Synchronized Predeployment and Operational Tracker (SPOT) current in accordance with the SPOT business rules available at the website provided at https://www.acq.osd.mil/asds/log/cso/ocs/spot.html .
+
+				(10)  For contracts that will incorporate the clause at FAR 52.222-50, Combating Trafficking in Persons, consider the requirements and resources necessary for both the Government and contractor to implement and maintain compliance with Federal and DoD trafficking in persons requirements, including PGI 222.1703.
+
+			(D)  Software and software maintenance.  When acquiring software or software maintenance, see DFARS 212.
+
+			(E)  Procurement Support for Theater Security Cooperation Efforts.  When planning procurement support for theater security cooperation efforts (e.g., military exercises/training, base operations, weapons procurement, aviation fuels, construction, or the President's Emergency Plan for Aids Relief projects), planners should be aware that Department of State (DoS) missions (embassies and consulates) do not provide such contracting support; however, these missions can provide support for routine, non-complex services and supplies used by U.S. Government personnel, even if funded with foreign-military-sales case money (see DFARS PGI 225.78).  Planners shall take the following steps:
+
+				(1)  Become familiar with DoS Cable 11 STATE 030953, "Procurement Roles and Responsibilities - General Services Officer and DoD Personnel" (see also DFARS PGI 225.78).
+
+				(2)  Request general guidance from the combatant-command coordinator on past practices in the particular location for which procurement support is to be requested;
+
+				(3)  Contact the Defense Attaché Office and/or General Services Officer (normally the embassy/consulate contracting officer) at the DoS mission at least 60 days prior to the requirement, or as soon as practicable, to obtain information on-
+
+					(i)  Availability of, and procedures associated with, requesting DoS mission procurement support;
+
+					(ii)  Local sources of supplies and services; and
+
+					(iii)  Business payment practices to support DoD procurement of specific theater security cooperation procurement requirements.
+
+				(4)  Ascertain whether payment support is available from the DoS mission.
+
+				(5)  When DoS contracting support is determined to be unavailable or not allowed, ensure the party of DoD military and/or civilians deploying to support the particular Theater Security Cooperation effort either pre-arranges DoD contracting support through reach-back, if possible, or if necessary, includes a warranted contracting officer, field-ordering officer, or credit-card holder, and, if necessary, a paying agent.
+
+PGI 207.108  Additional requirements for teleworking.
+Contracting officers should avoid specifying unnecessarily restrictive places of performance, to the maximum extent practicable, in accordance with section 875 of the National Defense Authorization Act for Fiscal Year 2022.
+
+PGI 207.170 Public-Private competitions.
+
+PGI 207.170  Policy.
+See the memorandum from Assistant Secretary of Defense (Manpower and Reserve Affairs) dated April 21, 2016, entitled "Update on OMB Circular A-76 Public-Private Competition Prohibitions-FY 2016," regarding the ongoing Governmentwide moratorium and restrictions on public-private competitions.  The restrictions prohibit the conversion of any work currently performed (or designated for performance) by civilian personnel to contract perform
+
+PGI 207.171  Component breakout.
+
+DoD policy is to break out components of weapons systems or other major end items under certain circumstances.
+
+	(a)  When it is anticipated that a prime contract will be awarded without adequate price competition, and the prime contractor is expected to acquire any component without adequate price competition, the agency must break out that component if-
+
+		(1)  Substantial net cost savings probably will be achieved; and
+
+		(2)  Breakout action will not jeopardize the quality, reliability, performance, or timely delivery of the end item.
+
+	(b)  Even when either or both the prime contract and the component will be acquired with adequate price competition, the agency must consider breakout of the component if substantial net cost savings will result from-
+
+		(1)  Greater quantity acquisitions; or
+
+		(2)  Such factors as improved logistics support (through reduction in varieties of spare parts) and economies in operations and training (through standardization of design).
+
+	(c)  Breakout normally is not justified for a component that is not expected to exceed $1 million for the current year's requirement.
+
+PGI 207.171-1  Procedures.
+
+	(1)  Responsibility.
+
+		(i)  Agencies are responsible for ensuring that-
+
+			(A)  Breakout reviews are performed on components meeting the criteria in PGI 207.171(a) and (b);
+
+			(B)  Components susceptible to breakout are earmarked for consideration in future acquisitions;
+
+			(C)  Components earmarked for breakout are considered during requirements determination and appropriate decisions are made; and
+
+			(D)  Components are broken out when required.
+
+		(ii)  The program manager or other official responsible for the material program concerned is responsible for breakout selection, review, and decision.
+
+		(iii)  The contracting officer or buyer and other specialists (e.g., small business specialist, engineering, production, logistics, and maintenance) support the program manager in implementing the breakout program.
+
+	(2)  Breakout review and decision.
+
+		(i)  A breakout review and decision includes-
+
+			(A)  An assessment of the potential risks to the end item from possibilities such as delayed delivery and reduced reliability of the component;
+
+			(B)  A calculation of estimated net cost savings (i.e., estimated acquisition savings less any offsetting costs); and
+
+			(C)  An analysis of the technical, operational, logistics, and administrative factors involved.
+
+		(ii)  The decision must be supported by adequate explanatory information, including an assessment by the end item contractor when feasible.
+
+		(iii)  The following questions should be used in the decision process:
+
+			(A)  Is the end item contractor likely to do further design or engineering effort on the component?
+
+			(B)  Is a suitable data package available with rights to use it for Government acquisition?  (Note that breakout may be warranted even though competitive acquisition is not possible.)
+
+			(C)  Can any quality control and reliability problems of the component be resolved without requiring effort by the end item contractor?
+
+			(D)  Will the component require further technical support (e.g., development of specifications, testing requirements, or quality assurance requirements)?  If so, does the Government have the resources (manpower, technical competence, facilities, etc.) to provide such support?  Or, can the support be obtained from the end item contractor (even though the component is broken out) or other source?
+
+			(E)  Will breakout impair logistics support (e.g., by jeopardizing standardization of components)?
+
+			(F)  Will breakout unduly fragment administration, management, or performance of the end item contract (e.g., by complicating production scheduling or preventing identification of responsibility for end item failure caused by a defective component)?
+
+			(G)  Can breakout be accomplished without jeopardizing delivery requirements of the end item?
+
+			(H)  If a decision is made to break out a component, can advance acquisition funds be made available to provide the new source any necessary additional lead time?
+
+			(I)  Is there a source other than the present manufacturer capable of supplying the component?
+
+			(J)  Has the component been (or is it going to be) acquired directly by the Government as a support item in the supply system or as Government-furnished equipment in other end items?
+
+			(K)  Will the financial risks and other responsibilities assumed by the Government after breakout be acceptable?
+
+			(L)  Will breakout result in substantial net cost savings?  Develop estimates of probable savings in cost considering all offsetting costs such as increases in the cost of requirements determination and control, contracting, contract administration, data package purchase, material inspection, qualification or preproduction testing, ground support and test equipment, transportation, security, storage, distribution, and technical support.
+
+		(iv)  If answers to the questions reveal conditions unfavorable to breakout, the program manager should explore whether the unfavorable conditions can be eliminated.  For example, where adequate technical support is not available from Government resources, consider contracting for the necessary services from the end item contractor or other qualified source.
+
+	(3)  Records.
+
+		(i)  The contracting activity shall maintain records on components reviewed for breakout.  Records should evidence whether the components-
+
+			(A)  Have no potential for breakout;
+
+			(B)  Have been earmarked as potential breakout candidates; or
+
+			(C)  Have been, or will be, broken out.
+
+		(ii)  The program manager or other designated official must sign the records.
+
+		(iii)  Records must reflect the facts and conditions of the case, including any assessment by the contractor, and the basis for the decision.  The records must contain the assessments, calculations, and analyses discussed in paragraph 2 of this section, including the trade-off analysis between savings and increased risk to the Government because of responsibility for Government-furnished equipment.
+
+PGI 207.4-EQUIPMENT ACQUISITION
+
+PGI 207.470  Statutory requirements.
+Contracting officers should obtain additional information on the definition of "substantial termination liability" by contacting their respective legal adviser.
+
+PGI 207.5-INHERENTLY GOVERNMENTAL FUNCTIONS
+
+PGI 207.503-70  Policy.
+Section 804 of the National Defense Authorization Act for Fiscal Year 2005 (Public Law 108-375) limits contractor performance of acquisition functions closely associated with inherently Governmental functions.
+
+
+Attachment A2
+DARS Tracking Number: 2026-O0020
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 7
+Defense FAR Supplement (DFARS) Part 207
+
+
+Page 7 of 7
+
+

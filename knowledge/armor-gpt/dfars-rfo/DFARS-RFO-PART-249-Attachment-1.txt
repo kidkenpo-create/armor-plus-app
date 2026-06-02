@@ -1,0 +1,218 @@
+PART 249-TERMINATION OF CONTRACTS 
+
+SUBPART 249.1-GENERAL PRINCIPLES
+
+
+249.105  Duties of termination contracting officer after issuance of notice of termination.
+
+249.105-1  Release of excess funds.
+See PGI 249.105-1 for recommending the release of excess funds.
+
+249.105-70  Termination status reports.
+Follow the procedures at PGI 249.105-70 for reporting status of termination actions.
+
+249.109  Settlement agreements.
+
+249.109-7  Settlement by determination.
+Follow the procedures at PGI 249.109-7 for settlement by determination.
+
+249.109-70  Limitation on pricing of the terminated effort.
+When there is a termination for convenience (partial or whole) or a change that reduces scope, follow the procedures at PGI 249.109-70 for limitation on pricing of the terminated or reduced effort.
+
+249.110  Settlement negotiation memorandum.
+Follow the procedures at PGI 249.110 for preparation of a settlement negotiation memorandum.
+
+SUBPART 249.5-CONTRACT TERMINATION CLAUSES
+
+249.501  General.
+
+249.501-70  Special termination costs.
+
+	(a)  The clause at 252.249-7000, Special Termination Costs, may be used in an incrementally funded contract when its use is approved by the agency head.
+
+	(b)  The clause is authorized when-
+
+		(1)  The contract term is two years or more;
+
+		(2)  The contract is estimated to require-
+
+			(i)  Total RDT&E financing in excess of $25 million; or
+
+			(ii)  Total production investment in excess of $100 million; and
+
+		(3)  Adequate funds are available to cover the contingent reserve liability for special termination costs.
+
+	(c)  The contractor and the contracting officer must agree upon an amount that represents their best estimate of the total special termination costs to which the contractor would be entitled in the event of termination of the contract.  Insert this amount in paragraph (c) of the clause.
+
+	(d)(1)  Consider substituting an alternate paragraph (c) for paragraph (c) of the basic clause when-
+
+			(i)  The contract covers an unusually long performance period; or
+
+			(ii)  The contractor's cost risk associated with contingent special termination costs is expected to fluctuate extensively over the period of the contract.
+
+		(2)  The alternate paragraph (c) should provide for periodic negotiation and adjustment of the amount reserved for special termination costs.  Occasions for periodic adjustment may include-
+
+			(i)  The Government's incremental assignment of funds to the contract;
+
+			(ii)  The time when certain performance milestones are accomplished by the contractor; or
+
+			(iii)  Other specific time periods agreed upon by the contracting officer and the contractor.
+
+SUBPART 249.70-SPECIAL TERMINATION REQUIREMENTS
+
+249.7000  Terminated contracts with Canadian Commercial Corporation.
+
+	(a)  General.  Terminate contracts with the Canadian Commercial Corporation in accordance with-
+
+		(1)  The Letter of Agreement (LOA) between the Department of Defence Production (Canada) and the U.S. DoD, "Canadian Agreement" (for a copy of the LOA or for questions on its currency, contact the Office of the Principal Director, Defense 
+Pricing, Contracting, and Acquisition Policy (Contract Policy), at osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil;
+
+		(2)  Policies in the Canadian Agreement and Part 249; and
+
+		(3)  The Canadian Supply Manual, Chapter 8, Annex 8.3, available at http://www.tpsgc-pwgsc.gc.ca/app-acq/ga-sm/index-eng.html, "Termination for convenience process."
+
+	(b)  Settlement proposals.  Ensure that the Canadian Commercial Corporation submits-
+
+		(1) Termination settlement proposals that-
+
+			(i)  Are in the format prescribed in FAR 49.602; and 
+
+			(ii) Contain the amount of settlements with subcontractors; and 
+
+		(2) A letter transmitting the termination settlement proposal which certifies that-
+
+			(i)  Disposition of inventory has been completed; and
+
+			(ii) The Contract Claims Resolution Board of the Public Works and Government Services Canada has approved settlements with Canadian subcontractors when the Procedures Manual on Termination of Contracts requires such approval.
+
+	(c) Settlement agreements. The termination contracting officer (TCO) must prepare an appropriate settlement agreement.  (See FAR 49.603.)
+
+		(1)  After screening, the TCO must provide guidance to the Canadian Commercial Corporation for disposition of the contractor inventory.
+
+		(2)  Settlement of Canadian subcontractor claims are not subject to the approval and ratification of the TCO.  However, when the proposed negotiated settlement exceeds the total contract price of the prime contract, the TCO must obtain from the U.S. contracting officer prior to final settlement-
+
+			(i)  Ratification of the proposed settlement; and
+
+			(ii)  A contract modification increasing the contract price and obligating the additional funds.
+
+		(3)  The TCO must inform the Canadian Commercial Corporation of the amount of the net settlement of U.S. subcontractors and suppliers so that this amount can be included in the Canadian Commercial Corporation termination proposal.  The Canadian Commercial Corporation is responsible for execution of the settlement agreement with these subcontractors.
+
+(d) Contract administration support. Provide any contract administration services required by the Canadian Commercial Corporation, including disposal of inventory, for settlement of any subcontracts placed in the United States. 
+
+(e) Other responsibilities. See PGI 249.7000 for information on other responsibilities associated with terminating contracts with the Canadian Commercial Corporation.
+
+249.7001  Congressional notification on significant contract terminations.
+
+Congressional notification is required for any termination involving a reduction in employment of 100 or more contractor employees.  The contracting officer must-
+
+	(a) Clear proposed terminations through department/agency liaison offices before release of the termination notice, or any information on the proposed termination, to the contractor.  
+
+	(b) Follow the procedures at PGI 249.7001 for congressional notification and release of information.
+
+249.7002  Reserved.
+
+249.7003  Notification of anticipated contract terminations or reductions.
+
+	(a)  Section 1372 of the National Defense Authorization Act for Fiscal Year 1994 (Pub. L. 103-160) and section 824 of the National Defense Authorization Act for Fiscal Year 1997 (Pub. L. 104-201) are intended to help establish benefit eligibility under the Workforce Innovation and Opportunity Act (29 U.S.C. Chapter 32) for employees of DoD contractors and subcontractors adversely affected by termination or substantial reductions in major defense programs.
+
+	(b)  Departments and agencies are responsible for establishing procedures to-
+
+		(1)  Identify which contracts (if any) under major defense programs will be terminated or substantially reduced as a result of the funding levels provided in an appropriations act; and
+
+		(2)  Within 60 days of the enactment of such an act, provide notice of the anticipated termination of or substantial reduction in the funding of affected contracts-
+
+			(i)  Directly to the Secretary of Labor; and
+
+			(ii)  Through the contracting officer to each prime contractor.
+
+	(c)  When subcontracts have been issued, the prime contractor  is responsible for-
+
+		(1)  Providing notice of the termination or substantial reduction in funding to all first-tier subcontractors with a subcontract valued equal to or greater than $700,000; and
+
+		(2)  Requiring that each subcontractor-
+
+			(i)  Provide such notice to each of its subcontractors for subcontracts valued greater than $150,000; and
+
+			(ii)  Impose a similar notice and flowdown requirement in subcontracts valued greater than $150,000 at all tiers.
+
+249.7004  Contract clause.
+Insert the clause at 252.249-7002, Notification of Anticipated Contract Termination or Reduction, in all contracts under a major defense program.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+252.249-7000  Special Termination Costs.
+As prescribed in 249.501-70, insert the following clause:
+
+SPECIAL TERMINATION COSTS (DEC 1991)
+
+	(a)  Definition.  "Special termination costs," as used in this clause, means only costs in the following categories as defined in Part 31 of the Federal Acquisition Regulation (FAR)-
+
+		(1)  Severance pay, as provided in FAR 31.205-6(g);
+
+		(2)  Reasonable costs continuing after termination, as provided in FAR 31.205-42(b);
+
+		(3)  Settlement of expenses, as provided in FAR 31.205-42(g);
+
+		(4)  Costs of return of field service personnel from sites, as provided in FAR 31.205-35 and FAR 31.205-46(c); and
+
+		(5)  Costs in paragraphs (a)(1), (2), (3), and (4) of this clause to which subcontractors may be entitled in the event of termination.
+
+	(b)  Notwithstanding the Limitation of Cost/Limitation of Funds clause of this contract, the Contractor shall not include in its estimate of costs incurred or to be incurred, any amount for special termination costs to which the Contractor may be entitled in the event this contract is terminated for the convenience of the Government.
+
+	(c)  The Contractor agrees to perform this contract in such a manner that the Contractor's claim for special termination costs will not exceed $________.  The Government shall have no obligation to pay the Contractor any amount for the special termination costs in excess of this amount.
+
+	(d)  In the event of termination for the convenience of the Government, this clause shall not be construed as affecting the allowability of special termination costs in any manner other than limiting the maximum amount of the costs payable by the Government.
+
+	(e)  This clause shall remain in full force and effect until this contract is fully funded.
+
+(End of clause)
+
+252.249-7001  Reserved. 
+
+252.249-7002  Notification of Anticipated Contract Termination or Reduction.
+As prescribed in 249.7004, use the following clause:
+
+NOTIFICATION OF ANTICIPATED CONTRACT TERMINATION OR REDUCTION
+(DEC 2022)
+
+	(a)  Definitions.  As use in this clause-
+
+		"Major defense program" means a program that is carried out to produce or 
+acquire a major system (as defined in 10 U.S.C. 3041(a)).
+
+	(b)  Scope.  This clause implements section 1372 of the National Defense Authorization Act for Fiscal Year 1994 (Pub. L. 103-160) and section 824 of the National Defense Authorization Act for Fiscal Year 1997 (Pub. L. 104-201), which are intended to help establish benefit eligibility under the Workforce Innovation and Opportunity Act (29 U.S.C. Chapter 32) for employees of DoD contractors and subcontractors adversely affected by contract terminations or substantial reductions under major defense programs.
+
+	(c)  Notice to employees and state and local officials.
+
+		(1)  Within 2 weeks after the Contracting Officer notifies the Contractor that contract funding will be terminated or substantially reduced, the Contractor shall provide notice of such anticipated termination or reduction to-
+
+			(i)  Each employee representative of the Contractor's employees whose work is directly related to the defense contract; or
+
+			(ii)  If there is no such representative, each such employee;
+
+			(iii)  The State or entity designated by the State to carry out rapid response activities described in the Workforce Innovation and Opportunity Act (29 U.S.C. 3174(a)(2)(A)(i)); and
+
+			(iv)  The chief elected official of the unit of general local government within which the adverse effect may occur.
+
+		(2)  The notice provided an employee under paragraph (c)(1) of this clause shall have the same effect as a notice of termination to the employee for the purposes of determining whether such employee is eligible for training, adjustment assistance, and employment services under the Workforce Innovation and Opportunity Act (29 U.S.C. Chapter 32).
+
+	(d)  Notice to subcontractors.  Not later than 60 days after the Contractor receives the Contracting Officer's notice of the anticipated termination or reduction, the Contractor shall-
+
+		(1)  Provide notice of the anticipated termination or reduction to each first-tier subcontractor with a subcontract that equals or exceeds the threshold specified in Defense Federal Acquisition Regulation Supplement (DFARS) 249.7003(c)(1) at the time of the notice; and
+
+		(2)  Require that each such subcontractor-
+
+			(i)  Provide notice to each of its subcontractors with a subcontract that equals or exceeds the threshold specified in DFARS 249.7003(c)(2)(i) at the time of the notice; and
+
+			(ii)  Impose a similar notice and flowdown requirement to subcontractors with subcontracts that equal or exceed the threshold specified in DFARS 249.7003(c)(2)(ii) at the time of the notice.
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0010
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 49
+Defense FAR Supplement (DFARS) Part 249
+
+
+Page 7 of 9
+
+

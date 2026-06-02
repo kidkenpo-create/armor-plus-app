@@ -1,0 +1,512 @@
+PART 234-MAJOR SYSTEM ACQUISITION
+
+SUBPART 234.2-EARNED VALUE MANAGEMENT SYSTEM
+
+234.200-70  Definitions.
+
+As used in this subpart-
+
+Acceptable earned value management system means an earned value management system that generally complies with the system criteria in paragraph (b) of the clause at 252.234-7999, Earned Value Management System.
+
+Earned value management system means a system that complies with the earned value management system guidelines in Electronic Industries Alliance Standard 748, Earned Value Management Systems (EIA-748).
+
+234.201 Policy.
+
+	(1) Applicability.  Except for the exemption at paragraph (10) of this section, DoD applies the earned value management system requirement as follows:
+
+		(i) For cost or incentive contracts and subcontracts valued at $50 million or more, the clause at 252.234-7999, Earned Value Management System, requires the contractor's earned value management system to comply with the guidelines in Electronic Industries Alliance Standard 748, Earned Value Management Systems (EIA-748).
+
+		(ii) For cost or incentive contracts and subcontracts valued at $100 million or more, the clause at 252.234-7999, Earned Value Management System, requires the contractor to have an earned value management system that the cognizant Federal agency has determined to comply with the guidelines in EIA-748.
+
+		(iii) For cost or incentive contracts and subcontracts valued at less than $50 million -
+
+			(A) The application of earned value management is optional and is a risk-based decision;
+
+			(B) Document the decision to apply earned value management in the contract file; and
+
+			(C) Follow the procedures at PGI 234.201(1)(iii) for conducting a cost-benefit analysis.
+
+		(iv) For firm-fixed-price contracts and subcontracts of any dollar value-
+
+			(A) The application of earned value management is discouraged; and
+
+			(B) Follow the procedures at PGI 234.201(1)(iv) for obtaining a waiver before applying earned value management.
+
+	(2) Review Procedures. When an offeror proposes a plan for compliance with the earned value management system guidelines in EIA-748, follow the review procedures at PGI 234.201(2).
+
+	(3) Defense Contract Management Agency Responsibility. The Defense Contract Management Agency is responsible for determining earned value management system compliance when DoD is the cognizant Federal agency.
+
+	(4) Additional Guidance. See PGI 234.201(3) for additional guidance on earned value management.
+
+	(5) Acceptability. The cognizant contracting officer, in consultation with the functional specialist and auditor, shall-
+
+		(i) Determine the acceptability of the contractor's earned value management system and approve or disapprove the system; and
+
+		(ii) Pursue correction of any weaknesses or deficiencies.
+
+	(6) Compliance with System Criteria. In evaluating the acceptability of a contractor's earned value management system, the contracting officer, in consultation with the functional specialist and auditor, must determine whether the contractor's earned value management system complies with the system criteria for an acceptable earned value management system as prescribed in the clause at 252.234-7999, Earned Value Management System.
+
+	(7) Disposition of findings.  (i) Reporting of findings.  The functional specialist or auditor must document and report all findings and recommendations to the contracting officer. If the functional specialist or auditor identifies any material weakness in the contractor's earned value management system, the report must include detailed descriptions of the weaknesses or deficiencies.
+
+		(ii) Initial determination. (A) The contracting officer must review all findings and recommendations and, if no material weaknesses exist, must promptly notify the contractor, in writing, that the contractor's earned value management system is acceptable and approved; or
+
+			(B) If the contracting officer finds that one or more material weaknesses exist due to the contractor's failure to meet one or more of the earned value management system criteria in the clause at 252.234-7999, the contracting officer must-
+
+				(1) Promptly make an initial written determination of any material weaknesses and notify the contractor, in writing, providing a description of each material weakness in sufficient detail to allow the contractor to understand the weaknesses (see PGI 234.201(7)(ii));
+
+				(2) Request the contractor to respond, in writing, to the initial determination within 30 days; and
+
+				(3) Evaluate the contractor's response to the initial determination, in consultation with the auditor or functional specialist, and make a final determination.
+
+		(iii) Final determination. (A) The contracting officer must make a final determination and notify the contractor, in writing, that-
+
+				(1) The contractor's earned value management system is acceptable and approved, and no material weaknesses remain; or
+
+				(2) Material weaknesses remain.  The contracting officer must identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action, and-
+
+					(i) Request that the contractor, within 45 days of receipt of the final determination, either correct the deficiencies or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+
+					(ii) Disapprove the system in accordance with the clause at 252.234-7999 when initial validation is not successfully completed within the timeframe approved by the contracting officer, or the contracting officer determines that the existing earned value management system contains one or more material weaknesses in high-risk guidelines in EIA-748 standards (guidelines 1, 3, 6, 7, 8, 9, 10, 12, 16, 21, 23, 26, 27, 28, 30, or 32). 
+
+					(iii) When the contracting officer determines that the existing earned value management system contains one or more material weaknesses in one or more of the remaining 16 guidelines in EIA-748 standards, the contracting officer must use discretion to disapprove the system based on input received from functional specialists and the auditor; and
+
+					(iv) Withhold payments in accordance with the clause at 252.242-7005, Contractor Business Systems, if the clause is included in the contract.
+
+			(B) Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses at PGI 234.201(7)(iii).
+
+	(8) System approval.  The contracting officer must promptly approve a previously disapproved earned value management system and notify the contractor when no remaining material weaknesses exist.
+
+	(9) Contracting officer notifications.  The cognizant contracting officer must promptly distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+	(10) Exemption.  Do not apply this subpart to contracts primarily for software, including those using a software acquisition pathway in accordance with DoD Instruction 5000.87, Operation of the Software Acquisition Pathway.
+
+234.203 Solicitation provisions and contract clause.
+
+Except for contracts subject to the exemption at 234.201 paragraph (10), for cost or incentive contracts valued at $50 million or more, and for other contracts for which EVMS will be applied in accordance with 234.201(1)(iii) and (iv)-
+
+	(1) Insert the provision at 252.234-7998, Notice of Earned Value Management System, in the solicitation; and
+
+	(2) Insert the clause at 252.234-7999, Earned Value Management System, instead of the clause at FAR 52.234-4, Earned Value Management System, in the solicitation and contract.
+
+SUBPART 234.70-ACQUISITION OF MAJOR WEAPON SYSTEMS AS COMMERCIAL PRODUCTS
+
+234.7000 Scope of subpart.
+
+This subpart implements 10 U.S.C. 3455.
+
+234.7001 Definition.
+
+As used in this subpart-
+
+Major weapon system means a weapon system acquired pursuant to a major defense acquisition program.
+
+234.7002 Policy.
+
+	(a) Major weapon systems. (1)  DoD may treat a major weapon system as a commercial product, or acquire it under procedures established for the acquisition of commercial products, only if-
+
+			(i) The Secretary of Defense determines that-
+
+				(A) The major weapon system is a commercial product; and
+
+				(B) Such treatment is necessary to meet national security objectives; and
+
+			(ii) The agency notifies the congressional defense committees at least 30 days before such treatment or acquisition occurs. 
+
+		(2) The authority of the Secretary of Defense to make a determination under paragraph (a)(1) of this section is not delegable below the level of the Deputy Secretary of Defense.
+
+	(b) Subsystems.  Treat a subsystem of a major weapon system (other than a commercially available off-the-shelf item) as a commercial product and acquired under procedures established for the acquisition of commercial products if-
+
+		(1) The subsystem is intended for a major weapon system being acquired, or has been acquired, under procedures established for the acquisition of commercial products in accordance with paragraph (a) of this section; or
+
+		(2) The contracting officer determines in writing that the subsystem is a commercial product in accordance with part 212. For a subsystem of a major weapon system proposed as a commercial product that has not previously been determined to be a commercial product (see part 212), follow the procedures in paragraph (d) of this section.
+
+		(3) This paragraph (b) applies to subsystems of major weapon systems DoD acquires through a-
+
+			(i) Prime contract;
+
+			(ii) Modification to a prime contract; or
+
+			(iii) Subcontract under a prime contract for the acquisition of a subsystem proposed as a commercial product that has not previously been determined to be a commercial product (see part 212).
+
+	(c) Components and spare parts. (1) DoD may treat a component or spare part for a major weapon system (other than a commercially available off-the-shelf item) as a commercial product if-
+
+			(i) The component or spare part is intended for-
+
+				(A) A major weapon system being acquired, or has been acquired, under procedures established for the acquisition of commercial products in accordance with paragraph (a) of this section; or
+
+				(B) A subsystem of a major weapon system being acquired, or has been acquired, under procedures established for the acquisition of commercial products in accordance with paragraph (b) of this section; or
+
+			(ii) The contracting officer determines in writing that the component or spare part is a commercial product in accordance with part 212. For a component or spare part proposed as a commercial product that has not previously been determined to be a commercial product (see part 212), follow the procedures in paragraph (d) of this section.
+
+		(2) This paragraph (c) shall apply only to components and spare parts DoD acquires through a-
+
+			(i) Prime contract;
+
+			(ii) Modification to a prime contract; or
+
+			(iii) Subcontract under a prime contract for the acquisition of a component or spare part proposed as a commercial product that has not previously been determined to be a commercial product (see part 212).
+
+	(d) Commerciality determination.  To the extent necessary to make a commercial product determination in accordance with part 212 that relies on paragraph (1), (2), (3), (4), or (5) of the "commercial product" definition at FAR 2.101 for a subsystem, component, or spare part as described in paragraphs (b) and (c) of this section, the provision at 252.215-7010, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, requires the offeror to-
+
+		(1) Identify the comparable commercial product the offeror sells to the general public or nongovernmental entities for other than governmental purposes;
+
+		(2) Provide a comparison between the physical characteristics and functionality of the comparable commercial product and the subsystem, component, or spare part, including-
+
+			(i) For products under paragraph (3)(i) of the "commercial product" definition at FAR 2.101, a description of the modification and documentation to support that the modification is customarily available in the marketplace; or
+
+			(ii) For products under paragraph (3)(ii) of the "commercial product" definition at FAR 2.101, a detailed description of the modification and detailed technical data to demonstrate that the modification is minor (e.g., information on production processes and material differences); and
+
+		(3) Provide the national stock number (NSN) for the comparable commercial product, if one is assigned, and the NSN for the subsystem, component, or spare part, if one is assigned; or
+
+		(4) If the offeror does not sell a comparable commercial product to the general public or nongovernmental entities for other than governmental purposes, then require the offeror to-
+
+			(i) Notify the contracting officer in writing that it does not sell such a comparable product; and
+
+			(ii) Provide the contracting officer a comparison between the physical characteristics and functionality of the most comparable commercial product in the commercial market and the subsystem, component, or spare part, if available.
+ 
+	(e) Relevant information to determine price reasonableness.  (1) Unless an exception at FAR part 15 applies-
+
+			(i) To the extent necessary to make a determination of price reasonableness, require the offeror to submit or provide access to a representative sample, as determined by the contracting officer, of prices paid for the same or similar commercial products under comparable terms and conditions by both Government and commercial customers and the terms and conditions of such sales; or
+
+			(ii) If the contracting officer determines that the offeror cannot provide or give access to sufficient information described in this paragraph (e)(1) to determine the reasonableness of price,  require the offeror to submit or provide  access to a representative sample, as determined by the contracting officer, of the prices paid for the same or similar commercial products sold under different terms and conditions and the terms and conditions of such sales.
+
+		(2)  Allow the offeror to redact only information provided pursuant to paragraph (e)(1) of this section that identifies the customer, if the offeror certifies in writing for each sale that the customer is a-
+
+			(i) Government customer (e.g., Federal, State, local, or foreign government);
+
+			(ii) Commercial customer purchasing the product for governmental purposes; or
+
+			(iii) Commercial customer purchasing the product for a commercial, mixed, or unknown purpose.
+
+		(3) If the contracting officer determines that the information submitted pursuant to paragraph (e)(1) of this section is not sufficient to determine the reasonableness of price because the comparable commercial product provided by the offeror is not a valid basis for price analysis or the proposed price is not reasonable after evaluating sales data, then obtain approval from an official one level above the contracting officer, without power of delegation, and require the offeror to submit other relevant information regarding the basis for price or cost, including information on labor costs, material costs, and overhead rates.
+
+		(4) Do not require an offeror to submit information described in paragraph (e)(1) of this section with regard to a commercially available off-the-shelf item. If necessary, require an offeror to submit such information with regard to any other item that was developed exclusively at private expense only after the head of the contracting activity determines in writing that the information submitted pursuant to paragraph (e)(1) of this section is not sufficient to determine the reasonableness of price.
+
+		(5) If an offeror submits information or analysis relating to the value of a commercial product to support the determination of price reasonableness for the commercial product, consider such information or analysis in addition to the information submitted pursuant to paragraph (e)(1) of this section. For additional guidance see PGI 234.7002(e)(5).
+
+SUBPART 234.71-COST AND SOFTWARE DATA REPORTING
+
+234.7100 Policy.
+
+	(a) The cost and software data reporting (CSDR) requirement is mandatory for major defense acquisition programs (as defined in 10 U.S.C. 4201) as specified in DoDI 5000.02, Operation of the Adaptive Acquisition Framework and the DoD 5000.04-M-1, CSDR Manual. The CSDR system is applied in accordance with the reporting requirements established in DoDI 5000.02. The two principal components of the CSDR system are contractor cost data reporting and software resources data reporting.
+
+	(b) Prior to contract award, consult with the Defense Cost and Resource Center to determine whether the offeror selected for award has proposed a standard CSDR system, in response to the provision at 252.234-7003, that complies with DoDI 5000.02 and the DoD 5000.04-M-1.
+
+	(c) See PGI 234.7100 for contact information for the Defense Cost and Resource Center and the Deputy Director, Cost Assessment.
+
+234.7101 Solicitation provision and contract clause.
+
+	(a) Insert the basic or the alternate of the provision at 252.234-7003, Notice of Cost and Software Data Reporting System, in any solicitation that includes the basic or the alternate of the clause at 252.234-7004, Cost and Software Data Reporting.
+
+		(1) Insert the basic provision when the solicitation includes the clause at 252.234-7004, Cost and Software Data Reporting-Basic.
+
+		(2) Insert the alternate I provision when the solicitation includes the clause at 252.234-7004, Cost and Software Data Reporting-Alternate I.
+
+	(b) Insert the basic or the alternate of the clause at 252.234-7004, Cost and Software Data Reporting System, in solicitations that include major defense acquisition programs as follows:
+
+		(1) Insert the basic clause in solicitations and contracts for major defense acquisition programs that exceed $50 million.
+
+		(2) Insert the alternate I clause in solicitations and contracts for major defense acquisition programs with a value equal to or greater than $20 million, but less than or equal to $50 million, when directed by the program manager with the approval of the OSD Deputy Director, Cost Assessment.
+
+SUBPART 234.72-ACQUISITION STRATEGY FOR MAJOR SYSTEMS
+
+234.7200  Scope.
+
+This subpart implements-
+
+	(a)  Section 818 of the National Defense Authorization Act for Fiscal Year 2007 (Pub. L. 109-364).
+
+	(b)  Section 811 of the National Defense Authorization Act for Fiscal Year 2013 (Pub. L. 112-239).
+
+	(c)  Section 808 of the National Defense Authorization Act for Fiscal Year 2023 (Pub. L. 117-263).
+
+	(d)  10 U.S.C. 4328(c)(1) and (2).
+
+	(e)  10 U.S.C. 4004
+
+
+
+234.7201  Definition.
+
+As used in this subpart-
+
+Production of major defense acquisition program means the production and deployment of a major system that is intended to achieve an operational capability that satisfies mission needs, or an activity otherwise defined as Milestone C under Department of Defense Instruction 5000.02 or related authorities.
+
+234.7202  Procedures.
+
+	(a)  Selection of contract type for major acquisition programs at Milestone B.  For major defense acquisition programs at Milestone B-
+
+		(1)  The milestone decision authority (MDA) must select, with the advice of the contracting officer, the contract type for a development program at the time of Milestone B approval or, in the case of a space program, Key Decision Point B approval;
+
+		(2)  The acquisition strategy must document the basis for the contract-type selection. The documentation-
+
+			(i)  Must include an explanation of the level of program risk; and
+
+			(ii)  If program risk is determined to be high, must outline the steps taken to reduce program risk and the reasons for proceeding with Milestone B approval despite the risk; and
+
+		(3)  If the MDA selects a cost-reimbursement type contract, include in the contract file the MDA's written determination that-
+
+			(i)  The program is so complex and technically challenging that reducing program risk to a level that would permit the use of a fixed-price type contract is impracticable; and
+
+			(ii)  The complexity and technical challenge of the program does not result from failure to meet the requirements of 10 U.S.C. 4251.
+
+	(b)  Use of cost-reimbursement line items for production of major defense acquisition programs.  (1)  Do not use cost-reimbursement line items for the acquisition of production of major defense acquisition programs. 
+
+		(2)  The prohibition at paragraph (1) does not apply where the Under Secretary of Defense for Acquisition and Sustainment (USD(A&S)), or the MDA when the MDA is the service acquisition executive of the military department that is managing the program, submits to the congressional defense committees-
+
+			(i) A written certification that the cost-reimbursement line items are needed to provide a required capability in a timely and cost-effective manner; and
+
+			(ii) An explanation of the steps taken to ensure that cost-reimbursement line items are used only to achieve the purposes of the exception.
+
+		(3)  Include, as applicable, in the contract file a copy of the congressional certification described in paragraph (2).
+	
+	(c)  Low-rate initial production associated with major defense acquisition programs.  (1)  Do not procure more than one lot for low-rate initial production, as defined at 10 U.S.C. 4231, associated with a major defense acquisition program if-
+
+			(i)  The MDA authorizes the use of a fixed-price type contract at the time of Milestone B approval; and
+
+			(ii)  The scope of work of the fixed-price type contract includes both the development and low-rate initial production of items for such major defense acquisition program.
+
+		(2)  The service acquisition executive may waive this limitation, delegable to no lower than one level above the contracting officer, if-
+
+			(i)  The service acquisition executive provides a written notification of the waiver, including associated rationale, to the congressional defense committees no later than 30 days after issuance of the waiver; and
+
+			(ii)  Include a copy of the waiver and such congressional notification in the contract file.
+		
+	(d)  Sustainment criteria for weapons systems.  (1) As provided by the program manager, include clearly defined measurable criteria for engineering activities and design specifications for reliability and maintainability in solicitations and resulting contracts for the technical maturation and risk reduction phase, the engineering and manufacturing development phase or the production phase of a weapon system, including embedded software.
+
+		(2)  Notwithstanding paragraph (1), if the program manager has determined that such criteria should not be included as described in paragraph (1), include a copy of the justification, executed by the program manager, in the contract file.
+
+	(e)  Development and demonstration of initial or additional prototype units.  (1)  Subject to the limitations in paragraph (2), a contract initially awarded from the competitive selection of a proposal resulting from a broad agency announcement (see 235.016) may include- 
+
+			(i)  A line item or contract option using funds not limited to those identified in 235.016 for the development and demonstration or initial production of technology developed under the contract; or
+
+			(ii)  The delivery of initial or additional items if the item or a prototype thereof is created as the result of work performed under the contract.
+
+		(2)(i)  The line item or contract option must require only the minimal quantity of initial or additional items or prototypes that will allow for timely competitive solicitation and award of a follow-on development or production contract for those items.
+ 
+			(ii)  The term of the line item or contract option must not exceed 2 years.
+
+			(iii)  The dollar value of the work to be performed pursuant to the line item or contract option must not exceed $100 million in fiscal year 2017 constant dollars.
+
+		(3)  See PGI 234.7202(e) regarding the benefits derived from use of this competitive selection method.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.234-7998 Notice of Earned Value Management System. (DEVIATION 2026-O0011)
+As prescribed in 234.203(1), use the following provision:
+
+NOTICE OF EARNED VALUE MANAGEMENT SYSTEM (FEB 2026) (DEVIATION 2026-O0011)
+
+	(a) If the offeror submits a proposal in the amount of $100 million or more-
+
+		(1) The offeror shall provide documentation that the Cognizant Federal Agency (CFA) has determined that the proposed Earned Value Management System (EVMS) complies with the EVMS guidelines in the Electronic Industries Alliance Standard 748, Earned Value Management Systems (EIA-748). (current version at time of solicitation). The Government reserves the right to perform reviews of the EVMS when deemed necessary to verify compliance.
+
+		(2) If the offeror proposes to use a system that has not been determined to be in compliance with the requirements of paragraph (a)(1) of this provision, the offeror shall submit a comprehensive plan for compliance with the guidelines in EIA-748.
+
+			(i) The plan shall-
+
+				(A) Describe the EVMS the offeror intends to use in performance of the contract, and how the proposed EVMS complies with the EVMS guidelines in EIA-748;
+
+				(B) Distinguish between the offeror's existing management system and modifications proposed to meet the EVMS guidelines;
+
+				(C) Describe the management system and its application in terms of the EVMS guidelines;
+
+				(D) Describe the proposed procedure for administration of the EVMS guidelines as applied to subcontractors; and
+
+				(E) Describe the process the offeror will use to determine subcontractor compliance with EIA-748.
+
+			(ii) The offeror shall provide information and assistance as required by the Contracting Officer to support review of the plan.
+
+			(iii) The offeror's EVMS plan must provide milestones that indicate when the offeror anticipates that the EVMS will be compliant with the guidelines in EIA-748.
+
+	(b) If the offeror submits a proposal in an amount less than $100 million-
+
+		(1) The offeror shall submit a written description of the management procedures it will use and maintain in the performance of any resultant contract to comply with the requirements of the Earned Value Management System clause of the contract. The description shall include-
+
+			(i) A matrix that correlates each guideline in EIA-748 (current version at time of solicitation) to the corresponding process in the offeror's written management procedures; and
+
+			(ii) The process the offeror will use to determine subcontractor compliance with EIA-748.
+
+		(2) If the offeror proposes to use an EVMS that has been determined by the CFA to be in compliance with the EVMS guidelines in EIA-748, the offeror may submit a copy of the documentation of such determination instead of the written description required by paragraph (b)(1) of this provision.
+
+	(c) The offeror shall identify the subcontractors (or the subcontracted effort if subcontractors have not been selected) to whom the EVMS requirements will apply. The offeror and the Government shall agree to the subcontractors or the subcontracted effort selected for application of the EVMS requirements. The offeror shall be responsible for ensuring that the selected subcontractors comply with the requirements of the Earned Value Management System clause of the contract.
+
+(End of provision)
+
+252.234-7999 Earned Value Management System.  (DEVIATION 2026-O0011)
+As prescribed in 234.203(2), use the following clause:
+
+EARNED VALUE MANAGEMENT SYSTEM (FEB 2026) (DEVIATION 2026-O0011)
+
+	(a) Definitions. As used in this clause-
+
+Acceptable earned value management system means an earned value management system that generally complies with the system criteria in paragraph (b) of this clause.
+
+Earned value management system means a system that complies with the earned value management system guidelines in Electronic Industries Alliance Standard 748, Earned Value Management Systems (EIA-748).
+
+Material weakness means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis. A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1) Probable; or
+
+		(2) More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+	(b) System criteria. In the performance of this contract, the Contractor shall use-
+
+		(1) An Earned Value Management System (EVMS) that complies with the EVMS guidelines in the American National Standards Institute/Electronic Industries Alliance Standard 748, Earned Value Management Systems (EIA-748); and
+
+		(2) Management procedures that provide for generation of timely, reliable, and verifiable information for the Contract Performance Report (CPR) and the Integrated Master Schedule (IMS) required by the CPR and IMS data items of this contract.
+
+	(c) If this contract has a value of $100 million or more, the Contractor shall use an EVMS that has been determined to be acceptable by the Cognizant Federal Agency (CFA). If, at the time of award, the Contractor's EVMS has not been determined by the CFA to be in compliance with the EVMS guidelines as stated in paragraph (b)(1) of this clause, the Contractor shall apply its current system to the contract and shall take necessary actions to meet the milestones in the Contractor's EVMS plan.
+
+	(d) If this contract has a value of less than $100 million, the Government will not make a formal determination that the Contractor's EVMS complies with the EVMS guidelines in EIA-748 with respect to the contract. The use of the Contractor's EVMS for this contract does not imply a Government determination of the Contractor's compliance with the EVMS guidelines in EIA-748 for application to future contracts. The Government will allow the use of a Contractor's EVMS that has been formally reviewed and determined by the CFA to be in compliance with the EVMS guidelines in EIA-748.
+
+	(e) The Contractor shall submit notification of any proposed substantive changes to the EVMS procedures and the impact of those changes to the CFA. If this contract has a value of $100 million or more, unless a waiver is granted by the CFA, any EVMS changes proposed by the Contractor require approval of the CFA prior to implementation. The CFA will advise the Contractor of the acceptability of such changes as soon as practicable (generally within 30 calendar days) after receipt of the Contractor's notice of proposed changes. If the CFA waives the advance approval requirements, the Contractor shall disclose EVMS changes to the CFA at least 14 calendar days prior to the effective date of implementation.
+
+	(f) The Government will schedule integrated baseline reviews as early as practicable, and the review process will be conducted not later than 180 calendar days after-
+
+		(1) Contract award;
+
+		(2) The exercise of significant contract options; and
+
+		(3) The incorporation of major modifications.
+
+During such reviews, the Government and the Contractor will jointly assess the Contractor's baseline to be used for performance measurement to ensure complete coverage of the statement of work, logical scheduling of the work activities, adequate resourcing, and identification of inherent risks.
+
+	(g) The Contractor shall provide access to all pertinent records and data requested by the Contracting Officer or duly authorized representative as necessary to permit Government surveillance to ensure that the EVMS complies, and continues to comply, with the performance criteria referenced in paragraph (b) of this clause.
+
+	(h) When indicated by contract performance, the Contractor shall submit a request for approval to initiate an over-target baseline or over-target schedule to the Contracting Officer. The request shall include a top-level projection of cost and/or schedule growth, a determination of whether or not performance variances will be retained, and a schedule of implementation for the rebaselining. The Government will acknowledge receipt of the request in a timely manner (generally within 30 calendar days).
+
+	(i) Material weaknesses. (1) The Contracting Officer will provide an initial determination to the Contractor, in writing, of any material weaknesses. The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weakness or deficiency.
+
+		(2) The Contractor shall respond within 30 days to a written initial determination from the Contracting Officer that identifies material weaknesses in the Contractor's EVMS. If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3) The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i) Remaining material weaknesses;
+
+			(ii) The adequacy of any proposed or completed corrective action;
+
+			(iii) System noncompliance, when the Contractor's existing EVMS fails to comply with the earned value management system guidelines in the EIA-748; and
+
+			(iv) System disapproval, if initial EVMS validation is not successfully completed within the timeframe approved by the Contracting Officer, or if the Contracting Officer determines that the Contractor's earned value management system contains one or more material weaknesses in high-risk guidelines in EIA-748 standards (guidelines 1, 3, 6, 7, 8, 9, 10, 12, 16, 21, 23, 26, 27, 28, 30, or 32). When the Contracting Officer determines that the existing earned value management system contains one or more material weaknesses in one or more of the remaining 16 guidelines in EIA-748 standards, the Contracting Officer will use discretion to disapprove the system based on input received from functional specialists and the auditor.
+
+		(4) If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the material weaknesses.
+
+	(j) Withholding payments. If the Contracting Officer makes a final determination to disapprove the Contractor's EVMS, and the contract includes the clause at 252.242-7005, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+	(k) Subcontracts. With the exception of paragraphs (i) and (j) of this clause, the Contractor shall require its subcontractors to comply with EVMS requirements as follows:
+
+		(1) For subcontracts valued at $100 million or more that are not primarily for software, the following subcontractors shall comply with the requirements of this clause:
+
+Contracting Officer to insert names of subcontractors (or subcontracted effort if subcontractors have not been selected) designated for application of the EVMS requirements of this clause.
+
+		(2) For subcontracts valued at less than $100 million or more that are not primarily for software, the following subcontractors shall comply with the requirements of this clause, excluding the requirements of paragraph (c) of this clause:
+
+Contracting Officer to insert names of subcontractors (or subcontracted effort if subcontractors have not been selected) designated for application of the EVMS requirements of this clause.
+
+(End of clause)
+
+252.234-7003  Notice of Cost and Software Data Reporting System.
+	Basic.  As prescribed in 234.7101(a) and (a)(1), use the following provision:
+
+NOTICE OF COST AND SOFTWARE DATA REPORTING SYSTEM-BASIC
+(NOV 2014)
+
+	(a)  This solicitation includes-
+
+		(1)  The Government-approved cost and software data reporting (CSDR) plan for the contract, DD Form 2794; and
+
+		(2)  The related Resource Distribution Table.
+
+	(b)  As part of its proposal, the Offeror shall-
+
+		(1)  Describe the process to be used to satisfy the requirements of the DoD 5000.04-M-1, CSDR Manual, and the Government-approved CSDR plan for the proposed contract;
+
+		(2)  Demonstrate how contractor cost and data reporting (CCDR) will be based, to the maximum extent possible, upon actual cost transactions and not cost allocations;
+
+		(3)  Demonstrate how the data from its accounting system will be mapped into the standard reporting categories required in the CCDR data item descriptions;
+
+		(4)  Describe how recurring and nonrecurring costs will be segregated;
+
+		(5)  Provide comments on the adequacy of the CSDR contract plan and related Resource Distribution Table; and
+
+		(6)  Submit the DD Form 1921, Cost Data Summary Report, and DD Form 1921-1, Functional Cost-Hour Report, with its pricing proposal.
+
+	(c) CSDR reporting will be required for subcontractors at any tier with a subcontract that exceeds $50 million.  The offeror shall identify, by providing comments on the Resource Distribution Table, the subcontractors, or, if the subcontractors have not been selected, the subcontracted effort in this category.
+
+(End of provision)
+
+	Alternate I.  As prescribed in 234.7101(a) and (a)(2), use the following provision, which uses a different paragraph (c) than the basic provision:
+
+NOTICE OF COST AND SOFTWARE DATA REPORTING SYSTEM-ALTERNATE I (NOV 2014)
+
+	(a)  This solicitation includes-
+
+		(1)  The Government-approved cost and software data reporting (CSDR) plan for the contract, DD Form 2794; and
+
+		(2)  The related Resource Distribution Table.
+
+	(b)  As part of its proposal, the Offeror shall-
+
+		(1)  Describe the process to be used to satisfy the requirements of the DoD 5000.04-M-1, CSDR Manual, and the Government-approved CSDR plan for the proposed contract;
+
+		(2)  Demonstrate how contractor cost and data reporting (CCDR) will be based, to the maximum extent possible, upon actual cost transactions and not cost allocations;
+
+		(3)  Demonstrate how the data from its accounting system will be mapped into the standard reporting categories required in the CCDR data item descriptions;
+
+		(4)  Describe how recurring and nonrecurring costs will be segregated;
+
+		(5)  Provide comments on the adequacy of the CSDR contract plan and related Resource Distribution Table; and
+
+		(6)  Submit the DD Form 1921, Cost Data Summary Report, and DD Form 1921-1, Functional Cost-Hour Report, with its pricing proposal.
+
+	(c)  CSDR reporting will be required for subcontractors for selected subcontracts identified in the CSDR contract plan as requiring such reporting.  The offeror shall identify, by providing comments on the Resource Distribution Table, the subcontractors, or, if the subcontractors have not been selected, the subcontracted effort.
+
+(End of provision)
+
+252.234-7004  Cost and Software Data Reporting System
+
+	Basic.  As prescribed in 234.7101(b) and (b)(1), use the following clause:
+
+COST AND SOFTWARE DATA REPORTING SYSTEM-BASIC (NOV 2014)
+
+	(a)  In the performance of this contract, the Contractor shall use-
+
+		(1)  A documented standard cost and software data reporting (CSDR) process that satisfies the guidelines contained in the DoD 5000.04-M-1, CSDR Manual;
+
+		(2)  Management procedures that provide for generation of timely and reliable information for the contractor cost data reports (CCDRs) and software resources data reports (SRDRs) required by the CCDR and SRDR data items of this contract; and
+
+		(3)  The Government-approved CSDR plan for this contract, DD Form 2794, and the related Resource Distribution Table as the basis for reporting in accordance with the required CSDR data item descriptions (DIDs).
+
+	(b)  The Contractor shall require CSDR reporting from subcontractors at any tier with a subcontract that exceeds $50 million.  If, for subcontracts that exceed $50 million, the Contractor changes subcontractors or makes new subcontract awards, the Contractor shall notify the Government.
+
+(End of clause)
+
+	Alternate I.  As prescribed in 234.7101(b) and (b)(2), use the following clause, which uses a different paragraph (b) than the basic clause:
+
+COST AND SOFTWARE DATA REPORTING SYSTEM-ALTERNATE I
+(NOV 2014)
+
+	(a)  In the performance of this contract, the Contractor shall use-
+
+		(1)  A documented standard cost and software data reporting (CSDR) process that satisfies the guidelines contained in the DoD 5000.04-M-1, CSDR Manual;
+
+		(2)  Management procedures that provide for generation of timely and reliable information for the contractor cost data reports (CCDRs) and software resources data reports (SRDRs) required by the CCDR and SRDR data items of this contract; and
+
+		(3)  The Government-approved CSDR plan for this contract, DD Form 2794, and the related Resource Distribution Table as the basis for reporting in accordance with the required CSDR data item descriptions (DIDs).
+
+	(b)  The Contractor shall require CSDR reporting from selected subcontractors identified in the CSDR contract plan as requiring such reporting.  If the Contractor changes subcontractors or makes new awards for selected subcontract effort, the Contractor shall notify the Government.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0011
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 34
+Defense FAR Supplement (DFARS) Part 234
+
+
+Page 2 of 2
+
+

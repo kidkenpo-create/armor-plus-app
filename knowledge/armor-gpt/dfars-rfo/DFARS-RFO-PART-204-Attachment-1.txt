@@ -1,0 +1,810 @@
+PART 204-ADMINISTRATIVE AND INFORMATION MATTERS
+
+Subpart 204.2-Solicitation, Evaluation, and Award
+
+204.201  Unique procurement instrument identifiers.
+
+	(b)  See PGI 204.201 for use of unique procurement instrument identifiers.
+  
+	(c)  In addition to the supplementary PIID numbering procedures in FAR 4.201(c), follow the procedures at PGI 204.201(c). 
+
+204.201-70  Policy
+See PGI 204.201-70 for Procurement Instrument Identifier (PIID) policy.
+
+204.201-71  Cross reference to Federal Procurement Data System.
+See PGI 204.201-71 for detailed guidance on mapping PIID and supplementary PIID numbers stored in the Electronic Data Access system to data elements reported in the Federal Procurement Data System
+
+204.201-72  Order of application for modifications.
+See PGI 204.201-72 to determine numeric sequence of contract and order modifications.
+
+204.202-70  Uniform use of line items.
+
+	(a)  Definitions.  As used in this section-
+
+	"Accounting classification reference number (ACRN)" means any combination of a two position alpha/numeric code used as a method of relating the accounting classification citation to detailed line item information contained in the schedule.
+
+	"Accounting Classification" means the minimum financial data elements that must be exchanged to identify the obligations that have an accounting impact for final posting in the appropriate general ledger.  This must not include the purchase request number or commitment identification number.
+
+	"Attachment" means any documentation, appended to a contract or incorporated by reference, which does not establish a requirement for deliverables.
+
+	"Commitment Identification Number" means a data element used to trace a committed amount to the resulting obligation.
+
+	"Definitized item"means an item for which a firm price has been established in the basic contract or by modification.
+
+	"Exhibit" means a document, referred to in a contract, which is attached and establishes requirements for deliverables.  The term must not be used to refer to any other kind of attachment to a contract.  The DD Form 1423, Contract Data Requirements List, is always an exhibit, rather than an attachment.
+
+	"Nonseverable deliverable" means a deliverable item that is a single end product or undertaking, entire in nature, that cannot be feasibly subdivided into discrete elements or phases without losing its identity.
+
+	(b)  Policy.
+
+		(1)  Deliverables must trace back to a separately identifiable line item, deliverable subline item, or exhibit line item.
+
+		(2) If a line item or subline item has subordinate exhibit line items, the line item or subline item must be informational.
+
+		(3)  Do  not use informational line items or informational subline items to separately identify deliverables.
+
+		(4)  Use exhibits to separately identify data deliverables using a DD Form 1423 or its electronic equivalent.  
+
+		(5)  Contracting officers may use exhibits to group and separately identify deliverables (e.g. initial spare parts for major weapon systems).
+
+		(6)  Do not use attachments to identify a deliverable requirement, including data deliverables, or otherwise provide information required to be captured as discrete data elements.
+
+	(c)  Applicability. Use the numbering procedures in this section when separate item numbers are assigned, unless-
+
+		(1) The contract is an indefinite-delivery type for petroleum products against which military installations issue delivery orders for products to be consumed by them; or
+
+		(2) The contract is a communications service authorization issued by the Defense Information Systems Agency's Defense Information Technology Contracting Organization.
+
+	(d)  Use of exhibits and attachments.  See PGI 204.202.70(e) for guidance on the use of exhibits and attachments.
+
+204.202-71 Establishing line items, subline, and exhibit line items.
+
+	(a)  Line items.  When establishing line items, follow the procedures at PGI 204.202-71(a).
+
+	(b)  Subline items.  When establishing subline items, follow the procedures at PGI 204.202-71(b).
+
+	(c)  Exhibit line items.  When establishing exhibit line items, follow the procedures at PGI 204.202-71(c).
+
+204.202-72  Required data elements.
+
+	(a)  See  PGI 204.202-72 for guidance on data elements required when numbering line items, exhibits, attachments, and other data requirements.
+
+	(b)  See PGI 204.202-72(f) for exceptions to data element requirements.
+
+204.202-73  Modification requirements.
+See PGI 202.202-73 for new line item requirements during modifications.
+
+204.202-74  Traceability of Appropriations. 
+Accounting classification reference numbers (ACRNs) ensure traceability of funds from accounting systems to contract actions.  Follow the procedures at PGI 204.202-74 for use of ACRNs.
+
+204.202-75 Numbering format for line items, subline items, and exhibit line items.
+See PGI 204.202.75 for formatting guidance on line items, subline items, and exhibit line items.  
+
+204.202-76  Payment allocation instructions.  
+
+	(a)  Contracting officers must not require contractors to invoice for expenses at any level of detail other than by the deliverable line item, or at contract level in the case of progress payments based on costs applicable across multiple line items.
+
+	(b) Follow the procedures at PGI 204.202-76 to establish the allocation of payments in contracts.
+
+204.202-77 Payment instructions.
+Follow the procedures at PGI 204.202-77 for inclusion of payment instructions in contracts.
+
+204.202-78  Contract clauses.
+
+	(a)  Insert the clause at 252.204-7002, Payment for Line or Subline Items Not Separately Priced, in solicitations and contracts when the price for items not separately priced is included in the price of another line or subline item.
+
+	(b)  Insert the clause at 252.204-7006, Billing Instructions-Cost Vouchers, in solicitations and contracts when a cost-reimbursement contract, a time-and-materials contract, or a labor-hour contract is contemplated.
+
+204.203  System for Award Management.
+
+204.203-270  Procedures.
+Follow the procedures and guidance at PGI 204.203-270 concerning Commercial and Government Entity (CAGE) codes.
+
+204.203-271 Maintenance of the CAGE file.
+See PGI 204.203-271 for guidance on CAGE file maintenance.
+
+204.204  Taxpayer Identification Number Information.
+	(a)(2)  DoD uses the Federal Procurement Data System (FPDS) to meet these reporting requirements.
+
+204.204-70  Taxpayer identification information collection.
+The payment office obtains the taxpayer identification number and type of organization from the System for Award Management database.  This applies to contracts that include the provisions at FAR 52.204-7, System for Award Management and FAR 52.204-90 Offeror Identification.
+
+204.206  Contracting officer's signature.
+A photocopy, facsimile, electronic, mechanically applied, and printed signature, seal, and date are considered an original signature, seal, and date.  Follow the procedures at PGI 204.206 for signature of contract documents.
+
+204.208  Solicitation provisions and contract clauses.
+
+204.208-70  Solicitation provisions and contract clauses.  
+When using the provision at FAR 52.204-7, System for Award Management-Registration-
+
+		(a)  Insert the provision with 252.204-7998, Alternate A, Annual Representations and Certifications; and
+
+		(b)  Do not include the following provisions separately in the solicitation, which are included in DFARS 252.204-7998:
+
+			(1) 252.204-7016, Covered Defense Telecommunications Equipment or Services-Representation.
+
+			(2) 252.209-7002, Disclosure of Ownership or Control by a Foreign Government.
+
+			(3) 252.216-7008, Economic Price Adjustment-Wage Rates or Material Prices Controlled by a Foreign Government-Representation.
+
+			(4) 252.225-7000, Buy American-Balance of Payments Program Certificate.
+
+			(5) 252.225-7020, Trade Agreements Certificate.
+
+			(6) 252.225-7031, Secondary Arab Boycott of Israel.
+
+			(7) 252.225-7035, Buy American-Free Trade Agreements-Balance of Payments Program Certificate.
+
+			(8) 252.225-7042, Authorization to Perform.
+
+			(9) 252.225-7049, Prohibition on Acquisition of Certain Foreign Commercial Satellite Services-Representations.
+
+			(10) 252.225-7050, Disclosure of Ownership or Control by the Government of a Country that is a State Sponsor of Terrorism.
+
+			(11) 252.226-7002, Representation for Demonstration Project for Contractors Employing Persons with Disabilities.
+
+			(12) 252.229-7012, Tax Exemptions (Italy)-Representation.
+
+			(13) 252.229-7013, Tax Exemptions (Spain)-Representation.
+
+			(14) 252.232-7015, Performance-Based Payments-Representation.
+
+204.208-71  Additional contract clauses.
+
+	(a)  Insert the basic or the alternate of the clause at 252.204-7023, Reporting Requirements for Contracted Services, in solicitations, contracts, agreements, and orders, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that-
+
+		(1) Have a total estimated value, including options, that exceeds $3 million; and
+
+		(2) Are for services in the following service acquisition portfolio groups:
+
+			(i) Logistics management services.
+
+			(ii) Equipment-related services.
+
+			(iii) Knowledge-based services.
+
+			(iv) Electronics and communications services.
+
+		(b)  Insert the basic clause in solicitations and contracts, except solicitations and resultant awards of indefinite-delivery contracts, and orders placed under non-DoD contracts that meet the criteria in paragraph (a)(1) of this section.
+
+		(c)  Insert the alternate I clause in solicitations and resultant awards of indefinite-delivery contracts, basic ordering agreements, and blanket purchase agreements, when one or more of the orders under the contract or agreement are expected to meet the criteria in paragraph (a)(1) of this section.
+
+204.270  Electronic Data Access.
+See PGI 204.270 for information on the policies and procedures for the Electronic Data Access (EDA) system.
+
+204.271  Contract distribution.
+Contracting officers must distribute one signed copy or reproduction of the signed contract to the contractor, payment office, and all other entities on the contract distribution list.  See PGI 204.271 for guidance on the distribution of contracts and modifications.
+
+SUBPART 204.3-POST-AWARD
+
+204.301  Contract Reporting
+In addition to FAR 4.301, see PGI 204.301 for contract reporting policy and follow the procedures at PGI 204.301-71 for reporting data to the Federal Procurement Data System (FPDS). 
+
+204.301-70  General.
+See PGI 204.301-70 for additional information on FPDS and procedures for resolving technical or policy issues relating to FPDS.
+
+204.301-71  Responsibilities.
+In addition to the requirements at FAR 4.301(f)-
+
+	(a)  The process for reporting contract actions to FPDS should, where possible, be automated by incorporating it into contract writing systems.
+
+	(b)  Data in FPDS is stored indefinitely and is electronically retrievable.  Therefore, the contracting officer may reference the contract action report (CAR) approval date in the associated Government contract file instead of including a paper copy of the electronically submitted CAR in the file.  Such reference satisfies contract file documentation requirements of FAR 4.101.
+
+	(c)  By December 15th of each year, the chief acquisition officer of each DoD component required to report its contract actions must submit to the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, its annual certification and data validation results for the preceding fiscal year in accordance with the DoD Data Improvement Plan requirements at https://www.acq.osd.mil/asda/dpc/ce/cap/index.html.  The Principal Director, Defense Pricing, Contracting, and Acquisition Policy, will submit a consolidated DoD annual certification to the Office of Management and Budget by January 5th of each year.
+
+204.301-72  Reporting data.
+In addition to FAR 4.301, follow the procedures at PGI 204.301-72 for reporting data to FPDS.
+
+204.303  Service contracts inventory.
+
+204.303-70  DoD reporting thresholds.
+
+	(a)  Requirement.  This section prescribes the requirement to report certain contracted services in accordance with 10 U.S.C. 4505.
+
+	(b)  Reporting requirements thresholds.  Service contractor reporting of information is required in the System for Award Management (SAM) when a contract or order-
+
+		(1) Has a total estimated value, including options, that exceeds $3 million; and
+
+		(2) Is for services in the following service acquisition portfolio groups (see PGI 204.303-70(b)(2)) for a list of applicable product and service codes):
+
+			(i) Logistics management services.
+
+			(ii) Equipment-related services.
+
+			(iii) Knowledge-based services.
+
+			(iv) Electronics and communications services.
+
+204.303-71 Contractor reporting.  
+
+	(a)  The basic and the alternate of the clause at 252.204-7023, Reporting Requirements for Contracted Services, require contractors to report annually, by October 31, on the services performed under the contract or order, including any first-tier subcontracts, during the preceding Government fiscal year.
+
+	(b) For indefinite-delivery contracts, basic ordering agreements, and blanket purchase agreements-
+
+		(1)  Contractor reporting is required for each order issued under the contract or agreement that meets the requirements of paragraph (b) of this section; and
+
+		(2)  Service contract reporting is not required for the basic contract or agreement.
+
+204.304  System For Award Management.
+
+204.304-70  Procedures.
+
+See PGI 204.304-70 for information on navigation and data entry in the System for Award Management (SAM) database.
+
+	(a)  On contract award documents, use the contractor's legal or "doing business as" name and physical address information as recorded in the SAM database at the time of award.
+
+	(b)  When making a determination to exercise an option, or at any other time before issuing a modification other than a unilateral modification making an administrative change, ensure that-
+
+		(1)  The contractor's record is active in the SAM database; and
+
+		(2)  The contractor's unique entity identifier (UEI) number, Commercial and Government Entity (CAGE) code, name, and physical address are accurately reflected in the contract document.
+
+	(c)  At any time, if the UEI number, CAGE code, contractor name, or physical address on a contract no longer matches the information on the contractor's record in the SAM database, the contracting officer must process a novation or change-of-name agreement, or an address change, as appropriate.
+
+	(d)   See PGI 204.304-70 for additional requirements relating to use of information in the SAM database.
+
+	(e)  On contractual documents transmitted to the payment office, provide the CAGE code, instead of the UEI, in accordance with agency procedures.
+
+204.308  Contract closeout.
+
+204.308-170  Procedures for closing out contract files.
+
+	(a)  Except as provided in paragraph (c) of this section, contracting officers must close out contracts in accordance with the procedures at PGI 204.308-170.  The closeout date for file purposes must be determined and documented by the procuring contracting officer.
+
+	(b)  The head of the contracting activity must assign the highest priority to closeout of contracts awarded for performance in a contingency area.  Heads of contracting activities must monitor and assess on a regular basis the progress of contingency contract closeout activities and take appropriate steps if a backlog occurs.  For guidance on the planning and execution of closing out such contracts, see PGI 207.104-70(b)(2)(vii)(B).
+
+	(c)(1) In accordance with section 836 of the National Defense Authorization Act for Fiscal Year 2017 (Pub.  L.  114-328), contracting officers may close out contracts or groups of contracts through issuance of one or more modifications to such contracts without completing a reconciliation audit or other corrective action in accordance with FAR 4.308-1(a)(3) through (15), as appropriate, if each contract-
+
+			(i)(A)  For military construction (as defined at 10 U.S.C.  2801) or shipbuilding, was awarded at least 10 fiscal years before the current fiscal year; 
+
+				(B) For all other contracts, was awarded at least 7 fiscal years before the current fiscal year;
+
+			(ii) The performance or delivery was completed at least 4 years prior to the current fiscal year; and
+
+			(iii) Has been determined by a contracting official, at least one level above the contracting officer, to be not otherwise reconcilable, because-
+
+				(A) The contract or related payment records have been destroyed or lost; or
+
+				(B) Although contract or related payment records are available, the time or effort required to establish the exact amount owed to the U.S.  Government or amount owed to the contractor is disproportionate to the amount at issue.
+
+		(2)  Any contract or group of contracts meeting the requirements of paragraph (c)(1) of this section may be closed out through a negotiated settlement with the contractor.  Except as provided in paragraph (3)(ii)(B) of this section, the contract closeout process must include a bilateral modification of the affected contract, including those contracts that are closed out in accordance with a negotiated settlement.
+
+			(i)  For a contract or groups of contracts, the contracting officer must prepare a negotiation settlement memorandum that describes how the requirements of paragraph (c)(1) of this section have been met.
+
+			(ii)  For a group of contracts, a bilateral modification of at least one contract must be made to reflect the negotiated settlement for a group of contracts, and unilateral modifications may be made, as appropriate, to other contracts in the group to reflect the negotiated settlement.
+
+		(3)  For contract closeout actions under paragraph (c) of this section, remaining contract balances-
+
+			(i)  May be offset with balances in other contract line items within the same contract, regardless of the year or type of appropriation obligated to fund each contract line item and regardless of whether the appropriation obligated to fund such contract line item has closed; and
+
+			(ii)  May be offset with balances on other contracts, regardless of the year or type of appropriations obligated to fund each contract and regardless of whether such appropriations have closed.
+
+		(4) USD(A&S) is authorized to waive any provision of acquisition law or regulation in order to carry out the closeout procedures authorized in paragraph (c)(1) of this section (see procedures at PGI 204.308-170(c)(iv)).
+
+	(d) When using the clause at 252.204-7022, Expediting Contract Closeout, to expedite contract closeout, determine the residual dollar amount upon completion of all applicable closeout requirements of FAR 4.308.
+
+204.308-171  Procedures for closing out contract files-Governmentwide commercial purchase card as the sole payment.
+Follow the procedures at PGI 204.308-171 to close out contract files when the Governmentwide commercial purchase card is the sole method of payment.
+
+204.308-2  Contract closeout by the office administering the contract.
+See PGI 204.308-2 for information on contract closeout by the office administering the contract.
+
+204.308-270  Closeout of the contracting office files if another office administers the contract.
+See PGI 204.308-270 when another office, other than the contracting office administers the contract.
+
+204.308-70 Contract clause.
+Insert the clause at 252.204-7022, Expediting Contract Closeout, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, when the contracting officer intends to expedite contract closeout through the mutual waiver of entitlement to a residual dollar amount of $1,000 or less determined at the time of contract closeout.
+
+204.309 Storage, handling, and contract files.
+
+204.309-70 Handling of contract files.
+Any document posted to the Electronic Data Access (EDA) system is part of the contract file and is accessible by multiple parties, including the contractor.  Do not include in EDA contract documents that are classified, too sensitive for widespread distribution (e.g., personally identifiable information and Privacy Act and Health Insurance Portability and Accountability Act), or attachments that cannot be practicably converted to electronic format (e.g., samples, drawings, and models).  Inclusion of any document in EDA other than contracts, modifications, and orders is optional.
+
+SUBPART 204.7-CONTRACTOR RECORDS RETENTION
+
+204.705-70  Specific retention periods.
+
+	(a)  The sources of the period for which contract files must be retained are General Records Schedule 3 (Procurement, Supply, and Grant Records) and General Records Schedule 6 (Accountable Officers' Accounts Records).  Copies of the General Records Schedule may be obtained from the National Archives and Records Administration, Washington, DC 20408.
+
+	(b)  Deviations from the periods cannot be granted by the Defense Acquisition Regulatory Council.  Forward requests for deviations to both the Government Accountability Office and the National Archives and Records Administration.
+
+	(c)  Hold completed contract files in the office responsible for maintaining them for a period of 12 months after completion.  After the initial 12-month period, send the records to the local records holding or staging area until they are eligible for destruction.  If no space is available locally, transfer the files to the General Services Administration Federal Records Center that services the area.
+
+	(d)  Duplicate or working contract files should not contain originals of materials that properly belong in the official files.  Destroy working files as soon as practicable once they are no longer needed.
+
+	(e)  Retain pricing review files, containing documents related to reviews of the contractor's price proposals, subject to certified cost or pricing data (see FAR 15.403-4), for six years.  If it is impossible to determine the final payment date in order to measure the six-year period, retain the files for nine years.
+
+SUBPART 204.71-RESERVED
+
+SUBPART 204.72-ANTITERRORISM AWARENESS TRAINING
+
+204.7200  Scope of subpart.
+This subpart provides policy and guidance related to antiterrorism awareness training for contractor personnel who require routine physical access to a Federally-controlled facility or military installation.
+
+204.7201  Definition.
+As used in this subpart-
+
+	"Military installation" means a base, camp, post, station, yard, center, or other activity under the jurisdiction of the Secretary of a military department or, in the case of an activity in a foreign country, under the operational control of the Secretary of a military department or the Secretary of Defense (see 10 U.S.C.  2801(c)(4)).
+
+204.7202  Policy.
+It is DoD policy that-
+
+	(a) Contractor personnel who, as a condition of contract performance, require routine physical access to a Federally-controlled facility or military installation are required to complete Level I antiterrorism awareness training within 30 days of requiring access and annually thereafter; and
+
+	(b) In accordance with Department of Defense Instruction O-2000.16, Volume 1, DoD Antiterrorism (AT) Program Implementation: DoD AT Standards, Level I antiterrorism awareness training may be completed-
+
+		(1) Through a DoD-sponsored and certified computer or web-based distance learning instruction for Level I antiterrorism awareness; or
+
+		(2) Under the instruction of a qualified Level I antiterrorism awareness instructor.
+
+204.7203 Contract clause.
+Insert the clause at 252.204-7004, DoD Antiterrorism Awareness Training for Contractors, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, when contractor personnel require routine physical access to a Federally-controlled facility or military installation.
+
+SUBPART 204.73-RESERVED
+
+SUBPART 204.74-DISCLOSURE OF INFORMATION TO LITIGATION SUPPORT CONTRACTORS
+
+204.7400  Scope of subpart.
+This subpart prescribes policies and procedures for the release and safeguarding of information to litigation support contractors.  It implements the requirements at 10 U.S.C. 129d.
+
+204.7401  Definitions.
+As used in this subpart-
+
+	"Computer software" means computer programs, source code, source code listings, object code listings, design details, algorithms, processes, flow charts, formulae, and related material that would enable the software to be reproduced, recreated, or recompiled.  Computer software does not include computer data bases or computer software documentation.
+
+	"Litigation information" means any information, including sensitive information, that is furnished to the contractor by or on behalf of the Government, or that is generated or obtained by the contractor in the performance of litigation support under a contract.  The term does not include information that is lawfully, publicly available without restriction, including information contained in a publicly available solicitation.
+
+	"Litigation support" means administrative, technical, or professional services provided in support of the Government during or in anticipation of litigation.
+
+	"Litigation support contractor" means a contractor (including its experts, technical consultants, subcontractors, and suppliers) providing litigation support under a contract that contains the clause at 252.204-7014, Limitations on the Use or Disclosure of Information by Litigation Support Contractors.
+
+	"Sensitive information" means controlled unclassified information of a commercial, financial, proprietary, or privileged nature.  The term includes technical data and computer software, but does not include information that is lawfully, publicly available without restriction.
+
+	"Technical data" means recorded information, regardless of the form or method of the recording, of a scientific or technical nature (including computer software documentation).  The term does not include computer software or data incidental to contract administration, such as financial and/or management information.
+
+204.7402  Policy.
+
+	(a)  Any release or disclosure of litigation information that includes sensitive information to a litigation support contractor, and the litigation support contractor's use and handling of such information, must comply with the requirements of 10 U.S.C. 129d.
+
+	(b)  To the maximum extent practicable, DoD will provide notice to an offeror or contractor submitting, delivering, or otherwise providing information to DoD in connection with an offer or performance of a contract that such information may be released or disclosed to litigation support contractors.
+
+	(c)  Information that is publicly available without restriction, including publicly available solicitations for litigation support services, will not be protected from disclosure as litigation information.
+
+	(d)  When sharing sensitive information with a litigation support contractor, contracting officers must ensure that all other applicable requirements for handling and safeguarding the relevant types of sensitive information are included in the contract (e.g., FAR part 40 and subpart 24.1; DFARS part 240 and subpart 224.1).
+
+204.7403  Contract clauses.
+
+	(a) Insert the clause at 252.204-7014, Limitations on the Use or Disclosure of Information by Litigation Support Contractors, in all solicitations and contracts that involve litigation support services, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+	(b)  Insert the clause at 252.204-7015, Notice of Authorized Disclosure of Information for Litigation Support, in solicitations and contracts that involve litigation support services, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+SUBPART 204.75-RESERVED
+
+SUBPART 204.76-SUPPLIER PERFORMANCE RISK SYSTEM
+
+204.7600  Scope of subpart.
+This subpart provides policies and procedures for use of the Supplier Performance Risk System (SPRS) risk assessments in the evaluation of a quotation or offer.
+
+204.7601  Definitions.
+As used in this subpart-
+
+	"Item risk" means the probability that a product, based on intended use, will introduce performance risk resulting in safety issues, mission degradation, or monetary loss.
+
+	"Price risk" means the measure of whether a proposed price for a product or service is consistent with historical prices paid for that item or service.
+
+	"Supplier risk" means the probability that an award may subject the procurement to the risk of unsuccessful performance or to supply chain risk.
+
+204.7602  Applicability.
+Use of SPRS risk assessments is required for the evaluation of quotations or offers in response to solicitations for supplies and services, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, excluding solicitations for the procurement of supplies or services exempted by the Department of Defense Instruction (DoDI) 5000.79, Defense-wide Sharing and Use of Supplier and Product Performance Information.  SPRS retrieves item, price, quality, delivery, and contractor information from contracts in Government reporting systems in order to develop risk assessments of contractors.  SPRS is available at https://piee.eb.mil/, and the SPRS user's guides are available at https://www.sprs.csd.disa.mil/reference.htm.
+
+204.7603  Procedures.
+The contracting officer must consider price risk and supplier risk, if available in SPRS, as a part of the award decision.  For procurement of an end product identified by a material identifier that is available as described at PGI 204.7603, the contracting officer must also consider assessments of item risk, if available, as a part of the award decision.  Offerors or quoters without a risk assessment in SPRS must not be considered favorably or unfavorably.  Contracting officers must use their discretion in considering the information available in SPRS on item risk, price risk, and supplier risk as follows:
+
+	(a)  Item risk.  
+
+		(1)  Consider item risk to determine whether the procurement of products represents a high performance risk to the Government.  If an item has a high risk rating, then the SPRS item risk report will display the reason(s) an item is identified as high risk.
+
+		(2)  Before issuing a solicitation for the procurement of an end product identified by a material identifier that is available as described at PGI 204.7603, the contracting officer must ensure a SPRS item risk search has been performed and must consider any item risk warnings provided.  When evaluating quotations or offers for an end product identified by a material identifier, a SPRS item risk search is required for any end product that did not have an item risk search performed prior to solicitation.  If there are item risk warnings, the contracting officer must consider strategies to mitigate risk, such as the following:
+
+			(i)  Consulting with the program office.
+
+			(ii) Including mitigating requirements in the statement of work, as provided by the requiring activity.
+
+			(iii) Including FAR and DFARS clauses identified in the SPRS application, as appropriate.
+
+	(b) Price risk.  
+
+		(1) When procuring a service or an end product identified by a material identifier that is available as described at PGI 204.7603, the contracting officer must consider price risk assessment in determining if a proposed price is consistent with historical prices paid for an item or otherwise creates a risk to the Government.  Contracting officers must not rely solely on the price risk assessment when determining prices to be fair and reasonable.
+
+		(2) The contracting officer must consider strategies to mitigate price risk, such as the following:
+
+			(i) Not awarding to offerors or quoters with high risk price ratings unless there is a way to justify the price through additional price or cost analysis.
+
+			(ii) Utilizing appropriate price negotiation techniques and procedures.
+
+			(iii) Using price reasonableness or price realism techniques at FAR 13.203 or 15.4.  See also 215.403-3 when making award decisions.
+
+	(c) Supplier risk.  The contracting officer must consider supplier risk, to assess the risk of unsuccessful performance and supply chain risk, in award decisions.  Supplier risk assessments in SPRS include quality, delivery, and other contractor performance information.
+
+204.7604  Solicitation provision.
+Except for supplies or services exempted by DoDI 5000.79, insert the provision at 252.204-7024, Notice on the Use of the Supplier Performance Risk System, in solicitations for supplies and services, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+SUBPART 204.77-U.S.-INTERNATIONAL ATOMIC ENERGY AGENCY REQUIREMENTS
+
+204.770  U.S.-International Atomic Energy Agency Additional Protocol.
+
+204.770-1  General.
+Under the U.S.-International Atomic Energy Agency Additional Protocol (U.S.-IAEA AP), the United States is required to declare a wide range of public and private nuclear-related activities to the IAEA and potentially provide access to IAEA inspectors for verification purposes.
+
+204.770-2  National security exclusion.
+
+	(a)  The U.S.-IAEA AP permits the United States unilaterally to declare exclusions from inspection requirements for activities, or locations or information associated with such activities, with direct national security significance.
+
+	(b)  In order to ensure that all relevant activities are reviewed for direct national security significance, both current and former activities, and associated locations or information, are to be considered for applicability for a national security exclusion.
+
+	(c)  If a DoD program manager receives notification from a contractor that the contractor is required to report any of its activities in accordance with the U.S.-IAEA AP, the program manager will-
+
+		(1)  Conduct a security assessment to determine if, and by what means, access may be granted to the IAEA; or
+
+		(2)  Provide written justification to the component or agency treaty office for application of the national security exclusion at that location to exclude access by the IAEA, in accordance with DoD Instruction 2060.03, Application of the National Security Exclusion to the Agreements Between the United States of America and the International Atomic Energy Agency for the Application of Safeguards in the United States of America.
+
+204.770-3  Contract clause.
+Insert the clause at 252.204-7010, Requirement for Contractor to Notify DoD if the Contractor's Activities are Subject to Reporting Under the U.S.-International Atomic Energy Agency Additional Protocol, in solicitations and contracts for research and development or major defense acquisition programs involving-
+
+	(a)  Any fissionable materials (e.g., uranium, plutonium, neptunium, thorium, americium);
+
+	(b)  Other radiological source materials; or
+
+	(c)  Technologies directly related to nuclear power production, including nuclear or radiological waste materials.
+
+
+Part 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.204-7002  Payment for Contract Line or Subline Items Not Separately Priced.
+As prescribed in 204.202-79(a), Insert the following clause:
+
+Payment for Contract Line or Subline Items Not Separately Priced (APR 2020)
+
+	(a) If the schedule in this contract contains any contract line or subline items identified as not separately priced (NSP), it means that the unit price for the NSP line or subline item is included in the unit price of another, related line or subline item.
+
+	(b) The Contractor shall not invoice the Government for an item that includes in its price an NSP item until-
+
+		(1) The Contractor has also delivered the NSP item included in the price of the item being invoiced; and
+
+		(2) The Government has accepted the NSP item.
+
+	(c) This clause does not apply to technical data.
+
+(End of clause)
+
+252.204-7004  Antiterrorism Awareness Training for Contractors.
+As prescribed in 204.7203, insert the following clause:
+
+Antiterrorism Awareness Training for Contractors (JAN 2023)
+
+(a)  Definition.  As used in this clause-
+
+	Military installation means a base, camp, post, station, yard, center, or other activity under the jurisdiction of the Secretary of a military department or, in the case of an activity in a foreign country, under the operational control of the Secretary of a military department or the Secretary of Defense (see 10 U.S.C.  2801(c)(4)).
+
+	(b) Training.  Contractor personnel who require routine physical access to a Federally-controlled facility or military installation shall complete Level I antiterrorism awareness training within 30 days of requiring access and annually thereafter.  In accordance with Department of Defense Instruction O-2000.16 Volume 1, DoD Antiterrorism (AT) Program Implementation: DoD AT Standards, Level I antiterrorism awareness training shall be completed-
+
+		(1) Through a DoD-sponsored and certified computer or web-based distance learning instruction for Level I antiterrorism awareness; or
+
+		(2) Under the instruction of a Level I antiterrorism awareness instructor.
+
+	(c) Additional information.  Information and guidance pertaining to DoD antiterrorism awareness training is available at https://jko.jten.mil/ or as otherwise identified in the performance work statement.
+
+	(d) Subcontracts.  The Contractor shall include the substance of this clause, including this paragraph (d), in subcontracts, including subcontracts for commercial products and commercial services, when subcontractor performance requires routine physical access to a Federally-controlled facility or military installation.
+
+(End of clause)
+
+252.204-7006  Billing Instructions-Cost Vouchers.
+As prescribed in 204.202-79(b), insert the following clause:
+
+Billing Instructions-Cost Vouchers (MAY 2023)
+
+When submitting a request for payment using a cost voucher, the Contractor shall-
+
+	(a) Identify the contract line item(s) on the payment request that reasonably reflect contract work performance; and
+
+	(b) Separately identify a payment amount for each contract line item included in the payment request.
+
+(End of clause)
+
+252.204-7998 Alternate A, Annual Representations and Certifications.
+As prescribed in 204.208(b), insert the following provision:
+
+ALTERNATE A, ANNUAL REPRESENTATIONS AND CERTIFICATIONS (DEVIATION 2026-O0043)(FEB 2026)
+
+Include the following paragraphs (e), (f), and (g) in the provision at FAR 52.204-7:
+
+	(e)(1) If the provision at FAR 52.204-7, System for Award Management -Registration, is included in this solicitation, paragraph (g) of this provision applies.
+
+		(2) If the provision at FAR 52.204-7, System for Award Management -Registration, is not included in this solicitation, and the Offeror has an active registration in the System for Award Management (SAM), the Offeror may choose to use paragraph (g) of this provision instead of completing the corresponding individual representations and certifications in the solicitation.  The Offeror shall indicate which option applies by checking one of the following boxes:
+
+			____ (i) Paragraph (g) applies.
+
+			____ (ii) Paragraph (g) does not apply and the Offeror has completed the individual representations and certifications in the solicitation.
+
+	(f)(1) The following representations or certifications in the SAM database are applicable to this solicitation as indicated:
+
+			(i) 252.204-7016, Covered Defense Telecommunications Equipment or Services-Representation.  Applies to all solicitations.
+
+			(ii) 252.216-7008, Economic Price Adjustment-Wage Rates or Material Prices Controlled by a Foreign Government.  Applies to solicitations for fixed-price supply and service contracts when the contract is to be performed wholly or in part in a foreign country, and a foreign government controls wage rates or material prices and may during contract performance impose a mandatory change in wages or prices of materials.
+
+			(iii) 252.225-7042, Authorization to Perform.  Applies to all solicitations when performance will be wholly or in part in a foreign country.
+
+			(iv) 252.225-7049, Prohibition on Acquisition of Certain Foreign Commercial Satellite Services-Representations.  Applies to solicitations for the acquisition of commercial satellite services.
+
+			(v) 252.225-7050, Disclosure of Ownership or Control by the Government of a Country that is a State Sponsor of Terrorism.  Applies to all solicitations expected to result in contracts of $150,000 or more.
+
+			(vi) 252.229-7012, Tax Exemptions (Italy)-Representation.  Applies to solicitations when contract performance will be in Italy.
+
+			(vii) 252.229-7013, Tax Exemptions (Spain)-Representation.  Applies to solicitations when contract performance will be in Spain.
+
+		(2) The following representations or certifications in SAM are applicable to this solicitation as indicated by the Contracting Officer: [Contracting Officer check as appropriate.]
+
+			____(i) 252.209-7002, Disclosure of Ownership or Control by a Foreign Government.
+
+			____(ii) 252.225-7000, Buy American-Balance of Payments Program Certificate.  
+
+			____(iii) 252.225-7020, Trade Agreements Certificate.  
+
+				____Use with Alternate I.  
+
+			____(iv) 252.225-7031, Secondary Arab Boycott of Israel.  
+
+			____(v) 252.225-7035, Buy American-Free Trade Agreements-Balance of Payments Program Certificate.  
+
+				____Use with Alternate I.  
+
+				____Use with Alternate II.  
+
+				____Use with Alternate III.  
+
+				____Use with Alternate IV.  
+
+				____Use with Alternate V.  
+
+			____ (vi) 252.226-7002, Representation for Demonstration Project for Contractors Employing Persons with Disabilities.  
+
+			____ (vii) 252.232-7015, Performance-Based Payments-Representation.  
+
+	(g)  The Offeror has completed the annual representations and certifications electronically via the SAM website at https://www.sam.gov After reviewing the SAM database information, the Offeror verifies by submission of the offer that the representations and certifications currently posted electronically that apply to this solicitation as indicated in FAR 52.204-7 and paragraph (f) of this provision have been entered or updated within the last 12 months, are current, accurate, complete, and applicable to this solicitation (including the business size standard applicable to the NAICS code referenced for this solicitation), as of the date of this offer, and are incorporated in this offer by reference (see FAR 4.203-1); except for the changes identified below [Offeror to insert changes, identifying change by provision number, title, date].  These amended representation(s) and/or certification(s) are also incorporated in this offer and are current, accurate, and complete as of the date of this offer.
+
+FAR/DFARS provision No.TitleDateChange
+Any changes provided by the Offeror are applicable to this solicitation only, and do not result in an update to the representations and certifications located in the SAM database.
+
+(End of provision)
+
+252.204-7010  Requirement for Contractor to Notify DoD if the Contractor's Activities are Subject to Reporting Under the U.S.-International Atomic Energy Agency Additional Protocol.
+As prescribed in 204.770-3, insert the following clause:
+
+Requirement for Contractor to Notify DoD if the Contractor's Activities Are Subject to Reporting Under the U.S.-International Atomic Energy Agency Additional Protocol (JAN 2009)
+
+	(a) If the Contractor is required to report any of its activities in accordance with Department of Commerce regulations (15 CFR part 781 et seq.) or Nuclear Regulatory Commission regulations (10 CFR part 75) in order to implement the declarations required by the U.S.-International Atomic Energy Agency Additional Protocol (U.S.-IAEA AP), the Contractor shall-
+
+		(1) Immediately provide written notification to the following DoD Program Manager:
+
+[Contracting Officer to insert Program Manager's name, mailing address, e-mail address, telephone number, and facsimile number];
+
+		(2) Include in the notification-
+
+			(i) Where DoD contract activities or information are located relative to the activities or information to be declared to the Department of Commerce or the Nuclear Regulatory Commission; and
+
+			(ii) If or when any current or former DoD contract activities and the activities to be declared to the Department of Commerce or the Nuclear Regulatory Commission have been or will be co-located or located near enough to one another to result in disclosure of the DoD activities during an IAEA inspection or visit; and
+
+		(3) Provide a copy of the notification to the Contracting Officer.
+
+	(b) After receipt of a notification submitted in accordance with paragraph (a) of this clause, the DoD Program Manager will-
+
+		(1) Conduct a security assessment to determine if and by what means access may be granted to the IAEA; or
+
+		(2) Provide written justification to the component or agency treaty office for a national security exclusion, in accordance with DoD Instruction 2060.03, Application of the National Security Exclusion to the Agreements Between the United States of America and the International Atomic Energy Agency for the Application of Safeguards in the United States of America.  DoD will notify the Contractor if a national security exclusion is applied at the Contractor's location to prohibit access by the IAEA.
+
+	(c) If the DoD Program Manager determines that a security assessment is required-
+
+		(1) DoD will, at a minimum-
+
+			(i) Notify the Contractor that DoD officials intend to conduct an assessment of vulnerabilities to IAEA inspections or visits;
+
+			(ii) Notify the Contractor of the time at which the assessment will be conducted, at least 30 days prior to the assessment;
+
+			(iii) Provide the Contractor with advance notice of the credentials of the DoD officials who will conduct the assessment; and
+
+			(iv) To the maximum extent practicable, conduct the assessment in a manner that does not impede or delay operations at the Contractor's facility; and
+
+		(2) The Contractor shall provide access to the site and shall cooperate with DoD officials in the assessment of vulnerabilities to IAEA inspections or visits.
+
+	(d) Following a security assessment of the Contractor's facility, DoD officials will notify the Contractor as to-
+
+		(1) Whether the Contractor's facility has any vulnerabilities where potentially declarable activities under the U.S.-IAEA AP are taking place;
+
+		(2) Whether additional security measures are needed; and
+
+		(3) Whether DoD will apply a national security exclusion.
+
+	(e) If DoD applies a national security exclusion, the Contractor shall not grant access to IAEA inspectors.
+
+	(f) If DoD does not apply a national security exclusion, the Contractor shall apply managed access to prevent disclosure of program activities, locations, or information in the U.S.  declaration.
+
+	(g) The Contractor shall not delay submission of any reports required by the Department of Commerce or the Nuclear Regulatory Commission while awaiting a DoD response to a notification provided in accordance with this clause.
+
+	(h) The Contractor shall incorporate the substance of this clause, including this paragraph (h), in all subcontracts that are subject to the provisions of the U.S.-IAEA AP.
+
+(End of clause)
+
+252.204-7014  Limitations on the Use or Disclosure of Information by Litigation Support Contractors.
+As prescribed in 204.7403(a), insert the following clause:
+
+Limitations on the Use or Disclosure of Information by Litigation Support Contractors (JAN 2023)
+
+	(a) Definitions.  As used in this clause-
+
+	Computer software means computer programs, source code, source code listings, object code listings, design details, algorithms, processes, flow charts, formulae, and related material that would enable the software to be reproduced, recreated, or recompiled.  Computer software does not include computer data bases or computer software documentation.
+
+	Litigation information means any information, including sensitive information, that is furnished to the contractor by or on behalf of the Government, or that is generated or obtained by the contractor in the performance of litigation support under a contract.  The term does not include information that is lawfully, publicly available without restriction, including information contained in a publicly available solicitation.
+
+	Litigation support means administrative, technical, or professional services provided in support of the Government during or in anticipation of litigation.
+
+	Litigation support contractor means a contractor (including its experts, technical consultants, subcontractors, and suppliers) providing litigation support under a contract that contains this clause.
+
+	Sensitive information means controlled unclassified information of a commercial, financial, proprietary, or privileged nature.  The term includes technical data and computer software, but does not include information that is lawfully, publicly available without restriction.
+
+	Technical data means recorded information, regardless of the form or method of the recording, of a scientific or technical nature (including computer software documentation).  The term does not include computer software or data incidental to contract administration, such as financial and/or management information.
+
+	(b) Limitations on use or disclosure of litigation information.  Notwithstanding any other provision of this contract, the Contractor shall-
+
+		(1) Access and use litigation information only for the purpose of providing litigation support under this contract;
+
+		(2) Not disclose litigation information to any entity outside the Contractor's organization unless, prior to such disclosure the Contracting Officer has provided written consent to such disclosure;
+
+		(3) Take all precautions necessary to prevent unauthorized disclosure of litigation information;
+
+		(4) Not use litigation information to compete against a third party for Government or nongovernment contracts; and
+
+		(5) Upon completion of the authorized litigation support activities, destroy or return to the Government at the request of the Contracting Officer all litigation information in its possession.
+
+	(c) Violation of paragraph (b)(1),(b)(2), (b)(3), (b)(4), or (b)(5) of this clause is a basis for the Government to terminate this contract.
+
+	(d) Indemnification and creation of third party beneficiary rights.  The Contractor agrees-
+
+		(1) To indemnify and hold harmless the Government, its agents, and employees from any claim or liability, including attorneys' fees, court costs, and expenses, arising out of, or in any way related to, the misuse or unauthorized modification, reproduction, release, performance, display, or disclosure of any litigation information; and
+
+		(2) That any third party holding proprietary rights or any other legally protectable interest in any litigation information, in addition to any other rights it may have, is a third party beneficiary under this contract who shall have a right of direct action against the Contractor, and against any person to whom the Contractor has released or disclosed such litigation information, for any such unauthorized use or disclosure of such information.
+
+	(e) Contractor employees.  The Contractor shall ensure that its employees are subject to use and nondisclosure obligations consistent with this clause prior to the employees being provided access to or use of any litigation information covered by this clause.
+
+	(f) Subcontracts.  Include the substance of this clause, including this paragraph (f), in all subcontracts, including subcontracts for commercial products or commercial services.
+
+(End of clause)
+
+252.204-7015  Notice of Authorized Disclosure of Information for Litigation Support.
+As prescribed in 204.7403(b), insert the following clause:
+
+Notice of Authorized Disclosure of Information for Litigation Support (JAN 2023)
+
+	(a) Definitions.  As used in this clause-
+
+	Computer software means computer programs, source code, source code listings, object code listings, design details, algorithms, processes, flow charts, formulae, and related material that would enable the software to be reproduced, recreated, or recompiled.  Computer software does not include computer data bases or computer software documentation.
+
+	Litigation support means administrative, technical, or professional services provided in support of the Government during or in anticipation of litigation.
+
+	Litigation support contractor means a contractor (including its experts, technical consultants, subcontractors, and suppliers) providing litigation support under a contract that contains the clause at 252.204-7014, Limitations on the Use or Disclosure of Information by Litigation Support Contractors.
+
+	Sensitive information means controlled unclassified information of a commercial, financial, proprietary, or privileged nature.  The term includes technical data and computer software, but does not include information that is lawfully, publicly available without restriction.
+
+	Technical data means recorded information, regardless of the form or method of the recording, of a scientific or technical nature (including computer software documentation).  The term does not include computer software or data incidental to contract administration, such as financial and/or management information.
+
+	(b) Notice of authorized disclosures Notwithstanding any other provision of this solicitation or contract, the Government may disclose to a litigation support contractor, for the sole purpose of litigation support activities, any information, including sensitive information, received-
+
+		(1) Within or in connection with a quotation or offer; or
+
+		(2) In the performance of or in connection with a contract.
+
+	(c) Subcontracts.  Include the substance of this clause, including this paragraph (c), in all subcontracts, including subcontracts for commercial products or commercial services.
+
+(End of clause)
+
+252.204-7022  Expediting Contract Closeout.
+As prescribed in 204.308-70, insert the following clause:
+
+Expediting Contract Closeout 
+
+	(a) At the conclusion of all applicable closeout requirements of Federal Acquisition Regulation 4.308, the Government and Contractor shall mutually agree on the residual dollar amount remaining on the contract.  Both the Government and Contractor agree to waive payment of any residual dollar amount of $1,000 or less to which either party may be entitled at the time of contract closeout.
+
+	(b) A residual dollar amount includes all money owed to either party at the end of the contract and as a result of the contract, excluding amounts connected in any way with taxation or a violation of law or regulation.
+
+	(c) For purposes of determining residual dollar amounts, offsets (e.g., across multiple contracts or orders) may be considered only to the extent permitted by law.
+
+(End of clause)
+
+252.204-7023  Reporting Requirements for Contracted Services.
+Basic.  As prescribed in 204.208-71(a)(1) and (2), insert the following clause:
+
+Reporting Requirements for Contracted Services-Basic (Jul 2021)
+
+	(a) Definition.  As used in this clause-
+
+	First-tier subcontract means a subcontract awarded directly by the contractor for the purpose of acquiring services for performance of a prime contract.  It does not include the contractor's supplier agreements with vendors, such as long-term arrangements for materials or supplies or services that benefit multiple contracts and/or the costs of which are normally applied to a contractor's general and administrative expenses or indirect costs.
+
+	(b) The Contractor shall report annually, by October 31, at https://www.sam.gov, on the services performed under this contract or order, including any first-tier subcontracts, during the preceding Government fiscal year (October 1-September 30).
+
+	(c) The Contractor shall report the following information for the contract or order:
+
+		(1) The total dollar amount invoiced for services performed during the preceding Government fiscal year under the contract or order.
+
+		(2) The number of Contractor direct labor hours, to include first-tier subcontractor direct labor hours, as applicable, expended on the services performed under the contract or order during the previous Government fiscal year.
+
+	(d) The Government will review the Contractor's reported information for reasonableness and consistency with available contract information.  In the event the Government believes that revisions to the Contractor's reported information are warranted, the Government will notify the Contractor.  Upon notification, the Contractor shall revise the reported information or provide the Government with a supporting rationale for the information.
+
+(End of clause)
+
+Alternate I, Reporting Requirements for Contracted Services  
+As prescribed in 204.208-71(a)(3), use the following clause, which substitutes "contract or agreement for each order" in lieu of "contract or order" in paragraph (b) and "order" in lieu of "contract or order" in paragraphs (c) and (c)(1) and (2), and identifies the dollar threshold and service acquisition portfolio groups for which orders under the contract or agreement require service contract reporting.
+
+Reporting Requirements for Contracted Services-Alternate I (Jul 2021)
+
+	(a) Definition.  As used in this clause-
+
+	First-tier subcontract means a subcontract awarded directly by the contractor for the purpose of acquiring services for performance of a prime contract.  It does not include the contractor's supplier agreements with vendors, such as long-term arrangements for materials or supplies or services that benefit multiple contracts and/or the costs of which are normally applied to a contractor's general and administrative expenses or indirect costs.
+
+	(b) The contractor shall report annually, by October 31, at https://www.sam.gov, on services performed during the preceding Government fiscal year (October 1-September 30) under this contract or agreement for each order, including any first-tier subcontract, which exceeds $3 million for services in the following service acquisition portfolio groups:
+
+		(1) Logistics management services.
+
+		(2) Equipment-related services.
+
+		(3) Knowledge-based services.
+
+		(4) Electronics and communications services.
+
+	(c) The Contractor shall report the following information for the order:
+
+		(1) The total dollar amount invoiced for services performed during the preceding Government fiscal year under the order.
+
+		(2) The number of Contractor direct labor hours, to include first-tier subcontractor direct labor hours, as applicable, expended on the services performed under the order during the previous Government fiscal year.
+
+	(d) The Government will review the Contractor's reported information for reasonableness and consistency with available contract information.  In the event the Government believes that revisions to the Contractor's reported information are warranted, the Government will notify the Contractor.  Upon notification, the Contractor shall revise the reported information or provide the Government with a supporting rationale for the information.
+
+(End of clause)
+
+252.204-7024  Notice on the Use of the Supplier Performance Risk System.
+As prescribed in 204.7604, insert the following provision:
+
+Notice on the Use of the Supplier Performance Risk System
+
+	(a) Definitions.  As used in this provision-
+
+	Item risk means the probability that a product, based on intended use, will introduce performance risk resulting in safety issues, mission degradation, or monetary loss.
+
+	Price risk means a measure of whether a proposed price for a product or service is consistent with historical prices paid for that item or service.
+
+	Supplier risk means the probability that an award may subject the procurement to the risk of unsuccessful performance or to supply chain risk (see Defense Federal Acquisition Regulation Supplement 240).
+
+	(b) The Supplier Performance Risk System (SPRS), available at https://piee.eb.mil/, will be used in the evaluation of the Quoter or Offeror's performance.  SPRS retrieves item, price, quality, delivery, and contractor information on contracts from Government reporting systems in order to develop risk assessments.
+
+	(c) The Contracting Officer will consider SPRS risk assessments during the evaluation of quotations or offers received in response to this solicitation as follows:
+
+		(1) Item risk will be considered to determine whether the procurement represents a high performance risk to the Government.
+
+		(2) Price risk will be considered in determining if a proposed price is consistent with historical prices paid for a product or a service or otherwise creates a risk to the Government.
+
+		(3) Supplier risk, including but not limited to quality and delivery, will be considered to assess the risk of unsuccessful performance and supply chain risk.
+
+	(d) SPRS risk assessments are generated daily.  Quoters or Offerors are able to access their risk assessments by following the access instructions in the SPRS user's guide available at https://www.sprs.csd.disa.mil/reference.htm.  Quoters and Offerors are granted access to SPRS for their own risk assessment classifications only.  SPRS reporting procedures and risk assessment methodology are detailed in the SPRS user's guide.  The method to challenge a rating generated by SPRS is also provided in the user's guide.  SPRS evaluation criteria are available at https://www.sprs.csd.disa.mil/pdf/SPRS_DataEvaluationCriteria.pdf.
+
+	(e) The Contracting Officer may consider any other available and relevant information when evaluating a quotation or an offer.
+
+(End of provision)
+
+Attachment A1
+DARS Tracking Number: 2026-O0043
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 4
+Defense FAR Supplement (DFARS) Part 204
+
+
+Page 10 of 38
+

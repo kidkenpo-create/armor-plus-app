@@ -1,0 +1,267 @@
+PGI Part 245-GOVERNMENT PROPERTY
+
+PGI 245.1-GENERAL
+
+PGI 245.102-70  Policy.
+
+	(1)  A basic principle of the Federal Acquisition Regulations System is that, upon contract award, contractors bring all the necessary organization, experience, accounting and operational controls, property, and technical skills, or the ability to obtain them (reference FAR 9.104-1 (e), (f), and (g) of General Standards).  Therefore, upon contract award, responsible contractors should have the means to provide effective and efficient stewardship of Government property.
+      
+	(2)  Government property, as defined at FAR 45.101, must be contractually accountable to a single contract and only one contract at a time.  This requirement applies to both Government-furnished property and contractor-acquired property.  Although accountable to only one contract at a time, contract terms and conditions may allow Government property to be used on other contracts (see FAR 52.245-9, Use and Charges).
+      
+PGI 245.103  General.
+
+PGI 245.103-70  Furnishing Government property to contractors.
+
+	(1)  The requiring activity (project or program manager, or purchase request generator), as part of its responsibility for acquisition planning (FAR part 7, Acquisition Planning), is the decision point as to whether or not to furnish property to contractors. The basis for any decision to provide Government property must be documented by the requiring activity and provided to the contracting officer.  Such documentation is not required when contractors are furnished property for repair, modification, or overhaul under a contract.
+      
+	(2)  Prior to furnishing Government property to the contractor, the contracting officer must ensure that each of the requirements of FAR 45.102 are addressed as follows, and documented in the contracting file-
+      
+		(i)  Element 1: In the Government's best interest.  Discussion should be specific, factual, and where necessary, address actual or projected dollars and percentages.  Merely selecting one or two objectives supported by a general, perfunctory discussion does not address this element satisfactorily.  Discussion should address the following factors:
+         
+			(A)  Economy - Furnishing Government property is the lowest cost or price alternative.
+            
+			(B)  Standardization - There is a critical need for precise replication.
+            
+			(C)  Security - Government property is needed due to national security issues/concerns.
+            
+			(D)  Expedite production - Government property is crucial to achieving timely or accelerated delivery of a supply item or service.
+            
+			(E)  Scarcity - The Government can obtain scarce items or is the only source of property necessary for successful execution of a contract.
+            
+			(F)  Maintain the industrial base - Government property is needed to ensure future capability to obtain a particular supply item or service.
+            
+			(G)  Contract type - Government property will enable the Government to obtain a more favorable contract type.
+            
+				(ii)  Element 2: Overall benefit.  Demonstrate that the overall benefit to the acquisition significantly outweighs the increased cost of administration, including property disposal.
+         
+					(A)  Property in the hands of contractors drives program costs.  Therefore, in order to make the case that providing Government property to the contractor is worthwhile, the associated costs must be considered and the business decision justified. The costs of Government property removal and disposal, including demilitarization and disposal of environmentally-regulated property, must be included.
+            
+					(B)  Costs must be either less than what the contractor might otherwise incur, or the demonstrated benefit to the Government must outweigh these additional contract costs.
+            
+		(iii)  Element 3: Government assumption of risk.  Demonstrate that providing the property does not substantially increase the Government's risk.
+         
+			(A)  Risk must be discussed and documented.  A risk analysis is warranted to demonstrate that the Government is not substantially increasing its risk.  For example, when furnishing Government property, the Government is ordinarily responsible for suitability of use, timely delivery, and replacement of defective Government property.
+            
+			(B)  Other risks may need to be considered, discussed, and documented.
+            
+		(iv)  Element 4:  Government requirements cannot otherwise be met.  Document why the furnishing of Government property is critical and significant to meeting acquisition plan objectives.
+         
+PGI 245.103-71  Transferring Government property accountability.
+
+	(1)  Use only the Standard Form 30 to execute transfers of Government property accountability between existing contracts.  No other forms or documents, such as the DD Form 1149, Requisition and Invoice/Shipping Document, are authorized for the transfer of Government property accountability from one contract to another.
+      
+	(2)  Modifications for the transfer of Government property accountability must:
+      
+		(i)  Use the Government-furnished property (GFP) attachment prescribed at PGI 245.103-72.
+         
+		(ii)  Incorporate FAR clauses 52.245-1, Government Property, and 52.245-9, Use and Charges, and the associated DFARS clauses (see 245.107, Contract clauses) to the extent that the gaining contract lacks the required clauses.
+         
+PGI 245.103-72  Government-furnished property attachments to solicitations and awards.
+
+	(a)  When Government-furnished property (GFP) is anticipated, create the GFP attachment in the GFP module of the Procurement Integrated Enterprise Environment (PIEE) at https://piee.eb.mil/piee-landing to-
+   
+		(1)  Specify the required GFP data elements; and
+      
+		(2)  Identify GFP serially-managed items, GFP nonserially-managed items, and GFP items that may be requisitioned from the DoD supply system by the contractor; and
+      
+		(3)  Accomplish the electronic transmission of the GFP attachment to the contract in the Electronic Data Access application in the PIEE.
+      
+		(4)  Where the GFP attachment is classified, the PIEE GFP Module must not be used, but a property attachment with similar data is required for the contract.
+
+	(b)  Classified contracts are not exempt from including GFP attachments solely because the contracts are classified.
+
+	(c)  For more information on the GFP attachments, see https://dodprocurementtoolbox.com/site-pages/gfp-attachments.
+   
+PGI 245.103-73  Government property under sustainment contracts.
+
+	(1)  Sustainment contracts, including those for performance-based logistics, sustainment support, contractor logistics support, life-cycle product support, contractor inventory control points, and weapon systems product support (see 10 U.S.C. 4324(d)), may require the contractor to hold or manage Government inventory.  In such cases, regularly scheduled (typically, semiannually) inventory reporting from the contractor is required to ensure that inventory levels meet program requirements and Government inventory in excess of authorized amounts is identified. The requiring activity is responsible for providing the contracting officer with reporting requirements for Government inventory.  See the Data Item Description DI-PSSS-80727A, Government Furnished Material (GFM) by National Stock Number, and the instructions for completing the DD Form 1423 Contract Data Requirements List (CDRL) for inventory reporting requirements on sustainment contracts available at http://dodprocurementtoolbox.com/site-pages/gfp-resources.
+      
+	(2)  During acquisition planning, pricing contracts, exercising options, and assessing past performance, contracting officers should review the requiring activity's assessment of the information generated by the inventory reporting requirements.
+      
+	(3)  In some circumstances, under fixed-price sustainment contracts, contract deliverables consist of non-hardware items, such as operational readiness rate goals or mean time between failures of a system.  In order to meet these deliverables, contractors are required to provide certain property items to the Government. In such cases, the contract does not include specific delivery line items requiring formal delivery of the property.  By extension, the Government will not have title to the property at the time the contractor provides the property.  Not separately priced line items must be included in the contract for the delivery of items in accordance with FAR 4.1003.  Tables of unit acquisition prices may be included in the contract to use as the unit price on the receiving report.
+      
+PGI 245.103-74  Contracting office responsibilities.
+
+	(1)  Prepare the GFP attachments in accordance with the procedures in PGI 245.103 -72.
+      
+	(2)  The following require a contract modification and an update to the GFP attachment in the GFP module of the PIEE to create a consolidated, conformed list of property to be contractually provided under the contract.
+      
+		(i)  Any change to the mandatory fields of the GFP attachment (see PGI 245.103-72).
+         
+		(ii)  Addition or deletion of any GFP or anticipated GFP under the contract.
+		
+		(iii)  Transfer of GFP accountability between existing contracts (see PGI 245.103-71).
+         
+		(iv)  Delivery and Government acceptance of contractor-acquired property when retained by the contractor for use under a contract (see PGI 245.402-71).
+         
+		(v)  Substitution of GFP for previously furnished GFP, GFP to be furnished, or property to be acquired by the contractor for the Government under the contract.
+         
+		(vi)  Withdrawal of authority for contractor use of GFP.
+         
+	(3)  Include in applicable solicitations and contracts the CDRL provided by the requiring activity for reporting Government inventory held under sustainment contracts (see PGI 245.103-73 ).
+      
+PGI 245.105  Contractors property management system compliance.
+
+	(d)  Disposition of findings.
+   
+		(2)  Initial determination.
+      
+			(ii)(A)  Within 30 days of receiving the report, if the contracting officer makes a determination that there is a material weakness, the contracting officer should provide an initial determination of material weaknesses and a copy of the report to the contractor and require the contractor to submit a written response.
+         
+				(C)  Evaluation of contractor's response.  Within 30 days of receiving the contractor's response, the contracting officer, in consultation with the auditor or cognizant functional specialist, should evaluate the contractor's response and make a final determination.
+            
+		(3)  Final determination.
+      
+			(ii)(A)  Monitoring contractor's corrective action.  The contracting officer, with the assistance of the auditor, will monitor the contractor's progress in correcting material weaknesses and deficiencies.  If the contractor fails to make adequate progress, the contracting officer will take whatever action is necessary to ensure that the contractor corrects the weaknesses and deficiencies.  Actions the contracting officer may take include: withdrawing or withholding approval of the system; bringing the issue to the attention of higher level management; http://www.acq.osd.mi/dpap/dars/dfars/html/current/252242.htm#252.242-7005 recommending non-award of potential contracts, as applicable; and for material weaknesses, implementing or increasing the withholding in accordance with 252.242-7005, Contractor Business Systems.
+         
+				(B)  Correction of material weaknesses.
+            
+					(1)  When the contractor notifies the contracting officer that the contractor has corrected the material weaknesses, the contracting officer will request that the auditor review the correction to determine if the weaknesses and deficiencies have been resolved.
+               
+					(2)  The contracting officer will determine if the contractor has corrected the weaknesses and deficiencies.
+               
+					(3)  If the contracting officer determines the contractor has corrected the weaknesses and deficiencies, send the contracting officer's notification to the auditor; payment office; appropriate action officers responsible for reporting past performance at the requiring activities; and each contracting and contract administration office having substantial business with the contractor as applicable.
+               
+	(e)  The Procurement Integrated Enterprise Environment (PIEE) application Contractor Property Administration Management (CPAM) must be used for scheduling and managing contractor property management system reviews.  Training on CPAM can be found at CPAM Training - Introduction | PIEE.
+      
+PGI 245.4-TITLE TO GOVERNMENT PROPERTY
+
+PGI 245.402  Title to contractor-acquired property.
+
+PGI 245.402-70  Policy.
+Title vests in the Government for all property acquired or fabricated by the contractor in accordance with paragraph (e)(3) of the clause at FAR 52.245-1, Government Property.  Oversight and visibility of contractor-acquired property (CAP) is accomplished through reviews and audits of contractor business systems, including-
+
+	(1)  Accounting systems (see DFARS 242.75);
+      
+	(2)  Property management systems (see DFARS 245.105); and
+      
+	(3)  Material management and accounting systems (see DFARS 242.72).
+      
+PGI 245.402-71  Delivery of contractor-acquired property.
+
+	(1)  A line item is required for the delivery of CAP.  This includes property delivered to the Government as part of a sustainment contract or similar arrangement where the Government is contracting for a level of performance which will require the contractor to deliver items in support of that performance.
+      
+	(2)  The contractual transfer of accountability of CAP from one contract to another is prohibited.  Only upon delivery under a line item can property be transferred to other contracts as Government-furnished property (GFP) (see PGI 245.103-71 ).
+      
+	(3)  Upon delivery and acceptance by the Government, and when retained by the contractor for use under a contract, the delivered CAP items become GFP and must be added to the contract GFP attachment (see PGI 245.103-72 ).
+      
+	(4)  Contractor-acquired property not anticipated at time of contract award.
+
+		(i)  For CAP not anticipated at the time of contract award, or not otherwise specified for delivery on an existing line item, the contracting officer will direct delivery of the CAP items to the Government on a not separately priced (NSP) line item (e.g. contract line item, exhibit line item, etc.).  Such items are typically identified through-
+            		
+			(A)  Plant clearance in accordance with the clause at DFARS 252.245-7005, Management and Reporting of Government Property.
+            
+			(B)  Inventory reports provided by the contractor in accordance with FAR clause 52.245-1; or
+            
+			(C)  Other reporting requirements, such as CDRLs, specified in the contract.
+            
+		(ii)  The contracting officer will direct delivery of CAP on a line item as soon as the CAP item is identified, if-
+         
+			(A)  The value of the item meets or exceeds the capitalization threshold as identified in the memorandum issued jointly by the Under Secretary of Defense (USD) Comptroller and the USD (Acquisition and Sustainment) on 20 September 2013, entitled, "Elimination of Military Equipment Definition and Increase to Capitalization Thresholds for General Property, Plant and Equipment" (available at http://www.acq.osd.mil/pepolicy/pdfs/FinancialReportingGPPEMemo.pdf) or;
+            
+			(B)  The item is special tooling, special test equipment, or equipment designated for preservation and storage under a major defense acquisition program (reference: Section 815 of the National Defense Authorization Act for Fiscal Year 2009 (Pub. L. 110-417)).
+            
+		(iii)  Each NSP line item of CAP to be delivered to the Government must include the following information:
+
+			(A)  Line Item Number
+
+			(B)  Item Description
+
+			(C)  Either a National Stock Number, manufacturers CAGE and       
+         Part Number, or a Model Number
+		
+			(D)  Quantity
+
+			(E)  Unit of Measure
+
+			(F)  Date placed in Service by the Contractor
+
+PGI 245.602-1 Inventory Disposal Schedules
+
+For termination inventory, plant clearance officers must verify inventory schedules, either directly or through appropriate technical personnel, to determine the following:
+
+	(a)  Allocability.
+   
+		(1)  Review contract requirements, delivery schedules, bills of material, and other pertinent documents to determine whether schedules include property that-
+      
+			(i)  Is appropriate for use on the contract; or
+         
+			(ii)  Exceeds the quantity required for completion of the contract, but could be diverted to other commercial work or Government use.
+         
+		(2)  Review the contractor's-
+      
+			(i)  Recent purchases of similar material;
+         
+			(ii)  Plans for current and scheduled production;
+         
+			(iii)  Stock record entries; and
+         
+			(iv)  Bills of material for similar items.
+         
+	(b)  Quantity.  Take measures to provide assurance that available inventory is in accordance with quantities listed on the inventory schedules.  Quantities may be verified by actual item count, acceptance of labeled quantities in unopened/sealed packages, scale counts, or other appropriate methods.
+   
+	(c)  Condition.  Ensure that the physical condition of the property is reasonably consistent with the Federal Condition Code supplied by the contractor.
+
+
+
+PGI  245.604  Sale of surplus personal property.
+When selling surplus personal property, plant clearance officers are required to follow the following procedures.
+
+	(a)  Best value sales approach.  Plant clearance officers must determine a best value sales approach, considering  costs, risks, and benefits, e.g., potential sales proceeds.
+
+	(b)  Invitation for bid procedures.  The plant clearance officer may direct the contractor to issue informal invitations for bid (orally, telephonically, or by other informal media), provided-
+
+		(1)  Maximum practical competition is obtained;
+
+		(2)  Sources solicited are recorded; and
+
+		(3)  Informal bids are confirmed in writing.
+
+	(c)  Sale approval and award.  Plant clearance officers must-
+
+		(1)  Evaluate bids to establish that the sale price is fair and reasonable, taking into consideration-
+
+			(i)  Knowledge or tests of the market;
+
+			(ii)  Current published prices for the property;
+
+			(iii)  The nature, condition, quantity, and location of the property; and
+
+			(iv)  Past sale history for like or similar items;
+
+		(2)  Approve award to the responsible bidder whose bid is most advantageous to the Government.  The plant clearance officer must not approve award to any bidder who is an ineligible transferee, as defined in 252.245-7005, Management and Reporting of Government Property; and
+
+		(3)  Notify the contractor of the bidder to whom an award will be made within 5 business days from receipt of bids.
+
+	(d)  Negotiated sales.
+
+		(1)  Negotiated sales include purchases or retention at less than cost by the contractor.  Negotiated sales are authorized when-
+
+			(i)  The plant clearance officer determines that this method is essential to expeditious plant clearance; and
+
+			(ii)   The Government's interests are adequately protected.
+
+		(2)  Negotiated sales must be at fair and reasonable prices, not less than those reasonably expected under competitive sales.
+
+		(3)   Conditions justifying negotiated sales are-
+
+			(i)  No acceptable bids are received under competitive sale;
+
+			(ii)  Anticipated sales proceeds do not warrant competitive sale;
+
+			(iii)  Specialized nature of the property would not create bidder interest;
+
+			(iv)  Removal of the property would reduce its value or result in disproportionate handling expenses; or
+
+			(v)  Such action is essential to the Government's interests.
+
+	(e)  Plant clearance officers must consider any special disposal requirements such as demilitarization or trade security control requirements in accordance with DoDM 4160.28-M, Defense Demilitarization Manual, and DoDI 2030.08, Implementation of Trade Security Controls (TSCs) for Transfers of DoD Personal Property to Parties Outside DoD Control, respectively.
+Attachment A2
+DARS Tracking Number: 2026-O0046
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 45
+Defense FAR Supplement (DFARS) Part 245
+
+
+Page 1 of 9
+
+

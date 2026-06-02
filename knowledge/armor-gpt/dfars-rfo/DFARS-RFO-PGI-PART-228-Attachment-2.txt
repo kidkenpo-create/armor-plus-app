@@ -1,0 +1,114 @@
+PGI 228-BONDS AND INSURANCE
+
+PGI 228.3--INSURANCE
+
+PGI 228.304  Risk-pooling arrangements.
+
+	(1)  The plan-
+
+		(i)  Is implemented by attaching an endorsement to standard insurance policy forms for workers' compensation, employer's liability, comprehensive general, and automobile liability.  The endorsement states that the instant policy is subject to the National Defense Projects Rating Plan.
+
+		(ii)  Applies to eligible defense projects of one or more departments/agencies.  For purposes of this section, a defense project is any eligible contract or group of contracts with the same contractor.
+
+			(A)  A defense project is eligible when-
+
+				(1)  Eligible contracts represent, at the inception of the plan, at least 90 percent of the payroll for the total operations at project locations; and
+
+				(2)  The annual insurance premium is estimated to be at least $10,000.
+
+			(B)  A contract is eligible when it is-
+
+				(1)  Either domestic or foreign;
+
+				(2)  Cost-reimbursement type; or
+
+				(3)  Fixed price with redetermination provisions.
+
+	(2)  Under construction contracts, include construction subcontractors in the prime contractor's plan only when subcontractor operations are at the project site, and the subcontract provides that the prime contractor will furnish insurance.
+
+	(3)  Use the agreement in Table 28-1, Insurance Rating Plan Agreement, when the Government assumes contractor premium payments upon contract termination or completion.
+
+	(4)  The Federal Tort Claims Act provides protection for Government employees while driving Government-owned vehicles in the performance of their assigned duties.  Include the endorsement in Table 28-2, Automobile Insurance Policy Endorsement, in automobile liability insurance policies provided under the National Defense Projects Rating Plan.
+
+TABLE 28-1, INSURANCE RATING PLAN RATING AGREEMENTSpecial Casualty Insurance Rating Plan
+Assignment-Assumption of Premium Obligations	It is agreed that 100 percent* of the return premiums and premium refunds (and dividends) due or to become due the prime contractor under the policies to which the National Defense Projects Rating Plan Endorsement made a part of policy __________________ applies are hereby assigned to and shall be paid to the United States of America, and the prime contractor directs the Company to make such payments to the office designated for contract administration acting for and on account of the United States of America.	The United States of America hereby assumes and agrees to fulfill all present and future obligations of the prime contractor with respect to the payment of 100 percent* of the premiums under said policies.	This agreement, upon acceptance by the prime contractor, the United States of America, and the Company shall be effective from _____________________________Accepted_______________________ (Date)_______________________ (Name of Insurance Company)By _____________________(Title of Official Signing)Accepted_______________________ (Date)United States of AmericaBy ____________________ (Authorized Representative)Accepted_______________________ (Date)_______________________ (Prime Contractor)By ____________________ (Authorized Representative)*In the event the Government has less than a 100 percent interest in premium funds or dividends, modify the assignment to reflect the percentage of interest and extent of the Government's assumption of additional premium obligation.
+
+TABLE 28-2, AUTOMOBILE INSURANCE POLICY ENDORSEMENT	It is agreed that insurance provided by the policy with respect to the ownership, maintenance, or use of automobiles, including loading and unloading thereof, does not apply to the following as insureds:  The United States of America, any of its agencies, or any of its officers or employees.
+
+PGI 228.305  Overseas workers' compensation and war-hazard insurance.
+
+	(d)  Submit requests for waiver through department/agency channels.  Include the following in the request:
+
+		(i)  Name and address of contractor.
+
+		(ii)  Contract number.
+
+		(iii)  Date of award.
+
+		(iv)  Place of performance.
+
+		(v)  Name of insurance company providing Defense Base Act coverage.
+
+		(vi)  Nationality of employees to whom waiver is to apply.
+
+		(vii)  Reason for waiver.
+
+PGI 228.370  Ground and flight risk.
+
+PGI 228.370-2  General.
+
+	(a)  Assignment of a Government flight representative.  DFARS 252.228-7001, Ground and Flight Risk, requires the assignment of a Government flight representative 
+(GFR) to administer the requirements of the combined instruction Contractor's Flight and Ground Operations, (DCMA INST 8210-1 AFI 10-220, AR 95-20, NAVAIRINST 3710.1 (Series), and COMDTINST M13020.3).  At the time the solicitation is issued, contracting officers must contact DCMA Aircraft Operations (AO) and the appropriate 
+military service to obtain technical advice and allow adequate lead time for assigning a 
+GFR.  Make requests for assignment of a GFR to-
+
+HQ DCMA: DCMA-AO
+6090 Strathmore Rd
+Building 54
+Richmond, VA 23237
+804-608-6800
+Email:  dcma.lee.hq.mbx.ao-inbox@mail.mil (include "Ground and Flight Risk Clause" on the subject line)
+
+Army:  HQ, Army Materiel Command
+ATTN: AMPE-SF
+4400 Martin Road
+Redstone Arsenal, AL  35898
+520-691-0040
+
+Navy:  Commander, Naval Air Systems Command (AIR-09F)
+22541 Millstone Road, Unit 10
+Patuxent River, MD 20670-1601
+301- 342-7233
+
+Air Force:  HQ AFMC/A3V
+508 W. Choctawhatchee
+Eglin AFB, FL 32542-5713
+850- 882-7890
+Workflow:  afmc.a3v@us.af.mil
+
+Coast Guard:  Commanding Officer
+Aviation Logistics Center
+U.S. Coast Guard
+1664 Weeksville Road, Building 63
+Elizabeth City, NC 27909-6725
+
+	(c)  Foreign military sales.  The Government self-insures through the use of the clause at 252.228-7001, which requires risk-mitigation procedures in lieu of private-sector, commercially-available hull insurance to cover the physical aircraft from damage or destruction, similar to the comprehensive portion of automobile insurance.  It does not address personnel liability.  For contracts falling under the exceptions at DFARS 228.371(b)(1)(iii), (iv), and (vi), review the commercial insurance policy to determine what coverage exists on the contract aircraft.  Commercial hull insurance policies may contain various coverage exclusions, particularly for Government-furnished aircraft, which may mean the Government is at risk without the risk management safeguards provided through the Combined Instruction.
+
+	(f)  Damage to Government aircraft.  Whenever damage to Government aircraft is reported, particularly when the cost of repair exceeds the contractor's share of loss provisions, the contracting officer must make a proper liability determination.  For most situations, determining whether an incident is an accident or mishap, or a workmanship error can be made based on intent of the employee(s) involved.  Although each incident involving damage should be evaluated on its own merits, use the following general rules and examples when determining if an incident constitutes an accident or mishap (damage normally covered under the clause at 252.228-7001) or a workmanship error (damage not normally covered under the clause at 252.228-7001).
+
+		(1)  An accident or mishap is the result of a task, operation, or action that was not originally planned or intended.  For example, a mechanic was pushing a stand next to the aircraft and scratches the inlet coating.  The intent of the task was to move the stand, not to scratch the coating.  This would be considered accident or mishap damage to the aircraft, and a contractor should expect to be reimbursed under the clause at 252.228-7001 (minus the appropriate contractor share of loss).
+
+		(2)(i)  A workmanship error consists of damage that is the result of an incorrectly performed skill-based task, operation, or action that was originally planned or intended, but the end result was not within allowable limits.  For example, a mechanic was scraping coating off an inlet and removed too much material.  The intent of the task was to scrape the inlet coating, but too much was removed.  This would not be considered aircraft damage reimbursed under the clause at 252.228-7001.
+
+			(ii)  Missing a step in a procedure or checklist item is not considered a skill-based error and therefore is not considered workmanship error damage.
+
+
+Attachment A2
+DARS Tracking Number: 2026-O0005
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 28
+Defense FAR Supplement (DFARS) Part 228
+
+
+Page 2 of 2
+
+

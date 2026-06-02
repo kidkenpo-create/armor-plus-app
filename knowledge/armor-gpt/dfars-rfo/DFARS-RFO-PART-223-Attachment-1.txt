@@ -1,0 +1,544 @@
+
+PART 223-SUSTAINABLE ACQUISITION, MATERIAL SAFETY, AND POLLUTION PREVENTION
+
+SUBPART 223.1-SUSTAINABLE PRODUCTS
+
+223.107 Agency Programs.
+
+	(a)(i) When procuring, or specifying the use of, EPA-designated items that contain recovered material, follow the procedures at PGI 223.107-1(a)(i).
+
+223.170 Products that contain, use, or are manufactured with ozone-depleting substances or products that contain or use high global warming potential hydrofluorocarbons.
+
+No DoD contract may include a specification or standard that requires the use of a class I ozone-depleting substance or that can be met only through the use of such a substance unless the inclusion of the specification or standard is specifically authorized at a level no lower than a general or flag officer or a member of the Senior Executive Service of the requiring activity in accordance with section 326, Public Law 102-484 (10 U.S.C. 3201 note prec.). This restriction is in addition to any imposed by the Clean Air Act and applies after June 1, 1993, to all DoD contracts, regardless of place of performance.
+
+SUBPART 223.3-MATERIAL SAFETY
+
+223.302 Hazardous material identification and safety data.
+
+	(e) Provide hazard warning labels, received from apparent successful offerors, to the cognizant safety officer.
+
+223.304 Contract clauses.
+
+Use the clause at 252.223-7001, Hazard Warning Labels, in solicitations and contracts which require submission of hazardous material data sheets (see FAR 23.302(c)).
+
+223.370 Safety precautions for ammunition and explosives.
+
+223.370-1 Scope.
+
+	(a) This section applies to all acquisitions involving the use of ammunition and explosives, including acquisitions for-
+
+		(1) Development;
+
+		(2) Testing;
+
+		(3) Research;
+
+		(4) Manufacturing;
+
+		(5) Handling or loading;
+
+		(6) Assembling;
+
+		(7) Packaging;
+
+		(8) Storage;
+
+		(9) Transportation;
+
+		(10) Renovation;
+
+		(11) Demilitarization;
+
+		(12) Modification;
+
+		(13) Repair;
+
+		(14) Disposal;
+
+		(15) Inspection; or
+
+		(16) Any other use, including acquisitions requiring the use or the incorporation of materials listed in paragraph (b) of this subsection for initiation, propulsion, or detonation as an integral or component part of an explosive, an ammunition, or explosive end item or weapon system.
+
+	(b) This section does not apply to acquisitions solely for-
+
+		(1) Inert components containing no explosives, propellants, or pyrotechnics;
+
+		(2) Flammable liquids;
+
+		(3) Acids;
+
+		(4) Oxidizers;
+
+		(5) Powdered metals; or
+
+		(6) Other materials having fire or explosive characteristics.
+
+223.370-2 Definition.
+
+Ammunition and explosives, as used in this section, is defined in the clause at 252.223-7002, Safety Precautions for Ammunition and Explosives.
+
+223.370-3 Policy.
+
+	(a) DoD policy is to ensure that its contractors take reasonable precautions in handling ammunition and explosives so as to minimize the potential for mishaps.
+
+	(b) DoD Manual 4145.26, DoD Contractors' Safety Manual for Ammunition and Explosives implements this policy, and it contains mandatory safety requirements for contractors. Contracts under which ammunition and explosives are handled must reflect this policy. 
+
+	(c) When work is to be performed on a Government-owned installation, the contracting officer may use the ammunition and explosives regulation of the DoD component or installation as a substitute for, or supplement to, DoD Manual 4145.26, as long as the contract cites the ammunition and explosives regulation of the DoD component or installation.
+
+223.370-4 Procedures.
+Follow the procedures at PGI 223.370-4.
+
+223.370-5 Contract clauses.
+
+Use the clauses at 252.223-7002, Safety Precautions for Ammunition and Explosives, and 252.223-7003, Change in Place of Performance-Ammunition and Explosives, in all solicitations and contracts for acquisition to which this section applies.
+
+SUBPART 223.4-223.5 [Reserved]
+
+SUBPART 223.70 [Reserved]
+
+SUBPART 223.71-STORAGE, TREATMENT, AND DISPOSAL OF TOXIC OR HAZARDOUS MATERIALS
+
+223.7101 Definitions.
+As used in this subpart, the terms storage and toxic or hazardous materials are defined in the clause at 252.223-7006, Prohibition on Storage, Treatment, and Disposal of Toxic or Hazardous Materials.
+
+223.7102 Policy.
+
+	(a) 10 U.S.C. 2692 prohibits storage, treatment, or disposal on DoD installations of toxic or hazardous materials that are not owned either by DoD or by a member of the armed forces (or a dependent of the member) assigned to or provided military housing on the installation, unless an exception in 223.7104 applies.
+
+	(b) When storage of toxic or hazardous materials is authorized based on an imminent danger, the storage provided must be temporary and must cease once the imminent danger no longer exists. In all other cases of storage or disposal, the storage or disposal must be terminated as determined by the Secretary of Defense.
+
+223.7103 Procedures.
+
+	(a) (1) Storage, treatment, or disposal of toxic or hazardous materials not owned by DoD on a DoD installation is prohibited unless-
+
+			(i) One or more of the exceptions set forth in 223.7104(a) is met including requisite approvals; or
+
+			(ii) Secretary of Defense authorization is obtained under the conditions set forth in 223.7104(b).
+
+		(2) If a contract authorizes a contractor to store, treat, or dispose of toxic or hazardous materials not owned by DoD, then the contract must explicitly identify the specific types and quantities of materials permitted.  It must also outline the conditions under which these activities are allowed at DoD installations or space launch facilities.  All solicitations and resulting contracts must include these requirements to ensure compliance with applicable environmental and safety regulations.
+
+	(b) If the contracting officer is uncertain as to whether particular activities are prohibited or fall under one of the exceptions in 223.7104, the contracting officer should seek advice from the cognizant office of counsel.
+
+223.7104 Exceptions.
+
+	(a) The prohibition of 10 U.S.C. 2692 does not apply to any of the following:
+
+		(1) The storage, treatment, or disposal of materials that will be or have been used in connection with an activity of DoD or in connection with a service to be performed on a DoD installation for the benefit of DoD.
+
+		(2) The storage of strategic and critical materials in the National Defense Stockpile under an agreement for such storage with the Administrator of General Services Administration.
+
+		(3) The temporary storage or disposal of explosives in order to protect the public or to assist agencies responsible for Federal, State, or local law enforcement in storing or disposing of explosives when no alternative solution is available, if such storage or disposal is made in accordance with an agreement between the Secretary of Defense and the head of the Federal, State, or local agency concerned.
+
+		(4) The temporary storage or disposal of explosives in order to provide emergency lifesaving assistance to civil authorities.
+
+		(5) The disposal of excess explosives produced under a DoD contract, if the head of the military department concerned determines, in each case, that an alternative feasible means of disposal is not available to the contractor, taking into consideration public safety, available resources of the contractor, and national defense production requirements.
+
+		(6) The temporary storage of nuclear materials or nonnuclear classified materials in accordance with an agreement with the Secretary of Energy.
+
+		(7) The storage of materials that constitute military resources intended for use during peacetime civil emergencies in accordance with applicable DoD regulations.
+
+		(8) The temporary storage of materials of other Federal agencies in order to provide assistance and refuge for commercial carriers of such material during a transportation emergency.
+
+		(9) The storage of any material that is not owned by DoD, if the Secretary of the military department concerned determines that the material is required or generated in connection with the authorized and compatible use of a facility of DoD, including the use of such a facility for testing material or training personnel.
+
+		(10) The treatment and disposal of any toxic or hazardous materials not owned by DoD, if the Secretary of the military department concerned determines that the material is required or generated in connection with the authorized and compatible use of a facility of that military department and the Secretary enters into a contract or agreement with the prospective user that-
+
+			(i) Is consistent with the best interest of national defense and environmental security; and
+
+			(ii) Provides for the prospective user's continued financial and environmental responsibility and liability with regard to the material.
+
+			(11) The storage of any material that is not owned by DoD if the Secretary of the military department concerned determines that the material is required or generated in connection with the use of a space launch facility located on a DoD installation or on other land controlled by the United States.
+
+	(b) The Secretary of Defense may grant an exception to the prohibition in 10 U.S.C. 2692 when essential to protect the health and safety of the public from imminent danger if the Secretary otherwise determines the exception is essential and if the storage or disposal authorized does not compete with private enterprise.
+
+223.7105 Reimbursement.
+The Secretary of Defense may assess a charge for any storage or disposal provided under this subpart. If a charge is assessed, then the contract must identify the assessment with payment to the Government on a reimbursable cost basis.
+
+223.7106 Contract clause.
+
+Insert the basic or the alternate of the clause at 252.223-7006, Prohibition on Storage, Treatment, and Disposal of Toxic or Hazardous Materials, in all solicitations and contracts which require, may require, or permit contractor access to a DoD installation.
+
+	(a) Insert the basic clause, unless a determination is made under 223.7104(a)(10).
+
+	(b) Insert the alternate I clause when the Secretary of the military department issues a determination under the exception at 223.7104(a)(10).
+
+SUBPART 223.72-SAFEGUARDING SENSITIVE CONVENTIONAL ARMS, AMMUNITION, AND EXPLOSIVES
+
+223.7200 Definition.
+
+As used in this subpart-
+
+Arms, ammunition, and explosives (AA&E) means those items within the scope of DoD Manual 5100.76, Physical Security of Sensitive Conventional Arms, Ammunition, and Explosives.
+
+223.7201 Policy.
+
+	(a) The requirements of DoD Manual 5100.76, Physical Security of Sensitive Conventional Arms, Ammunition, and Explosives, applies to contracts when-
+
+		(1) AA&E will be provided to the contractor or subcontractor as Government-furnished property; or
+
+		(2) The principal development, production, manufacture, or purchase of AA&E is for DoD use.
+
+	(b) The requirements of DoD Manual 5100.76 do not apply to contracts when-
+
+		(1) The AA&E to be acquired under the contract is a commercial product within the meaning of FAR 2.101; or
+
+		(2) The contract will be performed in a Government-owned contractor-operated ammunition production facility. However, the requirements of DoD Manual 5100.76 apply where subcontracts issued under such a contract meet the criteria of paragraph (a) of this section.
+
+223.7202 Preaward responsibilities.
+
+When an acquisition involves AA&E, technical or requirements personnel must specify in the purchase request-
+
+	(a) That AA&E is involved; and
+
+	(b) Which physical security requirements of DoD Manual 5100.76 apply.
+
+223.7203 Contract clause.
+
+Insert the clause at 252.223-7007, Safeguarding Sensitive Conventional Arms, Ammunition, and Explosives, in all solicitations and contracts to which DoD Manual 5100.76 applies, in accordance with the policy at 223.7201. Complete paragraph (b) of the clause based on information provided by cognizant technical or requirements personnel.
+
+SUBPART 223.73-MINIMIZING THE USE OF MATERIALS CONTAINING HEXAVALENT CHROMIUM
+
+223.7300 Definition.
+As used in this subpart-
+
+Legacy system means any program that has passed Milestone A in the defense acquisition management system, as defined in DoD Instruction 5000.02.
+
+223.7301 Policy.
+In accordance with the DoD policy memorandum of April 8, 2009, Minimizing the Use of Hexavalent Chromium, DoD policy is to minimize hexavalent chromium (an anti-corrosive) in items acquired by DoD (deliverables and construction material), due to the serious human health and environmental risks related to its use.
+
+223.7302 [Reserved]
+
+223.7303 Prohibition.
+
+	(a) Except as provided in 223.7304 and 223.7305, no contract may include a specification or standard that results in a deliverable or construction material containing more than 0.1 percent hexavalent chromium by weight in any homogeneous material in the deliverable or construction material where proven substitutes are available that provide acceptable performance for the application.
+
+	(b) This prohibition is in addition to any imposed by the Clean Air Act regardless of the place of performance.
+
+223.7304 Exceptions.
+
+The prohibition in 223.7303 does not apply to-
+
+	(a) Legacy systems and their related parts, subsystems, and components that already contain hexavalent chromium. However, the appropriate official must consider alternatives to hexavalent chromium during system modifications, follow-on procurements of legacy systems, or maintenance procedure updates; and
+
+	(b) Additional sustainment related contracts (e.g., parts, services) for a system in which use of hexavalent chromium was previously approved.
+
+223.7305 Authorization and approval.
+
+	(a) The prohibition in 223.7303 does not apply to critical defense applications if no substitute can meet performance requirements. The DoD policy of April 8, 2009, "Minimizing the Use of Hexavalent Chromium," contains requirements for weighing use of hexavalent chromium versus substitutes. DoD Program Managers must consider the following factors-
+
+		(1) Cost effectiveness of alternative materials or processes;
+
+		(2) Technical feasibility of alternative materials or processes;
+
+		(3) Environment, safety, and occupational health risks associated with the use of the hexavalent chromium or substitute materials in each specific application;
+
+		(4) Achieving a DoD Manufacturing Readiness Level of at least eight for any qualified alternative;
+
+		(5) Materiel availability of hexavalent chromium and the proposed alternatives over the projected life span of the system; and
+
+		(6) Corrosion performance difference of alternative materials or processes as determined by agency corrosion subject matter experts.
+
+	(b) However, unless an exception in 223.7304 applies, the incorporation of hexavalent chromium in items acquired by DoD must be specifically authorized at a level no lower than a general or flag officer or a member of the Senior Executive Service from the Program Executive Office or equivalent level, in coordination with the component Corrosion Control and Prevention Executive. Follow the procedures in PGI 223.7305.
+
+223.7306 Contract clause.
+Unless an exception in 223.7304 applies, or use has been authorized in accordance with 223.7305, use the clause at 252.223-7008, Prohibition of Hexavalent Chromium, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are for supplies, maintenance and repair services, or construction.
+
+SUBPART 223.74-PROHIBITION ON PROCUREMENT OF CERTAIN ITEMS CONTAINING PERFLUOROALKYL OR POLYFLUOROALKYL SUBSTANCES
+
+223.7400 Scope of subpart.
+
+This subpart implements section 322(b), (c), and (d) of the National Defense Authorization Act for Fiscal Year 2020 (Pub. L. 116-92).
+
+223.7401 Definition.
+As used in this subpart-
+
+Ocean-going vessel means a vessel over 59 feet in length owned or operated by DoD or the U.S. Coast Guard, other than vessels that are chartered by the Armed Forces on a time or voyage basis.
+
+223.7402 Prohibition.
+Do not procure any fire-fighting agent that contains in excess of one part per billion perfluoroalkyl substances or polyfluoroalkyl substances. Procurements of fire-fighting agent for use solely onboard ocean-going vessels are exempt from this prohibition.
+
+223.7403 Procedures.
+Do not issue a solicitation for any fire-fighting agent that contains perfluoroalkyl or polyfluoroalkyl substances in excess of one part per billion, unless the requiring activity provides documentation of the exemption at 223.7402. Maintain the documentation in the contract file.
+
+223.7404 Contract clause.
+Use the clause at 252.223-7009, Prohibition of Procurement of Fluorinated Fire-Fighting Agent for Use on Military Installations, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, relating to fire-fighting on military installations.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.223-7000  Reserved.
+
+252.223-7001  Hazard Warning Labels.
+As prescribed in 223.304, use the following clause:
+
+HAZARD WARNING LABELS (DEC 1991)
+
+	(a)  "Hazardous material," as used in this clause, is defined in the Hazardous Material Identification and Material Safety Data clause of this contract.
+
+	(b)  The Contractor shall label the item package (unit container) of any hazardous material to be delivered under this contract in accordance with the Hazard Communication Standard (29 CFR 1910.1200 et seq).  The Standard requires that the hazard warning label conform to the requirements of the standard unless the material is otherwise subject to the labelling requirements of one of the following statutes:
+
+		(1)  Federal Insecticide, Fungicide and Rodenticide Act;
+
+		(2)  Federal Food, Drug and Cosmetics Act;
+
+		(3)  Consumer Product Safety Act;
+
+		(4)  Federal Hazardous Substances Act; or
+
+		(5)  Federal Alcohol Administration Act.
+
+	(c)  The Offeror shall list which hazardous material listed in the Hazardous Material Identification and Material Safety Data clause of this contract will be labelled in accordance with one of the Acts in paragraphs (b)(1) through (5) of this clause instead of the Hazard Communication Standard.  Any hazardous material not listed will be interpreted to mean that a label is required in accordance with the Hazard Communication Standard.
+
+MATERIAL (If None, Insert "None.")ACT
+	(d)  The apparently successful Offeror agrees to submit, before award, a copy of the hazard warning label for all hazardous materials not listed in paragraph (c) of this clause.  The Offeror shall submit the label with the Material Safety Data Sheet being furnished under the Hazardous Material Identification and Material Safety Data clause of this contract.
+
+	(e)  The Contractor shall also comply with MIL-STD-129, Marking for Shipment and Storage (including revisions adopted during the term of this contract).
+
+(End of clause)
+
+252.223-7002  Safety Precautions for Ammunition and Explosives.
+As prescribed in 223.370-5, use the following clause:
+
+SAFETY PRECAUTIONS FOR AMMUNITION AND EXPLOSIVES (NOV 2023)
+
+	(a)  Definition.  "Ammunition and explosives," as used in this clause-
+
+		(1)  Means liquid and solid propellants and explosives, pyrotechnics, incendiaries and smokes in the following forms:
+
+			(i)  Bulk,
+
+			(ii)  Ammunition;
+
+			(iii)  Rockets;
+
+			(iv)  Missiles;
+
+			(v)  Warheads;
+
+			(vi)  Devices; and
+
+			(vii)  Components of (i) through (vi), except for wholly inert items.
+
+		(2)  This definition does not include the following, unless the Contractor is using or incorporating these materials for initiation, propulsion, or detonation as an integral or component part of an explosive, an ammunition or explosive end item, or of a weapon system-
+
+			(i)  Inert components containing no explosives, propellants, or pyrotechnics;
+	
+			(ii)  Flammable liquids;
+
+			(iii)  Acids;
+
+			(iv)  Oxidizers;
+
+			(v)  Powdered metals; or
+
+			(vi)  Other materials having fire or explosive characteristics.
+
+	(b)  Safety requirements.
+
+		(1)  The Contractor shall comply with the requirements of DoD Manual 4145.26, DoD Contractors' Safety Manual for Ammunition and Explosives, hereafter referred to as "the manual," in effect on the date of the solicitation for this contract.  The Contractor shall also comply with any other additional requirements included in the schedule of this contract.
+
+		(2)  The Contractor shall allow the Government access to the Contractor's facilities, personnel, and safety program documentation.  The Contractor shall allow authorized Government representatives to evaluate safety programs, implementation, and facilities.
+
+	(c)  Noncompliance with the manual.
+
+		(1)  If the Contracting Officer notifies the Contractor of any noncompliance with the manual or schedule provisions, the Contractor shall take immediate steps to correct the noncompliance.  The Contractor is not entitled to reimbursement of costs incurred to correct noncompliances unless such reimbursement is specified elsewhere in the contract.
+
+		(2)  The Contractor has 30 days from the date of notification by the Contracting Officer to correct the noncompliance and inform the Contracting Officer of the actions taken.  The Contracting Officer may direct a different time period for the correction of noncompliances.
+
+		(3)  If the Contractor refuses or fails to correct noncompliances within the time period specified by the Contracting Officer, the Government has the right to direct the Contractor to cease performance on all or part of this contract.  The Contractor shall not resume performance until the Contracting Officer is satisfied that the corrective action was effective and the Contracting Officer so informs the Contractor.
+
+		(4)  The Contracting Officer may remove Government personnel at any time the Contractor is in noncompliance with any safety requirement of this clause.
+
+		(5)  If the direction to cease work or the removal of Government personnel results in increased costs to the Contractor, the Contractor shall not be entitled to an adjustment in the contract price or a change in the delivery or performance schedule unless the Contracting Officer later determines that the Contractor had in fact complied with the manual or schedule provisions.  If the Contractor is entitled to an equitable adjustment, it shall be made in accordance with the Changes clause of this contract.
+
+	(d)  Mishaps.  If a mishap involving ammunition or explosives occurs, the Contractor shall-
+
+		(1)  Notify the Contracting Officer immediately;
+
+		(2)  Conduct an investigation in accordance with other provisions of this contract or as required by the Contracting Officer; and
+
+		(3)  Submit a written report to the Contracting Officer.
+
+	(e)  Contractor responsibility for safety.
+
+		(1)  Nothing in this clause, nor any Government action or failure to act in surveillance of this contract, shall relieve the Contractor of its responsibility for the safety of-
+
+			(i)  The Contractor's personnel and property;
+
+			(ii)  The Government's personnel and property; or
+
+			(iii)  The general public.
+
+		(2)  Nothing in this clause shall relieve the Contractor of its responsibility for complying with applicable Federal, State, and local laws, ordinances, codes, and regulations (including those requiring the obtaining of licenses and permits) in connection with the performance of this contract.
+
+	(f)  Contractor responsibility for contract performance.
+
+		(1)  Neither the number or frequency of inspections performed by the Government, nor the degree of surveillance exercised by the Government, relieve the Contractor of its responsibility for contract performance.
+
+		(2)  If the Government acts or fails to act in surveillance or enforcement of the safety requirements of this contract, this does not impose or add to any liability of the Government.
+
+	(g)  Subcontractors.
+
+		(1)  The Contractor shall insert this clause, including this paragraph (g), in every subcontract that involves ammunition or explosives.
+
+			(i)  The clause shall include a provision allowing authorized Government safety representatives to evaluate subcontractor safety programs, implementation, and facilities as the Government determines necessary.
+
+			(ii)  NOTE:  The Government Contracting Officer or authorized representative shall notify the prime Contractor of all findings concerning subcontractor safety and compliance with the manual.  The Contracting Officer or authorized representative may furnish copies to the subcontractor.  The Contractor in turn shall communicate directly with the subcontractor, substituting its name for references to "the Government".  The Contractor and higher tier subcontractors shall also include provisions to allow direction to cease performance of the subcontract if a serious uncorrected or recurring safety deficiency potentially causes an imminent hazard to DoD personnel, property, or contract performance.
+
+		(2)  The Contractor agrees to ensure that the subcontractor complies with all contract safety requirements.  The Contractor will determine the best method for verifying the adequacy of the subcontractor's compliance.
+
+		(3)  The Contractor shall ensure that the subcontractor understands and agrees to the Government's right to access to the subcontractor's facilities, personnel, and safety program documentation to perform safety surveys.  The Government performs these safety surveys of subcontractor facilities solely to prevent the occurrence of any mishap which would endanger the safety of DoD personnel or otherwise adversely impact upon the Government's contractual interests.
+
+		(4)  The Contractor shall notify the Contracting Officer or authorized representative before issuing any subcontract when it involves ammunition or explosives.  If the proposed subcontract represents a change in the place of performance, the Contractor shall request approval for such change in accordance with the clause of this contract entitled "Change in Place of Performance--Ammunition and Explosives".
+
+(End of clause)
+
+252.223-7003  Change in Place of Performance--Ammunition and Explosives.
+As prescribed in 223.370-5, use the following clause:
+
+CHANGE IN PLACE OF PERFORMANCE--AMMUNITION AND EXPLOSIVES (DEC 1991)
+
+	(a)  The Offeror shall identify, in the "Place of Performance" provision of this solicitation, the place of performance of all ammunition and explosives work covered by the Safety Precautions for Ammunition and Explosives clause of this solicitation.  Failure to furnish this information with the offer may result in rejection of the offer.
+
+	(b)  The Offeror agrees not to change the place of performance of any portion of the offer covered by the Safety Precautions for Ammunition and Explosives clause contained in this solicitation after the date set for receipt of offers without the written approval of the Contracting Officer.  The Contracting Officer shall grant approval only if there is enough time for the Government to perform the necessary safety reviews on the new proposed place of performance.
+
+	(c)  If a contract results from this offer, the Contractor agrees not to change any place of performance previously cited without the advance written approval of the Contracting Officer.
+
+(End of clause)
+
+252.223-7004  Reserved
+
+252.223-7005  Reserved.
+
+252.223-7006  Prohibition on Storage, Treatment, and Disposal of Toxic or Hazardous Materials.
+
+	Basic.  As prescribed in 223.7106 and 223.7106(a), use the following clause:
+
+PROHIBITION ON STORAGE, TREATMENT, AND DISPOSAL OF TOXIC OR HAZARDOUS MATERIALS-BASIC (SEP 2014)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Storage" means a non-transitory, semi-permanent or permanent holding, placement, or leaving of material.  It does not include a temporary accumulation of a limited quantity of a material used in or a waste generated or resulting from authorized activities, such as servicing, maintenance, or repair of Department of Defense (DoD) items, equipment, or facilities.
+
+	"Toxic or hazardous materials" means-
+
+		(i)  Materials referred to in section 101(14) of the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA) of 1980 (42 U.S.C. 9601(14)) and materials designated under section 102 of CERCLA (42 U.S.C. 9602) (40 CFR Part 302);
+
+		(ii)  Materials that are of an explosive, flammable, or pyrotechnic nature; or
+
+		(iii)  Materials otherwise identified by the Secretary of Defense as specified in DoD regulations.
+
+	(b)  In accordance with 10 U.S.C. 2692, the Contractor is prohibited from storing, treating, or disposing of toxic or hazardous materials not owned by DoD on a DoD installation, except to the extent authorized by a statutory exception to 10 U.S.C. 2692 or as authorized by the Secretary of Defense.  A charge may be assessed for any storage or disposal authorized under any of the exceptions to 10 U.S.C. 2692.  If a charge is to be assessed, then such assessment shall be identified elsewhere in the contract with payment to the Government on a reimbursable cost basis.
+
+	(c)  The Contractor shall include the substance of this clause, including this paragraph (c), in all subcontracts that require, may require, or permit a subcontractor access to a DoD installation, at any subcontract tier.
+
+(End of clause)
+
+	Alternate I.  As prescribed in 223.7106 and 223.7106(b), use the following clause, which adds a new paragraph (c) and revises and redesignates paragraph (c) of the basic clause as paragraph (d):
+
+PROHIBITION ON STORAGE, TREATMENT, AND DISPOSAL OF TOXIC OR HAZARDOUS MATERIALS-ALTERNATE I (SEP 2014)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Storage" means a non-transitory, semi-permanent or permanent holding, placement, or leaving of material.  It does not include a temporary accumulation of a limited quantity of a material used in or a waste generated or resulting from authorized activities, such as servicing, maintenance, or repair of Department of Defense (DoD) items, equipment, or facilities.
+
+	"Toxic or hazardous materials" means-
+
+		(i)  Materials referred to in section 101(14) of the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA) of 1980 (42 U.S.C. 9601(14)) and materials designated under section 102 of CERCLA (42 U.S.C. 9602) (40 CFR Part 302);
+
+		(ii)  Materials that are of an explosive, flammable, or pyrotechnic nature; or
+
+		(iii)  Materials otherwise identified by the Secretary of Defense as specified in DoD regulations.
+
+	(b)  In accordance with 10 U.S.C. 2692, the Contractor is prohibited from storing, treating, or disposing of toxic or hazardous materials not owned by DoD on a DoD installation, except to the extent authorized by a statutory exception to 10 U.S.C. 2692 or as authorized by the Secretary of Defense.  A charge may be assessed for any storage or disposal authorized under any of the exceptions to 10 U.S.C. 2692.  If a charge is to be assessed, then such assessment shall be identified elsewhere in the contract with payment to the Government on a reimbursable cost basis.
+
+	(c)  With respect to treatment or disposal authorized pursuant to DFARS 223.7104(10) (10 U.S.C. 2692(b)(10), and notwithstanding any other provision of the contract, the Contractor assumes all financial and environmental responsibility and liability resulting from any treatment or disposal of toxic or hazardous materials not owned by DoD on a military installation.  The Contractor shall indemnify, defend, and hold the Government harmless for all costs, liability, or penalties resulting from the Contractor's treatment or disposal of toxic or hazardous materials not owned by DoD on a military installation.
+
+	(d)  The Contractor shall include the substance of this clause, including this paragraph (d), in all subcontracts that require, may require, or permit a subcontractor access to a DoD installation, at any tier.  Inclusion of the substance of this clause in subcontracts does not relieve the prime Contractor of liability to the Government under paragraph (c).
+
+(End of clause)
+
+252.223-7007  Safeguarding Sensitive Conventional Arms, Ammunition, and Explosives.
+As prescribed in 223.7203, use the following clause:
+
+SAFEGUARDING SENSITIVE CONVENTIONAL ARMS, AMMUNITION, 
+AND EXPLOSIVES (NOV 2023)
+
+	(a)  Definition.   As used in this clause-
+
+	"Arms, ammunition, and explosives (AA&E)," means those items within the scope of DoD Manual 5100.76, Physical Security of Sensitive Conventional Arms, Ammunition, and Explosives.
+
+	(b)  The requirements of DoD Manual 5100.76 apply to the following items of AA&E being developed, produced, manufactured, or purchased for the Government, or provided to the Contractor as Government-furnished property under this contract:
+
+
+NOMENCLATURENATIONAL 
+STOCK NUMBERSENSITIVITY/
+CATEGORY
+	(c)  The Contractor shall comply with the requirements of DoD Manual 5100.76, as specified in the statement of work.  The edition of DoD Manual 5100.76 in effect on the date of issuance of the solicitation for this contract shall apply.
+
+	(d)  The Contractor shall allow representatives of the Defense Counterintelligence and Security Agency (DCSA) and representatives of other appropriate offices of the Government, access at all reasonable times into its facilities and those of its subcontractors, for the purpose of performing surveys, inspections, and investigations necessary to review compliance with the physical security standards applicable to this contract.
+
+	(e)  The Contractor shall notify the cognizant DCSA field office of any subcontract involving AA&E within 10 days after award of the subcontract.
+
+	(f)  Subcontracts.  The Contractor shall ensure that the requirements of this clause are included in all subcontracts, at every tier?
+
+		(1)  For the development, production, manufacture, or purchase of AA&E; or
+
+		(2)  When AA&E will be provided to the subcontractor as Government-furnished property.
+
+	(g)  Nothing in this clause shall relieve the Contractor of its responsibility for complying with applicable Federal, state, and local laws, ordinances, codes, and regulations (including requirements for obtaining licenses and permits) in connection with the performance of this contract.
+
+(End of clause)
+
+252.223-7008  Prohibition of Hexavalent Chromium.
+As prescribed in 223.7306, use the following clause:
+
+PROHIBITION OF HEXAVALENT CHROMIUM (JAN 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Homogeneous material" means a material that cannot be mechanically disjointed into different materials and is of uniform composition throughout.
+
+		(1)  Examples of homogeneous materials include individual types of plastics, ceramics, glass, metals, alloys, paper, board, resins, and surface coatings.
+
+		(2)  Homogeneous material does not include conversion coatings that chemically modify the substrate.
+
+	"Mechanically disjointed" means that the materials can, in principle, be separated by mechanical actions such as unscrewing, cutting, crushing, grinding, and abrasive processes.
+
+	(b)  Prohibition.
+
+		(1)  Unless otherwise specified by the Contracting Officer, the Contractor shall not provide any deliverable or construction material under this contract that-
+
+			(i)  Contains hexavalent chromium in a concentration greater than 0.1 percent by weight in any homogenous material; or
+
+			(ii)  Requires the removal or reapplication of hexavalent chromium materials during subsequent sustainment phases of the deliverable or construction material.
+
+		(2)  This prohibition does not apply to hexavalent chromium produced as a by-product of manufacturing processes.
+
+	(c)  If authorization for incorporation of hexavalent chromium in a deliverable or construction material is required, the Contractor shall submit a request to the Contracting Officer.
+
+	(d)  Subcontracts.  The Contractor shall include the substance of this clause, including this paragraph (d), in all subcontracts, including subcontracts for commercial products or commercial services, that are for supplies, maintenance and repair services, or construction materials.
+(End of clause)
+
+252.223-7009  Prohibition of Procurement of Fluorinated Aqueous Film-Forming Foam Fire-Fighting Agent for Use on Military Installations.
+As prescribed in 223.7404, use the following clause:
+
+PROHIBITION OF PROCUREMENT OF FLUORINATED AQUEOUS FILM-FORMING FOAM FIRE-FIGHTING AGENT FOR USE ON MILITARY 
+INSTALLATIONS (FEB 2024)
+
+	(a)  Definitions.  As used in this clause, "perfluoroalkyl substances" and "polyfluoroalkyl substances" have the meanings given in section 322(f) of the National Defense Authorization Act for Fiscal Year 2020 (Pub. L. 116-92).
+
+	(b)  Prohibition.  The Contractor shall not provide or use under this contract any aqueous film-forming foam fire-fighting agent that contains perfluoroalkyl substances or polyfluoroalkyl substances in excess of one part per billion.
+
+	(c)  Subcontracts.  The Contractor shall include the substance of this clause, including this paragraph (c), in all subcontracts, including subcontracts for commercial products and commercial services, relating to fire-fighting on a military installation.
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0018
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 23
+Defense FAR Supplement (DFARS) Part 223
+
+
+	Page 1 of 1	
+

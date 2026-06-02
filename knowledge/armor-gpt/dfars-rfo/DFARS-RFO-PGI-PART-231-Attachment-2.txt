@@ -1,0 +1,53 @@
+PGI 231-CONTRACT COST PRINCIPLES AND PROCEDURES
+
+PGI 231.2-CONTRACTS WITH COMMERCIAL ORGANIZATIONS
+
+PGI 231.205  Selected costs.
+
+PGI 231.205-18  Independent research and development and bid and proposal costs.
+
+	(c)(iii)(C)  To improve DoD visibility into technical content of contractor-funded IR&D projects, encourage contractors that are not major contractors to use the DTIC online input form and instructions at https://defenseinnovationmarketplace.dtic.mil/industry-portal/.
+
+PGI 231.205-70  External restructuring costs.
+
+	(d)  Procedures and ACO responsibilities.  The cognizant ACO will-
+
+		(i)  Promptly execute a novation agreement, if one is required, in accordance with FAR Subpart 42.12 and DFARS Subpart 242.12 and include the provision at DFARS 242.1204(i).
+
+		(ii)  Direct the contractor to segregate restructuring costs and to suspend these amounts from any billings, final contract price settlements, and overhead settlements until the determination in DFARS 231.205-70(c)(4)(i) is obtained.
+
+		(iii)  Require the contractor to submit an overall plan of restructuring activities and an adequately supported proposal for planned restructuring projects.  The proposal must include a breakout by year by cost element, showing the present value of projected restructuring costs and projected restructuring savings.
+
+		(iv)  Notify major buying activities of contractor restructuring actions and inform them about any potential monetary impacts on major weapons programs, when known.
+
+		(v)  Upon receipt of the contractor's proposal, as soon as practicable, adjust forward pricing rates to reflect the impact of projected restructuring savings.  If restructuring costs are included in forward pricing rates prior to execution of an advance agreement in accordance with paragraph (d)(viii) of this subsection, the contracting officer shall include a repricing clause in each fixed-price action that is priced based on the rates.  The repricing clause must provide for a downward price adjustment to remove restructuring costs if the determination required by DFARS 231.205-70(c)(4)(i) is not obtained.
+
+		(vi)  Upon receipt of the contractor's proposal, immediately request an audit review of the contractor's proposal.
+
+		(vii)  Upon receipt of the audit report, determine on a present value basis if-
+
+			(A)  The audited projected restructuring savings for DoD will exceed the restructuring costs allowed by a factor of at least two to one, as required by DFARS 231.205-70(c)(4)(i)(A); or      
+
+			(B)  If the audited projected restructuring savings will exceed the restructuring costs allowed in a case where the business combination will result in the preservation of a critical capability that otherwise might be lost to DoD, as required by DFARS 231.205-70(c)(4)(i)(B).
+
+		(viii)  Negotiate an advance agreement with the contractor setting forth, at a minimum, a cumulative cost ceiling for restructuring projects and, when necessary, a cost amortization schedule.  The costs may not exceed the amount of projected restructuring savings on a present value basis.  The advance agreement shall not be executed until the determination required by DFARS 231.205-70(c)(4)(i) is obtained.
+
+		(ix)(A)  Submit a recommendation for determination to-
+
+				(1)  If DFARS 231.205-70(c)(4)(ii)(A) applies, submit the recommendation to the Office of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (Price, Cost and Finance) via email at osd.pentagon.ousd-a-s.mbx.dpc-pcf@mail.mil.
+
+				(2)  If DFARS 231.205-70(c)(4)(ii)(B) applies, submit the recommendation the Director of the Defense Contract Management Agency, ATTN: HQ DCMA-OCB.
+
+			(B)  Include the information described in DFARS 231.205-70(e).
+
+		(x)  Consult with the Principal Director, Defense Pricing, Contracting, and Acquisition Policy or with the Director of the Defense Contract Management Agency, as appropriate, when DFARS 231.205-70(c)(4)(i)(B) applies.
+
+Attachment A2
+DARS Tracking Number: 2026-O0032
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 31
+Defense FAR Supplement (DFARS) Part 231
+
+
+Page 1 of 7
+
+
