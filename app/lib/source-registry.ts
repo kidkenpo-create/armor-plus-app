@@ -103,7 +103,8 @@ export function sourceAuthorityInstruction(routePlan: Array<{ label: string; url
   const retrieved = routePlan.filter(item => item.status === 'R');
   const approvedRetrieved = retrieved.filter(item => isApprovedControllingSource(item.label, item.url));
   const backgroundRetrieved = retrieved.filter(item => isBaselineFallbackSource(item.label, item.url));
-  const classDeviationRetrieved = approvedRetrieved.some(item => item.label.toLowerCase().includes('class deviation'));
+  const classDeviationItems = routePlan.filter(isClassDeviationRouteItem);
+  const classDeviationRetrieved = classDeviationItems.some(item => item.status === 'R' && isApprovedControllingSource(item.label, item.url));
 
   return [
     'SOURCE AUTHORITY LOCK:',
@@ -118,8 +119,20 @@ export function sourceAuthorityInstruction(routePlan: Array<{ label: string; url
       : 'No baseline FAR/DFARS background fallback source was admitted into controlling context.',
     classDeviationRetrieved
       ? 'Approved class-deviation source text was retrieved; use it only if it directly applies.'
-      : 'No approved active class-deviation source text was retrieved. Do not state "no deviation found"; mark class-deviation status UTR and downgrade to Conditional when deviation status could affect the answer.',
+      : classDeviationItems.length
+        ? 'A specific class-deviation source was selected but approved source text was not retrieved. Mark that selected source UTR; do not certify no deviation found; downgrade only if the missing selected source could affect the answer.'
+        : 'No specific active class-deviation source was selected by the route. Mark class-deviation rungs Checked or N/A, not UTR, and do not downgrade solely because no optional class-deviation source was selected.',
   ].join('\n');
+}
+
+function isClassDeviationRouteItem(item: { label: string; url: string }) {
+  const value = `${item.label} ${item.url}`.toLowerCase();
+  return (
+    value.includes('class deviation')
+    || value.includes('rfo deviation')
+    || value.includes('dod_class_deviations_fy26')
+    || value.includes('page_file_uploads/dod_rfo_deviation')
+  );
 }
 
 function normalizeFarPart(part: string) {
