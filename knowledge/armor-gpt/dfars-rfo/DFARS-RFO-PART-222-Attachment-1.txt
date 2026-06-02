@@ -1,0 +1,531 @@
+
+PART 222-APPLICATION OF LABOR LAWS TO GOVERNMENT ACQUISITIONS
+
+222.001  Definitions.
+As used in this part-
+
+"Labor advisor" means the departmental or agency headquarters labor advisor.
+
+SUBPART 222.1-BASIC LABOR POLICIES
+
+222.101-1  Labor relations.
+Follow the procedures at PGI 222.101-1 for referral of labor relations matters to the appropriate authorities.
+
+222.101-170  Department of Labor regulations.
+Direct all questions regarding Department of Labor regulations to the labor advisor.
+
+222.104  Postaward.
+
+222.104-1  General.
+
+	(c)  Follow the procedures at PGI 222.104-1 for reporting labor disputes.
+
+222.104-170  Impact of labor disputes on defense programs.
+
+	(a)  Each department and agency must determine the degree of impact of potential or actual labor disputes on its own programs and requirements. For guidance on determining the degree of impact, see PGI 222.104-170.
+
+	(b)  Each contracting activity must obtain and develop data reflecting the impact of a labor dispute on its requirements and programs.  Upon determining that the impact of the labor dispute is significant, the head of the contracting activity must submit a report of findings and recommendations to the labor advisor in accordance with departmental procedures.
+
+222.104-171  Removal of items from contractors' facilities affected by work stoppages.
+Follow the procedures at PGI 222.104-171 when a work stoppage prevents the delivery of urgent and critical items.
+
+222.104-172  Acquisition of stevedoring services during labor disputes.
+Follow the procedures at PGI 222.104-172 when a labor dispute delays the performance of urgently needed stevedoring services.
+
+222.104-2  Overtime approvals.
+
+	(a)  The department/agency approving official must-
+
+		(i)  Obtain the concurrence of other appropriate approving officials; and
+
+		(ii)  Seek agreement as to the contracts under which overtime premiums will be approved when-
+
+			(A)  Two or more contracting offices have current contracts at the same contractor facility; and
+
+			(B)  The approval of overtime by one contracting office will affect the performance or cost of contracts of another office.  In the absence of evidence to the contrary, a contracting officer may rely on a contractor's statement that approval of overtime premium pay for one contract will not affect performance or payments under any other contract.
+
+SUBPART 222.3-CONTRACT WORK HOURS AND SAFETY STANDARDS ACT
+
+222.302  Postaward.
+
+Upon receipt of notification of Contract Work Hours and Safety Standards violations-
+
+		(1)  Immediately withhold any available funds;
+
+		(2)  Give the contractor written notification of the withholding and a statement of the basis for the liquidated damages assessment.  The written notification must also inform the contractor of the right to appeal the assessment within 60 days, through the contracting officer, to the agency official responsible for acting on such appeals; and
+
+		(3)  If funds available for withholding are insufficient to cover liquidated damages, ask the contractor to pay voluntarily the funds necessary to cover the total liquidated damage assessment.
+
+	(d)(i)  The assessment must become the final administrative determination of contractor liability for liquidated damages when-
+
+			(A)  The contractor fails to appeal to the contracting agency within 60 days from the date of the withholding of funds;
+
+			(B)  The agency, following the contractor's appeals, either issues a final order affirming the assessment of liquidated damages or waives damages of $500 or less; or
+
+			(C)  The Secretary of Labor takes final action on a recommendation of the agency head to waive or adjust liquidated damages in excess of $500.
+
+		(ii)  Upon final administrative determination of the contractor's liability for liquidated damages, transmit withheld or collected funds owed the Government as liquidated damages to the servicing finance and accounting officer for crediting to the appropriate Government Treasury account.  Return any excess withheld funds to the contractor.
+
+
+
+SUBPART 222.4-LABOR STANDARDS FOR CONTRACTS INVOLVING CONSTRUCTION
+
+222.402  Presolicitation.
+
+222.402-1  Applicability.
+
+222.402-170  Installation support contracts.
+
+	(a)  Apply both the Service Contract Labor Standards statute and the Construction Wage Rate Requirements statute to installation support contracts if-
+
+		(1)  The contract is principally for services but also requires a substantial and segregable amount of construction, alteration, renovation, painting, or repair work; and
+
+		(2)  The aggregate dollar value of such construction work exceeds or is expected to exceed $2,000.
+
+	(b)  Service Contract Labor Standards statute coverage under the contract.  Contract installation support requirements, such as plant operation and installation services (i.e., custodial, snow removal, etc.) are subject to the Service Contract Labor Standards.  Apply Service Contract Labor Standards clauses and minimum wage and fringe benefit requirements to all contract service calls or orders for such maintenance and support work.
+
+	(c)  Construction Wage Rate Requirements statute coverage under the contract.  Contract construction, alteration, renovation, painting, and repair requirements (i.e., roof shingling, building structural repair, paving repairs, etc.) are subject to the Construction Wage Rate Requirements statute.  Apply Construction Wage Rate Requirements clauses and minimum wage requirements to all contract service calls or orders for construction, alteration, renovation, painting, or repairs to buildings or other works.
+
+	(d)  Repairs versus maintenance.  Some contract work may be characterized as either Construction Wage Rate Requirements painting/repairs or Service Contract Labor Standards maintenance.  For example, replacing broken windows, spot painting, or minor patching of a wall could be covered by either the Construction Wage Rate Requirements or the Service Contract Labor Standards.  In instances where a contract service call or order requires construction trade skills (i.e., carpenter, plumber, painter, etc.), but uncertainty exists whether the work required is Service Contract Labor Standards maintenance or Construction Wage Rate Requirements painting/repairs, apply the following rules:
+
+		(1)  Consider individual service calls or orders requiring a total of 32 or more work hours to be repair work subject to the Construction Wage Rate Requirements.
+
+		(2)  Consider individual service calls or orders requiring fewer than 32 work hours to be maintenance subject to the Service Contract Labor Standards.
+
+		(3)  Consider painting work of 200 square feet or more, to be performed under an individual service call or order, subject to the Construction Wage Rate Requirements statute regardless of the total work hours required.
+
+	(e)  Where requirements are identifiable, make the determination of labor standards application when of drafting the solicitation.  Otherwise, make the determination when placing the service call or order.  The service call or order must identify the labor standards law and contract wage determination that applies to the work required.
+
+	(f)  Do not avoid application of the Construction Wage Rate Requirements statute by splitting individual tasks between orders or contracts.
+
+222.402-3  Construction Wage Rate Requirements statute.
+
+	(d)  Follow the procedures at PGI 222.402-3(d) when seeking clarification of the proper application of construction wage rate schedules.
+
+222.402-370  Reporting to the Department of Labor.
+See PGI 222.402-370 for guidance on reporting requirements.
+
+222.404  Postaward.
+
+222.404-1  Administration.
+
+	(b)(1)  Upon award of the contract, provide the prime contractor a preconstruction letter to describing the following, as appropriate-
+
+			(i)  Indicate that the labor standards requirements contained in the contract are based on the following statutes and regulations-
+
+				(A)  Construction Wage Rate Requirements statute.
+
+				(B)  Contract Work Hours and Safety Standards statute;
+
+				(C)  Copeland (Anti-Kickback) Act;
+
+				(D)  Parts 3 and 5 of the Secretary of Labor's Regulations (parts 3 and 5, subtitle A, title 29, CFR);
+
+			(ii)  Call attention to the labor standards requirements in the contract, which relate to-
+
+				(A)  Employment of foremen, laborers, mechanics, and others;
+
+				(B)  Wages and fringe benefits payments, payrolls, and statements;
+
+				(C)  Differentiation between subcontractors and suppliers;
+
+				(D)  Additional classifications;
+
+				(E)  Benefits to be realized by contractors and subcontractors in keeping complete work records;
+
+				(F)  Penalties and sanctions for violations of the labor standards provisions; and
+
+				(G)  The applicable provisions of FAR 22.402; and
+
+			(iii)  Ensure that the contractor sends a copy of the preconstruction letter to each subcontractor.
+
+		(2)  Before construction begins, discuss the labor standards obligations under the contract with the prime contractor, and any subcontractor the prime designated, when-
+
+			(A)  The prime contractor has not performed previous Government contracts;
+
+			(B)  The prime contractor experienced difficulty in complying with labor standards requirements on previous contracts; or
+
+			(C)  Uncertainty exists whether the contractor and its subcontractors intend either to pay any required fringe benefits in the manner specified in the wage determination or to elect a different method of payment.  If the latter, inform the contractor of the requirements of FAR 22.404-1.
+
+222.404-2  Enforcement.
+	
+	(a)  Policy.  The proposed construction program must also include-
+
+		(i)  Training appropriate contract administration, labor relations, inspection, and other labor standards enforcement personnel in their responsibilities; and
+
+		(ii)  Periodic review of field enforcement activities to ensure compliance with applicable regulations and instructions.
+
+	(c)  Investigations. 
+
+		(1)  Contracting Agency investigations.  Before beginning an investigation, the investigator must inform the contractor of the general scope of the investigation, and that the investigation will include examining pertinent records and interviewing employees.  In conducting the investigation, follow the procedures at PGI 222.404-2(c).
+
+			(vi)(A)  Notify the contractor by certified mail of any finding that it is liable for liquidated damages under the Contract Work Hours and Safety Standards (CWHSS) statute.  The notification must inform the contractor that-
+
+					(1)  It has 60 days after receipt of the notice to appeal the assessment of liquidated damages; and
+
+					(2)  The appeal must demonstrate either that the alleged violations did not occur at all, occurred inadvertently notwithstanding the exercise of due care, or the assessment was computed improperly.
+
+				(C)(1)  Upon receiving an appeal, process the appeal in accordance with agency regulations.
+
+			(vii)(A)  Forward a detailed enforcement report or summary report to the agency head in accordance with agency procedures. Include in the report, as a minimum, the information specified at PGI 222.404-2(d).	
+
+	(d)  Report.  Forward these reports through the head of the contracting activity to the labor advisor within 15 days following the end of the reporting period.  These reports must not include information from investigations conducted by the Department of Labor.  These reports must contain the following information, as applicable, for construction work subject to the Construction Wage Rate Requirements statute and the CWSS statute-
+
+		(i)  Period covered;
+
+		(ii)  Number of prime contracts awarded;
+
+		(iii)  Total dollar amount of prime contracts awarded;
+
+		(iv)  Number of contractors/subcontractors against whom complaints were received;
+
+		(v)  Number of investigations conducted;
+
+		(vi)  Number of contractors/subcontractors found in violation;
+
+		(vii)  Amount of wage restitution found due under-
+
+			(A)  Construction Wage Rate Requirements statute; and
+
+			(B)  CWSS statute;
+
+		(vii)  Number of employees due wage restitution under-
+
+			(A)  Construction Wage Rate Requirements statute; and
+
+			(B)  CWHSS statute;
+
+		(ix)  Amount of liquidated damages assessed under the CWSS statute-
+
+			(i)  Total amount; and
+
+			(ii)  Number of contracts involved;
+
+		(x)  Number of employees and amount paid/withheld under-
+
+			(A)  Construction Wage Rate Requirements statute;
+
+			(B)  CWSS statute;
+
+			(C)  Copeland Act; and
+
+		(xi)  Regarding preconstruction activities-
+
+			(A)  Number of compliance checks performed; and
+
+			(B)  Preconstruction letters sent.
+
+	(e) Withholding payments 
+
+		(1)  Contact the labor advisor for assistance when payments due a contractor are not available to satisfy that contractor's liability for Construction Wage Rate Requirements or CWHSS statute wage underpayments or liquidated damages.
+
+	(g)  Disposition of contract payments withheld or suspended.  When disposition of withheld funds remains the final action necessary to close out a contract, the Department of Labor will retain withheld funds pending completion of an investigation or other administrative proceedings.
+
+		(3)  Liquidated damages. 
+
+			(A)  The agency head may either adjust liquidated damages of $500 or less when the amount assessed is incorrect or waive the assessment when the violations-
+ 
+				(1)  Were nonwillful or inadvertent; and
+
+				(2)  Occurred notwithstanding the exercise of due care by the contractor, its subcontractor, or their agents.
+
+			(B)  The agency head may recommend to the Administrator, Wage and Hour Division, that the liquidated damages over $500 be adjusted when the amount assessed is incorrect.  The agency head may also recommend waiving the assessment when the violations-
+
+				(1)  Were nonwillful or inadvertent; and
+
+				(2)  Occurred notwithstanding the exercise of due care by the contractor, the subcontractor, or their agents.
+
+SUBPART 222.6-CONTRACTS FOR MATERIALS, SUPPLIES, ARTICLES, AND EQUIPMENT
+
+222.601  Presolicitation.
+
+
+
+
+222.601-3  Exemptions.
+
+	(c)  Submit all applications for such exemptions through contracting channels to the labor advisor.
+
+SUBPART 222.10-SERVICE CONTRACT LABOR STANDARDS
+
+222.1002  Presolicitation
+
+222.1002-1  Applicability.
+
+	(b)  For contracts having a substantial amount of construction, alteration, renovation, painting, or repair work, see 222.402-170.
+
+222.1002-3  Wage determinations.
+Follow the procedures at PGI 222.1002-3 regarding use of the Service Contract Act Directory of Occupations when preparing the e98.
+
+SUBPART 222.13-EQUAL OPPORTUNITY FOR VETERANS
+
+222.1302  Presolitation
+
+222.1302-2  Solicitation provision and contract clauses.
+
+	(a)(1)  Insert the clause at FAR 52.222-35, Equal Opportunity for Veterans, with its paragraph (c), Listing Openings, also satisfies the requirement of 10 U.S.C. 4704.
+
+222.1302-3  Waivers.
+
+	(c)  Follow the procedures at PGI 222.1302-3(c) for submission of waiver requests.
+
+222.1304  Postaward.
+
+	(c)(1)  Forward each complaint received as indicated in FAR 22.1304(c) and (d); and
+
+		(2)  Notify the complainant of the referral. The contractor in question must not be informed in any manner or for any reason of the complainant's name, the nature of the complaint, or the fact that the complaint was received.
+
+SUBPART 222.14-EMPLOYMENT OF WORKERS WITH DISABILITIES
+
+222.1401  Presolicitation.
+
+222.1401-3  Waivers.
+
+	(c)  Submit a waiver request through contracting channels to the labor advisor.  If the request is justified, the labor advisor will endorse the request and forward it for action to-
+
+		(i)  The agency head for waivers under FAR 22.1403(a).  For the defense agencies, waivers must be approved by the Assistant Secretary of Defense for Acquisition.
+
+		(ii)  The Secretary of Defense, without the power of redelegation, for waivers under FAR 22.1403(b).
+
+222.1402  Postaward
+
+	(c)(1)  Notify the complainant of such referral.  The contractor in question must not be informed in any manner or for any reason of the complainant's name, the nature of the complaint, or the fact that the complaint was received.
+
+SUBPART 222.17-COMBATING TRAFFICKING IN PERSONS
+
+222.1703  Presolicitation
+
+222.1703-1  Requirements.
+
+	(a)  See PGI 222.1703-1 for additional information regarding DoD policy for combating trafficking in persons outside the United States.
+
+22.1704  Postaward.
+
+222.1704(a)  Violations. 
+Follow the procedures at PGI 222.1704(a) for notifying the Combatant Commander if a violation occurs.
+
+222.1770  Procedures.
+For a sample checklist for auditing compliance with Combating Trafficking in Persons policy, see PGI 222.17.
+
+SUBPART 222.70-RESTRICTIONS ON THE EMPLOYMENT OF PERSONNEL FOR WORK ON CONSTRUCTION AND SERVICE CONTRACTS IN NONCONTIGUOUS STATES
+
+222.7000  Scope of subpart.
+
+	(a)  This subpart implements Section 8071 of the Fiscal Year 2000 Defense Appropriations Act, Public Law 106-79, and similar sections in subsequent Defense Appropriations Acts.
+
+	(b)  This subpart applies only-
+
+		(1)  To construction and service contracts to be performed in whole or in part within a noncontiguous State; and
+
+		(2)  When the unemployment rate in the noncontiguous State exceeds the national average rate of unemployment as determined by the Secretary of Labor.
+
+
+222.7001  Definition.
+As used in this subpart-
+
+Noncontiguous State means Alaska, Hawaii, Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Islands, Navassa Island, Palmyra Atoll, and Wake Island.
+
+222.7002  General.
+A contractor awarded a contract subject to this subpart must employ, for the purpose of performing that portion of the contract work within the noncontiguous State, individuals who are residents of that noncontiguous State and who, in the case of any craft or trade, possess or would be able to acquire promptly the necessary skills to perform this contract.
+
+222.7003  Waivers.
+The head of the agency may waive the requirements of 222.7002 on a case-by-case basis in the interest of national security.
+
+222.7004  Contract clause.
+Insert the clause at 252.222-7000, Restrictions on Employment of Personnel, in all solicitations and contracts subject to this subpart.  Insert the name of the appropriate noncontiguous State in paragraph (a) of the clause.
+
+SUBPART 222.71 [RESERVED]
+
+SUBPART 222.72-COMPLIANCE WITH LABOR LAWS OF FOREIGN GOVERNMENTS
+
+222.7201  Contract clauses.
+
+	(a)  Insert the clause at 252.222-7002, Compliance with Local Labor Laws (Overseas), in solicitations and contracts for services or construction to be performed outside the United States and its outlying areas.
+
+	(b)  Insert the clause at 252.222-7003, Permit from Italian Inspectorate of Labor, in solicitations and contracts for porter, janitorial, or ordinary facility and equipment maintenance services to be performed in Italy.
+
+	(c)  Insert the clause at 252.222-7004, Compliance with Spanish Social Security Laws and Regulations, in solicitations and contracts for services or construction to be performed in Spain.
+
+SUBPART 222.73-LIMITATIONS APPLICABLE TO CONTRACTS PERFORMED ON GUAM
+
+222.7300  Scope of subpart.
+
+This subpart-
+
+	(a)  Implements Section 390 of the National Defense Authorization Act for Fiscal Year 1998 (Pub. L. 105-85); and
+
+	(b)  Applies to contracts for base operations support on Guam that-
+
+		(1)  Are awarded upon a competition conducted under OMB Circular A-76; and
+
+		(2)  Are entered into or modified on or after November 18, 1997.
+
+222.7301  Prohibition on use of nonimmigrant aliens.
+
+	(a)  An alien who is issued a visa or otherwise provided nonimmigrant status under Section 101(a)(15)(H)(ii) of the Immigration and Nationality Act (8 U.S.C. 1101(a)(15)(H)(ii)) is prohibited from performing work under a contract for base operations support on Guam.
+
+	(b)  Lawfully admitted citizens of the freely associated states of the Republic of the Marshall Islands, the Federated States of Micronesia, or the Republic of Palau are not subject to the prohibition in paragraph (a) of this section.
+
+222.7302  Contract clause.
+Insert the clause at 252.222-7005, Prohibition on Use of Nonimmigrant Aliens-Guam, in solicitations and contracts subject to this subpart.
+
+SUBPART 222.74-RESTRICTIONS ON THE USE OF MANDATORY ARBITRATION AGREEMENTS
+
+222.7400  Scope of subpart.
+This subpart implements section 8116 of the Defense Appropriations Act for Fiscal Year 2010 (Pub. L. 111-118) and similar sections in subsequent DoD appropriations acts.
+
+222.7401  Definition.
+As used in this subpart-
+
+Covered subcontractor, means any entity that has a subcontract valued in excess of $1 million, except a subcontract for the acquisition of commercial products or commercial services, including commercially available off-the-shelf items.
+
+222.7402  Policy.
+
+	(a)  Do not use funds appropriated or otherwise made available by the Fiscal Year 2010 Defense Appropriations Act (Pub. L. 111-118) or subsequent DoD appropriations acts for any contract (including task or delivery orders and bilateral modifications adding new work) in excess of $1 million, unless the contractor agrees not to-
+
+		(1)  Enter into any agreement with any of its employees or independent contractors that requires, as a condition of employment, that the employee or independent contractor agree to resolve through arbitration-
+
+			(i)  Any claim under title VII of the Civil Rights Act of 1964; or
+
+			(ii)  Any tort related to or arising out of sexual assault or harassment, including assault and battery, intentional infliction of emotional distress, false imprisonment, or negligent hiring, supervision, or retention; or
+
+		(2)  Take any action to enforce any provision of an existing agreement with an employee or independent contractor that mandates that the employee or independent contractor resolve through arbitration-
+
+			(i)  Any claim under title VII of the Civil Rights Act of 1964; or
+
+			(ii)  Any tort related to or arising out of sexual assault or harassment, including assault and battery, intentional infliction of emotional distress, false imprisonment, or negligent hiring, supervision, or retention.
+
+	(b)  No funds appropriated or otherwise made available by the Fiscal Year 2010 Defense Appropriations Act (Pub. L. 111-118) or subsequent DoD appropriations acts may be expended unless the contractor certifies that it requires each covered subcontractor to agree not to enter into, and not to take any action to enforce, any provision of any agreement, as described in paragraph (a) of this section, with respect to any employee or independent contractor performing work related to such subcontract.
+
+222.7403  Applicability.
+This requirement does not apply to the acquisition of commercial products or commercial services (including commercially available off-the-shelf items).
+
+222.7404  Waiver.
+
+	(a)  The Secretary of Defense may waive, in accordance with paragraphs (b) through (d) of this section, the applicability of paragraphs (a) or (b) of 222.7402 to a particular contract or subcontract, if the Secretary or the Deputy Secretary personally determines that the waiver is necessary to avoid harm to national security interests of the United States, and that the term of the contract or subcontract is no longer than necessary to avoid such harm.
+
+	(b)  The waiver determination must specify the grounds for the waiver, alternatives considered, and an explanation why each of the alternatives would not avoid harm to national security interests.
+
+	(c)  Submit requests for waivers in accordance with agency procedures and PGI 222.7404(c).
+
+	(d)  The Secretary of Defense will transmit the determination to Congress and simultaneously publish it in the Federal Register, not less than 15 business days before the contract or subcontract addressed in the determination may be awarded.
+
+222.7405  Contract clause.
+Insert the clause at 252.222-7006, Restrictions on the Use of Mandatory Arbitration Agreements, in all solicitations and contracts (including task orders or delivery orders and bilateral modifications adding new work) valued in excess of $1 million utilizing funds appropriated or otherwise made available by the Defense Appropriations Act for Fiscal Year 2010 (Pub. L. 111-118) or subsequent DoD appropriations acts, except in contracts for the acquisition of commercial products, including commercially available off-the-shelf items, or commercial services.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.222-7000 Restrictions on employment of personnel.
+As prescribed in 222.7004, use the following clause:
+
+RESTRICTIONS ON EMPLOYMENT OF PERSONNEL (MAR 2000)
+
+	(a) The Contractor shall employ, for the purpose of performing that portion of the contract work in ________, individuals who are residents thereof and who, in the case of any craft or trade, possess or would be able to acquire promptly the necessary skills to perform the contract.
+
+	(b) The Contractor shall insert the substance of this clause, including this paragraph (b), in each subcontract awarded under this contract.
+
+(End of clause)
+
+252.222-7001 [Reserved]
+
+252.222-7002 Compliance with local labor laws (overseas).
+As prescribed in 222.7201(a), use the following clause:
+
+COMPLIANCE WITH LOCAL LABOR LAWS (OVERSEAS) (JUN 1997)
+
+	(a) The Contractor shall comply with all-
+
+		(1) Local laws, regulations, and labor union agreements governing work hours; and
+
+		(2) Labor regulations including collective bargaining agreements, workers' compensation, working conditions, fringe benefits, and labor standards or labor contract matters.
+
+	(b) The Contractor indemnifies and holds harmless the United States Government from all claims arising out of the requirements of this clause. This indemnity includes the Contractor's obligation to handle and settle, without cost to the United States Government, any claims or litigation concerning allegations that the Contractor or the United States Government, or both, have not fully complied with local labor laws or regulations relating to the performance of work required by this contract.
+
+	(c) Notwithstanding paragraph (b) of this clause, consistent with paragraphs 31.205-15(a) and 31.205-47(d) of the Federal Acquisition Regulation, the Contractor will be reimbursed for the costs of all fines, penalties, and reasonable litigation expenses incurred as a result of compliance with specific contract terms and conditions or written instructions from the Contracting officer.
+
+(End of clause)
+
+252.222-7003 Permit from Italian Inspectorate of Labor.
+As prescribed in 222.7201(b), use the following clause:
+
+PERMIT FROM ITALIAN INSPECTORATE OF LABOR (JUN 1997)
+
+Prior to the date set for commencement of work and services under this contract, the Contractor shall obtain the prescribed permit from the Inspectorate of Labor having jurisdiction over the work site, in accordance with Article 5g of Italian Law Number 1369, dated October 23, 1960. The Contractor shall ensure that a copy of the permit is available at all reasonable times for inspection by the Contracting Officer or an authorized representative. Failure to obtain such permit may result in termination of the contract for the convenience of the United States Government, at no cost to the United States Government.
+
+(End of clause)
+
+252.222-7004 Compliance with Spanish social security laws and regulations.
+As prescribed in 222.7201(c), use the following clause:
+
+COMPLIANCE WITH SPANISH SOCIAL SECURITY LAWS AND REGULATIONS (JUN 1997)
+
+	(a) The Contractor shall comply with all Spanish Government social security laws and regulations. Within 30 calendar days after the start of contract performance, the Contractor shall ensure that copies of the documents identified in paragraph (a)(1) through (a)(5) of this clause are available at all reasonable times for inspection by the Contracting Officer or an authorized representative. The Contractor shall retain the records in accordance with the Audit and Records clause of this contract.
+
+		(1) TC1-Certificate of Social Security Payments;
+
+		(2) TC2-List of Employees;
+
+		(3) TC2/1-Certificate of Social Security Payments for Trainees;
+
+		(4) Nominal (pay statements) signed by both the employee and the Contractor; and
+
+		(5) Informa de Situacion de Empressa (Report of the Condition of the Enterprise) from the Ministerio de Trabajo y S.S., Tesoreria General de la Seguridad Social (annotated with the pertinent contract number(s) next to the employee's name).
+
+	(b) All TC1's, TC2's, and TC2/1's shall contain a representation that they have been paid by either the Social Security Administration office or the Contractor's bank or savings institution. Failure by the Contractor to comply with the requirements of this clause may result in termination of the contract under the clause of the contract entitled "Default."
+
+(End of clause)
+
+252.222-7005 Prohibition on use of nonimmigrant aliens-Guam.
+As prescribed in 222.7302, use the following clause:
+
+PROHIBITION ON USE OF NONIMMIGRANT ALIENS-GUAM (SEP 1999)
+
+The work required by this contract shall not be performed by any alien who is issued a visa or otherwise provided nonimmigrant status under Section 101(a)(15)(H)(ii) of the Immigration and Nationality Act (8 U.S.C. 1101(a)(15)(H)(ii)). This prohibition does not apply to the performance of work by lawfully admitted citizens of the freely associated states of the Republic of the Marshall Islands, the Federated States of Micronesia, or the Republic of Palau.
+
+(End of clause)
+
+252.222-7006 Restrictions on the Use of Mandatory Arbitration Agreements.
+As prescribed in 222.7405, use the following clause:
+
+RESTRICTIONS ON THE USE OF MANDATORY ARBITRATION AGREEMENTS (JAN 2023)
+
+	(a) Definitions. As used in this clause-
+
+Covered subcontractor means any entity that has a subcontract valued in excess of $1 million, except a subcontract for the acquisition of commercial products or commercial services, including commercially available off-the-shelf items.
+
+Subcontract means any contract, as defined in Federal Acquisition Regulation subpart 2.1, to furnish supplies or services for performance of this contract or a higher-tier subcontract thereunder.
+
+	(b) The Contractor-
+
+		(1) Agrees not to-
+
+			(i) Enter into any agreement with any of its employees or independent contractors that requires, as a condition of employment, that the employee or independent contractor agree to resolve through arbitration-
+
+				(A) Any claim under title VII of the Civil Rights Act of 1964; or
+
+				(B) Any tort related to or arising out of sexual assault or harassment, including assault and battery, intentional infliction of emotional distress, false imprisonment, or negligent hiring, supervision, or retention; or
+
+			(ii) Take any action to enforce any provision of an existing agreement with an employee or independent contractor that mandates that the employee or independent contractor resolve through arbitration-
+
+				(A) Any claim under title VII of the Civil Rights Act of 1964; or
+
+				(B) Any tort related to or arising out of sexual assault or harassment, including assault and battery, intentional infliction of emotional distress, false imprisonment, or negligent hiring, supervision, or retention; and
+
+		(2) Certifies, by signature of the contract, that it requires each covered subcontractor to agree not to enter into, and not to take any action to enforce, any provision of any existing agreements, as described in paragraph (b)(1) of this clause, with respect to any employee or independent contractor performing work related to such subcontract.
+
+	(c) The prohibitions of this clause do not apply with respect to a contractor's or subcontractor's agreements with employees or independent contractors that may not be enforced in a court of the United States.
+
+	(d) The Secretary of Defense may waive the applicability of the restrictions of paragraph (b) of this clause in accordance with Defense Federal Acquisition Regulation Supplement 222.7404.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0040
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 22
+Defense FAR Supplement (DFARS) Part 222
+
+
+	Page 1 of 1		
+

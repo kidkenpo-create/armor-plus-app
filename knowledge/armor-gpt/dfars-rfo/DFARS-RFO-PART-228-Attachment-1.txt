@@ -1,0 +1,672 @@
+PART 228-BONDS AND INSURANCE
+
+SUBPART 228.1-BONDS AND OTHER FINANCIAL PROTECTIONS
+
+
+228.102  Performance and payment bonds and alternative payment protections for construction contracts.
+
+228.102-1  General.
+The requirement for performance and payment bonds is waived for cost-reimbursement contracts.  However, for cost-type contracts with fixed-price construction subcontracts over $40,000, require the prime contractor to obtain from each of its construction subcontractors performance and payment protections in favor of the prime contractor as follows:
+
+	(1)  For fixed-price construction subcontracts over $40,000, but not exceeding $150,000, payment protection sufficient to pay labor and material costs, using any of the alternatives listed at FAR 28.102-1(b)(1).
+
+	(2)  For fixed-price construction subcontracts over $150,000-
+
+		(i)  A payment bond sufficient to pay labor and material costs; and
+
+		(ii)  A performance bond in an equal amount if available at no additional cost.
+
+228.102-70  Defense Environmental Restoration Program construction contracts.
+For Defense Environmental Restoration Program construction contracts entered into pursuant to 10 U.S.C. 2701-
+
+	(a)  Any rights of action under the performance bond must only accrue to, and be for the exclusive use of, the obligee named in the bond;
+
+	(b)  In the event of default, the surety's liability on the performance bond is limited to the cost of completion of the contract work, less the balance of unexpended funds.  The liability must not exceed the penal sum of the bond;
+
+	(c)  The surety is not liable for indemnification or compensation of the obligee for loss or liability arising from personal injury or property damage, even if the injury or damage was caused by a breach of the bonded contract; and
+
+	(d)  Once it has taken action to meet its obligations under the bond, the surety is entitled to any indemnification and identical standard of liability to which the contractor was entitled under the contract or applicable laws and regulations.
+
+228.105  Other types of bonds.
+Fidelity and forgery bonds generally are not required but are authorized for use when-
+
+	(1)  Necessary for the protection of the Government or the contractor; or
+
+	(2)  The investigative and claims services of a surety company are desired.
+
+228.106  Administration.
+
+228.106-7  Withholding contract payments.
+
+	(a)  Withholding may be appropriate in construction and other than construction contracts (see FAR 32.112-1(b)).
+
+SUBPART 228.3-INSURANCE
+
+228.304  Risk-pooling arrangements.
+DoD has established the National Defense Projects Rating Plan, also known as the Special Casualty Insurance Rating Plan, as a risk-pooling arrangement to minimize the cost to the Government of purchasing the liability insurance listed in FAR 28.307-2.  Use the plan in accordance with the procedures at PGI 228.304 when it provides the necessary coverage and is more advantageous than commercially available coverage.
+
+228.305  Overseas workers' compensation and war-hazard insurance.
+
+	(d)  When submitting requests for waiver, follow the procedures at PGI 228.305(d).
+
+228.307  Insurance under cost-reimbursement contracts.
+
+228.307-1  Group insurance plans.
+The Defense Department Group Term Insurance Plan is available for contractor use under cost-reimbursement type contracts when approved as provided in department or agency regulations.  A contractor is eligible if-
+
+	(a)  The number of covered employees is 500 or more; and
+
+	(b)  The contractor has all cost-reimbursement contracts; or
+
+	(c)  At least 90 percent of the payroll for contractor operations to be covered by the Plan is under cost-reimbursement contracts.
+
+228.311  Solicitation provision and contract clause on liability insurance under cost-reimbursement contracts.
+
+228.311-1  Contract clause.
+Insert the clause at FAR 52.228-7, Insurance-Liability to Third Persons, in solicitations and contracts, other than those for construction and those for architect-engineer services, when a cost-reimbursement contract is contemplated, unless the head of the contracting activity waives the requirement for use of the clause.
+
+228.370  Ground and flight risk.
+
+228.370-1  Definitions.
+As used in this section-
+
+	"Aircraft" means, unless otherwise provided in the contract Schedule, any item, other than a rocket or missile, intended for flight (e.g., fixed-winged aircraft, blended wing/lifting bodies, helicopters, vertical take-off or landing aircraft, lighter-than-air airships, and unmanned aerial vehicles), including emerging technologies that would commonly be considered aircraft.  New production articles become aircraft at a stage of manufacture or production when a wing, portion of a wing, or engine is attached to a fuselage.  Blended wing/lifting bodies become aircraft at a stage of manufacture or production when the center portion and a lifting surface become attached.
+
+	"Civil aircraft" means an aircraft other than a public aircraft or state aircraft.
+
+	"Contractor managerial personnel" means the contractor's directors, officers, managers, superintendents, or equivalent representatives who have supervision or direction of-
+
+		(1)  All, or substantially all, of the contractor's business;
+
+		(2)  All, or substantially all, of the contractor's operation at any one plant or separate location; or
+
+		(3)  A separate and complete major industrial operation.
+
+	"Covered aircraft" means an aircraft owned by or to be delivered to the Government and, when determined by the contracting officer and specifically identified as such in the contract Schedule, may include contractor-furnished aircraft that are not intended for induction into the DoD inventory, including-
+
+		(1)  Aircraft furnished by the Government to the contractor under a contract while in the contractor's possession, care, custody, or control regardless of their location or state of disassembly or reassembly;
+
+		(2)  Items removed from a Government-furnished aircraft that are-
+
+			(i)  Intended for reinstallation on that particular aircraft, which retain their status as covered aircraft while awaiting installation; and
+
+			(ii)  Not intended for reinstallation on that particular aircraft, which lose their status as covered aircraft once removal is complete;
+
+		(3)  New production aircraft when wholly outside of buildings on the contractor's premises or other places described in the contract Schedule (e.g., hush houses, run stations, and paint facilities); and
+
+		(4)  Commercial aircraft, to include commercially available off-the-shelf aircraft, become covered aircraft when the commercial aircraft arrives at the contractor's place of performance for modification under the terms of the contract.
+
+	"Crewmember" means, unless otherwise provided in the contract Schedule, personnel required in the flight manual, assigned for the purpose of conducting any flight on behalf of the contractor.  It also includes any operator of an unmanned aerial vehicle.
+
+	"Flight" means any flight approved in writing by the Government flight representative, to include taxi test made in the performance of the contract, or flight for the purpose of safeguarding the aircraft.  All aircraft off the contractor's premises shall be considered to be in flight when on the ground or water for reasonable periods of time following emergency landings, landings made in performance of the contract, or landings approved in writing by the contracting officer.
+
+	"Public aircraft" means an aircraft that meets the definition in 49 U.S.C. 40102(a)(41) and the qualifications in 49 U.S.C. 40125.  Specifically, a public aircraft means any of the following:
+
+		(1)  An aircraft used only for the Government, except as provided in paragraphs (5) and (7) of this definition.
+
+		(2)  An aircraft owned by the Government and operated by any person for purposes related to crew training, equipment development, or demonstration, except as provided in paragraph (7) of this definition.
+
+		(3)  An aircraft owned and operated by the government of a State, the District of Columbia, or a territory or possession of the United States or a political subdivision of one of these governments, except as provided in paragraph (7) of this definition.
+
+		(4)  An aircraft exclusively leased for at least 90 continuous days by the government of a State, the District of Columbia, or a territory or possession of the United States or a political subdivision of one of these governments, except as provided in paragraph (7) of this definition.
+
+		(5)  An aircraft owned or operated by the armed forces or chartered to provide transportation or other commercial air service to the armed forces under the conditions specified by 49 U.S.C. 40125(c).  In the preceding sentence, the term "other commercial air service" means an aircraft operation that-
+
+			(i)  Is within the United States territorial airspace;
+
+			(ii)  The Administrator of the Federal Aviation Administration determines is available for compensation or hire to the public; and
+
+			(iii)  Must comply with all applicable civil aircraft rules under title 14, Code of Federal Regulations.
+
+		(6)  An unmanned aircraft that is owned and operated by, or exclusively leased for at least 90 continuous days by, an Indian Tribal government, as defined in section 102 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5122), except as provided in paragraph (7) of this definition.
+
+		(7)  As described in 49 U.S.C. 40125(b), an aircraft described in paragraph (1), (2), (3), or (4) of this definition does not qualify as a public aircraft in situations where the aircraft is used for commercial purposes or to carry an individual other than a crewmember or a qualified non-crewmember.
+
+	"Public aircraft operation" means operation of an aircraft that meets the legal definition of public aircraft established in 49 U.S.C. 40102(a)(41) and the legal qualifications for public aircraft status outlined in 49 U.S.C. 40125.
+
+	"State aircraft" means an aircraft operated by the Government for sovereign, noncommercial purposes such as military, customs, and police services.  Military aircraft are afforded status as state aircraft.  In very rare circumstances, DoD-contracted aircraft may be designated, in writing, by a responsible Government official pursuant to DoD Directive 4500.54E, DoD Foreign Clearance Program, to be operated in state aircraft status, and States may choose to treat them as deemed state aircraft when they are operating under a Government contract.
+
+	"Workmanship error" means damage to the aircraft that is the result of an incorrectly performed skill-based task, operation, or action that was originally planned or intended.
+
+228.370-2  General.
+
+	(a)  Assignment of a Government flight representative.  See PGI 228.370-2(a) for procedures on assigning a Government flight representative (GFR) when using the clauses at 252.228-7001 and 252.228-7007.
+
+	(b)  Preaward survey.  Before awarding any contract that includes the clause at 252.228-7001, Ground and Flight Risk, the contracting officer should obtain a preaward survey of the offeror's proposed aircraft flight and ground operations facility.  If the offeror proposed subcontracting any aircraft work, the preaward survey should include a review of the subcontractor's facility.  For acquisitions falling under the exceptions at 228.371(b)(1)(iii), (iv), and (vi), the contracting officer must review the documentation the offeror submitted with the proposal in response to the DD Form 1423, Contract Data Requirements List, to ensure the offeror's commercial insurance provides the appropriate coverage required by the clause at 252.228-7001.
+
+	(c)  Foreign military sales.  The exception for foreign military sales (FMS) contracts at 228.371(b)(1)(iii) only applies to FMS cases where the FMS customer has explicitly refused assumption of risk of loss.  If the FMS customer has accepted the standard Letter of Offer and Acceptance Standard Terms and Conditions, as described in DoD 5105.38-M, Security Assistance Management Manual, they have assumed risk of loss.
+
+	(d)  Commercial derivative aircraft.  The exception at 228.371(b)(1)(iv) for commercial derivative aircraft only applies if the contractor is a licensed and certified Federal Aviation Administration (FAA) repair station for the specific model of aircraft under contract, when work is being performed pursuant to the FAA license under 14 CFR part 145.  The FAA's repair station search tool is available at https://av-info.faa.gov/repairstation.asp.  All aircraft flying public aircraft operations operate under airworthiness certificates maintained by the military services.  The FAA airworthiness certificate in the exception in this paragraph (d) underlies the military service certificate.
+
+	(e)  Insurance.  The clause at 252.228-7001, Ground and Flight Risk, is intended to reduce acquisition costs by eliminating the costs of commercial insurance premiums.  This clause also is intended to encourage the contractor to perform safe and effective operations through inclusion of a contractor's share of loss (i.e., a deductible).  Additionally, the clause requires compliance with the combined regulation/instruction entitled "Contractor's Flight and Ground Operations" (Air Force Instruction 10-220, Army Regulation 95-20, Naval Air Systems Command (NAVAIR) Instruction 3710.1 (Series), Coast Guard Instruction M13020.3 (Series), and Defense Contract Management Agency Instruction 8210-1 (Series)), which provides procedures to mitigate the risk of loss to the Government.  For this reason, paragraph (e)(4)(ii) of the clause at 252.228-7001 specifies that insurance premium costs are unallowable.  In addition, paragraph (d)(4) of the clause provides that the Government's assumption of risk does not apply where the loss or damage is covered by available insurance.
+
+	(f)  Damage to Government aircraft.
+
+		(1)  Whenever damage to Government aircraft is reported, each incident should be evaluated on its own merits.  When the cost of repair exceeds the contractor's share of loss provisions, the contracting officer must make a liability determination in accordance with paragraph (g) of this section.
+
+		(2)  Contracting officers should consult with the requiring activity and the assigned contract administration office on replacement, repair, or beyond economic repair decisions.
+
+		(3)  See PGI 228.370-2(f) for an example of accident or mishap damage versus workmanship-error damage.
+
+	(g)  Contracting officer determination of liability.
+
+		(1)  When making a liability determination, the contracting officer should seek input from the GFR and legal counsel, as needed.
+
+		(2)  The Government's assumption of risk must not extend to damage, loss, or destruction of covered aircraft that-
+
+			(i)  Is the result of willful misconduct or lack of good faith on the part of the contractor's managerial personnel, including the contractor's oversight of subcontractors;
+
+			(ii)  Is sustained during flight if either the flight or the crewmembers have not been approved in advance and in writing by the GFR, who has been authorized in accordance with the combined regulation/instruction entitled "Contractor's Flight and Ground Operations";
+
+			(iii)  Occurs in the course of transportation by rail, or by conveyance on public streets, highways, or waterways, unless the transportation is limited to the vicinity of the contractor's premises, and incidental to work performed under the contract as described in the Schedule;
+
+			(iv)  Is covered by insurance;
+
+			(v)  Occurs after the contracting officer has, in writing, revoked the Government's assumption of risk; or
+
+			(vi)  Is sustained due to workmanship errors.
+
+	(h)  Notice of revocation of the Government's assumption of risk.  The liability provisions of the clause at FAR 52.245-1, Government Property, do not apply to the aircraft impacted by a notice of revocation.
+
+		(1)  Preliminary notice of revocation.
+
+			(i)  When finding that contractor managerial personnel have failed to comply with the combined regulation/instruction, as required by paragraph (b) of the clause at 252.228-7001, including finding the covered aircraft are exposed to unreasonable conditions, the contracting officer must issue a preliminary notice of revocation of the Government's assumption of risk to the contractor and must require the contractor to comply with contract requirements.  Factors for the contracting officer to consider in determining exposure to unreasonable conditions include, but are not limited to, the following:
+
+				(A)  Lack of adequate hangar fire suppression or firefighting vehicles;
+
+				(B)  Failure to provide adequate procedures to the GFR; or
+
+				(C)  Systemic failure to comply with approved procedures.
+
+			(ii)  The preliminary notice of revocation will state the timeframe for the contractor to correct the noncompliance or conditions.
+
+		(2)  Notice of revocation.  If the contractor fails to correct the cited noncompliance or conditions within the specified timeframe, the contracting officer must issue to the contractor a notice of revocation of the Government's assumption of risk for any covered aircraft.
+
+			(i)  Thereafter the contractor assumes the entire risk for damage, loss, or destruction of the previously covered aircraft.
+
+			(ii)  Any costs incurred by the contractor, including the costs of the contractor's self-insurance, insurance premiums paid to insure the contractor's assumption of risk, deductibles associated with such purchased insurance, etc., to mitigate its risk are unallowable costs.
+
+			(iii)  The notice of revocation does not relieve the contractor of its obligation to comply with all other provisions of the clause at 252.228-7001, including the combined regulation/instruction entitled "Contractor's Flight and Ground Operations".
+
+			(iv)  Within 3 days of receipt of the contractor's notice of correction, the contracting officer must notify the contractor whether the Government will resume risk of loss.  The contracting officer must determine that the noncompliance or cited conditions have been corrected prior to resuming assumption of risk.
+
+			(v)  Any disputes regarding the contracting officer's notice of revocation must be subject to FAR clause 52.233-1, Disputes.
+
+	(i)  Procedures in the event of damage, loss, or destruction of covered aircraft.
+
+		(1)  In the event of damage, loss, or destruction of covered aircraft, except in cases covered by paragraph (j)(2) of this section, the contracting officer must evaluate the contractor's statement of-
+
+			(i)  The damaged, lost, or destroyed aircraft;
+
+			(ii)  The time and origin of the damage, loss, or destruction;
+
+			(iii)  All known interests in commingled property of which aircraft are a part; and
+
+			(iv)  The insurance, if any, covering the interest in commingled property.
+
+		(2)  If a new production aircraft is damaged, lost, or destroyed before it has become a covered aircraft, the Government bears no responsibility for risk of loss.
+
+		(3)  If a new production aircraft is damaged, lost, or destroyed after it has become a covered aircraft, the contracting officer must provide written direction to the contractor to take action in accordance with the contracting officer's written direction that the aircraft shall be-
+
+			(i)  Replaced;
+
+			(ii)  Repaired to the condition immediately prior to the damage; or
+
+			(iii)  Considered beyond economic repair.  The contracting officer must decide whether further actions are required under the contract.
+
+		(4)  If a covered aircraft that has been furnished by the Government to the contractor is damaged, lost, or destroyed while covered, the contracting officer must provide written direction to the contractor that the aircraft shall be-
+
+			(i)  Repaired; or
+
+			(ii)  Considered beyond economic repair.  The contracting officer must decide further actions required under the contract.
+
+		(5)  The contracting officer must make an equitable adjustment for expenditures made in performing the obligations under paragraph (h) of the clause at 252.228-7001.
+
+	(j)  Contracting officer determination of the contractor's share of loss.
+
+		(1)  The contractor's share of loss or damage to covered aircraft, except for loss or damage caused by negligence of Government personnel, is the least of-
+
+			(i)  $200,000;
+
+			(ii)  20 percent of the price or estimated acquisition cost of affected aircraft; or
+
+			(iii)  20 percent of the price or estimated cost of the contract, task order, or delivery order.
+
+		(2)  If the Government requires covered aircraft to be replaced or repaired by the contractor, any resulting equitable adjustment must not include reimbursement of the contractor's share of loss.
+
+		(3)  In the event the Government does not decide to replace or repair the covered aircraft, the clause at 252.228-7001 requires the contractor to credit the contract price or pay the Government, as directed by the contracting officer, the least of-
+
+			(i)  $200,000;
+
+			(ii)  20 percent of the price or estimated acquisition cost of affected aircraft; or
+
+			(iii)  20 percent of the price or estimated cost of the contract, task order, or delivery order.
+
+		(4)  The costs incurred by the contractor for its share of the loss and for insuring against that loss are unallowable costs, including but not limited to-
+
+			(i)  The contractor's share of loss under the Government's self-insurance;
+
+			(ii)  The costs of the contractor's self-insurance;
+
+			(iii)  The deductible for any contractor-purchased insurance;
+
+			(iv)  Insurance premiums paid for contractor-purchased insurance; and
+
+			(v)  Costs associated with determining, litigating, and defending against the contractor's liability.
+
+	(k)  Reimbursement from a third party.  If the contracting officer finds or has reason to believe that the contractor has been reimbursed or otherwise compensated by a third party for damage, loss, or destruction of covered aircraft and has also been compensated by the Government, then the contracting officer must demand an equitable reimbursement.  If the contracting officer requests that the contractor provide reasonable assistance in obtaining recovery, such effort must be an allowable expense of the contractor.
+
+228.370-3  Aircraft not owned by or to be delivered to the Government.
+
+	(a)  When a contract involves aircraft not owned by or to be delivered to the Government, the contracting officer may use the clause at 252.228-7001 only if the contracting officer determines that it is in the best interest of the Government.
+
+	(b)  Potential factors for the contracting officer to consider when deciding which course of action is in the best interest of the Government include, but are not limited to, whether-
+
+		(1)  The cost of hull insurance exceeds the replacement cost of the aircraft;
+
+		(2)  Insurance is not available (e.g., high-risk experimental flights and operations of aircraft in a war zone); or
+
+		(3)  Ground or flight activities that involve contractor-owned and contractor-operated aircraft may pose risk to Government aircraft (e.g., due to close proximity in flight).
+
+228.371  Additional clauses.
+
+	(a)  Insert the clause at 252.228-7000, Reimbursement for War-Hazard Losses, when-
+
+		(1)  The clause at FAR 52.228-4, Worker's Compensation and War-Hazard Insurance Overseas, is used; and
+
+		(2)  The head of the contracting activity decides not to allow the contractor to buy insurance for war-hazard losses.
+
+	(b)  Insert the clause at 252.228-7001, Ground and Flight Risk, in solicitations and contracts-
+
+		(1)  For the acquisition, development, production, modification, maintenance, repair, flight, or overhaul of aircraft owned by or to be delivered to the Government, except those solicitations and contracts-
+
+			(i)  That are strictly for activities incidental to the normal operations of the aircraft (e.g., refueling operations, minor non-structural actions not requiring towing such as replacing aircraft tires due to wear and tear);
+
+			(ii)  That are awarded for purchase under FAR part 12 procedures;
+
+			(iii)  For which a non-DoD customer (including an FMS customer per 225.7305) has decided to allow the use of commercial insurance or other self-insurance;
+
+			(iv)  For commercial derivative aircraft with an FAA certificate of airworthiness maintained to FAA standards.  Performance under the exception in this paragraph (b)(1)(iv) must be at a licensed and certified FAA repair station rated for the type of aircraft and work to be maintained.  This exception does not apply to contracts requiring flights with contractor crewmembers;
+
+			(v)  Under which the aircraft are to be dismantled and removed from the inventory; or
+
+			(vi)  Under which the aircraft are classified as Group 1 or 2 unmanned aircraft systems per DoD Instruction (DoDI) 6055.07, Mishap Notification, Investigation, Reporting, and Record Keeping, and the purchase price of the air vehicle, including installed Government-furnished equipment, is below the cost threshold for a Class C mishap per DoDI 6055.07; or
+
+		(2)  Involving aircraft not owned by or to be delivered to the Government, only if the contracting officer determines that it is in the best interest of the Government.  See 228.370-3.
+
+	(c)  The clause at 252.228-7003, Capture and Detention, may be used when contractor employees are subject to capture and detention and may not be covered by the War Hazards Compensation Act (42 U.S.C. 1701 et seq.).
+
+	(d)  Insert the clause at 252.228-7005, Mishap Reporting and Investigation Involving Aircraft, Missiles, and Space Launch Vehicles, in solicitations and contracts that involve the manufacture, modification, overhaul, or repair of aircraft, missiles, and space launch vehicles.
+
+	(e)  Insert the clause at 252.228-7006, Compliance with Spanish Laws and Insurance, in solicitations and contracts for services or construction to be performed in Spain, unless the Contractor is a Spanish concern.
+
+	(f)  Insert the clause at 252.228-7007, Public Aircraft and State Aircraft Operations-Liability, in solicitations and contracts that do not include the clause at 252.228-7001 but involve public aircraft operations or state aircraft operations.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+
+252.228-7000  Reimbursement for War-Hazard Losses.
+As prescribed in 228.371(a), use the following clause:
+
+REIMBURSEMENT FOR WAR-HAZARD LOSSES (DEC 1991)
+
+	(a)  Costs for providing employee war-hazard benefits in accordance with paragraph (b) of the Workers' Compensation and War-Hazard Insurance clause of this contract are allowable if the Contractor-
+
+		(1)  Submits proof of loss files to support payment or denial of each claim;
+
+		(2)  Subject to Contracting Officer approval, makes lump sum final settlement of any open claims and obtains necessary release documents within one year of the expiration or termination of this contract, unless otherwise extended by the Contracting Officer; and
+
+		(3)  Provides the Contracting Officer at the time of final settlement of this contract-
+
+			(i)  An investigation report and evaluation of any potential claim; and
+
+			(ii)  An estimate of the dollar amount involved should the potential claim mature.
+
+	(b)  The cost of insurance for liabilities reimbursable under this clause is not allowable.
+
+	(c)  The Contracting Officer may require the Contractor to assign to the Government all right, title, and interest to any refund, rebate, or recapture arising out of any claim settlements.
+
+	(d)  The Contractor agrees to-
+
+		(1)  Investigate and promptly notify the Contracting Officer in writing of any occurrence which may give rise to a claim or potential claim, including the estimated amount of the claim;
+
+		(2)  Give the Contracting Officer immediate written notice of any suit or action filed which may result in a payment under this clause; and
+
+		(3)  Provide assistance to the Government in connection with any third party suit or claim relating to this clause which the Government elects to prosecute or defend in its own behalf.
+
+(End of clause)
+
+
+252.228-7001  Ground and Flight Risk.
+As prescribed in 228.371(b), use the following clause:
+
+GROUND AND FLIGHT RISK (MAR 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Aircraft" means, unless otherwise provided in the contract Schedule, any item, other than a rocket or missile, intended for flight (e.g., fixed-winged aircraft, blended wing/lifting bodies, helicopters, vertical take-off or landing aircraft, lighter-than-air airships, and unmanned aerial vehicles), including emerging technologies that would commonly be considered aircraft.  New production articles become aircraft at a stage of manufacture or production when a wing, portion of a wing, or engine is attached to a fuselage.  Blended wing/lifting bodies become aircraft at a stage of manufacture or production when the center portion and a lifting surface become attached.
+
+	"Contractor's managerial personnel" means the Contractor's directors, officers, 
+managers, superintendents, or equivalent representatives who have supervision or direction of-
+
+		(1)  All, or substantially all, of the Contractor's business;
+
+		(2)  All, or substantially all, of the Contractor's operation at any one plant or 
+separate location; or
+
+		(3)  A separate and complete major industrial operation.
+
+	"Contractor's premises" means those premises, including subcontractors' premises, 
+designated in the Schedule or in writing by the Contracting Officer, and any other place the aircraft is moved for safeguarding.
+
+	"Covered aircraft" means an aircraft owned by or to be delivered to the Government and, when determined by the contracting officer and specifically identified as such in the contract Schedule, may include contractor-furnished aircraft that are not intended for induction into the DoD inventory, including-
+
+		(1)  Aircraft furnished by the Government to the Contractor under this contract while in the Contractor's possession, care, custody, or control regardless of their location or state of disassembly or reassembly;
+
+		(2)  Items removed from a Government-furnished aircraft that are-
+
+			(i)  Intended for reinstallation on that particular aircraft, which retain their status as covered aircraft while awaiting installation; and
+
+			(ii)  Not intended for reinstallation on that particular aircraft, which lose their status as covered aircraft once removal is complete;
+
+		(3)  New production aircraft when wholly outside of buildings on the Contractor's premises or other places described in the Schedule (e.g., hush houses, run stations, and paint facilities); and
+
+		(4)  Commercial aircraft, to include commercially available off-the-shelf aircraft, become covered aircraft when the commercial aircraft arrives at the Contractor's place of performance for modification under the terms of the contract.
+
+	"Crewmember" means, unless otherwise provided in the Schedule, personnel required in the flight manual, assigned for the purpose of conducting any flight on behalf of the Contractor.  It also includes any operator of an unmanned aerial vehicle.
+
+	"Flight" means any flight approved in writing by the Government flight representative, to include taxi test made in the performance of this contract, or flight for the purpose of safeguarding the aircraft.  All aircraft off the Contractor's premises shall be considered to be in flight when on the ground or water for reasonable periods of time following emergency landings, landings made in performance of the contract, or landings approved in writing by the contracting officer.
+
+	"Workmanship error" means damage to the aircraft that is the result of an incorrectly performed skill-based task, operation, or action that was originally planned or intended.
+
+	(b)  Combined regulation/instruction.  The Contractor shall be bound by the operating procedures contained in the combined regulation/instruction entitled "Contractor's Flight and Ground Operations" (Air Force Instruction 10-220, Army 
+Regulation 95-20, NAVAIR Instruction 3710.1 (Series), Coast Guard Instruction 
+M13020.3 (Series), and Defense Contract Management Agency Instruction 8210-1 (Series)) in effect on the date of contract award.  Compliance with the combined regulation/instruction is required from the time of contract award throughout the period of performance of the contract, regardless of the Government's assumption of risk under the contract.
+
+	(c)  Government as self-insurer.  The Government self-insures and assumes the risk of damage to, or loss or destruction of, covered aircraft subject to the following conditions:
+
+		(1)  The Contractor's liability to the Government for damage, loss, or destruction of covered aircraft is limited to the Contractor's share of loss as defined at paragraph (h) of this clause, except when one of the exclusions at paragraph (d) applies.
+
+		(2)  The liability provisions of this clause take precedence over the liability provisions of Federal Acquisition Regulation (FAR) clause 52.245-1, Government Property, with respect to covered aircraft.
+
+		(3)  The Contractor is not liable for loss, damage, or destruction of covered aircraft as the result of normal wear and tear, or intentional damage or destruction as required in the Schedule.
+
+		(4)  Conditions for Government assumption of risk in flight are as follows:
+
+			(i)  The Contractor's crewmembers are approved in writing by the Government flight representative (GFR).
+
+			(ii)  The flight is approved in writing by the GFR.
+
+	(d)  Exclusions from the Government's assumption of risk.  The Government's assumption of risk under this clause shall not extend to damage, loss, or destruction of covered aircraft which-
+
+		(1)  Is the result of willful misconduct or lack of good faith on the part of the Contractor's managerial personnel, including the Contractor's oversight of subcontractors;
+
+		(2)  Is sustained during flight if either the flight or the crewmembers have not been approved in advance and in writing by the GFR, who has been authorized in 
+accordance with the combined regulation/instruction entitled "Contractor's Flight and Ground Operations";
+
+		(3)  Occurs in the course of transportation by rail, or by conveyance on public 
+streets, highways, or waterways, unless the transportation is limited to the vicinity of 
+the Contractor's premises, and incidental to work performed under the contract as described in the Schedule;
+
+		(4)  Is covered by insurance;
+
+		(5)  Occurs after the Contracting Officer has, in writing, revoked the Government's assumption of risk in accordance with paragraph (e)(3) of this clause; 
+or
+
+		(6)  Is sustained due to workmanship errors.
+
+	(e)  Revoking the Government's assumption of risk.
+
+		(1)  The Contracting Officer, when finding that the Contractor's managerial personnel have failed to comply with paragraph (b) of this clause, will issue a preliminary notice of revocation requiring the Contractor to comply with contract requirements within a timeframe specified by the Contracting Officer.  In determining exposure to unreasonable conditions, the Contracting Officer will consider factors including, but not limited to, the following:  lack of adequate hangar fire suppression or firefighting vehicles, failure to provide adequate procedures to the GFR, or systemic failure to comply with approved procedures.
+
+		(2)  Upon receipt of the preliminary notice of revocation, the Contractor shall promptly correct the noncompliance or cited conditions, regardless of whether there is agreement that the conditions are unreasonable.
+
+		(3)  If the Contracting Officer finds that the Contractor failed to correct the cited noncompliance or conditions within the specified timeframe, the Contracting Officer will issue a notice of revocation of the Government's assumption of risk for any covered aircraft.
+
+		(4)  If the Contracting Officer issues a notice of revocation pursuant to the terms of this clause-
+
+			(i)  The Contractor shall thereafter assume the entire risk for damage, loss, or destruction of the previously covered aircraft;
+
+			(ii)  Any costs incurred by the Contractor (including the costs of the Contractor's self-insurance, insurance premiums paid to insure the Contractor's assumption of risk, deductibles associated with such purchased insurance, etc.) to mitigate its risk are unallowable costs; and
+
+			(iii)  The liability provisions of the clause at FAR 52.245-1, Government Property, are not applicable to the aircraft impacted by the notice of revocation.
+
+		(5)  The Contractor shall promptly notify the Contracting Officer when the noncompliance or cited conditions have been corrected.  Within 3 days of receipt of the Contractor's notice of correction, the Contracting Officer will notify the Contractor whether the Government will resume risk of loss.  The Contracting Officer will determine that the noncompliance or cited conditions have been corrected prior to resuming assumption of risk.
+
+		(6)  The notice of revocation does not relieve the Contractor of its obligation to comply with all other provisions of this clause, including the combined regulation/instruction entitled "Contractor's Flight and Ground Operations."
+
+		(7)  Any disputes regarding the Contracting Officer's notice of revocation shall be subject to FAR clause 52.233-1, Disputes.
+
+	(f)  Contractor's exclusion of insurance costs.  The Contractor warrants that the 
+contract price does not and will not include, except as may be authorized in this clause, 
+any charge or contingency reserve for insurance (including the Contractor's share of loss) covering damage, loss, or destruction of covered aircraft when the risk has been assumed by the Government even if the assumption may be terminated for covered aircraft.
+
+	(g)  Procedures in the event of damage, loss, or destruction.
+
+		(1)  In the event of damage, loss, or destruction of covered aircraft, the 
+Contractor shall take all reasonable steps to protect the aircraft from further damage, to separate damaged and undamaged aircraft, and to put all aircraft in the best possible 
+order.  Except in cases covered by paragraph (h)(2) of this clause, the Contractor shall 
+furnish to the Contracting Officer a statement of-
+
+			(i)  The damaged, lost, or destroyed aircraft;
+
+			(ii)  The time and origin of the damage, loss, or destruction;
+
+			(iii)  All known interests in commingled property of which aircraft are a part; and
+
+			(iv)  The insurance, if any, covering the interest in commingled property.
+
+		(2)  If a new production aircraft is damaged, lost, or destroyed before it has become a covered aircraft, the Government bears no responsibility for risk of loss.
+
+		(3)  If a new production aircraft is damaged, lost, or destroyed after it has become a covered aircraft, the Contractor shall take action in accordance with the Contracting Officer's written direction that the aircraft shall be-
+
+			(i)  Replaced;
+
+			(ii)  Repaired to the condition immediately prior to the damage; or
+
+			(iii)  Considered beyond economic repair.  The Contracting Officer will decide whether further actions are required under the contract.
+
+		(4)  If a covered aircraft that has been furnished by the Government to the Contractor is damaged, lost, or destroyed while covered, the Contractor shall take action in accordance with the Contracting Officer's written direction that the aircraft shall be-
+
+			(i)  Repaired; or
+
+			(ii)  Considered beyond economic repair.  The Contracting Officer will decide further actions required under the contract.
+
+		(5)  The Contracting Officer will make an equitable adjustment for expenditures made in performing the obligations under this paragraph (g).
+
+	(h)  Contractor's share of loss.
+
+		(1)  The Contractor's share of loss or damage to covered aircraft, except for loss or damage caused by negligence of Government personnel, is the least of-
+
+			(i)  $200,000;
+
+			(ii)  20 percent of the price or estimated acquisition cost of affected aircraft; or
+
+			(iii)  20 percent of the price or estimated cost of the contract, task order, or delivery order.
+
+		(2)  If the Government requires covered aircraft be replaced or repaired by the Contractor, any resulting equitable adjustment shall not include reimbursement of the Contractor's share of loss.
+
+		(3)  In the event the Government does not decide to replace or repair, the Contractor agrees to credit the contract price or pay the Government, as directed by the Contracting Officer, the least of-
+
+			(i)  $200,000;
+
+			(ii)  20 percent of the price or estimated acquisition cost of affected aircraft; or
+
+			(iii)  20 percent of the price or estimated cost of the contract, task order, or delivery order.
+
+		(4)  The costs incurred by the Contractor for its share of the loss and for insuring against that loss are unallowable costs, including but not limited to-
+
+			(i)  The Contractor's share of loss under the Government's self-insurance;
+
+			(ii)  The costs of the Contractor's self-insurance;
+
+			(iii)  The deductible for any Contractor-purchased insurance;
+
+			(iv)  Insurance premiums paid for Contractor-purchased insurance; and
+
+			(v)  Costs associated with determining, litigating, and defending against the Contractor's liability.
+
+	(i)  Reimbursement from a third party.  In the event the Contractor is reimbursed or compensated by a third party for damage, loss, or destruction of covered aircraft and 
+has also been compensated by the Government, the Contractor shall equitably reimburse the Government. The Contractor shall do nothing to prejudice the Government's right to recover against third parties for damage, loss, or destruction. Upon the request of the Contracting Officer or authorized representative, the Contractor shall at Government expense furnish to the Government all reasonable assistance and cooperation (including the prosecution of suit and the execution of instruments of assignment or subrogation) in obtaining recovery.
+
+	(j)  Liability to third parties.  Unless the flight and crewmembers have been approved in writing by the GFR, the Contractor shall not be reimbursed for liability to third parties for loss or damage to property or for death or bodily injury caused by covered aircraft during flight, even if the Government has accepted such liability under any other provisions of the contract.
+
+	(k)  Subcontracts.  The Contractor shall incorporate the requirements of this clause, including this paragraph (k), in subcontracts to include subcontracts for commercial products and commercial services, except-
+
+		(1)  The Contractor shall not include paragraph (f) of this clause in subcontracts for commercial products or commercial services; and
+
+		(2)  The Contractor shall not incorporate the requirements of this clause in subcontracts with Federal Aviation Administration (FAA) part 145 repair stations performing work pursuant to their FAA license.
+
+(End of clause)
+
+252.228-7002  Reserved.
+
+
+252.228-7003  Capture and Detention.
+As prescribed in 228.371(c), use the following clause:
+
+CAPTURE AND DETENTION (DEC 1991)
+
+	(a)  As used in this clause-
+
+		(1)  "Captured person" means any employee of the Contractor who is-
+
+			(i)  Assigned to duty outside the United States for the performance of this contract; and
+
+			(ii)  Found to be missing from his or her place of employment under circumstances that make it appear probable that the absence is due to the action of the force of any power not allied with the United States in a common military effort; or
+
+			(iii)  Known to have been taken prisoner, hostage, or otherwise detained by the force of such power, whether or not actually engaged in employment at the time of capture; provided, that at the time of capture or detention, the person was either-
+
+				(A)  Engaged in activity directly arising out of and in the course of employment under this contract; or
+
+				(B)  Captured in an area where required to be only in order to perform this contract.
+
+		(2)  A "period of detention" begins with the day of capture and continues until the captured person is returned to the place of employment, the United States, or is able to be returned to the jurisdiction of the United States, or until the person's death is established or legally presumed to have occurred by evidence satisfactory to the Contracting Officer, whichever occurs first.
+
+		(3)  "United States" comprises geographically the 50 states and the District of Columbia.
+
+		(4)  "War Hazards Compensation Act" refers to the statute compiled in Chapter 12 of Title 42, U.S. Code (sections 1701-1717), as amended.
+
+	(b)  If pursuant to an agreement entered into prior to capture, the Contractor is obligated to pay and has paid detention benefits to a captured person, or the person's dependents, the Government will reimburse the Contractor up to an amount equal to the lesser of-
+
+		(1)  Total wage or salary being paid at the time of capture due from the Contractor to the captured person for the period of detention; or
+
+		(2)  That amount which would have been payable if the detention had occurred under circumstances covered by the War Hazards Compensation Act.
+
+	(c)  The period of detention shall not be considered as time spent in contract performance, and the Government shall not be obligated to make payment for that time except as provided in this clause.
+
+	(d)  The obligation of the Government shall apply to the entire period of detention, except that it is subject to the availability of funds from which payment can be made.  The rights and obligations of the parties under this clause shall survive prior expiration, completion, or termination of this contract.
+
+	(e)	The Contractor shall not be reimbursed under this clause for payments made if the employees were entitled to compensation for capture and detention under the War Hazards Compensation Act, as amended.
+
+(End of clause)
+
+
+252.228-7004  Reserved.
+
+
+252.228-7005  Mishap Reporting and Investigation Involving Aircraft, Missiles, and Space Launch Vehicles.
+As prescribed in 228.371(d), use the following clause:
+
+MISHAP REPORTING AND INVESTIGATION INVOLVING AIRCRAFT, MISSILES, AND SPACE LAUNCH VEHICLES (NOV 2019)
+
+	(a)  The Contractor shall report promptly to the Administrative Contracting Officer all pertinent facts relating to each mishap involving an aircraft, missile, or space launch vehicle being manufactured, modified, repaired, or overhauled in connection with this contract.
+
+	(b)  If the Government conducts an investigation of the mishap, the Contractor shall cooperate and assist the Government's personnel until the investigation is complete.
+
+	(c)  The Contractor shall include a clause in subcontracts under this contract to require subcontractor cooperation and assistance in mishap investigations.
+
+(End of clause)
+
+
+252.228-7006  Compliance with Spanish Laws and Insurance.
+As prescribed in 228.371(e), use the following clause:
+
+COMPLIANCE WITH SPANISH LAWS AND INSURANCE (DEC 1998)
+
+	(a)  The requirements of this clause apply only if the Contractor is not a Spanish concern.
+
+	(b)  The Contractor shall, without additional expense to the United States Government, comply with all applicable Spanish Government laws pertaining to sanitation, traffic, security, employment of labor, and all other laws relevant to the performance of this contract.  The Contractor shall hold the United States Government harmless and free from any liability resulting from the Contractor's failure to comply with such laws.
+
+	(c)  The Contractor shall, at its own expense, provide and maintain during the entire performance of this contract, all workmen's compensation, employees' liability, bodily injury insurance, and other required insurance adequate to cover the risk assumed by the Contractor.  The Contractor shall indemnify and hold harmless the United States Government from liability resulting from all claims for damages as a result of death or injury to personnel or damage to real or personal property related to the performance of this contract.
+
+	(d)  The Contractor agrees to represent in writing to the Contracting Officer, prior to commencement of work and not later than 15 days after the date of the Notice to Proceed, that the Contractor has obtained the required types of insurance in the following minimum amounts.  The representation also shall state that the Contractor will promptly notify the Contracting Officer of any notice of cancellation of insurance or material change in insurance coverage that could affect the United States Government's interests.
+
+Type of InsuranceCoverage per PersonCoverage per AccidentProperty DamageComprehensive General Liability$300,000$1,000,000$100,000
+	(e)  The Contractor shall provide the Contracting Officer with a similar representation for all subcontracts with non-Spanish concerns that will perform work in Spain under this contract.
+
+	(f)  Insurance policies required herein shall be purchased from Spanish insurance companies or other insurance companies legally authorized to conduct business in Spain.  Such policies shall conform to Spanish laws and regulations and shall?
+
+		(1)  Contain provisions requiring submission to Spanish law and jurisdiction of any problem that may arise with regard to the interpretation or application of the clauses and conditions of the insurance policy;
+
+		(2)  Contain a provision authorizing the insurance company, as subrogee of the insured entity, to assume and attend to directly, with respect to any person damaged, the legal consequences arising from the occurrence of such damages;
+
+		(3)  Contain a provision worded as follows:  "The insurance company waives any right of subrogation against the United States of America that may arise by reason of any payment under this policy.";
+
+		(4)  Not contain any deductible amount or similar limitation; and
+
+		(5)  Not contain any provisions requiring submission to any type of arbitration.
+
+(End of clause)
+
+
+252.228-7007  Public Aircraft and State Aircraft Operations-Liability.
+As prescribed in 228.371(f), use the following clause:
+
+PUBLIC AIRCRAFT AND STATE AIRCRAFT OPERATIONS-LIABILITY
+(MAR 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Civil aircraft" means an aircraft other than a public aircraft or state aircraft.
+
+	"Public aircraft" means an aircraft that meets the definition in 49 U.S.C. 40102(a)(41) and the qualifications in 49 U.S.C. 40125.  Specifically, a public aircraft means any of the following:
+
+		(1)  An aircraft used only for the Government, except as provided in paragraphs (5) and (7) of this definition.
+
+		(2)  An aircraft owned by the Government and operated by any person for purposes related to crew training, equipment development, or demonstration, except as provided in paragraph (7) of this definition.
+
+		(3)  An aircraft owned and operated by the government of a State, the District of Columbia, or a territory or possession of the United States or a political subdivision of one of these governments, except as provided in paragraph (7) of this definition.
+
+		(4)  An aircraft exclusively leased for at least 90 continuous days by the government of a State, the District of Columbia, or a territory or possession of the United States or a political subdivision of one of these governments, except as provided in paragraph (7) of this definition.
+
+		(5)  An aircraft owned or operated by the armed forces or chartered to provide transportation or other commercial air service to the armed forces under the conditions specified by 49 U.S.C. 40125(c).  In the preceding sentence, the term "other commercial air service" means an aircraft operation that-
+
+			(i)  Is within the United States territorial airspace;
+
+			(ii)  The Administrator of the Federal Aviation Administration determines is available for compensation or hire to the public; and
+
+			(iii)  Must comply with all applicable civil aircraft rules under title 14, Code of Federal Regulations.
+
+		(6)  An unmanned aircraft that is owned and operated, or exclusively leased for at least 90 continuous days, by an Indian Tribal government, as defined in section 102 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5122), except as provided in paragraph (7) of this definition.
+
+		(7)  As described in 49 U.S.C. 40125(b), an aircraft described in paragraph (1), (2), (3), or (4) of this definition does not qualify as a public aircraft when the aircraft is used for commercial purposes or to carry an individual other than a crewmember or a qualified non-crewmember.
+
+	"Public aircraft operation" means operation of an aircraft that meets the legal definition of public aircraft established in 49 U.S.C. 40102(a)(41) and the legal qualifications for public aircraft status outlined in 49 U.S.C. 40125.
+
+	"State aircraft" means an aircraft operated by the Government for sovereign, noncommercial purposes such as military, customs, and police services.  Military aircraft are afforded status as state aircraft.  In very rare circumstances, DoD-contracted aircraft may be designated, in writing, by a responsible Government official pursuant to DoD Directive 4500.54E, DoD Foreign Clearance Program, to be operated in state aircraft status, and such status cannot be deemed without a written designation by an authorized Government official.
+
+	(b)  Combined regulation/instruction.  Upon award, for contract performance to be conducted as a public aircraft operation, the Contractor shall be bound by the operating procedures contained in the combined regulation/instruction entitled "Contractor's Flight and Ground Operations" (Air Force Instruction 10-220, Army Regulation 95-20, NAVAIR Instruction 3710.1 (Series), Coast Guard Instruction M13020.3 (Series), and Defense Contract Management Agency Instruction 8210-1 (Series)) in effect on the date of contract award.
+
+	(c)  Contractor liability for operations for contract performance conducted as public aircraft operations or state aircraft operations.
+
+		(1)  The Contractor assumes responsibility for all damage or injury to persons or property, including the Contractor's employees and property, and Government personnel and property, occasioned through the use, maintenance, and operation of the Contractor's aircraft or other equipment by, or the action of, the Contractor or the Contractor's employees and agents.
+
+		(2)  The Contractor, at the Contractor's expense, shall maintain adequate public liability and property damage insurance, including hull insurance for the Contractor's aircraft, during the duration of this contract, insuring the Contractor against all claims for injury or damage.
+
+		(3)  The Contractor shall maintain workers' compensation and other legally required insurance with respect to the Contractor's own employees and agents.
+
+		(4)  The Government will in no event be liable or responsible for damage or injury to any person or property occasioned through the use, maintenance, or operation of any aircraft or other equipment by, or the action of, the Contractor or the Contractor's employees and agents in performing under this contract, and the Government shall be indemnified and saved harmless against claims for damage or injury in such cases.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0005
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 28
+Defense FAR Supplement (DFARS) Part 228
+
+
+Page 1 of 2
+

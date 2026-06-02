@@ -1,0 +1,133 @@
+PART 241-ACQUISITION OF UTILITY SERVICES
+
+SUBPART 241.1-GENERAL
+
+
+241.101  Definitions.
+As used in this part-
+
+	"Independent regulatory body" means the Federal Energy Regulatory Commission, a state-wide agency, or an agency with less than state-wide jurisdiction when operating pursuant to state authority.  The body has the power to fix, establish, or control the rates and services of utility suppliers.
+
+	"Nonindependent regulatory body" means a body that regulates a utility supplier which is owned or operated by the same entity that created the regulatory body, e.g., a municipal utility.
+
+	"Regulated utility supplier" means a utility supplier regulated by an independent regulatory body.
+
+"Service power procurement officer" means for the-
+
+Army, the Chief of Engineers;Navy, the Commander, Naval Facilities Engineering Command;Air Force, the head of a contracting activity; andDefense Logistics Agency, the head of a contracting activity.
+241.102  Applicability.
+
+	(a)  This part applies to purchases of utility services from nonregulated and regulated utility suppliers.  It includes the acquisition of liquefied petroleum gas as a utility service when purchased from regulated utility suppliers.
+
+	(b)(3)  This part may be used for any purchased utility services directly resulting from third party financed projects, including those authorized by-
+
+			(A)  10 U.S.C. 2922 for energy, fuels, and energy production facilities for periods not to exceed 30 years;
+
+			(B)  10 U.S.C. 2992a for renewable energy for periods not to exceed 30 years;
+
+			(C)  10 U.S.C. 2917 for geothermal resources that result in energy 
+production facilities;
+
+			(D)  10 U.S.C. 2809 for potable and waste-water treatment plants for periods not to exceed 32 years; and
+
+			(E)  10 U.S.C. 2812 for lease/purchase of energy production facilities for periods not to exceed 32 years.
+
+
+
+241.103  Statutory and delegated authority.
+
+	(1)  Contracting officers may enter into-
+
+		(i)	Utility service contracts related to the conveyance of a utility system for a period not to exceed 50 years (10 U.S.C. 2688(d)(2)) and;
+
+		(ii)  Energy savings contracts under 10 U.S.C. 2913 for a period not to exceed 25 years.
+
+	(2)  See 217.103-174 for authority to enter into multiyear contracts for electricity from renewable energy sources.
+
+	(3)  See PGI 241.103 for more information on statutory authorities and maximum contract periods for utility and energy contracts.
+
+SUBPART 241.2-ACQUIRING UTILITY SERVICES
+
+
+241.201  Policy.
+
+	(1)  DoD generally complies with current regulations, practices, and decisions of independent regulatory bodies.  This policy does not extend to nonindependent regulatory bodies.
+
+	(2)  Purchases of utility services outside the United States may use-
+
+		(i)  Formats and technical provisions consistent with local practice; and
+
+		(ii)  Dual language forms and contracts.
+
+	(3)  Rates established by an independent regulatory body-
+
+		(i)  Are considered "prices set by law or regulation";
+
+		(ii)  Are sufficient to set prices without obtaining certified cost or pricing data (see FAR subpart 15.4); and
+
+		(iii)  Are a valid basis on which prices can be determined fair and reasonable.
+
+	(4)  Compliance with the regulations, practices, and decisions of independent regulatory bodies is not a substitute for the procedures at FAR 41.202(a).
+
+241.202  Procedures.
+
+	(1)  Connection and service charges.  Follow the procedures at PGI 241.202(1) for connection and service charges associated with acquiring utility services.
+
+	(2)  Construction and labor requirements.  Follow the procedures at PGI 241.202(2) for construction and labor requirements associated with connection and service charges.
+
+
+
+241.205  Separate contracts.
+Follow the procedures at PGI 241.205 when acquiring utility services by separate contract.
+
+SUBPART 241.5-SOLICITATION PROVISION AND CONTRACT CLAUSES
+
+241.501  Solicitation provision and contract clauses.
+
+	(d)(1)  Insert a clause substantially the same as the clause at FAR 52.241-7, Change in Rates or Terms and Conditions of Service for Regulated Services, when the utility services to be provided are subject to an independent regulatory body.
+
+		(2)  Insert a clause substantially the same as the clause at FAR 52.241-8, Change in Rates or Terms and Conditions of Service for Unregulated Services, when the utility services to be provided are not subject to a regulatory body or are subject to a nonindependent regulatory body.
+
+241.501-70  Additional clauses.
+
+	(a)  If the Government must execute a superseding contract and capital credits, connection charge credits, or termination liability exist, insert the clause at 252.241-7000, Superseding Contract.
+
+	(b)  Insert the clause at 252.241-7001, Government Access, when the clause at FAR 52.241-5, Contractor's Facilities, is used.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2--TEXT OF PROVISIONS AND CLAUSES
+
+252.241-7000  Superseding Contract.
+As prescribed in 241.501-70(a), use the following clause:
+
+SUPERSEDING CONTRACT (DEC 1991)
+
+This contract supersedes contract No. _________________, dated ___________________ which provided similar services.  Any capital credits accrued to the Government, any remaining credits due to the Government under the connection charge, or any termination liability are transferred to this contract, as follows:
+
+	CAPITAL CREDITS: (List years and accrued credits by year and separate delivery points.)
+
+	OUTSTANDING CONNECTION CHARGE CREDITS: (List by month and year the amount credited and show the remaining amount of outstanding credits due the Government.)
+
+	TERMINATION LIABILITY CHARGES: (List by month and year the amount of monthly facility cost recovered and show the remaining amount of facility cost to be recovered.)
+
+(End of clause)
+
+252.241-7001 Government Access.
+As prescribed in 241.501-70(b), use the following clause:
+
+GOVERNMENT ACCESS (DEC 1991)
+
+Authorized representatives of the Government may have access to the Contractor's on-base facilities upon reasonable notice or in case of emergency.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0039
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 41
+Defense FAR Supplement (DFARS) Part 241
+
+
+
+Page 1 of 3
+

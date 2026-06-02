@@ -1,0 +1,218 @@
+PGI 219-SMALL BUSINESS
+
+PGI 219.1-PRESOLICITATION
+
+PGI 219.102  Coordination
+
+	(a)(1)  Small business specialists are appointed and perform functions in accordance with DoD Instruction (DoDI) 4205.01, DoD Small Business Programs.  In the DoDI, small business specialists are called "small business professionals."
+
+		(2)  The responsibility for assigning small business technical advisors is delegated to the head of the contracting activity.
+
+	(g)(1)  Small business specialists-
+
+			(i)  Review and make recommendations for all acquisitions over the micro-purchase threshold, except those under the simplified acquisition threshold that are totally set aside for small business concerns (see FAR 19.104-1);
+
+			(ii)  Review acquisitions before issuance of the solicitation or contract modification, and document it on DD Form 2579, Small Business Coordination Record (see PGI 253.219-70 for instructions on completing the form); and
+
+			(iii)  Refer recommendations that have been rejected by the contracting officer to the Small Business Administration (SBA) procurement center representative. If an SBA procurement center representative is not assigned, see FAR 19.102(b)(2).
+
+		(2)(i)  Agencies may require small business specialists to review actions over the micro-purchase threshold, but under the simplified acquisition threshold, that are totally set aside for small business.  Such reviews may be conducted when the agency determines a review is necessary to assist contracting officers in identifying opportunities for other small business set-aside programs (e.g., HUBZone, service-disabled veteran-owned, small disadvantaged business, women-owned small business) to meet small business goals.
+
+			(ii)  Small business specialists should review contract or order modifications that increase the scope.  At a minimum, these modifications can impact subcontracting plans. Funding-only modifications or those not increasing scope generally should not be reviewed due to minimal added value.
+
+PGI 219.108 Contracting With the Small Business Administration (the 8(a) Program).
+
+PGI 219.108-1 General.
+A copy of the Partnership Agreement (PA) between DoD and the Small Business Administration (SBA) is available here.
+
+PGI 219.108-3  Selecting acquisitions for the 8(a) Program.
+
+	(1)  Contracting activities should respond to SBA requests for contract support within 30 calendar days after receipt.
+
+	(2)  Before considering a small business set-aside, review the acquisition for offering under the 8(a) Program. 
+
+PGI 219.108-4  Evaluation, offering, and acceptance.
+
+	(1)  For requirements processed under the PA cited in DFARS 219.108-1, the notification to the SBA shall clearly indicate that the requirement is being processed under the PA.  See DFARS 219.208-3(a)(ii) for procedures related to purchase orders that do not exceed the simplified acquisition threshold.  All notifications should be submitted in writing and shall specify that-
+
+		(i)  Under the PA, an SBA acceptance or rejection of the offering is required within 5 working days of receipt of the offering; and
+
+		(ii)(A)  For sole source requirements, an SBA acceptance shall include a size verification and a determination of the 8(a) firm's program eligibility, and, upon acceptance, the contracting officer will solicit a proposal, conduct negotiations, and make award directly to the 8(a) firm; or
+
+				(B)  For competitive requirements, upon acceptance, the contracting officer will solicit offers, conduct source selection, and, upon receipt of an eligibility verification, award a contract directly to the selected 8(a) firm.
+
+	(2)  Under the PA cited in DFARS 219.108-1, no separate agency offering or SBA acceptance is needed for requirements that are issued under purchase orders that do not exceed the simplified acquisition threshold.  After an 8(a) contractor has been identified, the contracting officer will establish the prices, terms, and conditions with the 8(a) contractor and prepare a purchase order, including the applicable clauses required by DFARS 219.108-10.  No later than the day that the purchase order is provided to the 8(a) contractor, the contracting officer will provide to the cognizant SBA Business Opportunity Specialist via email or any other means acceptable to the SBA district office-
+
+		(i)  A copy of the signed purchase order; and
+
+		(ii)  A notice stating that the purchase order is being processed under the PA.  The notice also shall indicate that the 8(a) contractor will be deemed eligible for award and will automatically begin work under the purchase order unless, within 2 working days after SBA's receipt of the purchase order, the 8(a) contractor and the contracting officer are notified that the 8(a) contractor is ineligible for award.
+
+	(3)  The notification to SBA must identify any joint venture proposed for performance of the contract.  SBA must approve a joint venture before award of an 8(a) contract involving the joint venture.
+
+	(4)  For competitive requirements for construction to be performed overseas, submit the notification to SBA Headquarters.
+
+	(5)  For requirements processed under the PA cited in DFARS 219.108-1, SBA's acceptance is required within 5 working days (but see DFARS 219.208-3(a)(ii) for procedures related to purchase orders that do not exceed the simplified acquisition threshold).
+
+
+
+
+PGI 219.2-EVALUATION AND AWARD
+
+PGI 219.204  Certificate of Competency. 
+
+When making a small business concern nonresponsibility determination, the contracting officer will notify the contracting activity's small business specialist.
+
+	(1)	Resolving differences between the agency and the Small Business Administration.
+
+		(i)  If the contracting officer believes the agency should appeal, the contracting officer must immediately inform the department or agency director of the Office of Small Business Programs (OSBP) and send to the director, through departmental channels-
+
+			(A)  A request for appeal, summarizing the issues.  The director OSBP must receive the request within 5 working days after receipt of the SBA Headquarters' written position; and
+
+			(B)  An appeal file, documenting the contracting activity's position.  The director OSBP must receive the appeal file within 5 working days after transmission of the request for appeal.
+
+		(ii)  The department or agency director OSBP will determine whether the agency will appeal and will notify the SBA of the agency's intent.
+
+PGI 219.206  Evaluating small business subcontracting plans.
+
+PGI 219.206-3  Reviewing the subcontracting plan.
+When reviewing the subcontracting plan, contracting officers may use the document entitled "DoD Checklist for Reviewing Subcontracting Plans."  The document is available at https://business.defense.gov/Acquisition/Subcontracting/DoD-CSP/Subcontracting-Guide/. 
+
+PGI 219.208 Evaluating and awarding under the 8(a) Program.
+
+PGI 219.208-1 Procedures for competitive 8(a).
+
+	(b)(1)(A) For requirements processed under the PA cited in DFARS 219.108-1-
+
+					(1)  For sealed bid and negotiated acquisitions, the SBA will determine the eligibility of the firms and will advise the contracting officer within 2 working days after its receipt of a request for an eligibility determination; and
+
+					(2)  For negotiated acquisitions, the contracting officer may submit a request for an eligibility determination on all firms in the competitive range if discussions are to be conducted, or on all firms with a realistic chance of award if no discussions are to be conducted.
+
+PGI 219.208-2  Contract negotiation.
+For requirements processed under the PA cited in DFARS 219.108-1-
+
+	(1)  The agency may negotiate directly with the 8(a) contractor.  The contracting officer is responsible for initiating negotiations;
+
+	(2)  The 8(a) contractor is responsible for negotiating within the time established by the contracting officer;
+
+	(3)  If the 8(a) contractor does not negotiate within the established time and the agency cannot allow additional time, the contracting officer may, after notifying the SBA, proceed with the acquisition from other sources;
+
+	(4)  If requested by the 8(a) contractor, the SBA may participate in negotiations; and
+
+	(5)  SBA approval of the contract is not required. 
+
+PGI 219.208-7  Preparing the contracts.
+
+	(1)  Sole source or competitive awards under the PA cited in DFARS 219.108-1 may be made directly to the 8(a) contractor and, except as provided in paragraph (2) of this subsection, award documents shall be prepared in accordance with procedures established for non-8(a) contracts, using any otherwise authorized award forms.  The "Issued by" block shall identify the awarding DoD contracting office.  The contractor's name and address shall be that of the 8(a) participant.
+
+	(2)  Use the following alternative procedures for direct awards made under the PA:
+
+		(i)  Cite 10 U.S.C. 3204(a)(5) as the authority for use of other than full and open competition.
+
+		(ii)  Include the clause at DFARS 252.219-7009, Section 8(a) Direct Award, in accordance with the prescription at DFARS 219.108-10(1).  Identify the cognizant SBA district office for the 8(a) contractor.
+
+		(iii)  No SBA contract number is required.
+
+		(iv)  Do not require an SBA signature on the award document.
+
+PGI 219.3-POSTAWARD 
+
+PGI 219.302  Small business subcontracting plans.
+
+PGI 219.302-2  Compliance with the plan.
+When reviewing subcontracting reports, contracting officers may use the document entitled "DoD Subcontracting Program-Business Rules and Processes for (1) Electronic Subcontracting Reporting System (eSRS) and (2) Preparing and Reviewing Related Subcontract Reports."  The document is available at https://business.defense.gov/Acquisition/Subcontracting/DoD-CSP/Subcontracting-Guide/.
+
+
+
+PGI 253-FORMS
+
+PGI 253.219  Small Business Programs.
+
+PGI 253.219-70  DD Form 2579, Small Business Coordination Record.
+
+	(a)  Use the DD Form 2579 as prescribed in PGI 219.102(g)(1)(ii).
+
+	(b)  General instructions.
+
+		(1)  The Contracting Officer is responsible for coordinating and the completion of the form.
+
+		(2)  Coordination on this form is not required when the agency will satisfy a requirement through the use of a mandatory source listed at FAR 8.101, 8.102, or 8.103.
+
+	(c)  Specific instructions for completion of DD Form 2579.
+
+		(1)  BLOCK 1-CONTROL NO.  Reserved for use by the Small Business Professional to create a unique identification number for each coordination record.
+
+		(2)  BLOCK 2-PURCHASE REQUEST/REQUISITION NO.  Locally assigned purchase request/requisition number.
+
+		(3)  BLOCK 3-TOTAL ESTIMATED VALUE.  Enter the total estimated value for the acquisition, including all options.  For multiple award task or delivery order contracts, enter the total estimated value of the entire acquisition including all orders expected to be awarded.
+
+		(4)  BLOCKS 4a and 4b:
+
+			(i)  Block 4a-PROCUREMENT INSTRUMENT IDENTIFIER (PIID).  Enter the PIID assigned to the solicitation, contract, or order in Block 4a.  (FAR 4.201, DFARS 204.201).
+
+			(ii)  Block 4b-INDEFINITE DELIVERY VEHICLE (IDV) PIID.  If applicable, enter the PIID assigned to the IDV against which the solicitation or order identified in Block 4a is issued.
+
+		(5)  BLOCK 5-MODIFICATION/AMENDMENT NUMBER (MOD/AMDMT No.).  Enter the contract or order modification number or solicitation amendment number.  (FAR 
+4.201, DFARS 204.201).
+
+		(6)  BLOCKS 6a through 6e-CONTRACTING OFFICER NAME, DOD ACTIVITY ADDRESS CODE (DODAAC), OFFICE SYMBOL, EMAIL ADDRESS, PHONE NO.  Enter the appropriate information in Blocks 6a through 6e.
+
+		(7)  BLOCKS 7a through 7d:
+
+			(i)  BLOCK 7a-ITEM and/or SERVICE DESCRIPTION.  Enter description of planned acquisition, including quantity, unique delivery requirements, and other descriptors.  For services, include the type of service and place of performance, and attach a copy of the Performance Work Statement (PWS), Statement of Work (SOW), Statement of Objectives (SOO), or other specifications and statements as appropriate.
+
+			(ii)  BLOCK 7b-PRODUCT OR SERVICE CODE (PSC).  For the Product and Service Codes Manual, go to http://acquisition.gov.
+
+			(iii)  BLOCK 7c-NORTH AMERICAN INDUSTRY CLASSIFICATION (NAICS) CODE.  For the NAICS codes and definitions, go to www.census.gov/naics.
+
+			(iv)  BLOCK 7d-SMALL BUSINESS SIZE STANDARD.  For the applicable small business size standard, go to http://www.sba.gov/content/table-small-business-size-standards.
+
+		(8)  BLOCK 8-PERIOD OF PERFORMANCE/DELIVERY DATES.  Enter the estimated beginning and end dates.
+
+		(9)  BLOCK 9-PURPOSE OF COORDINATION.  Check one box indicating the purpose of the action being reviewed:  Initial Coordination, Withdrawal (see FAR 19.205(d)(2)), or a Change to the form.  Note:  Any significant change in the acquisition strategy or plan described on this form will require reevaluation by the Small Business Professional and the Small Business Administration (SBA) Procurement Center Representative (PCR), if applicable.
+
+		(10)  BLOCKS 10a through 10j-RECOMMENDATION.  Check all that apply, e.g., a small business set-aside could also be a multiple-award.  For Blocks 10c through 10f, attach justification if applicable in accordance with FAR 19.105-3, 19.106-3, or 19.107-3. 
+
+		(11)  BLOCKS 11a through 11c:
+
+			(i)  BLOCK 11a-ACQUISITION PLAN/MARKET RESEARCH.  Attach the written acquisition plan (FAR 7.103), if required, and the results of market research, including any resulting justification and approval (FAR 6.104) or sole source/brand name justification (FAR 12.102).  Include findings that demonstrate efforts to locate qualified small business sources, such as results of presolicitation notices (FAR 5.101) or waivers to the nonmanufacturer rule (FAR 19.104-1(f)(3)(i)), and attach additional pages as necessary.
+
+			(ii)  BLOCK 11b-SYNOPSIS REQUIRED.  See FAR 5.101, Presolicitation notice. Check "Yes" or "No."  If "No," provide explanation and the exception under FAR 5.101(b), if applicable.
+
+			(iii)  BLOCK 11c-SMALL BUSINESS PROGRESS PAYMENTS.  Check "Yes" or "No" (DFARS 232.501-1(a)).
+
+		(12)  BLOCK 12-CONSOLIDATED OR BUNDLED.  Select either "Consolidated" or "Bundled," and check "Yes" or "No" for each.  If "Yes," attach required documentation for consolidation or bundling (FAR 7.107).
+
+		(13)  BLOCK 13-SUBCONTRACTING PLAN REQUIRED.  See FAR 19.109.  Check "Yes" or "No."  For recommendations 10g, 10h, or 10i, or if Block 12 recommendation is "Yes," specify actions that will be taken to maximize small business participation.  Consider requirements of FAR 19.109, acquisition history, anticipated subcontracting goals, market research to identify small business capability at the subcontract level, source selection evaluation factor for small business utilization (FAR 15.104, DFARS215.104), incentives, contract performance metrics, etc.  State detailed objectives for subcontract (attach additional pages as necessary).
+
+		(14)  BLOCKS 14a through 14c-ACQUISITION HISTORY:
+
+			(i)  BLOCK 14a-NEW REQUIREMENT.  Check "Yes" or "No" and follow the applicable guidance for each selection.
+
+			(ii)  BLOCK 14b-PREVIOUSLY CONSOLIDATED OR BUNDLED.  Check "Yes" or "No" for each.  If "Yes," attach required documentation for previous acquisition.  (See FAR 7.107.)
+
+			(iii)  BLOCK 14c-DETAILS OF PREVIOUS AWARD(S).  For each contractor that received an award for any portion of the immediately preceding acquisition, include the following information (attach additional pages as necessary)-
+
+		-Name and CAGE code.
+		-Small business socioeconomic categories of the awardee.
+		-PIID.
+		-NAICS code and size standard.
+		-Contract type.
+		-Period of performance.
+		-Total contract value.
+		-Subcontracting History.  (Small business subcontracting goal achievement (CPARS and eSRS data) and any additional small business utilization requirements included in the contract resulting from a source selection factor used when making the previous contract award.)
+
+		(15)  BLOCK 15a through 15d-CONTRACTING OFFICER SIGNATURE.  Complete 15a through 15d.  Digital signature is desired.
+
+		(16)  BLOCKS 16 through 16f-SMALL BUSINESS PROFESSIONAL/SMALL BUSINESS DIRECTOR REVIEW.  Complete 16 through 16f.  Digital signature is desired.  If "non-concur" is checked, attach rationale or include in Block 16f, along with any other remarks.  Block 16e must be completed when any of the conditions in FAR 19.102(e) applies to indicate when the acquisition package was provided to the Small Business Administration (SBA).
+
+		(17)  BLOCKS 17 through 17e-SBA PROCUREMENT CENTER REPRESENTATIVE (PCR) REVIEW.  Complete 17 through 17e (see FAR 19.102(b)(2) when a PCR is not assigned to the contracting activity or administration office).  Digital signature is desired.  If "non-concur" is checked, the PCR shall attach rationale and recommendations or include in Block 17e, along with any other remarks (see FAR 19.102(e)(4)).
+
+		(18)  BLOCKS 18 through18c-CONTRACTING OFFICER REVIEW.  The Contracting Officer shall complete this block if the Small Business Professional and/or the SBA PCR have "non-concurred" in Blocks 16 and 17.  Block 18c shall include the Contracting Officer's rationale for decision.  Send copies of the completed form to the Small Business Professional and the SBA PCR within 5 working days if rejecting the PCR's recommendation, in accordance with FAR 19.102(f).
+Attachment A2
+DARS Tracking Number: 2026-O0037
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 19
+Defense FAR Supplement (DFARS) Part 219
+
+
+Page 1 of 2
+

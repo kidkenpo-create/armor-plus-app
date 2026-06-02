@@ -1,0 +1,568 @@
+PART 219-SMALL BUSINESS
+
+SUBPART 219.1-PRESOLICITATION
+
+219.101  Small business goals.
+
+	(b)(2)  See PGI 205.002-70(b) for details on advertising a small business event on the Government point of entry.
+
+219.102 Coordination.
+
+	(a)  The contracting activity small business specialist is the primary point of contact for communication with the SBA.  See PGI 219.102(a) for further information.
+
+	(d)(i)  Unless the contracting activity requests a review, SBA procurement center representatives will not review acquisitions conducted by or for DoD if the acquisition is-
+
+			(A)  For foreign military sales (see 225.7300);
+
+			(B)  In support of humanitarian and civic assistance;
+
+			(C)  In support of a contingency operation;
+
+			(D)  Awarded pursuant to a Status of Forces Agreement or other agreement with the government of a foreign country in which U.S. Armed Forces are deployed; or
+
+			(E)  Both awarded and performed outside the United States and its outlying areas.
+
+		(ii)  As used in this section, "Humanitarian and civic assistance" means any of the following activities carried out in conjunction with authorized military operations in a foreign country:
+
+			(A)  Medical, surgical, dental, and veterinary care provided in areas of a country that are rural or underserved by professionals in those fields, including education, training, and technical assistance related to the care provided.
+
+			(B)  Construction of rudimentary surface transportation systems.
+
+			(C)  Well drilling and construction of basic sanitation facilities.
+
+			(D)  Rudimentary construction and repair of public facilities (10 U.S.C. 401(e)).
+
+	(f)(1)  The head of the contracting activity may not delegate this authority lower than the chief of the contracting office.
+
+	(g)  See PGI 219.102(g)(1) for review and recommendation procedures, including dollar thresholds. 
+
+
+
+219.104  Small business set-asides.
+
+219.104-1  Total small business set-asides.
+
+	(a)  The requirements at FAR 19.104-1(a) and (b) apply to acquisitions for-
+
+			(i)  Construction, including maintenance and repairs, under $3.5 million;
+
+			(ii)  Dredging under $2 million; and
+
+			(iii)  Architect-engineer services for military construction or family housing projects under $1 million (10 U.S.C. 2855).
+
+	(c)  The requirement at FAR 19.104-1(a) does not apply to acquisitions-
+
+			(i)  For supplies that were developed and financed, in whole or in part, by Canadian sources under the U.S.-Canadian Defense Development Sharing Program; or
+
+			(ii) Excluded from procurement center representative review (see 219.102(d)(i).
+
+219.104-70  Set asides for religious-related services.
+
+	(a)  When acquiring religious-related services for a U.S. military base, allow nonprofit organizations to compete on set-asides for small business concerns and avoid using sole-source exceptions.
+
+	(b)  If the apparently successful offeror does not identify as a small business, verify that it is registered in SAM as a nonprofit organization.
+
+	(c)  Insert the provision at 252.219-7012, Competition for Religious-Related Services, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial services, for religious-related services to be performed on U.S. military installations, when the acquisition is set aside for any of the small business concerns identified in FAR 19.000(a)(3).
+
+219.108  Contracting with the Small Business Administration (the 8(a) Program).
+
+219.108-1  General. 
+
+	(d)(i)  The SBA has delegated its authority under 15 U.S.C. 637(a)(1) to the Under Secretary of Defense (Acquisition and Sustainment) to award 8(a) contracts to eligible 8(a) participants.  This delegation, based on a Partnership Agreement (PA) between the SBA and DoD, redelegates this authority to DoD contracting officers and only covers contract signing on the SBA's behalf.  The SBA remains the prime contractor, determines eligibility, and retains appeal rights.  The PA, including its expiration date, is available at PGI 219.108-1.
+
+			(ii)  Contracts awarded on either a sole source or competitive basis under the PA may be awarded directly to the 8(a) participant; an SBA signature on the contract is not required.
+
+			(iii)  Notwithstanding the PA, contracting officers may award a contract following the procedures at FAR 19.108 and 19.208.
+
+219.108-3  Selecting acquisitions for the 8(a) Program.
+Follow the procedures at PGI 219.108-3 when selecting acquisitions for the 8(a) Program.
+
+219.108-4  Evaluation, offering, and acceptance. 
+Follow the procedures at PGI 219.108-4 when processing requirements under the PA.
+
+219.108-7  Competitive 8(a) and sole source 8(a) policy. 
+
+	(b)(i)  For acquisitions exceeding the competitive threshold (see FAR 19.108-7(a)(2)), the SBA may accept the requirement for a sole source 8(a) award on behalf of a small business concern owned by a Native Hawaiian Organization (Section 8020 of Pub. L. 109-148).
+
+			(ii)  "Native Hawaiian Organization," as used in this section, means any community service organization serving Native Hawaiians in the State of Hawaii that is a not-for-profit organization chartered by the State of Hawaii, controlled by Native Hawaiians, and whose business activities will principally benefit Native Hawaiians (15 U.S.C. 637(a)(15) and 13 CFR 124.3).
+
+219.108-10  Contract clauses. 
+
+		(1)  Insert the clause at 252.219-7009, Section 8(a) Direct Award, instead of clauses FAR 52.219-11, Special 8(a) Contract Conditions, FAR 52.219-12, Special 8(a) Subcontract Conditions, and FAR 52.219-17, Section 8(a) Award, in solicitations and contracts processed in accordance with the PA.
+
+		(2)  Insert the clause at 252.219-7010, Notification of Competition Limited to Eligible 8(a) Participants-Partnership Agreement, instead of the clause at FAR 52.219-18, Notification of Competition Limited to Eligible 8(a) Participants, in competitive solicitations and contracts, including those using FAR part 12 procedures for the acquisition of commercial products and commercial services, when the acquisition is accomplished using the procedures of FAR 19.108-7 and processed in accordance with the PA.
+
+		(3)  Insert the clause at 252.219-7011, Notification to Delay Performance, in solicitations and purchase orders issued under the PA.
+
+219.109  Small business subcontracting plans. 
+
+	(e)(2)(A)  Insert the clause at 252.219-7996 , Small Business Subcontracting Plan (DoD Contracts), in solicitations and contracts, including those using FAR part 12 procedures for the acquisition of commercial products and commercial services, that contain the clause at FAR 52.219-9, Small Business Subcontracting Plan.
+
+					(1)  Insert the basic clause at 252.219-7996, when using the basic, alternate I, or alternate II of FAR 52.219-9.
+
+					(2)  Use the alternate I clause at 252.219-7996, when using Alternate III of FAR 52.219-9.
+
+					(3)  Use the alternate II clause at 252.219-7996 when using the Demonstration Project described at 226.72.
+
+				(B)  For contracts with comprehensive subcontracting plans approved under the Test Program described in 219.206-70, including contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, insert the clause at 252.219-7997, Small Business Subcontracting Plan (Test Program), instead of the clauses at-
+
+					(1)  252.219-7996 , Small Business Subcontracting Plan (DoD Contracts); 
+
+					(2)  FAR 52.219-9, Small Business Subcontracting Plan; and 
+
+					(3)  FAR 52.219-16, Liquidated Damages-Subcontracting Plan.
+
+	(f)  Do not use the clause at FAR 52.219-10, Incentive Subcontracting Program, in contracts with comprehensive subcontracting plans approved under the Test Program described in 219.206-70.
+
+219.110  Price evaluation preference for HUBZone small business concerns. 
+
+	(a)  In tiered evaluations, do not apply the price evaluation preference until a tier is reached where offers from other than small businesses are being considered.
+
+219.170  Advancing small business growth. 
+
+Insert the provision at 252.219-7000, Advancing Small Business Growth, in solicitations when the estimated annual value of the contract is expected to exceed-
+
+	(a)  The small business size standard, if expressed in dollars, for the North American Industry Classification System (NAICS) code assigned by the contracting officer; or
+
+	(b)  $70 million, if the small business size standard is expressed as number of employees for the NAICS code assigned by the contracting officer.
+
+SUBPART 219.2-EVALUATION AND AWARD
+
+219.204  Certificate of Competency.
+When making a nonresponsibility determination for a small business concern, follow the procedures at PGI 219.204.
+
+219.206  Evaluating small business subcontracting plans.
+
+219.206-3  Reviewing the subcontracting plan.
+The contracting officer may use the checklist at PGI 219.206-3 when reviewing subcontracting plans in accordance with FAR 19.206-3.  The checklist does not apply to the DoD Test Program for Negotiation of Comprehensive Small Business Subcontracting Plans (219.206-70).
+
+219.206-70  Test Program for Negotiation of Comprehensive Small Business Subcontracting Plans.
+
+	(a)(1)  Test Program. In accordance with 15 U.S.C. 637 note, the DoD Test Program for Negotiation of Comprehensive Small Business Subcontracting Plans (Test Program) aims to determine whether comprehensive subcontracting plans on a corporate, division, or plant-wide basis will reduce administrative burdens while enhancing subcontracting opportunities for small and small disadvantaged business concerns.
+
+		(2)  Expiration date. The Test Program expires on December 31, 2027.
+
+	(b)  Eligibility requirements. To become and remain an eligible participant in the Test Program, a business concern must have furnished supplies or services (including construction) under at least three DoD contracts during the preceding fiscal year with a minimum aggregate value of $100 million.
+
+	(c)  Comprehensive subcontracting plans.
+
+		(1)  The Defense Contract Management Agency will designate a contracting officer to negotiate, approve, and monitor compliance of a comprehensive subcontracting plan with an eligible participant on an annual basis.
+
+		(2)  Test Program participants use their comprehensive subcontracting plans, in lieu of individual subcontracting plans, when performing any DoD contract or subcontract that requires a subcontracting plan.
+
+219.208  Evaluating and awarding under the 8(a) Program.
+
+219.208-1  Procedures for competitive 8(a). 
+
+	(b)(1)  For requirements processed under the PA, follow the procedures at PGI 219.208-1(b)(1)(A) for requesting eligibility determinations.
+
+219.208-2  Contract negotiation.
+
+For sole-source requirements processed under the PA, follow the procedures at PGI 219.208-2.
+
+	(a)(1)  In lieu of the threshold at FAR 19.208-2(a), the SBA may not accept for negotiation a DoD sole-source 8(a) contract that exceeds $150 million unless the DoD has completed a justification in accordance with the requirements of FAR 6.104 and 206.104-70.
+
+219.208-3  Pricing the 8(a) contract.
+
+	(a)  For requirements processed under the PA-
+
+			(i)  Obtain certified cost or pricing data from the 8(a) contractor, if required by FAR subpart 15.4; and
+
+			(ii)  SBA concurrence in the negotiated price is not required.  However, notify the SBA prior to withdrawing a requirement from the 8(a) Program due to failure to agree on price or other terms and conditions, the . Such notification is not required for purchase orders not exceeding the simplified acquisition threshold.
+
+219.208-7  Preparing the contracts.
+When preparing contracts under the PA, follow the procedures at PGI 219.208-7.
+
+SUBPART 219.3-POSTAWARD
+
+219.301  Small business size rerepresentations.
+	(c)  Follow the procedures at PGI 204.301 for reporting modifications for rerepresentation actions.
+
+219.302  Small business subcontracting plans.
+
+219.302-2 Compliance with the plan.
+
+	(a) See PGI 219.302-2 for guidance on reviewing subcontracting reports.
+
+		(1)(A) In accordance with 10 U.S.C. 3903, section 9077 of Pub. L. 102-396, and subsequent Defense appropriations acts, subcontracts awarded to qualified nonprofit agencies (NPA) approved by the Committee for Purchase from People Who Are Blind or Severely Disabled (41 U.S.C. chapter 85) may be counted toward the prime contractor's small business subcontracting goal. 
+
+			(B) Unless the prime contractor has reason to question the representations, it may accept a subcontractor's written representations of its status as a qualified NPA approved by the Committee for Purchase from People Who Are Blind or Severely Disabled, or a historically black college or university or minority institution.
+
+		(2) With respect to subcontracting plans approved under the Test Program for Negotiation of Comprehensive Small Business Subcontracting Plans (see 219.206-70), the designated contracting officer will conduct a compliance review during the fiscal year after the close of the fiscal year for which the plan is applicable by comparing the approved percentage or dollar goals to the total, actual subcontracting dollars covered by the comprehensive subcontracting plan. The requirements at FAR 19.302-2(b) and (c) apply to compliance assessments of comprehensive subcontracting plans.
+
+	(e)  If a prime contractor listed a small business subcontractor in its bid or proposal and replaces that small business with an other than small business, it must notify the administrative contracting officer in writing within a reasonable amount of time after the subcontract is awarded.
+
+SUBPART 219.71-DOD MENTOR-PROTÉGÉ PROGRAM
+
+
+219.7100  Scope.
+This subpart implements the DoD Mentor-Protégé Program (referred to as the Program) to incentivize DoD contractors to help protégé firms grow their capabilities and increase participation in Government and commercial contracts (10 U.S.C. 4902).
+
+219.7101  Policy.
+See Appendix I, Policy and Procedures for the DoD Mentor-Protégé Program, for DoD policy and procedures for implementing the Program.
+
+219.7102  General.
+The Program provides-
+
+	(a)  Mentor-protégé agreements that establish a developmental assistance program for a protégé firm; and
+
+	(b)  Incentives for mentor firms that include-
+
+		(1)  Reimbursement for developmental assistance costs through-
+
+			(i)  A separately priced line item on a DoD contract; or
+
+			(ii)  A separate contract, if the Director, OSBP, of the cognizant military department or defense agency determines in writing that unusual circumstances justify reimbursement using a separate contract; or
+
+		(2)  Credit toward applicable subcontracting goals, established under a subcontracting plan negotiated under FAR 19.206 or under the DoD Comprehensive Subcontracting Test Program, for developmental assistance costs that are not reimbursed.
+
+219.7103  Contracting officer responsibilities.
+
+	(a)  Negotiate an advance agreement on the treatment of developmental assistance costs for either credit or reimbursement if the mentor firm proposes such an agreement, or delegate authority to negotiate to the administrative contracting officer (see FAR 31.110).
+
+	(b)  Modify applicable contract(s) to incorporate the clause at 252.232-7005, Reimbursement of Subcontractor Advance Payments-DoD Mentor-Protégé Program, without consideration, when a mentor firm provides advance payments to a protégé firm under the Program and the mentor firm requests reimbursement of advance payments.
+
+	(c)  Modify, without consideration, applicable contract(s) to incorporate other than customary progress payments for protégé firms in accordance with FAR 32.504(c) if a mentor firm provides such payments to a protégé firm and the mentor firm requests reimbursement.
+
+	(d)  Modify applicable contract(s) to establish a line item for reimbursement of developmental assistance costs if-
+
+		(1)  A DoD program manager or the Director, OSBP, of the cognizant military department or defense agency has made funds available for that purpose; and
+
+		(2)  The contractor has an approved mentor-protégé agreement.
+
+	(e)  Negotiate and award a separate contract for reimbursement of developmental assistance costs only if-
+
+		(1)  Funds are available for that purpose;
+
+		(2)  The contractor has an approved mentor-protégé agreement; and
+
+		(3)  The Director, OSBP, of the military department or defense agency has made a determination in accordance with 219.7102(b)(1)(ii).
+
+	(f)  Do not authorize reimbursement for costs of assistance furnished to a protégé firm in excess of $1 million in a fiscal year unless a written determination from the Director, OSBP, of the military department or defense agency is obtained.
+
+	(g)  Advise contractors of reporting requirements in Appendix I.
+
+	(h)  Provide a copy of the approved mentor-protégé agreement to the Defense Contract Management Agency (DCMA) small business professional responsible for conducting the annual performance review (see Appendix I, section I-113).
+
+219.7104  Developmental assistance costs eligible for reimbursement or credit.
+
+	(a)  Developmental assistance under a mentor-protégé agreement must be separate from, and not replicate, typical subcontract administration.  The mentor firm must charge subcontract costs according to its standard accounting practices.  Appendix I lists reimbursable mentor firm costs.
+
+	(b)  For mentor-protégé agreements before December 23, 2022, eligible developmental assistance costs incurred by September 30, 2026, can be credited toward subcontracting goals. For agreements on or after December 23, 2022, eligible developmental assistance costs may be credited toward subcontracting goals.  See Appendix I.
+
+219.7105  Reporting.
+Mentor and protégé firms are required to report on the progress made under mentor-protégé agreements (See Appendix I, section I-112).
+
+219.7106  Performance reviews.
+DCMA will conduct annual performance reviews of all mentor-protege agreements as indicated in Appendix I, Section I-113.  The determinations made in these reviews contribute to the determinations of amounts of reimbursement, if any, that the mentor firm is eligible to receive in the remaining years of the Program participation term under the agreement.
+
+PART 252- SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.219-7000  Advancing Small Business Growth.
+As prescribed in 219.170(a), use the following provision:
+
+ADVANCING SMALL BUSINESS GROWTH (JUN 2023)
+
+	(a)  This provision implements 10 U.S.C. 4959.
+
+	(b)  The Offeror acknowledges by submission of its offer that by acceptance of the contract resulting from this solicitation, the Offeror may exceed the applicable small business size standard of the North American Industry Classification System (NAICS) code assigned to the contract and would no longer qualify as a small business concern for that NAICS code.  Small business size standards matched to industry NAICS codes are published by the Small Business Administration and are available at 13 CFR 121.201 and https://www.sba.gov/document/support-table-size-standards.  The Offeror is therefore encouraged to develop the capabilities and characteristics typically desired in contractors that are competitive as other-than-small contractors in this industry.
+
+	(c)  For procurement technical assistance, the Offeror may contact the nearest APEX Accelerator.  APEX Accelerator locations are available at https://www.apexaccelerators.us.
+
+(End of provision)
+
+252.219-7996  Small Business Subcontracting Plan (DoD Contracts). (DEVIATION 2026-O0037)
+
+	Basic.  As prescribed in 219.109(e)(2)(A)(1), use the following clause:
+
+SMALL BUSINESS SUBCONTRACTING PLAN (DOD CONTRACTS)-BASIC (DEVIATION 2026-O0037) (FEB 2026)
+
+This clause supplements the Federal Acquisition Regulation 52.219-9, Small Business Subcontracting Plan, clause of this contract.
+
+	(a)  Definitions.  	As used in this clause-
+
+	"Summary Subcontract Report (SSR) Coordinator" means the individual who is registered in the Electronic Subcontracting Reporting System (eSRS) at the Department of Defense level and is responsible for acknowledging receipt or rejecting SSRs submitted under an individual subcontracting plan in eSRS for the Department of Defense.
+
+	(b)  Subcontracts awarded to qualified nonprofit agencies designated by the Committee for Purchase From People Who Are Blind or Severely Disabled (41 U.S.C. 8502-8504), may be counted toward the Contractor's small business subcontracting goal.
+
+	(c)  A mentor firm, under the Pilot Mentor-Protege Program established under section 831 of Public Law 101-510, as amended, may count toward its small disadvantaged business goal, subcontracts awarded to-
+
+		(1)  Protege firms which are qualified organizations employing the severely disabled; and
+
+		(2)  Former protege firms that meet the criteria in section 831(g)(4) of Public Law 101-510.
+
+	(d)  The master plan is approved by the Contractor's cognizant contract administration activity.
+
+	(e)  In those subcontracting plans which specifically identify small businesses, the Contractor shall notify the Administrative Contracting Officer of any substitutions of firms that are not small business firms, for the small business firms specifically identified in the subcontracting plan.  Notifications shall be in writing and shall occur within a reasonable period of time after award of the subcontract.  Contractor-specified formats shall be acceptable.
+
+	(f)(1)  For DoD, the Contractor shall submit reports in eSRS as follows:
+
+			(i)  Submit the Individual Subcontract Report (ISR) to the contracting officer at the procuring contracting office, even when contract administration has been delegated to the Defense Contract Management Agency.
+
+			(ii)  Submit the consolidated SSR for an individual subcontracting plan to the "Department of Defense."
+
+		(2)  For DoD, the authority to acknowledge receipt or reject reports in eSRS is as follows:
+
+			(i)  The authority to acknowledge receipt or reject the ISR resides with the contracting officer who receives it, as described in paragraph (f)(1)(i) of this clause.
+
+			(ii)  The authority to acknowledge receipt of or reject SSRs submitted under an individual subcontracting plan resides with the SSR Coordinator.
+
+	(g)  Insert the clause at Defense Federal Acquisition Regulation Supplement (DFARS) 252.219-7997, Small Business Subcontracting Plan (Test Program), in subcontracts with subcontractors that participate in the Test Program described in DFARS 219.206-70, if the subcontract is expected to exceed the applicable threshold specified in Federal Acquisition Regulation 19.109(a)(1) and to have further subcontracting opportunities.
+
+(End of clause)
+
+	Alternate I.  As prescribed in 219.109(e)(2)(A)(2), use the following clause, which uses a different paragraph (f) than the basic clause.
+
+SMALL BUSINESS SUBCONTRACTING PLAN (DOD CONTRACTS)-ALTERNATE I (DEVIATION 2026-O0037) (FEB 2026)
+
+This clause supplements the Federal Acquisition Regulation 52.219-9, Small Business Subcontracting Plan, clause of this contract.
+
+	(a)  Definitions.  As used in this clause-
+
+	"Summary Subcontract Report (SSR) Coordinator" means the individual who is registered in the Electronic Subcontracting Reporting System (eSRS) at the Department of Defense level and is responsible for acknowledging receipt or rejecting SSRs submitted under an individual subcontracting plan in eSRS for the Department of Defense.
+
+	(b)  Subcontracts awarded to qualified nonprofit agencies designated by the Committee for Purchase From People Who Are Blind or Severely Disabled (41 U.S.C. 8502-8504), may be counted toward the Contractor's small business subcontracting goal.
+
+	(c)  A mentor firm, under the Pilot Mentor-Protege Program established under section 831 of Public Law 101-510, as amended, may count toward its small disadvantaged business goal, subcontracts awarded to-
+
+		(1)  Protege firms which are qualified organizations employing the severely disabled; and
+
+		(2)  Former protege firms that meet the criteria in section 831(g)(4) of Public Law 101-510.
+
+	(d)  The master plan is approved by the Contractor's cognizant contract administration activity.
+
+	(e)  In those subcontracting plans which specifically identify small businesses, the Contractor shall notify the Administrative Contracting Officer of any substitutions of firms that are not small business firms, for the small business firms specifically identified in the subcontracting plan.  Notifications shall be in writing and shall occur within a reasonable period of time after award of the subcontract.  Contractor-specified formats shall be acceptable.
+
+	(f)(1)  For DoD, the Contractor shall submit reports in eSRS as follows:
+
+			(i)  The Standard Form 294, Subcontracting Report for Individual Contracts, shall be submitted in accordance with the instructions on that form.
+
+			(ii)  Submit the consolidated SSR to the "Department of Defense."
+
+		(2)  For DoD, the authority to acknowledge receipt of or reject SSRs submitted under an individual subcontracting plan in eSRS resides with the SSR Coordinator.
+
+	(g)  Insert the clause at Defense Federal Acquisition Regulation Supplement (DFARS) 252.219-7997, Small Business Subcontracting Plan (Test Program), in subcontracts with subcontractors that participate in the Test Program described in DFARS 219.206-70, if the subcontract is expected to exceed the applicable threshold specified in Federal Acquisition Regulation 19.109(a)(1) and to have further subcontracting opportunities.
+
+(End of clause)
+
+	Alternate II.   As prescribed in 219.109(e)(2)(A)(3), use the following clause, which uses different paragraphs (a) and (b) than the basic clause.
+
+SMALL BUSINESS SUBCONTRACTING PLAN (DOD CONTRACTS)-ALTERNATE II (DEVIATION 2026-O0037) (FEB 2026)
+
+	(a)  Definitions. As used in this clause-
+
+	"Eligible contractor" means a business entity operated on a for-profit or nonprofit basis that-
+
+		(1)  Employs severely disabled individuals at a rate that averages not less than 33 percent of its total workforce over the 12-month period prior to issuance of the solicitation;
+
+		(2)  Pays not less than the minimum wage prescribed pursuant to 29 U.S.C. 206 to the employees who are severely disabled individuals; and
+
+		(3)  Provides, for its employees, health insurance and a retirement plan comparable to those provided for employees by business entities of similar size in its industrial sector or geographic region.
+
+	"Summary Subcontract Report (SSR) Coordinator" means the individual who is registered in the Electronic Subcontracting Reporting System (eSRS) at the Department of Defense level and is responsible for acknowledging receipt or rejecting SSRs submitted under an individual subcontracting plan in eSRS for the Department of Defense.
+
+	(b)(1)  Subcontracts awarded to qualified nonprofit agencies designated by the Committee for Purchase From People Who are Blind or Severely Disabled (41 U.S.C. 8502-8504), may be counted toward the Contractor's small business subcontracting goal (section 8025 of Pub. L. 108-87).
+
+		(2)  Subcontracts awarded to eligible contractors under the Demonstration Project for Contractors Employing Persons with Disabilities (see Defense Federal Acquisition Regulation Supplement (DFARS) 226.72) may be counted toward the Contractor's small disadvantaged business subcontracting goal (section 853 of Pub. L. 108-136, as amended by division H, section 110 of Pub. L. 108-199).
+
+	(c)  A mentor firm, under the Pilot Mentor-Protege Program established under section 831 of Public Law 101-510, may count toward its small disadvantaged business goal, subcontracts awarded to-
+
+		(1)  Protege firms which are qualified organizations employing the severely disabled; and
+
+		(2)  Former protege firms that meet the criteria in section 831(g)(4) of Public Law 101-510.
+
+	(d)  The master plan is approved by the cognizant contract administration activity for the Contractor.
+
+	(e)  In those subcontracting plans which specifically identify small businesses, the Contractor shall notify the Administrative Contracting Officer of any substitutions of firms that are not small business firms, for the small business firms specifically identified in the subcontracting plan. Notifications shall be in writing and shall occur within a reasonable period of time after award of the subcontract. Contractor-specified formats shall be acceptable.
+
+	(f)(1)  For DoD, the Contractor shall submit reports in eSRS as follows:
+
+			(i)  Submit the Individual Subcontract Report (ISR)  to the contracting officer at the procuring contracting office, even when contract administration has been delegated to the Defense Contract Management Agency.
+
+			(ii)  Submit the consolidated SSR for an individual subcontracting plan to the "Department of Defense."
+
+		(2)  For DoD, the authority to acknowledge receipt or reject reports in eSRS is as follows:
+
+			(i)  The authority to acknowledge receipt or reject the ISR resides with the contracting officer who receives it, as described in paragraph (f)(1)(i) of this clause.
+
+			(ii)  The authority to acknowledge receipt of or reject SSRs submitted under an individual subcontracting plan resides with the SSR Coordinator.
+
+	(g)  Include the clause at DFARS 252.219-7997, Small Business Subcontracting Plan (Test Program), in subcontracts with subcontractors that participate in the Test Program described in DFARS 219.206-70, if the subcontract is expected to exceed the applicable threshold specified in Federal Acquisition Regulation 19.109(a)(1) and to have further subcontracting opportunities.
+
+(End of clause)
+
+252.219-7997  Small Business Subcontracting Plan (Test Program). (DEVIATION 2026-O0037)
+As prescribed in 219.109(e)(2)(B), use the following clause:
+
+SMALL BUSINESS SUBCONTRACTING PLAN (TEST PROGRAM) (DEVIATION 2026-O0037) (FEB 2026)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Covered small business concern" means a small business concern, veteran-owned small business concern, service-disabled veteran-owned small business concern, HUBZone small business concern, women-owned small business concern, or small disadvantaged business concern, as these terms are defined in FAR 2.101.
+
+	"Electronic Subcontracting Reporting System (eSRS)" means the Governmentwide, electronic, web-based system for small business subcontracting program reporting.
+
+	"Failure to make a good faith effort to comply with a comprehensive subcontracting plan" means a willful or intentional failure to perform in accordance with the requirements of the Contractor's approved comprehensive subcontracting plan or willful or intentional action to frustrate the plan.
+
+	"Subcontract" means any agreement (other than one involving an employer-employee relationship) entered into by a Federal Government prime Contractor or subcontractor calling for supplies or services required for performance of the contract or subcontract.
+
+	(b)  Test Program.  The Contractor's comprehensive small business subcontracting plan and its successors, which are authorized by and approved under the Test Program of 15 U.S.C. 637 note, as amended, shall be included in and made a part of this contract.  Upon expulsion from the Test Program or expiration of the Test Program, the Contractor shall negotiate an individual subcontracting plan for all future contracts that meet the requirements of 15 U.S.C. 637(d).
+
+	(c)  Eligibility requirements.  To become and remain eligible to participate in the Test Program, a business concern is required to have furnished supplies or services (including construction) under at least three DoD contracts during the preceding fiscal year, having an aggregate value of at least $100 million.
+
+	(d)  Reports.
+
+		(1)  The Contractor shall report semiannually for the 6-month periods ending March 31 and September 30, the information in paragraphs (d)(1)(i) through (v) of this section within 30 days after the end of the reporting period.
+
+			(i)  A list of contracts covered under its comprehensive small business subcontracting plan, to include the Commercial and Government Entity (CAGE) code and unique entity identifier.
+
+			(ii)  The amount of first-tier subcontract dollars awarded during the 6-month period covered by the report to covered small business concerns, with the information set forth separately by-
+
+				(A)  North American Industrial Classification System (NAICS) code;
+
+				(B)  Major defense acquisition program, as defined in 10 U.S.C. 4201;
+
+				(C)  Contract number, if the contract is for maintenance, overhaul, repair, servicing, rehabilitation, salvage, modernization, or modification of supplies, systems, or equipment, and the total value of the contract, including options, exceeds $100 million; and
+
+				(D)  Military department.
+
+			(iii)  Total number of subcontracts active under the Test Program that would have otherwise required a subcontracting plan.
+
+			(iv)  Costs incurred in negotiating, complying with, and reporting on its comprehensive subcontracting plan.
+
+			(v)  Costs avoided through the use of a comprehensive subcontracting plan.
+
+		(2)  The Contractor shall-
+
+			(i)  Ensure that subcontractors with subcontracting plans agree to submit an Individual Subcontract Report (ISR) and/or Summary Subcontract Report (SSR) using the Electronic Subcontracting Reporting System (eSRS).
+
+			(ii)  Provide its contract number, its unique entity identifier, and the email address of the Contractor's official responsible for acknowledging or rejecting the ISR to all first-tier subcontractors, who will be required to submit ISRs, so they can enter this information into the eSRS when submitting their reports.
+
+			(iii)  Require that each subcontractor with a subcontracting plan provide the prime contract number, its own unique entity identifier, and the email address of the subcontractor's official responsible for acknowledging or rejecting the ISRs to its subcontractors with subcontracting plans who will be required to submit ISRs.
+ 
+			(iv)  Acknowledge receipt or reject all ISRs submitted by its subcontractors using eSRS.
+
+		(3)  The Contractor shall submit SSRs using eSRS.  The reports shall provide information on subcontract awards to small business concerns, veteran-owned small business concerns, service-disabled veteran-owned small business concerns, HUBZone small business concerns, small disadvantaged business concerns, and women-owned small business concerns.  Purchases from a corporation, company, or subdivision that is an affiliate of the prime Contractor or subcontractor are not included in these reports.  Subcontract award data reported by prime contractors and subcontractors shall be limited to awards made to their immediate next-tier subcontractors.  Credit cannot be taken for awards made to lower-tier subcontractors unless the Contractor or subcontractor has been designated to receive a small business or small disadvantaged business credit from a member firm of the Alaska Native Corporations or an Indian tribe.  Only subcontracts involving performance in the U.S. or its outlying areas should be included in these reports.
+
+			(i)  This report may be submitted on a corporate, company, or subdivision (e.g., plant or division operating as a separate profit center) basis, as negotiated in the comprehensive subcontracting plan with the Defense Contract Management Agency.
+
+			(ii)  This report encompasses all subcontracting under prime contracts and subcontracts with the Department of Defense, regardless of the dollar value of the subcontracts, and is based on the negotiated comprehensive subcontracting plan.
+
+			(iii)  The report shall be submitted semi-annually for the six months ending March 31 and the twelve months ending September 30.   Reports are due 30 days after the close of each reporting period.
+
+			(iv)  The authority to acknowledge receipt of or reject the SSR resides with the Defense Contract Management Agency.
+
+	(e)  Failure to comply.  The failure of the Contractor or subcontractor to comply in good faith with the clause of this contract entitled "Utilization of Small Business Concerns," or an approved plan required by this clause, shall be a material breach of the contract.
+
+	(f)  Liquidated damages.  The Contracting Officer designated to manage the comprehensive subcontracting plan will exercise the functions of the Contracting Officer, as identified in paragraphs (f)(1) through (4) of this clause, on behalf of all DoD departments and agencies that awarded contracts covered by the Contractor's comprehensive subcontracting plan.
+
+		(1)  To determine the need for liquidated damages, the Contracting Officer will conduct a compliance review during the fiscal year after the close of the fiscal year for which the plan is applicable.  The Contracting Officer will compare the approved percentage or dollar goals to the total, actual subcontracting dollars covered by the plan.
+
+		(2)  If the Contractor has failed to meet its approved subcontracting goal(s), the Contracting Officer will provide the Contractor written notice specifying the failure, advising of the potential for assessment of liquidated damages, and permitting the Contractor to demonstrate what good faith efforts have been made.  The Contracting Officer may take the Contractor's failure to respond to the notice within 15 working days (or longer period at the Contracting Officer's discretion) as an admission that no valid explanation exists.
+
+		(3)  If, after consideration of all relevant information, the Contracting Officer determines that the Contractor failed to make a good faith effort to comply with the comprehensive subcontracting plan, the Contracting Officer will issue a final decision to the Contractor to that effect and require the Contractor to pay liquidated damages to the Government in the amount identified in the comprehensive subcontracting plan.
+
+		(4)  The Contractor shall have the right of appeal under the clause in this contract entitled "Disputes" from any final decision of the Contracting Officer.
+
+	(g)  Subcontracts.  The Contractor shall include in subcontracts that offer subcontracting opportunities, are expected to exceed the applicable threshold specified in FAR 19.109(a)(1) on the date of subcontract award, and are required to include the clause at FAR 52.219-8, Utilization of Small Business Concerns, the clauses at-
+
+		(1)  FAR 52.219-9, Small Business Subcontracting Plan, and Defense Federal Acquisition Regulation Supplement (DFARS) 252.219-7996, Small Business Subcontracting Plan (DoD Contracts)-Basic;
+
+		(2)  FAR 52.219-9, Small Business Subcontracting Plan, with its Alternate III, and DFARS 252.219-7996, Small Business Subcontracting Plan (DoD Contracts)-Alternate I, to allow for submission of SF 294s in lieu of ISRs; or
+
+		(3)  DFARS 252.219-7997, Small Business Subcontracting Plan (Test Program), in subcontracts with subcontractors that participate in the Test Program described in DFARS 219.206-70.
+
+(End of clause)
+
+252.219-7009  Section 8(a) Direct Award.
+As prescribed in 219.108-10(1), use the following clause:
+
+SECTION 8(a) DIRECT AWARD (OCT 2018)
+
+	(a)  This contract is issued as a direct award between the contracting office and the 8(a) Contractor pursuant to the Partnership Agreement between the Small Business Administration (SBA) and the Department of Defense.  Accordingly, the SBA, even if not identified in Section A of this contract, is the prime contractor and retains responsibility for 8(a) certification, for 8(a) eligibility determinations and related issues, and for providing counseling and assistance to the 8(a) Contractor under the 8(a) Program.  The cognizant SBA district office is:
+
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+[To be completed by the Contracting Officer 
+at the time of award]
+
+	(b)  The contracting office is responsible for administering the contract and for taking any action on behalf of the Government under the terms and conditions of the contract; provided that the contracting office shall give advance notice to the SBA before it issues a final notice terminating performance, either in whole or in part, under the contract.  The contracting office also shall coordinate with the SBA prior to processing any novation agreement.  The contracting office may assign contract administration functions to a contract administration office.
+
+	(c)  The 8(a) Contractor agrees that it will notify the Contracting Officer, simultaneous with its notification to the SBA (as required by SBA's 8(a) regulations at 13 CFR 124.515), when the owner or owners upon whom 8(a) eligibility is based plan to relinquish ownership or control of the concern.  Consistent with section 407 of Public Law 100-656, transfer of ownership or control shall result in termination of the contract for convenience, unless the SBA waives the requirement for termination prior to the actual relinquishing of ownership and control.
+
+(End of clause)
+
+252.219-7010  Notification of Competition Limited to Eligible 8(a) Participants-Partnership Agreement.
+As prescribed in 219.108-10(2), use the following clause:
+
+NOTIFICATION OF COMPETITION LIMITED TO ELIGIBLE 8(A)
+PARTICIPANTS-PARTNERSHIP AGREEMENT (OCT 2019)
+
+	(a)  Offers are solicited only from small business concerns expressly certified by the Small Business Administration (SBA) for participation in SBA's 8(a) Program and which meet the following criteria at the time of submission of offer:
+
+		(1)  The Offeror is in conformance with the 8(a) support limitation set forth in its approved business plan.
+
+		(2)  The Offeror is in conformance with the Business Activity Targets set forth in its approved business plan or any remedial action directed by SBA.
+
+		(3)  If the competition is to be limited to 8(a) concerns within one or more specific SBA regions or districts, then the offeror's approved business plan is on the file and serviced by ____________________________.  [Contracting Officer completes by inserting the appropriate SBA District and/or Regional Office(s) as identified by SBA.]
+
+	(b)  By submission of its offer, the Offeror represents that it meets all of the criteria set forth in paragraph (a) of this clause.
+
+	(c)  Any award resulting from this solicitation will be made directly by the Contracting Officer to the successful 8(a) offeror selected through the evaluation criteria set forth in this solicitation.
+
+	(d)(1)  Unless SBA has waived the requirements of paragraphs (d)(1)(i) through (iii) and (d)(2) of this clause in accordance with 13 CFR 121.1204, a small business concern that provides an end item it did not manufacture, process, or produce, shall-
+
+			(i)  Provide an end item that a small business has manufactured, processed, or produced in the United States or its outlying areas; for kit assemblers, see paragraph (d)(2) of this clause instead;
+
+			(ii)  Be primarily engaged in the retail or wholesale trade and normally sell the type of item being supplied; and
+
+			(iii)  Take ownership or possession of the item(s) with its personnel, equipment, or facilities in a manner consistent with industry practice; for example, providing storage, transportation, or delivery.
+
+		(2)  When the end item being acquired is a kit of supplies, at least 50 percent of the total cost of the components of the kit shall be manufactured, processed, or produced by small businesses in the United States or its outlying areas.
+
+		(3)  The requirements of paragraphs (d)(1)(i) through (iii) and (d)(2) of this clause do not apply to construction or service contracts.
+
+	(e)  The ___________________ [insert name of SBA's contractor] will notify the __________________ [insert name of contracting agency] Contracting Officer in writing immediately upon entering an agreement (either oral or written) to transfer all or part of its stock or other ownership interest to any other party.
+
+(End of clause)
+
+252.219-7011  Notification to Delay Performance.
+As prescribed in 219.108-10(3), use the following clause:
+
+NOTIFICATION TO DELAY PERFORMANCE (JUN 1998)
+
+The Contractor shall not begin performance under this purchase order until 2 working days have passed from the date of its receipt.  Unless the Contractor receives notification from the Small Business Administration that it is ineligible for this 8(a) award, or otherwise receives instructions from the Contracting Officer, performance under this purchase order may begin on the third working day following receipt of the purchase order.  If a determination of ineligibility is issued within the 2-day period, the purchase order shall be considered canceled.
+
+(End of clause)
+
+252.219-7012  Competition for Religious-Related Services.
+As prescribed in 219.104-70(c), use the following provision:
+
+COMPETITION FOR RELIGIOUS-RELATED SERVICES (APR 2018)
+
+	(a)  Definition.   As used in this provision-
+
+	"Nonprofit organization" means any organization that is-
+
+		(1)  Described in section 501(c) of the Internal Revenue Code of 1986; and
+
+		(2)  Exempt from tax under section 501(a) of that Code.
+
+	(b)  A nonprofit organization is not precluded from competing for a contract for religious-related services to be performed on a United States military installation notwithstanding that a nonprofit organization is not a small business concern as identified in FAR 19.000(a)(3).
+
+	(c)  If the apparently successful offeror has not represented in its quotation or offer that it is a small business concern identified in FAR 19.000(a)(3), as appropriate to the solicitation, the Contracting Officer will verify that the offeror is registered in the System for Award Management database as a nonprofit organization.
+
+(End of provision)
+
+Attachment A1
+DARS Tracking Number: 2026-O0037
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 19
+Defense FAR Supplement (DFARS) Part 219
+
+
+Page 1 of 42
+

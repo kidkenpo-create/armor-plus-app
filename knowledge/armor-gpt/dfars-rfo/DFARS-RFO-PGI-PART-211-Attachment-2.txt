@@ -1,0 +1,36 @@
+PGI 211-DESCRIBING AGENCY NEEDS
+PGI 211.2-SELECTING AND DEVELOPING REQUIREMENTS DOCUMENTS
+PGI 211.204  Items peculiar to one manufacturer.
+Office of Federal Procurement Policy memorandum of April 11, 2005, Subject: Use of Brand Name Specifications, reinforces the need to maintain vendor and technology neutral contract specifications, and asks agencies to publish the supporting justification when using brand name specifications in a solicitation.
+Office of Federal Procurement Policy memorandum of April 17, 2006, Subject: Publication of Brand Name Justifications, provides additional guidance regarding publication of justifications for use of brand name specifications.
+PGI 211.273 -USING AND MAINTAINING REQUIREMENTS DOCUMENTS
+PGI 211.273-1  Identification and availability of specifications.
+      (1) Specifications, standards, and data item descriptions are indexed in the Acquisition Streamlining and Standardization Information System (ASSIST).
+      (2) Most unclassified specifications, standards, and data item descriptions, and DoD adoption notices on voluntary consensus standards may be downloaded from the ASSIST database ( https://assist.dla.mil or http://quicksearch.dla.mil ). Documents contained in ASSIST that are not available for download may be identified and obtained by following the instructions at http://assist.dla.mil/online/faqs/overview.cfm .
+PGI 211.70 -PURCHASE REQUESTS
+PGI 211.7001 Procedures.
+Requiring activities are responsible for developing and distributing purchase requests, except for the requirements for Military Interdepartmental Purchase Requests (MIPRs) (DD Form 448) addressed in 253.208-1 .
+   (a) Agencies may use a combined numbering series for MIPRs and internal purchase requests, following the rules at 253.208-1 (c)(1) for both. If using a separate numbering sequence for internal purchase requests, agencies must have procedures that ensure the same number cannot be assigned to both a MIPR and an internal purchase request. Use of a purely internal tracking number in addition to the purchase request number is authorized and supported by the data standards. Number the purchase request by using-
+      (1) The requiring activity's Department of Defense Activity Address Code (DODAAC), as described in DLM 4000.25 Volume 6, Chapter 2. DODAACs may be verified at https://home.daas.dla.mil/eDoDAAD/s_search/search_menu.asp.
+      (2) A serial number of eight alphanumeric characters, excluding "I" and "O"; and
+      (3) A revision number, with the original request being assigned zero and subsequent revisions or amendments being numbered consecutively.
+   (b) Prior to taking action on a purchase request, contracting officers must ensure that the requiring activity has prepared the purchase requests in uniform contract format (see FAR 14.201-1 and 15.109), except for procurement of construction (see part 36), which should follow the current edition of the Construction Specifications Institute format. Purchase requests shall include all supporting documentation required by local contract procedures.
+   (c) Prior to taking action on a purchase request, contracting officers must ensure that the purchase requests follow the line item rules and data requirements in DFARS 204.71 . Purchase requests for individual supplies (i.e., not bulk commodities such as oil) must identify whether the item to be acquired is subject to the item unique identification requirements of DFARS 211.274-2.
+   (d)(1) Purchase requests may be unfunded for planning purposes, partially funded, or fully funded.
+      (2) Funding data in purchase requests will, at a minimum, identify the following elements of the funding source: Department Code (e.g. 21 Army), Main Account (e.g. 1804, Operation and Maintenance, Navy), Subaccount (where applicable), and Fiscal Year. Lists of these codes are published in Supplement 1 to Volume I of the Treasury Financial Manual, Federal Account Symbols and Titles, generally referred to as The FAST Book at https://tfx.treasury.gov/reference-books/fast-book.
+      (3) Agencies must have sufficient procedures in place to enable traceability of line items identified in the purchase request to those in the resulting contract. In developing such procedures, agencies must ensure that provisions are made for circumstances in which the deliverables may be more completely defined during the process of soliciting offers and making an award.
+   (e) Contracting officers must not obligate funds that have not been certified as currently available and suitable. Review purchase requests to ensure they are certified after agreement on price and prior to award to ensure that the funds are-
+      (1) Suitable and available for the purpose and amount of the contract; and
+      (2) Traceable from the purchase request to the resultant contract.
+   (f) Purchase requests transmitted between requiring systems and contract writing systems must be transmitted via the Global EXchange system (GEX) using the Purchase Request Data Standard Extensible Markup Language (XML) format at https://www.acq.osd.mil/asda/dpc/ce/ds/procurement-data-standard.html . Copies must be sent via the GEX to the Electronic Data Access (EDA) system at http://eda.ogden.disa.mil . Requiring systems and contract writing systems may use a format that can be translated to or from the purchase request Data Standard (XML) format.
+Attachment A2
+DARS Tracking Number: 2026-O0013
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 11
+Defense FAR Supplement (DFARS) Part 211
+
+
+
+
+Page 3 of 3
+
+

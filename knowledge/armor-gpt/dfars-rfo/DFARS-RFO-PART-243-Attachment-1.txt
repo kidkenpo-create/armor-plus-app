@@ -1,0 +1,149 @@
+PART 243-CONTRACT MODIFICATIONS
+
+SUBPART 243.2-GENERAL
+
+243.206-70  Notification of substantial impact on employment.
+The Secretary of Defense is required to notify the Secretary of Labor if a modification of a major defense contract or subcontract will have a substantial impact on employment.  The clause at 252.249-7002 requires that the contractor notify its employees, its subcontractors, and State and local officials when a contract modification will have a substantial impact on employment.
+
+243.270  Identification of foreign military sale (FMS) requirements.
+Follow the procedures at PGI 243.270 for identifying contract modifications that add FMS requirements.
+
+243.271  Obligation or deobligation of funds.
+Follow the procedures at PGI 243.271 when obligating or deobligating funds.
+
+243.272  Application of modifications.
+Follow the procedures at 204.201-72 for determining the sequence for application of modifications to a contract or order.
+
+SUBPART 243.3-CHANGE ORDERS
+
+243.304  Administration.
+Follow the procedures at PGI 243.304 for administration of change orders.
+
+243.370  Definitization of change orders.
+
+243.370-1  Scope.
+
+	(a)  This subsection applies to unpriced change orders with an estimated value exceeding $5 million.
+
+ 	(b)  Unpriced change orders for foreign military sales and special access programs are not subject to this subsection, but the contracting officer must apply the policy and procedures to them to the maximum extent practicable.  If the contracting officer determines that it is impracticable to adhere to the policy and procedures of this subsection for an unpriced change order for a foreign military sale or a special access program, the contracting officer must provide prior notice, through agency channels, to the Office of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, Contract Policy via email at osd.pentagon.ousd-a-s.mbx.dpc-cp@mail.mil.
+
+243.370-2  Price ceiling.
+Unpriced change orders must include a not-to-exceed price.
+
+
+243.370-3  Definitization schedule.
+
+ 	(a)  Unpriced change orders must contain definitization schedules that provide for definitization by the earlier of-
+
+		(1)  The date that is 180 days after issuance of the change order (this date may be extended but may not exceed the date that is 180 days after the contractor submits a qualifying proposal); or
+
+		(2)  The date on which the amount of funds obligated under the change order is equal to more than 50 percent of the not-to-exceed price.
+
+ 	(b)  Submission of a qualifying proposal in accordance with the definitization schedule is a material element of the contract.  If the contractor does not submit a timely qualifying proposal, the contracting officer may suspend or reduce progress payments under FAR 32.503-6, or take other appropriate action.
+
+243.370-4  Limitations on obligations.
+
+	(a)  The Government must not obligate more than 50 percent of the not-to-exceed price before definitization.  However, if a contractor submits a qualifying proposal before the Government obligates 50 percent of the not-to-exceed price, the Government may increase the limitation on obligations before definitization to no more than 75 percent (see PGI 232.102-70 for coverage on provisional delivery payments).
+
+	(b)  Obligations should be consistent with the contractor's requirements for the undefinitized period.
+
+243.370-5  Exceptions.
+
+	(a)  The limitations in 243.370-2, 243.370-3, and 243.370-4 do not apply to unpriced change orders for the purchase of initial spares.
+
+	(b)  The limitations in 243.370-4(a) do not apply to unpriced change orders for ship construction and ship repair.
+
+	(c)  The head of the agency may waive the limitations in 243.370-2, 243.370-3, and 243.370-4 for unpriced change orders if the head of the agency determines that the waiver is necessary to support-
+
+		(1)  A contingency operation; or
+
+		(2)  A humanitarian or peacekeeping operation.
+
+243.370-6  Allowable Profit.
+
+	When the final price of an unpriced change order is negotiated after completion of a substantial portion of the required performance, the head of the contracting activity must ensure the profit allowed reflects-
+
+	(a)  Any reduced cost risk to the contractor for costs incurred during contract performance before negotiation of the final price;
+
+	(b)  Any reduced cost risk to the contractor for costs expected to be incurred during performance of the remainder of the contract; and
+
+	(c)  The extent to which costs have been incurred prior to definitization of the unpriced change order (see 215.404). The risk assessment must be documented in the price negotiation memorandum.
+
+243.370-7  Plans and reports.
+
+To provide for enhanced management and oversight of unpriced change orders, departments and agencies must-
+
+	(a)  Include in the Consolidated Undefinitized Contract Action (UCA) Management Plan required by 217.7405, the actions planned and taken to ensure that unpriced change orders are definitized in accordance with this subsection; and
+
+	(b)  Include in the Consolidated UCA Management Report required by 217.7405, each unpriced change order with an estimated value exceeding $5 million.
+
+243.371  Certification of requests for equitable adjustment.
+
+	(a)  Do not pay a request for equitable adjustment to contract terms that exceeds the simplified acquisition threshold unless the contractor certifies the request in accordance with the clause at 252.243-7002.
+
+	(b)  To determine if the dollar threshold for requiring certification is met, add together the absolute value of each cost increase and each cost decrease.  See PGI 243.371 for an example.
+
+	(c)  The certification required by 10 U.S.C. 3862(a), as implemented in the clause at 252.243-7002 , is different from the certification required by 41 U.S.C. 7103, Disputes. If the contractor has certified a request for equitable adjustment in accordance with 10 U.S.C. 3862(a), and desires to convert the request to a claim under the Contract Disputes statute, the contractor must certify the claim in accordance with FAR subpart 33.2.
+
+243.305  Contract clauses.
+
+243.305-70  Pricing of contract modifications.
+Insert the clause at 252.243-7001, Pricing of Contract Modifications, in solicitations and contracts when anticipating and using a fixed price type contract.
+
+243.305-71  Requests for equitable adjustment.
+Insert the clause at 252.243-7002, Requests for Equitable Adjustment, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are estimated to exceed the simplified acquisition threshold.
+
+243.305-72  Unpriced change orders.
+Insert the clauses prescribed at 217.7406 for unpriced change orders with an estimated value exceeding $5 million.
+
+
+PART 252 - SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+
+252.243-7000  Reserved.
+
+252.243-7001  Pricing of contract modifications.
+As prescribed in 243.305-70, use the following clause:
+
+PRICING OF CONTRACT MODIFICATIONS (DEC 1991)
+
+When costs are a factor in any price adjustment under this contract, the contract cost principles and procedures in FAR part 31 and DFARS part 231, in effect on the date of this contract, apply.
+(End of clause)
+
+252.243-7002  Requests for Equitable Adjustment.
+As prescribed in 243.305-71, use the following clause:
+
+REQUESTS FOR EQUITABLE ADJUSTMENT (DEC 2022)
+
+	(a)  The amount of any request for equitable adjustment to contract terms shall accurately reflect the contract adjustment for which the Contractor believes the Government is liable.  The request shall include only costs for performing the change, and shall not include any costs that already have been reimbursed or that have been separately claimed. All indirect costs included in the request shall be properly allocable to the change in accordance with applicable acquisition regulations.
+
+	(b)  In accordance with 10 U.S.C. 3862(a), any request for equitable adjustment to contract terms that exceeds the simplified acquisition threshold shall bear, at the time of submission, the following certificate executed by an individual authorized to certify the request on behalf of the Contractor:
+
+I certify that the request is made in good faith, and that the supporting data are accurate and complete to the best of my knowledge and belief.(Official's Name)(Title)
+
+	(c)  The certification in paragraph (b) of this clause requires full disclosure of all relevant facts, including-
+
+		(1)  Certified cost or pricing data if required in accordance with subsection 15.403-4 of the Federal Acquisition Regulation (FAR); and
+
+		(2)  Data other than certified cost or pricing data, in accordance with subsection 15.403-3 of the FAR, including actual cost data and data to support any estimated costs, even if certified cost or pricing data are not required.
+
+	(d)  The certification requirement in paragraph (b) of this clause does not apply to-
+		(1)  Requests for routine contract payments; for example, requests for payment for accepted supplies and services, routine vouchers under a cost-reimbursement type contract, or progress payment invoices; or
+
+		(2)  Final adjustment under an incentive provision of the contract.
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0034
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 43
+Defense FAR Supplement (DFARS) Part 243
+
+
+
+
+Page 1 of 5
+
+
+

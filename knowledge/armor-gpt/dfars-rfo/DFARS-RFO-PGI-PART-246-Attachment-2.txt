@@ -1,0 +1,239 @@
+PGI Part 246-QUALITY ASSURANCE
+
+PGI 246.1-GENERAL
+
+PGI 246.103  Contracting office responsibilities.
+
+      (2)(i)  In preparing instructions for Government inspections, the technical activity must consider, as applicable-
+      
+            (A)  The past quality history of the contractor;
+            
+            (B)  The criticality of the material procured in relation to its intended use, considering factors such as-
+            
+                  (1)  Reliability;
+                  
+                  (2)  Safety;
+                  
+                  (3)  Interchangeability; and
+                  
+                  (4)  Maintainability;
+                  
+            (C)  Problems encountered in the development of the material;
+            
+            (D)  Problems encountered in other procurements of the same or similar material;
+            
+            (E)  Available feedback data from contract administration, receiving, testing, or using activities; and
+            
+            (F)  The experience of other contractors in overcoming manufacturing problems.
+            
+         (ii)  The instructions must-
+         
+            (A)  Be kept to a minimum;
+            
+            (B)  Ensure that the activities requested are in direct relation to contract quality requirements to serve as objective evidence of quality conformance; and
+            
+            (C)  Be prepared on a contract-by-contract basis.
+            
+         (iii)  The instructions must not-
+         
+            (A)  Serve as a substitute for incomplete contract quality requirements;
+            
+            (B)  Impose greater inspection requirements than are in the contract;
+            
+            (C)  Use broad or general designations such as-
+            
+                  (1)  All requirements;
+                  
+                  (2)  All characteristics; or
+                  
+                  (3)  All characteristics in the classification of defects;
+                  
+            (D)  Be used for routine administrative procedures; or
+            
+            (E)  Specify continued inspection requirements when statistically sound sampling will provide an adequate degree of protection.
+            
+         (iv)  After issuing the instructions, the technical activity must-
+         
+            (A)  Provide the contract administration office with available information regarding those factors that resulted in the requirement for Government inspection;
+            
+            (B)  Periodically analyze the need to continue, change, or discontinue the instructions; and
+            
+            (C)  Advise the contract administration office of the results of the periodic analyses.
+            
+PGI 246.2-CONTRACT QUALITY REQUIREMENTS
+
+PGI 246.201  General
+
+PGI 246.201-70  Subsistence.
+
+	(a)  The Surgeons General of the military departments are responsible for-
+   
+		(1)  Acceptance criteria;
+      
+		(2)  Technical requirements; and
+      
+		(3)  Inspection procedures needed to assure wholesomeness of foods.
+      
+	(b)  The contracting office may designate any Federal activity, capable of assuring wholesomeness and quality in food, to perform quality assurance for subsistence contract items.  The designation may-
+   
+		(1)  Include medical service personnel of the military departments; and
+      
+		(2)  Be on a reimbursable basis.
+
+PGI 246.201-71  Aircraft.
+
+	(a)  The Federal Aviation Administration (FAA) has certain responsibilities and prerogatives in connection with some commercial aircraft and of aircraft equipment and accessories (Pub. L. 85-726 (72 Stat 776, 49 U.S.C. 1423)).  This includes the issuance of various certificates applicable to design, manufacture, and airworthiness.
+   
+	(b)  FAA evaluations are not a substitute for normal DoD evaluations of the contractor's quality assurance measures.  Actual records of FAA evaluations may be of use to the contract administration office (CAO) and should be used to their maximum advantage.
+   
+	(c)  The CAO must ensure that the contractor possesses any required FAA certificates prior to acceptance. In addition, ensure that-
+
+		(i)  A detailed consultation with the FAA Military Certification Office (MCO) (contact the MCO here: https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/air/hq/compliance_airworthiness_air700/mco is documented regarding the scope of the acquisition or modification project;
+         
+		(ii)  Supporting contractual documents (meeting minutes, an email record of consultations, memoranda, etc.) demonstrate that the scope of work is feasible and compatible with FAA regulations and policy;
+         
+		(iii)  The period of performance and contract deliverable dates are consistent with FAA capabilities; and
+         
+		(iv)  Contract provisions requiring FAA approval or processes are coordinated with the MCO prior to a solicitation.
+            
+PGI 246.3-CONTRACT CLAUSES
+
+PGI 246.370  Notification of potential safety issues.
+
+	(1)  The objective of this requirement is to ensure that the Government receives timely notification of potential safety defects so that-
+      
+		(i)  Systems and equipment likely affected by the situation can be identified; and
+
+		(ii)  An appropriate engineering investigation and follow-on actions can be taken to establish and mitigate risk.
+         
+	(2)  The notification is intended to be neither an admission of nor a release from liability.
+      
+	(3)  Upon notification of a potential safety nonconformance or deficiency-
+      
+		(i)  The procuring contracting officer must-
+         
+			(A)  Advise the affected program office(s) or integrated materiel manager(s); and
+            
+			(B)  Request a point of contact from the affected program office(s) or materiel management organization to assess the impact of the situation, address technical concerns, and provide recommendations;
+
+		(ii)  The administrative contracting officer must-
+         
+			(A)  Confirm that potentially affected program offices, integrated materiel managers, and other contract management offices that may be recipients of the suspect items are aware of the situation; and
+            
+			(B)  Identify a point of contact to provide support and technical assistance to the investigative team; and
+            
+		(iii)  For replenishment parts, the integrated materiel manager must-
+
+			(A)  Identify any potentially affected programs or equipment; and
+            
+			(B)  Request engineering assistance from affected engineering support activities, as prescribed by-
+            
+				(1)  DLAI 3200.1/PAM 715.13/NAVSUPINST 4120.30A/AFI 21-408/MCO 4000.18, Engineering Support Instruction for Items Supplied by Defense Logistics Agency;
+                  
+				(2)  SECNAVINST 4140.2/AFI 20-106/DA PAM 95-9/DLAI 3200.4/DCMA INST CSI (AV), Management of Aviation Critical Safety Items;
+                  
+				(3)  DA PAM 738-751, Functional Users Manual for the Army Maintenance Management System-Aviation (TAMMS-A);
+                  
+				(4)  AMCOM REG 702-7, Flight Safety Parts/New Source Testing Program Management; or
+                  
+				(5)  Internal agency procedures.
+                  
+PGI 246.4-GOVERNMENT CONTRACT QUALITY ASSURANCE
+
+PGI 246.407-70  Nonconforming supplies or services.
+Additional information on delegation of authority for acceptance of minor nonconformances in aviation and ship critical safety items is available at https://www.dla.mil/portals/104/documents/aviation/source%20approval%20handbook.pdf.
+
+PGI 246.470  Government contract quality assurance actions.
+
+PGI 246.470-2  Quality evaluation data.
+
+Types of quality evaluation data are-
+
+	(1)  Quality data developed by the contractor during performance;
+      
+	(2)  Data developed by the Government through contract quality assurance actions; and
+
+	(3)  Reports by users and customers.
+      
+
+PGI 246.472  Inspection stamping.
+
+	(a)(i)  There are two DoD quality inspection approval marking designs (stamps).
+   
+			(A)  Both stamps are used-
+            
+				(1)  Only by, or under the direct supervision of, the Government representative; and
+                  
+				(2)  For both prime and subcontracts.
+                  
+			(B)  The designs of the two stamps and the differences in their uses are-
+            
+				(1)  Partial (Circle) Inspection Approval Stamp.
+                  
+					(i)  This circular stamp is used to identify material inspected for conformance to only a portion of the contract quality requirements.
+         
+					(ii)  Further inspection is to be performed at another time and/or place.
+         
+					(iii)  Material not inspected is so listed on the associated DD Form 250 (Material Inspection and Receiving Report), packing list, or comparable document.
+         
+				(2)  Complete (Square) Inspection Approval Stamp.
+                  
+					(i)  This square stamp is used to identify material completely inspected for all contract quality requirements at source.
+         
+         			(ii)  The material satisfies all contract quality requirements and is in complete conformance with all contract quality requirements applicable at the time and place of inspection.
+         
+         			(iii)  Complete inspection approval establishes that material that once was partially approved has subsequently been completely approved.
+         
+         			(iv)  One imprint of the square stamp voids multiple imprints of the circle stamp.
+         
+		(ii)  The marking of each item is neither required nor prohibited.  Ordinarily, the stamping of shipping containers, packing lists, or routing tickets serves to adequately indicate the status of the material and to control or facilitate its movement.
+         
+		(iii)  Stamping material does not mean that it has been accepted by the Government.  Evidence of acceptance is ordinarily a signed acceptance certificate on the DD Form 250, Material Inspection and Receiving Report.
+         
+         
+         
+         
+PGI 246.7-WARRANTIES
+
+PGI 246.701  Definitions.
+"Duration," "fixed expiration," "starting event," "usage," and "warranty repair source" are defined in the clause at 252.246-7006, Warranty Tracking of Serialized Items.
+
+PGI 246.710  RESERVED
+
+PGI 246.710-70  Warranty attachments.
+
+	(1)  The following attachments must be included in solicitations and awards to specify the required data elements for warranties of serialized items:
+      
+		(i)  Warranty Tracking Information.  This format is used to specify the required warranty tracking data elements and accomplish the electronic transmission of the list of warranty items.  All fields of this attachment must be completed at the time of award, except the unique item identifier field, which may be completed after the time of award, but no later than when the warranted items are presented for receipt and/or acceptance.
+         
+		(ii)  Source of Repair Instructions.  This format is used to specify the required warranty source of repair data elements and accomplish the electronic transmission of the source of repair data for each warranty item.  This attachment must be completed no later than when the warranted items are presented for receipt and/or acceptance.
+         
+	(2)  Warranty attachments must be-
+      
+		(i)  Completed electronically using the fillable PDF format or downloadable Excel format available on the Product Data Reporting and Evaluation Program (PDREP) website at https://www.pdrep.csd.disa.mil/pdrep_files/other/wsr.htm; and
+         
+		(ii)  Numbered in accordance with PGI 204.
+         
+	(3)  If the Government specifies a warranty, the contracting officer must request the requiring activity to provide information to ensure that the "Warranty Tracking Information" attachment is populated with data specifying the Government's required warranty terms by contract line item number, subline item number, or exhibit line item number prior to solicitation. One of the following is required to populate the attachment for each warranted item: starting event, usage, duration, or fixed expiration date.
+      
+	(4)  If the Government does not specify a warranty, the contracting officer may require offerors to provide warranty data by populating the "Warranty Tracking Information" attachment, as appropriate, and include the attachment as part of its offer, in accordance with the provision at 252.246-7005, Notice of Warranty Tracking of Serialized Items.
+      
+	(5)  As required in the clause at 252.246-7006, Warranty Tracking of Serialized Items, the contractor is required to provide the following information no later than the time of receipt and/or acceptance of warranted items:
+      
+		(i)  The unique item identifier for each warranted item on the "Warranty Tracking Information" attachment.
+         
+		(ii)  The warranty repair source information and instructions required by the "Source of Repair Instructions" attachment.
+         
+	(6)  The contracting officer must ensure the completed warranty attachments are uploaded to the Electronic Data Access (EDA) system (see DFARS part 204 for information on obtaining an EDA account).
+      
+	(7)  For additional information on the warranty attachments, see the "Warranty and Source of Repair" training and "Warranty and Source of Repair Tracking User Guide" accessible on the PDREP site at https://www.pdrep.csd.disa.mil/pdrep_files/other/wsr.htm.
+      
+
+Attachment A2
+DARS Tracking Number: 2026-O0035
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 46
+Defense FAR Supplement (DFARS) Part 246
+
+
+Page 7 of 8
+

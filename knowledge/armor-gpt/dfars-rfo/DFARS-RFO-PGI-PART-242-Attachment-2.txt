@@ -1,0 +1,630 @@
+PGI 242-CONTRACT ADMINISTRATION AND AUDIT SERVICES
+
+PGI 242.001-70  Interagency agreements.
+
+	(d)(2)  Upon receipt of a request for contract administration services, the CCP must-
+
+			(i)  Determine whether the request is from a friendly foreign government or an international agency in which the United States is a participant;
+
+			(ii)  Determine whether the services are consistent with the DoD mutual security program policies. The Assistant Secretary of Defense (International Security Affairs) is the source of information for questions about the eligibility of foreign governments to receive services);
+
+			(iii)  Ensure that the reimbursement arrangements are consistent with DFARS 242.001-70;
+
+			(iv)  Coordinate with appropriate contract administration offices to determine whether DoD can provide the services;
+
+			(v)  Notify the requestor that the request is accepted, or provide reasons why it cannot be accepted;
+
+			(vi)  Distribute the acquisition documents and related materials to contract administration offices; and
+
+			(vii)  Receive statements of costs incurred by contract administration offices for reimbursable services and forward them for billing to the Security Assistance Accounting Center.
+
+PGI 242.2  CONTRACT ADMINISTRATION SERVICES
+
+PGI 242.202-70  Assignment of contract administration.
+
+	(b)((6)  DoD activities must retain contract administration functions for contracts performed at a base, post, camp, station, or other military installation. These contracts are normally the responsibility of the installation or tenant commander.  However, DCMA must perform contract administration services on a military installation at the request of the military department if there is a prior agreement.
+
+PGI 242.202-71  Secondary delegations of contract administration.
+
+When requesting support on a subcontract that includes foreign military sale (FMS) requirements, the contract administration office must-
+
+		(1) Mark "FMS Requirement" on the face of the documents; and
+
+		(2) For each FMS case involved, provide the FMS case identifier, associated item quantities, DoD prime contract number, and prime contract line/subline item number.
+
+
+PGI 242.3-CONTRACT ADMINISTRATION OFFICE FUNCTIONS
+
+PGI 242.302-70  Contract administration functions.
+
+	(a)(4)  For contracts assigned to DCMA for contract administration, designate as the payment office-
+
+			(i)  The cognizant Defense Finance and Accounting Service (DFAS) payment office as specified in the Federal Directory of Contract Administration Services Components, available at https://piee.eb.mil/pcm/xhtml/unauth/index.xhtml, for contracts funded with DoD funds;
+
+			(ii)  The department or agency payment office, if authorized by defense financial management regulations or if the contract is funded with non-DoD funds; or
+
+			(iii)  Multiple payment offices under paragraphs (a)(13)(B)(1)(i) and (ii) of this section, if the contract is funded with both DoD and non-DoD funds.
+
+		(2)  For contracts not assigned to DCMA, select a payment office or offices 
+under department/agency procedures.
+
+		(3)  When the Governmentwide commercial purchase card is the method of payment for a contract or order, enter "CRCARD" in the payment office code block.
+
+		(6)  Assignment of a Government flight representative (GFR) may require execution of a secondary contract administration delegation, which is used to transfer contract administration responsibilities (see FAR 42.302(a)) from one contract administration office to another office or command.  Secondary contract administration delegations are appropriate when, for example, contract work is performed at locations geographically separated from the contract administration office.  In lieu of transferring contract administration responsibility through a secondary contract administration delegation, a GFR from one unit may be delegated GFR responsibility from an outside contract administration organization that has retained contract administration responsibility.  This is accomplished through the use of a formal letter of agreement functionally assigning the GFR to the outside contract administration organization for the limited purpose of performing contract administration under FAR 42.302(a)(56).
+
+	 (10)  Use the following when use of Synchronized Predeployment and Operational Tracker (SPOT) is a requirement of the contract;
+
+			(i)  For suggested criteria to assess a contractor's implementation of SPOT, see SPOT Compliance Checklist at https://www.acq.osd.mil/asds/log/cso/ocs/spot.html.
+
+			(ii)  For visibility into certain discrepant records in SPOT, use the following audit compliance reports (ACRs) available via the Total Operational Picture Support System (TOPSS):
+
+				(A)  Deployment Status Report (ACR-01).  Lists all deployment requests that were submitted less than 10 days prior to the estimated deployment start date.
+
+				(B)  In-Theater Arrival Date (ITAD) Report (ACR-02).  Lists all records where the ITAD was entered more than one day after the actual ITAD.
+
+				(C)  Primary Duty Station Report (ACR-03).  Lists all deployments where the primary duty station arrival date was entered more than three days after the actual duty station arrival date. 
+
+				(D)  Closeout Deployment Report (ACR-05).  Lists all deployments where the actual deployment end date was entered more than three days after the actual deployment end date. 
+
+				(E)  Open/Blank In-Theater Arrival Date (ITAD) Report (ACR- 06).  Lists where the ITAD was not entered into SPOT within 15 days after the estimated deployment start date.
+
+			(iii) Obtain a TOPSS account by following the TOPPS PKI Certificate Registration instructions at https://www.acq.osd.mil/asds/log/cso/ocs/spot.html.
+
+			(iv)  Take immediate action to notify contractors of non-compliance with SPOT (e.g., issue one of the delinquency notices identified at FAR 49.607).
+
+			(v)  Document performance deficiencies related to SPOT non-compliance that will be relevant to past performance evaluations for future contract opportunities in accordance with FAR subpart 42.11.
+
+		(13)(i)  Use these guidelines for-
+
+				(A)  Monitoring the policies, procedures, and practices used by contractors to control direct and indirect costs related to Government business; and
+
+				(B)  Eliminating duplication in Government monitoring of contractors' costs.
+
+			(ii)  Effective management of contract costs is essential to the efficient and economical performance of Government contracts.  Contractors are responsible for managing and controlling their direct and indirect costs; however, DoD must systematically monitor the management of contractors' costs to ensure these responsibilities are met.
+
+			(iii) Departments and agencies should conduct a formal program of Government monitoring of contractor policies, procedures, and practices for controlling costs (cost monitoring) at contractor locations where-
+
+				(A)  Sales to the Government, as determined by the contract administration offices, during the contractor's next fiscal year are expected to exceed $200 million in contracts-
+
+					(1)  Based on costs incurred; or
+
+					(2)  Negotiated based on projected costs.
+
+				(B)  The contract administration office determines the cost benefits derived from monitoring the individual contractors with less than $200 million in other than firm fixed-price and fixed-price with economic price adjustment contracts is warranted; or
+
+				(C)  Significant Government business exists and is specifically directed by the head of the contracting activity.
+
+			(iv)  Departments and agencies are responsible for designating the cost monitoring sites and discontinuing them when the criteria are no longer met.
+
+			(v)  Contract administration offices (CAOs), which are designated as cost monitoring sites, are responsible for-
+
+				(A)  Assigning a cost monitoring specialist (CMS) to conduct the program.  The CMS may be the administrative contracting officer (ACO) or any other CAO employee whose normal function relates to evaluation of contractor performance.
+
+				(B)  Reviewing and approving the cost monitoring plan for the next fiscal year and the cost monitoring report from the concluding fiscal year.
+
+			(vi)  The ACO is responsible for-
+
+				(A)  In the absence of a CMS, ensuring completion of the CMS duties referenced in paragraph (iii) of this section;
+
+				(B)  Considering review results in direct and indirect rate negotiations and contract negotiations;
+
+				(C)  Ensuring the contractor implements corrective action recommended in the cost monitoring review reports; and
+
+				(D)  Resolving disputes with the contractor regarding cost monitoring review findings, conclusions, or recommendations.
+
+			(vii)  The CMS is responsible for managing the cost monitoring effort within the CAO and coordinating planned effort with the contract auditor. This includes-
+
+				(A)  Preparing and maintaining an annual written cost monitoring plan for reviewing contractor operations (see paragraph (d) of this section);
+
+				(B)  Maintaining an inventory of planned and completed CAO, Defense Contract Audit Agency (DCAA), and other Government reviews and audits in order to mitigate duplication of efforts;
+
+				(C)  Monitoring contractor direct and indirect rates and factors during the year, making comparisons to historical actual costs and to contractor proposed or negotiated forward pricing rates and factors, and providing rate recommendations based on their analysis;
+
+				(D)  Performing approved functional reviews of contractor activities, to include assisting Government personnel in obtaining access to pertinent contractor policies, procedures, and related data;
+
+				(E)  Advising the ACO and CAO management of corrective action recommended to improve inefficient or uneconomical contractor conditions, policies, or practices, to include preparing, for the ACO's consideration when appropriate, a Notice of Intent to Disallow or Not Recognize Costs;
+
+				(F)  Continuously tracking the status of recommendations made to the contractor concerning cost performance stemming from all Government reports;
+
+				(G)  Keeping the contracting officer, program manager, contract auditor, and other responsible officials informed of issues affecting economical contract performance;
+
+				(H)  Maintaining current organizational charts of the operations identifiable to the contractor's functional centers of its cost control functions; and
+
+				(I)  Preparing a final cost monitoring report summarizing all of the cost monitoring functions performed during the Government fiscal year.
+
+			(viii)  The contract auditor is responsible for assisting the CMS by performing the portion of cost monitoring plan and related analyses that requires access to the contractor's financial and accounting records supporting the cost or pricing data.  (This does not preclude the program manager, contracting officer, ACO, CMS, or other representatives from reviewing contractor records and data necessary to the performance of their duties.)
+
+			(ix)  Audit organizations, program offices, contracting activities, and any other DoD organizations with responsibility for reviewing contractor operations for the purpose of monitoring contractor policies, procedures, and practices to control costs, must submit to the CMS-
+
+				(A)  An annual schedule of planned and tentative visits, oversight reviews, and audits to be performed at cost monitoring locations; and
+
+				(B)  Revisions to scheduled visits or audit plans, within 30 days of issuance.
+
+			(x)  Establish an annual cost monitoring plan for monitoring, reviewing, negotiating, and approving contractor's direct and indirect rates, business systems, corrective actions to deficient processes, and cost controls by coordinating the capabilities of the CAO, DCAA, and other Government representatives in an effort to reduce unreasonable, erroneous, or improper costs to Government contracts.
+
+				(A)  The plan should-
+
+					(1)  Provide coverage for each significant activity of the contractor over a period of five to ten years;
+
+					(2)  Provide coverage for contractor future years dependent on the period of forward pricing years the contractor proposes and the expected length of executed Government programs;
+
+					(3)  Be updated to reflect changed conditions as the year progresses; and
+
+					(4)  Be consistent with the approved schedule, and any deviations should be explained in the final cost monitoring report.
+
+				(B)  The plan must identify the organizations having the primary responsibility for performing the reviews.
+
+				(C)  The plan should include reviews required by the ACO and DFARS. Reviews will be performed by the assigned organization during the coordination phase of the cost monitoring plan, except when DFARS makes a specific organizational assignment.  For example, 244.301 makes the ACO responsible for leading contractor purchasing system reviews and 215.305-70(c)(3) makes the DCAA auditor responsible for leading estimating system reviews on behalf of the ACO.
+
+			(xi)  The CAO selects the activities for the cost monitoring plan.  DCAA will complete its annual audit plan independently and communicate the approved audit plan to ensure the most effective monitoring approach.  To ensure all Government interests are considered in the selection, the CMS should invite CAO, DCAA, and other interested Government representatives to a meeting before the beginning of each Government fiscal year to identify and prioritize the areas to be reviewed during the coming year, to ensure a fully communicated Government cost monitoring plan.
+
+				(A)  The selection team should consider the following data and assign primary responsibility in the selection process-
+
+					(1)  Contractor forecasts for the coming years supporting direct and indirect costs by functional centers of its cost control system and the results of the latest survey performed of such systems;
+
+					(2)  Organizational charts for the contractor's entire operation;
+
+					(3)  Outline of the contractor's accounting system showing the flow of costs by function;
+
+					(4)  Determination of Government participation in the dollars attributable to the operations and cost accounts under consideration;
+
+					(5)  List of recent reviews and audits performed by CAO, DCAA, and other Government representatives; list should show outstanding weaknesses and deficiencies in the contractor's operations that will be considered for follow-up reviews or audits;
+
+					(6)  Evidence of contractor under or over staffing;
+
+					(7)  Significant departures from established contractor productivity standards;
+
+					(8)  Major financial variances from forecasts in prior years;
+
+					(9)  Evidences of idle or under-used capacity;
+
+					(10)  Any visits or audit plans scheduled by other Government organizations and identified to the CMS; and
+
+					(11)  Any other significant information or business changes which could have an adverse effect or cause a significant change to on the contractor's management of contract costs.
+
+				(B)  The CMS should prioritize the plan to review contractor activity by considering-
+
+					(1)  The extent of competition in awarded contracts;
+
+					(2)  The contractor's operating methods;
+
+					(3)  The nature of the work;
+
+					(4)  Acquisition cycle stage;
+
+					(5)  Business and industry practices;
+
+					(6)  Types of contracts involved;
+
+					(7)  Degree of technical and financial risk;
+
+					(8)  Previously reported findings and deficiencies;
+
+					(9)  Ratio of Government/commercial work;
+
+					(10)  Significant changes in the level (dollars) of the contractor's work and backlog; and
+
+					(11)  The extent performance efficiencies have been previously demonstrated.
+
+				(C)  Submit and approve the cost monitoring plan as follows:
+
+					(1)  The local DCAA office will provide an approved annual audit plan to the ACO within 30 days after the first day of each fiscal year.
+
+					(2)  The CMS will submit an adequate cost monitoring plan to the head of the local CAO within 45 days after the first day of each fiscal year.
+
+					(3)  The head of the local CAO, or designee, will approve the annual cost monitoring plan within 15 days of an adequate submission.  The head of the local CAO will ensure that adequate coordination of the cost monitoring plan was performed with the DCAA and other responsible Government representatives.
+
+				(D)  Perform functional reviews and audits as scheduled in accordance with the cost monitoring plan.
+
+					(1)  Hold interim meetings with the contractor as necessary to clarify information. Hold an exit conference at the conclusion of reviews.
+
+					(2)  Prepare reports at the conclusion of reviews. The ACO will determine whether a Government review or audit report will be provided to a contractor based on specific regulatory requirements or the impact to pending negotiations or litigation.
+
+					(3)  Prepare periodic reports on the results of the CMS analysis and monitoring of the contractors rates and factors, which should address the causes for significant deviations from historical and negotiated forward pricing rates and factors.
+
+				(E)  Prepare an annual cost monitoring report which is a culmination of the Government activities performed during the fiscal year in an effort to conduct and maintain a formal monitoring program of contractor policies, procedures, and practices for controlling costs charged to Government contracts.  The report should-
+
+					(1)  Provide a brief introduction of the contractor and the products it provides to the Government;
+
+					(2)  Summarize each review and audit completed during the reporting period along with any deviations from the cost monitoring plan;
+
+					(3)  Highlight open deficiencies, corrected deficiencies, and any newly reported deficiencies; and
+
+					(4)  Include the current status of all final, billing, and forward pricing rates.
+
+					(5)  Incorporate the final DCAA audit reports by summary and reference.
+
+				(F) (1)  The head of the local CAO, or designee, will approve the annual cost monitoring report within 60 days of the end of the Government fiscal year.
+
+					(2)  Provide a copy of the approved report to the head of the local DCAA office within 15 days of approval.
+
+PGI 242.5-INDIRECT COST RATES
+
+PGI 242.505  Final indirect cost rates.
+
+PGI 242.505-1  Contracting officer determination procedure.
+
+	(a)  Applicability and responsibility.
+
+		(1)  When negotiations are conducted on a coordinated basis, individual administrative contracting officers are responsible for coordinating with the corporate administrative contracting officer to ensure consistency of cost determinations.
+
+PGI 242.8-PRODUCTION SURVEILLANCE AND REPORTING
+
+PGI 242.804 Assignment of criticality designator.
+
+PGI 242.804-70  Procedures
+
+	(a)  Contracting officers must-
+
+		(1)  Assign criticality designator A to items with a priority 01, 02, 03, or 06 (if emergency supply of clothing) under DoD Manual 4140.01, Volume 5, DoD Supply Chain Materiel Management Procedures:  Delivery of Materiel; and
+
+		(2)  Ordinarily assign criticality designator C to unilateral purchase orders.
+
+	(b)  Only the contracting officer may change the assigned designator.
+
+PGI 242.804-71  Reporting requirements. 
+
+	(a)  See DoDI 5000. 85, Major Capability Acquisition, for reporting requirements for defense technology projects and acquisition programs.
+
+	(b)(i)  Within four working days after receipt of the contractor's report, the CAO must provide the report and any required comments to the contracting officer and, unless otherwise specified in the contract, the inventory control manager.
+
+		(ii)  If the contractor's report indicates that the contract is on schedule and the CAO agrees, the CAO does not need to add further comments.  In all other cases, the CAO must add comments and recommend a course of action.
+
+PGI 242.9-NOVATION AND CHANGE-OF-NAME AGREEMENTS
+
+PGI 242.902-70  Processing agreements.
+
+	(a)  For contracts awarded by the military departments, provide notices to the following addressees instead of individual contracting or contract administration offices:
+
+Armyusarmy.pentagon.hqda-asa-alt.list.saal-ps-staff@army.mil
+Navyusn.pentagon.asstsecnavrdadc.mbx.pabt@us.navy.mil
+Air ForceAFMC.PK.Workflow-02@us.af.mil
+National Aeronautics and Space AdministrationNational Aeronautics and Space Administration
+ATTN:  Office of Procurement, Program Operations Division
+300 E Street, SW
+Washington, DC 20546-0001
+	(b)  Lists of affected contracts accompanying a notice of successor in interest should include the information at FAR 42.903(e)(2).
+
+	(c)  Lists of affected contracts accompanying a notice of a name change should include the information at FAR 42.904(a)(3).
+
+	(d)  On notices sent to the addressees in paragraph (1) of this section, include a consolidated list for all subordinate contracting offices of the addressee.
+
+	(e)  Before making any substantial alterations or additions to the novation agreement format at FAR 42.903(i), coordinate with the addressees in paragraph (1) of this section that have contracts with the contractor.  Resolve any objections before executing the agreement.
+
+	(f)  If the National Aeronautics and Space Administration (NASA) wants a separate agreement with the contractor, continue to process the agreement only for DoD.
+
+	(g)  In addition to the requirements of FAR 42.902(g) and PGI 204.3, make distribution to-
+
+		(1)  The physical address or a copy to the email addresses in paragraph (1) of this section; and
+
+		(2)  The appropriate Military Surface Deployment and Distribution Command area command for agreements affecting contracts and basic agreements for storage and related services for personal property of military and civilian personnel - two copies:
+
+Commander
+Eastern Area
+Military Surface Deployment 
+  and Distribution Command
+ATTN:  MTE-LO
+Bayonne, NJ  07002Commander
+Western Area
+Military Surface Deployment 
+  and Distribution Command
+Oakland Army Base
+ATTN:  MTW-LO
+Oakland, CA  94626
+	(h)  In addition to the distribution requirements of FAR 42.902(h)(4) and PGI 204.201-
+
+		(1)  Send two copies to the physical address or a copy to the email addresses in paragraph (1) of this section.  The list of contracts may be confined to those issued by that department.
+
+		(2)  Do not send copies to NASA or the commands in paragraph (7)(ii) of this section.  They will issue their own modifications.
+
+	(i)  The contracting officer responsible for execution of a change-of-name agreement (see FAR subpart 42.901) must submit the agreement to DLIS-SBB.  If there are no current contracts, each contracting and contract administration office receiving notification of changes from the commercial entity must forward a copy of the change notice annotated with the CAGE code to DLIS-SBB unless the change notice indicates that DLIS-SBB already has been notified.
+
+PGI 242.70- CONTRACTOR BUSINESS SYSTEMS
+
+PGI 242.7000  Contractor business system deficiencies.
+
+	(b)  Determination to withhold payments.  The following are sample formats for written notifications of contracting officer determinations to initiate payment withholding, reduce payment withholding, and discontinue payment withholding in accordance with the clause at DFARS 252.242-7998, Contractor Business Systems:
+
+		(1)  Use this sample format for written final determinations to implement payment withholding:
+
+Payment Withholding
+
+			(i)  The purpose of this final determination is to disapprove your [identify the contractor business system(s)] and implement payment withholding per the terms of the 
+clause at DFARS 252.242-7998, Contractor Business Systems.
+
+			(ii)  It is my final determination that XXX System(s) contains the following 
+material weaknesses:
+				--[list all material weaknesses]
+
+			(iii)  Effective immediately, five percent (or a lesser percentage if five percent will exceed the withhold limitations in the clause at DFARS 252.242-7998) of each request for payment under the contracts in Attachment A will be withheld as described below for material weaknesses in XXX system.  Upon receipt of an acceptable corrective action plan and my determination that this corrective action plan is being effectively implemented, I will issue a notification with respect to reducing the percentage being withheld to two percent until I determine that all material weaknesses, as identified in this final determination, have been corrected.  Failure to follow the accepted corrective action plan will result in an increase in the percentage withheld against each payment under this contract to five percent (or a lesser percentage if five percent will exceed the withhold limitations in DFARS 252.242-7998).  [Repeat this paragraph, as necessary, if multiple withholds are being applied to multiple systems in accordance with 252.242-7998(d)]
+
+			(iv)  For payments under cost, labor-hour, or time-and-material contracts:  The Contractor must apply a five percent (or a lesser percentage if five percent will exceed the withhold limitations in DFARS 252.242-7998) withhold to the amount being billed and prepare a cost voucher in Wide Area WorkFlow (WAWF) for the net amount due.  The Contractor must show the amount withheld on the current billing, as well as the cumulative amount withheld to date on this contract in accordance with DFARS clause 252.242-7998, in the Comments block of the Miscellaneous Info Tab in WAWF.
+
+			(v)  For progress payments:  The Contractor must prepare the request in WAWF without applying any withhold percentage.  The Contracting Officer will reduce the approved amount by five percent (or a lesser percentage if five percent will exceed the withhold limitations in DFARS 252.242-7998) and record the amount being withheld on the progress payment request, as well the cumulative amount withheld on this contract in accordance with DFARS clause 252.242-7998, in the Comments block of the Miscellaneous Info Tab in WAWF.
+
+			(vi)  For performance-based payments:  The Contractor must prepare the request in WAWF without applying any withhold percentage to the performance based payment event schedule amounts.  The Contracting Officer will reduce the amount approved by five percent (or a lesser percentage if five percent will exceed the withhold limitations in DFARS 252.242-7998) and record the amount being withheld on the performance based payment as well as the cumulative amount withheld on this contract in accordance with the DFARS clause 252.242-7998 in the Comments block of the of the Miscellaneous Info Tab in WAWF.
+
+		(2)  Use this sample format for determinations to reduce payment withholding:
+
+Reduction of Temporary Payment Withholding
+
+			(i)  The purpose of this determination is to reduce the payment withholding percentage per the terms of the clause at DFARS 252.242-7998, Contractor Business Systems, as a result of receiving an acceptable corrective action plan from the contractor, dated YYYY/MM/DD, for resolving deficiencies in its XXX system(s) as identified in the Contracting Officer's determination, dated YYYY/MM/DD.  This reduction is prospective and previous amounts withheld will not be reduced or released at this time.
+
+			(ii)  Effective immediately, two percent of each request for payment under this contract will be withheld as described below.  The two percent being withheld will remain in effect until the Contracting Officer determines that the Contractor has corrected all material weaknesses as directed by the Contracting Officer's determination.  Failure to follow the accepted corrective action plan will result in an increase in the percentage withheld against each payment under this contract to five percent (or a lesser percentage if five percent will exceed the withhold limitations in DFARS 252.242-7998). 
+
+			(iii)  For payments under cost, labor-hour, or time-and-material contracts:  The Contractor must apply a two percent withhold to the amount being billed and prepare a cost voucher in Wide Area WorkFlow (WAWF) for the net amount due.  The Contractor must show the amount withheld on the current billing, as well as the cumulative amount withheld to date on this contract in accordance with DFARS clause 252.242-7998, in the Comments block of the Miscellaneous Info Tab in WAWF.
+
+			(iv)  For progress payments:  The Contractor must prepare the request in WAWF without applying any withhold percentage.  The Contracting Officer will reduce the approved amount by two percent and record the amount being withheld on the progress payment request, as well the cumulative amount withheld on this contract in accordance with DFARS clause 252.242-7998, in the Comments block of the Miscellaneous Info Tab in WAWF.
+
+			(v)  For performance-based payments:  The Contractor must prepare the request in WAWF without applying any withhold percentage to the performance-based payment event schedule amounts.  The Contracting Officer will reduce the amount approved by two percent and record the amount being withheld on the performance-based payment as well as the cumulative amount withheld on this contract in accordance with the DFARS clause 252.242-7998 in the Comments block of the of the Miscellaneous Info Tab in WAWF. 
+
+		(3)  Use the sample format below if payment withholding is discontinued pending receipt of auditor or functional specialist verification and based on evidence that the contractor has corrected all material weaknesses, in accordance with the clause at DFARS 252.242-7998, Contractor Business Systems:
+
+Discontinuation of Payment Withholding Pending Verification
+
+			(i)  The purpose of this determination is to approve your [identify system(s)] pending verification, discontinue the payment withhold as identified in the Contracting Officer's determination dated YYYY/MM/DD, and release previous amounts withheld on the contracts in Attachment A, in accordance with DFARS clause 252.242-7998, Contractor Business Systems.
+
+			(ii)  The discontinuation of the payment withhold is made pending receipt of verification and based on my review of the evidence submitted by the Contractor that all the Contractor's system(s) material weaknesses identified in the Contracting Officer's determination dated YYYY/MM/DD have been corrected.
+
+			(iii)  The Contractor is authorized to submit a bill in the amount of $XXXXXXXX. The billed amount should be submitted on the same type of invoice as the withhold was originally taken, as appropriate.
+
+		(4)  Use the sample format below if payment withholding is discontinued after auditor or functional specialist verification that the contractor has corrected all material weaknesses, in accordance with the clause at DFARS 252.242-7998, Contractor Business Systems:
+
+Discontinuation of Payment Withholding
+
+			(i)  The purpose of this determination is to approve your [identify system(s)], discontinue the payment withhold as identified in the Contracting Officer's determination dated YYYY/MM/DD, and release previous amounts withheld on the contracts in Attachment A, in accordance with DFARS clause 252.242-7998, Contractor Business Systems.
+
+			(ii)  The discontinuation of the payment withhold is made based on verification that all the Contractor's system(s) material weaknesses identified in the Contracting Officer's final determination dated YYYY/MM/DD have been corrected.
+
+			(iii)  The Contractor is authorized to submit a bill in the amount of $XXXXXXXX. The billed amount should be submitted on the same type of invoice as the withhold was originally taken, as appropriate.
+
+PGI 242.71-Voluntary refunds
+
+PGI 242.7100  General.
+ 
+      (1)  A voluntary refund may be solicited (requested by the Government) or unsolicited.
+ 
+              (i)  Generally, request voluntary refunds only after determining that no contractual remedy is readily available to recover the amount sought.
+ 
+              (ii)  Acceptance of unsolicited refunds does not prejudice remedies otherwise available to the Government.
+ 
+      (2)  Before soliciting a voluntary refund or accepting an unsolicited one, the contracting officer should have legal counsel review the contract and related data to-
+ 
+              (i)  Confirm that there are no readily available contractual remedies; and
+ 
+              (ii)  Advise whether the proposed action would jeopardize or impair the Government's rights.
+ 
+      (3)  Request voluntary refunds only when-
+ 
+              (i)  The contracting officer concludes that the contractor overcharged under a contract, or inadequately compensated the Government for the use of Government-owned property, or inadequately compensated the Government in the disposition of contractor inventory; and
+ 
+              (ii)  Retention of the amount in question by the contractor or subcontractor would be contrary to good conscience and equity.
+ 
+      (4)  Do not solicit voluntary refunds without approval of the head of the contracting activity, or as provided in department/agency regulations.
+ 
+      (5)  Voluntary refunds may be requested during or after contract performance.
+ 
+      (6)  A contract modification, rather than a check, is the preferred means of effecting a solicited or unsolicited refund transacted before final payment.
+ 
+              (i)  For modifications, adjust the price for the refund and credit the refund to the applicable appropriation cited in the contract.
+ 
+              (ii)  For checks-
+ 
+                    (A)  Advise the contractor to-
+ 
+                            (1)   Make the check payable to the agency that awarded the contract;
+ 
+                            (2)  Forward the check to the contracting officer or, when the contract is assigned to another office for administration, to that office; and
+ 
+                            (3)  Include a letter with the check-
+ 
+                                    (i)  Identifying it as a voluntary refund;
+ 
+                                    (ii)  Giving the contract number involved; and
+ 
+                                    (iii)  Where possible, giving the appropriation and account number to be credited; and
+ 
+                     (B)  Forward the check to the office responsible for control of funds.
+
+PGI 242.72-CONTRACTOR MATERIAL MANAGEMENT AND ACCOUNTING SYSTEM
+
+PGI 242.7203  Review procedures.
+
+	(c)  Disposition of findings.
+
+		(2)  Initial determination.
+
+			(ii)(A)  Within 30 days of receiving the report, if the contracting officer makes a determination that there is a material weakness, the contracting officer should provide an initial determination of material weaknesses and a copy of the report to the contractor and require the contractor to submit a written response.
+
+				(C)  Evaluation of contractor's response.  Within 30 days of receiving the contractor's response, the contracting officer, in consultation with the auditor or cognizant functional specialist, should evaluate the contractor's response and make a final determination.
+
+		(3)  Final determination.
+
+			(ii)(A)  Monitoring contractor's corrective action.  The contracting officer, with the assistance of the auditor, must monitor the contractor's progress in correcting material weaknesses and deficiencies.  If the contractor fails to make adequate progress, the contracting officer must take whatever action is necessary to ensure that the contractor corrects the weaknesses and deficiencies.  Actions the contracting officer may take include:  disapproving the contractor's MMAS; bringing the issue to the attention of higher level management; recommending non-award of potential contracts, as applicable; and for material weaknesses, implementing or increasing the withholding in accordance with 252.242-7998, Contractor Business Systems.
+
+			(B)  Correction of material weaknesses.
+
+					(1)  When the contractor notifies the contracting officer that the contractor has corrected the material weaknesses, the contracting officer must request that the auditor review the correction to determine if the weaknesses and deficiencies have been resolved.
+
+					(2)  The contracting officer must determine if the contractor has corrected the weaknesses and deficiencies.
+
+					(3)  If the contracting officer determines the contractor has corrected the weaknesses and deficiencies, send the contracting officer's notification to the auditor; payment office; appropriate action officers responsible for reporting past performance at the requiring activities; and each contracting and contract administration office having substantial business with the contractor as applicable.
+
+PGI 242.73--CONTRACTOR INSURANCE/PENSION REVIEW
+
+PGI 242.7303  Responsibilities.
+
+	(1)  The ACO is responsible for-
+
+		(i)  Determining the need for a CIPR in accordance with the procedures at DFARS 242.7302;
+
+		(ii)  Requesting and scheduling the reviews with the appropriate DCMA activity;
+
+		(iii)  Notifying the contractor of the proposed date and purpose of the review, and obtaining any preliminary data needed by the DCMA insurance/pension specialist or the DCAA auditor;
+
+		(iv)  Reviewing the CIPR report, advising the contractor of the recommendations contained within the report, considering contractor comments, and rendering a decision based on those recommendations;
+
+		(v)  Providing other interested contracting officers copies of documents related to the CIPR;
+
+		(vi)  Ensuring adequate follow-up on all CIPR recommendations; and
+
+		(vii)  Performing contract administration responsibilities related to Cost Accounting Standards administration as described in FAR Subparts 30.2 and 30.6.
+
+	(2)  The DCMA insurance/pension specialist is responsible for-
+
+		(i)  Issuing a technical report on the contractor's insurance/pension plans for incorporation into the final CIPR report based on an analysis of the contractor's pension plans, insurance programs, and other related data;
+
+		(ii)  Leading the team that conducts the review.  Another individual may serve as the team leader when both the insurance/pension specialist and that individual agree.  The team leader is responsible for-
+
+			(A)  Maintaining complete documentation for CIPR reports;
+
+			(B)  To the extent possible, resolving discrepancies between audit reports and CIPR draft reports prior to releasing the final CIPR report;
+
+			(C)  Preparing and distributing the final CIPR report;
+
+			(D)  Providing the final audit report and/or the insurance/pension specialist's report as an attachment to the CIPR report; and
+
+			(E)  Preparing a draft letter for the administrative contracting officer's use in notifying the contractor of CIPR results; and
+
+		(iii)  When requested, advising administrative contracting officers and other Government representatives concerning contractor insurance/pension matters.
+
+	(3)  The DCAA auditor is responsible for-
+
+		(i)  Participating as a member of the CIPR team or serving as the team leader (see paragraph (2)(ii) of this section);
+
+		(ii)  Issuing an audit report for incorporation into the final CIPR report based on an analysis of the contractor's books, accounting records, and other related data; and
+
+		(iii)  Performing contract audit responsibilities related to Cost Accounting Standards administration as described in FAR Subparts 30.2 and 30.6.
+
+PGI 242.74-TECHNICAL REPRESENTATION AT CONTRACTOR FACILITIES
+
+PGI 242.7401  Procedures.
+
+	(1)  When the program, project, or system manager determines that a technical representative is required, the manager must issue a letter of intent to the contract administration office commander listing the assignment location, starting and ending assignment dates, technical duties assigned, delegated authority, and support required from the contract administration office.  Any issues regarding the assignment of a technical representative should be resolved promptly.  However, final decision on the assignment remains with the program manager.  Issues regarding the assignment of technical duties that cannot be resolved between the program office and the on-site DoD contract administration office will be elevated.
+
+	(2)  The program, project, or system manager will furnish the designated technical representative a letter of assignment of delegated technical duties, with copies to the contract administration office, the contracting officer, and the contractor, at least 30 days before the assignment date (or termination date).  Any changes to the requirements of the assignment letter will be made by a new letter of intent and processed in accordance with paragraph (1) of this section.
+
+	(3)  The contract administration office normally provides the technical representative with office space, equipment, supplies, and part-time clerical support.  The program, project, or system manager provides supervision, technical direction, administrative services (e.g., pay, travel, maintenance of personnel records), and, when required, full-time clerical support.
+
+	(4)  The program manager or designee and the contract administration office, at the local level, must negotiate a memorandum of agreement (MOA) delineating their functional administrative interrelationships, with annual updates as necessary.  The agreements may be included in an existing MOA, if one exists, or as a separate MOA.
+
+	(5)  The technical representative must keep the contract administration office commander fully informed of matters discussed with the contractor.  The contract administration office must also keep the technical representative fully informed of contractor discussions that relate to technical matters within the purview of the technical representative's assigned duties.
+
+PGI 242.75-CONTRACTOR ACCOUNTING SYSTEMS AND RELATED CONTROLS
+
+PGI 242.7502 Policy.
+
+	(d) Disposition of findings.
+
+		(3) Final determination.
+
+			(ii)(A) Monitoring contractor's corrective action. In collaboration with the auditor, monitor the contractor's progress in correcting material weaknesses and deficiencies. If the contractor fails to make adequate progress, take whatever action is necessary to ensure that the contractor corrects the material weaknesses and deficiencies. Potential actions include:  disapproving the system; bringing the issue to the attention of higher level management, as applicable; and for material weaknesses, implementing or increasing the withholding in accordance with 252.242-7998, Contractor Business Systems.
+
+				(B) Correction of material weaknesses.
+
+					(1) When the contractor notifies the contracting officer that the 
+contractor has corrected the material weaknesses; request that the auditor review the correction to determine if the weaknesses and deficiencies have been resolved.
+
+					(2) Determine if the contractor has corrected the material weaknesses.
+
+					(3) If the contracting officer determines the contractor has corrected the material weaknesses, send the contracting officer's notification to the auditor; payment office; appropriate action officers responsible for reporting past performance at the requiring activities; and each contracting and contract administration office having substantial business with the contractor as applicable.
+
+	(g) Mitigating the risk of material weaknesses and system deficiencies on specific proposals.
+
+		(2)  When identified deficiencies impact negotiations of a proposal, consider the following taking alternative actions, including-
+
+			(i)  Allowing the contractor additional time to correct the deficiency and submit a corrected proposal;
+
+			(ii)  Considering another type of contract;
+
+			(iii)  Using additional cost analysis techniques to determine the 
+reasonableness of the cost elements affected by the deficiency;
+
+			(iv)  Reducing the negotiation objective for profit or fee; or
+
+			(v)  Adding a contract (reopener) clause that provides for adjustment of the contract amount after award.
+
+		(3)  When incorporating a contract reopener clause, negotiate price adjustments required by the clause.  A contract reopener clause based upon a deficiency should-
+
+			(i)  Clearly identify the amounts and items that are in question at the time of negotiation;
+
+			(ii)  Indicate a specific time or subsequent event by which the contractor will submit a supplemental proposal, including certified cost or pricing data, identifying the cost impact adjustment necessitated by the deficient accounting system;
+
+			(iii)  Provide for the contracting officer to adjust the contract price unilaterally if the contractor fails to submit the supplemental proposal; and
+
+			(iv)  Provide that failure of the Government and the contractor to agree to the price adjustment must be a dispute under the Disputes clause.
+
+PGI 242.76-POSTAWARD ORIENTATION
+
+PGI 242.7602  Selecting contracts for postaward orientation.
+
+When deciding whether postaward orientation is necessary and, if so, what form it must take, consider the-
+
+	(a) Nature and extent of the preaward survey and any other prior discussions with the contractor;
+
+	(b) Type, value, and complexity of the contract;
+
+	(c) Complexity and acquisition history of the product or service;
+
+	(d) Requirements for spare parts and related equipment;
+
+	(e) Urgency of the delivery schedule and relationship of the product or service to critical programs;
+
+	(f) Length of the planned production cycle;
+
+	(g) Extent of subcontracting;
+
+	(h) Contractor's performance history and experience with the product or service;
+
+	(i) Contractor's status, if any, as a small business, small disadvantaged, women-owned, veteran-owned, HUBZone, or service-disabled veteran-owned small business concern;
+
+	(j) Contractor's performance history with small, small disadvantaged, women-owned, veteran-owned, HUBZone, and service-disabled veteran-owned small business subcontracting programs;
+
+	(k) Safety precautions required for hazardous materials or operations; and
+
+	(l) Complex financing arrangements, such as progress payments, advance payments, or guaranteed loans.
+
+PGI 242-7603-1  Postaward conference arrangements.
+
+	(a) The contracting officer is responsible for-
+
+		(1) Establishing the time and place of the conference;
+
+		(2) Preparing the agenda, when necessary;
+
+		(3) Notifying appropriate Government representatives (e.g., contracting/contract administration office) and the contractor;
+
+		(4) Designating or acting as the chairperson;
+
+		(5) Conducting a preliminary meeting of Government personnel; and
+
+		(6) Preparing a summary report of the conference.
+
+	(b) When the contracting office initiates a conference, the arrangements may be made by that office or, at its request, by the contract administration office.
+
+PGI 242.7603-2 Postaward conference procedure.
+
+	(c)(1)  The chairperson of the conference conducts the meeting. Unless a contract change is contemplated, emphasize that it is not the purpose of the meeting to change the contract. 
+
+		(2)  The contracting officer may make commitments or give directions within the scope of the contracting officer's authority and must put in writing and sign any commitment or direction, whether or not it changes the contract.
+
+		(3)  Any change to the contract that results from the postaward conference must be made only by a contract modification referencing the applicable terms of the contract. Participants without authority to bind the Government must not take action that in any way alters the contract. 
+
+		(4)  The chairperson develops a postaward conference report that reflects all the information and guidance provided to the contractor during the conference (see PGI 242.7603-3).
+
+PGI 242.7603-3  Postaward conference report.
+
+	(a)  The chairperson prepares and signs a report of the postaward conference. 
+
+	(b)  Include all items discussed, including areas requiring resolution, controversial matters, the names of the participants assigned responsibility for further actions, and the due dates for the actions. 
+
+	(c)  The chairperson furnishes copies of the report to the contracting office, the contract administration office, the contractor, and others who require the information.
+
+Attachment A2
+DARS Tracking Number: 2026-O0050
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 42
+Defense FAR Supplement (DFARS) Part 242
+
+
+	Page 1 of 9	
+

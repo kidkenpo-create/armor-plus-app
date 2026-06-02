@@ -1,0 +1,51 @@
+PART 214-SEALED BIDDING
+
+SUBPART 214.2-PRESOLICITATION
+
+214.202-4  Part IV-Representations and instructions.
+
+	(c)  Include an evaluation factor regarding supply chain risk (see part 239) when acquiring information technology, whether as a service or as a supply, that is a covered system, is a part of a covered system, or is in support of a covered system, as defined in part 239.
+
+214.206  Descriptive literature.
+
+	(f)  When using brand name purchase descriptions, see FAR 6.103-1.
+
+214.207-70  Solicitation provisions.
+Insert the provisions at 252.215-7007, Notice of Intent to Resolicit, and 252.215-7008, Only One Offer, as prescribed at 215.371-6 and 215.408(3), respectively.
+
+214.209  Soliciting bids.
+
+(b)  See the procedures at PGI 205.101-70 for use of the Solicitation Module within the Procurement Integrated Enterprise Environment.
+
+214.209-70  Policy.
+If an Invitation for Bids (IFB), that exceeds the simplified acquisition threshold, allowed less than 30 days for receipt of bids, or resulted in only one bid, the contracting officer shall cancel and resolicit.  The new IFB must allow at least 30 days for receipt of bids (see section 215.371). 
+
+214.211-370  Procedures.
+In addition to the requirements at FAR 14.211-3(a)(1)(iv), include an evaluation factor for supply chain risk (see 214.202-4(c)).
+
+SUBPART 214.3-EVALUATION AND AWARD.
+
+214.304-3  Other mistakes disclosed before award.
+See PGI 214.304-3 for the delegation authority to approve determinations.
+
+214.305  Cancellation of invitations after opening.
+
+	(1)  The contracting officer must make the written determinations required by FAR 14.305.
+
+214.305-70  Only one offer received.
+If only one offer is received, follow the procedures at 215.371 in lieu of the procedures at FAR 14.305(e).
+
+
+
+214.307 Award
+
+214.307-70  Only one offer received.
+If only one offer is received for acquisitions that exceed the simplified acquisition threshold, follow the procedures at 215.371.
+Attachment A1
+DARS Tracking Number: 2026-O0012
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 14
+Defense FAR Supplement (DFARS) Part 214
+
+
+Page 2 of 2
+

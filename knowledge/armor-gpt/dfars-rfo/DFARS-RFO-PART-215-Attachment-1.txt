@@ -1,0 +1,1378 @@
+PART 215-CONTRACTING BY NEGOTIATION
+
+SUBPART 215.1-PRESOLICITATION AND SOLICITATION
+
+215.100  Scope.  
+
+215.102  Structuring a request for proposals.  
+See PGI 205.101-70 for use of the Solicitation Module within the Procurement Integrated Enterprise Environment.
+
+215.103  Developing a competitive source selection approach.  
+
+215.103-1 Tradeoff approach.  
+
+215.103-170  Tradeoff approach when acquiring fuel for overseas contingency operations.  
+
+	(a)  Consider using a tradeoff approach as described at FAR 15.103-1 when conducting a source selection for the acquisition of fuel for an overseas contingency operation that is expected to exceed the simplified acquisition threshold (section 843 of the National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2022 (Pub. L. 117-81)).  Consider using the following evaluation factors for the acquisition:
+
+		(1)  Past performance.
+
+		(2)  Cost.
+
+		(3)  Anticorruption training.
+
+		(4)  Anticorruption compliance.
+
+	(b)  If not considered, prior to the issuance of the solicitation, prepare a written justification describing the reasons why a tradeoff approach was not considered.  
+
+		(1)  Obtain approval by an official one level above the contracting officer.  
+
+		(2)  Include the approved justification in the contract file.
+
+215.103-2  Lowest price technically acceptable approach.  
+
+215.103-270  Limitations and prohibitions.  
+
+The following limitations and prohibitions apply when considering the use of the lowest price technically acceptable source selection procedures.
+
+	(a)  Limitations.  Section 813 of the NDAA for FY 2017 (Pub. L. 114-328) limits use of the lowest price technically acceptable source selection approach.
+
+		(1)  Use the lowest price technically acceptable source selection approach when-
+
+			(i)  Minimum requirements can be described clearly and comprehensively and expressed in terms of performance objectives, measures, and standards that will be used to determine the acceptability of offers,
+
+			(ii)  No, or minimal, value will be realized from a proposal that exceeds the minimum technical or performance requirements,
+
+			(iii)  The proposed technical approaches will require no, or minimal, subjective judgment by the source selection authority as to the desirability of one offeror's proposal versus a competing proposal,
+
+			(iv)  The source selection authority has a high degree of confidence that reviewing the technical proposals of all offerors would not result in the identification of characteristics that could provide value or benefit, 
+
+			(v)  No, or minimal, additional innovation or future technological advantage will be realized by using a different source selection approach,
+
+			(vi)  The acquisition consists of goods that are predominantly expendable in nature, are nontechnical, or have a short life expectancy or short shelf life (See PGI 215.103.270(a)(1)(vi)) 
+
+			(vii)  The contract file contains a determination that the lowest price reflects full life-cycle costs (as defined at FAR 7.101) of the product(s) or service(s) being acquired (see PGI 215.103.270(a)(1)(vii) for information on obtaining this determination), and
+
+			(viii)  The contracting officer documents the contract file describing the circumstances justifying the use of the lowest price technically acceptable source selection approach.
+
+		(2)  Avoid using the lowest price technically acceptable source selection approach, to the maximum extent practicable, for acquisitions that are predominately for-
+
+			(i)  Information technology services, cybersecurity services, systems engineering and technical assistance services, advanced electronic testing, or other knowledge-based professional services;
+
+			(ii)  Items designated by the requiring activity as personal protective equipment (except see paragraph (b)(1) of this section); or
+
+			(iii)  Services designated by the requiring activity as knowledge-based training or logistics services in contingency operations or other operations outside the United States. 
+
+	(b)  Prohibitions.  Do not use the lowest price technically acceptable source selection approach to procure-
+
+		(1)  Items designated by the requiring activity as personal protective equipment or as an aviation critical safety item, for which the level of quality or failure of the equipment or item could result in combat casualties.  (Section 814 of the NDAA for FY 2017 (Pub. L. 114-328) and section 882 of the NDAA for FY 2018 (Pub. L. 115-91)).  See 252.209-7010 for the definition and identification of critical safety items.
+
+		(2)  Engineering and manufacturing development for a major defense acquisition program (10 U.S.C. 4232).
+
+		(3)  Auditing services.  Make award decisions based on best value factors and criteria, as determined by the resource sponsor in accordance with agency procedures.  (10 U.S.C. 240f)
+
+215.103-70  Source selection approach when acquiring tents or other temporary structures.  
+
+	(a) When acquiring tents or other temporary structures for use by the Armed Forces, award contracts that provide the best value to the Government (section 368 of the NDAA for FY 2012 (Pub. L. 112-81)).  
+
+		(1)  Temporary structures are nonpermanent buildings, including tactical shelters, nonpermanent modular or pre-fabricated buildings, or portable or relocatable buildings, such as trailers or equipment configured for occupancy (see also 246.270-2).  
+
+		(2)  Determination of best value includes consideration of the total life-cycle costs of such tents or structures, including the costs associated with any equipment, fuel, or electricity needed to heat, cool, or light such tents or structures (see FAR 7.103(a)(6) and PGI 207.104-70 (b)(1)(ii)).
+
+	(b)  The requirements of this section apply to any agency or department that acquires tents or other temporary structures on behalf of DoD (see FAR 17.503(d)(2)).
+
+215.104-70  Establishing competitive evaluation factors and significant subfactors.  
+
+Required factors.  
+
+	(a)  In acquisitions that require use of the clause at FAR 52.219-9, Small Business Subcontracting Plan, other than those based on the lowest price technically acceptable source selection process (see FAR 15.103-2), the extent of participation of small businesses to include service-disabled veteran-owned small business concerns, HUBZone small business concerns, small disadvantaged business concerns, and women-owned small business concerns in performance of the contract must be addressed in source selection.  The contracting officer must evaluate the extent to which offerors identify and commit to small business performance of the contract, whether as a joint venture, teaming arrangement, or subcontractor.
+
+		(1)  See PGI 215.104-70(a)(1) for examples of evaluation factors.
+
+		(2)  Proposals addressing the extent of small business performance must be separate from subcontracting plans submitted pursuant to the clause at FAR 52.219-9 and must be structured to allow for consideration of offers from small businesses.
+
+		(3)  When an evaluation assesses the extent that small businesses are specifically identified in proposals, the small businesses considered in the evaluation must be listed in any subcontracting plan submitted pursuant to FAR 52.219-9 to facilitate compliance with 252.219-7996(e) (15 U.S.C. 637(d)(7) and (9)).
+
+	(b)  Consider the purchase of capital assets (including machine tools) manufactured in the United States, in source selections for all major defense acquisition programs (10 U.S.C. 4293).
+
+	(c)  Include an evaluation factor regarding supply chain risk (see subpart 240.271) when acquiring information technology, whether as a service or as a upplyc that is a covered system, is a part of a covered system, or is in support of a covered system (See 240.271-2).  For additional guidance see PGI 215.104-70(c).
+
+	(d)  Ensure source selections emphasize sustainment factors and objective reliability and maintainability evaluation criteria in competitive contracts for the-
+
+		(1)  Technical maturation and risk reduction phase of weapon system design (see guidance at PGI 207.104-70(b)(2)(v)(B)(2)); 
+
+		(2)  Engineering and manufacturing development phase of a weapon system, including embedded software (10 U.S.C. 4328); or
+
+		(3)  Production and deployment phase of a weapon system, including embedded software (10 U.S.C. 4328).
+
+	(e)  See PGI 226.7202-1 for an additional evaluation factor required in solicitations when using the Demonstration Project for Contractors Employing Persons with Disabilities (section 888 of the NDAA for FY 2019).
+
+	(f)  Supplier Performance Risk System
+
+		(1)  When procuring supplies or services, use Supplier Performance Risk System (SPRS) assessments of price risk and supplier risk as a part of the award decision.  See 204.7603.
+
+		(2)  When procuring an end product identified by a material identifier that is available as described at PGI 204.7603, the contracting officer must also consider SPRS assessments of item risk in the award decision.
+
+	(g)  In lieu of the direction at FAR 15.104(b)(3)(i), evaluate past performance for negotiated acquisitions when the value of the contract, task order or delivery order exceeds the following thresholds:
+
+		(1)  Systems and operations support (including fuels) expected to exceed $5 million. 
+
+		(2)  Services (including health care) expected to exceed $1 million.
+
+		(3)  Information technology expected to exceed $1 million. 
+
+		(4)  Ship repair and overhaul expected to exceed $500,000.
+
+215.104-71  Evaluation factor for employing or subcontracting with members of the Selected Reserve.  
+
+	(a)  Definition.  As used in this section-
+
+		"Selected Reserve," has the meaning given that term in 10 U.S.C. 10143.  Selected Reserve members normally attend regular drills throughout the year and are the group of Reserves most readily available to the President.
+
+	(b)  Evaluation factor.  
+
+		Contracting officers may use an evaluation factor that considers whether an offeror intends to perform the contract using employees or individual subcontractors who are members of the Selected Reserve (section 819 of the NDAA for FY 2006).  See PGI 215.104-71(b) for guidance on use of this evaluation factor.
+
+   (c)  Contract clause.
+
+		Insert the clause at 252.215-7006, Use of Employees or Individual Subcontractors Who Are Members of the Selected Reserve, in solicitations and resulting contracts that include an evaluation factor considering whether an offeror intends to perform the contract using employees or individual subcontractors who are members of the Selected Reserve.
+
+215.105  Other considerations.  
+
+215.105-470  Request for cost or pricing data.
+
+	(a)  When following the contract cost principles in FAR subpart 31.2, Contracts With Commercial Organizations (see FAR 42.1301(b)), request contractors submit forward pricing rate proposals using the checklist at Table 215.105-470 (FAR 15.105-4(b)(1)(ii)).  Provide the checklist to the contractor and require submission of the forward pricing rate proposal at least 90 days prior to the proposed effective date of the rates. 
+
+
+
+Table 215.105-470 - Contractor Forward Pricing Rate Proposal Adequacy Checklist  
+
+Complete the following checklist, providing the location of requested information, or an explanation of why the requested information is not provided, and submit it with the forward pricing rate proposal.
+
+Contractor Forward Pricing Rate Proposal Adequacy Checklist
+
+
+
+
+SUBMISSION
+ITEMPROPOSAL PAGE No. (if applicable)If not provided, EXPLAIN (may use continuation pages)GENERAL INSTRUCTIONS1. 1.Is there a properly completed first page of the proposal as specified by the contracting officer? 
+Initial proposal elements include:
+a.  Name and address of contractor;
+b.  Name and telephone number of point of contact;
+c.  Period covered;
+d.  The page of the proposal that addresses-
+1.  Whether your organization is subject to cost accounting standards (CAS);
+2.  Whether your organization has submitted a CAS Disclosure Statement, and whether it has been determined adequate;
+3.  Whether you have been notified that you are or may be in noncompliance with your Disclosure Statement or CAS (other than a noncompliance that the cognizant Federal agency official had determined to have an immaterial cost impact), and if yes, an explanation;
+4.  Whether any aspect of this proposal is inconsistent with your disclosed practices or applicable CAS, and, if so, an explanation; and whether the proposal is consistent with established estimating and accounting principles and procedures and FAR part 31, Cost Principles, and, if not, an explanation;
+e.  The following statement:  "This forward pricing rate proposal reflects our estimates, as of the date of submission entered in (f) below and conforms with Table 215.105-470.  By submitting this proposal, we grant the Contracting Officer and authorized representative(s) the right to examine those records, which include books, documents, accounting procedures and practices, and other data, regardless of type and form or whether such supporting information is specifically referenced or included in the proposal as the basis for each estimate, that will permit an adequate evaluation of the proposed rates and factors.";
+f.  Date of submission; and
+g.  Name, title, and signature of authorized representative.Proposal Cover Page2. 2.Summary of proposed direct and indirect rates and factors, including the proposed pool and base costs for each proposed indirect rate and factor.Immediately following the proposal cover page3. 3.Table of Contents or index.
+a.  Does the proposal include a table of contents or index identifying and referencing all supporting data accompanying or identified in the proposal? 
+b.  For supporting documentation not provided with the proposal, does the basis of each estimate in the proposal include the location of the documentation and the point of contact (custodian) name, phone number, and email address? 4. 4.
+Does the proposal disclose known or anticipated changes in business activities or processes that could materially impact the proposed rates (if not previously provided)? For example-
+a.  Management initiatives to reduce costs; 
+b.  Changes in management objectives as a result of economic conditions and increased competitiveness; 
+c.  Changes in accounting policies, procedures, and practices including (i) reclassification of expenses from direct to indirect or vice versa; (ii) new methods of accumulating and allocating indirect costs and the related impact; and (iii) advance agreements; 
+d.  Company reorganizations (including acquisitions or divestitures);
+e.  Shutdown of facilities; or
+f.  Changes in business volume and/or contract mix/type.5. Do proposed costs based on judgmental factors include an explanation of the estimating processes and methods used, including those used in projecting from known data?6. Does the proposal show trends and budgetary data?  Does the proposal provide an explanation of how the data, as well as any adjustments to the data, were used?7. The proposal should reconcile to the supporting data referenced.  If the proposal does not reconcile to the supporting data referenced, identify applicable page(s) and explain. 8. The proposal should be internally consistent.  If the proposal is not internally consistent, identify applicable page(s) and explain.Direct Labor9. Direct Labor Rates Methodology and Basis of Each Estimate.
+a.  Does the proposal include an explanation of the methodology used to develop the direct labor rates and identify the basis of each estimate? 
+b.  Does the proposal include or identify the location of the supporting documents for the base-period labor rates (e.g., payroll records)? 10. Does the proposal identify escalation factors for the out-year labor rates, the costs to which escalation is applicable, and the basis of each factor used?11. Does the proposal identify planned or anticipated changes in the composition of labor rates, labor categories, union agreements, headcounts, or other factors that could significantly impact the direct labor rates?Indirect Rates (Fringe, Overhead, G&A, etc.)12. Indirect Rates Methodology and Basis of Each Estimate.
+a.  Does the proposal identify the basis of each estimate and provide an explanation of the methodology used to develop the indirect rates?
+b.  Does the proposal include or identify the location of the supporting documents for the proposed rates?13. Does the proposal identify indirect expenses by burden center, by cost element, by year (including any voluntary deletions, if applicable) in a format that is consistent with the accounting system used to accumulate actual expenses?14. Does the proposal identify any contingencies?15. Does the proposal identify planned or anticipated changes in the nature, type, or level of indirect costs, including fringe benefits?16. Does the proposal identify corporate, home office, shared services, or other incoming allocated costs and the source for those costs, including location and point of contact (custodian) name, phone number, and email address?17. Does the proposal separately identify all intermediate cost pools and provide a reconciliation to show where the costs will be allocated?18. Does the proposal identify the escalation factors used to escalate indirect costs for the out-years, the costs to which escalation is applicable, and the basis of each factor used?19. Does the proposal provide details of the development of the allocation base?20. Does the proposal include or reference the supporting data for the allocation base such as program budgets, negotiation memoranda, proposals, contract values, etc.?21. Does the proposal identify how the proposed allocation bases reconcile with its long-range plans, strategic plan, operating budgets, sales forecasts, program budgets, etc.?Cost of Money (COM)22. Cost of Money.
+a.  Are Cost of Money rates submitted on Form CASB-CMF, with the Treasury Rate used to compute COM identified and a summary of the net book value of assets, identified as distributed and non-distributed?
+b.  Does the proposal identify the support for the Form CASB-CMF, for example, the underlying reports and records supporting the net book value of assets contained in the form?OTHER23. Does the proposal include a comparison of prior forecasted costs to actual results in the same format as the proposal and an explanation/analysis of any differences?  24. If this is a revision to a previous rate proposal or a forward pricing rate agreement, does the new proposal provide a summary of the changes in the circumstances or the facts that the contractor asserts require the change to the rates? 
+
+215.105-5  Make-or-buy decision.  
+
+	(c)(2)  RFP requirements.  See PGI 215.105-5, for guidance on factors to consider when deciding whether to request a make-or-buy plan.
+
+	(d)	Required information from offerors.
+
+		(1)(i)  The minimum dollar amount is $1.5 million.
+
+215.110  Solicitation provisions and contract clauses.  
+
+	(a)(1)  For source selections when the procurement is valued at $100 million or more, contracting officers should use the provision at FAR 52.215-1, Instructions to Offerors-Competitive Acquisition, with its Alternate I.
+
+215.110-70  Solicitation provisions and contract clauses.  
+
+	(a)  Insert the clause at 252.215-7002, Cost Estimating System Requirements, in all solicitations and contracts to be awarded on the basis of certified cost or pricing data.
+
+	(b)  When contracting with the Canadian Commercial Corporation, including solicitations using part 12 procedures for the acquisition of commercial products and commercial services-
+
+		(1)(i)  Insert the provision at 252.215-7990, Requirement for Submission of Data Other Than Certified Cost or Pricing Data-Canadian Commercial Corporation-
+
+				(A)  In lieu of 252.215-7994, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, in a solicitation for a sole source acquisition that is-
+
+					(1)  Cost-reimbursement, if the contract value is expected to exceed $700,000; or
+
+					(2)  Fixed-price, if the contract value is expected to exceed $500 million; or
+
+				(B)  In lieu of 252.215-7994 for a sole source acquisition that does not meet the thresholds specified in paragraph (b)(1)(i)(A), if approval is obtained as required at 225.870-4(c)(2)(ii); and
+
+			(ii)  Do not use 252.225-7990 in lieu of 252.215-7994 in competitive acquisitions; and
+
+		(2)(i)  Insert the clause at 252.215-7991, Requirement for Submission of Data Other Than Certified Cost or Pricing Data-Modifications-Canadian Commercial Corporation-
+
+				(A)  In a solicitation for a sole source acquisition and resultant contract that is-
+
+					(1)  Cost-reimbursement, if the contract value is expected to exceed $700,000; or
+
+					(2)  Fixed-price, if the contract value is expected to exceed $500 million;
+
+				(B)  In a solicitation for a sole source acquisition and resultant contract that does not meet the thresholds specified in paragraph (b)(2)(i)(A), if approval is obtained as required at 225.870-4(c)(2)(ii); or
+
+				(C)(1)  In a solicitation for a competitive acquisition that includes FAR 52.215-21, Requirement for Data Other Than Certified Cost or Pricing Data-Modifications, or that meets the thresholds specified in paragraph (b)(2)(i)(A) of this section.
+
+					(2)  Insert the appropriate clause to include in the contract (52.215-21 only if award is not to the Canadian Commercial Corporation; or 252.215-7991 if award is to the Canadian Commercial Corporation and necessary approval is obtained in accordance with 225.870-4(c)(2)(ii)); and
+
+			(ii)  Contracting officers may specify a higher threshold in paragraph (b) of the clause 252.215-7991.
+
+	(c)  Insert the provision at 252.215-7992, Only One Offer, in competitive solicitations that exceed the simplified acquisition threshold, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+	(d)  When the solicitation requires the submission of certified cost or pricing data, the contracting officer should include 252.215-7993, Proposal Adequacy Checklist, in the solicitation to facilitate submission of a thorough, accurate, and complete proposal.
+
+	(e)  When reasonably certain that the submission of certified cost or pricing data or data other than certified cost or pricing data will be required or when inserting the provision at 252.215-7992-
+
+		(1)  Insert the basic or alternate of the provision at 252.215-7994, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, in lieu of the provision at FAR 52.215-20, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+			(i)  Insert the basic provision when submission of certified cost or pricing data is required to be in the FAR Table 15-1 format, or if it is anticipated, at the time of solicitation, that the submission of certified cost or pricing data may not be required.
+
+			(ii)  Insert the alternate I provision to specify a format for certified cost or pricing data other than the format required by FAR Table 15-1.
+
+		(2)  Insert the provision at 252.215-7011, Requirements for Submission of Proposals to the Administrative Contracting Officer and Contract Auditor, when using the basic or alternate of the provision at 252.215-7994 and copies of the proposal are to be sent to the ACO and contract auditor; and
+
+		(3)  Insert the provision at 252.215-7012, Requirements for Submission of Proposals via Electronic Media, when using the basic or alternate of the provision at 252.215-7994 and submission via electronic media is required.
+
+	(f)  Insert the provision at 252.215-7013, Supplies and Services Provided by Nontraditional Defense Contractors, in all solicitations.
+
+	(g)  Insert the clause at 252.215-7014, Exception from Certified Cost or Pricing Data Requirements for Foreign Military Sales Indirect Offsets, in solicitations and contracts that contain the provision at 252.215-7994, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, when it is reasonably certain that-
+
+		(1)  The contract is expected to include costs associated with an indirect offset; and
+
+		(2)  The submission of certified cost or pricing data or data other than certified cost or pricing data will be required.
+
+	(h)  Insert the clause at 252.215-7995, Program Should-Cost Review, in all solicitations and contracts for the development or production of a major weapon system, as defined in 234.7001.
+
+
+
+
+
+SUBPART 215.2-EVALUATION AND AWARD
+
+215.200  Scope.  
+Follow the procedures at PGI 215.200 when conducting negotiated, competitive acquisitions using FAR part 15 procedures.
+
+215.201  Source selection responsibilities.  
+
+	(b)(2)  For high-dollar value and other acquisitions, as prescribed by agency procedures, the source selection authority must approve a source selection plan before the solicitation is issued.  Follow the procedures at PGI 215.201(b)(2) for preparation of the source selection plan.
+
+215.202-70  Evaluating competitive proposals.  
+
+	(a)  Past performance evaluation. 
+
+		(1)  When a past performance evaluation is required by FAR 15.104, and the solicitation includes the clause at FAR 52.219-8, Utilization of Small Business Concerns, the evaluation factors must include the past performance of offerors in complying with requirements of that clause.  When a past performance evaluation is required by FAR 15.104, and the solicitation includes the clause at FAR 52.219-9, Small Business Subcontracting Plan, the evaluation factors must include the past performance of offerors in complying with requirements of that clause.
+
+		(2)  Contracting officers will consider an offeror's failure to make a good faith effort to comply with its comprehensive subcontracting plan under the Test Program described at 219.702-70 as part of the evaluation of the past performance.
+
+		(3)  When evaluating the past performance of an offeror that is a small business concern in response to a competitive solicitation, contracting officers will consider relevant past performance information provided for affiliates of the offeror (section 865 of Pub. L. 118-31).
+
+215.202-71  Only one offer.  
+
+	(a)  Policy.  If only one offer is received in response to a competitive solicitation-
+
+		(1)  Take actions to promote competition (see 215.202-71(b)); and
+
+		(2)  Ensure that the price is fair and reasonable (see 215.202-71(c)) and complies with the statutory requirement for certified cost or pricing data (see FAR 15.403-3 and DFARS 215.403-3(a)).
+
+	(b)  Promote competition.  Except as provided in paragraphs 215.202-71(d) and 215.202-71(e) of this section-
+
+		(1)  If only one offer is received when competitive procedures were used and the solicitation allowed fewer than 30 days for receipt of proposals, the contracting officer must-
+
+			(i)  Consult with the requiring activity as to whether the requirements document should be revised to promote more competition (see FAR 6.003(a) and 11.102); and
+
+			(ii)  Resolicit, allowing an additional period of at least 30 days for receipt of proposals; and
+
+		(2)  For competitive solicitations in which more than one potential offeror expressed an interest in an acquisition, but only one offer was ultimately received, follow the procedures at PGI 215.202-71(b)(2).
+
+	(c)  Fair and reasonable price and the requirement for additional cost or pricing data.  For acquisitions that exceed the simplified acquisition threshold, if only one offer is received when competitive procedures were used and it is not necessary to resolicit in accordance with 215.202-71(b)(1), then the contracting officer must comply with the following:
+
+		(1)  If no additional cost or pricing data are required to determine through cost or price analysis that the offered price is fair and reasonable, the contracting officer  must require that any cost or pricing data provided in the proposal be certified if the acquisition exceeds the certified cost or pricing data threshold and an exception to the requirement for certified cost or pricing data at FAR 15.403-2(b)(2) through (5) does not apply.
+
+		(2)  Otherwise, the contracting officer must obtain additional cost or pricing data to determine a fair and reasonable price.  If the acquisition exceeds the certified cost or pricing data threshold and an exception to the requirement for certified cost or pricing data at FAR 15.403-2(b)(2) through (5) does not apply, the cost or pricing data must be certified.
+
+		(3)  If the contracting officer is still unable to determine that the offered price is fair and reasonable, the contracting officer must enter into negotiations with the offeror to establish a fair and reasonable price.  The negotiated price should not exceed the offered price.
+
+		(4)  If the contracting officer is unable to negotiate a fair and reasonable price, see FAR 15.407(d).
+
+	(d)  Exceptions.
+
+		(1)  The requirements at 215.202-71(b) do not apply to-
+
+			(i)  Acquisitions at or below the simplified acquisition threshold;
+
+			(ii)  Acquisitions, as determined by the head of the contracting activity, in support of contingency or humanitarian or peacekeeping operations; to facilitate defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack; to facilitate the provision of international disaster assistance; or to support response to an emergency or major disaster;
+
+			(iii)  Small business set-asides under FAR 19.104, set-asides offered and accepted into the 8(a) Program under FAR 19.108, or set-asides under the HUBZone Program (see FAR 19.105-2), the Service-Disabled Veteran-Owned Small Business Procurement Program (see FAR 19.106-2), or the Women-Owned Small Business Program (see FAR 19.107-2);
+
+			(iv)  Acquisitions of science and technology, as specified in 235.172;
+
+			(v)  Acquisitions of architect-engineer services (see FAR 36.102-2);
+
+			(vi)  Acquisitions under a commercial solutions opening pursuant to subpart 212.70; or
+
+			(vii)  Acquisitions of commercial products and commercial services using FAR part 12 procedures.
+
+		(2)  An exception in paragraph (d)(1) of this section does not eliminate the need for the contracting officer to seek maximum practicable competition and to ensure that the price is fair and reasonable. 
+
+	(e)  Waiver.
+
+		(1)  The head of the contracting activity is authorized to waive the requirement at 215.202-71(b) to resolicit for an additional period of at least 30 days.
+
+		(2)  This waiver authority cannot be delegated below one level above the contracting officer.
+
+	(f)  Solicitation provision.  Insert the provision at 252.215-7007, Notice of Intent to Resolicit, in competitive solicitations that will be solicited for fewer than 30 days, unless an exception at 215.202-71(d) applies or the requirement is waived in accordance with 215.202-71(e).
+
+215.204-2  Competitive negotiations.  
+
+	(a) General.  For acquisitions with an estimated value of $100 million or more, contracting officers should conduct negotiations.  Follow the procedures at FAR 15.204.
+
+215.206-1  Preaward notices.  
+If the Government exercises the authority provided in 240.271-6, the notifications to unsuccessful offerors must not reveal any information that is determined to be withheld from disclosure in accordance with 10 U.S.C. 3252 (see subpart 240.271).
+
+215.207-2  Award notice.  
+If the Government exercises the authority provided in 240.271-6, the notifications to unsuccessful offerors must not reveal any information that is determined to be withheld from disclosure in accordance with 10 U.S.C. 3252 (see subpart 240.271).
+
+SUBPART 215.3-POSTAWARD
+
+215.301  Postaward debriefing of offerors.  
+
+215.301-170  Debriefing process.  
+
+	(a)  Notwithstanding FAR 15.301-1(b), when requested by a successful or unsuccessful offeror, a written or oral debriefing is required for contract awards valued at $15 million or more (section 818 of the National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2018 (Pub. L. 115-91).
+
+	(b)  In addition to the requirements of FAR 15.301-1(c), the minimum debriefing information must include the following:
+
+		(1)  For award of a contract in excess of $15 million and not in excess of $150 million with a small business or nontraditional defense contractor, an option for the small business or nontraditional defense contractor to request disclosure of the agency's written source selection decision document, redacted to protect the confidential and proprietary information of other offerors for the contract award.
+
+		(2)  For award of a contract in excess of $150 million, disclosure of the agency's written source selection decision document, redacted to protect the confidential and proprietary information of other offerors for the contract award.
+
+	(c)  If the Government exercises the authority provided in 240.271-6, the notifications to unsuccessful offerors must not reveal any information that is determined to be withheld from disclosure in accordance with 10 U.S.C. 3252 (see subpart 240.271).
+
+215.301-270  Opportunity for follow-up questions.  
+When providing a required postaward debriefing to successful and unsuccessful offerors, contracting officers must-
+
+	(a)  Provide an opportunity to submit additional written questions related to the required debriefing not later than 2 business days after receiving the postaward debriefing;
+
+	(b)  Respond in writing to timely submitted additional questions within 5 business days after receipt of the questions; and
+
+	(c)  Not consider the postaward debriefing to be concluded until the later of-
+
+		(1)  The date that the postaward debriefing is delivered, orally or in writing; or
+
+		(2)  If additional written questions related to the debriefing are timely received, the date the agency delivers its written response. 
+
+215.301-70  Solicitation provision.  
+Insert the provision at 252.215-7996, Notification to Offerors-Postaward Debriefings, in competitive negotiated solicitations for contract awards valued at $15 million or more, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+215.304-70  Voluntary disclosure of defective certified cost or pricing data after award.  
+Use PGI 215.304-70 when a contractor voluntarily discloses defective pricing after contract award.  
+
+215.305  Estimating systems.  
+
+215.305-70  Disclosure, maintenance, and review requirements.  
+
+	(a)  Definitions.  As used in this section-
+
+		"Acceptable estimating system" means an estimating system that complies with the system criteria in paragraph (d) of 252.215-7002, Cost Estimating System Requirements, and provides for a system that-
+
+		(1)  Is maintained, reliable, and consistently applied;
+
+		(2)  Produces verifiable, supportable, documented, and timely cost estimates that are an acceptable basis for negotiation of fair and reasonable prices;
+
+		(3)  Is consistent with and integrated with the contractor's related management systems; and
+
+		(4)  Is subject to applicable financial control systems.
+
+		"Contractor" means a business unit as defined in FAR 2.101.
+
+		"Estimating system" means the contractor's policies, procedures, and practices for budgeting and planning controls and for generating estimates of costs and other data included in proposals submitted to customers in the expectation of receiving contract awards.  Estimating system includes the contractor's-
+
+		(1)  Organizational structure;
+
+		(2)  Established lines of authority, duties, and responsibilities;
+
+		(3)  Internal controls and managerial reviews;
+
+		(4)  Flow of work, coordination, and communication; and
+
+		(5)  Budgeting, planning, estimating methods, techniques, accumulation of historical costs, and other analyses used to generate cost estimates.
+
+	(b)  Applicability.
+
+		(1)  Contractors are required to have acceptable estimating systems that consistently produce well-supported proposals that are acceptable as a basis for negotiation of fair and reasonable prices.
+
+		(2)  A large business contractor is subject to estimating system disclosure, maintenance, and review requirements if-
+
+			(i)  In its preceding fiscal year, the contractor received DoD prime contracts or subcontracts totaling $50 million or more for which certified cost or pricing were required; or
+
+			(ii)  In its preceding fiscal year, the contractor received DoD prime contracts or subcontracts totaling $10 million or more (but less than $50 million) for which certified cost or pricing data were required and the contracting officer, with concurrence or at the request of the ACO, determines it to be in the best interest of the Government (e.g., significant estimating problems are believed to exist or the contractor's sales are predominantly Government).
+
+
+
+	(c)  Policy.
+
+		(1)  The contracting officer must-
+
+			(i)  Insert the cause at 252.215-7002, Cost Estimating System Requirements, to apply the disclosure, maintenance, and review requirements to large business contractors meeting the criteria in paragraph (b)(2)(i) of this section,
+
+			(ii)  Consider whether to apply the disclosure, maintenance, and review requirements to large business contractors under paragraph (b)(2)(ii) of this section, and
+
+			(iii)  Not apply the disclosure, maintenance, and review requirements to other than large business contractors.
+
+		(2)  The cognizant contracting officer, in consultation with the auditor, for contractors subject to paragraph (b)(2) of this section, must-
+
+			(i)  Determine the acceptability of the disclosure and approve or disapprove the system, and
+
+			(ii)  Pursue correction of any weaknesses or deficiencies.
+
+		(3)  The auditor conducts estimating system reviews.
+
+		(4)  An acceptable system must provide for the use of appropriate source data, utilize sound estimating techniques and good judgment, maintain a consistent approach, and adhere to established policies and procedures.
+
+		(5)  In evaluating the acceptability of a contractor's estimating system, the contracting officer, in consultation with the auditor, must determine whether the contractor's estimating system complies with the system criteria for an acceptable estimating system as prescribed in the clause at 252.215-7002, Cost Estimating System Requirements.
+
+	(d)  Disposition of findings-
+
+		(1)  Reporting of findings.  The auditor must document findings and recommendations in a report to the contracting officer.  If the auditor identifies any material weaknesses, the report must describe the underlying deficiencies in sufficient detail to ensure the contracting officer understands the weaknesses or deficiencies.
+
+		(2)  Initial determination.
+
+			(i)  Review all findings and recommendations and, if there are no material weaknesses, promptly notify the contractor, in writing, that the contractor's estimating system is acceptable and approved; or
+
+			(ii)  If there are one or more material weaknesses due to the contractor's failure to meet one or more of the estimating system criteria in the clause at 252.215-7002, the contracting officer must-
+
+				(A)  Promptly make an initial written determination on any material weaknesses and notify the contractor, in writing, providing a description of each material weakness in sufficient detail to allow the contractor to understand the deficiency (see PGI 215.305-70(d)(2));
+
+				(B)  Require the contractor to respond, in writing, to the initial determination within 30 days; and
+
+				(C)  Promptly evaluate the contractor's responses to the initial determination, in consultation with the auditor or functional specialist, and make a final determination.
+
+		(3)  Final determination.
+
+			(i)  Make a final determination and notify the contractor, in writing, that-
+
+				(A)  The contractor's estimating system is acceptable and approved, and no material weaknesses remain; or
+
+				(B)  Material weaknesses remain.  Identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action.  The contracting officer must-
+
+					(1)  Request that the contractor, within 45 days of receipt of the final determination, either correct the deficiencies or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+
+					(2)  Disapprove the system in accordance with the clause at 252.215-7002; and
+
+					(3)  Withhold payments in accordance with the clause at 252.242-7005, Contractor Business Systems, if the clause is included in the contract.
+
+			(ii)  Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses in PGI 215.305-70(d)(3).
+
+	(e)  System approval.  Promptly approve a previously disapproved estimating system and notify the contractor there are no remaining material weaknesses.
+
+	(f)  Contracting officer notifications.  Distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments, to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+SUBPART 215.4-CONTRACT PRICING
+
+215.401  Definitions.
+As used in this subpart-
+
+"Market prices" means current prices that are established in the course of ordinary trade between buyers and sellers free to bargain and that can be substantiated through competition or from sources independent of the offerors.
+
+"Relevant sales data" means information on sales of the same or similar items that can be used to establish price reasonableness taking into consideration the age, volume, and nature of the transactions (including any related discounts, refunds, rebates, offsets or other adjustments).
+
+215.402-70  General.
+
+Requirement for cost or pricing data.
+
+		(a)  Pursuant to section 831 of the National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2013 (Pub. L. 112-239)-
+
+			(1)  The contracting officer is responsible for determining if the information provided by the offeror is sufficient to determine price reasonableness.  This responsibility includes determining whether information on the prices at which the same or similar items have previously been sold is adequate for evaluating the reasonableness of price, and determining the extent of uncertified cost data that should be required in cases in which price information is not adequate,
+
+			(2)  Do not limit the Government's ability to obtain information that may be necessary to support a determination of fair and reasonable pricing by agreeing to contract terms that preclude obtaining necessary supporting information, and
+
+			(3)  When obtaining uncertified cost data, require the offeror to provide the information in the form in which it is regularly maintained in the offeror's business operations.
+
+		(b)  Follow the procedures at PGI 215.402-70(b) when conducting cost or price analysis, particularly for sole source acquisitions of commercial products or commercial services.
+
+215.403  Obtaining cost or pricing data.  
+
+215.403-1  Data other than certified cost or pricing data.  
+	(b)(1)  Follow the procedures at PGI 215.403-1(b)(1) for clarification of terms used in this subpart.
+
+215.403-170  Contracting officer responsibilities.  
+
+	(a)  Do not determine the price of a contract or subcontract to be fair and reasonable based solely on historical prices paid by the Government (10 U.S.C. 3705(a)).  See 215.404-170 and PGI 215.403-170(a).
+
+	(b)  If an offeror does not respond to a request for other than certified cost or pricing data, follow the procedures at PGI 215.403-170(b).  In lieu of the factors for consideration listed in FAR 15.403-1(d), the head of the contracting activity must make a determination that it is in the best interest of the Government to make the award to an offeror that does not make a good faith effort to comply with a reasonable request to submit data other than certified cost or pricing data based on consideration of pertinent factors, including the following (10 U.S.C. 3705(b)):
+
+			(1)  The effort to obtain the data.
+
+			(2)  Availability of other sources of supply of the item or service.
+
+			(3)  The urgency or criticality of the Government's need for the item or service.
+
+			(4)  Reasonableness of the price of the contract, subcontract, or modification of the contract or subcontract based on information available to the contracting officer.
+
+			(5)  Rationale or justification made by the offeror for not providing the requested data.
+
+			(6)  Risk to the Government if award is not made.
+
+	(c)  For determinations of price reasonableness of major weapon systems acquired as commercial products, see 234.7002(e).
+
+215.403-270  Prohibition on obtaining certified cost or pricing data.  
+
+	(a)  Exceptions to certified cost or pricing data requirements.
+
+		(1)  Follow the procedures at PGI 215.403-270(a)(1).
+
+		(2)  Submission of certified cost or pricing data is not required in the case of a contract, subcontract, or modification of a contract or subcontract to the extent such data relates to an indirect offset (10 U.S.C. 3703).
+
+		(3)  Adequate price competition.
+
+			(i)  For acquisitions under dual or multiple source programs-
+
+				(A)  Make the determination of adequate price competition on a case-by-case basis.  Even when adequate price competition exists, in certain cases it may be appropriate to obtain additional data to assist in price analysis, and
+
+				(B)  Adequate price competition normally exists when?
+
+					(1)  Prices are solicited across a full range of step quantities, normally including a 0-100 percent split, from at least two offerors that are individually capable of producing the full quantity, and
+
+					(2)  The reasonableness of all prices awarded is clearly established on the basis of price analysis (see FAR 15.404-1).
+
+			(ii)  If only one offer is received in response to a competitive solicitation, see 215.202-71(c).
+
+		(4)  Commercial products or commercial services.  When applying the commercial product or commercial service exception under FAR 15.403-2(b)(3), see 212.001-70(b)(2)(ii) regarding prior commercial product or commercial service determinations.
+
+	(b)  Waivers.
+
+		(1)  Pursuant to section 817 of the NDAA for FY 2003, the head of the contracting activity may, without power of delegation, apply the exceptional circumstances authority when a determination is made that-
+
+			(i)  The property or services cannot reasonably be obtained under the contract, subcontract, or modification, without granting a waiver,
+
+			(ii)  The price can be determined to be fair and reasonable without the submission of certified cost or pricing data, and
+
+			(iii)  There are demonstrated benefits to granting the waiver.  Follow the procedures at PGI 215.403-270(b)(1) for determining when an exceptional case waiver is appropriate, for approval of such waivers, for partial waivers, and for waivers applicable to unpriced supplies or services.
+
+		(2)  See PGI 215.403-270(b)(2) for annual reporting requirements.  
+
+		(3)  DoD has waived the requirement for submission of certified cost or pricing data for the Canadian Commercial Corporation and its subcontractors.  Follow the procedures at PGI 215.403-270(b)(3) but see 215.110-70(c) and 225.870-4(c).
+
+		(4)  DoD has waived certified cost or pricing data requirements for nonprofit organizations (including educational institutions) on cost-reimbursement-no-fee contracts.  Require contractors to?
+
+				(A)  Submit other than certified cost or pricing data to the extent necessary to determine price reasonableness and cost realism; and
+
+				(B)  Submit subcontractor certified cost or pricing data from subcontractors that are not nonprofit organizations when the subcontractor's proposal exceeds the certified cost or pricing data threshold at 215.403-3(a).
+
+215.403-3  Certified cost or pricing data.  
+
+	(a)  Threshold.  In lieu of the requirements of FAR 15.403-3(a), obtain certified cost or pricing data when a prime contract is expected to exceed $10 million and is awarded after June 30, 2026, unless an exception at FAR 15.403-2 or DFARS 215.403-270 applies.  The threshold is $2.5 million when the prime contract is awarded on or before June 30, 2026, unless otherwise stated in the contract (10 U.S.C. 3702)
+
+		(1)  Use the same criteria for contract modifications or changes as the prime contract being modified or changed.  
+
+		(2)  Require an offeror for a subcontract at any tier to submit certified cost or pricing data before the award of the subcontract if the prime contractor and each higher tier subcontractor are required to submit certified cost or pricing data, and the prime contract was entered into-
+
+			(i)  After June 30, 2026, and the price of the subcontract is expected to exceed $10 million, or 
+
+			(ii)  On or before June 30, 2026, and the price of the subcontract is expected to exceed $2.5 million, unless otherwise stated in the prime contract.
+
+		(3)  Require the subcontractor for a subcontract covered by paragraph (2) of this section to submit certified cost or pricing data before the pricing of a change or modification to the subcontract if the price adjustment is expected to exceed $2.5 million.  
+
+215.403-4  Certificate of current cost or pricing data.  
+See PGI 215.403-4 for additional information and guidance on Certificates of Current Cost or Pricing Data.
+
+215.404  Cost and/or price analysis.  
+
+215.404-170  Price analysis  
+
+	(a)  In the absence of adequate price competition in response to the solicitation, pricing based on market prices is the preferred method to establish a fair and reasonable price (see PGI 215.404-170).
+
+	(b)  If the information obtained through market research is insufficient to determine the reasonableness of price, the contracting officer must consider information submitted by the offeror of recent purchase prices paid by the Government and commercial customers for the same or similar commercial products or commercial services under comparable terms and conditions.  When establishing price reasonableness for the subsequent purchase, determine if the prices previously paid remain a valid reference for comparison.  Do not base price reasonableness solely on historical prices paid by the Government (see PGI 215.403-170(a)).  Consider the totality of other relevant factors such as the time elapsed since the prior purchase, any differences in the quantities purchased, or applicable terms and conditions (10 U.S.C. 3703(e)).
+
+	(c)  If the offeror cannot provide sufficient information as described in paragraph (b) of this section to determine the reasonableness of price, request the offeror submit information on-
+
+		(1)  Prices paid for the same or similar items sold under different terms and conditions;
+
+		(2)  Prices paid for similar levels of work or effort on related products or services;
+
+		(3)  Prices paid for alternative solutions or approaches; and
+
+		(4)  Other relevant information that can serve as the basis for determining the reasonableness of price.
+
+	(d)  If the pricing information submitted is not sufficient to determine the reasonableness of price, request other relevant information, to include cost data.  However, no cost data may be required in any case in which there are sufficient non-Government sales of the same item to establish reasonableness of price (section 831 of the NDAA for FY 2013 (Pub. L. 112-239).
+
+	(e)  When evaluating pricing data, consider materially differing terms and conditions, quantities, and market and economic factors (see PGI 215.404-170(e)).  For similar items, consider material differences between the similar item and the item being procured (see FAR 15.404-1(b)(2)(ii)).  Material differences are those that could reasonably be expected to influence the determination of price reasonableness.  Consider the following factors when evaluating the relevance of the information available:
+
+		(1)  Market prices.
+
+		(2)  Age of data.
+
+			(i)  Whether data is too old to be relevant depends on the industry (e.g., rapidly evolving technologies), product maturity (e.g., stable), economic factors (e.g., new sellers in the marketplace), and various other considerations.
+  
+			(ii)  A pending sale may be relevant if, in the judgement of the contracting officer, it is probable at the anticipated price, and the sale could reasonably be expected to materially influence the contracting officer's determination of price reasonableness.  The contracting officer may consult with the cognizant administrative contracting officers (ACOs) as they may have information about pending sales.
+
+		(3)  Volume and completeness of transaction data.  Data must include a sufficient number of transactions to represent the range of relevant sales to all types of customers.  The data must also include key information, such as date, quantity sold, part number, part nomenclature, sales price, and customer.  If the number of transactions is insufficient or the data is incomplete, request additional sales data to evaluate price reasonableness.  If the contractor cannot provide sufficient sales data, request other relevant information.
+
+		(4)  Nature of transactions.  The nature of a sales transaction includes the information necessary to understand the transaction, such as terms and conditions, date, quantity sold, sale price, unique requirements, the type of customer (government, distributor, retail end-user, etc.), and related agreements.  It also includes warranties, key product technical specifications, maintenance agreements, and preferred customer rewards.
+
+	(f)  Consider catalog prices to be reliable when they are regularly maintained and supported by relevant sales data (including any related discounts, refunds, rebates, offsets, or other adjustments).  Request that the offeror support differences between the proposed price(s), catalog price(s), and relevant sales data.
+
+	(g)  See PGI 215.404-170(g) for assistance with commercial product, commercial service, and price reasonableness determinations. 
+
+	(h)  When procuring a service or an end product identified by a material identifier that is available (see PGI 204.7603), consider the Supplier Performance Risk System price risk assessments in determining if a proposed price is consistent with historical prices paid for an item or otherwise creates a risk to the Government.  See also 215.403-170(a).
+
+215.404-2  Cost analysis 
+Follow the procedures at PGI 215.404-2 when conducting a cost analysis.
+
+215.404-4  Technical cost or price analysis 
+Follow the procedures at PGI 215.404-4 for use of technical assistance.
+
+215.404-7  Review and justification of pass-through contracts.  
+Follow the procedures at PGI 215.404-7 when considering alternative approaches or making the determination that the contracting approach selected is in the best interest of the Government (FAR 15.404-7).
+
+215.404-8  Subcontract pricing considerations.  
+Follow the procedures at PGI 215.404-8 when reviewing a subcontractor's proposal.
+
+215.404-970  Profit.  
+
+	(a)  Policy.  Use a structured approach for developing a prenegotiation profit or fee objective on any negotiated contract action when certified cost or pricing data is obtained, except for cost-plus-award-fee contracts (see PGI 215.404-974, 216.402-4, and FAR 16.402-4) or contracts with Federally Funded Research and Development Centers (FFRDCs) (see PGI 215.404-975).  See PGI 215.404-970 for use of DD Form 1547, Record of Weighted Guidelines Method Application, whenever a structured approach to profit analysis is required.  There are three structured approaches?
+
+		(1)  The weighted guidelines method,
+
+		(2)  The modified weighted guidelines method, and
+
+		(3)  An alternate structured approach.
+
+	(b)  Contracting officer responsibilities.
+
+		(1)  Do not perform a profit analysis when assessing cost realism in competitive acquisitions.
+
+		(2)  When using a structured approach, contracting officers-
+
+			(i)  Must use the weighted guidelines method (see PGI 215.404-971), except as provided in paragraphs (b)(2)(ii) and (b)(2)(iii) of this section.
+
+			(ii)  Must use the modified weighted guidelines method (see PGI 215.404-972) on contract actions with nonprofit organizations other than FFRDCs.
+
+			(iii)  May use an alternate structured approach (see PGI 215.404-973) when?
+
+				(A)  The contract action is?
+
+					(1)  At or below the certified cost or pricing data threshold (see DFARS 215.403-3(a)),
+
+					(2)  For architect-engineer or construction work,
+
+					(3)  Primarily for delivery of material from subcontractors, or
+
+					(4)  A termination settlement; or
+
+				(B)  The weighted guidelines method does not produce a reasonable overall profit objective, and the head of the contracting activity approves use of the alternate approach in writing.
+
+			(iv)  Must use the weighted guidelines method to establish a basic profit rate under a formula-type pricing agreement and may then use the basic rate on all actions under the agreement, provided that conditions affecting profit do not change.
+
+			(v)  Must document the profit analysis in the contract file.
+
+		(3)  Do not attempt to reach agreement on the applied weights or values for individual profit factors, but do encourage the contractor to?
+
+			(i)  Present the details of its proposed profit amounts in the weighted guidelines format or similar structured approach; and
+
+			(ii)  Use the weighted guidelines method in developing profit objectives for negotiated subcontracts.
+
+		(4)  Verify that relevant variables have not materially changed (e.g., performance risk, interest rates, progress payment rates, distribution of facilities capital).
+
+	(c)  Profit-analysis factors.  See PGI 215.404-971 through 215.404-973.
+
+	(d)  Statutory fee limitations.  In lieu of the limitation at FAR 15.404-9(c)(4)(ii), see 236.202-371 for the Departments of the Army, Navy and Air Force architect-engineer services.  
+
+215.404-70  Cost and/or price analysis.  
+
+	(a)  Follow the procedures at PGI 215.404-70 for cost and/or price analysis.
+
+	(b)  For spare parts or support equipment, perform an analysis of?
+
+		(1)  Line items where the proposed price exceeds by 25 percent or more the lowest price the Government has paid within the most recent 12-month period based on reasonably available data (section 1215 of the NDAA for FY 1984 (Pub. L. 98-94)),
+
+		(2)  Line items where a comparison of the item description and the proposed price indicates a potential for overpricing,
+
+		(3)  Significant high-dollar-value items.  If there are no obvious high-dollar-value items, include an analysis of a random sample of items, and
+
+		(4)  A random sample of the remaining low-dollar value items.  Sample size may be determined by subjective judgment, e.g., experience with the offeror and the reliability of its estimating and accounting systems.
+
+215.405  Special cost or pricing areas.  
+
+215.405-2  Make-or-buy programs.  
+See PGI 215.405-2 for factors to consider when evaluating make-or-buy plan submissions.
+
+215.405-3  Forward pricing rate agreements.  
+
+	(b)(1)  Use forward pricing rate agreement (FPRA) rates when such rates are available, unless waived on a case-by-case basis by the head of the contracting activity.
+
+		(2)  Advise the ACO of each case waived.
+
+		(3)  Contact the ACO for questions on FPRAs or recommended rates.
+
+215.405-470  Should-cost review.
+
+	(a)  General.  See PGI 215.405-470 for guidance on determining whether to perform a program or overhead should-cost review.
+
+	(b)  Program should-cost review.  Major weapon system should-cost program reviews must be conducted in a manner that is transparent, objective, and provides for the efficiency of the DoD systems acquisition process (section 837 of the NDAA for FY 2018 (Pub. L. 115-91)).
+
+		(1)  Major weapon system should-cost reviews may include the following features-
+
+			(i)  A thorough review of each contributing element of the program cost and the justification for each cost.
+
+			(ii)  An analysis of non-value added overhead and unnecessary reporting requirements.
+
+			(iii)  Benchmarking against similar DoD programs, similar commercial programs (where appropriate), and other programs by the same contractor at the same facility.
+
+			(iv)  An analysis of supply chain management to encourage competition and incentive cost performance at lower tiers.
+
+			(v)  A review of how to restructure the program (Government and contractor) team in a streamlined manner, if necessary.
+
+			(vi)  Identification of opportunities to break out Government-furnished equipment versus prime contractor-furnished materials.
+
+			(vii)  Identification of items or services contracted through third parties that result in unnecessary pass-through costs.
+
+			(viii)  Evaluation of ability to use integrated developmental and operational testing and modeling and simulation to reduce overall costs.
+
+			(ix)  Identification of alternative technology and materials to reduce developmental or lifecycle costs for a program.
+
+			(x)  Identification and prioritization of cost savings opportunities.
+
+			(xi)  Establishment of measurable targets and ongoing tracking systems.
+
+		(2)  The should-cost review must provide for sufficient analysis while minimizing the impact on program schedule by engaging stakeholders early, relying on information already available before requesting additional data, and establishing a team with the relevant expertise early.
+
+		(3)  The should cost review team must-
+
+			(i)  Be comprised of members, including third-party experts if necessary, with the training, skills, and experience in analysis of cost elements, production or sustainment processes, and technologies relevant to the program under review. The review team may include members from the Defense Contract Management Agency, the department or agency's cost analysis center, and appropriate functional organizations, as necessary.
+
+			(ii)  Establish a process for communicating and collaborating with the contractor throughout the should-cost review, including notification to the contractor regarding which elements of the contractor's operations will be reviewed and what information will be necessary to perform the review, as soon as practicable, both prior to and during the review.
+
+			(iii)  Prepare a report, which must ensure, to the maximum extent practicable, review of current, accurate, and complete data, and identify cost savings opportunities associated with specific engineering or business changes that can be quantified and tracked.
+
+215.406  Data to support proposal analysis.  
+See PGI 215.406 for guidance on obtaining field pricing or audit assistance.
+
+215.408  Documentation.  
+
+215.408-1  Prenegotiation objectives.
+Follow the procedures at PGI 215.408-1 for establishing prenegotiation objectives.
+
+215.408-2  Documenting the negotiation.
+Follow the procedures at PGI 215.408-2 for documenting the negotiation.
+
+215.470  Estimated data prices.  
+
+	(a)  DoD requires estimated prices for data to evaluate the cost to the Government of data items in terms of their management, product, or engineering value.
+
+	(b)  When data are required to be delivered under a contract, include DD Form 1423, Contract Data Requirements List, in the solicitation.  See PGI 215.470(b) for guidance on the use of DD Form 1423.
+
+	(c)  Do not include a requirement for data in a contract that the contractor has delivered or is obligated to deliver to the Government under another contract or subcontract, and that the successful offeror identifies any such data required by the solicitation.  However, where duplicate data are desired, the contract price shall include the costs of duplication, but not of preparation, of such data.
+
+SUBPART 215.5-UNSOLICITED PROPOSALS
+
+215.502  General
+	(d)(3)  The guidance at FAR 15.502(d)(3) applies to commercial solutions openings.
+
+215.503-1  Scope of proposals.
+The policy at FAR 15.503-1(a) applies to commercial solutions openings.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.215-7000  Reserved.
+
+252.215-7001  Reserved.
+
+252.215-7002  Cost Estimating System Requirements.
+As prescribed in 215.110-70(a), use the following clause:
+
+COST ESTIMATING SYSTEM REQUIREMENTS (JAN 2025)
+
+	(a)  Definitions.
+
+	"Acceptable estimating system" means an estimating system that complies with the system criteria in paragraph (d) of this clause, and provides for a system that-
+
+		(1)  Is maintained, reliable, and consistently applied;
+
+		(2)  Produces verifiable, supportable, documented, and timely cost estimates that are an acceptable basis for negotiation of fair and reasonable prices;
+
+		(3)  Is consistent with and integrated with the Contractor's related management systems; and
+
+		(4)  Is subject to applicable financial control systems.
+
+	"Estimating system" means the Contractor's policies, procedures, and practices for budgeting and planning controls, and generating estimates of costs and other data included in proposals submitted to customers in the expectation of receiving contract awards.  Estimating system includes the Contractor's-
+
+		(1)  Organizational structure;
+
+		(2)  Established lines of authority, duties, and responsibilities;
+
+		(3)  Internal controls and managerial reviews;
+
+		(4)  Flow of work, coordination, and communication; and
+
+		(5)  Budgeting, planning, estimating methods, techniques, accumulation of historical costs, and other analyses used to generate cost estimates.
+
+	"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (Section 806 of Pub. L. 116-283).
+
+	(b)  General.  The Contractor shall establish, maintain, and comply with an acceptable estimating system.
+
+	(c)  Applicability.  Paragraphs (d) and (e) of this clause apply if the Contractor is a large business and either-
+
+		(1)  In its fiscal year preceding award of this contract, received Department of Defense (DoD) prime contracts or subcontracts, totaling $50 million or more for which certified cost or pricing data were required; or
+
+		(2)  In its fiscal year preceding award of this contract-
+
+			(i)  Received DoD prime contracts or subcontracts totaling $10 million or more (but less than $50 million) for which certified cost or pricing data were required; and
+
+			(ii)  Was notified, in writing, by the Contracting Officer that paragraphs (d) and (e) of this clause apply.
+
+	(d)  System requirements.
+
+		(1)  The Contractor shall disclose its estimating system to the Administrative Contracting Officer (ACO), in writing. If the Contractor wishes the Government to protect the data and information as privileged or confidential, the Contractor must mark the documents with the appropriate legends before submission.
+
+		(2)  An estimating system disclosure is acceptable when the Contractor has provided the ACO with documentation that-
+
+			(i)  Accurately describes those policies, procedures, and practices that the Contractor currently uses in preparing cost proposals; and 
+
+			(ii)  Provides sufficient detail for the Government to reasonably make an informed judgment regarding the acceptability of the Contractor's estimating practices.
+
+
+		(3)  The Contractor shall-
+
+			(i)  Comply with its disclosed estimating system; and
+
+			(ii)  Disclose significant changes to the cost estimating system to the ACO on a timely basis.
+
+		(4)  The Contractor's estimating system shall provide for the use of appropriate source data, utilize sound estimating techniques and good judgment, maintain a consistent approach, and adhere to established policies and procedures.  An acceptable estimating system shall accomplish the following functions:
+
+			(i)  Establish clear responsibility for preparation, review, and approval of cost estimates and budgets.
+
+			(ii)  Provide a written description of the organization and duties of the personnel responsible for preparing, reviewing, and approving cost estimates and budgets.
+
+			(iii)  Ensure that relevant personnel have sufficient training, experience, and guidance to perform estimating and budgeting tasks in accordance with the Contractor's established procedures.
+
+			(iv)  Identify and document the sources of data and the estimating methods and rationale used in developing cost estimates and budgets.
+
+			(v)  Provide for adequate supervision throughout the estimating and budgeting process.
+
+			(vi)  Provide for consistent application of estimating and budgeting techniques. 
+
+			(vii)  Provide for detection and timely correction of errors.
+
+			(viii)  Protect against cost duplication and omissions.
+
+			(ix)  Provide for the use of historical experience, including historical vendor pricing data, where appropriate.
+
+			(x)  Require use of appropriate analytical methods.
+
+			(xi)  Integrate data and information available from other management systems.
+
+			(xii)  Require management review, including verification of compliance with the company's estimating and budgeting policies, procedures, and practices.
+
+			(xiii)  Provide for internal review of, and accountability for, the acceptability of the estimating system, including the budgetary data supporting indirect cost estimates and comparisons of projected results to actual results, and an analysis of any differences.
+
+			(xiv)  Provide procedures to update cost estimates and notify the Contracting Officer in a timely manner throughout the negotiation process. 
+
+			(xv)  Provide procedures that ensure subcontract prices are reasonable based on a documented review and analysis provided with the prime proposal, when practicable. 
+
+			(xvi)  Provide estimating and budgeting practices that consistently generate sound proposals that are compliant with the provisions of the solicitation and are adequate to serve as a basis to reach a fair and reasonable price.
+
+			(xvii)  Have an adequate system description, including policies, procedures, and estimating and budgeting practices, that comply with the Federal Acquisition Regulation and Defense Federal Acquisition Regulation Supplement.
+
+	(e)  Material weaknesses.
+
+		(1)  The Contracting Officer will provide an initial determination to the Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weakness or deficiency.
+
+		(2)  The Contractor shall respond within 30 days to a written initial determination from the Contracting Officer that identifies material weaknesses in the Contractor's estimating system.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and
+
+			(iii)  System disapproval, if the Contracting Officer determines that one or more material weaknesses remain.
+
+	(f)  If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the material weaknesses.
+
+	(g)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's estimating system, and the contract includes the clause at 252.242-7005, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+
+
+
+252.215-7990  Requirement for Submission of Data Other Than Certified Cost or Pricing Data-Canadian Commercial Corporation. (DEVIATION 2026-O0048)
+As prescribed at 215.110-70(b)(1)(i), use the following provision:
+
+REQUIREMENT FOR SUBMISSION OF DATA OTHER THAN CERTIFIED COST OR PRICING DATA-CANADIAN COMMERCIAL CORPORATION (DEVIATION 2026-O0048) (MAR 2026)
+
+	(a)  Submission of certified cost or pricing data is not required.
+
+	(b)  Canadian Commercial Corporation shall obtain and provide the following:
+
+		(i)  Profit rate or fee (as applicable).
+
+		(ii)  Analysis provided by Public Works and Government Services Canada to the Canadian Commercial Corporation to determine a fair and reasonable price (comparable to the analysis required at FAR 15.404).
+
+		(iii)  Data other than certified cost or pricing data necessary to permit a determination by the U.S. Contracting Officer that the proposed price is fair and reasonable [U.S. Contracting Officer to insert description of the data required in accordance with FAR 15.403-1]. 
+
+	(c)  As specified in 15.403-1(d), an offeror who does not comply with a requirement to submit data that the U.S. Contracting Officer has deemed necessary to determine price reasonableness or cost realism is ineligible for award unless the head of the contracting activity determines that it is in the best interest of the Government to make the award to that offeror.
+
+(End of provision)
+
+252.215-7991  Requirement for Submission of Data Other Than Certified Cost or Pricing Data-Modifications-Canadian Commercial Corporation.  (DEVIATION 2026-O0048)
+As prescribed at 215.110-70(b)(2)(i), use the following clause:
+
+REQUIREMENT FOR SUBMISSION OF DATA OTHER THAN CERTIFIED COST OR PRICING DATA-MODIFICATIONS-CANADIAN COMMERCIAL
+ CORPORATION (DEVIATION 2026-O0048) (MAR 2026) 
+
+This clause, in lieu of FAR 52.215-21, applies only if award is to the Canadian Commercial Corporation.
+
+	(a)  Submission of certified cost or pricing data is not required.
+
+	(b)  Canadian Commercial Corporation shall obtain and provide the following for modifications that exceed the $150,000 [or higher dollar value specified by the U.S. Contracting Officer in the solicitation].
+
+		(i)  Profit rate or fee (as applicable).
+
+		(ii)  Analysis provided by Public Works and Government Services Canada to the Canadian Commercial Corporation to determine a fair and reasonable price (comparable to the analysis required at FAR 15.404).
+
+		(iii)  Data other than certified cost or pricing data necessary to permit a determination by the U.S. Contracting Officer that the proposed price is fair and reasonable [U.S. Contracting Officer to insert description of the data required in accordance with FAR 15.403-1]. 
+
+(End of clause)
+
+252.215-7005  Reserved.
+
+252.215-7006  Use of Employees or Individual Subcontractors Who Are Members of the Selected Reserve.
+As prescribed in 215.104-71(c), use the following clause:
+
+USE OF EMPLOYEES OR INDIVIDUAL SUBCONTRACTORS WHO ARE 
+MEMBERS OF THE SELECTED RESERVE (MAR 2022)
+
+	(a)  Definition.  As used in this clause-
+
+"Selected Reserve" has the meaning given that term in 10 U.S.C. 10143.  Selected Reserve members normally attend regular drills throughout the year and are the group of Reserves most readily available to the President.
+
+	(b)  If the Contractor stated in its offer that it intends to use members of the Selected Reserve in the performance of this contract-
+
+		(1)  The Contractor shall use employees, or individual subcontractors, who are members of the Selected Reserve in the performance of the contract to the fullest extent consistent with efficient contract performance; and
+
+		(2)  The Government has the right to terminate the contract for default if the Contractor willfully or intentionally fails to use members of the Selected Reserve, as employees or individual subcontractors, in the performance of the contract.
+
+(End of clause)
+
+252.215-7007  Notice of Intent to Resolicit.
+As prescribed at 215.202-71(f), use the following provision:
+
+NOTICE OF INTENT TO RESOLICIT (JUN 2012)
+
+This solicitation provides offerors fewer than 30 days to submit proposals.  In the event that only one offer is received in response to this solicitation, the Contracting Officer may cancel the solicitation and resolicit for an additional period of at least 30 days in accordance with 215.202-71(b).  
+
+(End of provision)
+
+
+
+
+
+
+252.215-7992  Only One Offer. (DEVIATION 2026-O0048)
+As prescribed at 215.110-70(c), use the following provision:
+
+ONLY ONE OFFER (DEVIATION 2026-O0048) (MAR 2026) 
+
+	(a)  Cost or pricing data requirements.  After initial submission of offers, if the Contracting Officer notifies the Offeror that only one offer was received, the Offeror agrees to-
+
+		(1)  Submit any additional cost or pricing data that is required in order to determine whether the price is fair and reasonable (10 U.S.C. 3705) or to comply with the statutory requirement for certified cost or pricing data (10 U.S.C. 3702); and
+
+		(2)  Except as provided in paragraph (b) of this provision, if the acquisition exceeds the certified cost or pricing data threshold and an exception to the requirement for certified cost or pricing data at FAR 15.403-2(b)(2) through (5) does not apply, certify all cost or pricing data in accordance with paragraph (c) of DFARS provision 252.215-7994, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, of this solicitation.
+
+	(b)  Canadian Commercial Corporation.  If the Offeror is the Canadian Commercial Corporation, certified cost or pricing data are not required.  If the Contracting Officer notifies the Canadian Commercial Corporation that additional data other than certified cost or pricing data are required in accordance with DFARS 225.870-4(c), the  Canadian Commercial Corporation shall obtain and provide the following:
+
+		(1)  Profit rate or fee (as applicable).
+
+		(2)  Analysis provided by Public Works and Government Services Canada to the Canadian Commercial Corporation to determine a fair and reasonable price (comparable to the analysis required at 15.404).
+
+		(3)  Data other than certified cost or pricing data necessary to permit a determination by the U.S. Contracting Officer that the proposed price is fair and reasonable [U.S. Contracting Officer to provide description of the data required in accordance with FAR 15.403-1 with the notification].
+
+		(4)  As specified in FAR 15.403-1(d), an offeror who does not comply with a requirement to submit data that the U.S. Contracting Officer has deemed necessary to determine price reasonableness or cost realism is ineligible for award unless the head of the contracting activity determines that it is in the best interest of the Government to make the award to that offeror.
+
+	(c)  Subcontracts.  Unless the Offeror is the Canadian Commercial Corporation, the Offeror shall insert the substance of this provision, including this paragraph (c), in all subcontracts exceeding the simplified acquisition threshold defined in FAR part 2.
+
+(End of provision)
+
+
+
+252.215-7993  Proposal Adequacy Checklist. (DEVIATION 2026-O0048)
+As prescribed in 215.110-70(d), use the following provision:
+
+PROPOSAL ADEQUACY CHECKLIST (DEVIATION 2026-O0048) (MAR 2026)
+
+The offeror shall complete the following checklist, providing location of requested information, or an explanation of why the requested information is not provided.  In preparation of the offeror's checklist, offerors may elect to have their prospective subcontractors use the same or similar checklist as appropriate.
+
+PROPOSAL ADEQUACY CHECKLIST
+
+REFERENCES
+SUBMISSION
+ITEMPROPOSAL PAGE No.If not provided EXPLAIN (may use continuation pages)GENERAL INSTRUCTIONS1.  FAR 15.408-2, Table 15-1, Section I Paragraph AIs there a properly completed first page of the proposal per FAR 15.408-2 Table 15-1 I.A or as specified in the solicitation?2.  FAR 15.408-2, Table 15-1, Section I Paragraph A(7)
+Does the proposal identify the need for Government-furnished material/tooling/test equipment?  Include the accountable contract number and contracting officer contact information if known.3.  FAR 15.408-2, Table 15-1, Section I Paragraph A(8)Does the proposal identify and explain notifications of noncompliance with Cost Accounting Standards Board or Cost Accounting Standards (CAS); any proposal inconsistencies with your disclosed practices or applicable CAS; and inconsistencies with your established estimating and accounting principles and procedures?4.  FAR 15.408-2, Table 15-1, Section I,
+Paragraph C(1)
+
+FAR 2.101, "Cost or pricing data"Does the proposal disclose any other known activity that could materially impact the costs? 
+This may include, but is not limited to, such factors as- 
+(1) Vendor quotations; 
+(2) Nonrecurring costs; 
+(3) Information on changes in production methods and in production or purchasing volume; 
+(4) Data supporting projections of business prospects and objectives and related operations costs; 
+(5) Unit-cost trends such as those associated with labor efficiency; 
+(6) Make-or-buy decisions; 
+(7) Estimated resources to attain business goals; and 
+(8) Information on management decisions that could have a significant bearing on costs.5.  FAR 15.408-2, Table 15-1, Section I Paragraph B
+Is an Index of all certified cost or pricing data and information accompanying or identified in the proposal provided and appropriately referenced? 6.  FAR 15.403-2(b)Are there any exceptions to submission of certified cost or pricing data pursuant to FAR 15.403-2(b)? If so, is supporting documentation included in the proposal? (Note questions 18-20.)7.  FAR 15.408-2, Table 15-1, Section I Paragraph C(2)(i)
+Does the proposal disclose the judgmental factors applied and the mathematical or other methods used in the estimate, including those used in projecting from known data?8.  FAR 15.408-2, Table 15-1, Section I Paragraph C(2)(ii)Does the proposal disclose the nature and amount of any contingencies included in the proposed price?9.  FAR 15.408-2, Table 15-1, Section II, Paragraph A or BDoes the proposal explain the basis of all cost estimating relationships (labor hours or material) proposed on other than a discrete basis?10.  FAR 15.408-2, Table 15-1, Section I Paragraphs D and E Is there a summary of total cost by element of cost and are the elements of cost cross-referenced to the supporting cost or pricing data? (Breakdowns for each cost element must be consistent with your cost accounting system, including breakdown by year.)11.  FAR 15.408-2, Table 15-1, Section I Paragraphs D and EIf more than one Contract Line Item Number (CLIN) or sub Contract Line Item Number (sub-CLIN) is proposed as required by the RFP, are there summary total amounts covering all line items for each element of cost and is it cross-referenced to the supporting cost or pricing data?   12.  FAR 15.408-2, Table 15-1, Section I Paragraph FDoes the proposal identify any incurred costs for work performed before the submission of the proposal?13.  FAR 15.408-2, Table 15-1, Section I Paragraph GIs there a Government forward pricing rate agreement (FPRA)?  If so, the offeror shall identify the official submittal of such rate and factor data.  If not, does the proposal include all rates and factors by year that are utilized in the development of the proposal and the basis for those rates and factors?   COST ELEMENTSMATERIALS AND SERVICES14.  FAR 15.408-2, Table 15-1, Section II Paragraph ADoes the proposal include a consolidated summary of individual material and services, frequently referred to as a Consolidated Bill of Material (CBOM), to include the basis for pricing? The offeror's consolidated summary shall include raw materials, parts, components, assemblies, subcontracts and services to be produced or performed by others, identifying as a minimum the item, source, quantity, and price. SUBCONTRACTS (Purchased materials or services)15.  DFARS 215.404-8Has the offeror identified in the proposal those subcontractor proposals, for which the contracting officer has initiated or may need to request field pricing analysis?16.  FAR 15.404-8(b)
+
+FAR 52.244-2Per the thresholds of FAR 15.404-8(b), Subcontract Pricing Considerations, does the proposal include a copy of the applicable subcontractor's certified cost or pricing data?   17.  FAR 15.408-2, Table 15-1, 
+Note 1;
+Section II Paragraph AIs there a price/cost analysis establishing the reasonableness of each of the proposed subcontracts included with the proposal?
+If the offeror's price/cost analyses are not provided with the proposal, does the proposal include a matrix identifying dates for receipt of subcontractor proposal, completion of fact finding for purposes of price/cost analysis, and submission of the price/cost analysis?EXCEPTIONS TO CERTIFIED COST OR PRICING DATA18.  FAR 52.215-20, 
+FAR 2.101,
+"commercial product" or "commercial service"Has the offeror submitted an exception to the submission of certified cost or pricing data for commercial products or commercial services proposed either at the prime or subcontractor level, in accordance with provision 52.215-20?
+  a.  Has the offeror specifically identified the type of commercial product or commercial service claim (FAR 2.101 "commercial product" or "commercial service" definition), and the basis on which the commercial product or commercial service meets the definition?
+  b.  For modified commercial products (FAR 2.101 "commercial product" definition); did the offeror classify the modification(s) as either-
+     i.  A modification of a type customarily available in the commercial marketplace (paragraph (3)(i)); or 
+     ii.  A minor modification (paragraph (3)(ii)) of a type not customarily available in the commercial marketplace made to meet Federal Government requirements not exceeding the thresholds in FAR 15.403-2(c)(3)(iii)(B)?
+  c.  For proposed commercial products "of a type", or "evolved" or modified (FAR 2.101 "commercial product" definition), did the contractor provide a technical description of the differences between the proposed item and the comparison item(s)?19.  [Reserved] 20.  FAR 15.408-2, Table 15-1, Section II Paragraph A(1)Does the proposal support the degree of competition and the basis for establishing the source and reasonableness of price for each subcontract or purchase order priced on a competitive basis exceeding the threshold for certified cost or pricing data? INTERORGANIZATIONAL TRANSFERS21.  FAR 15.408-2, Table 15-1, Section II Paragraph A.(2)For inter-organizational transfers proposed at cost, does the proposal include a complete cost proposal in compliance with Table 15-1?  22.  FAR 15.408-2, Table 15-1, Section II Paragraph A(1)For inter-organizational transfers proposed at price in accordance with FAR 31.205-26(e), does the proposal provide an analysis by the prime that supports the exception from certified cost or pricing data in accordance with FAR15.403-2?DIRECT LABOR23.  FAR 15.408-2, Table 15-1, Section II Paragraph BDoes the proposal include a time phased (i.e.; monthly, quarterly) breakdown of labor hours, rates and costs by category or skill level?  If labor is the allocation base for indirect costs, the labor cost must be summarized in order that the applicable overhead rate can be applied.24.  FAR 15.408-2, Table 15-1, Section II Paragraph BFor labor Basis of Estimates (BOEs), does the proposal include labor categories, labor hours, and task descriptions, (e.g.; Statement of Work reference, applicable CLIN, Work Breakdown Structure, rationale for estimate, applicable history, and time-phasing)?25.  FAR subpart 22.10If covered by the Service Contract Labor Standards statute (41 U.S.C. chapter 67), are the rates in the proposal in compliance with the minimum rates specified in the statute?INDIRECT COSTS26.  FAR 15.408-2, Table 15-1, Section II Paragraph CDoes the proposal indicate the basis of estimate for proposed indirect costs and how they are applied?  (Support for the indirect rates could consist of cost breakdowns, trends, and budgetary data.)OTHER COSTS27.  FAR 15.408-2, Table 15-1, Section II Paragraph DDoes the proposal include other direct costs and the basis for pricing? If travel is included does the proposal include number of trips, number of people, number of days per trip, locations, and rates (e.g. airfare, per diem, hotel, car rental, etc)? 28.  FAR 15.408-2, Table 15-1, Section II Paragraph EIf royalties exceed $1,500 does the proposal provide the information/data identified by Table 15-1?29.  FAR 15.408-2, Table 15-1, Section II Paragraph FWhen facilities capital cost of money is proposed, does the proposal include submission of Form CASB-CMF or reference to an FPRA/FPRP and show the calculation of the proposed amount?FORMATS FOR SUBMISSION OF LINE ITEM SUMMARIES30.  FAR 15.408-2, Table 15-1, Section IIIAre all cost element breakdowns provided using the applicable format prescribed in FAR 15.408-2, Table 15-1 III?  (or alternative format if specified in the request for proposal)31.  FAR 15.408-2, Table 15-1, Section III Paragraph BIf the proposal is for a modification or change order, have cost of work deleted (credits) and cost of work added (debits) been provided in the format described in FAR 15.408-2, Table 15-1.III.B?32.  FAR 15.408-2, Table 15-1, Section III Paragraph CFor price revisions/redeterminations, does the proposal follow the format in FAR 15.408-2, Table 15-1.III.C?OTHER33.  FAR 16.4If an incentive contract type, does the proposal include offeror proposed target cost, target profit or fee, share ratio, and, when applicable, minimum/maximum fee, ceiling price?34.  FAR 16.203-4 and FAR
+15.408-2, Table 15-1, Section II, Paragraphs A, B, C, and DIf Economic Price Adjustments are being proposed, does the proposal show the rationale and application for the economic price adjustment?35.  FAR 52.232-28If the offeror is proposing Performance-Based Payments did the offeror comply with FAR 52.232-28?36.  FAR 15.110(v)
+
+FAR 52.215-22
+
+FAR 52.215-23Excessive Pass-through Charges- Identification of Subcontract Effort: If the offeror intends to subcontract more than 70% of the total cost of work to be performed, does the proposal identify: (i) the amount of the offeror's indirect costs and profit applicable to the work to be performed by the proposed subcontractor(s); and (ii) a description of the added value provided by the offeror as related to the work to be performed by the proposed subcontractor(s)?
+(End of provision)
+
+252.215-7994  Requirements for Certified Cost of Pricing Data and Data Other Than Certified Cost or Pricing Data.  (DEVIATION 2026-O0048)
+	Basic.  As prescribed in 215.110-70(e)(1) and (e)(1)(i), use the following provision:
+
+REQUIREMENTS FOR CERTIFIED COST OR PRICING DATA AND DATA OTHER THAN CERTIFIED COST OR PRICING DATA-BASIC (DEVIATION 2026-O0048) (MAR 2026) 
+
+	(a)  Definitions.  As used in this provision-
+
+	"Market prices" means current prices that are established in the course of ordinary trade between buyers and sellers free to bargain and that can be substantiated through competition or from sources independent of the offerors.
+
+	"Non-Government sales" means sales of the supplies or services to non-Governmental entities for purposes other than governmental purposes.
+
+	"Relevant sales data" means information provided by an offeror on sales of the same or similar items that can be used to establish price reasonableness taking into consideration the age, volume, and nature of the transactions (including any related discounts, refunds, rebates, offsets, or other adjustments).
+
+	"Sufficient non-Government sales" means relevant sales data that reflects market pricing and contains enough information to make adjustments covered by FAR 15.404-1(b)(2)(ii).
+
+	"Uncertified cost data" means the subset of "data other than certified cost or pricing data" (see FAR 2.101) that relates to cost.
+
+	(b)  Exceptions from certified cost or pricing data.
+
+		(1)  In lieu of submitting certified cost or pricing data, the Offeror may submit a written request for exception by submitting the information described in paragraphs (b)(1)(i) and (ii) of this provision.  The Contracting Officer may require additional supporting information, but only to the extent necessary to determine whether an exception should be granted and whether the price is fair and reasonable.
+
+			(i)  Exception for prices set by law or regulation - Identification of the law or regulation establishing the prices offered.  If the prices are controlled under law by periodic rulings, reviews, or similar actions of a governmental body, attach a copy of the controlling document, unless it was previously submitted to the contracting office.
+
+			(ii)  Commercial product or commercial service exception.  For a commercial product or commercial service exception, the Offeror shall submit, at a minimum, information that is adequate for determining commerciality and evaluating the reasonableness of the price for this acquisition, including prices at which the same product or service or similar products or services have been sold in the commercial market.  Such information shall include-
+
+				(A)  For products or services previously determined to be commercial, the contract number and military department, defense agency, or other DoD component that rendered such determination, and if available, a Government point of contact;
+
+				(B)  For subsystems of a major weapon system and components and spare parts of a major weapon system or subsystem of a major weapon system that have not previously been determined to be commercial-
+
+					(1)  The comparable commercial product the Offeror sells to the general public or nongovernmental entities;
+
+					(2)  A comparison between the physical characteristics and functionality of the comparable commercial product and the subsystem, component, or spare part, including-
+
+						(i)  For products under paragraph (3)(i) of the "commercial product" definition at FAR 2.101, a description of the modification and documentation to support that the modification is customarily available in the marketplace; or
+
+						(ii)  For products under paragraph (3)(ii) of the "commercial product" definition at FAR 2.101, a detailed description of the modification and detailed technical data to demonstrate that the modification is minor (e.g., information on production processes and material differences); and
+
+					(3)  The national stock number (NSN) for the comparable commercial product, if one is assigned, and the NSN for the subsystem, component, or spare part, if one is assigned; or
+
+					(4)  If the Offeror does not sell a comparable commercial product to the general public or nongovernmental entities for purposes other than government purposes, the Offeror shall-
+
+						(i)  Notify the Contracting Officer in writing that it does not sell such a comparable product; and
+
+						(ii)  Provide the Contracting Officer with a comparison of the physical characteristics and functionality of the most comparable commercial product in the commercial market.
+
+				(C)  For items priced based on a catalog-
+
+					(1)  A copy of or identification of the Offeror's current catalog showing the price for that item; and
+
+					(2)  If the catalog pricing provided with this proposal is not consistent with all relevant sales data, a detailed description of differences or inconsistencies between or among the relevant sales data, the proposed price, and the catalog price (including any related discounts, refunds, rebates, offsets, or other adjustments);
+
+				(D)  For items priced based on market pricing, a description of the nature of the commercial market, the methodology used to establish a market price, and all relevant sales data.  The description shall be adequate to permit DoD to verify the accuracy of the description;
+
+				(E)  For items included on an active Federal Supply Service Multiple Award Schedule contract, proof that an exception has been granted for the schedule item; or
+
+				(F)  For items provided by nontraditional defense contractors, a statement that the entity is not currently performing and has not performed, for at least the 1-year period preceding the solicitation of sources by DoD for the procurement or transaction, any contract or subcontract for DoD that is subject to full coverage under the cost accounting standards prescribed pursuant to 41 U.S.C. 1502 and the regulations implementing such section.
+
+		(2)  The Offeror grants the Contracting Officer or an authorized representative the right to examine, at any time before award, books, records, documents, or other directly pertinent records to verify any request for an exception under this provision, and to determine the reasonableness of price.
+
+	(c)  Requirements for certified cost or pricing data.  If the Offeror is not granted an exception from the requirement to submit certified cost or pricing data, the following applies:
+
+		(1)  The Offeror shall prepare and submit certified cost or pricing data and supporting attachments in accordance with the instructions contained in Table 15-1 of FAR 15.408-2, which is incorporated by reference with the same force and effect as though it were inserted here in full text.  The instructions in Table 15-1 are incorporated as a mandatory format to be used in any resultant contract, unless the Contracting Officer and the Offeror agree to a different format and change this provision to use Alternate I.
+
+		(2)  As soon as practicable after agreement on price, but before contract award (except for unpriced actions such as letter contracts), the Offeror shall submit a Certificate of Current Cost or Pricing Data, as prescribed by FAR 15.403-4.
+
+		(3)  The Offeror is responsible for determining whether a subcontractor qualifies for an exception from the requirement for submission of certified cost or pricing data on the basis of adequate price competition, i.e., two or more responsible offerors, competing independently, submit priced offers that satisfy the Government's expressed requirement in accordance with FAR 15.403-2(c)(1)(ii).
+
+	(d)  Requirements for data other than certified cost or pricing data.
+
+		(1)  Data other than certified cost or pricing data submitted in accordance with this provision shall include the minimum information necessary to permit a determination that the proposed price is fair and reasonable, to include the requirements in Defense Federal Acquisition Regulation Supplement (DFARS) 215.402-70(a)(1), 215.404-170, and 234.7002(e).
+
+		(2)  In cases in which uncertified cost data is required, the information shall be provided in the form in which it is regularly maintained by the Offeror or prospective subcontractor in its business operations.
+
+		(3)  If the Offeror redacts data that identifies the customer (see DFARS 234.7002(e)(2)), then the Offeror shall include, for each sale, the following signed statement with the data submitted:
+
+"By submission of this data, the Offeror [Offeror insert company name] certifies that the customer was [Offeror insert one or more of the following as applicable: a government customer; a commercial customer purchasing the same or similar product for governmental purposes (e.g., Federal, state, local, or foreign government); or a commercial customer purchasing the same or similar product for a commercial, mixed, or unknown purpose]."
+
+		(4)  Within 10 days of a written request from the Contracting Officer for additional information to permit an adequate evaluation of the proposed price in accordance with FAR 15.403-1 or DFARS 234.7002(e), the Offeror shall provide either the requested information, or a written explanation for the inability to fully comply.
+
+		(5)  Subcontract price evaluation.
+
+			(i)  Offerors shall obtain from subcontractors the minimum information necessary to support a determination of price reasonableness, as described in FAR part 15 and DFARS part 215.
+
+			(ii)  No cost data may be required from a prospective subcontractor in any case in which there are sufficient non-Government sales of the same item to establish reasonableness of price.
+
+			(iii)  If the Offeror relies on relevant sales data for similar items to determine the price is reasonable, the Offeror shall obtain only that technical information necessary-
+
+				(A)  To support the conclusion that items are technically similar; and
+
+				(B)  To explain any technical differences that account for variances between the proposed prices and the sales data presented.
+
+	(e)  Subcontracts.  The Offeror shall insert the substance of this provision, including this paragraph (e), in subcontracts exceeding the simplified acquisition threshold defined in FAR part 2.  The Offeror shall require prospective subcontractors to adhere to the requirements of-
+
+		(1)  Paragraphs (c) and (d) of this provision for subcontracts above the threshold for submission of certified cost or pricing data in 215-403-3(a); and
+
+		(2)  Paragraph (d) of this provision for subcontracts exceeding the simplified acquisition threshold defined in FAR part 2.
+
+(End of provision)
+
+	Alternate I.  (DEVIATION 2026-O0048)  As prescribed in 215.110-70(e)(1) and(e)(1)(ii), use the following provision, which includes a different paragraph (c)(1).
+
+REQUIREMENTS FOR CERTIFIED COST OR PRICING DATA AND DATA OTHER THAN CERTIFIED COST OR PRICING DATA-ALTERNATE I 
+(DEVIATION 2026-O0048) (MAR 2026) 
+
+	(a)  Definitions.  As used in this provision-
+
+	"Market prices" means current prices that are established in the course of ordinary trade between buyers and sellers free to bargain and that can be substantiated through competition or from sources independent of the offerors.
+
+	"Non-Government sales" means sales of the supplies or services to non-Governmental entities for purposes other than governmental purposes.
+
+	"Relevant sales data" means information provided by an offeror on sales of the same or similar items that can be used to establish price reasonableness taking into consideration the age, volume, and nature of the transactions (including any related discounts, refunds, rebates, offsets, or other adjustments).
+
+	"Sufficient non-Government sales" means relevant sales data that reflects market pricing and contains enough information to make adjustments covered by Federal Acquisition Regulation (FAR) 15.404-1(b)(2)(ii).
+
+	"Uncertified cost data" means the subset of "data other than certified cost or pricing data" (see FAR 2.101) that relates to cost.
+
+	(b)  Exceptions from certified cost or pricing data.
+
+		(1)  In lieu of submitting certified cost or pricing data, the Offeror may submit a written request for exception by submitting the information described in paragraphs (b)(1)(i) and (ii) of this provision.  The Contracting Officer may require additional supporting information, but only to the extent necessary to determine whether an exception should be granted and whether the price is fair and reasonable.
+
+			(i)  Exception for price set by law or regulation - Identification of the law or regulation establishing the price offered.  If the price is controlled under law by periodic rulings, reviews, or similar actions of a governmental body, attach a copy of the controlling document, unless it was previously submitted to the contracting office.
+
+			(ii)  Commercial product or commercial service exception.  For a commercial product or commercial service exception, the Offeror shall submit, at a minimum, information that is adequate for determining commerciality and evaluating the reasonableness of the price for this acquisition, including prices at which the same product or service or similar products or services have been sold in the commercial market.  Such information shall include-
+
+				(A) For products or services previously determined to be commercial, the contract number and military department, defense agency, or other DoD component that rendered such determination, and if available, a Government point of contact;
+
+				(B)  For subsystems of a major weapon system and components and spare parts of a major weapon system or subsystem of a major weapon system that have not previously been determined to be commercial-
+
+					(1)  The comparable commercial product the Offeror sells to the general public or nongovernmental entities;
+
+					(2)  A comparison between the physical characteristics and functionality of the comparable commercial product and the subsystem, component, or spare part, including-
+
+						(i)  For products under paragraph (3)(i) of the "commercial product" definition at FAR 2.101, a description of the modification and documentation to support that the modification is customarily available in the marketplace; or
+
+
+						(ii)  For products under paragraph (3)(ii) of the "commercial product" definition at FAR 2.101, a detailed description of the modification and detailed technical data to demonstrate that the modification is minor (e.g., information on production processes and material differences); and
+
+					(3)  The national stock number (NSN) for the comparable commercial product, if one is assigned, and the NSN for the subsystem, component, or spare part; or
+
+					(4)  If the Offeror does not sell a comparable commercial product to the general public or nongovernmental entities for purposes other than government purposes, the Offeror shall-
+
+						(i)  Notify the Contracting Officer in writing that it does not sell such a comparable product; and
+
+						(ii)  Provide the Contracting Officer with a comparison of the physical characteristics and functionality of the most comparable commercial product in the commercial market.
+
+				(C)  For items priced based on a catalog-
+
+					(1)  A copy of or identification of the Offeror's current catalog showing the price for that item; and
+
+					(2)  If the catalog pricing provided with this proposal is not consistent with all relevant sales data, a detailed description of differences or inconsistencies between or among the relevant sales data, the proposed price, and the catalog price (including any related discounts, refunds, rebates, offsets, or other adjustments);
+
+				(D)  For items priced based on market pricing, a description of the nature of the commercial market, the methodology used to establish a market price, and all relevant sales data.  The description shall be adequate to permit DoD to verify the accuracy of the description;  
+
+				(E)  For items included on an active Federal Supply Service Multiple Award Schedule contract, proof that an exception has been granted for the schedule item; or
+
+				(F)  For items provided by nontraditional defense contractors, a statement that the entity is not currently performing and has not performed, for at least the 1-year period preceding the solicitation of sources by DoD for the procurement or transaction, any contract or subcontract for DoD that is subject to full coverage under the cost accounting standards prescribed pursuant to 41 U.S.C. 1502 and the regulations implementing such section.
+
+		(2)  The Offeror grants the Contracting Officer or an authorized representative the right to examine, at any time before award, books, records, documents, or other directly pertinent records to verify any request for an exception under this provision, and to determine the reasonableness of price.
+
+	(c)  Requirements for certified cost or pricing data.  If the Offeror is not granted an exception from the requirement to submit certified cost or pricing data, the following applies:
+
+		(1)  The Offeror shall submit certified cost or pricing data and supporting attachments in the following format:  [Insert description of the data and format that are required, and include access to records necessary to permit an adequate evaluation of the proposed price in accordance with FAR 15.408-2, Table 15-1, Note 2.  The Contracting Officer shall insert the description at the time of issuing the solicitation or specify that the format regularly maintained by the offeror or prospective subcontractor in its business operations will be acceptable.  The Contracting Officer may amend the description as the result of negotiations.]
+
+		(2)  As soon as practicable after agreement on price, but before contract award (except for unpriced actions such as letter contracts), the Offeror shall submit a Certificate of Current Cost or Pricing Data, as prescribed by FAR 15.403-4.
+
+		(3)  The Offeror is responsible for determining whether a subcontractor qualifies for an exception from the requirement for submission of certified cost or pricing data on the basis of adequate price competition, i.e., two or more responsible offerors, competing independently, submit priced offers that satisfy the Government's expressed requirement in accordance with FAR 15.403-2(c)(1)(ii).
+
+	(d)  Requirements for data other than certified cost or pricing data.
+
+		(1)  Data other than certified cost or pricing data submitted in accordance with this provision shall include all data necessary to permit a determination that the proposed price is fair and reasonable, to include the requirements in Defense Federal Acquisition Regulation Supplement (DFARS) 215.402-70(a)(1), 215.404-170, and 234.7002(e).
+
+		(2)  In cases in which uncertified cost data is required, the information shall be provided in the form in which it is regularly maintained by the Offeror or prospective subcontractor in its business operations.
+
+		(3)  If the Offeror redacts data that identifies the customer (see DFARS 234.7002(e)(2)), then the Offeror shall include, for each sale, the following signed statement with the data submitted:
+
+"By submission of this data, the Offeror [Offeror insert company name] certifies that the customer was [Offeror insert one or more of the following as applicable: a government customer (e.g., Federal, state, local, or foreign government); a commercial customer purchasing the same or similar product for governmental purposes; or a commercial customer purchasing the same or similar product for a commercial, mixed, or unknown purpose]."
+
+		(4)  The Offeror shall provide information described as follows:  [Insert description of the data and the format that are required, including access to records necessary to permit an adequate evaluation of the proposed price in accordance with 15.403-1 or DFARS 234.7002(e)].
+
+		(5)  Within 10 days of a written request from the Contracting Officer for additional information to support proposal analysis, the Offeror shall provide either the requested information, or a written explanation for the inability to fully comply.
+
+		(6)  Subcontract price evaluation.
+
+			(i)  Offerors shall obtain from subcontractors the information necessary to support a determination of price reasonableness, as described in FAR part 15 and DFARS part 215.
+
+			(ii)  No cost information may be required from a prospective subcontractor in any case in which there are sufficient non-Government sales of the same item to establish reasonableness of price.
+
+			(iii)  If the Offeror relies on relevant sales data for similar items to determine the price is reasonable, the Offeror shall obtain only that technical information necessary-
+
+				(A)  To support the conclusion that items are technically similar; and
+
+				(B)  To explain any technical differences that account for variances between the proposed prices and the sales data presented.
+
+	(e)  Subcontracts.  The Offeror shall insert the substance of this provision, including this paragraph (e), in all subcontracts exceeding the simplified acquisition threshold defined in FAR part 2.  The Offeror shall require prospective subcontractors to adhere to the requirements of-
+
+		(1)  Paragraph (c) and (d) of this provision for subcontracts above the threshold for submission of certified cost or pricing data in 215.403-3(a); and
+
+		(2)  Paragraph (d) of this provision for subcontracts exceeding the simplified acquisition threshold defined in FAR part 2.
+
+(End of provision)
+
+252.215-7011  Requirements for Submission of Proposals to the Administrative Contracting Officer and Contract Auditor.
+As prescribed in 215.110-70(e)(2), use the following provision:
+
+REQUIREMENTS FOR SUBMISSION OF PROPOSALS TO THE ADMINISTRATIVE CONTRACTING OFFICER AND CONTRACT AUDITOR 
+(JAN 2018)
+
+When the proposal is submitted, the Offeror shall also submit one copy each to-
+
+	(a)  The Administrative Contracting Officer; and
+
+	(b)  The Contract Auditor.
+
+(End of provision)
+
+252.215-7012  Requirements for Submission of Proposals via Electronic Media.
+As prescribed in 215.110-70(e)(3), use the following provision:
+
+REQUIREMENTS FOR SUBMISSION OF PROPOSALS VIA ELECTRONIC MEDIA (JAN 2018)
+
+The Offeror shall submit the cost portion of the proposal via the following electronic media:  [Insert media format, e.g., electronic spreadsheet format, electronic mail, etc.]
+
+(End of provision)
+
+252.215-7013  Supplies and Services Provided by Nontraditional Defense Contractors.
+As prescribed in 215.110-70(f), use the following provision:
+
+SUPPLIES AND SERVICES PROVIDED BY NONTRADITIONAL DEFENSE 
+CONTRACTORS (JAN 2023)
+
+Offerors are advised that in accordance with 10 U.S.C. 3457, supplies and services provided by a nontraditional defense contractor, as defined in DFARS 202.101, may be treated as commercial products or commercial services.  The decision to apply commercial product or commercial service procedures to the procurement of supplies and services from a nontraditional defense contractor does not require a commercial product or commercial service determination and does not mean the supplies or services are commercial.
+
+(End of provision)
+
+
+
+252.215-7014  Exception from Certified Cost or Pricing Data Requirements for Foreign Military Sales Indirect Offsets.
+As prescribed in 215.110-70(g), use the following clause:
+
+EXCEPTION FROM CERTIFIED COST OR PRICING DATA REQUIREMENTS FOR FOREIGN MILITARY SALES INDIRECT OFFSETS (DEC 2022)
+
+	(a)  Definition.  As used in this clause-
+
+	"Offset" means a benefit or obligation agreed to by a contractor and a foreign government or international organization as an inducement or condition to purchase supplies or services pursuant to a foreign military sale (FMS).  There are two types of offsets:  direct offsets and indirect offsets.
+
+		(1)  A direct offset involves benefits or obligations, including supplies or services that are directly related to the item being purchased and are integral to the deliverable of the FMS contract.  For example, as a condition of a foreign military sale, the contractor may require or agree to permit the customer to produce in its country certain components or subsystems of the item being sold.  Generally, direct offsets must be performed within a specified period, because they are integral to the deliverable of the FMS contract.
+
+		(2)  An indirect offset involves benefits or obligations, including supplies or services that are not directly related to the specific item(s) being purchased and are not integral to the deliverable of the FMS contract.  For example, as a condition of a foreign military sale, the contractor may agree to purchase certain manufactured products, agricultural commodities, raw materials, or services, or make an equity investment or grant of equipment required by the FMS customer, or may agree to build a school, road or other facility.  Indirect offsets would also include projects that are related to the FMS contract but not purchased under said contract (e.g., a project to develop or advance a capability, technology transfer, or know-how in a foreign company).  Indirect offsets may be accomplished without a clearly defined period of performance.
+
+	(b)  Exceptions from certified cost or pricing data requirements.  Notwithstanding the requirements of Federal Acquisition Regulation (FAR) 52.215-20, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data, in the case of this contract or a subcontract, and FAR 52.215-21, Requirements for Certified Cost or Pricing Data and Data Other Than Certified Cost or Pricing Data-Modifications, in the case of modification of this contract or a subcontract, submission of certified cost or pricing data shall not be required to the extent such data relates to an indirect offset (10 U.S.C. 3703(a)(4)).
+
+(End of clause)
+
+252.215-7995  Program Should-Cost Review. (DEVIATION 2026-O0048)
+As prescribed in 215.110-70(h), use the following clause:
+
+PROGRAM SHOULD-COST REVIEW (DEVIATION 2026-O0048) (MAR 2026)
+
+   (a)  The Government has the right to perform a program should-cost review, as described in Federal Acquisition Regulation (FAR) 15.405-4(b).  The review may be conducted in support of a particular contract proposal or during contract performance to find opportunities to reduce program costs.  The Government will communicate the elements of the proposed should-cost review to the prime contractor (Pub. L. 115-91).
+
+	(b)  If the Government performs a program should-cost review, upon the Government's request, the Contractor shall provide access to accurate and complete cost data and Contractor facilities and personnel necessary to permit the Government to perform the program should-cost review. 
+
+	(c)  The Government has the right to use third-party experts to supplement the program should-cost review team.  The Contractor shall provide access to the Contractor's facilities and information necessary to support the program should-cost review to any third-party experts who have signed non-disclosure agreements in accordance with the FAR 52.203-16.
+
+(End of clause)
+
+252.215-7996  Notification to Offerors-Postaward Debriefings. (DEVIATION 2026-O0048)
+As prescribed in 215.301-70, use the following provision:
+
+NOTIFICATION TO OFFERORS-POSTAWARD DEBRIEFINGS (DEVIATION 2026-O0048) (MAR 2026)
+
+	(a)  Definition.  As used in this provision-
+
+	"Nontraditional defense contractor" means an entity that is not currently performing and has not performed any contract or subcontract for DoD that is subject to full coverage under the cost accounting standards prescribed pursuant to 41 U.S.C. 1502 and the regulations implementing such section, for at least the 1-year period preceding the solicitation of sources by DoD for the procurement (10 U.S.C. 3014).
+
+	(b)  Postaward debriefing.
+
+		(1)  Upon timely request, the Government will provide a written or oral postaward debriefing to successful or unsuccessful offerors for contract awards valued at $15 million 
+
+		(2)  When required, the minimum postaward debriefing information will include the following:
+
+			(i)  For contracts in excess of $15 million and not in excess of $150 million with a small business or nontraditional defense contractor, an option for the small business or nontraditional defense contractor to request disclosure of the agency's written source selection decision document, redacted to protect the confidential and proprietary information of other offerors for the contract award.
+
+			(ii)  For contracts in excess of $150 million, disclosure of the agency's written source selection decision document, redacted to protect the confidential and proprietary information of other offerors for the contract award.
+
+		(3)  If a required postaward debriefing is provided-
+
+			(i)  The debriefed Offeror may submit additional written questions related to the debriefing not later than 2 business days after the date of the debriefing;
+
+			(ii)  The agency will respond in writing to timely submitted additional questions within 5 business days after receipt by the contracting officer; and
+
+			(iii)  The postaward debriefing will not be considered to be concluded until the later of-
+
+				(A)  The date that the postaward debriefing is delivered, orally or in writing; or
+
+				(B)  If additional written questions related to the debriefing are timely received, the date the agency delivers its written response.
+
+	(c)  Contract performance.  The Government may suspend performance of or terminate the awarded contract upon notice from the Government Accountability Office of a protest filed within the time periods listed in paragraphs (c)(1) through (3) of this provision, whichever is later:
+
+		(1)  Within 10 days after the date of contract award.
+
+		(2)  Within 5 days after a debriefing date offered to the protestor under a timely debriefing request in accordance with Federal Acquisition Regulation (FAR) 15.301 unless an earlier debriefing date is negotiated as a result.
+
+		(3)  Within 5 days after a postaward debriefing under FAR 15.301 is concluded in accordance with Defense Federal Acquisition Regulation Supplement 215.301-170.
+
+(End of provision)
+Attachment A1
+DARS Tracking Number: 2026-O0048
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 15
+Defense FAR Supplement (DFARS) Part 215
+
+
+	Page 1 of 83	
+

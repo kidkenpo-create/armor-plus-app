@@ -1,0 +1,49 @@
+PGI 244-SUBCONTRACTING POLICIES AND PROCEDURES
+
+PGI 244.2-EVALUATION AND AWARD
+
+PGI 244.201  Consent to subcontracts and requirements for advance notice.
+
+PGI 244.201-1  Consent requirements.
+
+(i)(A)  When contracting for information technology, whether as a service or as a supply, that is a covered system or covered item of supply, consider the need for a consent to subcontract requirement regarding supply chain risk (see subpart 239.73).  In collaboration with the requiring activity, assess the criticality of the component or system to be supplied and potential supply chain risk concerns.
+
+(B)  The contracting officer's written consent to subcontract is necessary when subcontractors are selected or modified during contract performance.  
+
+(C)  If a potential subcontractor's risk is beyond the tolerance of the system and mission, the requiring activity must inform the contracting officer. The contracting officer can use the authority granted in section 806 of Pub. L. 111-383 to withhold consent for the contractor to subcontract with a particular source or exclude a source from consideration as specified in DFARS 239.73.
+
+PGI 244.201-3  Contracting officer's responsibilities.
+If subcontractor selection is not based on lowest price, assess if the contractor adequately justified selecting the subcontractor as offering the best value to the government. 
+
+PGI 244.3-POSTAWARD
+
+PGI 244.301-70  Policy.
+
+	(c)  Disposition of findings.
+
+		(2)  Initial determination.
+
+			(ii)(A)  Within 30 days of receiving the report, if the contracting officer makes a determination that there is a material weakness, the contracting officer should provide an initial determination of material weaknesses and a copy of the report to the contractor and require the contractor to submit a written response.
+
+				(C)  Evaluation of contractor's response.  Within 30 days of receiving the contractor's response, the contracting officer, with input from the auditor or functional specialist, should evaluate the contractor's response and make a final determination.
+
+		(3)  Final determination.
+
+			(ii)(A)  Monitoring contractors' corrective action.  The contracting officer and Purchasing System Analyst (PSA) or auditor will monitor the contractor's progress in correcting material weaknesses and deficiencies.  If the contractor fails to make adequate progress, the contracting officer will take necessary action to ensure that the contractor corrects the weaknesses and deficiencies.  Actions the contracting officer may take include:  withdrawing or withholding approval of the system; bringing the issue to the attention of higher level management; recommending non-award of potential contracts, as applicable; and for material weaknesses, implementing or increasing the withholding in accordance with 252.242-7005, Contractor Business Systems.
+
+			(B)  Correction of material weaknesses.
+
+				(1)  When the contractor notifies the contracting officer that the contractor has corrected the material weaknesses, the contracting officer will request the PSA or auditor to review the correction to assess if the weaknesses and deficiencies have been resolved.
+
+				(2)  The contracting officer will determine if the contractor has corrected the weaknesses and deficiencies.
+
+				(3)  If the contracting officer determines the contractor has corrected the deficiencies, the contracting officer's notification will be sent to the PSA; auditor; payment office; appropriate action officers responsible for reporting past performance at the requiring activities; and each contracting and contract administration office having substantial business with the contractor as applicable.
+Attachment A2
+DARS Tracking Number: 2026-O0015
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 44
+Defense FAR Supplement (DFARS) Part 244
+
+
+Page 2 of 2
+
+

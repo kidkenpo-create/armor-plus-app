@@ -1,0 +1,575 @@
+PART 239-ACQUISITION OF INFORMATION AND COMMUNICATION TECHNOLOGY
+
+239.001  Applicability.
+Notwithstanding FAR 39.001, this part applies to acquisitions of information and communication technology, including information technology for national security systems.
+
+SUBPART 239.1-PRESOLICITATION
+
+239.170  Requirements for commercial products and commercial services.
+
+	(a)  A contracting officer must not enter into a contract in excess of the simplified acquisition threshold for information technology products or services that are not commercial products or commercial services unless the head of the contracting activity determines in writing that no commercial items are suitable to meet the agency's needs, as determined through the use of market research appropriate to the circumstances (see FAR 10.001(a)(3)) (section 855 of the National Defense Authorization Act for Fiscal Year 2016 (Pub. L. 114-92)).
+
+	(b)  See part 208 when acquiring commercial software or software maintenance.
+
+	(c)  See part 227 for policy on the acquisition of commercial computer software and commercial computer software documentation.
+
+	(d)  See part 227 for policy on the acquisition of other than commercial computer software and other than commercial computer software documentation.
+
+SUBPART 239.70-EXCHANGE OR SALE OF INFORMATION TECHNOLOGY
+
+239.7001  Policy.
+Agencies must follow the procedures in DoD Manual 4140.01, Volume 9, DoD Supply Chain Materiel Management Procedures: Materiel Programs, when considering the exchange or sale of Government-owned information technology.
+
+Subpart 239.71-239.73  [Reserved]
+
+SUBPART 239.74-TELECOMMUNICATIONS SERVICES
+
+239.7400  Scope.
+This subpart prescribes policy and procedures for acquisition of telecommunications services and maintenance of telecommunications security.  Telecommunications services meet the definition of information technology.
+
+239.7401  Definitions.
+
+As used in this subpart-
+
+	Common carrier means any entity engaged in the business of providing telecommunications services which are regulated by the Federal Communications Commission or other governmental body.
+
+	Foreign carrier means any person, partnership, association, joint-stock company, trust, governmental body, or corporation not subject to regulation by a U.S.  governmental regulatory body and not doing business as a citizen of the United States, providing telecommunications services outside the territorial limits of the United States.
+
+	Governmental regulatory body means the Federal Communications Commission, any statewide regulatory body, or any body with less than statewide jurisdiction when operating under the State authority.  The following are not "governmental regulatory bodies"-
+
+	(1)  Regulatory bodies whose decisions are not subject to judicial appeal; and
+
+	(2)  Regulatory bodies which regulate a company owned by the same entity which creates the regulatory body.
+
+	Long-haul telecommunications means all general and special purpose long-distance telecommunications facilities and services (including commercial satellite services, terminal equipment and local circuitry supporting the long-haul service) to or from the post, camp, base, or station switch and/or main distribution frame (except for trunk lines to the first-serving commercial central office for local communications services).
+
+	Noncommon carrier means any entity other than a common carrier offering telecommunications facilities, services, or equipment for lease.
+
+	Securing, sensitive information, and telecommunications systems have the meaning given in the clause at 252.239-7016, Telecommunications Security Equipment, Devices, Techniques, and Services.
+
+	Telecommunications means the transmission, emission, or reception of signals, signs, writing, images, sounds, or intelligence of any nature, by wire, cable, satellite, fiber optics, laser, radio, or any other electronic, electric, electromagnetic, or acoustically coupled means.
+
+	Telecommunications services means the services acquired, whether by lease or contract, to meet the Government's telecommunications needs.  The term includes the telecommunications facilities and equipment necessary to provide such services.
+
+239.7402  Policy.
+
+	(a)  Acquisition.  DoD policy is to acquire telecommunications services from common and noncommon telecommunications carriers-
+		(1)  On a competitive basis, except when acquisition using other than full and open competition is justified;
+
+		(2)  Recognizing the regulations, practices, and decisions of the Federal Communications Commission (FCC) and other governmental regulatory bodies on rates, cost principles, and accounting practices; and
+
+		(3)  Making provision in telecommunications services contracts for adoption of-
+			(i)  FCC approved practices; or
+
+			(ii)  The generally accepted practices of the industry on those issues concerning common carrier services where-
+
+				(A)  The governmental regulatory body has not expressed itself;
+
+        			(B)  The governmental regulatory body has declined jurisdiction; or
+
+				(C)  There is no governmental regulatory body to decide.
+
+	(b)  Security.  (1) The contracting officer must ensure, in accordance with agency procedures, that purchase requests identify-
+
+			(i)  The nature and extent of information requiring security during telecommunications;
+
+			(ii)  The requirement for the contractor to secure telecommunications systems;
+
+			(iii)  The telecommunications security equipment, devices, techniques, or services with which the contractor's telecommunications security equipment, devices, techniques, or services must be interoperable; and
+
+			(iv)  The approved telecommunications security equipment, devices, techniques, or services, such as found in the National Security Agency's Information Systems Security Products and Services Catalogue.
+
+		(2)  Contractors and subcontractors must provide all telecommunications security techniques or services required for performance of Government contracts.
+
+		(3)  Except as provided in paragraph (b)(4) of this section, contractors and subcontractors must normally provide all required property, to include telecommunications security equipment or related devices, in accordance with FAR 45.102.  In some cases, such as for communications security (COMSEC) equipment designated as controlled cryptographic item (CCI), contractors or subcontractors must also meet ownership eligibility conditions.
+
+		(4)  The head of the agency may authorize provision of the necessary property as Government-furnished property or acquisition as contractor-acquired property, as long as conditions of FAR 45.102(b) are met.
+	(c) Foreign carriers.  For information on contracting with foreign carriers, see PGI 239.7402(c).
+
+239.7403-239.7404  [Reserved]
+
+239.7405  Delegated authority for telecommunications resources.
+The contracting officer may enter into a telecommunications service contract on a month-to-month basis or for any longer period or series of periods, not to exceed a total of 10 years.  See PGI 239.7405 for documents relating to this contracting authority, which the General Services Administration has delegated to DoD.
+
+239.7406  Certified cost or pricing data and data other than certified cost or pricing data.
+
+	(a)  Common carriers are not required to submit certified cost or pricing data before award of contracts for tariffed services.  Rates or preliminary estimates quoted by a common carrier for tariffed telecommunications services are considered to be prices set by regulation within the provisions of 10 U.S.C.  3703.  This is true even if the tariff is set after execution of the contract.  
+
+	(b)  Rates or preliminary estimates quoted by a common carrier for nontariffed telecommunications services or by a noncommon carrier for any telecommunications service are not considered prices set by law or regulation.
+
+	(c)  Contracting officers must obtain sufficient data to determine that the prices are reasonable in accordance with FAR 15.403-3 or 15.403-4.  See PGI 239.7406 for examples of instances where additional data may be necessary to determine price reasonableness.
+
+239.7407  Type of contract.
+When acquiring telecommunications services, the contracting officer may use a basic agreement (see FAR 16.702) in conjunction with communication service authorizations.  When using this method, follow the procedures at PGI 239.7407.
+
+239.7408  Special construction.
+
+239.7408-1  General.
+
+	(a)  Special construction normally involves a common carrier giving a special service or facility related to the performance of the basic telecommunications service requirements.   This may include-
+
+		(1)  Moving or relocating equipment;
+
+		(2)  Providing temporary facilities;
+
+		(3)  Expediting provision of facilities; or
+
+		(4)  Providing specially constructed channel facilities to meet Government requirements.
+
+	(b)  Use this subpart instead of FAR part 36 for acquisition of "special construction."
+
+	(c)  Special construction costs may be-
+
+		(1)  A contingent liability for using telecommunications services for a shorter time than the minimum to reimburse the contractor for unamortized nonrecoverable costs.  These costs are usually expressed in terms of a termination liability, as provided in the contract or by tariff;
+
+		(2)  A onetime special construction charge;
+
+		(3)  Recurring charges for constructed facilities;
+
+		(4)  A minimum service charge;
+
+  		(5)  An expediting charge; or
+
+ 		(6)  A move or relocation charge.
+
+	(d)   When a common carrier submits a proposal or quotation which has special construction requirements, the contracting officer must require a detailed special construction proposal.  Analyze all special construction proposals to-
+
+		(1)  Determine the adequacy of the proposed construction;
+
+ 		(2)  Disclose excessive or duplicative construction; and
+
+		(3)  When different forms of charge are possible, provide for the form of charge most advantageous to the Government.
+
+	(e)  When possible, analyze and approve special construction charges before receiving the service.  Impose a ceiling on the special construction costs before authorizing the contractor to proceed, if prior approval is not possible.  The contracting officer must approve special construction charges before final payment.
+
+239.7408-2  Applicability of construction labor standards for special construction.
+
+	(a)  The construction labor standards in FAR Subpart 22.4 ordinarily do not apply to special construction.  However, if the special construction includes construction, alteration, or repair (as defined in FAR 22.401) of a public building or public work, the construction labor standards may apply.  Determine applicability under FAR 22.402.
+
+	(b)  Each CSA or other type contract which is subject to construction labor standards under FAR 22.402 must cite that fact.
+
+
+
+
+
+239.7409  Special assembly.
+
+	(a)  Special assembly is the designing, manufacturing, arranging, assembling, or wiring of equipment to provide telecommunications services that cannot be provided with general use equipment.
+
+	(b)  Special assembly rates and charges must be based on estimated costs.  The contracting officer should negotiate special assembly rates and charges before starting service.  When it is not possible to negotiate in advance, use provisional rates and charges subject to adjustment, until final rates and charges are negotiated.  The CSAs authorizing the special assembly must be modified to reflect negotiated final rates and charges.  
+
+239.7410  Cancellation and termination.
+
+	(a)(1)  Cancellation is stopping a requirement after placing of an order but before service starts.
+
+		(2)  Termination is stopping a requirement after placing an order and after service starts.
+
+	(b)  Determine cancellation or termination charges under the provisions of the applicable tariff or agreement/contract.
+
+239.7411  Contract clauses.
+
+	(a)  In addition to other appropriate FAR and DFARS clauses, insert the following clauses in solicitations, contracts, and basic agreements for telecommunications services.  Modify the clauses only if necessary to meet the requirements of a governmental regulatory agency.
+
+		(1)  252.239-7002, Access.
+
+		(2)  252.239-7004, Orders for Facilities and Services.
+
+ 		(3)  252.239-7007, Cancellation or Termination of Orders.
+
+	(b)  Insert the following clauses in solicitations, contracts, and basic agreements for telecommunications services when the acquisition includes or may include special construction.  Modify the clauses only if necessary to meet the requirements of a governmental regulatory agency-
+
+		(1)  252.239-7011, Special Construction and Equipment Charges; and
+
+ 		(2)  252.239-7012, Title to Telecommunication Facilities and Equipment.
+
+	(c)  Insert the basic or alternate of the clause at 252.239-7013, Term of Agreement and Continuation of Services, in basic agreements for telecommunications services.
+
+ 		(1)  Insert the basic clause in basic agreements that do not supersede an existing basic agreement with the contractor.
+
+		(2)  Insert the alternate I clause in basic agreements that supersede an existing basic agreement with the contractor.  Complete paragraph (c)(1) of the clause with the basic agreement number, date, and contacting office that issued the basic agreement being superseded.
+
+	(d)  Insert the clause at 252.239-7016, Telecommunications Security Equipment, Devices, Techniques, and Services, in solicitations and contracts when performance of a contract requires secure telecommunications.
+
+SUBPART 239.76-CLOUD COMPUTING
+
+239.7600  Scope of subpart.
+This subpart prescribes policies and procedures for the acquisition of cloud computing services.
+
+239.7601  Definitions.
+
+As used in this subpart-
+
+	Authorizing official, as described in DoD Instruction 8510.01, Risk Management Framework (RMF) for DoD Information Technology (IT), means the senior Federal official or executive with the authority to formally assume responsibility for operating an information system at an acceptable level of risk to organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, and the Nation.
+
+	Cloud computing means a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.  This includes other commercial terms, such as on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.  It also includes commercial offerings for software-as-a-service, infrastructure-as-a-service, and platform-as-a-service.
+
+	Government data means any information, document, media, or machine readable material regardless of physical form or characteristics, that is created or obtained by the Government in the course of official Government business.
+
+	Government-related data means any information, document, media, or machine readable material regardless of physical form or characteristics that is created or obtained by a contractor through the storage, processing, or communication of Government data.  This does not include a contractor's business records (e.g., financial records, legal records, etc.) or data such as operating procedures, software coding, or algorithms that are not uniquely applied to the Government data.
+
+	Information system means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information.
+
+	Media means physical devices or writing surfaces including, but not limited to, magnetic tapes, optical disks, magnetic disks, large-scale integration memory chips, and printouts onto which information is recorded, stored, or printed within an information system.
+
+239.7602  Policy and responsibilities.
+
+239.7602-1  General.
+
+	(a)  Generally, DoD must acquire cloud computing services using commercial terms and conditions that are consistent with Federal law, and an agency's needs, including those requirements specified in this subpart.  Some examples of commercial terms and conditions are license agreements, End User License Agreements (EULAs), Terms of Service (TOS), or other similar legal instruments or agreements.  Contracting officers must incorporate any applicable service provider terms and conditions into the contract by attachment or other appropriate mechanism.  Contracting officers must carefully review commercial terms and conditions and consult counsel to ensure these are consistent with Federal law, regulation, and the agency's needs.
+
+	(b)(1)  Except as provided in paragraph (b)(2) of this section, the contracting officer must only award a contract to acquire cloud computing services from a cloud service provider (e.g., contractor or subcontractor, regardless of tier) that has been granted provisional authorization by Defense Information Systems Agency, at the level appropriate to the requirement, to provide the relevant cloud computing services in accordance with the Cloud Computing Security Requirements Guide (SRG) (version in effect at the time the solicitation is issued or as authorized by the contracting officer) found at https://public.cyber.mil/dccs/.
+
+ 		(2)  The contracting officer may award a contract to acquire cloud computing services from a cloud service provider that has not been granted provisional authorization when-
+
+			(i)  The requirement for a provisional authorization is waived by the DoD Chief Information Officer; or
+
+			(ii)  The cloud computing service requirement is for a private, on-premises version that will be provided from U.S.  Government facilities.  Under this circumstance, the cloud service provider must obtain a provisional authorization prior to operational use.
+
+	(c)  When contracting for cloud computing services, the contracting officer must ensure the following information is provided by the requiring activity:
+
+		(1)  Government data and Government-related data descriptions.
+
+		(2)  Data ownership, licensing, delivery and disposition instructions specific to the relevant types of Government data and Government-related data (e.g., DD Form 1423, Contract Data Requirements List; work statement task; line item).  Disposition instructions must provide for the transition of data in commercially available, or open and non-proprietary format (and for permanent records, in accordance with disposition guidance issued by National Archives and Record Administration).
+
+		(3)  Appropriate requirements to support applicable inspection, audit, investigation, or other similar authorized activities specific to the relevant types of Government data and Government-related data, or specific to the type of cloud computing services being acquired.
+
+		(4)  Appropriate requirements to support and cooperate with applicable system-wide search and access capabilities for inspections, audits, investigations, and similar authorized activities.
+
+239.7602-2  Required storage of data within the United States or outlying areas.
+
+	(a)  Cloud computing service providers are required to maintain within the 50 states, the District of Columbia, or outlying areas of the United States, all Government data that is not physically located on DoD premises, unless otherwise authorized by the authorizing official, as described in DoD Instruction 8510.01, in accordance with the SRG.
+
+	(b)  The contracting officer must provide written notification to the contractor when the contractor is permitted to maintain Government data at a location outside the 50 States, the District of Columbia, and outlying areas of the United States.  See PGI 239.7602-2 for additional guidance.
+
+239.7603  Procedures.
+Follow the procedures relating to cloud computing at PGI 239.7603.
+
+239.7604  Solicitation provision and contract clause.
+
+	(a)  Insert the provision at 252.239-7009, Representation of Use of Cloud Computing, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, for information technology services.
+
+	(b)  Insert the clause at 252.239-7010, Cloud Computing Services, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, for information technology services.
+
+
+
+
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.239-7002  Access.
+As prescribed in 239.7411(a), use the following clause:
+
+ACCESS (DEC 1991)
+ 
+	(a)  Subject to military security regulations, the Government shall permit the Contractor access at all reasonable times to Contractor furnished facilities.  However, if the Government is unable to permit access, the Government at its own risk and expense shall maintain these facilities and the Contractor shall not be responsible for the service involving any of these facilities during the period of nonaccess, unless the service failure results from the Contractor's fault or negligence.
+
+	(b)  During periods when the Government does not permit Contractor access, the Government will reimburse the Contractor at mutually acceptable rates for the loss of or damage to the equipment due to the fault or negligence of the Government.  Failure to agree shall be a dispute concerning a question of fact within the meaning of the Disputes clause of this contract.
+(End of clause)
+252.239-7004  Orders for Facilities and Services.
+As prescribed in 239.7411(a), use the following clause:
+
+ORDERS FOR FACILITIES AND SERVICES (SEP 2019)
+
+	(a)  Definitions.  As used in this clause-
+
+	Governmental regulatory body means the Federal Communications Commission, any statewide regulatory body, or any body with less than statewide jurisdiction when operating under the state authority.  Regulatory bodies whose decisions are not subject to judicial appeal and regulatory bodies which regulate a company owned by the same entity that creates the regulatory body are not governmental regulatory bodies.
+	(b)  The Contractor shall acknowledge a communication service authorization or other type order for supplies and facilities by-
+		(1)  Commencing performance after receipt of an order; or
+
+		(2)  Written acceptance by a duly authorized representative.
+
+	(c)  The Contractor shall furnish the services and facilities under this agreement/contract in accordance with all applicable tariffs, rates, charges, regulations, requirements, terms, and conditions of-
+
+		(1)  Service and facilities furnished or offered by the Contractor to the general public or the Contractor's subscribers; or
+
+		(2)  Service as lawfully established by a governmental regulatory body.
+	(d) The Government will not prepay for services.
+
+	(e)  For nontariffed services, the Contractor shall charge the Government at the lowest rate and under the most favorable terms and conditions for similar service and facilities offered to any other customer.
+
+	(f)  Recurring charges for services and facilities shall, in each case, start with the satisfactory beginning of service or provision of facilities or equipment and are payable monthly in arrears.
+
+	(g)  Expediting charges are costs necessary to get services earlier than normal.  Examples are overtime pay or special shipment.  When authorized, expediting charges shall be the additional costs incurred by the Contractor and the subcontractor.  The Government shall pay expediting charges only when-
+
+		(1)  They are provided for in the tariff established by a governmental regulatory body; or
+
+		(2)  They are authorized in a communication service authorization or other contractual document.
+
+	(h)  When services normally provided are technically unacceptable and the development, fabrication, or manufacture of special equipment is required, the Government may-
+
+		(1)  Provide the equipment; or
+
+		(2)  Direct the Contractor to acquire the equipment or facilities.  If the Contractor acquires the equipment or facilities, the acquisition shall be competitive, if practicable.
+
+	(i)  If at any time the Government defers or changes its orders for any of the services but does not cancel or terminate them, the amount paid or payable to the Contractor for the services deferred or modified shall be equitably adjusted under applicable tariffs filed by the Contractor with the regulatory commission in effect at the time of deferral or change.  If no tariffs are in effect, the Government and the Contractor shall equitably adjust the rates by mutual agreement.  Failure to agree on any adjustment shall be a dispute concerning a question of fact within the meaning of the Disputes clause of this contract.
+
+(End of clause)
+
+252.239-7007  Cancellation or Termination of Orders.
+As prescribed in 239.7411(a), use the following clause:
+
+CANCELLATION OR TERMINATION OF ORDERS (SEP 2019)
+
+	(a)  Definitions.  As used in this clause-
+
+	Actual nonrecoverable costs means the installed costs of the facilities and equipment, less cost of reusable materials, and less net salvage value.
+
+	Basic cancellation liability means the actual nonrecoverable cost, which the Government shall reimburse the Contractor at the time services are cancelled.
+
+	Basic termination liability means the nonrecoverable cost amortized in equal monthly increments throughout the liability period.
+
+	Installed costs means the actual cost of equipment and materials specifically provided or used, plus the actual cost of installing (including engineering, labor, supervision, transportation, rights-of-way, and any other items which are chargeable to the capital accounts of the Contractor), less any costs the government may have directly reimbursed the Contractor under the Special Construction and Equipment Charges clause of this agreement/contract.
+
+	Net salvage value means the salvage value less the cost of removal.
+
+	(b)  If the Government cancels any of the services ordered under this agreement/contract, before the services are made available to the Government, or terminates any of these services after they are made available to the Government, the Government will reimburse the Contractor for the actual nonrecoverable costs the Contractor has reasonably incurred in providing facilities and equipment for which the Contractor has no foreseeable reuse.  The Government will not reimburse the Contractor for any actual nonrecoverable costs incurred after notice of award, but prior to execution of the order.
+
+	(c)  When feasible, the Contractor shall reuse cancelled or terminated facilities or equipment to minimize the charges to the Government.
+
+	(d)  If at any time the Government requires that telecommunications facilities or equipment be relocated within the Contractor's service area, the Government will have the option of paying the costs of relocating the facilities or equipment in lieu of paying any termination or cancellation charge under this clause.  The basic cancellation liability or basic termination liability applicable to the facilities or equipment in their former location shall continue to apply to the facilities and equipment in their new location.  Monthly recurring charges shall continue to be paid during the period.
+
+	(e)  When there is another requirement or foreseeable reuse in place of cancelled or terminated facilities or equipment, no charge shall apply and the basic cancellation liability or basic termination liability shall be appropriately reduced.  When feasible, the Contractor shall promptly reuse discontinued channels or facilities, including equipment for which the Government is obligated to pay a minimum service charge.
+
+	(f)  The amount of the Government's liability upon cancellation or termination of any of the services ordered under this agreement/contract will be determined under applicable tariffs governing cancellation and termination charges which-
+
+		(1)  Are filed by the Contractor with a governmental regulatory body, as defined in the Orders For Facilities and Services clause of this agreement/contract;
+
+		(2)  Are in effect on the date of termination; and
+
+		(3)  Provide specific cancellation or termination charges for the facilities and equipment involved or show how to determine the charges.
+
+	(g)  The amount of the Government's liability upon cancellation or termination of any of the services ordered under this agreement/contract, which are not subject to a governmental regulatory body, will be determined under a mutually agreed schedule in the communication services authorization (CSA) or other contractual document.
+
+	(h)  If no applicable tariffs are in effect on the date of cancellation or termination or set forth in the applicable CSA or other contractual document, the Government's liability will be determined under the following settlement procedures-
+
+		(1)  The Contractor agrees to provide the Contracting Officer, in such reasonable detail as the Contracting Officer may require, inventory schedules covering all items of property or facilities in the Contractor's possession, the cost of which is included in the Basic Cancellation or Termination Liability for which the Contractor has no foreseeable reuse.
+
+		(2)  The Contractor shall use its best efforts to sell property or facilities when the Contractor has no foreseeable reuse or when the Government has not exercised its option to take title under the Title to Telecommunications Facilities and Equipment clause of this agreement/contract.  The Contractor shall apply any proceeds of the sale to reduce any payments by the Government to the Contractor under a cancellation or termination settlement.
+
+	(3)  The Contractor shall record actual nonrecoverable costs under established accounting procedures prescribed by the cognizant governmental regulatory authority or, if no such procedures have been prescribed, under generally accepted accounting procedures applicable to the provision of telecommunication services for public use.
+ 
+	(4)  The net salvage value shall be deducted from the Contractor's installed cost.  In determining net salvage value, the Contractor shall consider the foreseeable reuse of the facilities and equipment by the Contractor.  The Contractor shall make allowance for the cost of dismantling, removal, reconditioning, and disposal of the facilities and equipment when necessary either for the sale of facilities or their reuse by the Contractor in another location.
+
+	(5)  Upon termination of services, the Government will reimburse the Contractor for the nonrecoverable cost less such costs amortized to the date services are terminated and establish the liability period as mutually agreed to but not to exceed ten years.  In the case of either a cancellation or a termination, the Government's presumed maximum liability will be capped by the unpaid non-recurring charges and the monthly recurring charges set out in the contract/agreement.  The presumed maximum liability for monthly recurring charges shall be capped at monthly recurring charges for the minimum service period and any required notice period.
+
+	(6)  When the basic cancellation liability or basic termination liability established by the CSA or other contractual document is based on estimated costs, the Contractor agrees to settle on the basis of actual cost at the time of cancellation or termination.
+
+	(7)  The Contractor agrees that, if after settlement but within the termination liability period of the services, should the Contractor make reuse of equipment or facilities which were treated as nonreusable or nonsalvable in the settlement, the Contractor shall reimburse the Government for the value of the equipment or facilities.
+
+	(8)  The Contractor agrees to exclude-
+
+		(i)  Any costs which are not included in determining cancellation and termination charges under the Contractor's standard practices or procedures; and
+
+		(ii)  Charges not ordinarily made by the Contractor for similar facilities or equipment, furnished under similar circumstances.
+
+		(i)  The Government may, under such terms and conditions as it may prescribe, make partial payments and payments on account against costs incurred by the Contractor in connection with the cancelled or terminated portion of this agreement/contract.  The Government may make these payments if the Contracting Officer determines that the total of the payments is within the amount the Contractor is entitled.  If the total of the payments is in excess of the amount finally agreed or determined to be due under this clause, the Contractor shall pay the excess to the Government upon demand.
+
+	(j)  Failure to agree shall be a dispute concerning a question of fact within the meaning of the Disputes clause.
+(End of clause)
+
+252.239-7009  Representation of use of cloud computing.
+As prescribed in 239.7604(a), use the following provision:
+
+REPRESENTATION OF USE OF CLOUD COMPUTING (SEP 2015)
+
+	(a)  Definition.  Cloud computing, as used in this provision, means a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.  This includes other commercial terms, such as on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.  It also includes commercial offerings for software-as-a-service, infrastructure-as-a-service, and platform-as-a-service.
+
+	(b)  The Offeror shall indicate by checking the appropriate blank in paragraph (c) of this provision whether the use of cloud computing is anticipated under the resultant contract.
+
+	(c)  Representation.  The Offeror represents that it-
+
+____Does anticipate that cloud computing services will be used in the performance of any contract or subcontract resulting from this solicitation.
+
+____Does not anticipate that cloud computing services will be used in the performance of any contract or subcontract resulting from this solicitation.
+
+(End of provision)
+
+252.239-7010  Cloud Computing Services.
+As prescribed in 239.7604(b), use the following clause:
+
+CLOUD COMPUTING SERVICES (JAN 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+	Authorizing official, as described in DoD Instruction 8510.01, Risk Management Framework (RMF) for DoD Information Technology (IT), means the senior Federal official or executive with the authority to formally assume responsibility for operating an information system at an acceptable level of risk to organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, and the Nation.
+
+	Cloud computing means a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.  This includes other commercial terms, such as on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.  It also includes commercial offerings for software-as-a-service, infrastructure-as-a-service, and platform-as-a-service.
+
+	Compromise means disclosure of information to unauthorized persons, or a violation of the security policy of a system, in which unauthorized intentional or unintentional disclosure, modification, destruction, or loss of an object, or the copying of information to unauthorized media may have occurred.
+
+	Cyber incident means actions taken through the use of computer networks that result in a compromise or an actual or potentially adverse effect on an information system and/or the information residing therein.
+
+	Government data means any information, document, media, or machine readable material regardless of physical form or characteristics, that is created or obtained by the Government in the course of official Government business.
+
+	Government-related data means any information, document, media, or machine readable material regardless of physical form or characteristics that is created or obtained by a contractor through the storage, processing, or communication of Government data.  This does not include contractor's business records e.g.  financial records, legal records etc.  or data such as operating procedures, software coding or algorithms that are not uniquely applied to the Government data.
+
+	Information system means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information.
+
+	Media means physical devices or writing surfaces including, but not limited to, magnetic tapes, optical disks, magnetic disks, large-scale integration memory chips, and printouts onto which information is recorded, stored, or printed within an information system.
+
+	Spillage security incident that results in the transfer of classified or controlled unclassified information onto an information system not accredited (i.e., authorized) for the appropriate security level.
+
+	(b) Cloud computing security requirements.  The requirements of this clause are applicable when using cloud computing to provide information technology services in the performance of the contract.
+
+		(1)  If the Contractor indicated in its offer that it "does not anticipate the use of cloud computing services in the performance of a resultant contract," in response to provision 252.239-7009, Representation of Use of Cloud Computing, and after the award of this contract, the Contractor proposes to use cloud computing services in the performance of the contract, the Contractor shall obtain approval from the Contracting Officer prior to utilizing cloud computing services in performance of the contract.
+
+		(2)  The Contractor shall implement and maintain administrative, technical, and physical safeguards and controls with the security level and services required in accordance with the Cloud Computing Security Requirements Guide (SRG) (version in effect at the time the solicitation is issued or as authorized by the Contracting Officer) found at https://public.cyber.mil/dccs/dccs-documents/ unless notified by the Contracting Officer that this requirement has been waived by the DoD Chief Information Officer.
+
+		(3)  The Contractor shall maintain within the United States or outlying areas all Government data that is not physically located on DoD premises, unless the Contractor receives written notification from the Contracting Officer to use another location, in accordance with DFARS 239.7602-2(a).
+
+	(c)  Limitations on access to, and use and disclosure of Government data and Government-related data.
+
+		(1)  The Contractor shall not access, use, or disclose Government data unless specifically authorized by the terms of this contract or a task order or delivery order issued hereunder.
+
+			(i)  If authorized by the terms of this contract or a task order or delivery order issued hereunder, any access to, or use or disclosure of, Government data shall only be for purposes specified in this contract or task order or delivery order.
+
+			(ii)  The Contractor shall ensure that its employees are subject to all such access, use, and disclosure prohibitions and obligations.
+
+			(iii)  These access, use, and disclosure prohibitions and obligations shall survive the expiration or termination of this contract.
+
+		(2)  The Contractor shall use Government-related data only to manage the operational environment that supports the Government data and for no other purpose unless otherwise permitted with the prior written approval of the Contracting Officer.
+
+	(d)  Cloud computing services cyber incident reporting.  The Contractor shall report all cyber incidents that are related to the cloud computing service provided under this contract.  Reports shall be submitted to DoD via http://dibnet.dod.mil/.
+
+	(e)  Malicious software.  The Contractor or subcontractors that discover and isolate malicious software in connection with a reported cyber incident shall submit the malicious software in accordance with instructions provided by the Contracting Officer.
+
+	(f)  Media preservation and protection.  When a Contractor discovers a cyber incident has occurred, the Contractor shall preserve and protect images of all known affected information systems identified in the cyber incident report (see paragraph (d) of this clause) and all relevant monitoring/packet capture data for at least 90 days from the submission of the cyber incident report to allow DoD to request the media or decline interest.
+
+	(g)  Access to additional information or equipment necessary for forensic analysis.  Upon request by DoD, the Contractor shall provide DoD with access to additional information or equipment that is necessary to conduct a forensic analysis.
+
+	(h)  Cyber incident damage assessment activities.  If DoD elects to conduct a damage assessment, the Contracting Officer will request that the Contractor provide all of the damage assessment information gathered in accordance with paragraph (f) of this clause.
+
+	(i)  Records management and facility access.
+
+		(1)  The Contractor shall provide the Contracting Officer all Government data and Government-related data in the format specified in the contract.
+
+		(2)  The Contractor shall dispose of Government data and Government-related data in accordance with the terms of the contract and provide the confirmation of disposition to the Contracting Officer in accordance with contract closeout procedures.
+
+		(3)  The Contractor shall provide the Government, or its authorized representatives, access to all Government data and Government-related data, access to contractor personnel involved in performance of the contract, and physical access to any Contractor facility with Government data, for the purpose of audits, investigations, inspections, or other similar activities, as authorized by law or regulation.
+
+	(j)  Notification of third party access requests.  The Contractor shall notify the Contracting Officer promptly of any requests from a third party for access to Government data or Government-related data, including any warrants, seizures, or subpoenas it receives, including those from another Federal, State, or local agency.  The Contractor shall cooperate with the Contracting Officer to take all measures to protect Government data and Government-related data from any unauthorized disclosure.
+
+	(k)  Spillage.  Upon notification by the Government of a spillage, or upon the Contractor's discovery of a spillage, the Contractor shall cooperate with the Contracting Officer to address the spillage in compliance with agency procedures.
+
+	(l)  Subcontracts.  The Contractor shall include this clause, including this paragraph (l), in all subcontracts that involve or may involve cloud services, including subcontracts for commercial services.
+
+(End of clause)
+
+252.239-7011  Special construction and equipment charges.
+As prescribed in 239.7411(b), use the following clause:
+
+SPECIAL CONSTRUCTION AND EQUIPMENT CHARGES (DEC 1991)
+
+	(a)  The Government will not directly reimburse the Contractor for the cost of constructing any facilities or providing any equipment, unless the Contracting Officer authorizes direct reimbursement.
+
+	(b)  If the Contractor stops using facilities or equipment which the Government has, in whole or part, directly reimbursed, the Contractor shall allow the Government credit for the value of the facilities or equipment attributable to the Government's contribution.  Determine the value of the facilities and equipment on the basis of their foreseeable reuse by the Contractor at the time their use is discontinued or on the basis of the net salvage value, whichever is greater.  The Contractor shall promptly pay the Government the amount of any credit.
+
+	(c)  The amount of the direct special construction charge shall not exceed-
+
+		(1)  The actual costs to the Contractor; and
+
+		(2)  An amount properly allocable to the services to be provided to the Government.
+
+	(d)  The amount of the direct special construction charge shall not include costs incurred by the Contractor which are covered by-
+
+		(1)  A cancellation or termination liability; or
+
+		(2)  The Contractor's recurring or other nonrecurring charges.
+
+	(e)  The Contractor represents that-
+
+		(1)  Recurring charges for the services, facilities, and equipment do not include in the rate base any costs that have been reimbursed by the Government to the Contractor; and
+
+		(2)  Depreciation charges are based only on the cost of facilities and equipment paid by the Contractor and not reimbursed by the Government.
+
+	(f)  If it becomes necessary for the Contractor to incur costs to replace any facilities or equipment, the Government shall assume those costs or reimburse the Contractor for replacement costs at mutually acceptable rates under the following circumstances-
+
+		(1)  The Government paid direct special construction charges; or
+
+		(2)  The Government reimbursed the Contractor for those facilities or equipment as a part of the recurring charges; and
+
+		(3)  The need for replacement was due to circumstances beyond the control and without the fault of the Contractor.
+
+	(g)  Before incurring any costs under paragraph (f) of this clause, the Government shall have the right to terminate the service under the Cancellation or Termination of Orders clause of this contract.
+
+(End of clause)
+
+252.239-7012  Title to telecommunication facilities and equipment.
+As prescribed in 239.7411(b), use the following clause:
+
+TITLE TO TELECOMMUNICATION FACILITIES AND EQUIPMENT (DEC 1991)
+
+	(a)  Title to all Contractor furnished facilities and equipment used under this agreement/contract shall remain with the Contractor even if the Government paid the costs of constructing the facilities or equipment.  A mutually accepted communications service authorization may provide for exceptions.
+
+	(b)  The Contractor shall operate and maintain all telecommunication facilities and equipment used under this agreement/contract whether the Government or the Contractor has title.
+(End of clause)
+
+252.239-7013  Term of Agreement and Continuation of Services.
+Basic.  As prescribed in 239.7411(c)(1), use the following clause:
+
+TERM OF AGREEMENT AND CONTINUATION OF SERVICES-BASIC (OCT 2019)
+
+	(a)  This basic agreement is not a contract.  The Government incurs liability only upon issuance of a communication service authorization, which is a contract that incorporates the terms and conditions of this basic agreement.
+
+	(b)  This agreement shall continue in force from year to year, unless terminated by either party by 30 days' written notice.  Termination of this basic agreement does not terminate or cancel any communication service authorizations issued under this basic agreement prior to the termination.
+
+	(c)  Communication service authorizations issued under this basic agreement may be modified to incorporate the terms and conditions of a new basic agreement negotiated with the Contractor.
+(End of clause)
+
+Alternate I.  As prescribed in 239.7411(c)(2), use the following clause, which uses a different paragraph (c) than the basic clause and adds a new paragraph (d).
+
+TERM OF AGREEMENT AND CONTINUATION OF SERVICES-ALTERNATE I (OCT 2019)
+
+	(a)  This basic agreement is not a contract.  The Government incurs liability only upon issuance of a communication service authorization, which is a contract that incorporates the terms and conditions of this basic agreement.
+
+	(b)  This agreement shall continue in force from year to year, unless terminated by either party by 30 days' written notice.  Termination of this basic agreement does not terminate or cancel any communication service authorizations issued under this basic agreement prior to the termination.
+
+	(c)  The Contractor's current communication services authorizations have been modified to incorporate the terms and conditions of this basic agreement.
+
+		(1)  All current communication service authorizations issued by ________ that incorporate Basic Agreement Number ________, dated ________, are modified to incorporate this basic agreement.
+
+		(2)  Current communication service authorizations, issued by the activity in paragraph (c)(1) of this clause, that incorporate other agreements with the Contractor may also be modified to incorporate this basic agreement.
+
+	(d)  Communication service authorizations issued under this basic agreement may be modified to incorporate a new basic agreement with the Contractor.
+
+(End of clause)
+
+252.239-7016  Telecommunications security equipment, devices, techniques, and services.
+As prescribed in 239.7411(d), use the following clause:
+
+TELECOMMUNICATIONS SECURITY EQUIPMENT, DEVICES, TECHNIQUES, AND SERVICES (DEC 1991)
+
+	(a)  Definitions.  As used in this clause-
+
+		(1)  Securing means the application of Government-approved telecommunications security equipment, devices, techniques, or services to contractor telecommunications systems.
+
+		(2)  Sensitive information means any information the loss, misuse, or modification of which, or unauthorized access to, could adversely affect the national interest or the conduct of Federal programs, or the privacy to which individuals are entitled under 5 U.S.C.  552a (the Privacy Act), but which has not been specifically authorized under criteria established by an Executive Order or Act of Congress to be kept secret in the interest of national defense or foreign policy.
+
+		(3)  Telecommunications systems means voice, record, and data communications, including management information systems and local data networks that connect to external transmission media, when employed by Government agencies, contractors, and subcontractors to transmit-
+
+			(i)  Classified or sensitive information;
+
+			(ii)  Matters involving intelligence activities, cryptologic activities related to national security, the command and control of military forces, or equipment that is an integral part of a weapon or weapons system; or
+
+			(iii)  Matters critical to the direct fulfillment of military or intelligence missions.
+
+	(b)  This solicitation/contract identifies classified or sensitive information that requires securing during telecommunications and requires the Contractor to secure telecommunications systems.  The Contractor agrees to secure information and systems at the following location: (Identify the location.)
+
+	(c)  To provide the security, the Contractor shall use Government-approved telecommunications equipment, devices, techniques, or services.   A list of the approved equipment, etc.  may be obtained from (identify where list can be obtained).  Equipment, devices, techniques, or services used by the Contractor must be compatible or interoperable with (list and identify the location of any telecommunications security equipment, device, technique, or service currently being used by the technical or requirements organization or other offices with which the Contractor must communicate).
+
+	(d)  Except as may be provided elsewhere in this contract, the Contractor shall furnish all telecommunications security equipment, devices, techniques, or services necessary to perform this contract.  The Contractor must meet ownership eligibility conditions for communications security equipment designated as controlled cryptographic items.
+
+	(e)  The Contractor agrees to include this clause, including this paragraph (e), in all subcontracts which require securing telecommunications.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0024
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 39
+Defense FAR Supplement (DFARS) Part 239
+
+
+Page 2 of 21
+

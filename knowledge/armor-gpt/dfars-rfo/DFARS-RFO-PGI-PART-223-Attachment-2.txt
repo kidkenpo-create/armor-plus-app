@@ -1,0 +1,70 @@
+PGI 223-SUSTAINABLE ACQUISITION, MATERIAL SAFETY, AND POLLUTION PREVENTION
+
+PGI 223.1-SUSTAINABLE PRODUCTS
+
+PGI 223.107  Agency Programs.
+
+	(a)(i) Departments and agencies must centrally collect information submitted in accordance with the clause at FAR 52.223-9 for reporting to the Office of the Deputy Under Secretary of Defense (Installations and Environment).  The information is collected in the Federal Procurement Data System (FPDS).
+
+PGI 223.3-MATERIAL SAFETY
+
+PGI 223.370  Safety precautions for ammunition and explosives.
+
+PGI 223.370-4  Procedures.
+
+	(1)  Preaward phase.
+
+		(i)  Waiver of the mandatory requirements.
+
+			(A)  Before either omitting the clause at DFARS 252.223-7002, Safety Precautions for Ammunition and Explosives, from solicitations and contracts or waiving the mandatory requirements of the manual, obtain approval of-
+
+				(1)  The safety personnel responsible for ammunition and explosives safety; and
+
+				(2)  The head of the contracting activity.
+
+			(B)  If the contracting officer decides to waive the mandatory requirements before award, then state in the solicitation, or in an amendment of the solicitation, the specific requirements to be waived.
+
+			(C)  If the head of the contracting activity declines to approve a request for waiver, but the prospective contractor agrees to take corrective action to bring the operation into compliance, make the corrective action a part of the resulting contract.
+
+		(ii)  Transportation considerations.  If shipment of ammunition and explosives is involved in the contract, address in the Schedule of the contract the applicable Department of Transportation or Military Surface Deployment and Distribution Command requirements and any other requirements for transportation, packaging, marking, and labeling.
+
+		(iii)  Disposition of excess.  Include instructions within the contract concerning final disposition of excess Government furnished material containing ammunition and explosives, including defective or rejected supplies.
+
+		(iv)  Preaward safety survey.  Before awarding any contract, including purchase orders, involving ammunition and explosives, obtain a preaward ammunition and explosives safety survey.  If the prospective contractor proposes subcontracting any ammunitions or explosive work, include a review of the subcontractor's facility in the preaward safety survey.
+
+	(2)  Postaward phase.
+
+		(i)  Contract administration office responsibility.
+
+			(A)  The contract administration office is responsible for verifying that the safety requirements of the clause at DFARS 252.223-7002, Safety Precautions for Ammunition and Explosives, are being implemented in a manner that will reduce, to the maximum extent practicable, or eliminate the probability of a mishap occurring.
+
+			(B)  The clause at DFARS 252.223-7002, Safety Precautions for Ammunition and Explosives, requires compliance with DoD Manual 4145.26, Contractors' Safety Manual for Ammunition and Explosives.  This manual requires the contractor to submit to the administrative contracting officer (ACO) any postaward requests for a waiver of the contract safety standards, a site plan modification, or a construction review.  The ACO shall review any request and make recommendations to the contracting officer, who must decide after considering recommendations of the ACO and safety personnel responsible for ammunition and explosive safety.
+
+				(1)  If the request arrives at the contracting office without evidence that the ACO has seen it, immediately send it to the ACO for review and recommendations.
+
+				(2)  Upon making a determination approving or disapproving the contractor's request, send the determination to the ACO for transmission to the contractor.
+
+		(ii)  Subcontracts.
+
+			(A)  The clause at DFARS 252.223-7002, Safety Precautions for Ammunition and Explosives, requires the contractor to notify the contracting officer when placing a subcontract for ammunition and explosives.  The contracting officer should coordinate with the safety personnel and request supporting contract administration in accordance with FAR 42.202(e).  If the contracting officer believes the nature of the subcontract work poses a potential danger to Government property, Government personnel, production capability, or contract completion, request supporting contract administration.
+
+			(B)  If the preaward safety survey identified areas in which a subcontractor was not complying with the manual, and the subcontractor was supposed to correct the deficiencies before start-up, require a preoperations survey to verify that the subcontractor made the corrections.
+
+			(C)  When postaward safety reviews by the Government uncover any safety deficiencies in the subcontractor's operation, the review team must inform the ACO cognizant of the subcontractor, who must immediately notify the ACO cognizant of the prime contractor.  The ACO cognizant of the prime shall inform the prime contractor of deficiencies requiring correction.  The notifications shall be made by the most expeditious means appropriate to the circumstance.  If a critical safety deficiency poses an imminent danger, the ACO cognizant of the prime must make the notifications by the most expeditious means available.
+
+PGI 223.4-RESERVED
+
+PGI 223.73-MINIMIZING THE USE OF MATERIALS CONTAINING HEXAVALENT CHROMIUM
+
+PGI 223.7305 Authorization and approval.
+Ensure that the appropriate authorizations from the program executive office are included in the solicitation and contract.  Forward proposals submitted by an offeror or requests from a Contractor seeking authorization to use hexavalent chromium in a deliverable item, to the cognizant program executive office for evaluation and, if necessary, authorization by the appropriate official.
+
+Attachment A2
+DARS Tracking Number: 2026-O0018
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 23
+Defense FAR Supplement (DFARS) Part 223
+
+
+Page 1 of 1
+	
+

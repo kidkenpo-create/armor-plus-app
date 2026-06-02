@@ -1,0 +1,304 @@
+PGI 249-TERMINATION OF CONTRACTS
+
+PGI 249.1-GENERAL PRINCIPLES
+
+PGI 249.105  Duties of termination contracting officer after issuance of notice of termination.
+
+PGI 249.105-1  Release of excess funds.
+
+The DD Form 1598, Contract Termination Status Report, may be used to recommend the release of excess funds.  Include the accounting classification reference numbers, funds citations, and allocated amounts in any recommendation for release of excess funds.
+
+PGI 249.105-70  Termination status reports.
+
+When the contract administration office receives a termination notice, it will-
+
+	(1)  Prepare a DD Form 1598, Contract Termination Status Report;
+
+	(2)  Within 30 days, send one copy to the purchasing office and one copy to the headquarters office to which the contract administration office is directly responsible;
+
+	(3)  Continue reporting semiannually to cover the six-month periods ending March and September.  Submit the semiannual reports  within 30 days after the end of the reporting period; and
+
+	(4)  Submit a final report within 30 days after closing the termination case.
+
+PGI 249.109  Settlement agreements.
+
+PGI 249.109-7  Settlement by determination.
+
+	(1)  Use a Standard Form 30 (SF 30), Amendment of Solicitation/Modification of Contract, to settle a convenience termination by determination-
+
+		(i)  When the contractor has lost its right of appeal because it failed to submit a timely settlement proposal; and
+
+		(ii)  To confirm the determination when the contractor does not appeal the termination contracting officer's decision.
+
+	(2)  The effective date of the SF 30 must be the same as the date of the letter of determination.  Do not assign a supplementary procurement instrument identification number to the letter of determination.  Send a copy of the SF 30 to the contractor by certified mail return receipt requested.
+
+PGI 249.109-70  Limitation on pricing of the terminated effort.  
+When there is a termination for convenience (partial or whole) or a change that reduces scope, the price of the terminated or reduced effort that the contractor is required to credit back to the Government must not be more than the original amount placed on contract for that effort.
+
+PGI 249.110  Settlement negotiation memorandum.
+
+	(1)  Fixed-price contracts.  Use the format in Table 49-1, Settlement Memorandum Fixed-Price Contracts, for the termination contracting officer's settlement memorandum for fixed-price contracts terminated for the convenience of the Government.  Encourage contractors and subcontractors to use this format, appropriately modified, for subcontract settlements submitted for review and approval.
+
+	(2)  Cost-reimbursement contracts.  Use Part I of the format in Table 49-1 and Part II of the format in Table 49-2, Settlement Memorandum for Cost-Reimbursement Contracts, for the termination contracting officer's settlement memorandum for cost-reimbursement contracts:
+
+TABLE 49-1, SETTLEMENT MEMORANDUM FIXED-PRICE CONTRACTSPART I--GENERAL INFORMATION
+1.  Identification.  (Identify memorandum as to its purpose and content.)
+
+	a.  Name and address of the contractor.  Comment on any pertinent affiliation between prime and subcontractors relative to the overall settlement.
+
+	b.  Names and titles of both contractor and Government personnel who participated in the negotiation.
+
+2.  Description of terminated contract.
+
+	a.  Date of contract and contract number.
+
+	b.  Type of contract (e.g., fixed-price, fixed-price incentive).
+
+	c.  General description of contract items.
+
+	d.  Total contract price.
+
+	e.  Furnish reference to the contract termination clauses (cite FAR/DFARS designation or other special provisions).
+
+3.  Termination notice.
+
+	a.  Reference termination notice and state effective date of termination.
+
+	b.  Scope and nature of termination (complete or partial), items terminated, and unit price and total price of items terminated.
+
+	c.  State whether termination notice was amended, and explain any amendment.
+
+	d.  State whether contractor stopped work on effective termination date.  If not, furnish details.
+
+	e.  State whether the contractor promptly terminated subcontracts.
+
+	f.  Statement as to the diversion of common items and return of goods to suppliers, if any.
+
+	g.  Furnish information as to contract performance and timeliness of deliveries by the contractor.
+
+4.  Contractor's settlement proposal.
+
+	a.  Date and amount.  Indicate date and location where claim was filed.  State gross amount of claim.  (If interim settlement proposals were filed, furnished information for each claim.)
+
+	b.  Basis of claim.  State whether claim was filed on inventory, total cost, or other basis.  Explain rationale for approval when claim is filed on other than inventory basis.
+
+	c.  Examination of proposal.  State type of reviews made and by whom (audit, engineering, legal, or other).
+
+
+PART II--SUMMARY OF CONTRACTOR'S CLAIM AND NEGOTIATED SETTLEMENT
+
+Prepare a summary substantially as follows:
+
+
+Item 
+Claimed
+Contractor's Proposal
+Dollars Accepted
+Costs Questioned
+Unresolved ItemsTCO Negotiated Amount
+1.  Contractor's costs as set forth on settlement proposal.  Metals, raw materials, etc.
+
+	Total
+
+2.  Profit
+
+3.  Settlement expenses
+
+4.  Total
+
+5.  Settlement with subs
+
+6.  Acceptable finished product
+
+7.  Gross Total
+
+8.  Disposal and other credits
+
+9.  Net settlement
+
+10.  Partial progress & advance payments
+
+11.  Net payments requested
+PART III--DISCUSSION OF SETTLEMENT
+
+1.  Contractor's cost.
+
+	a.  If the settlement was negotiated on the basis of individual items, specify the factors and consideration for each item.
+
+	b.  In the case of a lump-sum settlement, comment on the general basis for and major factors concerning each element of cost and profit included.
+
+	c.  Comment on any important adjustments made to costs claimed or any significant amounts in relation to the total claim.
+
+	d.  If a partial termination is involved, state whether the contractor has requested an equitable adjustment in the price of the continued portion of the contract.
+
+	e.  Comment on any unadjusted contractual changes that are included in the settlement.
+
+	f.  Comment on whether or not a loss would have been incurred and explain adjustment for loss, if any.
+
+	g.  Furnish other information believed helpful to any reviewing authority in understanding the recommended settlement.
+
+2.  Profit.  Explain the basis and factors considered in arriving at a fair profit.
+
+3.  Settlement expenses.  Comment on and summarize those expenses not included in the audit review.
+
+4.  Subcontractor's settlements.  Include the number of no-cost settlements, settlements concluded by the contractor under delegation of authority and those approved by the termination contracting officer, as well as the net amount of each.
+
+5.  Partial payments.  Furnish the total amount of partial payments, if any.
+
+6.  Progress or advance payments.  Furnish the total of unliquidated amounts, if any.
+
+7.  Claims of the Government against the contractor included in settlement agreement reservations.  List all outstanding claims, if any, that the Government has against the contractor in connection with the terminated contract or terminated portion of the contract.
+
+8.  Assignments.  List any assignments, giving name and address of assignee.
+
+9.  Disposal credits.  Furnish information as to applicable disposal credits and give dollar amounts of all disposal credits.
+
+10.  Plant clearance.  State whether plant clearance action has been completed and all inventory sold, retained, or otherwise properly disposed of in accordance with applicable plant clearance regulations.  Comment on any unusual matters pertaining to plant clearances.  Attach consolidated closing plant clearance report.
+
+11.  Government property.  State whether all Government property has been accounted for.
+
+12.  Special tooling.  If involved, furnish comment on disposition.
+
+13.  Summary of settlement.  Summarize the settlement in tabular form substantially as follows:
+
+
+TABULAR SUMMARY FOR COMPLETE OR PARTIAL TERMINATIONAmountAmountClaimedAllowed	Prime contractors charges (before disposal credits)	Plus:  Subcontractor charges (after disposal credits)	Gross settlement:Less:  disposal credits--Prime	Net settlement--Less:Prior payment credits (this settlement)Previous partial settlementsOther credits or deductions	Net payment:Total contract price (complete termination)Contract Price of Items Terminated (for partial termination)--Less:Total payments to dateNet payment from this settlementFund reserved for reservations	Reduction in contract price
+14.  Exclusions.  Describe any proposed reservation of rights to the Government or to the contractor.
+
+15.  Include a statement that the settlement is fair and reasonable for the Government and the contractor.  The contracting officer must sign and date the memorandum.
+
+(End of memorandum)
+
+TABLE 49-2, SETTLEMENT MEMORANDUM FOR COST-REIMBURSEMENT CONTRACTS
+PART II--SUMMARY OF SETTLEMENT
+
+1.  Summary.  Summarize the proposed settlement in tabular form substantially as shown in Tables 49-3 and 49-4.  Partial settlements may be summarized on Table 49-4.
+
+2.  Comments.  Explain tabular summaries.
+
+	a.  Summary of final settlement (see Table 49-3).
+
+		(1)  Explain why the auditor's final report was not available for consideration, if applicable.
+
+		(2)  Explain how the fixed-fee was adjusted.  Identify basis used, such as percentage of completion.  Include a description of factors considered and how they were considered.  Include any tabular summaries and breakdowns deemed helpful to an understanding of the process.  Factors that may be given consideration are outlined in FAR 49.305.
+
+		(3)  Briefly identify matters included in liability for property and other charges against the contractor arising from the contract.
+
+		(4)  Identify reservations included in the settlement that are other than standard reservations required by regulations and that are concerned with pending claims and refunds.
+
+		(5)  Explain substantial or otherwise important adjustments made in cost figures submitted by the contractor in arriving at the proposed settlement.
+
+		(6)  If unreimbursed costs were settled on a lump sum basis, explain the general basis for and the major factors considered in arriving at this settlement.
+
+		(7)  Comment on any unusual items of cost included in the claim and on any phase of cost allocation requiring particular attention and not covered above.
+
+		(8)  If the auditor's recommendations for nonacceptance were not followed, explain briefly the main reasons why such recommendations were not followed.
+
+		(9)  On items recommended for further consideration by the auditor, explain, in general, the basis for the action taken.
+
+		(10)  If any cost previously disallowed by a contracting officer is included in the proposed settlement, identify and explain the reason for inclusion of such costs.
+
+		(11)  Show number and amounts of settlements with subcontractors.
+
+		(12)  Use the following summary where settlement includes costs and fixed-fee in a complete termination:
+
+Gross settlement$_______	Less:  Disposal credits_______Net settlement_______	Less:  Prior payments________	Other credits or deductions________Total_______Net payment$_______Total contract estimated cost plus fixed fee_______	Less:  Net settlement________	Estimated reserve for exclusions________	Final contract price	(Consisting of $_______ for reimbursement of
+	costs and $_______ for adjusted fixed fee)
+________
+_______Reduction in contract price (credit)_______
+			(13)  Plant clearance.  Indicate dollar value of termination inventory and state whether plant clearance has been completed.  Attach consolidated plant clearance report (SF 1424, Inventory Disposal Report).
+
+			(14)  Government property.  State whether all Government property has been accounted for. 
+
+			(15)  Include a statement that the settlement is fair and reasonable to the Government and the contractor.  The contracting officer must sign and date the memorandum. 
+(End of memorandum)
+
+TABLE 49-3, SUMMARY OF SETTLEMENTAMOUNT CLAIMEDAMOUNT ALLOWED1.  Previous reimbursed costs--Prime and Subs$$2.  Previous unreimbursed costs_____________________3.  Total cost settlement$$4.  Previous fees paid--Prime$$5.  Previous fees unpaid--Prime_____________________6.  Total fee settlement$$7.  Gross settlement_____________________$__________$______________________________	Less:  Deductions not reflected in Items 1-7a.  Disposal credits$_______b.  Other charges against contractor	arising from contract$_______8.  Net settlement$Less:  Prior payment credits__________9.  Net payment$10.	Recapitulation of previous settlements (insert 
+	number of previous partial settlements effected on 
+	account of this particular termination):Aggregate gross amount of previous settlements$_________Aggregate net amount of previous partial settlements$_________Aggregate net payment provided in previous partial settlements$_________Aggregate amount allowed for prime contractor acquired propertytaken over by the Government in connection with previouspartial settlements$_________
+
+TABLE 49-4, UNREIMBURSED COSTS SUBMITTED ON SF 1437*Amounts Claimed byAuditor's RecommendationCostsContractor's CostUnresolvedTCO'sProposalQuestionedItemsComputation1.  Direct material2.  Direct labor3.  Indirect factory expense4.  Dies, jigs, fixtures and 
+     special tools5.  Other costs6.  General and administrative
+     expenses7.  Fee8.  Settlement expense9.  Settlement with subs10.  Total costs (Items 1-9)*Expand the format to include recommendations of technical personnel as required.
+
+PGI 249.70- SPECIAL TERMINATION REQUIREMENTS 
+
+PGI 249.7000  Terminated contracts with Canadian Commercial Corporation.
+
+(e) Other responsibilities. Understand the responsibilities of the Canadian Commercial Corporation associated with terminating contracts, including-
+
+	(1)  Settling all Canadian subcontractor termination claims under the Canadian Agreement; 
+
+	(2)  Submitting schedules listing serviceable and usable contractor inventory for screening to the TCO (see FAR 45.6);
+
+	(3)  Sending all termination settlement proposals submitted by U.S. subcontractors and suppliers to the TCO of the cognizant contract administration office of the Defense Contract Management Agency for settlement;
+
+	(4) Including the amount of the net settlement of U.S. subcontractors and suppliers in the termination proposal;
+
+	(5) Executing the settlement agreement with these subcontractors;
+
+	(6) Administering contracts that the U.S. contracting officer terminates; and
+
+	(7)  Settling all Canadian subcontracts in accordance with the policies, practices, and procedures of the Canadian Government.
+
+PGI 249.7001  Congressional notification on significant contract terminations.
+
+	(1)  Department and agency liaison offices will coordinate timing of the congressional notification and public release of the information with release of the termination notice to the contractor.  Department and agency liaison offices are-
+
+		(i)  Army - Chief, Legislative Liaison (SALL-SPA).
+
+		(ii)  Navy - Chief of Legislative Affairs (OLA-N).
+
+		(iii)  Air Force - SAF/AQC.
+
+		(iv)  Defense Advanced Research Projects Agency - CMO.
+
+		(v)  Defense Information Systems Agency - Contract Management Division (Code 260).
+
+		(vi)  Defense Intelligence Agency - RSQ.
+
+		(vii)  Defense Logistics Agency - DLSC-P.
+
+		(viii)  National Geospatial-Intelligence Agency - NGA (A).
+
+		(ix)  Defense Threat Reduction Agency - Acquisition Management Office (AM).
+
+		(x)  National Security Agency/Central Security Service - Chief, Office of Contracting.
+
+		(xi)  Missile Defense Agency - Director of Contracts (MDA-DCT).
+
+	(2)  Request clearance to release information in accordance with departmental procedures as soon as possible after the decision to terminate is made.  Until clearance has been obtained, treat this information as "Controlled Unclassified Information" unless the information is classified.
+
+	(3)  Include in the request for clearance-
+
+		(i)  Contract number, date, and type of contract;
+
+		(ii)  Name of the company;
+
+		(iii)  Nature of contract or end item;
+
+		(iv)  The reason for the termination;
+
+		(v)  Contract price of the items terminated;
+
+		(vi)  Total number of contractor employees involved, including the Government's estimate of the number who may be discharged;
+
+		(vii)  Statement of anticipated impact on the company and the community;
+
+		(viii)  The area labor category, whether the contractor is a large or small business, and any known impact on hard core disadvantaged employment programs;
+
+		(ix)  Total number of subcontractors involved and the impact in this area; and
+
+		(x)  An unclassified draft of a suggested press release.
+
+	(4)  To minimize termination costs, liaison offices will act promptly on all requests for clearance and will provide a response not later than two working days after receipt of the request.
+
+Attachment A2
+DARS Tracking Number: 2026-O0010
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 49
+Defense FAR Supplement (DFARS) Part 249
+
+
+
+Page 7 of 9
+

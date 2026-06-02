@@ -1,0 +1,218 @@
+PART 201-FEDERAL ACQUISITION REGULATIONS SYSTEM
+
+SUBPART 201.1-FRAMEWORK
+
+
+201.101  Framework.
+
+	(a)(2)  DoD implementation and supplementation of the FAR is issued in the Defense Federal Acquisition Regulation Supplement (DFARS) under the authority and control of the Secretary of Defense.  The DFARS is codified in chapter 2 of Title 48, Code of Federal Regulations (CFR).  The DFARS contains-
+
+			(A)  Requirements of law;
+
+			(B)  DoD-wide policies;
+
+			(C)  Delegations of FAR authorities; 
+
+			(D)  Deviations from FAR requirements; and
+
+			(E)  Policies and procedures that have a significant effect beyond the internal operating procedures of DoD or a significant cost or administrative impact on contractors or offerors.
+
+	(b)  Relevant procedures, guidance, and information that do not meet the criteria in paragraph (a)(2) of this section are issued in the DFARS Procedures, Guidance, and Information (PGI).
+
+201.101-70  Maintenance of the FAR, DFARS, and PGI.
+See PGI 201.101-70 for policies and procedures for maintaining the FAR, DFARS, and PGI.
+
+201.103  Authority.
+
+	(1)  The defense acquisition system, as defined in 10 U.S.C. 3001(a), exists to manage the investments of the United States in technologies, programs, and product support necessary to achieve the national security strategy prescribed by the President pursuant to section 108 of the National Security Act of 1947 (50 U.S.C. 3043) and to support the United States Armed Forces.
+
+	(2)  The investment strategy of DoD shall be postured to support not only the current United States Armed Forces, but also future Armed Forces of the United States. 
+
+	(3)  The primary objective of DoD acquisition is to acquire quality supplies and services that satisfy user needs with measurable improvements to mission capability and operational support at a fair and reasonable price.
+
+201.103-70  Applicability.
+The FAR and the Defense Federal Acquisition Regulation Supplement (DFARS) also apply to purchases and contracts by DoD contracting activities made in support of foreign military sales or North Atlantic Treaty Organization cooperative projects without regard to the nature or sources of funds obligated, unless otherwise specified in this regulation.
+
+201.104-70  Publication and code arrangement.
+
+	(a)  The CFR provides the official version of the DFARS at https://www.ecfr.gov.
+
+	(b)  The DFARS and the [official version of the DFARS PGI are available in one location at https://www.acq.osd.mil/dpap/dars/dfarspgi/current/index.html.
+
+	(c)  The Principal Director, DPCAP publishes changes to the DFARS in the Federal Register at https://www.federalregister.gov and on the DPCAP website at https://www.acq.osd.mil/dpap/dars/change_notices.html.  Each change includes an effective date.  See FAR 1.107(d) for direction on inclusion of ]any new or revised clauses, provisions, or forms in solicitations. 
+
+201.105  OMB approval under the Paperwork Reduction Act.
+See PGI 201.105 for a list of the DFARS information collection and recordkeeping requirements that have been approved by the Office of Management and Budget.
+
+201.106  Certifications.
+
+In accordance with 41 U.S.C. 1304, the DFARS and DoD component supplements must not include a new requirement for a certification by a contractor or offeror unless?
+
+	(1)  The certification requirement is specifically imposed by statute; or
+
+	(2)  Written justification for such certification is provided to the Secretary of Defense by the Under Secretary of Defense (Acquisition and Sustainment), and the Secretary of Defense approves in writing the inclusion of such certification requirement.
+
+201.107  FAR conventions.
+
+The following conventions apply to the DFARS:
+
+	(1)  If a provision or clause applies to commercial products or commercial services, the prescription will state the applicability.  If the prescription is silent regarding commercial products and commercial services, then the provision or clause does not apply to those products and services.
+
+	(2)  Unless the prescription states otherwise, a provision or clause that applies to commercial products also applies to commercially available off-the-shelf items.]
+
+201.108  Statutory acquisition-related dollar thresholds-adjustment for inflation.
+
+	(a)(i)  Except as provided at paragraph (b)(2) of the statute, 41 U.S.C. 1908 requires the adjustment for inflation of all statutory acquisition-related dollar thresholds in the DFARS be applied to contracts and subcontracts without regard to the date of award of the contract or subcontract.
+
+		(ii)  Section 814(b) of the National Defense Authorization Act for Fiscal Year 2012 (Pub. L. 112-81) requires that the threshold established in 10 U.S.C. 2253(a)(2) for the acquisition of right-hand drive passenger sedans be adjusted for inflation in accordance with the requirements of 41 U.S.C. 1908,  as appropriate.
+
+	(d)  A matrix showing the most recent escalation adjustments of statutory acquisition-related dollar thresholds is available at PGI 201.108.
+
+201.170  Peer reviews.
+All peer reviews must be conducted in accordance with the procedures at PGI 201.170.
+
+
+SUBPART 201.2-AGENCY ACQUISITION REGULATIONS
+
+201.201  Policy.
+
+	(a)(1)(A)  See PGI 201.201 for information on the numbering of the DFARS and department, agency, or component supplements.
+
+			(B)  Departments and agencies and their component organizations may issue acquisition regulations as necessary to implement or supplement the FAR or DFARS.  Approval of the Under Secretary of Defense for Acquisition and Sustainment (USD(A&S)) is required before including in a department, agency, or component supplement, or any other contracting regulation document such as a policy letter or clause book, any policy, procedure, clause, or form that has-
+
+			(1)  A significant effect beyond the internal operating procedures of the agency; or
+
+			(2)  A significant cost or administrative impact on contractors or offerors.
+
+			(C)  The USD(A&S) has delegated authority to the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (DPCAP) to approve or disapprove the policies, procedures, clauses, and forms subject to paragraph (a)(1)(B) of this section.
+
+201.270  Agency control and compliance procedures.
+See PGI 201.270 for the requirement to control the use of local provisions and clauses.
+
+
+SUBPART 201.3-DEVIATIONS FROM THE FAR
+
+201.302  Policy.
+
+	(1)  The Principal Director, Defense Pricing, Contracting, and Acquisition Policy, Office of the Under Secretary of Defense (Acquisition and Sustainment) (OUSD(A&S)DPCAP), is the approval authority within DoD for any individual or class deviation from-
+
+			(i)  FAR 3.104, Procurement Integrity, or DFARS 203.104, Procurement Integrity;
+
+			(ii)  FAR subpart 27.4, Rights in Data and Copyrights, or DFARS subpart 227.4, Rights in Data and Copyrights;
+
+			(iii)  FAR part 30, Cost Accounting Standards Administration, or DFARS part 230, Cost Accounting Standards Administration;
+
+			(iv)  FAR subpart 31.1, Applicability, or DFARS subpart 231.1, Applicability (contract cost principles);
+
+			(v)  FAR subpart 31.2, Contracts with Commercial Organizations, or DFARS subpart 231.2, Contracts with Commercial Organizations; or
+
+			(vi)  FAR part 32, Contract Financing (except subparts 32.7 and 32.8 and the payment clauses prescribed by subpart 32.1), or DFARS part 232, Contract Financing (except subparts 232.7 and 232.8).
+
+	(2)  Submit requests for deviation approval through department or agency channels to the approval authority in paragraph (1) of this section as appropriate.  Submit deviations that require OUSD(A&S)DPCAP approval through the Director of the DAR Council via email at osd.pentagon.ousd-a-s.mbx.dfars@mail.mil.  At a minimum, each request must-
+
+		(i)  Identify the department, agency, or component if applicable, requesting the deviation;
+
+		(ii)  Identify the FAR or DFARS citation from which a deviation is needed, state what that citation requires, and indicate whether the request is for an individual or class deviation;
+
+		(iii)  Describe the deviation and indicate which of paragraphs (a) through (f) of FAR 1.301 best categorizes the deviation;
+
+		(iv)  State whether the deviation will have a significant effect beyond the internal operating procedures of the agency and/or a significant cost or administrative impact on contractors or offerors, and give reasons to support the statement;
+
+		(v)  State the period of time for which the deviation is required;
+
+		(vi)  State whether approval for the same deviation has been received previously, and if so, when;
+
+		(vii)  State whether the proposed deviation was published in the Federal Register and provide analysis of comments;
+
+		(viii)  State whether legal counsel has reviewed the request for deviation, and if so, state results; and
+
+		(ix)  Give detailed rationale for the request.  State what problem or situation will be avoided, corrected, or improved if request is approved.
+
+201.303  Individual deviations.
+Individual deviations, except those described in 201.302(1) and 201.305, must be approved in accordance with  201.304.
+
+201.304  Class deviations.
+
+	(b)(i)  Except as provided in paragraph (b)(ii) of this section, OUSD(A&S)DPCAP is the approval authority within DoD for any class deviation.
+
+		(ii)  The senior procurement executives for the Army, Navy, and Air Force, and the Directors of the Defense Commissary Agency, the Defense Contract Management Agency, and the Defense Logistics Agency, may approve any class deviation, other than those described in 201.302(1), that does not-
+
+			(A)  Have a significant effect beyond the internal operating procedures of the department or agency;
+
+			(B)  Have a significant cost or administrative impact on contractors or offerors;
+
+			(C)  Diminish any preference given small business concerns by the FAR or DFARS; or
+
+			(D)  Extend to requirements imposed by statute or by regulations of other agencies such as the Small Business Administration and the Department of Labor.
+
+201.305  Deviations pertaining to treaties and executive agreements.
+
+Contracting officers outside the United States may deviate from prescribed nonstatutory FAR and DFARS clauses when-
+
+		(1)  Contracting for support services, supplies, or construction, with the governments of North Atlantic Treaty Organization (NATO) countries or other allies (as described in 10 U.S.C. 2341(2)), or with United Nations or NATO organizations; and
+
+		(2)  Such governments or organizations will not agree to the standard clauses.
+
+
+SUBPART 201.4-CAREER DEVELOPMENT, CONTRACTING AUTHORITY, AND RESPONSIBILITIES
+
+201.403  Selecting, appointing, and terminating the appointment for contracting officers.
+
+201.403-1  General.
+
+	(1)  In accordance with 10 U.S.C. 1724, in order to qualify to serve as a contracting officer with authority to award or administer contracts for amounts above the simplified acquisition threshold, a person must-
+
+		(i)  Have completed all contracting courses required for a contracting officer to serve in the grade in which the employee or member of the armed forces will serve;
+
+		(ii)  Have at least 2 years experience in a contracting position; 
+
+		(iii)  Have received a baccalaureate degree from an accredited educational institution; and
+
+		(iv)  Meet such additional requirements, based on the dollar value and complexity of the contracts awarded or administered in the position, as may be established by the Secretary of Defense.
+
+	(2)  The qualification requirements in paragraph (1)(iii) of this section do not apply to a DoD employee or member of the armed forces who-
+
+		(i)  On or before September 30, 2000, occupied-
+
+			(A)  A contracting officer position with authority to award or administer contracts above the simplified acquisition threshold; or
+
+			(B)  A position either as an employee in the 1102 occupational series or a member of the armed forces in an occupational specialty similar to the 1102 series;
+
+		(ii)  Is in a contingency contracting force; or
+
+		(iii)  Is an individual appointed to a 3-year developmental position.  Information on developmental opportunities is contained in DoD Instruction 5000.66, Defense Acquisition Workforce Education, Training, Experience, and Career Development Program.
+
+	(3)  See DoD Instruction 5000.66 for information on waivers to the requirements in paragraph (1) of this section.
+
+201.403-2  Appointment.
+
+	(a)  Certificates of Appointment executed under the Defense Acquisition Regulation have the same effect as if they had been issued under FAR.
+
+	(b)  Agency heads may delegate the purchase authority in 213.301 to DoD civilian employees and members of the U.S. Armed Forces.
+
+201.404  Contracting officer's representative.
+
+	(c)  Follow the procedures at PGI 201.404 regarding designation, assignment, qualifications, and responsibilities of a contracting officer's representative (COR).
+
+		(1)  A COR must be an employee, military or civilian, of the U.S. Government, a foreign government, or a North Atlantic Treaty Organization or coalition partner.  Contractor personnel must never serve as CORs.
+
+201.404-70  Contract clause.
+Use the clause at 252.201-7000, Contracting Officer's Representative, in solicitations and contracts when appointment of a contracting officer's representative is anticipated.
+
+201.470  Appointment of property administrators and plant clearance officers.  
+
+	(a)  The appropriate agency authority must appoint or terminate (in writing) property administrators and plant clearance officers.
+
+	(b)  In appointing qualified property administrators and plant clearance officers, the appointing authority must consider experience, training, education, business acumen, judgment, character, and ethics.
+
+
+Attachment A1
+DARS Tracking Number: 2026-O0002
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 1
+Defense FAR Supplement (DFARS) Part 201
+
+
+
+Page 2 of 2
+
+

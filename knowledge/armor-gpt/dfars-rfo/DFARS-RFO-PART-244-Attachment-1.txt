@@ -1,0 +1,316 @@
+PART 244-SUBCONTRACTING POLICIES AND PROCEDURES
+
+244.001  Definitions.
+As used in this subpart-
+
+	"Acceptable purchasing system" means a purchasing system that complies with the system criteria in paragraph (c) of the clause at 252.244-7998.
+
+	"Purchasing system" means the contractor's system or systems for purchasing and subcontracting, including make-or-buy decisions, the selection of vendors, analysis of quoted prices, negotiation of prices with vendors, placing and administering of orders, and expediting delivery of materials.
+
+SUBPART 244.2-EVALUATION AND AWARD
+
+244.201  Consent  to subcontracts and requirements for advance notice.
+
+244.201-1  Consent requirements.
+
+	(a)  In accordance with section 824 of Pub. L. 115-232, notwithstanding the requirements in FAR 44.201-1(a), the contracting officer will not withhold consent to subcontract without the written approval of the program manager, or comparable requiring activity official exercising program management responsibilities, if the contractor has an approved purchasing system.
+
+	(i)  See PGI 244.201-1(i) for considerations when contracting for information technology, whether as a service or as a supply, that is a covered system or covered item of supply as defined at 239.7301.
+
+244.201-3  Contracting officer's responsibilities.
+	See PGI 244.201-3 for considerations when reviewing a contractor's request to subcontract.
+
+SUBPART 244.3-POSTAWARD
+
+244.301  Contractor's purchasing systems reviews.
+
+244.301-1  Objective.
+The administrative contracting officer (ACO) is responsible for initiating reviews of the contractor's purchasing systems, but other organizations may request that the ACO initiate such reviews.
+
+244.301-2  Requirements.
+
+	(a)(1)  The ACO will determine the need for a CPSR if a contractor's sales to the Government are expected to exceed $50 million during the next 12 months.
+
+244.370  Other reviews.
+
+	(a)  Review the adequacy of rationale documenting commercial product or commercial service determinations to ensure compliance with the definition of "commercial product" or "commercial service" in FAR 2.101.
+
+	(b)  Review the adequacy of the contractor's counterfeit electronic part detection and avoidance system under DFARS 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System.
+
+244.301-3  Responsibility for granting, withholding, or withdrawing approval.
+
+244.301-70  Policy.
+Use this section instead of FAR 44.301-3.
+
+	(a)  General.  The contracting officer, with input from the purchasing system analyst or auditor, will-
+
+		(1)  Determine the acceptability of the contractor's purchasing system and approve or disapprove the system; and
+
+		(2)  Pursue correction of any deficiencies.
+
+	(b)  Evaluation.  The contracting officer, with input from a purchasing system analyst or auditor, will evaluate the contractor's purchasing system to ensure it meets the requirements outlined in clause 252.244-7998.
+
+	(c)  Disposition of findings-
+
+		(1)  Reporting of findings.  The purchasing system analyst or auditor will submit a written report of findings and recommendations to the contracting officer.  If any material weaknesses exist, the report will describe the deficiencies in detail.
+
+		(2)  Initial determination.
+
+			(i)  If no material weaknesses are found, the contracting officer will promptly notify the contractor that their purchasing system is acceptable and approved; or
+
+			(ii)  If there are one or more material weaknesses due to the contractor's failure to meet one or more of the purchasing system criteria in the clause at 252.244-7998, the contracting officer will-
+
+				(A)  Make an initial written determination on any material weaknesses, notify the contractor in writing, and provide a detailed description of each material weakness (see PGI 244.301-70(c)(2));
+
+				(B)  Request the contractor to respond in writing, to the initial determination within 30 days; and
+
+				(C)  With input from the purchasing system analyst or auditor, evaluate the contractor's response and make a final determination.
+
+		(3)  Final determination.
+
+			(i)  The contracting officer will make a final determination and notify the contractor in writing, that-
+
+				(A)  The contractor's purchasing system is acceptable and approved, and no material weaknesses remain; or
+
+				(B)  Material weaknesses remain.  The notice will identify any remaining material weaknesses and indicate the adequacy of any proposed or completed corrective action.  The contracting officer will-
+
+					(1)  Request that the contractor, within 45 days of receipt of the final determination, either correct the weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses;
+
+					(2)  Disapprove the system in accordance with the clause at 252.244-7998; and
+
+					(3)  Withhold payments in accordance with the clause at 252.242-7005, Contractor Business Systems, if the clause is included in the contract.
+
+			(ii)  Follow the procedures relating to monitoring a contractor's corrective action and the correction of material weaknesses in PGI 244.301-70(c)(3).
+
+	(d)  System approval.  The contracting officer will promptly approve a previously disapproved purchasing system and notify the contractor when the contracting officer determines there are no remaining material weaknesses.
+
+	(e)  Contracting officer notifications.  The cognizant contracting officer will promptly distribute copies of a determination to approve a system, disapprove a system and withhold payments, or approve a previously disapproved system and release withheld payments to the auditor; payment office; affected contracting officers at the buying activities; and cognizant contracting officers in contract administration activities.
+
+	(f)  Mitigating the risk of deficiencies on specific proposals.
+
+		(1)  Source selection evaluation teams will discuss identified deficiencies and their impact in all reports on contractor proposals until the deficiencies are resolved.
+
+		(2)  When negotiating a proposal generated by a purchasing system with a known deficiency, the contracting officer will assess whether the deficiency impacts negotiations.  If it does not, proceed with negotiations.  If it does, the contracting officer should consider other alternatives, e.g.-
+
+			(i)  Allowing the contractor additional time to correct the deficiency and submit a corrected proposal;
+
+			(ii)  Considering another type of contract, e.g., a fixed-price incentive (firm target) contract instead of firm-fixed-price;
+
+			(iii)  Using additional cost analysis techniques to determine the reasonableness of the cost elements affected by the deficiency;
+
+			(iv)  Segregating the questionable areas as a cost-reimbursable line item;
+
+			(v)  Reducing the negotiation objective for profit or fee; or
+
+			(vi)  Including a contract (reopener) clause that provides for adjustment of the contract amount after award.
+
+		(3)  The contracting officer who incorporates a reopener clause into the contract is responsible for negotiating price adjustments required by the clause.  Any reopener clause necessitated by a deficiency should-
+
+			(i)  Clearly identify the amounts and items that are in question at the time of negotiation;
+
+			(ii)  Specify a deadline or event by which the contractor must submit a supplemental proposal, including certified cost or pricing data, detailing the cost impact of the deficient purchasing system;
+
+			(iii)  Permit the contracting officer to adjust the contract price unilaterally if the contractor fails to submit the supplemental proposal; and
+
+			(iv)  Provide that failure of the Government and the contractor to agree to the price adjustment shall be a dispute under the Disputes clause.
+
+244.301-71  Contract clause.
+Insert the Contractor Purchasing System Administration basic clause or its alternate as follows:
+
+	(a)  Insert the clause at 252.244-7998, Contractor Purchasing System Administration-Basic, in solicitations and contracts containing the clause at FAR 52.244-2, Subcontracts.
+
+	(b)  Insert the clause at 252.244-7998, Contractor Purchasing System Administration-Alternate I, in solicitations and contracts that contain the clause at 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System, but do not contain FAR 52.244-2, Subcontracts.
+
+SUBPART 244.4-SUBCONTRACTS FOR COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES
+
+244.470  Requirements.
+
+	(a)  Contractors are required to  determine if subcontract items are commercial products or commercial services, using reasonable business judgement and following FAR part 10 market research guidance.  This requirement does not affect the contracting officer's responsibilities or determinations made under FAR 15.403-2(c)(3).  
+
+	(b)  Items that are valued at less than $10,000 per item purchased for use in the performance of multiple DoD and non-DoD contracts and are not identifiable to any particular contract when purchased, shall be treated as commercial products, even though the items may not meet the definition of "commercial product" at FAR 2.101 and do not require a commercial product determination (10 U.S.C. 3457(c)).
+
+
+
+244.470-1  Contract clause.
+Insert the clause at 252.244-7999, Subcontracts for Commercial Products and Commercial Services, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.244-7998  Contractor Purchasing System Administration. (DEVIATION 2026-O0015)
+
+	Basic.  As prescribed in 244.301-71(a), use the following clause:
+
+CONTRACTOR PURCHASING SYSTEM ADMINISTRATION-BASIC 
+(FEB 2026)(DEVIATION 2026-O0015)
+	(a)  Definitions.  As used in this clause-
+
+"Acceptable purchasing system" means a purchasing system that complies with the system criteria in paragraph (c) of this clause.
+
+"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+"Purchasing system" means the Contractor's system or systems for purchasing and subcontracting, including make-or-buy decisions, the selection of vendors, analysis of quoted prices, negotiation of prices with vendors, placing and administering of orders, and expediting delivery of materials.
+
+	(b)  General.  The Contractor shall establish and maintain an acceptable purchasing system.  Failure to maintain an acceptable purchasing system, as defined in this clause, may result in disapproval of the system by the Contracting Officer and/or withholding of payments.
+
+	(c)  System criteria.  The Contractor's purchasing system shall-
+
+		(1)  Have an adequate system description including policies, procedures, and purchasing practices that comply with the Federal Acquisition Regulation (FAR) and the Defense Federal Acquisition Regulation Supplement (DFARS);
+
+		(2)  Ensure that all applicable purchase orders and subcontracts contain all flowdown clauses, including terms and conditions and any other clauses needed to carry out the requirements of the prime contract;
+
+		(3)  Maintain an organization plan that establishes clear lines of authority and responsibility;
+
+		(4)  Ensure all purchase orders are based on authorized requisitions and include a complete and accurate history of purchase transactions to support vendor selected, price paid, and document the subcontract/purchase order files which are subject to Government review;
+
+		(5)  Establish and maintain adequate documentation to provide a complete and accurate history of purchase transactions to support vendors selected and prices paid;
+
+		(6)  Apply a consistent make-or-buy policy that is in the best interest of the Government;
+
+		(7)  Use competitive sourcing to the maximum extent practicable, and ensure debarred or suspended contractors are properly excluded from contract award;
+
+		(8)  Evaluate price, quality, delivery, technical capabilities, and financial capabilities of competing vendors to ensure fair and reasonable prices;
+
+		(9)  Require management level justification and adequate cost or price analysis, as applicable, for any sole or single source award;
+
+		(10)  Perform timely and adequate cost or price analysis and technical evaluation for each subcontractor and supplier proposal or quote to ensure fair and reasonable subcontract prices;
+
+		(11)  Document negotiations in accordance with FAR 15.408;
+
+		(12)  Seek, take, and document economically feasible purchase discounts, including cash discounts, trade discounts, quantity discounts, rebates, freight allowances, and company-wide volume discounts;
+
+		(13)  Ensure proper type of contract selection and prohibit issuance of cost-plus-a-percentage-of-cost subcontracts;
+
+		(14)  Maintain subcontract surveillance to ensure timely delivery of an acceptable product and procedures to notify the Government of potential subcontract problems that may impact delivery, quantity, or price;
+
+		(15)  Document and justify reasons for subcontract changes that affect cost or price;
+
+		(16)  Notify the Government of the award of all subcontracts that contain the FAR and DFARS flowdown clauses that allow for Government audit of those subcontracts, and ensure the performance of audits of those subcontracts;
+
+		(17)  Enforce adequate policies on conflict of interest, gifts, and gratuities, including the requirements of  41 U.S.C. chapter 87, Kickbacks;
+
+		(18)  Perform internal audits or management reviews, training, and maintain policies and procedures for the purchasing department to ensure the integrity of the purchasing system;
+
+		(19)  Establish and maintain policies and procedures to ensure purchase orders and subcontracts contain mandatory and applicable flowdown clauses, as required by the FAR and DFARS, including terms and conditions required by the prime contract and any clauses required to carry out the requirements of the prime contract, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System, if applicable;
+
+		(20)  Provide for an organizational and administrative structure that ensures effective and efficient procurement of required quality materials and parts at the best value from responsible and reliable sources, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System, if applicable;
+
+		(21)  Establish and maintain selection processes to ensure the most responsive and responsible sources for furnishing required quality parts and materials and to promote competitive sourcing among dependable suppliers so that purchases are reasonably priced and from sources that meet contractor quality requirements, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System, and the item marking requirements of 252.211-7003, Item Unique Identification and Valuation, if applicable;
+
+		(22)   Establish and maintain procedures to ensure performance of adequate price or cost analysis on purchasing actions; 
+
+		(23)  Establish and maintain procedures to ensure that proper types of subcontracts are selected, and that there are controls over subcontracting, including oversight and surveillance of subcontracted effort; and
+
+		(24)  Establish and maintain procedures to timely notify the Contracting Officer, in writing, if-
+
+			(i)  The Contractor changes the amount of subcontract effort after award such that it exceeds 70 percent of the total cost of the work to be performed under the contract, task order, or delivery order.  The notification shall identify the revised cost of the subcontract effort and shall include verification that the Contractor will provide added value; or
+
+			(ii)  Any subcontractor changes the amount of lower-tier subcontractor effort after award such that it exceeds 70 percent of the total cost of the work to be performed under its subcontract.  The notification shall identify the revised cost of the subcontract effort and shall include verification that the subcontractor will provide added value as related to the work to be performed by the lower-tier subcontractor(s).
+
+	(d)  Material weaknesses.
+
+		(1)  The Contracting Officer will provide notification of initial determination to the Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weakness or deficiency.
+
+		(2)  The Contractor shall respond within 30 days to a written initial 
+determination from the Contracting Officer that identifies material weaknesses in the Contractor's purchasing system.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and 
+
+			(iii)  System disapproval, if the Contracting Officer determines that one or 
+more material weaknesses remain.
+
+	(e)  If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses.
+
+	(f)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's purchasing system, and the contract includes the clause at 252.242-7005, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+		Alternate I.  As prescribed in 244.301-71(b),  use the following clause, which amends paragraph (c) of the basic clause by deleting paragraphs (c)(1) through (c)(18) and (c)(22) through (c)(24), and revising and renumbering paragraphs (c)(19) through (c)(21) of the basic clause.
+
+CONTRACTOR PURCHASING SYSTEM ADMINISTRATION-ALTERNATE I 
+(JAN 2025)
+
+	The following paragraphs (a) through (f) of this clause do not apply unless the Contractor is subject to the Cost Accounting Standards under 41 U.S.C. chapter 15, as implemented in regulations found at 48 CFR 9903.201-1.
+
+	(a)  Definitions.  As used in this clause-
+
+"Acceptable purchasing system" means a purchasing system that complies with the system criteria in paragraph (c) of this clause.
+
+"Material weakness" means a deficiency or combination of deficiencies in the internal control over information in contractor business systems, such that there is a reasonable possibility that a material misstatement of such information will not be prevented, or detected and corrected, on a timely basis.  A reasonable possibility exists when the likelihood of an event occurring is-
+
+		(1)  Probable; or
+
+		(2)  More than remote but less than likely (section 806 of Pub. L. 116-283).
+
+"Purchasing system" means the Contractor's system or systems for purchasing and subcontracting, including make-or-buy decisions, the selection of vendors, analysis of quoted prices, negotiation of prices with vendors, placing and administering of orders, and expediting delivery of materials.
+
+	(b)  Acceptable purchasing system.  The Contractor shall establish and maintain an acceptable purchasing system.  Failure to maintain an acceptable purchasing system, as defined in this clause, may result in disapproval of the system by the Contracting Officer and/or withholding of payments.
+
+	(c)  System criteria.  The Contractor's purchasing system shall-
+
+		(1)  Establish and maintain policies and procedures to ensure purchase orders and subcontracts contain mandatory and applicable flowdown clauses, as required by the FAR and DFARS, including terms and conditions required by the prime contract and any clauses required to carry out the requirements of the prime contract, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System;
+
+		(2)  Provide for an organizational and administrative structure that ensures effective and efficient procurement of required quality materials and parts at the best value from responsible and reliable sources, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System, and, if applicable, the item marking requirements of 252.211-7003, Item Unique Identification and Valuation; and
+
+		(3)  Establish and maintain selection processes to ensure the most responsive and responsible sources for furnishing required quality parts and materials and to promote competitive sourcing among dependable suppliers so that purchases are from sources that meet contractor quality requirements, including the requirements of 252.246-7007, Contractor Counterfeit Electronic Part Detection and Avoidance System.
+
+	(d)  Material weaknesses.
+
+		(1)  The Contracting Officer will provide notification of initial determination to the Contractor, in writing, of any material weaknesses.  The initial determination will describe the underlying deficiency in sufficient detail to allow the Contractor to understand the weaknesses or deficiency.
+
+		(2)  The Contractor shall respond within 30 days to a written initial determination from the Contracting Officer that identifies material weaknesses in the Contractor's purchasing system.  If the Contractor disagrees with the initial determination, the Contractor shall state, in writing, its rationale for disagreeing.
+
+		(3)  The Contracting Officer will evaluate the Contractor's response and notify the Contractor, in writing, of the Contracting Officer's final determination concerning-
+
+			(i)  Remaining material weaknesses;
+
+			(ii)  The adequacy of any proposed or completed corrective action; and
+
+			(iii)  System disapproval, if the Contracting Officer determines that one or more material weaknesses remain.
+
+	(e)  If the Contractor receives the Contracting Officer's final determination of material weaknesses, the Contractor shall, within 45 days of receipt of the final determination, either correct the material weaknesses or submit an acceptable corrective action plan showing milestones and actions to eliminate the weaknesses.
+
+	(f)  Withholding payments.  If the Contracting Officer makes a final determination to disapprove the Contractor's purchasing system, and the contract includes the clause at 252.242-7005, Contractor Business Systems, the Contracting Officer will withhold payments in accordance with that clause.
+
+(End of clause)
+
+252.244-7999  Subcontracts for Commercial Products or Commercial Services.  (DEVIATION 2026-O0015)
+As prescribed in 244.470-1, use the following clause:
+
+SUBCONTRACTS FOR COMMERCIAL PRODUCTS OR COMMERCIAL SERVICES 
+(FEB 2026)(DEVIATION 2026-O0015)
+
+
+	(a)  The Contractor shall not include the terms of any Federal Acquisition Regulation (FAR) clause or Defense Federal Acquisition Regulation Supplement (DFARS) clause in subcontracts for commercial products or commercial services at any tier under this contract, unless-
+
+		(1)  For DFARS clauses, it is so specified in the particular clause; or
+
+		(2)  For FAR clauses, the clause is listed at FAR 12.205 or it is so specified in paragraph (b) of the clause at FAR 52.244-6, as applicable.  (Section 847(b)(1)(B), Pub. L. 114-328)
+
+	(b)(1)  In accordance with 10 U.S.C. 3457(c), the Contractor shall treat as commercial products any items valued at less than $10,000 per item that were purchased by the Contractor for use in the performance of multiple contracts with the Department of Defense and other parties and are not identifiable to any particular contract when purchased.
+
+		(2)  The Contractor shall ensure that any items to be used in performance of this contract, that are treated as commercial products pursuant to paragraph (b)(1) of this clause, meet all terms and conditions of this contract that are applicable to commercial products in accordance with the clause at FAR 52.244-6 and paragraph (a) of this clause.
+
+	(c)  Subcontracts.  The Contractor shall include the terms of this clause, including this paragraph (c), in subcontracts awarded under this contract, including subcontracts for the acquisition of commercial products or commercial services.
+
+(End of clause)
+
+
+Attachment A1
+DARS Tracking Number: 2026-O0015
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 44
+Defense FAR Supplement (DFARS) Part 244
+
+
+Page 2 of 2
+
+

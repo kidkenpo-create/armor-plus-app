@@ -1,0 +1,216 @@
+PGI PART 209.1-RESPONSIBLE PROSPECTIVE CONTRACTORS
+
+PGI 209.105-1  Obtaining information.
+
+	(1)  GSA's System for Award Management (SAM), which is available at https://sam.gov/, identifies entities excluded throughout the U.S. Government (unless otherwise noted) from receiving Federal contracts or certain subcontracts and from certain types of Federal financial and non-financial assistance and benefits.  The SAM website provides useful documents and online training to assist with SAM navigation and data entry.  User Guides and Demonstration Videos can be found in the User Help section after clicking the HELP link at the top of the website homepage.  The former Excluded Parties List System (EPLS) information is within the Performance Information functional area of SAM maintained as "Exclusions" data.  Exclusions are in the Data Access area of SAM which can be accessed by navigating the following path after logging into the SAM website.  Select Tab - MYSAM, Tab - Data Access, and Tab - Exclusions.
+
+		(i)  Multiple agencies have the authority to suspend or debar entities from "doing business" with the Government.  There are approximately 71 separate cause and treatment codes under which entities have been suspended or debarred or excluded.  New exclusion records created in SAM will no longer be identified with cause and treatment codes.  Exclusions will be associated with one of four exclusion types: Preliminarily Ineligible (Proceedings Pending), Ineligible (Proceedings Completed), Prohibition/Restriction, Voluntary Exclusion.  Each cause and treatment code is linked to one exclusion type.
+
+		(ii)  The exclusion type advises readers of the nature of the exclusion, debarment, or suspension and how those listed in the SAM Exclusions should be treated. However, the fact that an entity is listed in the SAM Exclusions does not necessarily mean the entity is ineligible for contract award.  Review of the exclusion type is crucial in ensuring that listed entities are not deprived of their "liberty interest" in conducting business with the Government.
+
+		(iii)  When the Department of Justice Bureau of Justice Assistance debars individuals under 10 U.S.C. 4656, they are placed in the SAM Exclusions under cause and treatment code FF (Reciprocal), which is now linked to exclusion type, Ineligible (Proceedings Completed).  The records for individuals currently entered into EPLS and listed under this cause and treatment code can be found in the SAM Exclusions.  Records created in EPLS have both a cause and treatment code and an exclusion type listed.
+
+	(2)  The contracting officer shall consider the information available in the Supplier Performance Risk System during the evaluation of quotations and offers received in response to a solicitation and in the determination of the contractor's responsibility.  In addition, the contracting officer shall document the contract file regarding any action taken as a result of information obtained from the Supplier Performance Risk System.
+
+PGI 209.170-3  Waiver of restriction.
+The waiver authority terminates on October 1, 2026.  For information on the roles of 
+requiring activities and the Confucius Institute Waiver Program in the waiver process, see the Confucius Institute Waiver Program Guidance to U.S. Institutions of Higher Education, issued by the Office of the Under Secretary of Defense (Research and Engineering), Confucius Institute Waiver Program and available at https://rt.cto.mil/wp-content/uploads/Confucius-Institute-Waiver-Program-Guidance-28Mar2023.pdf.
+
+PGI 209.171  Preaward surveys.
+
+PGI 209.171-1  Conditions for preaward surveys.
+
+	(a)  If a preaward survey is requested, include the rationale in Block 23 of the SF 1403, Preaward Survey of Prospective Contractor (General).
+
+PGI 209.171-2  Requests for preaward surveys.
+
+		(1)  The surveying activity is the cognizant contract administration office as listed in the Federal Directory of Contract Administration Services Components, available at https://pubapp.dcma.mil/CASD/main.jsp.  When information is required as part of the survey on the adequacy of the contractor's accounting system or its suitability for administration of the proposed type of contract, the surveying activity will obtain the information from the auditor.
+
+		(2)  Limited information may be requested by telephone.
+
+		(3)  The contracting officer may request a formal survey by telephone but must confirm immediately with SF 1403, Preaward Survey of Prospective Contractor (General).  For a formal survey, send original and three copies of SF 1403, including necessary drawings and specifications.
+
+			(i)  List additional factors in Item H, Section III of the SF 1403 and explain them in Block 23.  For example-
+
+				(A)  Information needed to determine a prospective contractor's eligibility under the Walsh-Healey Public Contracts Act.  (Note that the Walsh-Healey Public Contracts Act, Block 12 of Section I, only indicates what the contractor has represented its classification to be under Walsh-Healey.)
+
+				(B)  Evaluation of a contractor as a planned producer when the offered item is or may appear on the Industrial Preparedness Planning List (IPPL).  When the preaward survey results in a recommendation for award, ask the office responsible for industrial preparedness planning to consider designating the prospective contractor as a planned producer.  If the item is already on the IPPL or the prospective contractor is already a planned producer, note the information in Block 23.
+
+				(C)  Evaluation of the prospective contractor's performance against small business subcontracting plans.
+
+		(4)  On base level preaward surveys, technical personnel from the requiring installation should participate when there is concern about the ability of a prospective contractor to perform a base level service or construction contract.
+
+		(5)  Allow more time for-
+
+			(i)  Complex items;
+
+			(ii)  New or inexperienced DoD contractors; and
+
+			(iii)  Surveys with time-consuming requirements, e.g., secondary survey, accounting system review, financial capability analysis, or purchasing office participation.
+
+		(6)  Only request those factors essential to the determination of responsibility.  See DFARS 253.209-1(a) for an explanation of the factors in Section III, Blocks 19 and 20 of the SF 1403.
+
+PGI 209.2-QUALIFICATIONS REQUIREMENTS
+
+PGI 209.202  Policy.
+
+	(a)(1)  The inclusion of qualification requirements in specifications for products that are to be included on a Qualified Products List, or manufactured by business firms included on a Qualified Manufacturers List, requires approval by the departmental standardization office in accordance with DoD 4120.24-M, Defense Standardization Program (DSP) Policies and Procedures.  The inclusion of other qualification requirements in an acquisition or group of acquisitions requires approval by the chief of the contracting office.
+
+PGI 209.270  Aviation and ship critical safety items.
+
+PGI 209.270-4  Procedures.
+
+	(1)  Policies and procedures applicable to aviation critical safety item design control activities are in DoD Manual 4140.01, Volume 11, DoD Supply Chain Materiel Management Procedures: Inventory Accountability and Special Management and Handling, DoD Aviation 
+Critical Safety Item (CSI)/Flight Safety Critical Aircraft Part (FSCAP) Program.  This regulation provides direction on establishing criticality determinations, identification of aviation critical safety items in the Federal Logistics Information System, and related requirements.
+
+	(2)  [Reserved]  
+
+PGI 209.4-DEBARMENT, SUSPENSION, AND INELIGIBILITY
+
+PGI 209.405  Effect of listing.
+
+	(1)  Environmental Protection Agency (EPA) responsibilities under Executive Order 11738, Providing for Administration of the Clean Air Act and the Federal Water Pollution Control Act With Respect to Federal Contracts, Grants, or Loans, have been delegated to the EPA Suspending and Debarring Official (EPA SDO).
+
+		(i)  Submit notifications and reports required by DFARS 209.405(b) to the EPA SDO at the following address:
+
+			Office of Grants and Debarments
+			U.S. Environmental Protection Agency
+			Ariel Rios Building
+			1200 Pennsylvania Avenue NW
+			Washington, DC 20640
+
+			Telephone:  202-564-5399
+
+		(ii)  Unless agency procedures specify otherwise, coordinate submissions to the EPA SDO through the applicable agency suspending and debarring official.
+
+	(2)  Executive Order 11738 is available at https://www.archives.gov/federal-register/codification/executive-order/11738.html .
+
+	(3)  Contracting officers are required to review the System for Award Management (SAM) Exclusions twice, once after opening of bids/receipt of proposals (FAR 9.405(d)(1)) and again immediately prior to award (FAR 9.405(d)(4)).  The contracting officer shall document the contract file for both searches; the documentation may include a copy of the SAM Exclusions search results.
+
+PGI 209.470  Debarment and Suspension Procedures.
+
+	(a)  Investigation and referral.  
+
+		(1)  When referring any matter to the agency debarring and suspending official for consideration, provide the following specific information and documentation, to the extent practicable.  Send two copies (one paper and one electronic) of each report, including enclosures.
+
+		(2)  For all referrals, provide the following:
+
+			(i)  Name, address, and telephone number of the point of contact for the activity making the report.
+
+			(ii)  Name and address of the referred individual/contractor, CAGE code, and 
+unique entity identifier, if applicable.
+
+			(iii)  Name and addresses of the members of the board, principal officers, partners, owners, and managers of the referred contractor.
+
+			(iv)  Name and addresses of all known affiliates, subsidiaries, or parent firms, and the nature of the business relationship to the referred individual/contractor.
+
+			(v)  If a contracting office initiates the report, the comments and recommendations of the contracting officer and of each higher-level contracting review authority regarding-
+
+				(A)  Whether to suspend or debar the contractor;
+
+				(B)  Whether to apply limitations to the suspension or debarment;
+
+				(C)  The period of any recommended debarment; and
+
+				(D)  Whether to continue any current contracts with the contractor (or explain why a recommendation regarding current contracts is not included).
+
+			(vi)  To the extent that this information is available through FPDS-NG, a list of other agencies that hold current contracts with the referred individual/contractor.
+
+		(3)  For referrals based on judicial actions (indictments, convictions, civil judgments, etc.), provide the following:
+
+			(i)  Copies of indictments, judgments, and sentencing actions.
+
+			(ii)  Copies of investigative reports when authorized by the investigative agency.
+
+			(iii)  Witness statements or affidavits when authorized by the investigative
+ agency.
+
+			(iv)  If judicial action is contract-related, the contract number, description of supplies or services, and contract amount.
+
+		(4)  For "fact-based" referrals (no judicial action), for each contract affected by the misconduct or poor performance being reported, provide the following:
+
+			(i)  The contract number, description of supplies or services, contract amount, percentage of completion, and amounts paid to and withheld from the contractor.
+
+			(ii)  Whether the contract is assigned under the Assignment of Claims Act and, if so, to whom.
+
+			(iii)  The contract fund citations involved, to expedite accurate return of funds to open accounts and commands, as appropriate.
+
+			(iv)  For any other contracts outstanding with the contractor or any of its affiliates, the contract number, description of supplies or services, and contract amount.
+
+			(v)  A complete summary of all pertinent evidence and the status of any legal proceedings involving the contractor.  
+
+			(vi)  An estimate of any damages sustained by the Government as a result of the contractor's action (explain how the estimate was calculated).
+
+			(vii)  A copy of pertinent extracts of each pertinent contract.
+
+			(viii)  Copies of investigative reports when authorized by the investigative agency.
+
+			(ix)  Witness statements or affidavits when authorized by the investigative agency.
+
+			(x)  A copy of any available determinations of nonresponsibility in accordance with FAR 9.105-2(a)(1).
+
+			(xi)  Any other appropriate exhibits or documentation.
+
+	(b)  Decisionmaking process.
+
+		(1)  The agency debarring and suspending official shall follow the procedures and decisionmaking process stated in FAR 9.406-3(c) for proposed debarments and debarments) and FAR 9.407-3 (for suspensions), DFARS Appendix H, and any agency-specific procedures that are to be provided to the individual/contractor with the notice of proposed debarment or suspension, either by enclosure or electronic reference.
+
+		(2)  The absence of a referral in accordance with this section, or the absence of any information specified in this section, will not preclude the debarring and suspending official from making decisions to suspend, propose for debarment, or debar an individual/contractor.
+
+		(3)  The signature of the debarring and suspending official on the notice of suspension, proposed debarment, or debarment is sufficient evidence that the debarring and suspending official has made the specified decision.
+
+		(4)  If a debarring and suspending official determines that a referral lacks sufficient evidence of a cause for suspension or debarment, the debarring and suspending official may refer the matter for further review or investigation, as appropriate, by an appropriate agency or other Government entity, including a contracting activity, inspector general, auditing agency, or a criminal investigative agency.
+
+PGI 209.5-ORGANIZATIONAL AND CONSULTANT CONFLICTS OF INTEREST
+
+PGI 209.503-70  Waiver.
+ To process a waiver under DFARS 209.503-70, submit the waiver, in accordance with agency procedures, to the Office of the Principal Director, Defense Pricing, Contracting, and Acquisition Policy (Contract Policy) (DPCAP/CP) at osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil.
+
+PGI 209.570  Limitations on contractors acting as lead system integrators.
+
+PGI 209.570-1  Definitions.
+The phrase "substantial portion of the work," as used in the definition of "lead system integrator with system responsibility" in the clause at DFARS 252.209-7007, may relate to the dollar value of the effort or to the criticality of the effort to be performed.
+
+PGI 209.570-3  Procedures.
+
+	(1)  After assessing the offeror's direct financial interests in the development or construction of any individual system or element of any system of systems, if the offeror-
+
+		(i)  Has no direct financial interest in such systems, the contracting officer shall document the contract file to that effect and may then further consider the offeror for award of the contract;  
+
+		(ii)  Has a direct financial interest in such systems, but the exception in DFARS 209.570-2(b)(2) applies, the contracting officer shall document the contract file to that effect and may then further consider the offeror for award of the contract;  
+
+		(iii)  Has a direct financial interest in such systems and the exception in DFARS 209.570-2(b)(2) does not apply, but the conditions in DFARS 209.570-2(b)(1)(i) and (ii) do apply, the contracting officer-
+
+			(A)  Shall document the contract file to that effect;
+
+			(B)  May, in coordination with program officials, request an exception for the offeror from the Secretary of Defense, in accordance with paragraph (2) of this subsection; and
+
+			(C)  Shall not award to the offeror unless the Secretary of Defense grants the exception and provides the required certification to Congress; or
+
+		(iv)  Has a direct financial interest in such systems and the exceptions in DFARS 209.570-2(b)(1) and (2) do not apply, the contracting officer shall not award to the offeror.
+
+	(2)(i)  To process an exception under DFARS 209.570-2(b)(1), the contracting officer shall submit the request and appropriate documentation to the Office of the Principal 
+Director, Defense Pricing, Contracting, and Acquisition Policy (Contract Policy) (DPCAP/CP) 
+at osd.pentagon.ousd-a-s.mbx.asda-dp-c-contractpolicy@mail.mil.
+
+		(ii)  The DPCAP/CP action officer will process the request through the Office of the 
+Secretary of Defense and, if approved, to the appropriate committees of Congress.  The contracting officer shall not award a contract to the affected offeror until notified by the 
+DPCAP/CP action officer that the exception has been approved and transmitted to 
+Congress.
+
+PGI 209.571  Organizational conflicts of interest in major defense acquisition programs.
+
+PGI 209.571-7  Systems engineering and technical assistance contracts.
+Because of the special organizational conflict of interest restrictions that relate to systems engineering and technical assistance contracts, consider separating systems engineering and technical assistance-type work from design- and development-type work, and consider not including both types of work in the same task order or other contract vehicle.
+
+Attachment A2
+DARS Tracking Number: 2026-O0042
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 9
+Defense FAR Supplement (DFARS) Part 209
+
+
+
+
+Page 1 of 1
+		
+

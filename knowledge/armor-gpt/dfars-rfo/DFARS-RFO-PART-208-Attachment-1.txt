@@ -1,0 +1,395 @@
+PART 208-REQUIRED SOURCES OF SUPPLIES AND SERVICES
+
+SUBPART 208.1-PRESOLICITATION
+
+208.103  Mandatory sources of supplies.
+	(a)(1)  See PGI 208.103 for information on available items in DoD's property inventories.
+
+208.105  Contractor Use of Government supply sources.
+
+208.105-2  Contractor permitted use of Government supply sources.
+
+	(c)  Contract Clause.  Insert the clause at 252.251-7999, Ordering From Government Supply Sources, in solicitations and contracts which include the clause at FAR 52.208-10, Government Supply Sources.
+
+208.105-70  Fuel funded by the Defense Working Capital Fund
+
+	(a)  If fuel is funded by the Defense Working Capital Fund, contracting officers may authorize contractors to use Defense Logistics Agency Energy as a source of fuel in performance of other than cost-reimbursement contracts.  When providing this authorization to contractors, follow the procedures at PGI 208.105-70.
+
+	(b)  The contracting officer may also authorize the contractor to use the DD Form 1155 when requisitioning from the Department of Veterans Affairs.
+
+	(c)  The authorizing agency is also responsible for promptly considering requests of the DoD supply source for authority to refuse to honor requisitions from a contractor that is indebted to DoD and has failed to pay proper invoices in a timely manner.
+
+SUBPART 208.2-ACQUISITION FROM ABILITYONE PARTICIPATING NONPROFIT AGENCIES
+
+208.201  General.
+Follow the procedures at PGI 208.201 when placing orders with central nonprofit agencies.
+
+208.270  Evaluation and award.
+Evaluate service contracts awarded to Abilityone participating nonprofit agencies when the contract value exceeds the threshold at DFARS 215.104-70(g).
+
+
+SUBPART 208.3-ACQUISITIONS FROM FEDERAL PRISON INDUSTRIES, INC.
+
+208.301-70  Acquisition of items for which Federal Prison Industries has a significant market share.
+
+	(a)  Scope.  This section implements 10 U.S.C. 3905.
+
+	(b)  Definition.  As used in this section-
+
+	"Item for which Federal Prison Industries (FPI) has a significant market share,"  means an item for which FPI's share of the DoD market for the federal supply class including that item is greater than 5 percent, as determined by DoD in consultation with the Office of Federal Procurement Policy.  A list of the federal supply classes of items for which FPI has a significant market share is maintained at https://www.acq.osd.mil/asda/dpc/cp/policy/other-policy-areas.html.
+
+	(c)  Policy.
+
+		(1)  When acquiring an item for which FPI has a significant market share-
+
+			(i)  Acquire the item using-
+
+				(A)  Competitive procedures (e.g., the procedures in FAR 6.101, the set-aside procedures in FAR Subpart 19.1, or competition conducted in accordance with FAR Part 13); or 
+
+				(B)  The fair opportunity procedures in FAR 16.507-2, if placing an order under a multiple award delivery-order contract; and
+
+			(ii)  Include FPI in the solicitation process, consider a timely offer from FPI, and make an award in accordance with the policy at FAR 8.304(b)(2) and 8.305.
+
+		(2)  When acquiring an item for which FPI does not have a significant market share, acquire the item in accordance with the policy at FAR 8.3.
+
+208.305  Evaluation and award.
+Evaluate service contracts awarded to Federal Prison Industries, Inc., when the contract value exceeds the threshold at DFARS 215.104-70(g).
+
+
+
+
+
+SUBPART 208.4-ORDERING UNDER THE FEDERAL SUPPLY SCHEDULE
+
+208.470  General.
+
+	(a)(1)  If only one offer is received in response to an order exceeding the simplified acquisition threshold that is placed on a competitive basis, follow the procedures at 215.271.
+
+		(2)  When placing orders for supplies or services in amounts exceeding the simplified acquisition threshold, departments and agencies must comply with the review, approval, and reporting requirements established in accordance with subpart 217.6.
+
+		(3)  When a schedule lists both foreign and domestic items that will meet the needs of the requiring activity, the ordering office must apply the procedures of part 225 and FAR part 25, Foreign Acquisition.  When purchase of an item of foreign origin is specifically required, the requiring activity must furnish the ordering office sufficient information to permit the determinations required by part 225 and FAR part 25 to be made.
+
+		(4)  Insert the provisions at 252.215-7007, Notice of Intent to Resolicit, and 252.215-7008, Only One Offer, as prescribed at 215.371-6 and 215.408(3), respectively.
+
+	(b)  Include an evaluation factor regarding supply chain risk (see part 239) when acquiring information technology, whether as a service or as a supply, that is a covered system, is a part of a covered system, or is in support of a covered system, as defined in part 239.
+
+	(c)  See 215.101-2-70 for the limitations and prohibitions on the use of the lowest price technically acceptable source selection process, which are applicable to orders placed under Federal Supply Schedules.
+
+	(d)  Contracting officers must make a determination of fair and reasonable pricing when using the Federal Supply Schedules (FSS).  The FSS prices of supplies and fixed-price services, and rates for services offered at hourly rates, were determined to be fair and reasonable for the purpose of establishing the schedule contract.  The ordering activity contracting officer is responsible for making a determination of fair and reasonable pricing for individual orders, blanket purchase agreements (BPA), and orders under BPAs, using the proposal analysis techniques at 15.404-1.  Do not rely on the determination of price reasonableness for the FSS schedule contract.  The complexity and circumstances of each acquisition should determine the level of detail of the analysis required.
+
+	(e)  See 217.7801 for the prohibition on the use of reverse auctions for personal protective equipment and aviation critical safety items.
+
+	(f)  See 204.7603 for procedures on the required use of the Supplier Performance Risk System (SPRS) risk assessments.
+
+		(1)  Ensure SPRS assessments of price risk and supplier risk are considered as a part of the award decision.
+
+		(2)  When placing an order with a schedule contractor for an end product identified by a material identifier that is available as described at PGI 204.7603, and item risk was not previously considered during award of the schedule contract, consider SPRS assessments of item risk in the award decision.
+
+		(3)  Insert the provision at 252.204-7024, Notice on the Use of the Supplier Performance Risk System, as prescribed in 204.7604 to the extent permitted by the FSS.
+
+	(g)  Follow the procedures at PGI 208.470 for-
+
+		(1) An order or BPA exceeding the simplified acquisition threshold that is a follow-on to an order or BPA for the same supply or service previously issued based on a limiting sources justification; and
+
+		(2)  Ordering from schedules.
+
+SUBPART 208.70-ACQUISITION UNDER THE INTEGRATED MATERIAL MANAGEMENT PROGRAM
+
+208.7000  Scope of subpart.
+This subpart prescribes policy and procedures for acquisition of items for which contracting responsibility is assigned to a department, agency or the General Services Administration under the Integrated Material Management (IMM) Program.  Contracting responsibility is assigned through the IMM in DoDM 4140.26, DoD Integrated Materiel Management Manual for Consumable Items, DoD 4140.68, Integrated Materiel Management of Nonconsumable Items and are listed in the FLIS Technical Procedures - Volume 13. 
+
+208.7001  Definitions.
+For purposes of this subpart-
+
+	"Acquiring department" means the department, agency, or General Services Administration which has contracting responsibility under the IMM Program.
+
+	"Integrated materiel management" means the materiel management responsibility that is integrated to eliminate duplicate national materiel management functions for those consumable items that are used by more than one DoD Component or participating U.S. Government civil agency. The integrated management responsibility is assigned to an activity or agency for the DoD and participating U.S. Government civil agencies. IMM responsibilities include requirements determination, procurement, distribution, materiel overhaul and repair, and disposal of materiel. 
+
+	"Requiring department" means the department or agency which has the requirement for an item.
+
+208.7002  Assignment authority.
+See PGI 208.7002 for assignment authority under the IMM.
+
+208.7002-1  Acquiring department responsibilities.
+See PGI 208.7002-1 for the acquiring department's responsibilities.
+
+208.7002-2  Requiring department responsibilities.
+See PGI 208.7002-2 for the requiring department's responsibilities.
+
+208.7003  Applicability.
+
+208.7003-1  Assignments under integrated materiel management.
+
+	(a)  Acquire all items assigned for integrated materiel management (IMM) from the IMM manager except-
+
+		(1)  Items purchased under circumstances of unusual and compelling urgency as defined in FAR 6.103-2.  After such a purchase is made, the requiring activity must send one copy of the contract and a statement of the emergency to the IMM manager;
+
+		(2)  Items for which the IMM manager assigns a supply system code for local purchase or otherwise grants authority to purchase locally; or
+
+		(3)  When purchase by the requiring activity is in the best interest of the Government in terms of the combination of quality, timeliness, and cost that best meets the requirement.  This exception does not apply to items-
+
+			(i)  Critical to the safe operation of a weapon system;
+
+			(ii)  With special security characteristics; or
+
+			(iii)  Which are dangerous (e.g., explosives, munitions).
+
+		(4) When consumable items determined to be unique to a weapon system which have been included in a Performance Based Logistics (PBL) or Contractor Logistics Support (CLS) contract.  
+
+	(b)  Follow the procedures at PGI 208.7003-1(b) when an item assigned for IMM is to be acquired by the requiring department in accordance with paragraph (a)(3) of this subsection.
+
+208.7003-2  Exceptions.
+
+Requiring departments must submit to the acquiring department all contracting requirements for items assigned for IMM, except-
+
+	(a)  Items obtained through the sources in FAR 8.103;
+
+	(b)  Items obtained under 208.7003-1(a);
+
+	(c)  Requirements not in excess of the simplified acquisition threshold, when contracting by the requiring department is in the best interest of the Government;
+
+	(d)  In an emergency.  When an emergency purchase is made, the requiring department must send one copy of the contract and a statement of the emergency to the contracting activity of the acquiring department;
+
+	(e)  Requirements for which the IMM  delegates contracting authority to the requiring department;
+
+	(f)  Items in a research and development stage (as described in FAR Part 35).  Under this exception, the military departments may contract for research and development requirements, including quantities for testing purposes and items undergoing in-service evaluation (not yet in actual production, but beyond prototype).  Generally, this exception applies only when research and development funds are used.
+
+	(g)  Items peculiar to nuclear ordnance material where design characteristics or test-inspection requirements are controlled by the Department of Energy (DoE) or by DoD to ensure reliability of nuclear weapons.
+
+		(1)  This exception applies to all items designed for and peculiar to nuclear ordnance regardless of agency control, or to any item which requires test or inspection conducted or controlled by DoE or DoD.
+
+		(2)  This exception does not cover items used for both nuclear ordnance and other purposes if the items are not subject to the special testing procedures.
+
+	(h)  Items to be acquired under FAR 6.103-6 (national security requires limitation of sources);
+
+	(i)  Items directly related to a major system and which are design controlled by and acquired from either the system manufacturer or a manufacturer of a major subsystem;
+
+	(j)  Items subject to rapid design changes, or to continuous redesign or modification during the production and/or operational use phases, which require continual contact between industry and the requiring department to ensure that the item meets the requirements:
+
+		(1)  This exception permits the requiring department to contract for items of highly unstable design.  For use of this exception, it must be clearly impractical, both technically and contractually, to refer the acquisition to the acquiring department.  Anticipation that contracting by negotiation will be appropriate, or that a number of design changes may occur during contract performance is not in itself sufficient reason for using this exception.
+
+		(2)  This exception also applies to items requiring compatibility testing, provided such testing requires continual contact between industry and the requiring department;
+
+	(k)  Containers acquired only with items for which they are designed;
+
+	(l)  One-time buy of a noncataloged item.
+
+		(1)  This exception permits the requiring departments to contract for a nonrecurring requirement for a noncataloged item.  This exception could cover a part or component for a prototype which may be stock numbered at a later date.
+
+		(2)  This exception does not permit acquisitions of recurring requirements for an item, based solely on the fact that the item is not stock numbered, nor may it be used to acquire items which have only slightly different characteristics than previously cataloged items.
+
+208.7004  Procedures.
+Follow the procedures at PGI 208.7004 for processing IMM requirements.
+
+208.7005  Military interdepartmental purchase requests.
+
+Follow the procedures at-
+
+	(a)  PGI 253.208-1 when using DD Form 448, Military Interdepartmental Purchase Request; and 
+
+	(b)  PGI 253.208-2 when using DD Form 448-2, Acceptance of MIPR.
+
+SUBPART 208.71-ACQUISITION FOR NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA)
+
+208.7100  Authorization.
+NASA is authorized by Pub. L. 85-568 to use the acquisition services, personnel, equipment, and facilities of DoD departments and agencies with their consent, with or without reimbursement, and on a similar basis to cooperate with the departments/ agencies in the use of acquisition services, equipment, and facilities.
+
+208.7101  Policy.
+Departments and agencies must cooperate fully with NASA in making acquisition services, equipment, personnel, and facilities available on the basis of mutual agreement.
+
+208.7102  Procedures.
+Follow the procedures at PGI 208.7102 when contracting or performing services for NASA.
+
+SUBPART 208.73-USE OF GOVERNMENT-OWNED PRECIOUS METALS
+
+208.7300  General.
+See PGI 208.73 for guidance when using Government-owned precious metals.
+
+208.7301  Contract clause.
+
+	(a)  Insert the clause at 252.208-7000, Intent to Furnish Precious Metals as Government-Furnished Material, in all solicitations and contracts except-
+
+		(1)  When the contracting officer has determined that the required precious metals are not available from Defense Supply Center Philadelphia;
+
+		(2)  When the contracting officer knows that the items being acquired do not require precious metals in their manufacture; or
+
+		(3)  For acquisitions at or below the simplified acquisition threshold.
+
+	(b)  To make the determination in paragraph (a)(1) of this section, the contracting officer must consult with the end item inventory manager and comply with the procedures in Chapter 11, DoD 4160.21-M, Defense Materiel Disposition Manual.
+
+
+SUBPART 208.74-ENTERPRISE SOFTWARE AGREEMENTS
+
+208.7400  Scope of subpart.
+
+This subpart prescribes policy and procedures for acquisition of commercial software and software maintenance, including software and software maintenance that is acquired-
+
+	(a)  As part of a system or system upgrade, where practicable;
+
+	(b)  Under a service contract;
+
+	(c)  Under a contract or agreement administered by another agency (e.g., under an interagency agreement); or
+
+	(d)  Under a Federal Supply Schedule contract or blanket purchase agreement established in accordance with FAR 8.401.
+
+208.7401  Definitions.
+
+As used in this subpart-
+
+	"Enterprise software agreement" means an agreement or a contract that is used to 
+acquire designated commercial software or related commercial software services such as 
+software maintenance.
+
+	"Enterprise Software Initiative" means an initiative led by the DoD Chief Information Officer to develop processes for DoD-wide software asset management.
+
+	"Software maintenance" means services normally provided by a software company as standard services at established catalog or market prices, e.g., the right to receive and use upgraded versions of software, updates, and revisions.
+
+208.7402  General.
+
+	(a)  Departments and agencies must fulfill requirements for commercial software and commercial software services, such as software maintenance, in accordance with the DoD Enterprise Software Initiative (ESI) (see https://www.esi.mil/).  ESI promotes 
+the use of enterprise software agreements (ESAs) with contractors that allow DoD to 
+obtain favorable terms and pricing for commercial software and commercial software 
+services.  ESI does not dictate the products or services to be acquired.
+
+	(b)  Include an evaluation factor regarding supply chain risk (see Part 239) 
+when acquiring information technology, whether as a service or as a supply, that is a covered system, is a part of a covered system, or is in support of a covered system, as defined in Part 239.
+
+208.7403  Acquisition procedures.
+Follow the procedures at PGI 208.7403 when acquiring commercial software and 
+commercial software services.
+
+SUBPART 208.75--CONTRACTOR USE OF INTERAGENCY FLEET 
+MANAGEMENT SYSTEM (IFMS)
+
+208.7501  Authorization.
+
+	(a)  Insurance requirements.
+
+		(1)  See FAR 28.307-2(c) for policy on contractor insurance.
+
+		(2)  See FAR 28.308 for policy on self-insurance.
+
+		(3)  See FAR 31.205-19 for allowability of insurance costs.
+
+	(b)  Insert the clause at 252.251-7001, Use of Interagency Fleet Management System (IFMS) Vehicles and Related Services, in solicitations and contracts which include are authorized to use an interagency fleet.
+
+PART 251-[RESERVED]
+
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.208-7000  Intent to Furnish Precious Metals as Government-Furnished Material.
+As prescribed in 208.7301(a), use the following clause:
+
+INTENT TO FURNISH PRECIOUS METALS AS GOVERNMENT-FURNISHED MATERIAL (DEC 1991)
+
+	(a)  The Government intends to furnish precious metals required in the manufacture of items to be delivered under the contract if the Contracting Officer determines it to be in the Government's best interest.  The use of Government-furnished silver is mandatory when the quantity required is one hundred troy ounces or more.  The precious metal(s) will be furnished pursuant to the Government Furnished Property clause of the contract.
+
+	(b)  The Offeror shall cite the type (silver, gold, platinum, palladium, iridium, rhodium, and ruthenium) and quantity in whole troy ounces of precious metals required in the performance of this contract (including precious metals required for any first article or production sample), and shall specify the national stock number (NSN) and nomenclature, if known, of the deliverable item requiring precious metals.
+
+
+Precious Metal*
+QuantityDeliverable Item
+(NSN and Nomenclature)____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+	*If platinum or palladium, specify whether sponge or granules are required.
+
+	(c)  Offerors shall submit two prices for each deliverable item which contains precious metals--one based on the Government furnishing precious metals, and one based on the Contractor furnishing precious metals.  Award will be made on the basis which is in the best interest of the Government.
+
+	(d)  The Contractor agrees to insert this clause, including this paragraph (d), in solicitations for subcontracts and purchase orders issued in performance of this contract, unless the Contractor knows that the item being purchased contains no precious metals.
+
+(End of clause)
+
+252.208-7999  Ordering From Government Supply Sources. (DEVIATION 2026-O0049)
+As prescribed in 208.105-2(c), use the following clause:
+
+ORDERING FROM GOVERNMENT SUPPLY SOURCES ((DEVIATION 2026-O0049) (MAR 2026)
+
+	(a)  When placing orders under Federal Supply Schedules, Personal Property Rehabilitation Price Schedules, or Enterprise Software Agreements, the Contractor shall follow the terms of the applicable schedule or agreement and authorization.  Include in each order:
+
+		(1)  A copy of the authorization (unless a copy was previously furnished to the Federal Supply Schedule, Personal Property Rehabilitation Price Schedule, or Enterprise Software Agreement contractor).
+
+		(2)  The following statement:
+
+		Any price reductions negotiated as part of an Enterprise Software Agreement issued under a Federal Supply Schedule contract shall control.  In the event of any other inconsistencies between an Enterprise Software Agreement, established as a Federal Supply Schedule blanket purchase agreement, and the Federal Supply Schedule contract, the latter shall govern.
+
+		(3)  The completed address(es) to which the Contractor's mail, freight, and billing documents are to be directed.
+
+	(b)  When placing orders under nonmandatory schedule contracts and requirements contracts, issued by the General Services Administration (GSA) Office of Information Resources Management, for automated data processing equipment, software and maintenance, communications equipment and supplies, and teleprocessing services, the Contractor shall follow the terms of the applicable contract and the procedures in paragraph (a) of this clause.
+
+	(c)  When placing orders for Government stock on a reimbursable basis, the Contractor shall-
+
+		(1)  Comply with the requirements of the Contracting Officer's authorization, using FEDSTRIP or MILSTRIP procedures, as appropriate;
+
+		(2)  Use only the GSA Form 1948-A, Retail Services Shopping Plate, when ordering from GSA Self-Service Stores;
+
+		(3)  Order only those items required in the performance of Government contracts; and
+
+		(4)  The Contractor shall pay invoices from Government supply sources promptly.
+
+			(A)  The Contractor shall pay purchases made from DoD supply sources within 30 days of the date of a proper invoice.
+
+			(B)  The Contractor shall annotate each invoice with the date of receipt.
+
+			(C)  For the purposes of computing interest for late Contractor payments, the Government's invoice is deemed to be a demand for payment in accordance with the Interest clause of this contract.
+
+			(D)  If the Contractor fails to pay or pays late that may also result in the DoD supply source refusing to honor the requisition (see DFARS 208-105-2(a)(4)(ii)) or in the Contracting Officer terminating the Contractor's authorization to use DoD supply sources.  
+
+				(1)  In the event the Contracting Officer decides to terminate the authorization due to the Contractor's failure to pay in a timely manner, the Contracting Officer will provide the Contractor with prompt written notice of the intent to terminate the authorization and the basis for such action.
+	
+				(2)  The Contractor shall have 10 days after receipt of the Government's notice in which to provide additional information as to why the authorization should not be terminated.
+
+				(3)  Any such termination does not provide the Contractor with an excusable delay for failure to perform or complete the contract in accordance with the terms of the contract, and the Contractor shall be solely responsible for any increased costs.
+
+	(d)  When placing orders for Government stock on a non-reimbursable basis, the Contractor shall-
+
+		(1)  Comply with the requirements of the Contracting Officer's authorization; and
+		(2)  When using electronic transactions to submit requisitions on a nonreimbursable basis only, place orders by authorizing contract number using the Defense Logistics Management System (DLMS) Supplement to Federal Implementation Convention 511R, Requisition; and acknowledge receipts by authorizing contract number using the DLMS Supplement 527R, Receipt, Inquiry, Response and Material Receipt Acknowledgement.
+
+	(e)  Only the Contractor may request authorization for subcontractor use of Government supply sources.  The Contracting Officer will not grant authorizations for subcontractor use without approval of the Contractor.
+
+	(f)  Government invoices will be submitted to the Contractor's billing address, and Contractor payments shall be sent to the Government remittance address specified below:
+
+		Contractor's Billing Address (include point of contact and telephone number):
+
+		Government Remittance Address (include point of contact and telephone number):
+
+(End of clause)
+
+252.251-7001  Use of Interagency Fleet Management System (IFMS) Vehicles and Related Services.
+As prescribed in 208.7501(b), use the following clause:
+
+USE OF INTERAGENCY FLEET MANAGEMENT SYSTEM (IFMS) VEHICLES AND RELATED SERVICES (DEC 1991)
+
+	(a)  The Contractor, if authorized use of IFMS vehicles, shall submit requests for five or fewer vehicles and related services in writing to the appropriate General Services Administration (GSA) Regional Customer Service Bureau, Attention: Motor Equipment Activity.  Submit requests for more than five vehicles to GSA headquarters: General Services Administration, FTM, Washington, DC  20406.  Include the following in each request:
+
+		(1)  Two copies of the agency authorization to obtain vehicles and related services from GSA.
+
+		(2)  The number of vehicles and related services required and the period of use.
+
+		(3)  A list of the Contractor's employees authorized to request vehicles and related services.
+
+		(4)  A list of the makes, models, and serial numbers of Contractor-owned or leased equipment authorized to be serviced.
+
+		(5)  Billing instructions and address.
+
+	(b)  The Contractor should make requests for any unusual quantities of vehicles as far in advance as possible.
+
+	(c)  The Contractor shall establish and enforce suitable penalties for employees who use or authorize the use of Government vehicles for other than performance of Government contracts.
+
+	(d)  The Contractor shall assume, without the right of reimbursement from the Government, the cost or expense of any use of IFMS vehicles and services not related to the performance of the contract.
+
+	(e)  Only the Contractor may request authorization for subcontractor use of IFMS vehicles.  The Contracting Officer will not grant authorization for subcontractor use without approval of the Contractor.
+
+(End of clause)
+
+Attachment A1
+DARS Tracking Number: 2026-O0049
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 8
+Defense FAR Supplement (DFARS) Part 208
+
+
+
+Page 1 of 44
+

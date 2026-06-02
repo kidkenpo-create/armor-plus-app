@@ -1,0 +1,91 @@
+PART 233-PROTESTS, DISPUTES, AND APPEALS
+
+SUBPART 233.1--PROTESTS
+
+233.170  Limited information disclosure.
+If the Government limits information disclosure under the authority provided at 240.271-6(d), actions taken by the Government under such authority are prohibited from challenge in a bid protest before the Government Accountability Office (GAO) or in any Federal court.
+
+233.105  Protests to GAO.
+
+233.105-370  Postaward.
+
+Except as provided in FAR 33.105-3(b)(2) and (c), contracting officers must immediately suspend performance or terminate the award using the time periods in paragraphs (a) through (d) of this section, whichever is later, in lieu of the time periods in FAR 33.105-3(b)(1) if the agency receives notice of a protest from the GAO.
+
+	(a)  Ten days after the date of contract award.
+
+	(b)  Ten days after the date a task order or delivery order is issued, where the value exceeds $25 million (10 U.S.C. 3406(f)).
+
+	(c)  Five days after a debriefing date offered to the protestor under a timely debriefing request in accordance with FAR 15.301 regardless of whether the protestor rejected the offered debriefing date, unless an earlier debriefing date is negotiated as a result.
+
+	(d)  Five days after a postaward debriefing under FAR 15.301 is concluded in accordance with 215.301-2.
+
+233.170  Protested acquisitions valued at $1 billion or more.
+Follow the procedures at PGI 233.170 for protested acquisitions valued at $1 billion or more.
+
+233.171  Reporting requirement for protests of solicitations or awards.
+Follow the procedures at PGI 233.171 for reporting information on protests involving the same contract award or proposed award that have been filed at both the GAO and the U.S. Court of Federal Claims.
+
+SUBPART 233.2--DISPUTES AND APPEALS
+
+233.205  Postaward
+
+233.205-70  Limitations on payment.
+See 10 U.S.C. 3862 for limitations on Congressionally directed payment of a claim under 41 U.S.C. chapter 71 (Contract Disputes), a request for equitable adjustment to contract terms, or a request for relief under Public Law 85-804.
+
+233.205-5  Contracting officer's authority.
+See PGI 233.205-5 for guidance on reviewing a contractor's claim.
+
+233.205-70  Disputes clause.
+Use Alternate I of the clause at FAR 52.233-1, Disputes, when-
+
+	(a)  The acquisition is for-
+
+		(1)  Aircraft;
+
+		(2)  Spacecraft and launch vehicles;
+
+		(3)  Naval vessels;
+
+		(4)  Missile systems;
+
+		(5)  Tracked combat vehicles; or
+
+		(6)  Related electronic systems; or
+
+	(b)  The contracting officer determines that continued performance is-
+
+		(1)  Vital to the national security, or
+
+		(2)  Vital to the public health and welfare; or
+
+	(c)  The head of the contracting activity determines that continued performance is necessary pending resolution of any claim that might arise under or be related to the contract.
+
+233.205-71  Additional contract clause.
+Insert the clause at 252.233-7001, Choice of Law (Overseas), in solicitations and contracts when contract performance will be outside the United States and its outlying areas, unless otherwise provided for in a government-to-government agreement.
+
+PART 252- SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+
+252.233-7001  Choice of Law (Overseas).
+As prescribed in 233.205-71, use the following clause:
+
+CHOICE OF LAW (OVERSEAS) (JUN 1997)
+
+This contract shall be construed and interpreted in accordance with the substantive laws of the United States of America.  By the execution of this contract, the Contractor expressly agrees to waive any rights to invoke the jurisdiction of local national courts where this contract is performed and agrees to accept the exclusive jurisdiction of the United States Armed Services Board of Contract Appeals and the United States Court of Federal Claims for the hearing and determination of any and all disputes that may arise under the Disputes clause of this contract.
+
+(End of clause)
+
+
+Attachment A1
+DARS Tracking Number: 2026-O0026
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 33
+Defense FAR Supplement (DFARS) Part 233
+
+
+
+
+Page 1 of 23
+
+

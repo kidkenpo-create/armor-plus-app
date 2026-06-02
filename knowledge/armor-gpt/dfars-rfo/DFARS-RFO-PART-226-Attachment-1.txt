@@ -1,0 +1,203 @@
+PART 226-OTHER SOCIOECONOMIC PROGRAMS
+
+SUBPART 226.1-INDIAN INCENTIVE PROGRAM
+
+226.102-2  Contract clause.
+Insert the clause at 252.226-7001, Utilization of Indian Organizations, Indian-Owned Economic Enterprises, and Native Hawaiian Small Business Concerns, in solicitations and contracts, including solicitations and contracts using FAR part 12 procedures for the acquisition of commercial products and commercial services, that are for supplies or services exceeding $500,000 in value.
+
+226.103  Postaward.
+Follow the procedures at PGI 226.103 when submitting a request for funding of an Indian incentive.
+
+SUBPART 226.5-DRUG-FREE WORKPLACE
+
+226.570  Drug-free work force.
+
+226.570-1  Policy.
+DoD policy is to ensure that its contractors maintain a program for achieving a drug-free work force.
+
+226.570-2  Contract clause.
+
+	(a)  Insert the clause at 252.226-7003, Drug-Free Work Force, in all solicitations and contracts-
+
+		(1)  That involve access to classified information; or
+
+		(2)  When the contracting officer determines that the clause is necessary for reasons of national security or for the purpose of protecting the health or safety of those using or affected by the product of, or performance of, the contract.
+
+	(b)  Do not use the clause in solicitations and contracts-
+
+		(1)  For commercial products and commercial services;
+
+		(2)  When performance or partial performance will be outside the United States and its outlying areas, unless the contracting officer determines such inclusion to be in the best interest of the Government; or
+
+		(3)  When the value of the acquisition is at or below the simplified acquisition threshold.
+
+SUBPART 226.71-PREFERENCE FOR LOCAL AND SMALL BUSINESSES
+
+226.7100  Scope of subpart.
+This subpart implements Section 2912 of the Fiscal Year 1994 Defense Authorization Act (Pub. L. 103-160) and Section 817 of the Fiscal Year 1995 Defense Authorization Act (Pub. L. 103-337).
+
+
+226.7101  Definition.
+"Vicinity," as used in this subpart, means the county or counties in which the military installation to be closed or realigned is located and all adjacent counties, unless otherwise defined by the agency head.
+
+226.7102  Policy.
+Provide businesses within the vicinity, including small and small disadvantaged businesses the maximum practicable opportunity to participate in acquisitions, including those for environmental restoration and mitigation, that support the closure or realignment of a military installation (10 U.S.C. 2687).  
+
+226.7103  Procedure.
+In considering acquisitions for award through the 8(a) program (see 219.108 and FAR 19.108) or in making set-aside decisions under 219.104 and FAR 19.104 for acquisitions in support of a base closure or realignment-
+
+	(a)  Determine whether there is a reasonable expectation of receiving offers from responsible business concerns located in the vicinity of the military installation that is being closed or realigned.
+
+	(b)  If offers are not expected from business concerns in the vicinity, consider 8(a) or other set-aside programs provided in part 219 and FAR part 19.
+
+	(c)  If offers are expected from business concerns in the vicinity-
+
+		(1)  Consider the 8(a) program only if at least one eligible 8(a) contractor is located in the vicinity.
+
+		(2)  Set aside the acquisition for small business only if at least one of the expected offers is from a small business located in the vicinity.
+
+226.7104  Other considerations.
+When planning for contracts for services related to base closure activities at a military installation affected by a closure or realignment under a base closure law, consider including, as a factor in source selection, the extent to which offerors specifically identify and commit, in their proposals, to a plan to hire residents of the vicinity of the military installation that is being closed or realigned.
+
+SUBPART 226.72-DEMONSTRATION PROJECT FOR CONTRACTORS EMPLOYING PERSONS WITH DISABILITIES
+
+226.7200  Scope of subpart.
+This subpart implements section 853 of the National Defense Authorization Act for Fiscal Year 2004 (Pub. L. 108-136, 10 U.S.C. 3901 note prec.).  This subpart does not supersede the requirement to use the mandatory sources in FAR part 8 or the small business programs in FAR part 19.
+
+226.7201  Definitions.
+As used in this subpart-
+
+	"Eligible contractor" means a business entity operated on a for-profit or nonprofit basis that-
+
+		(1)  Employs severely disabled individuals at a rate that averages not less than 33 percent of its total workforce over the 12-month period prior to issuance of the solicitation;
+
+		(2)  Pays not less than the minimum wage prescribed pursuant to 29 U.S.C. 206 to the employees who are severely disabled individuals; and
+
+		(3)  Provides, for its employees, health insurance and a retirement plan comparable to those provided for employees by business entities of similar size in its industrial sector or geographic region.
+
+	"Severely disabled individual" means an individual with a disability (as defined in 42 U.S.C. 12102) who has a severe physical or mental impairment that seriously limits one or more functional capacities.
+
+226.7202  Policy.
+Contracting officers may use this Demonstration Project to award one or more contracts to an eligible contractor for the purpose of providing defense contracting opportunities for entities that employ severely disabled individuals.  To determine if there are eligible contractors capable of fulfilling the agency's requirement, conduct market research as described in part 210 and FAR part 10.  When electing to use this Demonstration Project, see PGI 226.7202.
+
+226.7203  Solicitation provision.
+Insert the provision at 252.226-7002, Representation for Demonstration Project for Contractors Employing Persons with Disabilities, in solicitations when using this Demonstration Project, including solicitations using FAR part 12 procedures for the 
+acquisition of commercial products and commercial services.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.226-7001  Utilization of Indian Organizations, Indian-Owned Economic Enterprises, and Native Hawaiian Small Business Concerns.
+As prescribed in 226.102-2, use the following clause:
+
+UTILIZATION OF INDIAN ORGANIZATIONS, INDIAN-OWNED ECONOMIC ENTERPRISES, AND NATIVE HAWAIIAN SMALL BUSINESS CONCERNS
+(JAN 2023)
+
+	(a)  Definitions.  As used in this clause-
+
+	"Indian" means-
+
+		(1)  Any person who is a member of any Indian tribe, band, group, pueblo, or community that is recognized by the Federal Government as eligible for services from the Bureau of Indian Affairs (BIA) in accordance with 25 U.S.C. 1452(c); and 
+
+		(2)  Any "Native" as defined in the Alaska Native Claims Settlement Act (43 U.S.C. 1601 et seq.).
+
+	"Indian organization" means the governing body of any Indian tribe or entity established or recognized by the governing body of an Indian tribe for the purposes of 25 U.S.C. Chapter 17.
+
+	"Indian-owned economic enterprise" means any Indian-owned (as determined by the Secretary of the Interior) commercial, industrial, or business activity established or organized for the purpose of profit, provided that Indian ownership constitutes not less than 51 percent of the enterprise.
+
+	"Indian tribe" means any Indian tribe, band, group, pueblo, or community, including native villages and native groups (including corporations organized by Kenai, Juneau, Sitka, and Kodiak) as defined in the Alaska Native Claims Settlement Act, that is recognized by the Federal Government as eligible for services from BIA in accordance with 25 U.S.C. 1452(c).
+
+	"Interested party" means a contractor or an actual or prospective offeror whose direct economic interest would be affected by the award of a subcontract or by the failure to award a subcontract.
+
+	"Native Hawaiian small business concern" means an entity that is-
+
+		(1)  A small business concern as defined in Section 3 of the Small Business Act (15 U.S.C. 632) and relevant implementing regulations; and
+
+		(2)  Owned and controlled by a Native Hawaiian as defined in 25 U.S.C. 4221(9).
+
+	(b)  The Contractor shall use its best efforts to give Indian organizations, Indian-owned economic enterprises, and Native Hawaiian small business concerns the maximum practicable opportunity to participate in the subcontracts it awards, to the fullest extent consistent with efficient performance of the contract.
+
+	(c)  The Contracting Officer and the Contractor, acting in good faith, may rely on the representation of an Indian organization, Indian-owned economic enterprise, or Native Hawaiian small business concern as to its eligibility, unless an interested party challenges its status or the Contracting Officer has independent reason to question that status.
+
+	(d)  In the event of a challenge to the representation of a subcontractor, the Contracting Officer will refer the matter to-
+
+		(1)(i)  For matters relating to Indian organizations or Indian-owned economic 
+enterprises:
+
+				U.S. Department of the Interior
+				Bureau of Indian Affairs
+				Attn:  Bureau Procurement Chief
+				12220 Sunrise Valley Drive
+				Reston, VA 20191  
+				Phone:  703-390-6433
+				Website:  https://www.bia.gov/
+
+			(ii)  The BIA will determine the eligibility and will notify the Contracting 
+Officer.
+
+		(2)(i)  For matters relating to Native Hawaiian small business concerns:
+
+				Department of Hawaiian Home Lands
+				PO Box 1879
+				Honolulu, HI  96805
+				Phone:  808-620-9500
+				Website:  http://dhhl.hawaii.gov/
+
+			(ii)  The Department of Hawaiian Home Lands will determine the eligibility 
+and will notify the Contracting Officer.
+
+	(e)  No incentive payment will be made-
+
+		(1)  While a challenge is pending; or
+
+		(2)  If a subcontractor is determined to be an ineligible participant.
+
+	(f)(1)  The Contractor, on its own behalf or on behalf of a subcontractor at any tier, may request an incentive payment in accordance with this clause. 
+
+		(2)  The incentive amount that may be requested is 5 percent of the estimated cost, target cost, or fixed price included in the subcontract at the time of award to the Indian organization, Indian-owned economic enterprise, or Native Hawaiian small business concern.
+
+		(3)  In the case of a subcontract for commercial products or commercial services, the Contractor may receive an incentive payment only if the subcontracted items are produced or manufactured in whole or in part by an Indian organization, Indian-owned economic enterprise, or Native Hawaiian small business concern.
+
+		(4)  The Contractor has the burden of proving the amount claimed and shall assert its request for an incentive payment prior to completion of contract performance.
+
+		(5)  The Contracting Officer, subject to the terms and conditions of the contract and the availability of funds, will authorize an incentive payment of 5 percent of the estimated cost, target cost, or fixed price included in the subcontract awarded to the Indian organization, Indian-owned economic enterprise, or Native Hawaiian small business concern.
+
+		(6)  If the Contractor requests and receives an incentive payment on behalf of a subcontractor, the Contractor is obligated to pay the subcontractor the incentive amount.
+
+	(g)  The Contractor shall insert the substance of this clause, including this paragraph (g), in all subcontracts exceeding $500,000.
+
+(End of clause)
+
+252.226-7002 Representation for Demonstration Project for Contractors Employing Persons with Disabilities.
+As prescribed in 226.7203, use the following provision:
+
+REPRESENTATION FOR DEMONSTRATION PROJECT FOR CONTRACTORS EMPLOYING PERSONS WITH DISABILITIES (DEC 2019)
+
+	(a)  Definitions. As used in this provision-
+
+	"Eligible contractor" means a business entity operated on a for-profit or nonprofit basis that-
+
+		(1)  Employs severely disabled individuals at a rate that averages not less than 33 percent of its total workforce over the 12-month period prior to issuance of the solicitation;
+
+		(2)  Pays not less than the minimum wage prescribed pursuant to 29 U.S.C. 206 to the employees who are severely disabled individuals; and
+
+		(3)  Provides, for its employees, health insurance and a retirement plan comparable to those provided for employees by business entities of similar size in its industrial sector or geographic region.
+
+	"Severely disabled individual" means an individual with a disability (as defined in 42 U.S.C. 12102) who has a severe physical or mental impairment that seriously limits one or more functional capacities.
+
+	(b)  Demonstration Project. This solicitation is issued pursuant to the Demonstration Project for Contractors Employing Persons with Disabilities.  The purpose of the Demonstration Project is to provide defense contracting opportunities for entities that employ severely disabled individuals.  To be eligible for award, an offeror must be an eligible contractor as defined in paragraph (a) of this provision.
+
+	(c)  Representation.  The offeror represents that it [ ] is [ ] is not an eligible contractor as defined in paragraph (a) of this provision.
+
+(End of provision)
+
+
+Attachment A1
+DARS Tracking Number: 2026-O0008
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 26
+Defense FAR Supplement (DFARS) Part 226
+
+
+Page 1 of 2
+

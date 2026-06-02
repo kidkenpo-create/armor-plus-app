@@ -1,0 +1,66 @@
+PGI 243-CONTRACT MODIFICATIONS
+
+PGI 243.2-GENERAL
+
+PGI 243.270  Identification of foreign military sale (FMS) requirements.
+
+	When adding FMS requirements using a contract modification-
+
+	(1)  Clearly indicate "FMS Requirement" on the front of the modification; and
+
+	(2)  Refer to each FMS case identifier code by line/subline item number within the modification, e.g., FMS Case Identifier GY-D-DCA.
+
+PGI 243.271  Obligation or deobligation of funds.
+
+	Include sufficient information in each contract modification to permit the paying office to readily identify the changes for each contract line and subline item.
+
+	(1)  Include the information under the heading "Summary for the Payment Office" in-
+
+		(i)  Section G, Contract Administration Data (Uniform Contract Format); or
+
+		(ii)  The contract schedule (Simplified Contract Format).
+
+	(2)  The information normally should contain-
+
+		(i)  The amount of funds obligated by prior contract actions, to include-
+
+			(A)  The total cost and fee if a cost-type contract;
+
+			(B)  The target fee at time of contract award if a cost-plus-incentive-fee contract;
+
+			(C)  The base fee if a cost-plus-award-fee contract; or
+
+			(D)  The target price and target profit if a fixed-price incentive contract;
+
+		(ii)  The amount of funds obligated or deobligated by the instant modification, categorized by the types of contracts specified in paragraph (2)(i) of this section; and
+
+		(iii)  The total cumulative amount of obligated or deobligated funds, categorized by the types of contracts specified in paragraph (2)(i) of this section.
+
+PGI 243.3-CHANGE ORDERS
+
+PGI 243.304  Administration.
+
+	(1)  Whenever practicable, provide advance notice of a proposed change order to the administrative contracting officer (ACO).
+
+		(i)  The ACO must review the proposed change order to ensure compatibility with the status of performance.
+
+		(ii)  If the contractor has progressed beyond the effective point specified in the proposed change order, the ACO must determine the earliest practical point at which the change order could be made effective and must advise the contracting officer.
+
+	(2)  If a change order has been issued and the effective date has been determined to be impracticable, the contracting officer must-
+
+		(i)  Issue another change order to correct, revise, or supersede the first change order; then
+
+		(ii)  Definitize by supplemental agreement citing both change orders.
+
+PGI 243.371  Certification of requests for equitable adjustment.
+
+	(b)  For example, a request for equitable adjustment that involves both an increase of $100,000 and a decrease of $105,000 has an absolute value of $205,000 ($100,000 + $105,000, regardless of whether the amounts are plus or minus), which exceeds the simplified acquisition threshold.
+
+Attachment A2
+DARS Tracking Number: 2026-O0034
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 43
+Defense FAR Supplement (DFARS) Part 243
+
+
+Page 1 of 2
+

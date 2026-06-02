@@ -1,0 +1,222 @@
+PART 231-CONTRACT COST PRINCIPLES AND PROCEDURES
+
+SUBPART 231.1-APPLICABILITY
+
+231.100  Scope of subpart.
+
+231.100-70  Contract clause.
+Use the clause at 252.231-7000, Supplemental Cost Principles, in all solicitations and contracts, which are subject to the principles and procedures described in FAR Subparts 31.1, 31.2, 31.6, and 31.7.
+
+SUBPART 231.2-CONTRACTS WITH COMMERCIAL ORGANIZATIONS
+
+231.205  Selected costs.
+
+231.205-1  Public relations and advertising costs.
+
+	(e)  For foreign military sales contracts, see 225.7303-2(e) for allowable costs.
+
+	(f)  Unallowable public relations and advertising costs include the following:
+
+		(1)  Payment to the Government associated with the leasing of Government equipment, including lease payments and reimbursements for support services, except for foreign military sales contracts (see 225.7303-2).
+
+231.205-6  Compensation for personal services.
+
+	(f)(1)  Bonuses and extra payments paid by the contractor to an employee related to restructuring after a business combination are not allowed costs on DoD contracts if paid with funds from fiscal year 1996 appropriations or later ( Section 8122 of Pub. L. 104-61, and similar sections in subsequent Defense appropriations acts).  This limitation does not apply to severance payments or early retirement incentive payments.  ("Business combination" and "restructuring costs" are defined at 231.205-70(b).)
+
+	(m)(1)  Fringe benefit costs that violate laws, employer-employee agreements, or contractor established policy are unallowable.
+
+231.205-18  Independent research and development and bid and proposal costs.
+
+	(a)  Definitions.  As used in this section-
+
+	"Covered contract" means a DoD prime contract or subcontract above the simplified acquisition threshold, except for a fixed-price contract without cost incentives or a fixed-price subcontract without cost incentives under such a prime contract.
+
+	"Covered segment" means-
+
+(1)  A product division of the contractor that allocated more than $1,100,000 in independent research and development (IR&D) costs and bid and proposal (B&P) costs to covered contracts during the preceding fiscal year;
+
+(2)  The contractor as a whole if the contractor has no product divisions; or
+
+(3)  A product division of the contractor that allocated less than $1,100,000 in IR&D costs and B&P costs to covered contracts during the preceding fiscal year and is not subject to the limitations in paragraph (c) of this section.
+
+	"Major contractor" means any contractor whose covered segments allocated a total of more than $11 million in IR&D costs and B&P costs to covered contracts during the preceding fiscal year.  For purposes of calculating the dollar threshold amounts to determine whether a contractor meets the definition of "major contractor," do not include contractor segments allocating less than $1,100,000 of IR&D and B&P costs to covered contracts during the preceding fiscal year.
+
+	(c)  Allowability.
+
+		(i)  This regulation shall not be supplemented in any way that limits IR&D cost allowability and B&P cost allowability.
+
+		(ii)  For foreign military sales contracts, see 225.7303-2(c) for allowable costs.
+
+		(iii)(A)  For IR&D costs incurred on covered contracts to be allowable, a major contractor is required to-
+
+				(1)  Report IR&D projects generating the IR&D costs to the Defense Technical Information Center (DTIC) using the online input form and instructions at https://defenseinnovationmarketplace.dtic.mil/industry-portal/; and
+
+				(2)  Update its DTIC inputs at least annually, within 3 months after the end of the contractor's fiscal year, and when the project is completed.
+
+			(B)  The amount of IR&D costs allowable under DoD contracts is limited to the lesser of-
+
+				(1)  The allocable share of total incurred IR&D costs on such contracts; or
+
+				(2)  The amount of incurred IR&D costs the contractor's chief executive officer determines will advance DoD's future technology and advanced capability as communicated in accordance with 242.771-3(c)(1)(i).
+
+			(C)  For DTIC input by contractors that are not major contractors, see procedures at PGI 231.205-18(c)(iii)(C). 
+
+		(iv)  Contractors are required to report incurred IR&D costs separately from indirect costs.
+
+		(v)  Contractors are required to report incurred B&P costs separately from other indirect costs.
+
+
+
+
+
+231.205-19  Insurance and indemnification.
+
+	(e)  In addition to the cost limitations in FAR 31.205-19(e), self-insurance and purchased insurance costs are subject to the requirements of the clauses at 252.217-7012, Liability and Insurance, and 252.228-7001, Ground and Flight Risk.
+
+231.205-22  Lobbying and political activity costs.
+
+	(a)  Costs associated with preparing any material, report, list, or analysis on the actual or projected economic or employment impact in a particular State or congressional district of an acquisition program are allowable if all research, development, testing, and evaluation has not been completed (10 U.S.C. 4652).  
+
+231.205-70  External restructuring costs.
+
+	(a)  Scope.  This subsection contains policies and procedures for allowing contractor external restructuring costs when savings would result for DoD and implements 10 U.S.C. 3761.
+
+	(b)  Definitions.  As used in this section--
+
+		 "Business combination" means a transaction whereby assets or operations of two or more companies not previously under common ownership or control are combined, whether by merger, acquisition, or sale/purchase of assets.
+
+		 "External restructuring activities" means restructuring activities occurring after a business combination, affecting the operations of companies not previously under common ownership or control.  They exclude restructuring within a single company or only affecting one company from the combination.  External restructuring activities are a direct outgrowth of a business combination and normally occur within 3 years of the business combination.
+
+		 "Restructuring activities" means nonroutine, nonrecurring, or extraordinary activities to combine facilities, operations, or workforce, to eliminate redundant capabilities, improve future operations, and reduce overall costs.  Restructuring activities exclude routine or ongoing repositionings and redeployments of a contractor's productive facilities or workforce (e.g., normal plant rearrangement or employee relocation), and exclude other routine or ordinary activities charged as indirect costs that would otherwise have been incurred (e.g., planning and analysis, contract administration and oversight, or recurring financial and administrative support).
+
+		 "Restructuring costs" means both direct and indirect costs of restructuring activities.  Allowable restructuring costs include, but are not limited to, severance pay for employees, early retirement incentive payments for employees, employee retraining costs, relocation expense for retained employees, and relocation and rearrangement of plant and equipment.  For purposes of this definition, restructuring costs under $2.5 million related to external restructuring activities allocated to DoD contracts are not subject to the audit, review, and determination requirements of paragraph (c)(4) of this subsection; instead, standard cost allowability rules in FAR Part 31 apply.
+
+		 "Restructuring savings" means both direct and indirect cost reductions resulting from restructuring activities.  Cost reassignments to future periods are not restructuring savings.
+
+	(c)  Limitations on cost allowability.  Restructuring costs associated with external restructuring activities are not allowed unless-
+
+		(1)  The costs are allowable in accordance with FAR Part 31 and DFARS Part 231;
+
+		(2)  An audit of projected restructuring costs and restructuring savings is performed;
+
+		(3)  The administrative contracting officer (ACO) reviews the audit report, projected costs, and projected savings, then negotiates an advance agreement per paragraph (d) of this subsection; and
+
+		(4)(i)  The official designated in paragraph (c)(4)(ii) of this subsection makes a written determination that the audited projected savings, on a present value basis, for DoD resulting from the restructuring will exceed either?
+
+				(A)  The costs allowed by a factor of at least two to one; or
+
+				(B)  The costs allowed, and the business combination will result in the preservation of a critical capability that DoD might otherwise lose.
+
+			(ii)(A)  If the amount of restructuring costs is expected to exceed $25 million over a 5-year period, the designated official is the Under Secretary of Defense (Acquisition and Sustainment) or the Principal Deputy.  This authority cannot be delegated below the Assistant Secretary of Defense level.
+
+				(B)  For all other cases, on a nondelegable basis, the designated official is the Director of the Defense Contract Management Agency.  
+
+	(d)  Procedures and ACO responsibilities.  As soon as it is known that the contractor will incur restructuring costs for external restructuring activities, the ACO shall follow the procedures at PGI 231.205-70(d).
+
+	(e)  Information needed to obtain a determination.
+
+		(1)  The novation agreement (if one is required).
+
+		(2)  The contractor's restructuring proposal.
+
+		(3)  The proposed advance agreement.
+
+		(4)  The audit report.
+
+		(5)  Any other pertinent information.
+
+		(6)  The ACO's recommendation for a determination.  This recommendation must clearly indicate one of the following, consistent with paragraph (c)(4)(i) of this subsection:
+
+			(i)  The audited projected savings for DoD will exceed the costs allowed by a factor of at least two to one on a present value basis.
+
+			(ii)  The business combination will result in the preservation of a critical capability that might otherwise be lost to DoD, and the audited projected savings for DoD will exceed the costs allowed on a present value basis.
+
+	(f)  Contracting officer responsibilities.
+
+		(1)  The contracting officer, with the ACO's input, should consider a repricing clause in noncompetitive fixed-price contracts negotiated during the period between?
+
+			(i)  The time a business combination is announced; and
+
+			(ii)  The time the contractor's forward pricing rates are adjusted to reflect the impact of restructuring.
+
+		(2)  Use of a repricing clause depends on the specific situation, including?
+
+			(i)  When the restructuring will take place;
+
+			(ii)  When restructuring savings will begin to be realized;
+
+			(iii)  The contract performance period;
+
+			(iv)  Whether the contracting parties can reasonably estimate the restructuring impact on the contract; and
+
+			(v)  The size of the potential dollar impact of restructuring on the contract.
+
+		(3)  If the contracting officer decides to use a repricing clause, the clause must provide for a downward-only price adjustment to ensure that DoD receives its appropriate share of restructuring net savings.
+
+231.205-71  Costs related to counterfeit electronic parts and suspect counterfeit electronic parts.
+
+	(a)  This section implements the requirements of section 818(c)(2) of Pub. L. 112-81, as modified by section 833 of Pub. L. 112-239, and section 885 of Pub. L. 114-92.
+
+	(b)  The costs of counterfeit electronic parts, suspect counterfeit electronic parts, and the costs of rework or corrective action that may be required to remedy the use or inclusion of such parts are unallowable, unless-
+
+		(1)  The contractor has an operational system to detect and avoid counterfeit electronic parts and suspect counterfeit electronic parts that has been reviewed and approved by DoD pursuant to 244.303;
+
+		(2)  The counterfeit electronic parts or suspect counterfeit electronic parts are Government-furnished property as defined in FAR 45.101 or were obtained by the contractor in accordance with the clause at 252.246-7008, Sources of Electronic Parts; and
+
+		(3)  The contractor-
+
+			(i)  Becomes aware of the counterfeit electronic parts or suspect counterfeit electronic parts through its own or its subcontractor's inspection, testing, and authentication efforts; through a Government Industry Data Exchange Program (GIDEP) alert; or by other means; and
+
+			(ii)  Provides timely (i.e., within 60 days after the contractor becomes aware) written notice to-
+
+				(A)  The contracting officer(s); and
+
+				(B)  GIDEP (unless the contractor is a foreign corporation or partnership that does not have an office, place of business, or fiscal paying agent in the United States; or the counterfeit electronic part or suspect counterfeit electronic part is the subject of an on-going criminal investigation).
+
+SUBPART 231.3-CONTRACTS WITH EDUCATIONAL INSTITUTIONS
+
+231.303  Requirements.
+
+	(1)  Do not place limitations on the reimbursement of otherwise allowable indirect costs incurred on DoD contracts awarded to institutions of higher education on or after November 30, 1993, unless that same limitation is applied uniformly to all other organizations performing similar work under DoD contracts (section 841 of Pub. L. 103-160).  DoD contracts awarded on or after November 30, 1993, to institutions of higher education are exempt from the 26 percent indirect cost limitation imposed by OMB Circular No. A-21 because the same limitation is not uniformly applied to other organizations performing similar work.
+
+	(2)  The administrative contracting officer can waive the 231.303(1) prohibition if the governing body of the institution of higher education requests the waiver to simplify its overall management of DoD cost reimbursements under DoD contracts. The administrative contracting officer can waive the 231.303(1) prohibition if the university requests it to simplify managing DoD cost reimbursements.
+
+	(3)  Under 10 U.S.C. 4652, the costs cited in 231.205-22(a) are unallowable.
+
+SUBPART 231.6-CONTRACTS WITH STATE, LOCAL, AND FEDERALLY
+RECOGNIZED INDIAN TRIBAL GOVERNMENTS
+
+231.603  Requirements.
+Under 10 U.S.C. 4652, the costs cited in 231.205-22(a) are unallowable.
+
+SUBPART 231.7-CONTRACTS WITH NONPROFIT ORGANIZATIONS
+
+231.703  Requirements.
+Under 10 U.S.C. 4652, the costs cited in 231.205-22(a) are unallowable.
+
+
+
+
+
+
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.231-7000  Supplemental Cost Principles.
+As prescribed in 231.100-70, use the following clause:
+
+SUPPLEMENTAL COST PRINCIPLES (DEC 1991)
+
+When the allowability of costs under this contract is determined in accordance with Part 31 of the Federal Acquisition Regulation (FAR), allowability shall also be determined in accordance with Part 231 of the Defense FAR Supplement, in effect on the date of this contract. 
+
+(End of clause)
+Attachment A1
+DARS Tracking Number: 2026-O0032
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 31
+Defense FAR Supplement (DFARS) Part 231
+
+
+Page 1 of 42
+

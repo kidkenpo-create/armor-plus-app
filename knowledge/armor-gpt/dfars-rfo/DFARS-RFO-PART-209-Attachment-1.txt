@@ -1,0 +1,935 @@
+
+PART 209-CONTRACTOR QUALIFICATIONS
+
+SUBPART 209.1-RESPONSIBLE PROSPECTIVE CONTRACTORS
+
+209.101  Definitions.  
+
+As used in this subpart-
+
+"Effectively owned or controlled" means that a foreign government or any entity controlled by a foreign government has the power, either directly or indirectly, whether exercised or exercisable, to control the election, appointment, or tenure of the Offeror's officers or a majority of the Offeror's board of directors by any means, e.g., ownership, contract, or operation of law (or equivalent power for unincorporated organizations).
+
+"Entity controlled by a foreign government"-
+
+	(1) Means-
+
+		(i)  Any domestic or foreign organization or corporation that is effectively owned or controlled by a foreign government; or
+
+		(ii)  Any individual acting on behalf of a foreign government.
+
+	(2)  Does not include an organization or corporation that is owned, but is not controlled, either directly or indirectly, by a foreign government if the ownership of that organization or corporation by that foreign government was effective before October 23, 1992.
+
+"Foreign government" includes the state and the government of any country (other than the United States and its outlying areas) as well as any political subdivision, agency, or instrumentality thereof.
+
+"Proscribed information" means-
+
+	(1)  Top Secret information;
+
+	(2)  Communications security (COMSEC) material, excluding controlled cryptographic items when unkeyed or utilized with unclassified keys;
+
+	(3)  Restricted Data as defined in the U.S. Atomic Energy Act of 1954, as amended;
+
+	(4)  Special Access Program (SAP) information; or
+
+	(5)  Sensitive Compartmented Information (SCI).
+
+209.104  Standards.
+
+209.104-1  General standards.
+
+	(e)  For cost-reimbursement or incentive type contracts, or contracts that provide for progress payments based on costs or on a percentage or stage of completion, the prospective contractor's accounting system and related internal controls must provide reasonable assurance that-
+
+		(i)  Applicable laws and regulations are complied with;
+
+		(ii)  The accounting system and cost data are reliable;
+
+		(iii)  Risk of misallocations and mischarges are minimized; and
+
+		(iv)  Contract allocations and charges are consistent with invoice procedures.
+
+	(g)(i)  Ownership or control by the government of a country that is a state sponsor of terrorism.  (See part 240).
+
+		(ii)  Ownership or control by a foreign government when access to proscribed information is required to perform the contract.  (A)  In accordance with 10 U.S.C. 4874(a), do not award a DoD contract under a national security program to an entity controlled by a foreign government if that entity requires access to proscribed information to perform the contract.
+
+			(B)  For questions about applying the provision at 252.209-7002, seek advice from the Security Directorate, Office of the Deputy Under Secretary of Defense, Human Intelligence, Counterintelligence, and Security.
+
+			(C)  In accordance with 10 U.S.C. 4874(b)(1)(A), the Secretary of Defense may waive the prohibition in paragraph (g)(ii)(A) of this section upon determining that the waiver is essential to the national security interests of the United States.  The Secretary has delegated authority to grant this waiver to the Under Secretary of Defense for Intelligence.  Waiver requests, prepared by the requiring activity in coordination with the contracting officer, must be processed through the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, Office of the Under Secretary of Defense (Acquisition and Sustainment), and must include a proposed national interest determination.  The proposed national interest determination, prepared by the requiring activity in coordination with the contracting officer, must include-
+
+				(1)  Identification of the proposed awardee, with a synopsis of its foreign ownership (include solicitation and other reference numbers to identify the action);
+
+				(2)  General description of the acquisition and performance requirements;
+
+				(3)  Identification of the national security interests involved and the ways award of the contract helps advance those interests;
+
+				(4)  The availability of another entity with the capacity, capability and technical expertise to satisfy defense acquisition, technology base, or industrial base requirements; and
+
+				(5)  A description of any alternate means available to satisfy the requirement, e.g., use of substitute products or technology or alternate approaches to accomplish the program objectives.
+
+			(D)  In accordance with 10 U.S.C. 4874(b)(1)(B), the Secretary of Defense may, in the case of a contract awarded for environmental restoration, remediation, or waste management at a DoD facility, waive the prohibition in paragraph (g)(ii)(A) of this section upon-
+
+				(1)  Determining that-
+
+					(i)  The waiver will advance the environmental restoration, remediation, or waste management objectives of DoD and will not harm the national security interests of the United States; and
+
+					(ii)  The contract awardee is controlled by a foreign government with which the Secretary is authorized to exchange Restricted Data under section 144c. of the Atomic Energy Act of 1954 (42 U.S.C. 2164(c)); and
+
+				(2)  Notifying Congress of the decision to grant the waiver.  Award the contract only after the end of the 45-day period beginning on the date the appropriate Congressional committees receive notification.
+
+209.104-4  Subcontractor responsibility.
+Generally, the Canadian Commercial Corporation's (CCC) proposal of a firm as its subcontractor forms a sufficient basis for an affirmative determination of responsibility.  However, when the CCC determination of responsibility is not consistent with other information, request additional information necessary to make the responsibility determination from CCC and any other sources.
+
+209.104-70  Solicitation provision.
+Unless the solicitation includes the provision at FAR 52.204-7, insert the provision at 252.209-7002, Disclosure of Ownership or Control by a Foreign Government, in all solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, and solicitations using the procedures in FAR part 13, when access to proscribed information is necessary for contract performance.  
+
+209.105  Procedures.
+
+209.105-1  Obtaining information.
+
+	(1)  For guidance on using the Exclusions section of the System for Award Management, see PGI 209.105-1.
+
+	(2)  Consider the supplier risk assessment available in the Supplier Performance Risk System at https://piee.eb.mil/ when determining responsibility.  See 204.7603(c).
+
+
+
+
+209.105-2  Determinations and documentation.
+
+	(a)  Submit a copy of a determination of nonresponsibility to the appropriate debarring and suspending official listed in 209.403.
+
+209.105-270  Inclusion of determination of contractor fault in the Integrity Records module in CPARS.
+In accordance with section 834 of the National Defense Authorization Act for Fiscal Year 2011 (Pub. L. 111-383), if the contractor or a subcontractor at any tier is not subject to the jurisdiction of the U.S. courts, and the DoD appointing official that requested a DoD investigation makes a final determination that the contractor's or subcontractor's gross negligence or reckless disregard for the safety of Government personnel caused serious bodily injury or death of such personnel, then enter information regarding the determination in the Integrity Records module in CPARS within 3 days of receiving it.  Information posted in the Integrity Records module in CPARS will be publicly available.
+
+209.170  Restriction on the use of certain institutions of higher education.
+
+209.170-0  Scope.
+This section implements section 1062 of the National Defense Authorization Act for Fiscal Year 2021 (Pub. L. 116-283).
+
+209.170-1  Definitions.
+As used in this section-
+
+"Confucius Institute" means-
+
+	(1)  Any program that receives funding or support from-
+
+		(i)  The Chinese International Education Foundation; or
+
+		(ii)  The Center for Language Exchange Cooperation of the Ministry of Education of the People's Republic of China; or
+
+	(2)  Any cultural institute directly or indirectly funded by the government of the People's Republic of China.
+
+"Institution of higher education" has the meaning given in 20 U.S.C. 1002.
+
+209.170-2  Restriction.
+None of the funds authorized to be appropriated or otherwise made available for any fiscal year for DoD may be used to contract with an institution of higher education that hosts a Confucius Institute, other than amounts provided directly to students as educational assistance.  Do not enter into a contract with any institution of higher education that hosts a Confucius Institute, unless a waiver has been granted.
+
+209.170-3  Waiver of restriction.
+The Office of the Under Secretary of Defense (Research and Engineering) can, without power of delegation, waive the restriction in 209.170-2 in accordance with the Confucius Institute Waiver Program guidance.  The waiver authority terminates on October 1, 2026.  Any waiver issued will not apply on or after that date. See PGI 209.170-3.
+
+209.170-4  Solicitation provision.
+Insert the provision at 252.209-7011, Representation for Restriction on the Use of Certain Institutions of Higher Education, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial products and commercial services, for acquisitions to an institution of higher education.
+
+209.171  Preaward surveys.
+Follow the procedures at PGI 209.171 when requesting a preaward survey.
+
+SUBPART 209.2-QUALIFICATIONS REQUIREMENTS
+
+209.202  Policy.
+	(a)(1)  Except for aviation or ship critical safety items, obtain approval in accordance with PGI 209.202(a)(1) when establishing qualification requirements.  See 209.270 for approval of qualification requirements for aviation or ship critical safety items.
+
+209.270  Aviation and ship critical safety items.
+
+209.270-1  Scope.
+
+This section implements-
+
+	(a)  Section 802 of the National Defense Authorization Act for Fiscal Year 2004 (Pub. L. 108-136); and
+
+	(b)  Section 130 of the National Defense Authorization Act for Fiscal Year 2007 (Pub. L. 109-364); and
+
+209.270-2  Definitions.
+As used in this section-
+
+"Aviation critical safety item" means a part, an assembly, installation equipment, launch equipment, recovery equipment, or support equipment for an aircraft or aviation weapon system if the part, assembly, or equipment contains a characteristic any failure, malfunction, or absence of which could cause-
+
+	(1)  A catastrophic or critical failure resulting in the loss of or serious damage to the aircraft or weapon system;
+
+	(2)  An unacceptable risk of personal injury or loss of life; or
+
+	(3)  An uncommanded engine shutdown that jeopardizes safety.
+
+"Design control activity"-
+
+	(1)  With respect to an aviation critical safety item, means the systems command of a military department that is specifically responsible for ensuring the air worthiness of an aviation system or equipment in which an aviation critical safety item is to be used; and
+
+	(2)  With respect to a ship critical safety item, means the systems command of a military department that is specifically responsible for ensuring the seaworthiness of a ship or ship equipment in which a ship critical safety item is to be used.
+
+"Ship critical safety item" means any ship part, assembly, or support equipment containing a characteristic the failure, malfunction, or absence of which could cause-
+
+	(1)  A catastrophic or critical failure resulting in loss of or serious damage to the ship; or
+
+	(2)  An unacceptable risk of personal injury or loss of life.
+
+209.270-3  Policy.
+
+	(a)  The head of the contracting activity responsible for procuring an aviation or ship critical safety item may enter into a contract for the procurement, modification, repair, or overhaul of such an item only with a source approved by the head of the design control activity.
+
+	(b)  The approval authorities specified in this section apply in lieu of those otherwise specified in FAR 9.202(a)(1), 9.202(c), or 9.206-1(c), for the procurement, modification, repair, and overhaul of aviation or ship critical safety items.
+
+209.270-4  Procedures.
+
+	(a)  The head of the design control activity must-
+
+		(1)  Identify items that meet the criteria for designation as aviation or ship critical safety items. See additional information at PGI 209.270-4;
+
+		(2)  Approve qualification requirements in accordance with procedures established by the design control activity; and
+
+		(3)  Qualify and identify aviation and ship critical safety item suppliers and products.
+
+	(b)(1)  Ensure that the head of the design control activity has determined that a prospective contractor or its product meets or can meet the established qualification standards before the date specified for award of the contract;
+
+		(2)  Refer any offers received from an unapproved source to the head of the design control activity for approval. The head of the design control activity will determine whether the offeror or its product meets or can meet the established qualification standards before the date specified for award of the contract; and
+
+		(3)  Refer any requests for qualification to the design control activity.
+
+	(c)  See 246.407 and 246.504 for quality assurance requirements.
+
+209.270-5  Contract clause.
+Insert the clause at 252.209-7010, Critical Safety Items, in solicitations and contracts when the acquisition includes one or more items designated by the design control activity as critical safety items.
+
+SUBPART 209.3 [RESERVED]
+
+SUBPART 209.4-DEBARMENT, SUSPENSION, AND INELIGIBILITY
+
+209.402  Policy.
+
+	(d)  All debarring and suspending officials must follow the uniform suspension and debarment procedures provided at Appendix H to this chapter.
+
+	(e)  The department or agency must provide a copy of the Debarment and Suspension Procedures at DFARS appendix H to contractors at the time of their suspension or when they are proposed for debarment, and to other interested parties upon request.
+
+209.403  Definitions.
+
+"Debarring and suspending official".  (1)  For DoD, the designees are-
+
+		(i)  Army-Director, Soldier & Family Legal Services.
+
+		(ii)  Navy/Marine Corps-The Assistant General Counsel (Acquisition Integrity).
+
+		(iii)  Air Force-Deputy General Counsel (Contractor Responsibility).
+
+		(iv)  Defense Advanced Research Projects Agency-The Director.
+
+		(v)  Defense Health Agency-The Principal Deputy General Counsel.
+
+		(vi)  Defense Information Systems Agency-The General Counsel.
+
+		(vii)  Defense Intelligence Agency-The Senior Procurement Executive.
+
+		(viii)  Defense Logistics Agency-The Special Assistant for Contracting Integrity.
+
+		(ix)  Defense Threat Reduction Agency-The Director.
+
+		(x)  Missile Defense Agency-The General Counsel.
+
+		(xi)  National Geospatial-Intelligence Agency-The General Counsel.
+
+		(xii)  National Security Agency-The Senior Acquisition Executive.
+
+		(xiii)  United States Cyber Command-The Staff Judge Advocate.
+
+		(xiv)  Overseas installations-as designated by the agency head.
+
+	(2)  Overseas debarring and suspending officials-
+
+		(i)  Are authorized to debar or suspend contractors located within the official's geographic area of responsibility under any delegation of authority they receive from their agency head.
+
+		(ii)  Debar or suspend in accordance with the procedures in FAR subpart 9.4 or under modified procedures approved by the agency head based on consideration of the laws or customs of the foreign countries concerned.
+
+		(iii)  In addition to the bases for debarment in FAR 9.406-2, may consider the following additional bases-
+
+			(A)  The foreign country concerned determines that a contractor has engaged in bid-rigging, price-fixing, or other anti-competitive behavior; or
+
+			(B)  The foreign country concerned declares the contractor to be formally debarred, suspended, or otherwise ineligible to contract with that foreign government or its instrumentalities.
+
+	(3)  The Defense Logistics Agency Special Assistant for Contracting Integrity is the exclusive representative of the Secretary of Defense to suspend and debar contractors from the purchase of Federal personal property under the Federal Property Management Regulations (41 CFR 101-45.6) and the Defense Materiel Disposition Manual (DoD 4160.21-M).
+
+209.405  Effect of listing.
+
+	(a)  In accordance with 10 U.S.C. 4654(b), when a department or agency determines that a compelling reason exists to conduct business with a debarred or suspended contractor, it must provide written notice of the determination to the General Services Administration (GSA), GSA Suspension and Debarment Official, Office of Acquisition Policy, 1275 First Street, NE., Washington, DC 20417. Examples of compelling reasons are-
+
+		(i)  Only a debarred or suspended contractor can provide the supplies or services;
+
+		(ii)  Urgency requires contracting with a debarred or suspended contractor;
+
+		(iii)  The contractor and a department or agency have an agreement covering the same events that resulted in the debarment or suspension and the agreement includes the department or agency decision not to debar or suspend the contractor; or
+
+		(iv)  The national defense requires continued business dealings with the debarred or suspended contractor.
+
+	(b)(i)  The Procurement Cause and Treatment Code "H" annotation in the Exclusions section of the System for Award Management (SAM Exclusions) identifies contractor facilities where no part of a contract or subcontract may be performed because of a violation of the Clean Air Act (42 U.S.C. 7606) or the Clean Water Act (33 U.S.C. 1368).
+
+		(ii)  Under the authority of Section 8 of Executive Order 11738, the agency head may grant an exemption permitting award to a contractor using a Code "H" ineligible facility if the agency head determines that such an exemption is in the paramount interest of the United States.
+
+			(A)  The agency head may delegate this exemption authority to a level no lower than a general or flag officer or a member of the Senior Executive Service.
+
+			(B)  The official granting the exemption-
+
+				(1)  Must promptly notify the Environmental Protection Agency suspending and debarring official of the exemption and the corresponding justification; and
+
+				(2)  May grant a class exemption only after consulting with the Environmental Protection Agency suspending and debarring official.
+
+			(C)  Exemptions must not exceed one year.  Agencies must review the necessity for each exemption annually and, upon making of a new determination, may be extended for periods not to exceed one year.
+
+			(D)  Agencies must report all exemptions annually to the Environmental Protection Agency suspending and debarring official.
+
+			(E)  See PGI 209.405 for additional procedures and information.
+
+209.405-2  Restrictions on subcontracting.
+
+	(a)  Do not consent to any subcontract with a firm, or a subsidiary of a firm, identified in SAM Exclusions as owned or controlled by the government of a country that is a state sponsor of terrorism unless the agency head states in writing the compelling reasons for the subcontract.  (See also part 240.)
+
+209.406  Debarment.
+
+209.406-1  General.
+
+	(a)(i)  When the debarring official decides that debarment is not necessary, the official may require the contractor to enter into a written agreement that includes-
+
+			(A)  A requirement for the contractor to establish, if not already established, and to maintain the standards of conduct and internal control systems prescribed by FAR subpart 3.10; and
+
+			(B)  Other requirements the debarring official considers appropriate.
+
+		(ii)  Before the debarring official decides not to suspend or debar in the case of an indictment or conviction for a felony, the debarring official must determine that the contractor has addressed adequately the circumstances that gave rise to the misconduct, and that appropriate standards of ethics and integrity are in place and are working.
+
+209.406-2  Causes for debarment.
+
+	(1)  Consider any person for debarment if criminally convicted of intentionally affixing a label bearing a "Made in America" inscription to any product sold in or shipped to the United States or its outlying areas that was not made in the United States or its outlying areas (10 U.S.C. 4658).
+
+		(i)  The debarring official will make a determination concerning debarment not later than 90 days after determining that a person has been so convicted.
+
+		(ii)  If the debarring official decides not to debar, the debarring official will report that decision to the Principal Director, Defense Pricing, Contracting, and Acquisition Policy, who will notify Congress within 30 days after the decision is made.
+
+	(2)  A contractor that knowingly provides compensation to a former DoD official in violation of section 847 of the National Defense Authorization Act for Fiscal Year 2008 may face suspension and debarment proceedings in accordance with 41 U.S.C. 2105(c)(1)(C).
+
+209.406-3  Procedures.
+Use the procedures at PGI 209.470 when referring a potential debarment to the agency debarring and suspending official identified in 209.403.
+
+209.407  Suspension.
+
+209.407-3  Procedures.
+Use the procedures at PGI 209.470 when referring a potential suspension to the agency debarring and suspending official identified in 209.403.
+
+209.409  Contract clause.
+Insert the clause at 252.209-7004, Subcontracting with Firms that are Owned or Controlled by the Government of a Country that is a State Sponsor of Terrorism, in solicitations and contracts with a value of $200,000 or more.
+
+209.470  [Reserved]
+
+209.471  Congressional Medal of Honor.
+In accordance with Section 8118 of Pub. L. 105-262, do not award a contract to, extend a contract with, or approve the award of a subcontract to any entity that, within the preceding 15 years, has been convicted under 18 U.S.C. 704 of the unlawful manufacture or sale of the Congressional Medal of Honor.  Any entity so convicted will be listed as ineligible on the List of Parties Excluded from Federal Procurement and Nonprocurement Programs published by the General Services Administration.
+
+
+
+SUBPART 209.5-ORGANIZATIONAL AND CONSULTANT CONFLICTS OF INTEREST
+
+209.503-70  Waiver.
+
+Notwithstanding FAR 9.503, for consulting services, as defined at 209.572(b), the waiver approval authority is the Secretary of Defense and the following officials, without power of delegation below an official appointed by the President and confirmed by the Senate:
+
+	(a)  The Under Secretary of Defense (Acquisition and Sustainment).
+
+	(b)  The assistant secretaries of the military departments.  (See PGI 209.503-70.)
+
+209.505  General rules.
+
+209.505-4  Obtaining access to proprietary information.
+
+	(b)(i)  For contractors, other than litigation support contractors, accessing third party proprietary technical data or computer software, non-disclosure requirements are addressed at 227.7103-7(b), through use of the clause at 252.227-7025 as prescribed at 227.7103-6(e).  Pursuant to that clause, covered Government support contractors may be required to enter into non-disclosure agreements directly with the third-party asserting restrictions on limited rights technical data, commercial technical data, or restricted rights computer software.  The contracting officer is not required to obtain copies of these agreements or to ensure that they are properly executed.
+
+		(ii)  For litigation support contractors accessing litigation information, including that originating from third parties, use and non-disclosure requirements are addressed using the clause at 252.204-7014, as prescribed at 204.7403(a).  Pursuant to the clause, litigation support contractors are not required to enter into non-disclosure agreements directly with any third-party asserting restrictions on any litigation information.
+
+209.570  Limitations on contractors acting as lead system integrators.
+
+209.570-1  Definitions.  
+As used in this section-
+
+"Lead system integrator with system responsibility" means a prime contractor for the development or production of a major system, if the prime contractor is not expected at the time of award to perform a substantial portion of the work on the system and the major subsystems.  (See PGI 209.570-1 for additional information.)
+
+"Lead system integrator without system responsibility" means a prime contractor under a contract for the procurement of services, the primary purpose of which is to perform acquisition functions closely associated with inherently governmental functions (see section 7.503(d) of the Federal Acquisition Regulation) with respect to the development or production of a major system.
+
+
+
+209.570-2  Policy.
+
+	(a)  Except as provided in paragraph (b) of this section, 10 U.S.C. 4292 prohibits any entity performing lead system integrator functions in the acquisition of a major system by DoD from having any direct financial interest in the development or construction of any individual system or element of any system of systems.
+
+	(b)  The prohibition in paragraph (a) of this subsection does not apply if-
+
+		(1)  The Secretary of Defense certifies to the Committees on Armed Services of the Senate and the House of Representatives that-
+
+			(i)  The entity was selected by DoD as a contractor to develop or construct the system or element concerned through the use of competitive procedures; and
+
+			(ii)  DoD took appropriate steps to prevent any organizational conflict of interest in the selection process; or
+
+		(2)  The entity was selected by a subcontractor to serve as a lower-tier subcontractor, through a process over which the entity exercised no control.
+
+	(c)  In accordance with section 802 of the National Defense Authorization Act for Fiscal Year 2008 (Pub. L. 110-181; 10 U.S.C. 4292 note), DoD may award a new contract for lead system integrator functions in the acquisition of a major system only if-
+
+		(1)  The major system has not yet proceeded beyond low-rate initial production; or
+
+		(2)  The Secretary of Defense determines in writing that carrying out the acquisition without continuing to use a contractor to perform lead system integrator functions would be impracticable and that doing so is in the best interest of DoD.  The authority to make this determination may not be delegated below the level of the Under Secretary of Defense for Acquisition and Sustainment.  See also 209.570-3(b).
+
+	(d)  Effective October 1, 2010, DoD is prohibited from awarding a new contract for lead system integrator functions in the acquisition of a major system to any entity that was not performing lead system integrator functions in the acquisition of the major system prior to January 28, 2008.
+
+209.570-3  Procedures.
+
+	(a)  In making a responsibility determination before awarding a contract for the acquisition of a major system-
+
+		(1)  Determine whether the prospective contractor meets the definition of "lead system integrator";
+
+		(2)  Consider all information regarding the prospective contractor's direct financial interests in view of the prohibition at 209.570-2(a); and
+
+		(3)  Follow the procedures at PGI 209.570-3.
+
+	(b)  A determination to use a contractor to perform lead system integrator functions in accordance with 209.570-2(c)(2)-
+
+		(1)  Must specify the reasons why conducting the acquisition without continuing to use a contractor to perform lead system integrator functions would be impracticable, including a discussion of alternatives, such as use of the DoD workforce or a system engineering and technical assistance contractor;
+
+		(2)  Must include a plan for phasing out the use of contracted lead system integrator functions over the shortest period of time consistent with the interest of the national defense; and
+
+		(3)  Must be provided to the Committees on Armed Services of the Senate and the House of Representatives at least 45 days before the award of a contract pursuant to the determination.
+
+209.570-4  Solicitation provision and contract clause.
+
+	(a)  Insert the provision at 252.209-7006, Limitations on Contractors Acting as Lead System Integrators, in solicitations for the acquisition of a major system when the acquisition strategy envisions the use of a lead system integrator.
+
+	(b)  Insert the clause at 252.209-7007, Prohibited Financial Interests for Lead System Integrators-
+
+		(1)  In solicitations that include the provision at 252.209-7006; and
+
+		(2)  In contracts when the contractor will fill the role of a lead system integrator for the acquisition of a major system.
+
+209.571  Organizational conflicts of interest in major defense acquisition programs.
+
+209.571-0  Scope of section.
+This section implements section 207 of the Weapons System Acquisition Reform Act of 2009 (Pub. L. 111-23).
+
+209.571-1 Definitions.
+As used in this section-
+
+"Lead system integrator" includes lead system integrator with system responsibility and lead system integrator without system responsibility.
+
+	(i)  "Lead system integrator with system responsibility" means a prime contractor for the development or production of a major system, if the prime contractor is not expected at the time of award to perform a substantial portion of the work on the system and the major subsystems.
+
+	(ii)  "Lead system integrator without system responsibility" means a prime contractor under a contract for the procurement of services, the primary purpose of which is to perform acquisition functions closely associated with inherently governmental functions (see section 7.503(d) of the Federal Acquisition Regulation) with respect to the development or production of a major system.
+
+"Major subcontractor" means a subcontractor that is awarded a subcontract that equals or exceeds-
+
+	(i)  Both the certified cost or pricing data threshold and 10 percent of the value of the contract under which the subcontract is awarded; or
+
+	(ii)  $55 million.
+
+"Pre-Major Defense Acquisition Program" means a program that is in the Materiel Solution Analysis or Technology Development Phases preceding Milestone B of the Defense Acquisition System and has been identified to have the potential to become a major defense acquisition program.
+
+"Systems engineering and technical assistance".
+
+		(1)  "Systems engineering" means an interdisciplinary technical effort to evolve and verify an integrated and total life cycle balanced set of system, people, and process solutions that satisfy customer needs.
+
+		(2)  "Technical assistance" means the acquisition support, program management support, analyses, and other activities involved in the management and execution of an acquisition program.
+
+		(3)  "Systems engineering and technical assistance"-
+
+			(i)  Means a combination of activities related to the development of technical information to support various acquisition processes.  Examples of systems engineering and technical assistance activities include, but are not limited to, supporting acquisition efforts such as-
+
+				(A)  Deriving requirements;
+
+				(B)  Performing technology assessments;
+
+				(C)  Developing acquisition strategies;
+
+				(D)  Conducting risk assessments;
+
+				(E)  Developing cost estimates;
+
+				(F)  Determining specifications;
+
+				(G)  Evaluating contractor performance and conducting independent verification and validation;
+
+				(H)  Directing other contractors' (other than subcontractors) operations;
+
+				(I)  Developing test requirements and evaluating test data;
+
+				(J)  Developing work statements (but see paragraph (ii)(B) of this definition).
+
+			(ii)  Does not include-
+
+				(A)  Design and development work of design and development contractors, in accordance with FAR 9.505-2(a)(3) or FAR 9.505-2(b)(3), and the guidance at PGI 209.571-7; or
+
+				(B)  Preparation of work statements by contractors, acting as industry representatives, under the supervision and control of Government representatives, in accordance with FAR 9.505-2(b)(1)(ii).
+
+209.571-2  Applicability.
+
+	(a)  This section applies to major defense acquisition programs.
+
+	(b)  To the extent that this section is inconsistent with FAR subpart 9.5, this section takes precedence.
+
+209.571-3  Policy.
+
+	(a)  Agencies must obtain advice on major defense acquisition programs and pre-major defense acquisition programs from sources that are objective and unbiased; and
+
+	(b)  Generally, seek to resolve organizational conflicts of interest in a manner that will promote competition and preserve DoD access to the expertise and experience of qualified contractors.  Accordingly, to the extent feasible, employ organizational conflict of interest resolution strategies that do not unnecessarily restrict the pool of potential offerors in current or future acquisitions.  Further, contracting activities must not impose across-the-board restrictions or limitations on the use of particular resolution methods, except as required under 209.571-7 or as appropriate in particular acquisitions.
+
+209.571-4  Mitigation.
+
+	(a)  Mitigation is any action taken to minimize an organizational conflict of interest. Mitigation may require Government action, contractor action, or a combination of both.
+
+	(b)  If the contracting officer and the contractor have agreed to mitigation of an organizational conflict of interest, incorporate into the contract a Government-approved Organizational Conflict of Interest Mitigation Plan, reflecting the actions a contractor has agreed to take to mitigate a conflict.
+
+	(c)  If determining, after consultation with legal counsel, that the otherwise successful offeror is unable to effectively mitigate an organizational conflict of interest, then , taking into account both the contract and longer term Government needs, use another approach to resolve the organizational conflict of interest, select another offeror, or request a waiver in accordance with FAR 9.503 (but see statutory prohibition in 209.571-7).
+
+	(d)  For any acquisition exceeding $1 billion, brief the senior procurement executive before determining that an offeror's mitigation plan is unacceptable.
+
+209.571-5  Lead system integrators.
+For limitations on contractors acting as lead systems integrators, see 209.570.
+
+209.571-6  Identification of organizational conflicts of interest.
+
+When evaluating organizational conflicts of interest for major defense acquisition programs or pre-major defense acquisition programs, consider-
+
+	(a)  The ownership of business units performing systems engineering and technical assistance, professional services, or management support services to a major defense acquisition program or a pre-major defense acquisition program by a contractor who simultaneously owns a business unit competing (or potentially competing) to perform as-
+
+		(1)  The prime contractor for the same major defense acquisition program; or
+
+		(2)  The supplier of a major subsystem or component for the same major defense acquisition program.
+
+	(b)  The proposed award of a major subsystem by a prime contractor to business units or other affiliates of the same parent corporate entity, particularly the award of a subcontract for software integration or the development of a proprietary software system architecture; and
+
+	(c)  The performance by, or assistance of, contractors in technical evaluation.
+
+209.571-7  Systems engineering and technical assistance contracts.
+
+	(a)  Agencies must obtain advice on systems architecture and systems engineering matters with respect to major defense acquisition programs or pre-major defense acquisition programs from Federally Funded Research and Development Centers or other sources independent of the major defense acquisition program contractor.
+
+	(b)  Limitation on Future Contracting.  (1)  Except as provided in paragraph (c) of this section, a contract for the performance of systems engineering and technical assistance for a major defense acquisition program or a pre-major defense acquisition program must prohibit the contractor or any affiliate of the contractor from participating as a contractor or major subcontractor in the development or production of a weapon system under such program.
+
+		(2)  The requirement in paragraph (b)(1) of this section cannot be waived.
+
+	(c)  Exception.  (1)  The requirement in paragraph (b)(1) of this section does not apply if the head of the contracting activity determines that-
+
+			(i)  An exception is necessary because DoD needs the domain experience and expertise of the highly qualified, apparently successful offeror; and
+
+			(ii)  Based on the agreed-to resolution strategy, the apparently successful offeror will be able to provide objective and unbiased advice, as required by 209.571-3(a), without a limitation on future participation in development and production.
+
+		(2)  The authority to make this determination is non-delegable.
+
+209.571-8  Solicitation provision and contract clause.
+
+	(a)  Insert the provision at 252.209-7008, Notice of Prohibition Relating to Organizational Conflict of Interest-Major Defense Acquisition Program, if the solicitation includes the clause at 252.209-7009, Organizational Conflict of Interest-Major Defense Acquisition Program; and
+
+	(b)  Insert the clause at 252.209-7009, Organizational Conflict of Interest-Major Defense Acquisition Program, in solicitations and contracts for systems engineering and technical assistance for major defense acquisition programs or pre-major defense acquisition programs.
+
+209.572  Conflicts of interest in certain consulting services.
+
+	(a)  Scope.  (1)  This section implements section 812 of the National Defense Authorization Act for Fiscal Year 2024 (Pub. L. 118-31).
+
+		(2)  To the extent that this section is inconsistent with FAR subpart 9.5, this section takes precedence.
+
+	(b)  Definitions.  As used in this section-
+
+"Consulting services" means advisory and assistance services, except that "consulting services" does not include the provision of products or services related to-
+
+	(i)  Compliance with legal, audit, accounting, tax, reporting, or other requirements of the laws and standards of countries; or
+
+	(ii)  Participation in a judicial, legal, or equitable dispute resolution proceeding.
+
+"Contract oversight entity" means any of the following:
+
+	(i)  The contracting officer.
+
+	(ii)  The contracting officer's representative.
+
+	(iii)  The Defense Contract Management Agency.
+
+	(iv)  The Defense Contract Audit Agency.
+
+	(v)  The DoD Office of Inspector General or any subcomponent of that office.
+
+	(vi)  The Government Accountability Office.
+
+"Covered contract" means a DoD contract involving consulting services.
+
+"Covered foreign entity" means any of the following:
+
+	(i)  The government of the People's Republic of China, the Chinese Communist Party, the People's Liberation Army, the Ministry of State Security, or other security service or intelligence agency of the People's Republic of China.
+
+	(ii)  The government of the Russian Federation or any entity sanctioned by the Secretary of the Treasury under Executive Order 13662, Blocking Property of Additional Persons Contributing to the Situation in Ukraine.
+
+	(iii)  The government of any country if the Secretary of State determines that such government has repeatedly provided support for acts of international terrorism pursuant to any of the following:
+
+		(A)  Section 1754(c)(1)(A) of the Export Control Reform Act of 2018 (50 U.S.C. 4318(c)(1)(A)).
+
+		(B)  Section 620A of the Foreign Assistance Act of 1961 (22 U.S.C. 2371).
+
+		(C)  Section 40 of the Arms Export Control Act (22 U.S.C. 2780).
+
+		(D)  Any other provision of law.
+
+	(iv)  Any entity included on any of the following lists maintained by the Department of Commerce (see the Export Administration Regulations at 15 CFR subchapter C):
+
+		(A)  The Entity List in supplement no. 4 to 15 CFR part 744.
+
+		(B)  The Denied Persons List as described in 15 CFR 764.3(a)(2).
+
+		(C)  The Unverified List in supplement no. 6 to 15 CFR part 744.
+
+		(D)  The Military End User List in supplement no. 7 to 15 CFR part 744.
+
+	(v)  Any entity identified by the Secretary of Defense pursuant to section 1237(b) of the National Defense Authorization Act for Fiscal Year 1999 (Pub. L. 105-261; 50 U.S.C. 1701 note).
+
+	(vi)  Any entity on the Non-Specially Designated Nationals Chinese Military-Industrial Complex Companies List maintained by the Office of Foreign Assets Control of the Department of the Treasury under Executive Order 14032, Addressing the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China.
+
+	(c)  Prohibition.  The contracting officer shall not award a contract assigned a North American Industry Classification System (NAICS) code beginning with 5416 that involves consulting services to an offeror that both-
+
+		(1)  Cannot certify that neither the offeror nor its subsidiaries or affiliates hold a contract or subcontract involving consulting services with one or more covered foreign entities; and
+
+		(2)  Does not have a conflict-of-interest mitigation plan that is auditable by a contract oversight entity and approved by the contracting officer.
+
+	(d)  Waiver.  (1)  If the prospective contractor(s) certified, in response to paragraph (c) of the provision at 252.209-7012, Prohibition Relating to Conflicts of Interest in Consulting Services-Certification, that it or its subsidiaries or affiliates hold a contract or subcontract for consulting services with one or more covered foreign entities and the offeror has not submitted an acceptable conflict-of-interest mitigation plan, the contracting officer must-
+
+			(i)  Notify the offeror of the potential withholding of award due to the unmitigated conflict of interest; and
+
+			(ii)  Specify that the offeror has 10 days to respond to the notification.
+
+		(2)  Request a waiver in accordance with 209.503-70, if the contracting officer determines that it is in the best interest of the United States to award the contract, notwithstanding the conflict of interest.
+
+		(3)  The prohibition may be waived on a case-by-case basis if an official listed at 209.503-70 determines that a waiver is necessary for national security purposes.
+
+		(4)  The contracting officer must include the waiver request and the waiver in the contract file.
+
+		(5)  Not later than 30 days after approval of the waiver, the agency must provide written notification to the House and Senate Armed Services Committees of the use of such waiver authority.  The notification must include-
+
+			(i)  The specific justification for providing the waiver;
+
+			(ii)  The number of offerors that did not require a waiver;
+
+			(iii)  The number of offerors that were granted a waiver;
+
+			(iv)  Identification of the covered foreign entity that is the subject of the waiver; and
+
+			(v)  The total dollar value of the covered contract.
+
+	(e)  Solicitation provision.  Insert the provision at 252.209-7012, Prohibition Relating to Conflicts of Interest in Consulting Services-Certification, in solicitations, including solicitations using FAR part 12 procedures for the acquisition of commercial services, assigned a NAICS code beginning with 5416.  Do not include the provision in solicitations for the acquisition of commercial products.
+
+PART 252-SOLICITATION PROVISIONS AND CONTRACT CLAUSES
+
+SUBPART 252.2-TEXT OF PROVISIONS AND CLAUSES
+
+252.209-7000 [Reserved]
+
+252.209-7001 [Reserved]
+
+252.209-7002 Disclosure of Ownership or Control by a Foreign Government.
+As prescribed in 209.104-70, use the following provision:
+
+DISCLOSURE OF OWNERSHIP OR CONTROL BY A FOREIGN GOVERNMENT (DEC 2022)
+
+	(a) Definitions. As used in this provision-
+
+		(1) Effectively owned or controlled means that a foreign government or any entity controlled by a foreign government has the power, either directly or indirectly, whether exercised or exercisable, to control the election, appointment, or tenure of the Offeror's officers or a majority of the Offeror's board of directors by any means, e.g., ownership, contract, or operation of law (or equivalent power for unincorporated organizations).
+
+		(2) Entity controlled by a foreign government-
+
+			(i) Means-
+
+				(A) Any domestic or foreign organization or corporation that is effectively owned or controlled by a foreign government; or
+
+				(B) Any individual acting on behalf of a foreign government.
+
+			(ii) Does not include an organization or corporation that is owned, but is not controlled, either directly or indirectly, by a foreign government if the ownership of that organization or corporation by that foreign government was effective before October 23, 1992.
+
+		(3) Foreign government includes the state and the government of any country (other than the United States and its outlying areas) as well as any political subdivision, agency, or instrumentality thereof.
+
+		(4) Proscribed information means-
+
+		(i) Top Secret information;
+
+			(ii) Communications security (COMSEC) material, excluding controlled cryptographic items when unkeyed or utilized with unclassified keys;
+
+			(iii) Restricted Data as defined in the U.S. Atomic Energy Act of 1954, as amended;
+
+			(iv) Special Access Program (SAP) information; or
+
+			(v) Sensitive Compartmented Information (SCI).
+
+	(b) Prohibition on award. No contract under a national security program may be awarded to an entity controlled by a foreign government if that entity requires access to proscribed information to perform the contract, unless the Secretary of Defense or a designee has waived application of 10 U.S.C. 4874.
+
+	(c) Disclosure. The Offeror shall disclose any interest a foreign government has in the Offeror when that interest constitutes control by a foreign government as defined in this provision. If the Offeror is a subsidiary, it shall also disclose any reportable interest a foreign government has in any entity that owns or controls the subsidiary, including reportable interest concerning the Offeror's immediate parent, intermediate parents, and the ultimate parent. Use separate paper as needed, and provide the information in the following format: Offeror's Point of Contact for Questions about Disclosure (Name and Phone Number with Country Code, City Code and Area Code, as applicable)
+
+Offeror's Point of Contact for Questions about Disclosure
+(Name and Phone Number with Country Code, City Code
+and Area Code, as applicable)Name and Address of OfferorName and Address of Entity Controlled by a Foreign GovernmentDescription of Interest, Ownership Percentage, and Identification of Foreign Government(End of provision)
+
+252.209-7003 [Reserved]
+
+252.209-7004 Subcontracting with Firms that are Owned or Controlled by the Government of a Country that is a State Sponsor of Terrorism.
+As prescribed in 209.409, use the following clause:
+
+SUBCONTRACTING WITH FIRMS THAT ARE OWNED OR CONTROLLED BY THE GOVERNMENT OF A COUNTRY THAT IS A STATE SPONSOR OF TERRORISM (MAY 2019)
+
+	(a) Unless the Government determines that there is a compelling reason to do so, the Contractor shall not enter into any subcontract in excess of the threshold specified in Federal Acquisition Regulation 9.405-2(b) on the date of subcontract award with a firm, or a subsidiary of a firm, that is identified in the Exclusions section of the System for Award Management System (SAM Exclusions) as being ineligible for the award of Defense contracts or subcontracts because it is owned or controlled by the government of a country that is a state sponsor of terrorism.
+
+	(b) A corporate officer or a designee of the Contractor shall notify the Contracting Officer, in writing, before entering into a subcontract with a party that is identified, in SAM Exclusions, as being ineligible for the award of Defense contracts or subcontracts because it is owned or controlled by the government of a country that is a state sponsor of terrorism. The notice must include the name of the proposed subcontractor and the compelling reason(s) for doing business with the subcontractor notwithstanding its inclusion in SAM Exclusions.
+
+(End of clause)
+
+252.209-7005 [Reserved]
+
+252.209-7006 Limitations on Contractors Acting as Lead System Integrators.
+As prescribed in 209.570-4(a), use the following provision:
+
+LIMITATIONS ON CONTRACTORS ACTING AS LEAD SYSTEM INTEGRATORS (DEC 2022)
+
+	(a) Definitions. Lead system integrator, lead system integrator with system responsibility, and lead system integrator without system responsibility, as used in this provision, have the meanings given in the clause of this solicitation entitled "Prohibited Financial Interests for Lead System Integrators" (DFARS 252.209-7007).
+
+	(b) General. Unless an exception is granted, no contractor performing lead system integrator functions in the acquisition of a major system by the Department of Defense may have any direct financial interest in the development or construction of any individual system or element of any system of systems.
+
+	(c) Representations. (1) The offeror represents that it does
+
+[ ] does not [ ] propose to perform this contract as a lead system integrator with system responsibility.
+
+	(2) The offeror represents that it does [ ] does not [ ] propose to perform this contract as a lead system integrator without system responsibility.
+
+	(3) If the offeror answered in the affirmative in paragraph (c)(1) or (2) of this provision, the offeror represents that it does [ ] does not [ ] have any direct financial interest as described in paragraph (b) of this provision with respect to the system(s), subsystem(s), system of systems, or services described in this solicitation.
+
+	(d) If the offeror answered in the affirmative in paragraph (c)(3) of this provision, the offeror should contact the Contracting Officer for guidance on the possibility of submitting a mitigation plan and/or requesting an exception.
+
+	(e) If the offeror does have a direct financial interest, the offeror may be prohibited from receiving an award under this solicitation, unless the offeror submits to the Contracting Officer appropriate evidence that the offeror was selected by a subcontractor to serve as a lower-tier subcontractor through a process over which the offeror exercised no control.
+
+	(f) This provision implements the requirements of 10 U.S.C. 4292.
+
+(End of provision)
+
+252.209-7007 Prohibited Financial Interests for Lead System Integrators.
+As prescribed in 209.570-4(b), use the following clause:
+
+PROHIBITED FINANCIAL INTERESTS FOR LEAD SYSTEM INTEGRATORS (DEC 2022)
+
+	(a) Definitions. As used in this clause-
+
+		(1) Lead system integrator includes lead system integrator with system responsibility and lead system integrator without system responsibility.
+
+		(2) Lead system integrator with system responsibility means a prime contractor for the development or production of a major system, if the prime contractor is not expected at the time of award to perform a substantial portion of the work on the system and the major subsystems.
+
+		(3) Lead system integrator without system responsibility means a prime contractor under a contract for the procurement of services, the primary purpose of which is to perform acquisition functions closely associated with inherently governmental functions (see section 7.503(d) of the Federal Acquisition Regulation) with respect to the development or production of a major system.
+
+	(b) Limitations. The Contracting Officer has determined that the Contractor meets the definition of lead system integrator with [ ] without [ ] system responsibility. Unless an exception is granted, the Contractor shall not have any direct financial interest in the development or construction of any individual system or element of any system of systems while performing lead system integrator functions in the acquisition of a major system by the Department of Defense under this contract.
+
+	(c) Agreement. The Contractor agrees that during performance of this contract it will not acquire any direct financial interest as described in paragraph (b) of this clause, or, if it does acquire or plan to acquire such interest, it will immediately notify the Contracting Officer. The Contractor further agrees to provide to the Contracting Officer all relevant information regarding the change in financial interests so that the Contracting Officer can determine whether an exception applies or whether the Contractor will be allowed to continue performance on this contract. If a direct financial interest cannot be avoided, eliminated, or mitigated to the Contracting Officer's satisfaction, the Contracting Officer may terminate this contract for default for the Contractor's material failure to comply with the terms and conditions of award or may take other remedial measures as appropriate in the Contracting Officer's sole discretion.
+
+	(d) Notwithstanding any other clause of this contract, if the Contracting Officer determines that the Contractor misrepresented its financial interests at the time of award or has violated the agreement in paragraph (c) of this clause, the Government may terminate this contract for default for the Contractor's material failure to comply with the terms and conditions of award or may take other remedial measures as appropriate in the Contracting Officer's sole discretion.
+
+	(e) This clause implements the requirements of 10 U.S.C. 4292.
+
+(End of clause)
+
+252.209-7008 Notice of Prohibition Relating to Organizational Conflict of Interest-Major Defense Acquisition Program.
+As prescribed in 209.571-8(a), use the following provision:
+
+NOTICE OF PROHIBITION RELATING TO ORGANIZATIONAL CONFLICT OF INTEREST-MAJOR DEFENSE ACQUISITION PROGRAM (DEC 2010)
+
+	(a) Definitions. "Major subcontractor" is defined in the clause at 252.209-7009, Organizational Conflict of Interest-Major Defense Acquisition Program.
+
+	(b) This solicitation is for the performance of systems engineering and technical assistance for a major defense acquisition program or a pre-major defense acquisition program.
+
+	(c) Prohibition. As required by paragraph (b)(3) of section 207 of the Weapons System Acquisition Reform Act of 2009 (Pub. L. 111-23), if awarded the contract, the contractor or any affiliate of the contractor is prohibited from participating as a prime contractor or a major subcontractor in the development or production of a weapon system under the major defense acquisition program or pre-major defense acquisition program, unless the offeror submits, and the Government approves, an Organizational Conflict of Interest Mitigation Plan.
+
+	(d) Request for an exception. If the offeror requests an exception to the prohibition of paragraph (c) of this provision, then the offeror shall submit an Organizational Conflict of Interest Mitigation Plan with its offer for evaluation.
+
+	(e) Incorporation of Organizational Conflict of Interest Mitigation Plan in contract. If the apparently successful offeror submitted an acceptable Organizational Conflict of Interest Mitigation Plan, and the head of the contracting activity determines that DoD needs the domain experience and expertise of the highly qualified, apparently successful offeror in accordance with FAR 209.571-7(c), then the Contracting Officer will incorporate the Organizational Conflict of Interest Mitigation Plan into the resultant contract, and paragraph (d) of the clause at 252.209-7009 will become applicable.
+
+(End of provision)
+
+252.209-7009 Organizational Conflict of Interest-Major Defense Acquisition Program.
+As prescribed in 209.571-8(b), use the following clause:
+
+ORGANIZATIONAL CONFLICT OF INTEREST-MAJOR DEFENSE ACQUISITION PROGRAM (MAY 2019)
+
+	(a) Definition. As used in this clause-
+
+	Major subcontractor means a subcontractor that is awarded a subcontract that equals or exceeds-
+
+		(1) Both the certified cost or pricing data threshold and 10 percent of the value of the contract under which the subcontract is awarded; or
+
+		(2) The threshold specified in the definition of "major subcontractor" at Defense Federal Acquisition Regulation Supplement 209.571-1 on the date of subcontract award.
+
+	(b) This contract is for the performance of systems engineering and technical assistance for a major defense acquisition program or a pre-major defense acquisition program.
+
+	(c) Prohibition. Except as provided in paragraph (d) of this clause, as required by paragraph (b)(3) of section 207 of the Weapons System Acquisition Reform Act of 2009 (Pub. L. 111-23), the Contractor or any affiliate of the Contractor is prohibited from participating as a prime contractor or major subcontractor in the development or production of a weapon system under the major defense acquisition program or pre-major defense acquisition program.
+
+	(d) Organizational Conflict of Interest Mitigation Plan. If the Contractor submitted an acceptable Organizational Conflict of Interest Mitigation Plan that has been incorporated into this contract, then the prohibition in paragraph (c) of this clause does not apply. The Contractor shall comply with the Organizational Conflict of Interest Mitigation Plan. Compliance with the Organizational Conflict of Interest Mitigation Plan is a material requirement of the contract. Failure to comply may result in the Contractor or any affiliate of the Contractor being prohibited from participating as a contractor or major subcontractor in the development or production of a weapon system under the program, in addition to any other remedies available to the Government for noncompliance with a material requirement of a contract.
+
+(End of clause)
+
+252.209-7010 Critical Safety Items.
+As prescribed in 209.270-5, use the following clause:
+
+CRITICAL SAFETY ITEMS (AUG 2011)
+
+	(a) Definitions.
+
+	Aviation critical safety item means a part, an assembly, installation equipment, launch equipment, recovery equipment, or support equipment for an aircraft or aviation weapon system if the part, assembly, or equipment contains a characteristic any failure, malfunction, or absence of which could cause-
+
+		(i) A catastrophic or critical failure resulting in the loss of, or serious damage to, the aircraft or weapon system;
+
+		(ii) An unacceptable risk of personal injury or loss of life; or
+
+		(iii) An uncommanded engine shutdown that jeopardizes safety.
+
+	Design control activity. (i) With respect to an aviation critical safety item, means the systems command of a military department that is specifically responsible for ensuring the airworthiness of an aviation system or equipment, in which an aviation critical safety item is to be used; and
+
+		(ii) With respect to a ship critical safety item, means the systems command of a military department that is specifically responsible for ensuring the seaworthiness of a ship or ship equipment, in which a ship critical safety item is to be used.
+
+	Ship critical safety item means any ship part, assembly, or support equipment containing a characteristic, the failure, malfunction, or absence of which could cause-
+
+			(i) A catastrophic or critical failure resulting in loss of, or serious damage to, the ship; or
+
+			(ii) An unacceptable risk of personal injury or loss of life.
+
+	(b) Identification of critical safety items. One or more of the items being procured under this contract is an aviation or ship critical safety item. The following items have been designated aviation critical safety items or ship critical safety items by the designated design control activity:
+========================================================================
+
+========================================================================
+
+========================================================================
+
+========================================================================
+
+(Insert additional lines as necessary)
+
+	(c) Heightened quality assurance surveillance. Items designated in paragraph (b) of this clause are subject to heightened, risk-based surveillance by the designated quality assurance representative.
+
+(End of clause)
+
+252.209-7011 Representation for Restriction on the Use of Certain Institutions of Higher Education.
+As prescribed in 209.170-4, use the following provision:
+
+REPRESENTATION FOR RESTRICTION ON THE USE OF CERTAIN INSTITUTIONS OF HIGHER EDUCATION (AUG 2025)
+
+	(a) Definitions. As used in this provision-
+
+	Confucius Institute means-
+
+		(1) Any program that receives funding or support from-
+
+			(i) The Chinese International Education Foundation; or
+
+			(ii) The Center for Language Exchange Cooperation of the Ministry of Education of the People's Republic of China; or
+
+		(2) Any cultural institute directly or indirectly funded by the government of the People's Republic of China.
+
+Institution of higher education has the meaning given in 20 U.S.C. 1002.
+
+	(b) Restriction. As required by section 1062 of the National Defense Authorization Act for Fiscal Year 2021 (Pub. L. 116-283), DoD may not award a contract with any institution of higher education that hosts a Confucius Institute. Section 1062 prohibits DoD from providing funding to any U.S. institution of higher education hosting a Confucius Institute unless that institution receives a waiver from the Department of Defense Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&E)). The waiver authority terminates on October 1, 2026. Any waiver issued will not apply on or after that date. See the OUSD(R&E) Confucius Institute Waiver Program Guidance to U.S. Institutions of Higher Education at https://rt.cto.mil/wp-content/uploads/Confucius-Institute-Waiver-Program-Guidance-28Mar2023.pdf.
+
+	(c) Representation. By submission of an offer, the Offeror represents that-
+
+		(1) It is not an institution of higher education that hosts a Confucius Institute; or
+
+		(2) The Offeror has obtained a waiver approved by OUSD(R&E).
+
+(End of provision)
+
+252.209-7012 Prohibition Relating to Conflicts of Interest in Consulting Services-Certification.
+As prescribed in 209.572(e), use the following provision:
+
+PROHIBITION RELATING TO CONFLICTS OF INTEREST IN CONSULTING SERVICES-CERTIFICATION (OCT 2025)
+
+	(a) Definitions. As used in this provision-
+
+	Consulting services means advisory and assistance services, except that "consulting services" does not include the provision of products or services related to-
+
+		(1) Compliance with legal, audit, accounting, tax, reporting, or other requirements of the laws and standards of countries; or
+
+		(2) Participation in a judicial, legal, or equitable dispute resolution proceeding.
+
+	Contract oversight entity means any of the following:
+
+		(1) The Contracting Officer.
+
+		(2) The Contracting Officer's Representative.
+
+		(3) The Defense Contract Management Agency.
+
+		(4) The Defense Contract Audit Agency.
+
+		(5) The DoD Office of Inspector General or any subcomponent of that office.
+
+		(6) The Government Accountability Office.
+
+	Covered contract means a DoD contract involving consulting services.
+
+	Covered foreign entity means any of the following:
+
+		(1) The government of the People's Republic of China, the Chinese Communist Party, the People's Liberation Army, the Ministry of State Security, or other security service or intelligence agency of the People's Republic of China.
+
+		(2) The government of the Russian Federation or any entity sanctioned by the Secretary of the Treasury under Executive Order 13662, Blocking Property of Additional Persons Contributing to the Situation in Ukraine.
+
+		(3) The government of any country, if the Secretary of State determines that such government has repeatedly provided support for acts of international terrorism, pursuant to any of the following:
+
+			(i) Section 1754(c)(1)(A) of the Export Control Reform Act of 2018 (50 U.S.C. 4318(c)(1)(A)).
+
+			(ii) Section 620A of the Foreign Assistance Act of 1961 (22 U.S.C. 2371).
+
+			(iii) Section 40 of the Arms Export Control Act (22 U.S.C. 2780).
+
+			(iv) Any other provision of law.
+
+		(4) Any entity included on any of the following lists maintained by the Department of Commerce (see the Export Administration Regulations at 15 CFR subchapter C):
+
+			(i) The Entity List in supplement no. 4 to 15 CFR part 744.
+
+			(ii) The Denied Persons List as described in 15 CFR 764.3(a)(2).
+
+			(iii) The Unverified List in supplement no. 6 to 15 CFR part 744.
+
+			(iv) The Military End User List in supplement no. 7 to 15 CFR part 744.
+
+		(5) Any entity identified by the Secretary of Defense pursuant to section 1237(b) of the National Defense Authorization Act for Fiscal Year 1999 (Pub. L. 105-261; 50 U.S.C. 1701 note).
+
+		(6) Any entity on the Non-Specially Designated Nationals Chinese Military-Industrial Complex Companies List maintained by the Office of Foreign Assets Control of the Department of the Treasury under Executive Order 14032, Addressing the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China.
+
+	(b) Prohibition. DoD cannot award to the Offeror a contract assigned a North American Industry Classification System code beginning with 5416 if the Offeror-
+
+		(1) Cannot certify that neither the Offeror nor any of its subsidiaries or affiliates hold a contract or subcontract that involves consulting services with one or more covered foreign entities; and
+
+		(2) Does not maintain a conflict-of-interest mitigation plan as described in paragraph (d) of this provision.
+
+	(c) Certification. The Offeror certifies that-
+
+		(1)(i) It does [ ] does not [ ] hold a contract or subcontract that involves consulting services with one or more covered foreign entities; and
+
+			(ii) Its subsidiaries or affiliates do [ ] do not [ ] hold a contract or subcontract that involves consulting services with one or more covered foreign entities; and
+
+		(2) It does [ ] does not [ ] maintain a conflict-of-interest mitigation plan described in paragraph (d) of this provision.
+
+	(d) Conflict-of-interest mitigation plan. If the Offeror answered in the affirmative in paragraphs (c)(1) and (2) of this provision, then the Offeror shall submit its conflict-of-interest mitigation plan to the Contracting Officer for approval. The Offeror may contact the Contracting Officer for guidance on submitting the Offeror's conflict-of-interest mitigation plan.
+
+		(1) The Offeror's conflict-of-interest mitigation plan shall be auditable by a contract oversight entity and shall include-
+
+			(i) An identification, unless otherwise prohibited by law or regulation, of any covered contracts of the Offeror or its subsidiaries or affiliates with a covered foreign entity. If the Offeror is unable to identify one or more covered foreign entities due to confidentiality obligations, the Offeror shall identify such entities as a covered foreign entity;
+
+			(ii) A written analysis, including a course of action for avoiding, neutralizing, or mitigating the actual or potential conflict of interest of such a covered contract;
+
+			(iii) A description of the procedures by which the Offeror or its subsidiaries or affiliates will ensure that individuals who will perform the scope of a covered contract will not, for the duration of such contract, also provide any consulting services to any covered foreign entity; and
+
+			(iv) A description of the procedures by which the Offeror or its subsidiaries or affiliates will submit to the contract oversight entities a notice of an unmitigated conflict of interest with respect to a covered contract within 15 days of determining that such a conflict has arisen.
+
+		(2) The Contracting Officer will incorporate the Offeror's approved conflict-of-interest mitigation plan into any contract awarded to the Offeror resulting from this solicitation.
+
+(End of provision)
+
+Attachment A1
+DARS Tracking Number: 2026-O0042
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 9
+Defense FAR Supplement (DFARS) Part 209
+
+
+	Page 1 of 1	
+		
+

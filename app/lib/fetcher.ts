@@ -224,6 +224,23 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
     return fetchApprovedPdfSource(request, label, url);
   }
 
+  const localTextPath = localDfarsRfoTextPath(request, url);
+  if (localTextPath) {
+    try {
+      const text = await fs.readFile(localTextPath, 'utf8');
+      const prepared = prepareSourceContent(text, request);
+      return {
+        label,
+        url,
+        content: trimSource(prepared, request.kind),
+        status: 'R',
+        reason: request.reason,
+      };
+    } catch {
+      // Keep the public raw GitHub source as the fallback citation target.
+    }
+  }
+
   try {
     const response = await fetchWithTimeout(url, {
       headers: { 'User-Agent': GITHUB_USER_AGENT },
@@ -343,6 +360,15 @@ function approvedTextMirrorPath(textPath: string) {
 
 function isPdfSource(request: SourceRequest, url: string) {
   return request.sourceType?.toLowerCase() === 'pdf' || url.toLowerCase().endsWith('.pdf');
+}
+
+function localDfarsRfoTextPath(request: SourceRequest, url: string) {
+  if (request.kind !== 'dfars_rfo' && request.kind !== 'dfars_pgi') return undefined;
+
+  const sourceName = url.split('/').pop() || '';
+  if (!/^DFARS-RFO(?:-PGI)?-PART-[A-Za-z0-9-]+\.txt$/.test(sourceName)) return undefined;
+
+  return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'dfars-rfo', sourceName);
 }
 
 async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Response> {

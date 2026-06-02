@@ -1,0 +1,148 @@
+PGI 229-TAXES
+
+PGI 229.1-GENERAL
+
+PGI 229.101-70  Resolving tax problems.
+
+	(a)  For the military departments, the Defense Logistics Agency, and the Defense Contract Management Agency, the members of the DFARS Tax Committee are the
+designated legal counsel for tax matters within their respective departments/agencies.
+
+	(b)  Information on fuel excise taxes, including applicability, exemptions, and refunds, is available as follows:
+
+		(i)  The DLA Energy website at https://www.dla.mil/Energy/ provides information on Federal, State, and local excise taxes.  
+
+		(ii)  Internal Revenue Service Publications 510 and 378, available on the Internal Revenue Service website at www.irs.gov/publications, provides information on Federal excise taxes.
+
+	(c)  The contracting officer may direct the contractor to litigate the applicability of a particular tax if-
+
+		(i)  The contract is either a cost-reimbursement type or a fixed-price type with a tax escalation clause such as FAR 52.229-4; and
+
+		(ii)  The direction is coordinated with the DoD Tax Policy and Advisory Group through the agency-designated legal counsel.
+
+	(d)(i) Tax relief agreements between the United States and foreign governments in Europe that exempt the United States from payment of specific taxes on purchases made for common defense purposes are maintained by the United States European Command (USEUCOM).  For further information, contact HQ USEUCOM, ATTN: ECLA, Unit 30400, Box 1000, APO AE  09128; Telephone: DSN 430-8001/7263, Commercial 49-0711-680-8001/7263; facsimile: 49-0711-680-5732.  
+
+		(ii)  Other international treaties may exempt the United States from the payment of specific taxes.  The Department of State publishes a list of treaties on its website at www.state.gov.
+
+		(iii)  Tax relief also may be available in countries that have not signed tax relief agreements.  The potential for such relief should be explored in accordance with paragraph (d)(iv) of this section.
+		(iv)  DoD Instruction (DoDI) 5100.64, DoD Foreign Tax Relief Program, defines DoD tax relief policy and requires designation of a military commander as the single point of contact for investigation and resolution of specific matters related to the foreign tax relief program within the country for which the commander is designated.  Those military commanders are the same as the ones designated under DoDI 5525.01 Foreign Criminal and Civil Jurisdiction, and specified in Appendix C of Army Regulation 27-50/SECNAVINST 5820.4G, Status of Forces Policies, Procedures, and Information.  Appendix C of Army Regulation 27-50/SECNAVINST 5820.4G is available at https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/r27_50.pdf.
+		(v)  Also see PGI 229.70 for special procedures for obtaining tax relief and duty-free import privileges when conducting U.S. Government acquisitions in certain foreign countries.
+
+PGI 229.170  Reporting of foreign taxation on U.S. assistance programs.
+
+PGI 229.170-3  Reports.
+
+	(1)  Upon receipt of a notification under the clause at DFARS 252.229-7011, that a foreign tax has been imposed, submit the following information to the applicable office identified in paragraph (2) of this subsection.
+
+		(i)  Contractor name.
+
+		(ii)  Contract number.
+
+		(iii)  Contractor point of contact (Name, phone number, FAX number, and e-mail address).
+
+		(iv)  Amount of foreign taxes assessed by each foreign government.
+
+		(v)  Amount of any foreign taxes reimbursed by each foreign government.
+
+	(2)  Submit the information required by paragraph (1) of this subsection to-
+
+		(i)  For Army contracts:
+
+Commander, U.S. Army Security Assistance Command (USASAC)
+4402 Martin Road
+Redstone Arsenal, AL 35898.
+
+		(ii)  For Navy contracts:
+ 
+Navy International Programs Office (NIPO)
+1250 10th Street South East
+Building 200, Suite 2000
+Washington Navy Yard, D.C. 20374.
+
+		(iii)  For Air Force contracts:
+ 
+Secretary of the Air Force/International Affairs
+ATTN: SAF/IAPC
+1080 Air Force, Pentagon
+Washington, DC 20330-1080.
+ 
+		(iv)  For Marine Corps contracts:
+ 
+Navy International Programs Office (NIPO)
+1250 10th Street South East
+Building 200, Suite 2000
+Washington Navy Yard, D.C. 20374.
+ 
+	(v)  For all other DoD contracts:
+
+Defense Security Cooperation Agency
+ATTN: DBO-CFD
+201 12th Street South, Suite 203
+Arlington, VA 22202-5408.
+
+PGI 229.70--SPECIAL PROCEDURES FOR OVERSEAS CONTRACTS
+
+PGI 229.7000  Scope of subpart.
+This subpart prescribes procedures that contracting officers must use to obtain tax relief and duty-free import privileges when conducting U.S. Government acquisitions in certain foreign countries.
+
+PGI 229.7001  Tax exemption in Spain.
+
+	(a)  The Office of Defense Cooperation (ODC), Spain Policy Directive 400.4, or subsequent directive, applies to U.S. contracting offices acquiring supplies or services in Spain when the introduction of material or equipment into Spain is required for contract performance.
+
+	(b)  Upon award of a contract with a Direct Contractor, as defined in the clause at DFARS 252.229-7004, the contracting officer will notify U.S. Section of the U.S.-Spanish Permanent Committee (PC), Madrid, Spain, and the Customs Clearance Officer, NAVSUP-FLC Rota, Spain, and will forward a copy of the contract to the U.S. PC Section, Madrid.
+
+	(c)  If a copy of the contract is not available and duty-free import of equipment or materials is urgent, the contracting officer will forward to the U.S. PC Section, Madrid, a Letter of Intent or a similar document indicating the pending award.  In these cases, the Government of Spain may issue authorization for duty-free import.  Upon formal award, the contracting officer will the completed contract to the U.S. PC Section, Madrid.
+
+	(d)  The contracting officer will notify the U.S. PC Section, Madrid and the Customs Clearance Officer, NAVSUP-FLC Rota, Spain of designated ports-of-entry and identify the customs agents who will clear property on their behalf.  Additional documentation required for port-of-entry and customs clearance can be obtained by Customs Clearance Officer, NAVSUP-FLC Rota, Spain.  This information will be passed provided to the Secretaria General Tecnica del Ministerio de Hacienda (Technical General Secretariat of the Ministry of Finance).  A list of authorized customs agents may be obtained from the contracting office.
+
+PGI 229.7002  Tax exemption in the United Kingdom.
+This section contains procedures for securing relief from the British value added tax and import duties.
+
+PGI 229.7002-1  Value added tax.
+
+	(a)  U.S. Government purchases qualifying for tax relief are equipment, materials, facilities, and services for the common defense effort and for foreign aid programs.
+
+	(b)  To facilitate the resolution of issues concerning specific waivers of import duty or tax exemption for U.S. Government purchases (see PGI 229.7002-3), contracting offices must provide the name and activity address of personnel who have been granted warranted contracting authority to His Majesty's (HM) Revenue and Customs (HMRC) at the following address:  HM Revenue and Customs Parliament Street 100, London SW1A 2BQ].
+
+PGI 229.7002-2  Import duty.
+The United States shall not pay a contract import duty and contract prices must be exclusive of duty, except when the administrative cost compared to the low dollar value of a contract makes it impracticable to obtain relief from contract import duty.  In this instance, the contracting officer must document the contract file with a statement that?
+
+	(a)  The administrative burden of securing tax relief under the contract was out of proportion to the tax relief involved;
+
+	(b)  It is impracticable to secure tax relief;
+
+	(c)  Tax relief is therefore not being secured; and
+
+	(d)  The acquisition does not involve the expenditure of any funds to establish a permanent military installation.
+
+PGI 229.7002-3  Value added tax or import duty problem resolution.
+If the contracting officer cannot resolve a value added tax or import duty problem, refer the issue to HQ Third Air Force, Staff Judge Advocate, 3af.ja@us.af.mil, DSN: 314-480-8992.  Direct contact with HMRC in London is prohibited.
+
+PGI 229.7002-4  Information required by His Majesty's Revenue and Customs.
+
+	(a)  School bus contracts.  Provide one copy of the contract and all modifications HMRC.
+
+	(b)  Road fuel contracts.  For contracts that involve an application for relief from duty on the road fuel used in performance of the contract, provide?
+
+		(1)  To HMRC?
+
+			(i)  Contract number;
+
+			(ii)  Name and address of contractor;
+
+			(iii)  Type of work (e.g., laundry, transportation);
+
+			(iv)  Area of work; and
+
+			(v)  Period of performance.
+
+		(2)  To the regional office of HMRC to which the contractor applied for relief from the duty on road fuel?one copy of the contract.
+
+	(c)  Other contracts awarded to United Kingdom firms.  Provide information when requested by HMRC.
+Attachment A2
+DARS Tracking Number: 2026-O0007
+Revolutionary Federal Acquisition Regulation (FAR) Overhaul Part 29
+Defense FAR Supplement (DFARS) Part 229
+
+
+Page 1 of 7
+
