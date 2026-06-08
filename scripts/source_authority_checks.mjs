@@ -208,6 +208,23 @@ test('DFARS RFO registry supports approved nonstandard PDF sources', () => {
   assert.match(fetcher, /runtime text extraction is not implemented yet/, 'PDF sources should produce clear UTR text-extraction status');
 });
 
+test('user-facing DFARS RFO source links prefer official or public PDFs over GitHub mirrors', () => {
+  const fetcher = read('app/lib/fetcher.ts');
+  const page = read('app/page.tsx');
+
+  assert.match(fetcher, /displayUrl\?: string/, 'fetcher route-plan items should support separate user-facing display URLs');
+  assert.match(fetcher, /displaySourceUrl\(result\)/, 'model-facing source context should use the display source URL');
+  assert.match(fetcher, /DoD_RFO_Deviation_Part-\$\{part\}\.pdf/, 'DFARS RFO display URLs should point to Acquisition.gov DoD RFO PDFs');
+  assert.match(fetcher, /DFARS-RFO-PART-\(\?:248\|252\)-Deviation-Memo/, 'approved memo exceptions should use public app PDFs instead of raw GitHub links');
+  assert.ok(fs.existsSync(path.join(root, 'public/knowledge/armor-gpt/DFARS-RFO-PART-248-Deviation-Memo.pdf')), 'Part 248 approved memo PDF should be available through public/');
+  assert.ok(fs.existsSync(path.join(root, 'public/knowledge/armor-gpt/DFARS-RFO-PART-252-Deviation-Memo.pdf')), 'Part 252 approved memo PDF should be available through public/');
+
+  assert.match(page, /sourceHref\(item\)/, 'source cards should open displayUrl when available');
+  assert.match(page, /officialDisplayUrl\(url\)/, 'client-side previews should map raw mirror URLs to official display URLs');
+  assert.doesNotMatch(page, />GitHub<\/a>/, 'Sources / Evidence header should not expose a GitHub shortcut');
+  assert.doesNotMatch(page, /href=\{item\.url\}/, 'source/evidence cards should not link directly to internal retrieval URLs');
+});
+
 test('DFARS RFO sample raw GitHub sources are reachable or correctly absent', async () => {
   const samples = [
     ['DFARS RFO Part 219', 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-219-Attachment-1.txt', 200],

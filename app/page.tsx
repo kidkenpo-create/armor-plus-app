@@ -21,6 +21,7 @@ type ResponseMode = 'first_turn_full_analysis' | 'follow_up_concise_continuation
 interface SourcePlanItem {
   label: string;
   url: string;
+  displayUrl?: string;
   status: 'R' | 'UTR' | 'planned';
   reason: string;
   excerpt?: string;
@@ -51,7 +52,6 @@ interface ChatSession {
   model?: string;
 }
 
-const GITHUB_REPO = 'https://github.com/kidkenpo-create/ARMOR-plus';
 const MAX_CLIENT_HISTORY_MESSAGES = 8;
 const CHAT_HISTORY_KEY = 'armor-plus-chat-history-v1';
 const MAX_SAVED_CHATS = 30;
@@ -145,7 +145,7 @@ function routePreview(question: string): SourcePlanItem[] {
   }
 
   return [
-    plan('ARMOR classifier', GITHUB_REPO, 'Question will be routed server-side'),
+    plan('ARMOR classifier', 'https://www.acquisition.gov/far-overhaul', 'Question will be routed server-side'),
     plan('RFO FAR Conventions', 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107', 'Fallback conventions check when actor, threshold, or delegation matters'),
   ];
 }
@@ -192,7 +192,22 @@ function urlForRequest(request: SourceRequest): string {
 }
 
 function plan(label: string, url: string, reason: string): SourcePlanItem {
-  return { label, url, reason, status: 'planned' };
+  return { label, url, displayUrl: officialDisplayUrl(url), reason, status: 'planned' };
+}
+
+function officialDisplayUrl(url: string) {
+  const memoPdf = url.match(/\/(DFARS-RFO-PART-(?:248|252)-Deviation-Memo\.pdf)$/i);
+  if (memoPdf?.[1]) return `/knowledge/armor-gpt/${memoPdf[1]}`;
+
+  const dfarsMatch = url.match(/DFARS-(?:PGI-)?RFO-PART-(\d{3})-|DFARS-RFO(?:-PGI)?-PART-(\d{3})-/i);
+  const part = dfarsMatch?.[1] || dfarsMatch?.[2];
+  if (!part) return undefined;
+
+  return `https://www.acquisition.gov/sites/default/files/page_file_uploads/DoD_RFO_Deviation_Part-${Number(part.slice(1))}.pdf`;
+}
+
+function sourceHref(item: SourcePlanItem) {
+  return item.displayUrl || item.url;
 }
 
 function newTurnId() {
@@ -460,11 +475,10 @@ function SourcesEvidencePanel({
     <aside className={styles.proofPanel}>
       <div className={styles.panelHeader}>
         <span>Sources / Evidence</span>
-        <a href={GITHUB_REPO} target="_blank" rel="noreferrer">GitHub</a>
       </div>
       <div className={styles.sourceList}>
         {items.map((item, index) => (
-          <a key={`${item.label}-${index}`} href={item.url} target="_blank" rel="noreferrer" className={styles.sourceItem}>
+          <a key={`${item.label}-${index}`} href={sourceHref(item)} target="_blank" rel="noreferrer" className={styles.sourceItem}>
             <span className={`${styles.sourceStatus} ${styles[`status-${item.status}`]}`}>{statusLabel(item.status)}</span>
             <strong>{item.label}</strong>
             <small>{item.reason}</small>
@@ -501,7 +515,7 @@ function EvidenceSnapshot({ items }: { items: SourcePlanItem[] }) {
           <article key={`${item.label}-${index}`} className={styles.evidenceItem}>
             <div className={styles.evidenceMeta}>
               <strong>{item.label}</strong>
-              <a href={item.url} target="_blank" rel="noreferrer">Open source</a>
+              <a href={sourceHref(item)} target="_blank" rel="noreferrer">Open source</a>
             </div>
             <blockquote>{item.excerpt}</blockquote>
           </article>
