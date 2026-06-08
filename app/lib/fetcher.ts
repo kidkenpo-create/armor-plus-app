@@ -16,6 +16,7 @@ export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback i
 export interface FetchResult {
   label: string;
   url: string;
+  displayUrl?: string;
   content: string;
   status: 'R' | 'UTR';
   reason: string;
@@ -25,6 +26,7 @@ export interface FetchResult {
 export interface SourcePlanItem {
   label: string;
   url: string;
+  displayUrl?: string;
   status: 'R' | 'UTR' | 'planned';
   reason: string;
   excerpt?: string;
@@ -116,6 +118,7 @@ export async function prefetchRelevantParts(question: string): Promise<{ context
   const routePlan = results.map(result => ({
     label: result.label,
     url: result.url,
+    displayUrl: result.displayUrl,
     status: result.status,
     reason: result.reason,
     excerpt: result.status === 'R' ? pickEvidenceSnippet(result.content, question, result.label) : undefined,
@@ -124,9 +127,9 @@ export async function prefetchRelevantParts(question: string): Promise<{ context
   const context = results
     .map(result => {
       if (result.status !== 'R') {
-        return `\n--- ${result.label} (${result.status}: ${result.error || 'unable to retrieve'}) ---\nSource: ${result.url}\nReason: ${result.reason}\n---`;
+        return `\n--- ${result.label} (${result.status}: ${result.error || 'unable to retrieve'}) ---\nSource: ${displaySourceUrl(result)}\nReason: ${result.reason}\n---`;
       }
-      return `\n--- ${result.label} (retrieved from ${result.url}) ---\n${result.content}\n---`;
+      return `\n--- ${result.label} (retrieved from approved source text) ---\nSource: ${displaySourceUrl(result)}\n${result.content}\n---`;
     })
     .join('\n');
 
@@ -204,15 +207,17 @@ async function fetchSource(request: SourceRequest): Promise<FetchResult> {
 async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> {
   const label = labelFor(request);
   const url = urlFor(request);
+  const displayUrl = displayUrlFor(request);
   if (request.kind === 'class_deviation') {
     if (request.textPath) {
-      const mirrorResult = await fetchApprovedTextMirror(request, label, url);
+      const mirrorResult = await fetchApprovedTextMirror(request, label, url, displayUrl);
       if (mirrorResult.status === 'R') return mirrorResult;
     }
 
     return {
       label,
       url,
+      displayUrl,
       content: '',
       status: 'UTR',
       reason: request.reason,
@@ -221,7 +226,7 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
   }
 
   if (isPdfSource(request, url)) {
-    return fetchApprovedPdfSource(request, label, url);
+    return fetchApprovedPdfSource(request, label, url, displayUrl);
   }
 
   const localTextPath = localDfarsRfoTextPath(request, url);
@@ -232,12 +237,13 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
       return {
         label,
         url,
+        displayUrl,
         content: trimSource(prepared, request.kind),
         status: 'R',
         reason: request.reason,
       };
     } catch {
-      // Keep the public raw GitHub source as the fallback citation target.
+      // Keep the approved raw mirror as a retrieval fallback without exposing it as the user-facing source.
     }
   }
 
@@ -252,6 +258,7 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
     return {
       label,
       url,
+      displayUrl,
       content: trimSource(prepared, request.kind),
       status: 'R',
       reason: request.reason,
@@ -260,6 +267,7 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
     return {
       label,
       url,
+      displayUrl,
       content: '',
       status: 'UTR',
       reason: request.reason,
@@ -289,9 +297,29 @@ function urlFor(request: SourceRequest): string {
   return RFO_CONVENTIONS_URL;
 }
 
-async function fetchApprovedPdfSource(request: SourceRequest, label: string, url: string): Promise<FetchResult> {
+function displayUrlFor(request: SourceRequest): string | undefined {
+  const memoPdf = request.url?.match(/\/(DFARS-RFO-PART-(?:248|252)-Deviation-Memo\.pdf)$/i);
+  if (memoPdf?.[1]) {
+    return `/knowledge/armor-gpt/${memoPdf[1]}`;
+  }
+
+  if (request.kind !== 'dfars_rfo' && request.kind !== 'dfars_pgi') return undefined;
+
+  const part = request.part.startsWith('2') && request.part.length === 3
+    ? String(Number(request.part.slice(1)))
+    : String(Number(request.part));
+
+  if (!Number.isFinite(Number(part)) || Number(part) <= 0) return undefined;
+  return `https://www.acquisition.gov/sites/default/files/page_file_uploads/DoD_RFO_Deviation_Part-${part}.pdf`;
+}
+
+function displaySourceUrl(result: FetchResult) {
+  return result.displayUrl || result.url;
+}
+
+async function fetchApprovedPdfSource(request: SourceRequest, label: string, url: string, displayUrl?: string): Promise<FetchResult> {
   if (request.textPath) {
-    const mirrorResult = await fetchApprovedTextMirror(request, label, url);
+    const mirrorResult = await fetchApprovedTextMirror(request, label, url, displayUrl);
     if (mirrorResult.status === 'R') return mirrorResult;
   }
 
@@ -305,6 +333,7 @@ async function fetchApprovedPdfSource(request: SourceRequest, label: string, url
     return {
       label,
       url,
+      displayUrl,
       content: '',
       status: 'UTR',
       reason: request.reason,
@@ -314,6 +343,7 @@ async function fetchApprovedPdfSource(request: SourceRequest, label: string, url
     return {
       label,
       url,
+      displayUrl,
       content: '',
       status: 'UTR',
       reason: request.reason,
@@ -322,7 +352,7 @@ async function fetchApprovedPdfSource(request: SourceRequest, label: string, url
   }
 }
 
-async function fetchApprovedTextMirror(request: SourceRequest, label: string, url: string): Promise<FetchResult> {
+async function fetchApprovedTextMirror(request: SourceRequest, label: string, url: string, displayUrl?: string): Promise<FetchResult> {
   try {
     const textPath = approvedTextMirrorPath(request.textPath || '');
     const text = await fs.readFile(textPath, 'utf8');
@@ -330,6 +360,7 @@ async function fetchApprovedTextMirror(request: SourceRequest, label: string, ur
     return {
       label,
       url,
+      displayUrl,
       content: trimSource(prepared, request.kind),
       status: 'R',
       reason: request.reason,
@@ -338,6 +369,7 @@ async function fetchApprovedTextMirror(request: SourceRequest, label: string, ur
     return {
       label,
       url,
+      displayUrl,
       content: '',
       status: 'UTR',
       reason: request.reason,
