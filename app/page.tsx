@@ -2,13 +2,9 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { DEMO_QUESTIONS } from '@/app/lib/armor-prompt';
+import { parseArmorOutput, type ParsedOutput } from '@/app/lib/parse-armor-output';
 import { findPracticeIssueRules, type SourceRequest } from '@/app/lib/practice-issue-rules';
 import styles from './page.module.css';
-
-interface ParsedOutput {
-  bluf: string | null;
-  steps: Array<{ num: string; title: string; content: string }>;
-}
 
 interface AnalyzeResponseMeta {
   routePlan?: SourcePlanItem[];
@@ -55,21 +51,6 @@ interface ChatSession {
 const MAX_CLIENT_HISTORY_MESSAGES = 8;
 const CHAT_HISTORY_KEY = 'armor-plus-chat-history-v1';
 const MAX_SAVED_CHATS = 30;
-
-function parseOutput(raw: string): ParsedOutput {
-  const text = raw.replace(/\*\*/g, '');
-  const result: ParsedOutput = { bluf: null, steps: [] };
-  const bluf = text.match(/(?:^|\n)0\)\s*BLUF\s*[-:]\s*([\s\S]*?)(?=\nSTEP\s+1\s*[-:]|\n\nSTEP\s+1\s*[-:]|$)/i);
-  if (bluf) result.bluf = bluf[1].trim();
-
-  const re = /\nSTEP\s+(\d+[AB]?)\s*[-:]\s*([^\n]+)\n([\s\S]*?)(?=\nSTEP\s+\d+[AB]?\s*[-:]|$)/gi;
-  let match;
-  while ((match = re.exec(`\n${text}`)) !== null) {
-    const content = match[3].trim();
-    if (content) result.steps.push({ num: match[1], title: match[2].trim(), content });
-  }
-  return result;
-}
 
 function routePreview(question: string): SourcePlanItem[] {
   const q = question.toLowerCase();
@@ -271,7 +252,7 @@ function chatTitleFromTurns(turns: ChatTurn[]) {
 }
 
 function normalizeStoredTurn(turn: ChatTurn): ChatTurn {
-  const parsed = turn.role === 'assistant' && turn.content && !turn.parsed ? parseOutput(turn.content) : turn.parsed;
+  const parsed = turn.role === 'assistant' && turn.content && !turn.parsed ? parseArmorOutput(turn.content) : turn.parsed;
   return {
     id: typeof turn.id === 'string' ? turn.id : newTurnId(),
     role: turn.role === 'assistant' ? 'assistant' : 'user',
@@ -637,7 +618,7 @@ export default function Home() {
         .filter(turn => turn.content.trim().length > 0)
         .map(turn => ({
           ...turn,
-          parsed: turn.role === 'assistant' && turn.content ? turn.parsed || parseOutput(turn.content) : turn.parsed,
+          parsed: turn.role === 'assistant' && turn.content ? turn.parsed || parseArmorOutput(turn.content) : turn.parsed,
         }));
 
       const nextSession: ChatSession = {
@@ -680,7 +661,7 @@ export default function Home() {
     const restoredTurns = session.turns.map(normalizeStoredTurn);
     const lastAssistant = [...restoredTurns].reverse().find(turn => turn.role === 'assistant' && turn.content);
     const restoredRoute = lastAssistant?.routePlan || routePreview(routingContext(restoredTurns, ''));
-    const restoredParsed = lastAssistant?.parsed || (lastAssistant?.content ? parseOutput(lastAssistant.content) : null);
+    const restoredParsed = lastAssistant?.parsed || (lastAssistant?.content ? parseArmorOutput(lastAssistant.content) : null);
 
     setActiveSessionId(session.id);
     setTurns(restoredTurns);
@@ -801,7 +782,7 @@ export default function Home() {
         }
       }
 
-      const finalParsed = parseOutput(rawRef.current);
+      const finalParsed = parseArmorOutput(rawRef.current);
       const completed = `Completed in ${((Date.now() - started) / 1000).toFixed(1)}s`;
       setParsed(finalParsed);
       setTimestamp(completed);
