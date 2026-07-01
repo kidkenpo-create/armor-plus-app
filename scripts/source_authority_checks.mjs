@@ -63,10 +63,13 @@ test('master_index and part_lookup are valid approved registry inputs', () => {
 
 test('baseline FAR/DFARS data fallback cannot be returned as controlling context', () => {
   const fetcher = read('app/lib/fetcher.ts');
+  const registry = read('app/lib/source-registry.ts');
 
   assert.match(fetcher, /DATA_FALLBACK_DISABLED_REASON/, 'fetcher should define the fallback block reason');
   assert.doesNotMatch(fetcher, /const\s+dataResult\s*=\s*await\s+fetchGitHubDataSource/, 'fetchSource should not fetch data/far or data/dfars fallback');
   assert.doesNotMatch(fetcher, /return\s+dataResult\s*\|\|\s*(?:legacyResult|primaryResult)/, 'fetchSource should not return data fallback as authority');
+  assert.match(registry, /\/data\/legacy-crosswalk\/far/, 'source registry should mark quarantined FAR crosswalk paths as background-only');
+  assert.match(registry, /\/data\/legacy-crosswalk\/dfars/, 'source registry should mark quarantined DFARS crosswalk paths as background-only');
 });
 
 test('prompt and analyze route enforce source authority lock', () => {
@@ -124,6 +127,145 @@ test('production prompts do not imply classroom-key answers', () => {
   }
 });
 
+test('practice rules do not promote known legacy FAR locations as current RFO answers', () => {
+  const rules = JSON.parse(read('app/lib/practice-issue-rules.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const byId = Object.fromEntries(rules.map(rule => [rule.id, rule]));
+
+  const expected = {
+    price_negotiation_cost_elements: ['RFO FAR 15.407(a)'],
+    contractor_weapons_policy_peacekeeping: ['RFO FAR 25.701-3'],
+    multiyear_cancellation_ceiling_20m: ['RFO FAR 17.104-3(a)', 'DFARS RFO 217.104-370(b)(1)(iv)'],
+    motor_vehicle_lease_certification: ['RFO FAR 8.101'],
+    sdb_subcontractor_representation: ['RFO FAR 19.302-2(a)(1)(ii)(A)'],
+  };
+
+  for (const [id, citations] of Object.entries(expected)) {
+    assert.deepEqual(byId[id]?.expectedCitations, citations, `${id} should use current RFO citation targets`);
+  }
+
+  assert.doesNotMatch(byId.price_negotiation_cost_elements.guidance, /Use RFO FAR 15\.405\(a\)/, 'price negotiation rule must not promote the legacy FAR 15.405(a) location');
+  assert.match(byId.price_negotiation_cost_elements.guidance, /not legacy FAR 15\.405\(a\)/, 'price negotiation rule should keep the old cite only as a trap warning');
+  assert.doesNotMatch(byId.motor_vehicle_lease_certification.guidance, /cite RFO FAR 8\.1100/, 'motor-vehicle rule must not promote removed FAR subpart 8.11 as current RFO');
+  assert.doesNotMatch(byId.sdb_subcontractor_representation.guidance, /cite RFO FAR 19\.703/, 'subcontractor representation rule must not promote legacy FAR 19.703 as current RFO');
+  assert.match(fetcher, /15\\\.407\\s\+Price negotiation/, 'targeted RFO FAR Part 15 excerpt should prioritize the current price negotiation paragraph');
+  assert.match(fetcher, /25\\\.701-3/, 'targeted RFO FAR Part 25 excerpt should include the current weapons paragraph');
+  assert.match(fetcher, /19\\\.302-2/, 'targeted RFO FAR Part 19 excerpt should include the current subcontractor-representation paragraph');
+  assert.doesNotMatch(fetcher, /'rfo_far:15': \[\/15\\\.206-2[\s\S]{0,80}\/15\\\.405/, 'RFO FAR Part 15 targeting should not steer pricing questions to 15.405');
+  assert.doesNotMatch(fetcher, /'rfo_far:25': \[[^\n]*25\\\.301-3/, 'RFO FAR Part 25 targeting should not use the removed 25.301-3 location');
+  assert.doesNotMatch(fetcher, /'rfo_far:19': \[[^\n]*19\\\.703/, 'RFO FAR Part 19 targeting should not use the removed 19.703 location');
+  assert.doesNotMatch(fetcher, /'rfo_far:8': \[[^\n]*8\\\.1100/, 'RFO FAR Part 8 targeting should not use the removed 8.1100 location');
+}
+);
+
+test('practice rules do not promote stale DFARS RFO or PGI locations as current answers', () => {
+  const rules = JSON.parse(read('app/lib/practice-issue-rules.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const byId = Object.fromEntries(rules.map(rule => [rule.id, rule]));
+
+  const expected = {
+    precious_metals: ['DFARS RFO 208.7301', 'DFARS RFO PGI 208.73'],
+    contractor_personnel_japan_clause: ['CD 2018-O0019', 'DFARS RFO 252.225-7976'],
+    temporary_consultant_services_personal_services: ['DFARS RFO 237.803-2(a)(i)'],
+    cooperative_agreement_holders_clause: ['DFARS RFO 205.701'],
+    construction_estimate_handling: ['DFARS RFO PGI 236.101-6(1)'],
+    centcom_contractor_personnel_deviation: ['CD 2017-O0004', 'DFARS RFO 252.225-7995'],
+    military_flight_simulator_waiver: ['DFARS RFO 237.802-71(b)'],
+  };
+
+  for (const [id, citations] of Object.entries(expected)) {
+    assert.deepEqual(byId[id]?.expectedCitations, citations, `${id} should use current DFARS RFO/PGI citation targets`);
+  }
+
+  const stalePatterns = [
+    /DFARS RFO 208\.7302/,
+    /DFARS RFO 205\.470/,
+    /DFARS RFO PGI 236\.203\(1\)/,
+    /DFARS RFO 237\.102-71\(b\)/,
+    /DFARS RFO 237\.106\(1\)\(i\)/,
+    /DFARS RFO 225\.371-5/,
+  ];
+
+  for (const [id, rule] of Object.entries(byId)) {
+    const searchable = `${rule.expectedCitations?.join(' | ') || ''}\n${rule.guidance || ''}`;
+    for (const pattern of stalePatterns) {
+      assert.doesNotMatch(searchable, pattern, `${id} should not promote stale citation ${pattern}`);
+    }
+  }
+
+  assert.match(byId.construction_estimate_handling.guidance, /CUI/, 'construction estimate guidance should use current CUI marking');
+  assert.doesNotMatch(byId.construction_estimate_handling.guidance, /designated For Official Use Only; cite/, 'construction estimate guidance should not promote old FOUO wording');
+  assert.match(fetcher, /205\\\.701/, 'DFARS RFO Part 205 targeting should use the current cooperative-agreement clause prescription');
+  assert.match(fetcher, /208\\\.7301/, 'DFARS RFO Part 208 targeting should use the current precious-metals clause prescription');
+  assert.match(fetcher, /PGI 236\\\.101-6/, 'DFARS RFO PGI Part 236 targeting should use the current construction-estimate procedure');
+  assert.match(fetcher, /237\\\.803-2/, 'DFARS RFO Part 237 targeting should include the current expert-or-consultant services term limit');
+  assert.match(fetcher, /237\\\.802-71/, 'DFARS RFO Part 237 targeting should include the current flight-simulator prohibition');
+  assert.match(fetcher, /252\\\.225-7976/, 'DFARS RFO Part 225 targeting should include the current Japan contractor personnel clause');
+  assert.match(fetcher, /252\\\.225-7995/, 'DFARS RFO Part 225 targeting should include the current CENTCOM contractor personnel clause');
+  assert.doesNotMatch(fetcher, /205\\\.470/, 'DFARS RFO Part 205 targeting should not use stale 205.470');
+  assert.doesNotMatch(fetcher, /208\\\.7302/, 'DFARS RFO Part 208 targeting should not use stale 208.7302');
+  assert.doesNotMatch(fetcher, /PGI 236\\\.203/, 'DFARS RFO PGI Part 236 targeting should not use stale PGI 236.203');
+  assert.doesNotMatch(fetcher, /237\\\.102-71/, 'DFARS RFO Part 237 targeting should not use stale 237.102-71');
+  assert.doesNotMatch(fetcher, /237\\\.106/, 'DFARS RFO Part 237 targeting should not use stale 237.106');
+  assert.doesNotMatch(fetcher, /225\\\.371-5/, 'DFARS RFO Part 225 targeting should not use stale 225.371-5');
+});
+
+test('structured ARMOR routing rules cover Step One pre-check issue families without becoming a Q&A key', () => {
+  const rules = JSON.parse(read('app/lib/armor-routing-rules.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const analyze = read('app/api/analyze/route.ts');
+  const routing = read('app/lib/armor-routing-rules.ts');
+
+  assert.ok(Array.isArray(rules), 'structured routing rules should be an array');
+
+  const byId = Object.fromEntries(rules.map(rule => [rule.id, rule]));
+  const requiredIds = [
+    'germany_fixed_price_construction_warranty',
+    'detainee_epw_contractor_interrogation',
+    'preaward_debriefing_deadline',
+    'two_step_sealed_bidding_step_one',
+    'dod_technical_data_far_52_227_14',
+    'acquisition_plan_responsibility',
+    'legacy_citation_trap_guardrail',
+    'dfars_rfo_instead_of_in_lieu_priority',
+  ];
+
+  for (const id of requiredIds) {
+    assert.ok(byId[id], `${id} should be represented as a structured routing rule`);
+    assert.ok(Array.isArray(byId[id].triggerTerms) && byId[id].triggerTerms.length > 0, `${id} should define trigger terms`);
+    assert.ok(Array.isArray(byId[id].requiredSources), `${id} should define required source requests`);
+    assert.match(byId[id].instruction, /route|check|verify|determine/i, `${id} should instruct routing or verification, not just state an answer`);
+    assert.doesNotMatch(byId[id].instruction, /^answer\s*=/i, `${id} should not be a question-answer key`);
+  }
+
+  assert.deepEqual(
+    byId.two_step_sealed_bidding_step_one.requiredSources.map(source => `${source.kind}:${source.part}`),
+    ['rfo_far:14', 'dfars_rfo:214'],
+    'two-step sealed bidding should route to RFO FAR 14 and DFARS RFO 214',
+  );
+  assert.deepEqual(
+    byId.germany_fixed_price_construction_warranty.requiredSources.map(source => `${source.kind}:${source.part}`),
+    ['rfo_far:46', 'dfars_rfo:246'],
+    'Germany warranty should route to RFO FAR 46 and DFARS RFO 246',
+  );
+  assert.deepEqual(
+    byId.acquisition_plan_responsibility.requiredSources.map(source => `${source.kind}:${source.part}`),
+    ['rfo_far:7', 'dfars_rfo:207', 'dfars_pgi:207', 'rfo_conventions:1'],
+    'acquisition plan responsibility should route to RFO FAR 7, DFARS RFO 207, and PGI 207',
+  );
+  assert.deepEqual(
+    byId.dod_technical_data_far_52_227_14.requiredSources.map(source => `${source.kind}:${source.part}`),
+    ['rfo_far:27', 'dfars_rfo:227'],
+    'technical data should route to RFO FAR 27 and DFARS RFO 227',
+  );
+
+  assert.match(fetcher, /getArmorRoutingSourceRequests\(question\)/, 'fetcher should use structured routing rules for source requests');
+  assert.match(analyze, /getArmorRoutingInstruction\(retrievalPrompt\)/, 'analyze route should inject structured routing guidance server-side');
+  assert.match(read('app/lib/armor-prompt.ts'), /PRE-CHECK \(HARD/, 'first migration pass should supplement rather than remove PRE-CHECK');
+  assert.match(routing, /do not answer from this rule alone/i, 'routing instruction should preserve source-based answer discipline');
+  assert.match(routing, /retrieved approved source text/i, 'routing instruction should require retrieved source text for final determination');
+});
+
 test('Part 252 approved PDF has an explicit local text mirror', () => {
   const partLookup = JSON.parse(read('knowledge/armor-gpt/part_lookup.json'));
   const fetcher = read('app/lib/fetcher.ts');
@@ -172,6 +314,7 @@ test('source registry marks GSA submodules as background only, not approved cont
 
   assert.match(registry, /gsa\/gsa-acquisition-far/, 'GSA FAR fallback should be explicitly recognized');
   assert.match(registry, /gsa\/gsa-acquisition-dfars/, 'GSA DFARS fallback should be explicitly recognized');
+  assert.match(registry, /data\/legacy-crosswalk\/\*/, 'quarantined legacy-crosswalk paths should be explicitly described as fallback/background');
   assert.match(registry, /crosswalk\/background only/, 'runtime instruction should label baseline fallback as background only');
   assert.doesNotMatch(registry, /raw\.githubusercontent\.com\/gsa\/gsa-acquisition-far[\s\S]{0,200}return true/, 'GSA FAR must not be approved as controlling');
 });

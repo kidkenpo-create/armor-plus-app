@@ -96,6 +96,8 @@ export function isBaselineFallbackSource(label: string, url: string) {
     || value.includes('armor github data')
     || value.includes('/data/far')
     || value.includes('/data/dfars')
+    || value.includes('/data/legacy-crosswalk/far')
+    || value.includes('/data/legacy-crosswalk/dfars')
   );
 }
 
@@ -110,7 +112,7 @@ export function sourceAuthorityInstruction(routePlan: Array<{ label: string; url
     'SOURCE AUTHORITY LOCK:',
     `Approved knowledge root: ${APPROVED_KNOWLEDGE_ROOT}. Registry loaded: ${registry.length} master_index records; ${Object.keys(lookup).length} part_lookup keys.`,
     'Only retrieved RFO FAR, DFARS RFO, DFARS RFO PGI, or approved active class-deviation source text may support a controlling citation.',
-    'Baseline FAR/DFARS fallback from data/far or data/dfars is disabled for controlling authority. If referenced at all, it is crosswalk/background only.',
+    'Baseline FAR/DFARS fallback from data/far, data/dfars, or data/legacy-crosswalk/* is disabled for controlling authority. If referenced at all, it is crosswalk/background only.',
     approvedRetrieved.length
       ? `Approved controlling source text retrieved: ${approvedRetrieved.map(item => item.label).join('; ')}.`
       : 'No approved controlling source text was retrieved. Do not issue a Definitive controlling citation; mark the source status UTR/Non-Definitive as applicable.',

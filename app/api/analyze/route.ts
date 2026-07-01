@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import type { ChatCompletionCreateParamsStreaming, ChatCompletionMessageParam } from 'openai/resources/chat/completions';
 import { ARMOR_SYSTEM_PROMPT } from '@/app/lib/armor-prompt';
 import { prefetchRelevantParts } from '@/app/lib/fetcher';
+import { getArmorRoutingInstruction } from '@/app/lib/armor-routing-rules';
 import { getPracticeIssueInstruction } from '@/app/lib/practice-issue-rules';
 import { sourceAuthorityInstruction } from '@/app/lib/source-registry';
 
@@ -51,6 +52,7 @@ export async function POST(req: NextRequest) {
 
           const systemContent = [
             promptForResponseMode(responseMode),
+            getArmorRoutingInstruction(retrievalPrompt),
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
             sourceAuthorityInstruction(routePlan),
@@ -262,7 +264,7 @@ function promptForResponseMode(responseMode: ResponseMode) {
     '',
     'INTERNAL METHOD: Run the source-authority check, DFARS RFO overlay check, class-deviation materiality check, and citation verification internally before answering. Keep those checks internal unless the answer must switch to full analysis.',
     '',
-    'SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR and data/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.',
+    'SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR, data/DFARS, and data/legacy-crosswalk FAR/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.',
     '',
     'VISIBLE OUTPUT: Use only these headings: BLUF, What changed, Updated determination, Key citation(s), Validation question if needed.',
     '',

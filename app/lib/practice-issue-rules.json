@@ -157,12 +157,12 @@
   },
   {
     "id": "price_negotiation_cost_elements",
-    "match": ["doesn't have to reach agreement on every element of cost", "does not have to reach agreement on every element of cost", "15.405"],
-    "expectedCitations": ["RFO FAR 15.405(a)"],
+    "match": ["doesn't have to reach agreement on every element of cost", "does not have to reach agreement on every element of cost", "15.405", "15.407"],
+    "expectedCitations": ["RFO FAR 15.407(a)"],
     "requests": [
       { "kind": "rfo_far", "part": "15", "reason": "Price negotiation rule" }
     ],
-    "guidance": "Use RFO FAR 15.405(a): the contracting officer need not agree on every cost element to negotiate a fair and reasonable price."
+    "guidance": "Use RFO FAR 15.407(a), not legacy FAR 15.405(a), for the rule that a fair and reasonable price does not require agreement on every element of cost."
   },
   {
     "id": "utilities_privatization_part31_deviation",
@@ -177,12 +177,12 @@
   {
     "id": "precious_metals",
     "match": ["precious metals", "contractor buy them", "government-owned precious metals"],
-    "expectedCitations": ["DFARS RFO 208.7302", "DFARS RFO PGI 208.73"],
+    "expectedCitations": ["DFARS RFO 208.7301", "DFARS RFO PGI 208.73"],
     "requests": [
       { "kind": "dfars_rfo", "part": "208", "reason": "DoD Government-owned precious metals policy" },
       { "kind": "dfars_pgi", "part": "208", "reason": "DoD precious metals PGI" }
     ],
-    "guidance": "Use DFARS RFO 208.7302 and PGI 208.73: DoD should furnish available required precious metals rather than have contractors acquire them independently when in the Government's best interest."
+    "guidance": "Use DFARS RFO 208.7301 and PGI 208.73: DoD should furnish available required precious metals rather than have contractors acquire them independently when in the Government's best interest."
   },
   {
     "id": "electronic_payment_requests_exception",
@@ -206,21 +206,30 @@
   {
     "id": "contractor_personnel_japan_clause",
     "match": ["252.225-7976", "perform in japan", "contractor personnel performing in japan"],
-    "expectedCitations": ["CD 2018-O0019", "DFARS RFO 225.371-5"],
+    "expectedCitations": ["CD 2018-O0019", "DFARS RFO 252.225-7976"],
     "requests": [
       { "kind": "dfars_rfo", "part": "225", "reason": "Contractor personnel performing in Japan class deviation text" },
-      { "kind": "dfars_pgi", "part": "225", "reason": "Japan contractor personnel PGI context" }
+      { "kind": "dfars_pgi", "part": "225", "reason": "Japan contractor personnel PGI context" },
+      {
+        "kind": "class_deviation",
+        "part": "225",
+        "reason": "CD 2018-O0019 contractor personnel performing in Japan deviation text",
+        "title": "Class Deviation 2018-O0019 - Contractor Personnel Performing in Japan",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2018-O0019",
+        "sourceType": "pdf",
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+      }
     ],
-    "guidance": "Include DFARS 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 / DFARS RFO 225 text."
+    "guidance": "Include DFARS RFO 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 and the current DFARS RFO Part 225 clause text, not a stale Part 225 subsection."
   },
   {
     "id": "temporary_consultant_services_personal_services",
     "match": ["temporary consultant services", "maximum period", "personal services contract"],
-    "expectedCitations": ["DFARS RFO 237.106(1)(i)"],
+    "expectedCitations": ["DFARS RFO 237.803-2(a)(i)"],
     "requests": [
       { "kind": "dfars_rfo", "part": "237", "reason": "DoD personal services contract limit" }
     ],
-    "guidance": "The maximum period for a personal services contract for temporary consultant services is one year; cite DFARS RFO 237.106(1)(i)."
+    "guidance": "The maximum period for a personal services contract for expert or consultant services is one year; cite current DFARS RFO 237.803-2(a)(i), not a stale personal-services subsection."
   },
   {
     "id": "sat_humanitarian_peacekeeping_outside_us",
@@ -293,11 +302,11 @@
   {
     "id": "cooperative_agreement_holders_clause",
     "match": ["252.205-7000", "cooperative agreement holders", "base year and four options", "guaranteed minimum"],
-    "expectedCitations": ["DFARS RFO 205.470"],
+    "expectedCitations": ["DFARS RFO 205.701"],
     "requests": [
       { "kind": "dfars_rfo", "part": "205", "reason": "DoD cooperative agreement holder clause prescription" }
     ],
-    "guidance": "Use DFARS RFO 205.470. Evaluate total contemplated value including options, not just the IDIQ guaranteed minimum."
+    "guidance": "Use DFARS RFO 205.701. Evaluate total contemplated value including options, not just the IDIQ guaranteed minimum."
   },
   {
     "id": "award_fee_plan_consultation",
@@ -360,12 +369,12 @@
   {
     "id": "contractor_weapons_policy_peacekeeping",
     "match": ["carry weapons", "weapons policy", "peacekeeping operation", "designated operational area"],
-    "expectedCitations": ["RFO FAR 25.301-3"],
+    "expectedCitations": ["RFO FAR 25.701-3"],
     "requests": [
       { "kind": "rfo_far", "part": "25", "reason": "Contractor personnel in designated operational areas" },
       { "kind": "dfars_rfo", "part": "225", "reason": "DoD contractor personnel overseas overlay" }
     ],
-    "guidance": "For contractor personnel carrying weapons in a designated operational area during a peacekeeping operation, answer yes; cite RFO FAR 25.301-3."
+    "guidance": "For contractor personnel carrying weapons in a designated operational area during a peacekeeping operation, use current RFO FAR 25.701-3 for the weapons policy route."
   },
   {
     "id": "sap_synopsis_jofofc",
@@ -413,32 +422,32 @@
   {
     "id": "multiyear_cancellation_ceiling_20m",
     "match": ["cancellation ceiling of $20 million", "cancellation ceiling of 20 million", "congressional notification", "multiyear contract"],
-    "expectedCitations": ["RFO FAR 17.108(b)", "DFARS RFO 217.170(d)(1)(iv)"],
+    "expectedCitations": ["RFO FAR 17.104-3(a)", "DFARS RFO 217.104-370(b)(1)(iv)"],
     "requests": [
       { "kind": "rfo_far", "part": "17", "reason": "Multiyear congressional notification threshold" },
       { "kind": "dfars_rfo", "part": "217", "reason": "DoD multiyear congressional notification overlay" }
     ],
-    "guidance": "Answer no when the cancellation ceiling is exactly $20 million; the rule triggers above/exceeding the threshold, not equal to it."
+    "guidance": "Answer no when the cancellation ceiling is exactly $20 million; RFO FAR 17.104-3(a) triggers over $20 million, and the DoD overlay at DFARS RFO 217.104-370(b)(1)(iv) triggers over $200 million."
   },
   {
     "id": "construction_estimate_handling",
-    "match": ["government estimate of construction costs", "unclassified construction contract", "for official use only"],
-    "expectedCitations": ["DFARS RFO PGI 236.203(1)"],
+    "match": ["government estimate of construction costs", "unclassified construction contract", "for official use only", "cui"],
+    "expectedCitations": ["DFARS RFO PGI 236.101-6(1)"],
     "requests": [
       { "kind": "rfo_far", "part": "36", "reason": "Construction estimate baseline" },
       { "kind": "dfars_rfo", "part": "236", "reason": "DoD construction estimate overlay" },
       { "kind": "dfars_pgi", "part": "236", "reason": "DoD construction estimate marking procedure" }
     ],
-    "guidance": "For an unclassified DoD construction contract, the Government estimate is designated For Official Use Only; cite DFARS RFO PGI 236.203(1)."
+    "guidance": "For an unclassified DoD construction contract, the Government estimate is designated CUI; cite current DFARS RFO PGI 236.101-6(1), not stale DFARS PGI 236.203(1) or For Official Use Only language."
   },
   {
     "id": "motor_vehicle_lease_certification",
     "match": ["lease motor vehicles", "leased for a period of 60 days", "fuel efficiency and size", "8.1100"],
-    "expectedCitations": ["RFO FAR 8.1100"],
+    "expectedCitations": ["RFO FAR 8.101"],
     "requests": [
       { "kind": "rfo_far", "part": "8", "reason": "Leasing motor vehicles scope gate" }
     ],
-    "guidance": "Answer no in the 60-day overseas motor-vehicle lease scenario because RFO FAR 8.1100 is the scope gate for the certification requirement."
+    "guidance": "Do not cite legacy FAR subpart 8.11 as current RFO authority. In RFO FAR Part 8, leased motor vehicles are routed through the mandatory-source table at RFO FAR 8.101."
   },
   {
     "id": "hca_variable_unit_price_delegation",
@@ -503,31 +512,40 @@
   {
     "id": "centcom_contractor_personnel_deviation",
     "match": ["2017-o0004", "252.225-7040", "centcom", "qatar", "central command area"],
-    "expectedCitations": ["CD 2017-O0004", "DFARS RFO 225.371-5"],
+    "expectedCitations": ["CD 2017-O0004", "DFARS RFO 252.225-7995"],
     "requests": [
       { "kind": "dfars_rfo", "part": "225", "reason": "CENTCOM contractor personnel class-deviation text" },
-      { "kind": "dfars_pgi", "part": "225", "reason": "Overseas contractor personnel PGI context" }
+      { "kind": "dfars_pgi", "part": "225", "reason": "Overseas contractor personnel PGI context" },
+      {
+        "kind": "class_deviation",
+        "part": "225",
+        "reason": "CD 2017-O0004 CENTCOM contractor personnel deviation text",
+        "title": "Class Deviation 2017-O0004 - Contractor Personnel Performing in the United States Central Command Area of Responsibility",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2017-O0004",
+        "sourceType": "pdf",
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+      }
     ],
-    "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 225.371-5 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause."
+    "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 252.225-7995 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause; do not cite a stale Part 225 subsection."
   },
   {
     "id": "military_flight_simulator_waiver",
     "match": ["military flight simulator", "service contract for a military flight simulator"],
-    "expectedCitations": ["DFARS RFO 237.102-71(b)"],
+    "expectedCitations": ["DFARS RFO 237.802-71(b)"],
     "requests": [
       { "kind": "dfars_rfo", "part": "237", "reason": "Military flight simulator service-contract prohibition" },
       { "kind": "dfars_pgi", "part": "237", "reason": "Military flight simulator waiver procedure" }
     ],
-    "guidance": "Answer no: a DoD activity cannot enter into a service contract for a military flight simulator without a Secretary of Defense waiver; cite DFARS RFO 237.102-71(b)."
+    "guidance": "Answer no: a DoD activity cannot enter into a service contract for a military flight simulator without a Secretary of Defense waiver; cite current DFARS RFO 237.802-71(b), not a stale flight-simulator subsection."
   },
   {
     "id": "sdb_subcontractor_representation",
     "match": ["small disadvantaged business", "written representations", "current, accurate, and complete"],
-    "expectedCitations": ["RFO FAR 19.703(a)(2)(i)"],
+    "expectedCitations": ["RFO FAR 19.302-2(a)(1)(ii)(A)"],
     "requests": [
       { "kind": "rfo_far", "part": "19", "reason": "Subcontractor size and socioeconomic representation rule" }
     ],
-    "guidance": "Answer yes: the prime may accept the subcontractor's current, accurate, and complete written representation; cite RFO FAR 19.703(a)(2)(i)."
+    "guidance": "Answer yes: the prime may accept the subcontractor's current, accurate, and complete written representation; cite current RFO FAR 19.302-2(a)(1)(ii)(A), not legacy FAR 19.703(a)(2)(i)."
   },
   {
     "id": "assignment_of_claims_nonpersonal_services",

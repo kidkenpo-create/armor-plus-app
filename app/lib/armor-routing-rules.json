@@ -1,0 +1,126 @@
+[
+  {
+    "id": "germany_fixed_price_construction_warranty",
+    "issueFamily": "warranty-germany",
+    "triggerTerms": ["52.246-21", "warranty of construction", "construction germany", "germany construction", "246.710"],
+    "requiredSources": [
+      { "kind": "rfo_far", "part": "46", "reason": "Base RFO FAR quality assurance and warranty framework" },
+      { "kind": "dfars_rfo", "part": "246", "reason": "DoD Germany construction warranty prescription overlay" }
+    ],
+    "requiredSourceOrder": ["rfo_far:46", "dfars_rfo:246"],
+    "knownLegacyTrap": "Do not stop at the general FAR 52.246-21 clause or legacy FAR 46 warranty prescription; check the Germany-specific DFARS RFO prescription before finalizing.",
+    "targetCitation": "DFARS RFO 246.710(2)",
+    "verificationFocus": "Confirm whether the DFARS RFO text uses an instead-of substitution for FAR 52.246-21.",
+    "humanVerificationRole": "Contracting officer or policy reviewer if used for live solicitation clause selection.",
+    "instruction": "Route to RFO FAR Part 46 and DFARS RFO Part 246; determine the answer from the retrieved DFARS RFO prescription text, not from the clause title."
+  },
+  {
+    "id": "detainee_epw_contractor_interrogation",
+    "issueFamily": "detainee",
+    "triggerTerms": ["detainee", "enemy prisoner", "epw", "interrogat", "contractor personnel", "237.873"],
+    "requiredSources": [
+      { "kind": "dfars_rfo", "part": "237", "reason": "DoD detainee interrogation policy, definition, and waiver rule" },
+      { "kind": "dfars_pgi", "part": "237", "reason": "Procedural PGI check for DoD service contracting context" }
+    ],
+    "requiredSourceOrder": ["dfars_rfo:237", "dfars_pgi:237"],
+    "knownLegacyTrap": "Do not cite legacy DFARS 237.173 as the controlling current RFO answer unless the user explicitly requests legacy crosswalk context.",
+    "targetCitation": "DFARS RFO 237.873-3(a)",
+    "verificationFocus": "Read the detainee definition, the contractor-interrogation prohibition, and the Secretary of Defense waiver paragraph together.",
+    "humanVerificationRole": "Contracting officer, legal counsel, and policy office for operational detainee or law-of-war-sensitive use.",
+    "instruction": "Route to DFARS RFO Part 237 and verify the prohibition, definition, and waiver structure from retrieved current text."
+  },
+  {
+    "id": "preaward_debriefing_deadline",
+    "issueFamily": "debriefing",
+    "triggerTerms": ["debrief", "preaward", "pre-award", "exclusion", "15.206", "15.505", "notice of exclusion"],
+    "requiredSources": [
+      { "kind": "rfo_far", "part": "15", "reason": "RFO FAR source-selection and preaward debriefing procedure" },
+      { "kind": "dfars_rfo", "part": "215", "reason": "DoD source-selection overlay check" },
+      { "kind": "dfars_pgi", "part": "215", "reason": "Procedural PGI check" },
+      { "kind": "rfo_conventions", "part": "1", "reason": "Conventions and timing interpretation check" }
+    ],
+    "requiredSourceOrder": ["rfo_far:15", "dfars_rfo:215", "dfars_pgi:215", "rfo_conventions:1"],
+    "knownLegacyTrap": "Do not default to legacy FAR 15.505/15.506 as the controlling current RFO citation.",
+    "targetCitation": "RFO FAR 15.206-2(a)(1)",
+    "verificationFocus": "Confirm the retrieved RFO FAR timing text and apply the day-count rule before stating a deadline.",
+    "humanVerificationRole": "Contracting officer if filing time, receipt date, or agency-specific closure affects timeliness.",
+    "instruction": "Route to RFO FAR Part 15, DoD Part 215 overlays, and conventions; compute the date from retrieved timing authority and the stated facts."
+  },
+  {
+    "id": "two_step_sealed_bidding_step_one",
+    "issueFamily": "sealed-bidding",
+    "triggerTerms": ["two-step sealed", "two step sealed", "first step", "technical proposals", "sealed bidding", "14.503-1", "14.211"],
+    "requiredSources": [
+      { "kind": "rfo_far", "part": "14", "reason": "Current RFO FAR two-step sealed bidding procedure" },
+      { "kind": "dfars_rfo", "part": "214", "reason": "DoD sealed bidding overlay check" }
+    ],
+    "requiredSourceOrder": ["rfo_far:14", "dfars_rfo:214"],
+    "knownLegacyTrap": "Do not default to legacy FAR 14.503-1 unless the user explicitly asks for legacy FAR or crosswalk context.",
+    "targetCitation": "RFO FAR 14.211-3(a)(1)",
+    "verificationFocus": "Confirm the current RFO FAR location and whether any DoD overlay changes the procedure.",
+    "humanVerificationRole": "Contracting officer or policy reviewer if used to structure a live sealed bidding action.",
+    "instruction": "Route to RFO FAR Part 14 and DFARS RFO Part 214; use the current RFO FAR citation only if retrieved text supports it."
+  },
+  {
+    "id": "dod_technical_data_far_52_227_14",
+    "issueFamily": "technical-data",
+    "triggerTerms": ["52.227-14", "technical data", "27.409", "data will be acquired", "rights in data"],
+    "requiredSources": [
+      { "kind": "rfo_far", "part": "27", "reason": "RFO FAR data rights scope gate and clause-prescription baseline" },
+      { "kind": "dfars_rfo", "part": "227", "reason": "DoD technical data overlay and redirect check" }
+    ],
+    "requiredSourceOrder": ["rfo_far:27", "dfars_rfo:227"],
+    "knownLegacyTrap": "Do not jump directly to FAR 27.409 or FAR 52.227-14 without checking FAR/RFO FAR 27.400 and the DFARS/RFO DFARS 227.400 DoD scope gate.",
+    "targetCitation": "RFO FAR 27.400 / DFARS RFO 227.400",
+    "classDeviationTrigger": "Downgrade or flag UTR when a specific active class-deviation source is selected but not retrieved.",
+    "verificationFocus": "Confirm whether the DoD scope gate redirects from FAR subpart 27.4 to DFARS subparts 227.71 and 227.72.",
+    "humanVerificationRole": "Contracting officer, intellectual-property counsel, or policy office for live data-rights decisions.",
+    "instruction": "Route to RFO FAR Part 27 and DFARS RFO Part 227 before applying a clause prescription; distinguish DoD scope gate text from class-deviation text."
+  },
+  {
+    "id": "acquisition_plan_responsibility",
+    "issueFamily": "acquisition-plan",
+    "triggerTerms": ["acquisition plan", "acquisition planning", "responsible for the acquisition plan", "responsibility for acquisition plan", "who is responsible for the acquisition plan", "207.104-70"],
+    "requiredSources": [
+      { "kind": "rfo_far", "part": "7", "reason": "Base acquisition planning rule and planner definition" },
+      { "kind": "dfars_rfo", "part": "207", "reason": "DoD acquisition planning overlay" },
+      { "kind": "dfars_pgi", "part": "207", "reason": "DoD acquisition plan coordination responsibility" },
+      { "kind": "rfo_conventions", "part": "1", "reason": "Actor/responsibility convention check" }
+    ],
+    "requiredSourceOrder": ["rfo_far:7", "dfars_rfo:207", "dfars_pgi:207", "rfo_conventions:1"],
+    "knownLegacyTrap": "Do not default to the contracting officer merely because the question asks who is responsible; read the DoD PGI actor text.",
+    "targetCitation": "DFARS RFO PGI 207.104-70(b)",
+    "verificationFocus": "Compare the general RFO FAR planner concept with the DoD PGI coordination responsibility text.",
+    "humanVerificationRole": "Program manager and contracting officer for live acquisition planning responsibilities.",
+    "instruction": "Route to RFO FAR Part 7, DFARS RFO Part 207, and DFARS RFO PGI Part 207; answer actor responsibility from retrieved text."
+  },
+  {
+    "id": "legacy_citation_trap_guardrail",
+    "issueFamily": "legacy-citation-traps",
+    "triggerTerms": ["15.505", "15.506", "237.173", "46.710(a)", "14.503-1", "legacy far", "old far", "old dfars"],
+    "requiredSources": [
+      { "kind": "rfo_conventions", "part": "1", "reason": "RFO citation and structural interpretation check" }
+    ],
+    "requiredSourceOrder": ["rfo_conventions:1"],
+    "knownLegacyTrap": "Legacy citations may be useful for crosswalk or historical comparison, but they must not become controlling when RFO FAR / DFARS RFO governs.",
+    "targetCitation": "Current retrieved RFO FAR / DFARS RFO pinpoint citation",
+    "verificationFocus": "Confirm whether the user requested legacy crosswalk context or a current controlling RFO answer.",
+    "humanVerificationRole": "Contracting officer or policy reviewer if legacy/current citation conflict affects live documentation.",
+    "instruction": "Treat legacy citation terms as route signals to locate the current RFO/DFARS RFO source, not as controlling authority by themselves."
+  },
+  {
+    "id": "dfars_rfo_instead_of_in_lieu_priority",
+    "issueFamily": "dfars-overlay-priority",
+    "triggerTerms": ["instead of", "in lieu of", "use attached", "replace", "substitute", "dfars rfo controls", "class deviation"],
+    "requiredSources": [
+      { "kind": "rfo_conventions", "part": "1", "reason": "Structural interpretation and source hierarchy check" }
+    ],
+    "requiredSourceOrder": ["rfo_conventions:1"],
+    "knownLegacyTrap": "Do not keep a base FAR or clause answer when retrieved DFARS RFO or approved deviation text says instead of, in lieu of, use attached, or replace.",
+    "targetCitation": "Most specific retrieved DFARS RFO or approved class-deviation text",
+    "classDeviationTrigger": "When a specific deviation source is selected but text is unavailable, mark UTR and do not certify no deviation found.",
+    "verificationFocus": "Look for displacement verbs and confirm whether a DFARS RFO or active deviation changes the baseline RFO FAR answer.",
+    "humanVerificationRole": "Contracting officer, policy office, or legal counsel when a deviation or replacement clause affects live acquisition action.",
+    "instruction": "Verify displacement language as a mandatory source-hierarchy trigger; if retrieved text says instead of or in lieu of, the more specific DFARS/deviation source controls."
+  }
+]

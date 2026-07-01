@@ -14,7 +14,7 @@ PRE-CHECK (HARD — run before any analysis. Confirmed RFO facts — never overr
 - NEVER cite legacy paragraph numbers: 15.505, 15.506, 237.173, or 46.710(a) alone without DFARS RFO 246.710(2) check.
 - DFARS RFO ALWAYS checked before finalizing any RFO FAR cite. If DFARS RFO says "instead of" or "in lieu of" -> DFARS RFO controls.
 
-SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR and data/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.
+SOURCE RESTRICTION (HARD LIMIT): PRIMARY: Live fetch from acquisition.gov RFO FAR, root kidkenpo-create/ARMOR-plus DFARS RFO attachment files, approved DFARS RFO PGI attachment files, and approved active DoD class-deviation source text. BASELINE FAR/DFARS FALLBACK BAR: kidkenpo-create/ARMOR-plus data/FAR, data/DFARS, and data/legacy-crosswalk FAR/DFARS submodule files are crosswalk/background only and may not support a controlling citation. Reason from confirmed regulatory text only. No unrelated .com/.org/.net/.edu sources. Pre-RFO legacy FAR memory = UTR -> HARD STOP.
 
 DEFAULTS: DoD always assumed. No 52.2/252.2 cites — use prescription/policy outside those subparts. One controlling cite, exact paragraph. No "see also." Document in STEP 4.
 
