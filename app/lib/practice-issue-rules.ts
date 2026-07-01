@@ -40,7 +40,7 @@ export function getPracticeIssueInstruction(question: string): string {
     const routes = rule.requests.map(request => `${labelFor(request)} (${request.reason})`).join('; ');
     return [
       `Issue family: ${rule.id}`,
-      `Expected controlling citation(s): ${citations}`,
+      `Citation candidate(s) to verify from retrieved text: ${citations}`,
       `Required route: ${routes}`,
       `Guardrail: ${rule.guidance}`,
     ].join('\n');
