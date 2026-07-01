@@ -1,4 +1,5 @@
 import { getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
+import { getArmorRoutingSourceRequests } from './armor-routing-rules';
 import { registryRequestsForParts } from './source-registry';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -138,7 +139,10 @@ export async function prefetchRelevantParts(question: string): Promise<{ context
 
 function routeQuestion(question: string): SourceRequest[] {
   const lower = question.toLowerCase();
-  const requests: SourceRequest[] = [...getPracticeSourceRequests(question)];
+  const requests: SourceRequest[] = [
+    ...getArmorRoutingSourceRequests(question),
+    ...getPracticeSourceRequests(question),
+  ];
   const citedParts = extractParts(question);
 
   for (const rule of ISSUE_RULES) {
@@ -437,7 +441,7 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
   }
 
   if (request.kind === 'rfo_far' && request.part === '15') {
-    targets.push(/15\.206-2[\s\S]{0,1800}/i, /within 3 days after receipt[\s\S]{0,900}/i);
+    targets.push(/15\.407\s+Price negotiation[\s\S]{0,1800}/i, /15\.206-2[\s\S]{0,1800}/i, /within 3 days after receipt[\s\S]{0,900}/i);
   }
 
   if (request.kind === 'rfo_far' && request.part === '27') {
@@ -494,14 +498,14 @@ function commonTargets(request: SourceRequest): RegExp[] {
     'rfo_far:2': [/Simplified acquisition threshold[\s\S]{0,1800}/i, /Micro-purchase threshold[\s\S]{0,1200}/i],
     'rfo_far:5': [/5\.202[\s\S]{0,1600}/i],
     'rfo_far:6': [/6\.001[\s\S]{0,1400}/i, /6\.302-7[\s\S]{0,1800}/i],
-    'rfo_far:8': [/8\.1100[\s\S]{0,1800}/i, /8\.1102[\s\S]{0,1600}/i],
+    'rfo_far:8': [/8\.101[\s\S]{0,1800}/i, /Leased motor vehicles[\s\S]{0,1000}/i],
     'rfo_far:9': [/9\.102[\s\S]{0,1800}/i, /9\.106[\s\S]{0,1200}/i],
     'rfo_far:14': [/14\.211-3[\s\S]{0,2200}/i, /14\.308[\s\S]{0,1600}/i],
-    'rfo_far:15': [/15\.206-2[\s\S]{0,1800}/i, /15\.405[\s\S]{0,1800}/i],
-    'rfo_far:17': [/17\.108[\s\S]{0,1800}/i, /17\.106-3[\s\S]{0,1800}/i],
-    'rfo_far:19': [/19\.109[\s\S]{0,2000}/i, /19\.203[\s\S]{0,1600}/i, /19\.703[\s\S]{0,1800}/i],
+    'rfo_far:15': [/15\.407[\s\S]{0,1800}/i, /15\.206-2[\s\S]{0,1800}/i],
+    'rfo_far:17': [/17\.104-3[\s\S]{0,1800}/i, /17\.106[\s\S]{0,1800}/i],
+    'rfo_far:19': [/19\.109[\s\S]{0,2000}/i, /19\.203[\s\S]{0,1600}/i, /19\.302-2[\s\S]{0,2200}/i],
     'rfo_far:23': [/23\.106[\s\S]{0,1600}/i],
-    'rfo_far:25': [/25\.100[\s\S]{0,1800}/i, /25\.301-3[\s\S]{0,2000}/i],
+    'rfo_far:25': [/25\.100[\s\S]{0,1800}/i, /25\.701-3[\s\S]{0,2000}/i],
     'rfo_far:28': [/28\.307-2[\s\S]{0,1600}/i, /28\.102[\s\S]{0,1600}/i],
     'rfo_far:31': [/31\.\d+[\s\S]{0,1600}/i],
     'rfo_far:32': [/32\.803[\s\S]{0,1600}/i],

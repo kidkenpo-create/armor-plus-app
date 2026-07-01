@@ -157,12 +157,12 @@
   },
   {
     "id": "price_negotiation_cost_elements",
-    "match": ["doesn't have to reach agreement on every element of cost", "does not have to reach agreement on every element of cost", "15.405"],
-    "expectedCitations": ["RFO FAR 15.405(a)"],
+    "match": ["doesn't have to reach agreement on every element of cost", "does not have to reach agreement on every element of cost", "15.405", "15.407"],
+    "expectedCitations": ["RFO FAR 15.407(a)"],
     "requests": [
       { "kind": "rfo_far", "part": "15", "reason": "Price negotiation rule" }
     ],
-    "guidance": "Use RFO FAR 15.405(a): the contracting officer need not agree on every cost element to negotiate a fair and reasonable price."
+    "guidance": "Use RFO FAR 15.407(a), not legacy FAR 15.405(a), for the rule that a fair and reasonable price does not require agreement on every element of cost."
   },
   {
     "id": "utilities_privatization_part31_deviation",
@@ -360,12 +360,12 @@
   {
     "id": "contractor_weapons_policy_peacekeeping",
     "match": ["carry weapons", "weapons policy", "peacekeeping operation", "designated operational area"],
-    "expectedCitations": ["RFO FAR 25.301-3"],
+    "expectedCitations": ["RFO FAR 25.701-3"],
     "requests": [
       { "kind": "rfo_far", "part": "25", "reason": "Contractor personnel in designated operational areas" },
       { "kind": "dfars_rfo", "part": "225", "reason": "DoD contractor personnel overseas overlay" }
     ],
-    "guidance": "For contractor personnel carrying weapons in a designated operational area during a peacekeeping operation, answer yes; cite RFO FAR 25.301-3."
+    "guidance": "For contractor personnel carrying weapons in a designated operational area during a peacekeeping operation, use current RFO FAR 25.701-3 for the weapons policy route."
   },
   {
     "id": "sap_synopsis_jofofc",
@@ -413,12 +413,12 @@
   {
     "id": "multiyear_cancellation_ceiling_20m",
     "match": ["cancellation ceiling of $20 million", "cancellation ceiling of 20 million", "congressional notification", "multiyear contract"],
-    "expectedCitations": ["RFO FAR 17.108(b)", "DFARS RFO 217.170(d)(1)(iv)"],
+    "expectedCitations": ["RFO FAR 17.104-3(a)", "DFARS RFO 217.104-370(b)(1)(iv)"],
     "requests": [
       { "kind": "rfo_far", "part": "17", "reason": "Multiyear congressional notification threshold" },
       { "kind": "dfars_rfo", "part": "217", "reason": "DoD multiyear congressional notification overlay" }
     ],
-    "guidance": "Answer no when the cancellation ceiling is exactly $20 million; the rule triggers above/exceeding the threshold, not equal to it."
+    "guidance": "Answer no when the cancellation ceiling is exactly $20 million; RFO FAR 17.104-3(a) triggers over $20 million, and the DoD overlay at DFARS RFO 217.104-370(b)(1)(iv) triggers over $200 million."
   },
   {
     "id": "construction_estimate_handling",
@@ -434,11 +434,11 @@
   {
     "id": "motor_vehicle_lease_certification",
     "match": ["lease motor vehicles", "leased for a period of 60 days", "fuel efficiency and size", "8.1100"],
-    "expectedCitations": ["RFO FAR 8.1100"],
+    "expectedCitations": ["RFO FAR 8.101"],
     "requests": [
       { "kind": "rfo_far", "part": "8", "reason": "Leasing motor vehicles scope gate" }
     ],
-    "guidance": "Answer no in the 60-day overseas motor-vehicle lease scenario because RFO FAR 8.1100 is the scope gate for the certification requirement."
+    "guidance": "Do not cite legacy FAR subpart 8.11 as current RFO authority. In RFO FAR Part 8, leased motor vehicles are routed through the mandatory-source table at RFO FAR 8.101."
   },
   {
     "id": "hca_variable_unit_price_delegation",
@@ -523,11 +523,11 @@
   {
     "id": "sdb_subcontractor_representation",
     "match": ["small disadvantaged business", "written representations", "current, accurate, and complete"],
-    "expectedCitations": ["RFO FAR 19.703(a)(2)(i)"],
+    "expectedCitations": ["RFO FAR 19.302-2(a)(1)(ii)(A)"],
     "requests": [
       { "kind": "rfo_far", "part": "19", "reason": "Subcontractor size and socioeconomic representation rule" }
     ],
-    "guidance": "Answer yes: the prime may accept the subcontractor's current, accurate, and complete written representation; cite RFO FAR 19.703(a)(2)(i)."
+    "guidance": "Answer yes: the prime may accept the subcontractor's current, accurate, and complete written representation; cite current RFO FAR 19.302-2(a)(1)(ii)(A), not legacy FAR 19.703(a)(2)(i)."
   },
   {
     "id": "assignment_of_claims_nonpersonal_services",
