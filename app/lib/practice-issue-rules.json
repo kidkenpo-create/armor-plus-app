@@ -177,12 +177,12 @@
   {
     "id": "precious_metals",
     "match": ["precious metals", "contractor buy them", "government-owned precious metals"],
-    "expectedCitations": ["DFARS RFO 208.7302", "DFARS RFO PGI 208.73"],
+    "expectedCitations": ["DFARS RFO 208.7301", "DFARS RFO PGI 208.73"],
     "requests": [
       { "kind": "dfars_rfo", "part": "208", "reason": "DoD Government-owned precious metals policy" },
       { "kind": "dfars_pgi", "part": "208", "reason": "DoD precious metals PGI" }
     ],
-    "guidance": "Use DFARS RFO 208.7302 and PGI 208.73: DoD should furnish available required precious metals rather than have contractors acquire them independently when in the Government's best interest."
+    "guidance": "Use DFARS RFO 208.7301 and PGI 208.73: DoD should furnish available required precious metals rather than have contractors acquire them independently when in the Government's best interest."
   },
   {
     "id": "electronic_payment_requests_exception",
@@ -206,21 +206,30 @@
   {
     "id": "contractor_personnel_japan_clause",
     "match": ["252.225-7976", "perform in japan", "contractor personnel performing in japan"],
-    "expectedCitations": ["CD 2018-O0019", "DFARS RFO 225.371-5"],
+    "expectedCitations": ["CD 2018-O0019", "DFARS RFO 252.225-7976"],
     "requests": [
       { "kind": "dfars_rfo", "part": "225", "reason": "Contractor personnel performing in Japan class deviation text" },
-      { "kind": "dfars_pgi", "part": "225", "reason": "Japan contractor personnel PGI context" }
+      { "kind": "dfars_pgi", "part": "225", "reason": "Japan contractor personnel PGI context" },
+      {
+        "kind": "class_deviation",
+        "part": "225",
+        "reason": "CD 2018-O0019 contractor personnel performing in Japan deviation text",
+        "title": "Class Deviation 2018-O0019 - Contractor Personnel Performing in Japan",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2018-O0019",
+        "sourceType": "pdf",
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+      }
     ],
-    "guidance": "Include DFARS 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 / DFARS RFO 225 text."
+    "guidance": "Include DFARS RFO 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 and the current DFARS RFO Part 225 clause text, not a stale Part 225 subsection."
   },
   {
     "id": "temporary_consultant_services_personal_services",
     "match": ["temporary consultant services", "maximum period", "personal services contract"],
-    "expectedCitations": ["DFARS RFO 237.106(1)(i)"],
+    "expectedCitations": ["DFARS RFO 237.803-2(a)(i)"],
     "requests": [
       { "kind": "dfars_rfo", "part": "237", "reason": "DoD personal services contract limit" }
     ],
-    "guidance": "The maximum period for a personal services contract for temporary consultant services is one year; cite DFARS RFO 237.106(1)(i)."
+    "guidance": "The maximum period for a personal services contract for expert or consultant services is one year; cite current DFARS RFO 237.803-2(a)(i), not a stale personal-services subsection."
   },
   {
     "id": "sat_humanitarian_peacekeeping_outside_us",
@@ -293,11 +302,11 @@
   {
     "id": "cooperative_agreement_holders_clause",
     "match": ["252.205-7000", "cooperative agreement holders", "base year and four options", "guaranteed minimum"],
-    "expectedCitations": ["DFARS RFO 205.470"],
+    "expectedCitations": ["DFARS RFO 205.701"],
     "requests": [
       { "kind": "dfars_rfo", "part": "205", "reason": "DoD cooperative agreement holder clause prescription" }
     ],
-    "guidance": "Use DFARS RFO 205.470. Evaluate total contemplated value including options, not just the IDIQ guaranteed minimum."
+    "guidance": "Use DFARS RFO 205.701. Evaluate total contemplated value including options, not just the IDIQ guaranteed minimum."
   },
   {
     "id": "award_fee_plan_consultation",
@@ -422,14 +431,14 @@
   },
   {
     "id": "construction_estimate_handling",
-    "match": ["government estimate of construction costs", "unclassified construction contract", "for official use only"],
-    "expectedCitations": ["DFARS RFO PGI 236.203(1)"],
+    "match": ["government estimate of construction costs", "unclassified construction contract", "for official use only", "cui"],
+    "expectedCitations": ["DFARS RFO PGI 236.101-6(1)"],
     "requests": [
       { "kind": "rfo_far", "part": "36", "reason": "Construction estimate baseline" },
       { "kind": "dfars_rfo", "part": "236", "reason": "DoD construction estimate overlay" },
       { "kind": "dfars_pgi", "part": "236", "reason": "DoD construction estimate marking procedure" }
     ],
-    "guidance": "For an unclassified DoD construction contract, the Government estimate is designated For Official Use Only; cite DFARS RFO PGI 236.203(1)."
+    "guidance": "For an unclassified DoD construction contract, the Government estimate is designated CUI; cite current DFARS RFO PGI 236.101-6(1), not stale DFARS PGI 236.203(1) or For Official Use Only language."
   },
   {
     "id": "motor_vehicle_lease_certification",
@@ -503,22 +512,31 @@
   {
     "id": "centcom_contractor_personnel_deviation",
     "match": ["2017-o0004", "252.225-7040", "centcom", "qatar", "central command area"],
-    "expectedCitations": ["CD 2017-O0004", "DFARS RFO 225.371-5"],
+    "expectedCitations": ["CD 2017-O0004", "DFARS RFO 252.225-7995"],
     "requests": [
       { "kind": "dfars_rfo", "part": "225", "reason": "CENTCOM contractor personnel class-deviation text" },
-      { "kind": "dfars_pgi", "part": "225", "reason": "Overseas contractor personnel PGI context" }
+      { "kind": "dfars_pgi", "part": "225", "reason": "Overseas contractor personnel PGI context" },
+      {
+        "kind": "class_deviation",
+        "part": "225",
+        "reason": "CD 2017-O0004 CENTCOM contractor personnel deviation text",
+        "title": "Class Deviation 2017-O0004 - Contractor Personnel Performing in the United States Central Command Area of Responsibility",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2017-O0004",
+        "sourceType": "pdf",
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+      }
     ],
-    "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 225.371-5 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause."
+    "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 252.225-7995 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause; do not cite a stale Part 225 subsection."
   },
   {
     "id": "military_flight_simulator_waiver",
     "match": ["military flight simulator", "service contract for a military flight simulator"],
-    "expectedCitations": ["DFARS RFO 237.102-71(b)"],
+    "expectedCitations": ["DFARS RFO 237.802-71(b)"],
     "requests": [
       { "kind": "dfars_rfo", "part": "237", "reason": "Military flight simulator service-contract prohibition" },
       { "kind": "dfars_pgi", "part": "237", "reason": "Military flight simulator waiver procedure" }
     ],
-    "guidance": "Answer no: a DoD activity cannot enter into a service contract for a military flight simulator without a Secretary of Defense waiver; cite DFARS RFO 237.102-71(b)."
+    "guidance": "Answer no: a DoD activity cannot enter into a service contract for a military flight simulator without a Secretary of Defense waiver; cite current DFARS RFO 237.802-71(b), not a stale flight-simulator subsection."
   },
   {
     "id": "sdb_subcontractor_representation",

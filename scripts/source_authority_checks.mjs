@@ -158,6 +158,58 @@ test('practice rules do not promote known legacy FAR locations as current RFO an
 }
 );
 
+test('practice rules do not promote stale DFARS RFO or PGI locations as current answers', () => {
+  const rules = JSON.parse(read('app/lib/practice-issue-rules.json'));
+  const fetcher = read('app/lib/fetcher.ts');
+  const byId = Object.fromEntries(rules.map(rule => [rule.id, rule]));
+
+  const expected = {
+    precious_metals: ['DFARS RFO 208.7301', 'DFARS RFO PGI 208.73'],
+    contractor_personnel_japan_clause: ['CD 2018-O0019', 'DFARS RFO 252.225-7976'],
+    temporary_consultant_services_personal_services: ['DFARS RFO 237.803-2(a)(i)'],
+    cooperative_agreement_holders_clause: ['DFARS RFO 205.701'],
+    construction_estimate_handling: ['DFARS RFO PGI 236.101-6(1)'],
+    centcom_contractor_personnel_deviation: ['CD 2017-O0004', 'DFARS RFO 252.225-7995'],
+    military_flight_simulator_waiver: ['DFARS RFO 237.802-71(b)'],
+  };
+
+  for (const [id, citations] of Object.entries(expected)) {
+    assert.deepEqual(byId[id]?.expectedCitations, citations, `${id} should use current DFARS RFO/PGI citation targets`);
+  }
+
+  const stalePatterns = [
+    /DFARS RFO 208\.7302/,
+    /DFARS RFO 205\.470/,
+    /DFARS RFO PGI 236\.203\(1\)/,
+    /DFARS RFO 237\.102-71\(b\)/,
+    /DFARS RFO 237\.106\(1\)\(i\)/,
+    /DFARS RFO 225\.371-5/,
+  ];
+
+  for (const [id, rule] of Object.entries(byId)) {
+    const searchable = `${rule.expectedCitations?.join(' | ') || ''}\n${rule.guidance || ''}`;
+    for (const pattern of stalePatterns) {
+      assert.doesNotMatch(searchable, pattern, `${id} should not promote stale citation ${pattern}`);
+    }
+  }
+
+  assert.match(byId.construction_estimate_handling.guidance, /CUI/, 'construction estimate guidance should use current CUI marking');
+  assert.doesNotMatch(byId.construction_estimate_handling.guidance, /designated For Official Use Only; cite/, 'construction estimate guidance should not promote old FOUO wording');
+  assert.match(fetcher, /205\\\.701/, 'DFARS RFO Part 205 targeting should use the current cooperative-agreement clause prescription');
+  assert.match(fetcher, /208\\\.7301/, 'DFARS RFO Part 208 targeting should use the current precious-metals clause prescription');
+  assert.match(fetcher, /PGI 236\\\.101-6/, 'DFARS RFO PGI Part 236 targeting should use the current construction-estimate procedure');
+  assert.match(fetcher, /237\\\.803-2/, 'DFARS RFO Part 237 targeting should include the current expert-or-consultant services term limit');
+  assert.match(fetcher, /237\\\.802-71/, 'DFARS RFO Part 237 targeting should include the current flight-simulator prohibition');
+  assert.match(fetcher, /252\\\.225-7976/, 'DFARS RFO Part 225 targeting should include the current Japan contractor personnel clause');
+  assert.match(fetcher, /252\\\.225-7995/, 'DFARS RFO Part 225 targeting should include the current CENTCOM contractor personnel clause');
+  assert.doesNotMatch(fetcher, /205\\\.470/, 'DFARS RFO Part 205 targeting should not use stale 205.470');
+  assert.doesNotMatch(fetcher, /208\\\.7302/, 'DFARS RFO Part 208 targeting should not use stale 208.7302');
+  assert.doesNotMatch(fetcher, /PGI 236\\\.203/, 'DFARS RFO PGI Part 236 targeting should not use stale PGI 236.203');
+  assert.doesNotMatch(fetcher, /237\\\.102-71/, 'DFARS RFO Part 237 targeting should not use stale 237.102-71');
+  assert.doesNotMatch(fetcher, /237\\\.106/, 'DFARS RFO Part 237 targeting should not use stale 237.106');
+  assert.doesNotMatch(fetcher, /225\\\.371-5/, 'DFARS RFO Part 225 targeting should not use stale 225.371-5');
+});
+
 test('structured ARMOR routing rules cover Step One pre-check issue families without becoming a Q&A key', () => {
   const rules = JSON.parse(read('app/lib/armor-routing-rules.json'));
   const fetcher = read('app/lib/fetcher.ts');

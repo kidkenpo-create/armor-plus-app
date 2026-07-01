@@ -483,6 +483,15 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
     );
   }
 
+  if (request.kind === 'class_deviation' && request.part === '225') {
+    targets.push(
+      /Class Deviation 2018-O0019\s+Contractor Personnel Performing in Japan[\s\S]{0,6500}/i,
+      /252\.225-7976 Contractor Personnel Performing in Japan[\s\S]{0,2600}/i,
+      /Class Deviation 2017-?O?0004\s+Contractor Personnel Performing in the United States Central Command Area of Responsibility[\s\S]{0,4600}/i,
+      /252\.225-7995 Contractor Personnel Performing in the United States Central[\s\S]{0,2600}/i,
+    );
+  }
+
   for (const target of targets) {
     const match = text.match(target);
     if (match?.[0]) return trimEvidence(match[0]);
@@ -521,8 +530,8 @@ function commonTargets(request: SourceRequest): RegExp[] {
     'dfars_rfo:201': [/201\.170[\s\S]{0,1800}/i, /201\.108[\s\S]{0,1800}/i],
     'dfars_pgi:201': [/PGI 201\.170-2[\s\S]{0,2000}/i, /PGI 201\.108[\s\S]{0,2000}/i],
     'dfars_pgi:204': [/PGI 204\.101[\s\S]{0,1300}/i, /Include the contracting officer's telephone number[\s\S]{0,800}/i],
-    'dfars_rfo:205': [/205\.470[\s\S]{0,1800}/i],
-    'dfars_rfo:208': [/208\.7302[\s\S]{0,1600}/i, /SUBPART 208\.73[\s\S]{0,2000}/i],
+    'dfars_rfo:205': [/205\.701[\s\S]{0,1800}/i, /252\.205-7000[\s\S]{0,1800}/i],
+    'dfars_rfo:208': [/208\.7301[\s\S]{0,1800}/i, /SUBPART 208\.73[\s\S]{0,2200}/i],
     'dfars_pgi:208': [/PGI 208\.73[\s\S]{0,2200}/i, /DoD policy is for maximum participation[\s\S]{0,1000}/i],
     'dfars_rfo:209': [/209\.171[\s\S]{0,1400}/i],
     'dfars_pgi:209': [/PGI 209\.171[\s\S]{0,2200}/i],
@@ -531,16 +540,16 @@ function commonTargets(request: SourceRequest): RegExp[] {
     'dfars_rfo:216': [/216\.401[\s\S]{0,1800}/i],
     'dfars_pgi:216': [/PGI 216\.401[\s\S]{0,2200}/i],
     'dfars_rfo:217': [/217\.7302[\s\S]{0,2200}/i, /217\.7404-5[\s\S]{0,2200}/i, /217\.170[\s\S]{0,2200}/i],
-    'dfars_rfo:225': [/252\.225-7976[\s\S]{0,2200}/i, /2017-O0004[\s\S]{0,1800}/i, /25\.301-3[\s\S]{0,1600}/i],
+    'dfars_rfo:225': [/252\.225-7976[\s\S]{0,2200}/i, /252\.225-7995[\s\S]{0,2200}/i, /2017-O0004[\s\S]{0,1800}/i, /2018-O0019[\s\S]{0,1800}/i, /25\.701-3[\s\S]{0,1600}/i],
     'dfars_pgi:225': [/For work performed in Japan[\s\S]{0,1800}/i, /Class Deviation 2017-O0004[\s\S]{0,1600}/i],
     'dfars_rfo:228': [/228\.102-1[\s\S]{0,2200}/i, /228\.307[\s\S]{0,1600}/i],
     'dfars_rfo:232': [/232\.7002[\s\S]{0,1800}/i, /232\.803[\s\S]{0,2000}/i],
     'dfars_pgi:232': [/PGI 232\.7002[\s\S]{0,1800}/i, /PGI 232\.7004[\s\S]{0,1800}/i],
     'dfars_rfo:233': [/233\.205[\s\S]{0,1600}/i],
-    'dfars_rfo:236': [/236\.203[\s\S]{0,1600}/i, /236\.602[\s\S]{0,1600}/i],
-    'dfars_pgi:236': [/PGI 236\.203[\s\S]{0,2200}/i, /For Official Use Only[\s\S]{0,800}/i],
-    'dfars_rfo:237': [/237\.102-71[\s\S]{0,1800}/i, /237\.106[\s\S]{0,1400}/i, /237\.301-1[\s\S]{0,1400}/i, /237\.873-4[\s\S]{0,1400}/i],
-    'dfars_pgi:237': [/DoD Instruction 1100\.22[\s\S]{0,1200}/i, /PGI 237\.102-71[\s\S]{0,1800}/i],
+    'dfars_rfo:236': [/236\.101-6[\s\S]{0,1800}/i, /236\.602[\s\S]{0,1600}/i],
+    'dfars_pgi:236': [/PGI 236\.101-6[\s\S]{0,2200}/i, /Designate the Government estimate as "CUI"[\s\S]{0,900}/i],
+    'dfars_rfo:237': [/237\.802-71[\s\S]{0,2200}/i, /237\.803-2[\s\S]{0,1800}/i, /237\.201-170[\s\S]{0,1600}/i, /237\.301-1[\s\S]{0,1400}/i, /237\.873-4[\s\S]{0,1400}/i],
+    'dfars_pgi:237': [/DoD Instruction 1100\.22[\s\S]{0,1200}/i, /PGI 237\.802-71[\s\S]{0,2000}/i, /PGI 237\.201-170[\s\S]{0,1800}/i],
     'dfars_pgi:242': [/PGI 242\.505-1[\s\S]{0,2200}/i],
     'dfars_rfo:245': [/245\.103-70[\s\S]{0,1600}/i, /245\.103-71[\s\S]{0,1600}/i],
     'dfars_pgi:245': [/PGI 245\.103-70[\s\S]{0,2000}/i, /PGI 245\.103-71[\s\S]{0,2200}/i],
