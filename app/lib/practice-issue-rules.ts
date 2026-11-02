@@ -5,6 +5,9 @@ export type SourceKind = 'rfo_far' | 'dfars_rfo' | 'dfars_pgi' | 'rfo_convention
 export interface SourceRequest {
   kind: SourceKind;
   part: string;
+  /** Specific section cited for this part, e.g. "17.104-3", when the
+   * question names one. Enables section-targeted excerpt extraction. */
+  section?: string;
   reason: string;
   title?: string;
   url?: string;
