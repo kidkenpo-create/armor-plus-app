@@ -1,8 +1,17 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { DEMO_QUESTIONS } from '@/app/lib/armor-prompt';
-import { blufTone, enforceDefinitiveGuard, parseArmorOutput, type ParsedOutput } from '@/app/lib/parse-armor-output';
+import {
+  blufTone,
+  enforceDefinitiveGuard,
+  extractCitations,
+  parseArmorOutput,
+  parseArmorOutputRich,
+  parseRichContent,
+  type CitationRef,
+  type ParsedOutput,
+} from '@/app/lib/parse-armor-output';
 import { findPracticeIssueRules, type SourceRequest } from '@/app/lib/practice-issue-rules';
 import styles from './page.module.css';
 
@@ -51,6 +60,13 @@ interface ChatSession {
 const MAX_CLIENT_HISTORY_MESSAGES = 8;
 const CHAT_HISTORY_KEY = 'armor-plus-chat-history-v1';
 const MAX_SAVED_CHATS = 30;
+
+const DEMO_LABELS = [
+  'Preaward debrief deadline',
+  'EPW waiver rule',
+  'Germany warranty clause',
+  'Two-step sealed bidding',
+];
 
 function routePreview(question: string): SourcePlanItem[] {
   const q = question.toLowerCase();
@@ -331,7 +347,300 @@ function hasApprovedControlling(items?: SourcePlanItem[]) {
   return items.some(item => item.status === 'R' && isApprovedSource(item.label, item.url));
 }
 
-function BlufCard({ content, hasApproved = true }: { content: string; hasApproved?: boolean }) {
+/* ------------------------------------------------------------------ */
+/* Research Trace stage model — shared by the side-panel trace and     */
+/* the in-chat staged progress card so both always agree.              */
+/* ------------------------------------------------------------------ */
+
+interface TraceRow {
+  label: string;
+  detail: string;
+  state: 'done' | 'active' | 'idle';
+}
+
+function buildTraceRows(items: SourcePlanItem[], streaming: boolean, done: boolean, model: string): TraceRow[] {
+  const fetched = items.filter(item => item.status === 'R').length;
+  const total = items.length;
+  return [
+    {
+      label: 'Classify issue family',
+      detail: 'Question type, named citations, DoD/default assumptions',
+      state: streaming || done ? 'done' : 'idle',
+    },
+    {
+      label: 'Route approved sources',
+      detail: total ? `${total} source route${total === 1 ? '' : 's'} selected` : 'Waiting for question',
+      state: total ? 'done' : 'idle',
+    },
+    {
+      label: 'Fetch live authority',
+      detail: done || fetched ? `${fetched}/${total} retrieved; UTR where unavailable` : 'Server-side direct retrieval',
+      state: done ? 'done' : streaming ? 'active' : 'idle',
+    },
+    {
+      label: 'Apply ARMOR gates',
+      detail: 'Two-pass gate, rungs, verification loop, final receipt',
+      state: streaming ? 'active' : done ? 'done' : 'idle',
+    },
+    {
+      label: `Draft final with ${model || 'the selected model'}`,
+      detail: 'BLUF, STEP 1-7, citations, validation notes',
+      state: streaming ? 'active' : done ? 'done' : 'idle',
+    },
+  ];
+}
+
+function PendingProgress({ items, model }: { items: SourcePlanItem[]; model: string }) {
+  const rows = buildTraceRows(items, true, false, model);
+  const active = rows.find(row => row.state === 'active');
+  return (
+    <div className={styles.pendingAnswer} role="status" aria-live="polite">
+      <strong>{active ? `${active.label}...` : 'Researching...'}</strong>
+      <div className={styles.pendingStages}>
+        {rows.map(row => (
+          <div key={row.label} className={styles.pendingStage}>
+            <span className={`${styles.traceDot} ${styles[`trace-${row.state}`]} ${row.state === 'active' ? styles.tracePulse : ''}`} />
+            <span>{row.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Citation chips + rich answer rendering (Tier 2 #1)                  */
+/* ------------------------------------------------------------------ */
+
+const CITATION_CLASS_LABELS: Record<CitationRef['citeClass'], string> = {
+  controlling: 'Controlling',
+  'dfars-overlay': 'DFARS overlay',
+  pgi: 'PGI',
+  deviation: 'Deviation',
+  clause: 'Clause',
+};
+
+interface CitationContextValue {
+  numbers: Map<string, number>;
+  items: SourcePlanItem[];
+}
+
+const CitationContext = createContext<CitationContextValue>({ numbers: new Map(), items: [] });
+
+/** Assign Perplexity-style numbers to an answer's unique citations, in order of first use. */
+function buildCitationNumbers(parsed: ParsedOutput): Map<string, number> {
+  const numbers = new Map<string, number>();
+  const texts = [parsed.bluf || '', ...parsed.steps.map(step => step.content)];
+  for (const text of texts) {
+    for (const ref of extractCitations(text)) {
+      if (!numbers.has(ref.key)) numbers.set(ref.key, numbers.size + 1);
+    }
+  }
+  return numbers;
+}
+
+function routeKindOf(item: SourcePlanItem): CitationRef['citeClass'] | null {
+  const label = item.label;
+  if (/deviation/i.test(label)) return 'deviation';
+  if (/pgi/i.test(label)) return 'pgi';
+  if (/^DFARS RFO/i.test(label)) return 'dfars-overlay';
+  if (/^RFO FAR/i.test(label)) return 'controlling';
+  return null;
+}
+
+/**
+ * Resolve a citation in the answer text to the route-plan item behind it,
+ * and to that item's index in the Evidence Snapshot list (status R +
+ * excerpt — the same filter EvidenceSnapshot renders).
+ */
+function resolveCitationEvidence(
+  citation: CitationRef,
+  items: SourcePlanItem[],
+): { item: SourcePlanItem; evidenceIndex: number } | null {
+  const evidenceItems = items.filter(item => item.status === 'R' && item.excerpt);
+  const evidenceIndexOf = (item: SourcePlanItem) => evidenceItems.indexOf(item);
+
+  let candidates = items.filter(item => {
+    if (citation.citeClass === 'deviation') return routeKindOf(item) === 'deviation';
+    if (!citation.part) return false;
+    return new RegExp(`Part ${citation.part}\\b`).test(item.label);
+  });
+  if (!candidates.length && citation.citeClass === 'deviation') {
+    candidates = items.filter(item => routeKindOf(item) === 'deviation');
+  }
+  const sameKind = candidates.filter(item => routeKindOf(item) === citation.citeClass);
+  const pool = sameKind.length ? sameKind : candidates;
+  const pick =
+    pool.find(item => evidenceIndexOf(item) >= 0)
+    || pool.find(item => item.status === 'R')
+    || pool[0];
+  if (!pick) return null;
+  return { item: pick, evidenceIndex: evidenceIndexOf(pick) };
+}
+
+/** Index of the first retrieved approved controlling evidence item, for the BLUF "verified" link. */
+function controllingEvidenceIndex(items?: SourcePlanItem[]): number {
+  if (!items) return -1;
+  const evidenceItems = items.filter(item => item.status === 'R' && item.excerpt);
+  const controlling = items.find(item =>
+    item.status === 'R' && item.excerpt && isApprovedSource(item.label, item.url) && routeKindOf(item) === 'controlling');
+  return controlling ? evidenceItems.indexOf(controlling) : -1;
+}
+
+const EVIDENCE_HIGHLIGHT_EVENT = 'armor:highlight-evidence';
+
+function highlightEvidence(evidenceIndex: number) {
+  window.dispatchEvent(new CustomEvent(EVIDENCE_HIGHLIGHT_EVENT, { detail: { evidenceIndex } }));
+}
+
+function CitationChip({ citation }: { citation: CitationRef }) {
+  const { numbers, items } = useContext(CitationContext);
+  const number = numbers.get(citation.key);
+  const resolved = resolveCitationEvidence(citation, items);
+  const classLabel = CITATION_CLASS_LABELS[citation.citeClass];
+  const title = resolved
+    ? `${citation.raw} — ${classLabel}. Source: ${resolved.item.label}.`
+    : `${citation.raw} — ${classLabel}.`;
+
+  const chip = (
+    <>
+      {number ? <span className={styles.citeNum}>{number}</span> : null}
+      <span className={styles.citeClass}>{classLabel}</span>
+    </>
+  );
+
+  if (resolved && resolved.evidenceIndex >= 0) {
+    return (
+      <button
+        type="button"
+        className={`${styles.citeChip} ${styles[`cite-${citation.citeClass}`]}`}
+        title={`${title} Show the retrieved passage.`}
+        onClick={() => highlightEvidence(resolved.evidenceIndex)}
+      >
+        {chip}
+      </button>
+    );
+  }
+  if (resolved) {
+    return (
+      <a
+        className={`${styles.citeChip} ${styles[`cite-${citation.citeClass}`]}`}
+        href={sourceHref(resolved.item)}
+        target="_blank"
+        rel="noreferrer"
+        title={`${title} Open the official source.`}
+      >
+        {chip}
+      </a>
+    );
+  }
+  return (
+    <span className={`${styles.citeChip} ${styles[`cite-${citation.citeClass}`]}`} title={title}>
+      {chip}
+    </span>
+  );
+}
+
+function RichContent({ content }: { content: string }) {
+  const blocks = useMemo(() => parseRichContent(content), [content]);
+  return (
+    <div className={styles.richBody}>
+      {blocks.map((block, blockIndex) => {
+        if (block.type === 'list') {
+          const ListTag = block.ordered ? 'ol' : 'ul';
+          return (
+            <ListTag key={blockIndex} className={styles.richList}>
+              {block.items.map((item, itemIndex) => (
+                <li key={itemIndex}>{renderInline(item)}</li>
+              ))}
+            </ListTag>
+          );
+        }
+        return (
+          <div key={blockIndex} className={styles.richPara}>
+            {block.items.map((line, lineIndex) => (
+              <span key={lineIndex} className={styles.richLine}>
+                {renderInline(line)}
+              </span>
+            ))}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function renderInline(segments: ReturnType<typeof parseRichContent>[number]['items'][number]) {
+  return segments.map((segment, index) => {
+    if (segment.kind === 'citation' && segment.citation) {
+      const chip = <CitationChip key={index} citation={segment.citation} />;
+      return segment.bold ? <strong key={index}>{chip}</strong> : chip;
+    }
+    return segment.bold
+      ? <strong key={index}>{segment.text}</strong>
+      : <span key={index}>{segment.text}</span>;
+  });
+}
+
+/* ------------------------------------------------------------------ */
+/* Per-answer trust badge strip (Tier 2 #4) — every badge is computed  */
+/* from this answer's actual route plan statuses, never hard-coded.   */
+/* ------------------------------------------------------------------ */
+
+function isLegacySource(item: SourcePlanItem) {
+  const label = item.label.toLowerCase();
+  const url = item.url.toLowerCase();
+  if (label.includes('rfo') || label.includes('deviation')) return false;
+  if (/^far part/.test(label)) return true;
+  // A current-FAR path segment that is not part of the far-overhaul tree.
+  if (url.includes('/far/') && !url.includes('far-overhaul')) return true;
+  return false;
+}
+
+function badgeState(items: SourcePlanItem[], match: (item: SourcePlanItem) => boolean): 'ok' | 'utr' | null {
+  const matched = items.filter(match);
+  if (!matched.length) return null;
+  return matched.some(item => item.status === 'R') ? 'ok' : 'utr';
+}
+
+function TrustBadges({ items }: { items?: SourcePlanItem[] }) {
+  if (!items || !items.length) return null;
+  // Badges describe what actually happened; while everything is still
+  // 'planned' there is nothing earned to show yet.
+  if (!items.some(item => item.status !== 'planned')) return null;
+
+  const badges: Array<{ label: string; state: 'ok' | 'utr' | 'neutral' }> = [];
+  const far = badgeState(items, item => routeKindOf(item) === 'controlling');
+  if (far) badges.push({ label: far === 'ok' ? 'RFO FAR — live-fetched' : 'RFO FAR — unavailable', state: far });
+  const dfars = badgeState(items, item => routeKindOf(item) === 'dfars-overlay');
+  if (dfars) badges.push({ label: dfars === 'ok' ? 'DFARS RFO — checked' : 'DFARS RFO — unavailable', state: dfars });
+  const pgi = badgeState(items, item => routeKindOf(item) === 'pgi');
+  if (pgi) badges.push({ label: pgi === 'ok' ? 'DFARS PGI — checked' : 'DFARS PGI — unavailable', state: pgi });
+  const deviations = badgeState(items, item => routeKindOf(item) === 'deviation');
+  if (deviations) badges.push({ label: deviations === 'ok' ? 'Class deviations — checked' : 'Class deviations — unavailable', state: deviations });
+  if (!items.some(isLegacySource)) badges.push({ label: 'Legacy FAR — not used', state: 'neutral' });
+
+  if (!badges.length) return null;
+  return (
+    <div className={styles.trustStrip} aria-label="How this answer was sourced">
+      {badges.map(badge => (
+        <span key={badge.label} className={`${styles.trustBadge} ${styles[`trust-${badge.state}`]}`}>
+          {badge.state === 'ok' ? '✓ ' : badge.state === 'utr' ? '✗ ' : ''}{badge.label}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+function BlufCard({
+  content,
+  hasApproved = true,
+  verifiedEvidenceIndex = -1,
+}: {
+  content: string;
+  hasApproved?: boolean;
+  verifiedEvidenceIndex?: number;
+}) {
   const parsedTone = blufTone(content);
   // BLUF integrity guard (UI): a Definitive label cannot stand when no
   // approved controlling source was retrieved, and an unlabeled BLUF is
@@ -341,17 +650,33 @@ function BlufCard({ content, hasApproved = true }: { content: string; hasApprove
   const label = tone === 'nd'
     ? (parsedTone === 'unknown' ? 'Non-Definitive (unverified)' : 'Non-Definitive')
     : tone === 'cond' ? 'Conditional' : 'Definitive';
+  const earnedDefinitive = tone === 'def' && !downgraded;
 
   return (
     <section className={`${styles.blufCard} ${styles[`bluf-${tone}`]}`}>
       <div className={styles.cardKicker}>0) BLUF</div>
       <div className={styles.blufTop}>
         <span className={`${styles.determination} ${styles[`det-${tone}`]}`}>{label}</span>
-        <span className={styles.sourceChip}>Control cite required</span>
+        {earnedDefinitive ? (
+          verifiedEvidenceIndex >= 0 ? (
+            <button
+              type="button"
+              className={`${styles.sourceChip} ${styles.sourceChipVerified}`}
+              onClick={() => highlightEvidence(verifiedEvidenceIndex)}
+              title="Show the retrieved controlling passage in the Evidence Snapshot"
+            >
+              Controlling cite verified
+            </button>
+          ) : (
+            <span className={`${styles.sourceChip} ${styles.sourceChipVerified}`}>Controlling cite verified</span>
+          )
+        ) : (
+          <span className={styles.sourceChip}>Control cite required</span>
+        )}
       </div>
-      <p>{content}</p>
+      <RichContent content={content} />
       {downgraded && (
-        <p>Downgraded by the ARMOR guard: no approved controlling source text was retrieved for this answer, so it cannot be presented as Definitive.</p>
+        <p className={styles.guardNote}>Downgraded by the ARMOR guard: no approved controlling source text was retrieved for this answer, so it cannot be presented as Definitive.</p>
       )}
     </section>
   );
@@ -360,13 +685,16 @@ function BlufCard({ content, hasApproved = true }: { content: string; hasApprove
 function StepBlock({ num, title, content }: { num: string; title: string; content: string }) {
   const [open, setOpen] = useState(['3A', '3B', '5', '6', '7'].includes(num));
   return (
-    <section className={styles.stepItem}>
-      <button className={styles.stepToggle} onClick={() => setOpen(value => !value)}>
+    <section className={styles.stepItem} data-open={open ? 'true' : 'false'}>
+      <button className={styles.stepToggle} onClick={() => setOpen(value => !value)} aria-expanded={open}>
         <span className={styles.stepNum}>STEP {num}</span>
         <span className={styles.stepTitle}>{title}</span>
         <span className={styles.chevron}>{open ? '−' : '+'}</span>
       </button>
-      {open && <pre className={styles.stepBody}>{content}</pre>}
+      {/* Body stays mounted (CSS-collapsed) so the print stylesheet can file the full answer. */}
+      <div className={styles.stepBody}>
+        <RichContent content={content} />
+      </div>
     </section>
   );
 }
@@ -376,37 +704,64 @@ function AssistantAnswer({
   parsed,
   responseMode = 'first_turn_full_analysis',
   hasApproved = true,
+  routePlan,
 }: {
   content: string;
   parsed?: ParsedOutput | null;
   responseMode?: ResponseMode;
   hasApproved?: boolean;
+  routePlan?: SourcePlanItem[];
 }) {
-  const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
+  // Render from a markup-preserving parse of the raw answer so **bold**
+  // survives into the rich renderer; structure is identical to `parsed`.
+  const richParsed = useMemo(() => parseArmorOutputRich(content), [content]);
+  const effective = richParsed.bluf || richParsed.steps.length > 0 ? richParsed : parsed;
+  const hasStructured = Boolean(effective && (effective.bluf || effective.steps.length > 0));
+  const citationContext = useMemo<CitationContextValue>(
+    () => ({
+      numbers: effective ? buildCitationNumbers(effective) : new Map<string, number>(),
+      items: routePlan || [],
+    }),
+    [effective, routePlan],
+  );
 
-  if (!hasStructured) {
-    // Follow-up / plain rendering: strip raw markdown artifacts (** bold
-    // markers, ATX heading hashes) so answers don't show literal markup.
-    const clean = content.replace(/\*\*/g, '').replace(/^#{1,6}\s+/gm, '');
-    return <pre className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>{clean}</pre>;
+  if (!hasStructured || !effective) {
+    // Follow-up / plain rendering: the rich renderer turns **bold** into
+    // real bold and strips heading hashes, so no literal markup shows.
+    return (
+      <div className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>
+        <CitationContext.Provider value={citationContext}>
+          <RichContent content={content} />
+        </CitationContext.Provider>
+      </div>
+    );
   }
 
   return (
-    <>
-      {parsed?.bluf && <BlufCard content={parsed.bluf} hasApproved={hasApproved} />}
+    <CitationContext.Provider value={citationContext}>
+      <TrustBadges items={routePlan} />
+      {effective.bluf && (
+        <BlufCard
+          content={effective.bluf}
+          hasApproved={hasApproved}
+          verifiedEvidenceIndex={controllingEvidenceIndex(routePlan)}
+        />
+      )}
       <div className={styles.stepsWrap}>
-        {parsed?.steps.map(step => <StepBlock key={`${step.num}-${step.title}`} {...step} />)}
+        {effective.steps.map(step => <StepBlock key={`${step.num}-${step.title}`} {...step} />)}
       </div>
-    </>
+    </CitationContext.Provider>
   );
 }
 
 function ConversationMessage({
   turn,
   onShowFullAnalysis,
+  pending = false,
 }: {
   turn: ChatTurn;
   onShowFullAnalysis: () => void;
+  pending?: boolean;
 }) {
   if (turn.role === 'user') {
     return (
@@ -423,13 +778,16 @@ function ConversationMessage({
         <span>ARMOR</span>
         {turn.timestamp && <small>{turn.timestamp}</small>}
       </div>
-      {turn.content ? (
+      {pending ? (
+        <PendingProgress items={turn.routePlan || []} model={turn.model || 'the selected model'} />
+      ) : turn.content ? (
         <>
           <AssistantAnswer
             content={turn.content}
             parsed={turn.parsed}
             responseMode={turn.responseMode}
             hasApproved={turn.routePlan ? hasApprovedControlling(turn.routePlan) : true}
+            routePlan={turn.routePlan}
           />
           {turn.responseMode === 'follow_up_concise_continuation' && (
             <button className={styles.showFullBtn} type="button" onClick={onShowFullAnalysis}>
@@ -438,7 +796,7 @@ function ConversationMessage({
           )}
         </>
       ) : (
-        <div className={styles.pendingAnswer}>Researching the route and drafting the answer...</div>
+        <PendingProgress items={turn.routePlan || []} model={turn.model || 'the selected model'} />
       )}
     </article>
   );
@@ -509,7 +867,7 @@ function SourcesEvidencePanel({
       {(streaming || done) && (
         <>
           <div className={styles.desktopTrace}>
-            <ResearchTrace items={items} streaming={streaming} done={done} model={model} />
+            <ResearchTrace items={items} streaming={streaming} done={done} model={model} defaultOpen />
           </div>
           <EvidenceSnapshot items={items} />
         </>
@@ -520,6 +878,28 @@ function SourcesEvidencePanel({
 
 function EvidenceSnapshot({ items }: { items: SourcePlanItem[] }) {
   const evidenceItems = items.filter(item => item.status === 'R' && item.excerpt);
+  const [highlighted, setHighlighted] = useState(-1);
+
+  // Citation chips and the BLUF "verified" link ask us to spotlight the
+  // passage behind a claim; scroll it into view and mark it briefly.
+  useEffect(() => {
+    let timer = 0;
+    const onHighlight = (event: Event) => {
+      const evidenceIndex = (event as CustomEvent<{ evidenceIndex: number }>).detail?.evidenceIndex;
+      if (typeof evidenceIndex !== 'number' || evidenceIndex < 0) return;
+      setHighlighted(evidenceIndex);
+      window.setTimeout(() => {
+        document.getElementById(`evidence-${evidenceIndex}`)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 0);
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => setHighlighted(-1), 2600);
+    };
+    window.addEventListener(EVIDENCE_HIGHLIGHT_EVENT, onHighlight);
+    return () => {
+      window.removeEventListener(EVIDENCE_HIGHLIGHT_EVENT, onHighlight);
+      window.clearTimeout(timer);
+    };
+  }, []);
 
   if (!evidenceItems.length) return null;
 
@@ -531,7 +911,11 @@ function EvidenceSnapshot({ items }: { items: SourcePlanItem[] }) {
       </div>
       <div className={styles.evidenceList}>
         {evidenceItems.map((item, index) => (
-          <article key={`${item.label}-${index}`} className={styles.evidenceItem}>
+          <article
+            key={`${item.label}-${index}`}
+            id={`evidence-${index}`}
+            className={`${styles.evidenceItem} ${highlighted === index ? styles.evidenceHighlight : ''}`}
+          >
             <div className={styles.evidenceMeta}>
               <strong>{item.label}</strong>
               <a href={sourceHref(item)} target="_blank" rel="noreferrer">Open source</a>
@@ -549,44 +933,23 @@ function ResearchTrace({
   streaming,
   done,
   model,
+  defaultOpen = false,
 }: {
   items: SourcePlanItem[];
   streaming: boolean;
   done: boolean;
   model: string;
+  defaultOpen?: boolean;
 }) {
-  const fetched = items.filter(item => item.status === 'R').length;
-  const total = items.length;
-  const rows = [
-    {
-      label: 'Classify issue family',
-      detail: 'Question type, named citations, DoD/default assumptions',
-      state: streaming || done ? 'done' : 'idle',
-    },
-    {
-      label: 'Route approved sources',
-      detail: total ? `${total} source route${total === 1 ? '' : 's'} selected` : 'Waiting for question',
-      state: total ? 'done' : 'idle',
-    },
-    {
-      label: 'Fetch live authority',
-      detail: done || fetched ? `${fetched}/${total} retrieved; UTR where unavailable` : 'Server-side direct retrieval',
-      state: done ? 'done' : streaming ? 'active' : 'idle',
-    },
-    {
-      label: 'Apply ARMOR gates',
-      detail: 'Two-pass gate, rungs, verification loop, final receipt',
-      state: streaming ? 'active' : done ? 'done' : 'idle',
-    },
-    {
-      label: `Draft final with ${model}`,
-      detail: 'BLUF, STEP 1-7, citations, validation notes',
-      state: streaming ? 'active' : done ? 'done' : 'idle',
-    },
-  ];
+  const rows = buildTraceRows(items, streaming, done, model);
+  const [open, setOpen] = useState(defaultOpen);
 
   return (
-    <details className={styles.tracePanel}>
+    <details
+      className={styles.tracePanel}
+      open={open}
+      onToggle={event => setOpen(event.currentTarget.open)}
+    >
       <summary className={styles.traceHeader}>
         <span>Research Trace</span>
         <small>Visible audit path</small>
@@ -620,7 +983,8 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
   const [timestamp, setTimestamp] = useState('');
   const [routePlan, setRoutePlan] = useState<SourcePlanItem[]>(routePreview(''));
-  const [model, setModel] = useState('server configured');
+  const [model, setModel] = useState('');
+  const [activeTurnId, setActiveTurnId] = useState<string | null>(null);
   const rawRef = useRef('');
   const taRef = useRef<HTMLTextAreaElement>(null);
   const streamRef = useRef<HTMLDivElement>(null);
@@ -683,6 +1047,7 @@ export default function Home() {
     setQuestion('');
     setTurns([]);
     setActiveSessionId(null);
+    setActiveTurnId(null);
     setStreaming(false);
     setRawOutput('');
     setParsed(null);
@@ -704,6 +1069,7 @@ export default function Home() {
     setActiveSessionId(session.id);
     setTurns(restoredTurns);
     setQuestion('');
+    setActiveTurnId(null);
     setStreaming(false);
     setError('');
     setDone(Boolean(lastAssistant));
@@ -739,6 +1105,7 @@ export default function Home() {
     const history = compactChatHistory(turns);
     const userTurn: ChatTurn = { id: newTurnId(), role: 'user', content: prompt };
     const assistantTurnId = newTurnId();
+    setActiveTurnId(assistantTurnId);
     const routeQuestion = routingContext(turns, prompt);
     let responseMode = responseModeForClient(prompt, turns);
     console.info('[ARMOR responseMode request]', responseMode);
@@ -848,6 +1215,7 @@ export default function Home() {
       setQuestion(prompt);
     } finally {
       setStreaming(false);
+      setActiveTurnId(null);
     }
   }, [activeSessionId, model, question, turns]);
 
@@ -870,7 +1238,7 @@ export default function Home() {
       <textarea
         ref={taRef}
         className={styles.queryTextarea}
-        placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
+        placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question.'}
         value={question}
         onChange={event => {
           setQuestion(event.target.value);
@@ -879,11 +1247,16 @@ export default function Home() {
         onKeyDown={handleKeyDown}
         rows={5}
       />
+      {!hasConversation && (
+        <p className={styles.composerGuidance}>
+          Include the facts, dates, dollar values, place of performance, contract type, and any named citation — ARMOR grounds its answer in the live regulation text.
+        </p>
+      )}
       <div className={styles.composerFooter}>
         <button className={styles.primaryBtn} onClick={runAnalysis} disabled={streaming}>
           {streaming ? 'Analyzing...' : hasConversation ? 'Send follow-up' : 'Run ARMOR analysis'}
         </button>
-        <span>{hasConversation ? 'Follow-ups append below this thread and include recent context server-side.' : 'Server-side key. Browser never sees `OPENAI_API_KEY`.'}</span>
+        <span>{hasConversation ? 'Follow-ups stay in this thread and build on the answers above.' : 'Answers are grounded in live RFO FAR / DFARS RFO text — never model memory.'}</span>
       </div>
     </div>
   );
@@ -904,7 +1277,7 @@ export default function Home() {
           Built by John Wahl and Heath Gross - A WarU Collaborative, supporting the acquisition workforce
         </div>
         <nav className={styles.topActions}>
-          <span className={styles.livePill}>{model}</span>
+          <span className={styles.livePill}>Live · RFO sources</span>
         </nav>
       </header>
 
@@ -918,7 +1291,7 @@ export default function Home() {
           <textarea
             aria-hidden="true"
             className={styles.queryTextarea}
-            placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question. Include facts, dates, dollar values, place of performance, contract type, and any named citation.'}
+            placeholder={hasConversation ? 'Ask a follow-up, request more research, or tell ARMOR what to correct.' : 'Ask a DoD acquisition question.'}
             value={question}
             onChange={event => {
               setQuestion(event.target.value);
@@ -931,7 +1304,7 @@ export default function Home() {
             <button className={styles.primaryBtn} onClick={runAnalysis} disabled={streaming}>
               {streaming ? 'Analyzing...' : hasConversation ? 'Send follow-up' : 'Run ARMOR analysis'}
             </button>
-            <span>{hasConversation ? 'Follow-ups include the recent chat context server-side.' : 'Server-side key. Browser never sees `OPENAI_API_KEY`.'}</span>
+            <span>{hasConversation ? 'Follow-ups stay in this thread and build on the answers above.' : 'Answers are grounded in live RFO FAR / DFARS RFO text — never model memory.'}</span>
           </div>
 
           <div className={styles.capabilityStrip} aria-label="ARMOR capabilities">
@@ -942,10 +1315,9 @@ export default function Home() {
 
           <div className={styles.demoBlock}>
             <span>Regulatory research examples</span>
-            <button onClick={() => setDemo(0)}>Preaward debrief deadline</button>
-            <button onClick={() => setDemo(1)}>EPW waiver rule</button>
-            <button onClick={() => setDemo(2)}>Germany warranty clause</button>
-            <button onClick={() => setDemo(3)}>Two-step sealed bidding</button>
+            {DEMO_LABELS.map((label, index) => (
+              <button key={label} onClick={() => setDemo(index)}>{label}</button>
+            ))}
           </div>
 
           <ChatHistory
@@ -967,6 +1339,14 @@ export default function Home() {
             <div className={styles.emptyState}>
               <strong>Ready for a CAC-defensible answer.</strong>
               <span>ARMOR will classify the issue, fetch approved sources, run the two-pass gate, then return BLUF plus STEP validation.</span>
+              <div className={styles.exampleCards}>
+                {DEMO_LABELS.map((label, index) => (
+                  <button key={label} type="button" className={styles.exampleCard} onClick={() => setDemo(index)}>
+                    <span className={styles.exampleCardLabel}>{label}</span>
+                    <span className={styles.exampleCardText}>{DEMO_QUESTIONS[index]}</span>
+                  </button>
+                ))}
+              </div>
             </div>
           )}
 
@@ -977,6 +1357,7 @@ export default function Home() {
                   key={turn.id}
                   turn={turn}
                   onShowFullAnalysis={requestFullAnalysis}
+                  pending={streaming && turn.id === activeTurnId}
                 />
               ))}
               <div ref={conversationEndRef} />
