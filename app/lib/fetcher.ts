@@ -1,6 +1,7 @@
 import { getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
 import { getArmorRoutingSourceRequests } from './armor-routing-rules';
 import { registryRequestsForParts } from './source-registry';
+import { extractSectionCitations, findSectionWindow, stripControlCharacters } from './section-excerpt';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -9,7 +10,14 @@ const RFO_CONVENTIONS_URL = 'https://www.acquisition.gov/far-overhaul/far-part-d
 const DFARS_RFO_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PART-';
 const DFARS_PGI_BASE = 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-';
 const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
-const SOURCE_FETCH_TIMEOUT_MS = 5000;
+// 15s per source: acquisition.gov RFO part pages are large Drupal HTML
+// documents, and a cold serverless fetch (DNS + TLS + TTFB + a several
+// hundred KB body) regularly exceeded the old 5s budget, returning UTR
+// for retrievable sources. All source fetches run in parallel
+// (Promise.all), so this bounds only the slowest single source, and the
+// analyze route's maxDuration is 60s — 15s leaves ample room for the
+// model call that follows.
+const SOURCE_FETCH_TIMEOUT_MS = 15000;
 const PART_252_DEVIATION_MEMO_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
 const DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
 export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback is disabled for controlling authority; use RFO FAR, DFARS RFO, DFARS RFO PGI, or approved class-deviation text only.';
@@ -174,7 +182,20 @@ function routeQuestion(question: string): SourceRequest[] {
     requests.push(req('rfo_conventions', '1', 'Fallback conventions source for general ARMOR routing'));
   }
 
-  return dedupe(requests).slice(0, 8);
+  // Attach the specific section the question cites (e.g. 17.104-3) to
+  // the surviving request for that part, so extraction can target the
+  // section body instead of the first mention on the page. Requests are
+  // cloned before mutation: rule tables share request objects across
+  // questions. Class-deviation routes are excluded — their part numbers
+  // are FAR parts, but the citation belongs to the FAR/DFARS text route.
+  const citations = extractSectionCitations(question);
+  return dedupe(requests)
+    .slice(0, 8)
+    .map(request => {
+      if (request.section || request.kind === 'class_deviation') return request;
+      const citation = citations.find(item => item.part === request.part);
+      return citation ? { ...request, section: citation.section } : request;
+    });
 }
 
 function extractParts(question: string): string[] {
@@ -455,12 +476,29 @@ async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Resp
 
 function prepareSourceContent(content: string, request: SourceRequest): string {
   const text = normalizeEvidenceText(content);
+  const sectionWindow = request.section ? findSectionWindow(text, request.section) : null;
   const targeted = targetedExcerpt(text, request);
   if (!targeted) return content;
-  return `TARGETED REGULATORY EXCERPT:\n${targeted}\n\nFULL RETRIEVED SOURCE TEXT:\n${text}`;
+  // When a section was targeted, start the full-text portion at the
+  // section body instead of the page head: trimSource cuts from the
+  // front, and a part page's table of contents plus earlier sections
+  // would otherwise crowd the operative text out of the budget.
+  const fullText = sectionWindow ? text.slice(sectionWindow.start) : text;
+  const fullLabel = sectionWindow && request.section
+    ? `FULL RETRIEVED SOURCE TEXT (from section ${request.section}):`
+    : 'FULL RETRIEVED SOURCE TEXT:';
+  return `TARGETED REGULATORY EXCERPT:\n${targeted}\n\n${fullLabel}\n${fullText}`;
 }
 
 function targetedExcerpt(text: string, request: SourceRequest): string {
+  // Section-targeted extraction first when the route names a specific
+  // section: find the BODY heading (not the table-of-contents entry)
+  // and take the window that includes its lettered paragraphs.
+  if (request.section) {
+    const window = findSectionWindow(text, request.section);
+    if (window) return trimEvidence(window.excerpt, 1600);
+  }
+
   const targets: RegExp[] = [...commonTargets(request)];
 
   if (request.kind === 'rfo_far' && request.part === '14') {
@@ -658,6 +696,15 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
     );
   }
 
+  if (/multiyear|multi-year|17\.104/.test(q)) {
+    patterns.push(
+      /TARGETED REGULATORY EXCERPT:\s*17\.104-3[\s\S]{0,700}/i,
+      /17\.104-3\s+Congressional notification\.[\s\S]{0,650}/i,
+      /cancellation ceiling over \$20 million[\s\S]{0,350}/i,
+      /17\.103-1\s+Policy\.[\s\S]{0,650}/i,
+    );
+  }
+
   if (/conventions/i.test(label)) {
     patterns.push(/1\.107[\s\S]{0,600}/i);
   }
@@ -667,11 +714,24 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
     if (match?.[0]) return trimEvidence(match[0]);
   }
 
+  // Generic fallbacks before keyword windowing: the body window of the
+  // section the question cites, then the server-computed targeted
+  // excerpt block. Keyword windows can land on tables of contents or
+  // front matter; these are anchored to operative text.
+  const cited = extractSectionCitations(question)[0];
+  if (cited) {
+    const window = findSectionWindow(text, cited.section);
+    if (window) return trimEvidence(window.excerpt);
+  }
+
+  const targetedBlock = text.match(/TARGETED REGULATORY EXCERPT:\s*([\s\S]{0,700})/i);
+  if (targetedBlock?.[1]) return trimEvidence(targetedBlock[1]);
+
   return trimEvidence(bestKeywordWindow(text, question));
 }
 
 function normalizeEvidenceText(content: string): string {
-  return content
+  return stripControlCharacters(content)
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
