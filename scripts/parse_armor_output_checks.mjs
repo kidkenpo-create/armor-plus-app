@@ -18,7 +18,7 @@ const compiled = ts.transpileModule(source, {
 }).outputText;
 
 fs.writeFileSync(tempPath, compiled);
-const { parseArmorOutput } = await import(pathToFileURL(tempPath).href);
+const { parseArmorOutput, blufTone, enforceDefinitiveGuard } = await import(pathToFileURL(tempPath).href);
 
 test.after(() => {
   fs.rmSync(tempPath, { force: true });
@@ -58,6 +58,33 @@ STEP 7 -- User Validation Required
   assert.equal(step4.title, 'Synthesis');
   assert.match(step4.content, /current RFO FAR location is 14\.211-3\(a\)\(1\)/);
   assert.ok(step5, 'STEP 5 should still parse after same-line STEP 4');
+});
+
+test('blufTone never treats an unlabeled BLUF as Definitive', () => {
+  assert.equal(blufTone('No, do not use FAR 52.246-21.'), 'unknown');
+  assert.equal(blufTone('Non-Definitive: source text was not retrieved.'), 'nd');
+  assert.equal(blufTone('Conditional: No, unless a waiver exists.'), 'cond');
+  assert.equal(blufTone('Definitive: Yes, per the retrieved text.'), 'def');
+});
+
+test('enforceDefinitiveGuard downgrades Definitive when no approved source was retrieved', () => {
+  const raw = '0) BLUF -- Definitive Use DFARS 252.246-7002 instead.\n\nSTEP 1 -- Acquisition Facts: N/A';
+  const guarded = enforceDefinitiveGuard(raw, false);
+  assert.match(guarded, /0\) BLUF -- Non-Definitive/);
+  assert.match(guarded, /ARMOR guard: downgraded from Definitive/);
+  assert.match(guarded, /STEP 1 -- Acquisition Facts/, 'guard must not disturb the STEP structure');
+});
+
+test('enforceDefinitiveGuard leaves output untouched when approved text was retrieved', () => {
+  const raw = '0) BLUF -- Definitive Use DFARS 252.246-7002 instead.\n\nSTEP 1 -- Acquisition Facts: N/A';
+  assert.equal(enforceDefinitiveGuard(raw, true), raw);
+});
+
+test('enforceDefinitiveGuard leaves Conditional and Non-Definitive BLUFs untouched', () => {
+  const conditional = '0) BLUF -- Conditional No, unless a valid waiver exists.';
+  const nonDefinitive = '0) BLUF -- Non-Definitive Source text was not retrieved.';
+  assert.equal(enforceDefinitiveGuard(conditional, false), conditional);
+  assert.equal(enforceDefinitiveGuard(nonDefinitive, false), nonDefinitive);
 });
 
 test('parseArmorOutput preserves multiline step bodies', () => {
