@@ -1,5 +1,5 @@
 --- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 1 ---
-Class Deviations)HEUXDU\
+Class Deviations - 2 February 2026
 The Principal Director of Defense Pricing, Contracting, and
 Acquisition Policy (DPCAP) issues class deviations when necessary
 to allow organizations to deviate from the FAR and DFARS. Below
@@ -93,35 +93,34 @@ Archived Class Deviations
 Up One LevelIf using a saved copy,
 DOWNLOAD
 a current copy here.
-127(6
-23(1LQ$GREH$FUREDWDQG 
-(QDEOH$OO)HDWXUHV'2 
-127RSHQLQEURZVHU
-+LJKOLJKWVLQGLFDWH'3&$3 
-ZHEVLWHFKDQJHVVLQFH 
--DQXDU\XSGDWH
-8VH%RRNPDUNVWRJHWWRWKH 
-UHOHYDQW&ODVV'HYLDWLRQ&' 
-VHFRQGLFRQRQULJKW\RXPD\ 
-QHHGWRWRJJOHDUURZ7KLV7DEOH 
-RI&RQWHQWVGRHVQRW KDYH 
-OLYHOLQNV
-,I XVLQJ &WUO) WR VHDUFK 
-XVH1H[W RU WKH GRZQ DUURZ 
-WRQDYLJDWH
-&'V $5&+,9('VLQFH ODVW 
-'3&$3ZHEVLWHXSGDWH
+NOTES:
+OPEN in Adobe Acrobat and
+"Enable All Features." DO
+NOT open in browser.
+Highlights indicate DPCAP
+website changes since 9
+January 2026 update.
+Use "Bookmarks" to get to the
+relevant Class Deviation (CD);
+second icon on right -- you may
+need to toggle arrow. This Table
+of Contents does not have
+"live" links.
+If using Ctrl-F to search,
+use "Next" or the down arrow
+to navigate.
+CDs ARCHIVED since last
+DPCAP website update:
 2025-O0006
-$GREH$FUREDW
-VVHFXULW\ 
-XSGDWHVWULSVWKHGLJLWDO 
-VLJQDWXUHVZKHQZHFUHDWHWKLV 
-FRQVROLGDWHGGRFXPHQW7KH 
-&'VLQWKLVWRRODUHDFFXUDWH
-,IQHHGHGRULJLQDOVZLWKGLJLWDO 
-VLJQDWXUHDUHDYDLODEOHDW 
-KWWSVZZZDFTRVGPLO 
-GSDSGDUV FODVVBGHYLDWLRQVKWPO
+Adobe Acrobat's security
+update strips the digital
+signatures when we create this
+consolidated document. The
+CDs in this tool are accurate.
+If needed, originals with digital
+signature are available at:
+https://www.acq.osd.mil/
+dpap/dars/class_deviations.html
 
 --- Source: /knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf | Page 2 ---
 (22 May 2024)
