@@ -5,12 +5,14 @@ import { ARMOR_SYSTEM_PROMPT } from '@/app/lib/armor-prompt';
 import { prefetchRelevantParts } from '@/app/lib/fetcher';
 import { getArmorRoutingInstruction } from '@/app/lib/armor-routing-rules';
 import { getPracticeIssueInstruction } from '@/app/lib/practice-issue-rules';
-import { sourceAuthorityInstruction } from '@/app/lib/source-registry';
+import { hasApprovedControllingRetrieval, sourceAuthorityInstruction } from '@/app/lib/source-registry';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
 
-const model = process.env.OPENAI_MODEL || 'gpt-4o';
+// The LIVE model is controlled by the OPENAI_MODEL env var in Vercel.
+// This fallback only applies when that env var is unset.
+const model = process.env.OPENAI_MODEL || 'gpt-6.1-sol';
 const MAX_SERVER_HISTORY_MESSAGES = 8;
 
 interface ClientConversationMessage {
@@ -35,6 +37,10 @@ export async function POST(req: NextRequest) {
     const history = normalizeConversationMessages(clientMessages);
     const retrievalPrompt = [...history.map(message => message.content), prompt].join('\n\n').slice(-18000);
 
+    if (isClearlyOffTopic(prompt, retrievalPrompt)) {
+      return offTopicResponse();
+    }
+
     const encoder = new TextEncoder();
     const send = (payload: unknown) => encoder.encode(`data: ${JSON.stringify(payload)}\n\n`);
     const body = new ReadableStream({
@@ -56,6 +62,7 @@ export async function POST(req: NextRequest) {
             issueSpecificInstruction(retrievalPrompt),
             getPracticeIssueInstruction(retrievalPrompt),
             sourceAuthorityInstruction(routePlan),
+            blufGuardInstruction(routePlan),
             responseModeInstruction(responseMode),
             'LIVE REGULATORY CONTEXT (server-side direct retrieval only; use retrieved text or mark UTR):',
             context || 'No direct source was retrieved. Mark UTR where source text is required.',
@@ -72,7 +79,7 @@ export async function POST(req: NextRequest) {
             model,
             stream: true,
             messages,
-            ...(model.startsWith('gpt-5')
+            ...(/^gpt-[56]/.test(model)
               ? { max_completion_tokens: 4500 }
               : { max_tokens: 4500, temperature: 0.1 }),
           };
@@ -105,6 +112,52 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     return jsonError(safeErrorMessage(error), 500);
   }
+}
+
+function blufGuardInstruction(routePlan: Array<{ label: string; url: string; status: string }>) {
+  if (hasApprovedControllingRetrieval(routePlan)) {
+    return 'BLUF INTEGRITY GUARD: Approved controlling source text was retrieved for this answer, so a Definitive BLUF is permitted when the retrieved text supports it.';
+  }
+  return [
+    'BLUF INTEGRITY GUARD (HARD — overrides any PRE-CHECK or issue-family instruction):',
+    'No approved controlling source text was retrieved for this answer (every approved route is UTR or unselected).',
+    'The BLUF determination MUST NOT be "Definitive". Use "Non-Definitive" (or "Conditional" only when a genuine condition in the fact pattern drives it).',
+    'This applies even to PRE-CHECK families (Germany warranty, preaward debriefing) whose stored instructions say "BLUF = Definitive" — those labels are only valid when their controlling text was retrieved.',
+  ].join('\n');
+}
+
+const ACQUISITION_TERMS = /\b(far|dfars|pgi|contract(ing|or|s)?|acquisition|solicitation|clause|deviation|procurement|offeror|bid|proposal|appropriation|fiscal law|small business|set-aside|debrief|warranty|sealed bidding|source selection|cor\b|contracting officer|modification|option year|multiyear|micro-purchase|threshold|detainee|interrogat)/i;
+const OFF_TOPIC_TERMS = /\b(recipe|cook(ing)?|bake|ingredient|football|basketball|baseball|nfl|nba|score of the game|weather forecast|stock tip|horoscope|write (me )?(a )?(poem|song|rap|joke|story)|tell me a joke|movie recommendation|dating advice|workout plan|diet plan|translate .{0,30} (to|into) (spanish|french|german|italian|portuguese|japanese|chinese))\b/i;
+
+function isClearlyOffTopic(prompt: string, context: string) {
+  if (ACQUISITION_TERMS.test(context)) return false;
+  return OFF_TOPIC_TERMS.test(prompt);
+}
+
+function offTopicResponse() {
+  const encoder = new TextEncoder();
+  const send = (payload: unknown) => encoder.encode(`data: ${JSON.stringify(payload)}\n\n`);
+  const text = [
+    '0) BLUF -- Non-Definitive: That question is outside the scope of ARMOR.',
+    '',
+    'ARMOR answers DoD acquisition regulation questions — RFO FAR / DFARS RFO rules, class deviations, clause applicability, deadlines, and contracting practice. Ask an acquisition question (for example, a FAR or DFARS citation, a clause, or a contracting scenario) and I will run the full ARMOR analysis.',
+  ].join('\n');
+  const body = new ReadableStream({
+    start(controller) {
+      controller.enqueue(send({ meta: { model } }));
+      controller.enqueue(send({ text }));
+      controller.enqueue(encoder.encode('data: [DONE]\n\n'));
+      controller.close();
+    },
+  });
+  return new Response(body, {
+    headers: {
+      'Content-Type': 'text/event-stream',
+      'Cache-Control': 'no-cache',
+      Connection: 'keep-alive',
+      'X-Accel-Buffering': 'no',
+    },
+  });
 }
 
 function jsonError(error: string, status: number) {
