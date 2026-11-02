@@ -1,7 +1,7 @@
-import { getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
-import { getArmorRoutingSourceRequests } from './armor-routing-rules';
+import { getPracticeCitationSectionMap, getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
+import { getArmorCitationSectionMap, getArmorRoutingSourceRequests } from './armor-routing-rules';
 import { registryRequestsForParts } from './source-registry';
-import { extractSectionCitations, findSectionWindow, stripControlCharacters } from './section-excerpt';
+import { dfarsSectionCandidates, extractSectionCitations, findSectionWindow, stripControlCharacters, type SectionWindow } from './section-excerpt';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -182,20 +182,72 @@ function routeQuestion(question: string): SourceRequest[] {
     requests.push(req('rfo_conventions', '1', 'Fallback conventions source for general ARMOR routing'));
   }
 
-  // Attach the specific section the question cites (e.g. 17.104-3) to
-  // the surviving request for that part, so extraction can target the
-  // section body instead of the first mention on the page. Requests are
-  // cloned before mutation: rule tables share request objects across
-  // questions. Class-deviation routes are excluded — their part numbers
-  // are FAR parts, but the citation belongs to the FAR/DFARS text route.
+  // Attach the specific section each surviving request should target,
+  // so extraction can open the section body instead of the first
+  // mention in the text. Priority: (1) the section the question itself
+  // cites for that part (e.g. 17.104-3); (2) the section the matched
+  // rule tables name as the expected controlling citation (practice
+  // expectedCitations, armor targetCitation) — these carry the
+  // FAR -> DFARS correspondence the question may never state
+  // (RFO FAR 17.104-3(a) <-> DFARS RFO 217.104-370(b)(1)(iv)). When
+  // neither names a DFARS section but the question cites the FAR
+  // counterpart part, attach DFARS section candidates instead;
+  // extraction verifies each candidate against the fetched text and
+  // uses the first that actually exists there. Requests are cloned
+  // before mutation: rule tables share request objects across
+  // questions. Class-deviation routes are excluded — their part
+  // numbers are FAR parts, but the citation belongs to the
+  // FAR/DFARS text route.
   const citations = extractSectionCitations(question);
+  const ruleSections = new Map([
+    ...getArmorCitationSectionMap(question),
+    ...getPracticeCitationSectionMap(question),
+  ]);
   return dedupe(requests)
     .slice(0, 8)
     .map(request => {
-      if (request.section || request.kind === 'class_deviation') return request;
-      const citation = citations.find(item => item.part === request.part);
-      return citation ? { ...request, section: citation.section } : request;
+      if (request.kind === 'class_deviation') return request;
+      let next = request;
+      if (!next.section) {
+        const citation = citations.find(item => item.part === next.part);
+        const section = citation?.section || ruleSections.get(`${next.kind}:${next.part}`);
+        if (section) next = { ...next, section };
+      }
+      if (
+        !next.section
+        && !next.sectionCandidates
+        && (next.kind === 'dfars_rfo' || next.kind === 'dfars_pgi')
+      ) {
+        const farCitation = citations.find(item => next.part === `2${item.part.padStart(2, '0')}`);
+        const candidates = farCitation ? dfarsSectionCandidates(farCitation) : [];
+        if (candidates.length) next = { ...next, sectionCandidates: candidates };
+      }
+      return next;
     });
+}
+
+interface ResolvedSection {
+  section: string;
+  window: SectionWindow;
+}
+
+/**
+ * Resolve the section window a request targets in a fetched text: the
+ * request's own section first, then each candidate in order. A
+ * candidate only wins when findSectionWindow actually locates it in
+ * the text, so a derived DFARS candidate that does not exist in the
+ * part file can never steer extraction.
+ */
+function resolveSectionWindow(text: string, request: SourceRequest): ResolvedSection | null {
+  if (request.section) {
+    const window = findSectionWindow(text, request.section);
+    if (window) return { section: request.section, window };
+  }
+  for (const candidate of request.sectionCandidates || []) {
+    const window = findSectionWindow(text, candidate);
+    if (window) return { section: candidate, window };
+  }
+  return null;
 }
 
 function extractParts(question: string): string[] {
@@ -476,28 +528,30 @@ async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Resp
 
 function prepareSourceContent(content: string, request: SourceRequest): string {
   const text = normalizeEvidenceText(content);
-  const sectionWindow = request.section ? findSectionWindow(text, request.section) : null;
+  const resolved = resolveSectionWindow(text, request);
   const targeted = targetedExcerpt(text, request);
   if (!targeted) return content;
   // When a section was targeted, start the full-text portion at the
   // section body instead of the page head: trimSource cuts from the
-  // front, and a part page's table of contents plus earlier sections
-  // would otherwise crowd the operative text out of the budget.
-  const fullText = sectionWindow ? text.slice(sectionWindow.start) : text;
-  const fullLabel = sectionWindow && request.section
-    ? `FULL RETRIEVED SOURCE TEXT (from section ${request.section}):`
+  // front, and a part text's front matter plus earlier sections would
+  // otherwise crowd the operative text out of the budget. This
+  // mattered most for DFARS part files: Part 217's 217.104-370 body
+  // sits ~15k characters into a ~97k file, past the 10k trim.
+  const fullText = resolved ? text.slice(resolved.window.start) : text;
+  const fullLabel = resolved
+    ? `FULL RETRIEVED SOURCE TEXT (from section ${resolved.section}):`
     : 'FULL RETRIEVED SOURCE TEXT:';
   return `TARGETED REGULATORY EXCERPT:\n${targeted}\n\n${fullLabel}\n${fullText}`;
 }
 
 function targetedExcerpt(text: string, request: SourceRequest): string {
   // Section-targeted extraction first when the route names a specific
-  // section: find the BODY heading (not the table-of-contents entry)
-  // and take the window that includes its lettered paragraphs.
-  if (request.section) {
-    const window = findSectionWindow(text, request.section);
-    if (window) return trimEvidence(window.excerpt, 1600);
-  }
+  // section (cited in the question, named by a rule table, or a
+  // verified DFARS candidate): find the BODY heading (not the
+  // table-of-contents entry) and take the window that includes its
+  // lettered paragraphs.
+  const resolved = resolveSectionWindow(text, request);
+  if (resolved) return trimEvidence(resolved.window.excerpt, 1600);
 
   const targets: RegExp[] = [...commonTargets(request)];
 
@@ -699,7 +753,10 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
   if (/multiyear|multi-year|17\.104/.test(q)) {
     patterns.push(
       /TARGETED REGULATORY EXCERPT:\s*17\.104-3[\s\S]{0,700}/i,
+      /TARGETED REGULATORY EXCERPT:\s*217\.104-370[\s\S]{0,700}/i,
       /17\.104-3\s+Congressional notification\.[\s\S]{0,650}/i,
+      /217\.104-370\s+Congressional notification\.[\s\S]{0,650}/i,
+      /cancellation ceiling in excess of \$200 million[\s\S]{0,350}/i,
       /cancellation ceiling over \$20 million[\s\S]{0,350}/i,
       /17\.103-1\s+Policy\.[\s\S]{0,650}/i,
     );

@@ -18,7 +18,13 @@ const compiled = ts.transpileModule(source, {
 }).outputText;
 
 fs.writeFileSync(tempPath, compiled);
-const { extractSectionCitations, findSectionWindow, stripControlCharacters } = await import(pathToFileURL(tempPath).href);
+const {
+  extractSectionCitations,
+  findSectionWindow,
+  stripControlCharacters,
+  parsePrefixedCitations,
+  dfarsSectionCandidates,
+} = await import(pathToFileURL(tempPath).href);
 
 test.after(() => {
   fs.rmSync(tempPath, { force: true });
@@ -133,6 +139,176 @@ test('fetcher wires section targeting, citation attach, and the 15s timeout', ()
   assert.match(fetcher, /extractSectionCitations\(question\)/);
   assert.match(fetcher, /stripControlCharacters\(content\)/);
   assert.match(fetcher, /FULL RETRIEVED SOURCE TEXT \(from section/);
+});
+
+test('parsePrefixedCitations reads rule-table citation strings', () => {
+  assert.deepEqual(parsePrefixedCitations('DFARS RFO 217.104-370(b)(1)(iv)'), [
+    { kind: 'dfars_rfo', part: '217', section: '217.104-370' },
+  ]);
+  assert.deepEqual(parsePrefixedCitations('RFO FAR 17.104-3(a)'), [
+    { kind: 'rfo_far', part: '17', section: '17.104-3' },
+  ]);
+  assert.deepEqual(parsePrefixedCitations('DFARS RFO PGI 207.104-70(b)'), [
+    { kind: 'dfars_pgi', part: '207', section: '207.104-70' },
+  ]);
+  assert.deepEqual(parsePrefixedCitations('DFARS 252.225-7976'), [
+    { kind: 'dfars_rfo', part: '252', section: '252.225-7976' },
+  ]);
+  assert.deepEqual(parsePrefixedCitations('RFO FAR 27.400 / DFARS RFO 227.400'), [
+    { kind: 'rfo_far', part: '27', section: '27.400' },
+    { kind: 'dfars_rfo', part: '227', section: '227.400' },
+  ]);
+  // Strings that name no FAR/DFARS section parse to nothing.
+  assert.deepEqual(parsePrefixedCitations('DoD Instruction 1100.22'), []);
+  assert.deepEqual(parsePrefixedCitations('Current retrieved RFO FAR / DFARS RFO pinpoint citation'), []);
+  assert.deepEqual(parsePrefixedCitations('CD 2021-O0008 Revision 1'), []);
+});
+
+test('dfarsSectionCandidates covers the same-number and DFARS-added forms', () => {
+  const candidates = dfarsSectionCandidates({ part: '17', section: '17.104-3' });
+  assert.equal(candidates[0], '217.104-3');
+  assert.ok(candidates.includes('217.104-370'), 'the -370 DFARS-added form must be a candidate');
+  assert.deepEqual(dfarsSectionCandidates({ part: '12', section: '12.102' })[0], '212.102');
+  // A citation that is already DFARS yields no candidates.
+  assert.deepEqual(dfarsSectionCandidates({ part: '237', section: '237.873-3' }), []);
+});
+
+// Replica of the fetcher's normalization (strip control bytes, then
+// collapse whitespace) for offline pipeline checks.
+function normalizeLikeFetcher(raw) {
+  return stripControlCharacters(raw).replace(/\s+/g, ' ').trim();
+}
+
+test('the real DFARS Part 217 file defeats the old head-cut pipeline', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'dfars-rfo', 'DFARS-RFO-PART-217-Attachment-1.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+  // The section body sits past the fetcher's 10,000-char source trim,
+  // so a part-only route (the pre-2b behavior: legacy targets for
+  // 217.7302/217.7404-5 plus full text from the head) never showed the
+  // model 217.104-370 at all.
+  assert.ok(text.indexOf('217.104-370') > 10000, 'fixture assumption: section body is past the old trim');
+  assert.ok(!text.slice(0, 10000).includes('217.104-370'));
+});
+
+test('217.104-370 (b)(1)(iv) lands in the excerpt via verified DFARS candidates', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'dfars-rfo', 'DFARS-RFO-PART-217-Attachment-1.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+
+  // Resolve exactly the way the fetcher does: candidates in order,
+  // first one findSectionWindow actually locates wins. The practice
+  // rule also names 217.104-370 directly; both paths must converge.
+  const candidates = dfarsSectionCandidates({ part: '17', section: '17.104-3' });
+  let resolved = null;
+  for (const candidate of candidates) {
+    const window = findSectionWindow(text, candidate);
+    if (window) {
+      resolved = { section: candidate, window };
+      break;
+    }
+  }
+  assert.ok(resolved, 'a DFARS candidate should resolve in the real Part 217 text');
+  assert.equal(resolved.section, '217.104-370');
+  assert.match(resolved.window.excerpt, /217\.104-370\s+Congressional notification\./);
+  assert.match(resolved.window.excerpt, /\(a\) The head of the agency must provide written notice/);
+  assert.match(resolved.window.excerpt, /\(b\)\(1\) DoD must provide notification/);
+  assert.match(resolved.window.excerpt, /\(iv\) Include a cancellation ceiling in excess of \$200 million/);
+
+  // The direct section (rule-table path) resolves to the same window.
+  const direct = findSectionWindow(text, '217.104-370');
+  assert.ok(direct);
+  assert.equal(direct.start, resolved.window.start);
+
+  // Simulate prepareSourceContent + trimSource(10000): the targeted
+  // excerpt block and the section-rebased full text keep the operative
+  // (b)(1)(iv) paragraph inside the model context budget.
+  const prepared = [
+    'TARGETED REGULATORY EXCERPT:',
+    resolved.window.excerpt.slice(0, 1600),
+    '',
+    `FULL RETRIEVED SOURCE TEXT (from section ${resolved.section}):`,
+    text.slice(resolved.window.start),
+  ].join('\n');
+  const context = prepared.slice(0, 10000);
+  assert.match(context, /cancellation ceiling in excess of \$200 million/);
+  assert.match(context, /30 days before awarding a multiyear contract/);
+});
+
+test('findSectionWindow picks the 217.104-370 body in a Part 217-shaped fixture', () => {
+  // Modeled on the real file's structure: subpart header, definitions
+  // and earlier sections first, the target section deep in the text,
+  // and a later in-text cross-reference to the same section number.
+  const fixture = [
+    'PART 217-SPECIAL CONTRACTING METHODS',
+    'SUBPART 217.1-MULTIYEAR CONTRACTING',
+    '217.102 Definitions. As used in this subpart- "Advance procurement" means an exception to the full funding policy. "Congressional defense committees" means the defense committees of the Senate and the House of Representatives.',
+    '217.103 Presolicitation.',
+    '217.103-170 Multiyear contract cost analysis. Before awarding a multiyear contract, the head of the agency must compare costs using a present value analysis.',
+    '217.104 Evaluation and award.',
+    '217.104-370 Congressional notification. (a) The head of the agency must provide written notice to the congressional defense committees at least 30 days before termination of any multiyear contract. (b)(1) DoD must provide notification at least 30 days before awarding a multiyear contract for certain procurements, including those expected to (iv) Include a cancellation ceiling in excess of $200 million. (2) A DoD component must request authority when submitting its budget. (3) See PGI 217.104-370(b) for procedures.',
+    'SUBPART 217.2-OPTIONS',
+    '217.201 Presolicitation.',
+  ].join(' ');
+  const window = findSectionWindow(fixture, '217.104-370');
+  assert.ok(window, 'window should be found');
+  assert.match(window.excerpt, /^217\.104-370 Congressional notification\./);
+  assert.match(window.excerpt, /\(iv\) Include a cancellation ceiling in excess of \$200 million/);
+});
+
+test('findSectionWindow handles numbered paragraphs and pinpoint references (246.710 shape)', () => {
+  // Modeled on the real DFARS Part 246 structure: the section body uses
+  // NUMBERED paragraphs and is dense with cross-references, while the
+  // clause text later refers back as "As prescribed in 246.710(1)...".
+  // Neither the cross-references inside the body nor the pinpoint
+  // references after it may steer the window away from the body.
+  const fixture = [
+    'SUBPART 246.7-WARRANTIES',
+    '246.710 Contract clauses. (1) Insert a clause substantially the same as the clause at 252.246-7998, Warranty of Data, in solicitations and contracts. (2) Insert the clause at 252.246-7002, Warranty of Construction (Germany), instead of the clause at FAR 52.246-21, in solicitations and contracts for construction when performance will be in Germany. (3) When the solicitation includes the clause at 252.211-7003, follow paragraph (2).',
+    '246.710-70 Warranty attachments. Follow the procedures at PGI 246.710-70 regarding warranty attachments.',
+    '252.246-7002 Warranty of construction (Germany). As prescribed in 246.710(2), use the following clause: (a) Definition. As used in this clause-',
+    '252.246-7998 Warranty of data. Basic. As prescribed in 246.710(1) and (1)(i), use the following clause: (a) Definition-Technical data has the meaning given in the clause at 252.227-7013.',
+  ].join(' ');
+  const window = findSectionWindow(fixture, '246.710');
+  assert.ok(window, 'window should be found');
+  assert.match(window.excerpt, /^246\.710 Contract clauses\./);
+  assert.match(window.excerpt, /Warranty of Construction \(Germany\)/);
+  assert.match(window.excerpt, /instead of the clause at FAR 52\.246-21/);
+});
+
+test('real DFARS Part 246 window for 246.710 contains the Germany prescription', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'dfars-rfo', 'DFARS-RFO-PART-246-Attachment-1.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+  const window = findSectionWindow(text, '246.710');
+  assert.ok(window, 'window should be found in the real Part 246 text');
+  assert.match(window.excerpt, /246\.710\s+Contract clauses\./);
+  assert.match(window.excerpt, /Insert the clause at 252\.246-7002/);
+  assert.match(window.excerpt, /performance will be in Germany/);
+});
+
+test('fetcher wires rule-table citation sections and DFARS candidates', () => {
+  const fetcher = fs.readFileSync(path.join(root, 'app', 'lib', 'fetcher.ts'), 'utf8');
+  assert.match(fetcher, /getPracticeCitationSectionMap\(question\)/);
+  assert.match(fetcher, /getArmorCitationSectionMap\(question\)/);
+  assert.match(fetcher, /dfarsSectionCandidates\(farCitation\)/);
+  assert.match(fetcher, /sectionCandidates: candidates/);
+  assert.match(fetcher, /function resolveSectionWindow/);
+  assert.match(fetcher, /FULL RETRIEVED SOURCE TEXT \(from section \$\{resolved\.section\}\)/);
+
+  const practice = fs.readFileSync(path.join(root, 'app', 'lib', 'practice-issue-rules.ts'), 'utf8');
+  assert.match(practice, /export function getPracticeCitationSectionMap/);
+  assert.match(practice, /sectionCandidates\?: string\[\]/);
+
+  const armor = fs.readFileSync(path.join(root, 'app', 'lib', 'armor-routing-rules.ts'), 'utf8');
+  assert.match(armor, /export function getArmorCitationSectionMap/);
+  assert.match(armor, /parsePrefixedCitations\(rule\.targetCitation\)/);
 });
 
 test('FY26 class-deviation mirror contains no font-encoding garble', () => {

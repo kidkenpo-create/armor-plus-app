@@ -1,5 +1,6 @@
 import routingRules from './armor-routing-rules.json';
 import type { SourceRequest } from './practice-issue-rules';
+import { parsePrefixedCitations } from './section-excerpt';
 
 export interface ArmorRoutingRule {
   id: string;
@@ -24,6 +25,23 @@ export function findArmorRoutingRules(question: string): ArmorRoutingRule[] {
 
 export function getArmorRoutingSourceRequests(question: string): SourceRequest[] {
   return findArmorRoutingRules(question).flatMap(rule => rule.requiredSources);
+}
+
+/**
+ * Map of `${kind}:${part}` -> section, built from the targetCitation of
+ * every structured routing rule the question matches (e.g.
+ * "DFARS RFO 237.873-3(a)" -> dfars_rfo:237 -> "237.873-3"). Lets the
+ * fetcher section-target the routes these rules require.
+ */
+export function getArmorCitationSectionMap(question: string): Map<string, string> {
+  const map = new Map<string, string>();
+  for (const rule of findArmorRoutingRules(question)) {
+    for (const parsed of parsePrefixedCitations(rule.targetCitation)) {
+      const key = `${parsed.kind}:${parsed.part}`;
+      if (!map.has(key)) map.set(key, parsed.section);
+    }
+  }
+  return map;
 }
 
 export function getArmorRoutingInstruction(question: string): string {

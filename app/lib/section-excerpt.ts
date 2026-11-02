@@ -49,16 +49,83 @@ function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+export interface ParsedCitation {
+  kind: 'rfo_far' | 'dfars_rfo' | 'dfars_pgi';
+  /** FAR/DFARS part the citation belongs to, e.g. "17" or "217". */
+  part: string;
+  /** Section token only (paragraph suffix dropped), e.g. "217.104-370". */
+  section: string;
+}
+
+const PREFIXED_CITATION_RE = /(DFARS\s+RFO\s+PGI|DFARS\s+RFO|DFARS|RFO\s+FAR|FAR)\s+(\d{1,3})\.(\d{1,3}(?:-\d+)?)\b/gi;
+
+/**
+ * Parse authority-prefixed citation strings — the form used by the
+ * rule tables' expectedCitations / targetCitation fields, e.g.
+ * "DFARS RFO 217.104-370(b)(1)(iv)", "DFARS RFO PGI 207.104-70(b)",
+ * "RFO FAR 17.104-3(a)", "DFARS 252.225-7976", or a combined
+ * "RFO FAR 27.400 / DFARS RFO 227.400". Only the section token is
+ * kept; paragraph suffixes are dropped. Strings that name no
+ * FAR/DFARS section (e.g. "DoD Instruction 1100.22", "CD 2021-O0008")
+ * return an empty array.
+ */
+export function parsePrefixedCitations(citation: string): ParsedCitation[] {
+  const results: ParsedCitation[] = [];
+  for (const match of citation.matchAll(PREFIXED_CITATION_RE)) {
+    const prefix = match[1].toUpperCase().replace(/\s+/g, ' ');
+    const kind: ParsedCitation['kind'] = prefix.includes('PGI')
+      ? 'dfars_pgi'
+      : prefix.startsWith('DFARS')
+        ? 'dfars_rfo'
+        : 'rfo_far';
+    results.push({ kind, part: match[2], section: `${match[2]}.${match[3]}` });
+  }
+  return results;
+}
+
+const DFARS_ADDED_SUFFIXES = ['370', '70', '170', '270'];
+
+/**
+ * Candidate DFARS sections corresponding to a FAR section citation.
+ *
+ * DFARS implements a FAR section either under the same section number
+ * in the 2xx part (FAR 12.102 -> DFARS 212.102) or under a DFARS-added
+ * section whose trailing number is replaced by the -70 family
+ * (FAR 17.104-3 -> DFARS 217.104-370). Which form a given part uses is
+ * only knowable from the DFARS text itself, so callers attach these as
+ * candidates and extraction uses the first candidate that actually
+ * exists in the fetched text. Returns [] for a citation that is
+ * already a DFARS (2xx) part.
+ */
+export function dfarsSectionCandidates(citation: SectionCitation): string[] {
+  const { part, section } = citation;
+  if (part.length === 3 && part.startsWith('2')) return [];
+  const dfarsPart = `2${part.padStart(2, '0')}`;
+  const rest = section.slice(part.length + 1);
+  const candidates = [`${dfarsPart}.${rest}`];
+  const dash = rest.lastIndexOf('-');
+  if (dash > 0) {
+    const stem = rest.slice(0, dash);
+    for (const suffix of DFARS_ADDED_SUFFIXES) candidates.push(`${dfarsPart}.${stem}-${suffix}`);
+  } else {
+    for (const suffix of DFARS_ADDED_SUFFIXES) candidates.push(`${dfarsPart}.${rest}-${suffix}`);
+  }
+  return [...new Set(candidates)];
+}
+
 /**
  * Find the operative body window for a section inside normalized
  * (single-spaced) retrieved text.
  *
- * A candidate occurrence counts as the body heading when a paragraph
- * marker "(a)" appears shortly after it AND no other section number
- * intervenes first — TOC entries are always followed immediately by the
- * next section number, body headings by their paragraph text. If no
- * candidate qualifies (e.g. a section with no lettered paragraphs),
- * the last occurrence is used, since the body follows the TOC.
+ * Occurrences immediately followed by "(" are pinpoint paragraph
+ * references inside running text, never headings, and are excluded
+ * outright. A remaining candidate counts as the body heading when a
+ * first-paragraph marker — "(a)" or "(1)", since DFARS sections often
+ * use numbered paragraphs — appears shortly after it AND no other
+ * section number intervenes first: TOC entries are always followed
+ * immediately by the next section number, body headings by their
+ * paragraph text. If no candidate qualifies, the last remaining
+ * occurrence is used, since the body follows the TOC.
  *
  * The excerpt runs from the body heading until the next section heading
  * or `maxChars`, whichever comes first.
@@ -67,7 +134,12 @@ export function findSectionWindow(text: string, section: string, maxChars = 3600
   const sectionRe = new RegExp(`\\b${escapeRegExp(section)}(?!\\d|-\\d)`, 'g');
   const starts: number[] = [];
   for (const match of text.matchAll(sectionRe)) {
-    if (typeof match.index === 'number') starts.push(match.index);
+    if (typeof match.index !== 'number') continue;
+    // A token immediately followed by "(" is a pinpoint paragraph
+    // reference inside running text ("As prescribed in 246.710(2)..."),
+    // never a heading.
+    if (text[match.index + section.length] === '(') continue;
+    starts.push(match.index);
   }
   if (!starts.length) return null;
 
@@ -76,7 +148,7 @@ export function findSectionWindow(text: string, section: string, maxChars = 3600
   let bodyStart: number | null = null;
   for (const start of starts) {
     const after = text.slice(start + section.length, start + section.length + 600);
-    const paragraphIdx = after.search(/\(a\)/);
+    const paragraphIdx = after.search(/\((?:a|1)\)/);
     if (paragraphIdx === -1) continue;
     const intervening = after.slice(0, paragraphIdx).match(otherSectionRe);
     if (!intervening) {
