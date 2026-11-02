@@ -218,6 +218,17 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
       if (mirrorResult.status === 'R') return mirrorResult;
     }
 
+    // Generic deviation routes carry no explicit mirror mapping; fall back
+    // to the approved FY26 deviations mirror so enumeration and part-level
+    // deviation questions can be answered from retrieved text instead of UTR.
+    const fallbackResult = await fetchApprovedTextMirror(
+      { ...request, textPath: DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH },
+      label,
+      url,
+      displayUrl,
+    );
+    if (fallbackResult.status === 'R') return fallbackResult;
+
     return {
       label,
       url,
@@ -382,8 +393,24 @@ async function fetchApprovedTextMirror(request: SourceRequest, label: string, ur
   }
 }
 
+const APPROVED_PDF_TEXT_DIR = 'knowledge/armor-gpt/pdf-text/';
+
 function approvedTextMirrorPath(textPath: string) {
-  const normalized = textPath.replace(/\\/g, '/');
+  const normalized = textPath.replace(/\\/g, '/').replace(/^\/+/, '');
+
+  // Allowlist: only .txt mirrors inside the approved pdf-text directory.
+  // Reject traversal, absolute paths, and anything outside that directory.
+  if (
+    normalized.startsWith(APPROVED_PDF_TEXT_DIR)
+    && normalized.endsWith('.txt')
+    && !normalized.split('/').includes('..')
+  ) {
+    const resolved = path.join(process.cwd(), normalized);
+    const allowedRoot = path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text');
+    if (resolved.startsWith(allowedRoot + path.sep)) return resolved;
+  }
+
+  // Legacy exact mappings (kept for compatibility with existing records).
   if (normalized === PART_252_DEVIATION_MEMO_TEXT_PATH) {
     return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DFARS-RFO-PART-252-Deviation-Memo.txt');
   }
@@ -495,6 +522,15 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
   for (const target of targets) {
     const match = text.match(target);
     if (match?.[0]) return trimEvidence(match[0]);
+  }
+
+  if (request.kind === 'class_deviation') {
+    // Enumeration fallback: the FY26 mirror opens with the list of all
+    // current DoD class deviations in effect. Returning that list lets
+    // "which deviations are current for this part?" questions be answered
+    // from retrieved text instead of UTR.
+    const listMatch = text.match(/Below are all the current DoD class deviations in effect[\s\S]{0,6000}/i);
+    if (listMatch?.[0]) return trimEvidence(listMatch[0], 4000);
   }
 
   return '';
@@ -639,10 +675,14 @@ function normalizeEvidenceText(content: string): string {
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(Number(dec)))
+    .replace(/&amp;/gi, '&')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -672,7 +712,12 @@ function bestKeywordWindow(text: string, question: string): string {
   return text.slice(bestIndex, bestIndex + 900);
 }
 
-function trimEvidence(value: string): string {
+function trimEvidence(value: string, max = 720): string {
   const cleaned = value.replace(/\s+/g, ' ').trim();
-  return cleaned.length > 720 ? `${cleaned.slice(0, 720).trim()}...` : cleaned;
+  if (cleaned.length <= max) return cleaned;
+  // Cut at a word boundary so evidence excerpts never end mid-word.
+  const slice = cleaned.slice(0, max);
+  const lastSpace = slice.lastIndexOf(' ');
+  const cut = lastSpace > max * 0.8 ? slice.slice(0, lastSpace) : slice;
+  return `${cut.trim()}...`;
 }
