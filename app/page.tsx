@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { DEMO_QUESTIONS } from '@/app/lib/armor-prompt';
-import { parseArmorOutput, type ParsedOutput } from '@/app/lib/parse-armor-output';
+import { blufTone, enforceDefinitiveGuard, parseArmorOutput, type ParsedOutput } from '@/app/lib/parse-armor-output';
 import { findPracticeIssueRules, type SourceRequest } from '@/app/lib/practice-issue-rules';
 import styles from './page.module.css';
 
@@ -312,10 +312,35 @@ function statusLabel(status: SourcePlanItem['status']) {
   return 'Planned';
 }
 
-function BlufCard({ content }: { content: string }) {
-  const lower = content.toLowerCase();
-  const tone = lower.includes('non-definitive') ? 'nd' : lower.includes('conditional') ? 'cond' : 'def';
-  const label = tone === 'nd' ? 'Non-Definitive' : tone === 'cond' ? 'Conditional' : 'Definitive';
+function isApprovedSource(label: string, url: string) {
+  const lowerLabel = label.toLowerCase();
+  const lowerUrl = url.toLowerCase();
+  if (lowerUrl.includes('acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-')) return true;
+  if (
+    lowerUrl.includes('raw.githubusercontent.com/kidkenpo-create/armor-plus/main/dfars-rfo-part-')
+    || lowerUrl.includes('raw.githubusercontent.com/kidkenpo-create/armor-plus/main/dfars-rfo-pgi-part-')
+    || lowerUrl.includes('raw.githubusercontent.com/kidkenpo-create/armor-plus/main/dfars-pgi-rfo-part-')
+  ) return true;
+  if (lowerLabel.includes('class deviation') && lowerUrl.includes('acquisition.gov/sites/default/files/page_file_uploads/')) return true;
+  if (lowerLabel.includes('class deviation') && lowerUrl.includes('dod_class_deviations_fy26')) return true;
+  return false;
+}
+
+function hasApprovedControlling(items?: SourcePlanItem[]) {
+  if (!items) return false;
+  return items.some(item => item.status === 'R' && isApprovedSource(item.label, item.url));
+}
+
+function BlufCard({ content, hasApproved = true }: { content: string; hasApproved?: boolean }) {
+  const parsedTone = blufTone(content);
+  // BLUF integrity guard (UI): a Definitive label cannot stand when no
+  // approved controlling source was retrieved, and an unlabeled BLUF is
+  // never assumed Definitive — it renders as Non-Definitive (unverified).
+  const downgraded = parsedTone === 'def' && !hasApproved;
+  const tone = downgraded || parsedTone === 'unknown' ? 'nd' : parsedTone;
+  const label = tone === 'nd'
+    ? (parsedTone === 'unknown' ? 'Non-Definitive (unverified)' : 'Non-Definitive')
+    : tone === 'cond' ? 'Conditional' : 'Definitive';
 
   return (
     <section className={`${styles.blufCard} ${styles[`bluf-${tone}`]}`}>
@@ -325,6 +350,9 @@ function BlufCard({ content }: { content: string }) {
         <span className={styles.sourceChip}>Control cite required</span>
       </div>
       <p>{content}</p>
+      {downgraded && (
+        <p>Downgraded by the ARMOR guard: no approved controlling source text was retrieved for this answer, so it cannot be presented as Definitive.</p>
+      )}
     </section>
   );
 }
@@ -347,20 +375,25 @@ function AssistantAnswer({
   content,
   parsed,
   responseMode = 'first_turn_full_analysis',
+  hasApproved = true,
 }: {
   content: string;
   parsed?: ParsedOutput | null;
   responseMode?: ResponseMode;
+  hasApproved?: boolean;
 }) {
   const hasStructured = parsed && (parsed.bluf || parsed.steps.length > 0);
 
   if (!hasStructured) {
-    return <pre className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>{content}</pre>;
+    // Follow-up / plain rendering: strip raw markdown artifacts (** bold
+    // markers, ATX heading hashes) so answers don't show literal markup.
+    const clean = content.replace(/\*\*/g, '').replace(/^#{1,6}\s+/gm, '');
+    return <pre className={`${styles.rawCard} ${responseMode === 'follow_up_concise_continuation' ? styles.conciseCard : ''}`}>{clean}</pre>;
   }
 
   return (
     <>
-      {parsed?.bluf && <BlufCard content={parsed.bluf} />}
+      {parsed?.bluf && <BlufCard content={parsed.bluf} hasApproved={hasApproved} />}
       <div className={styles.stepsWrap}>
         {parsed?.steps.map(step => <StepBlock key={`${step.num}-${step.title}`} {...step} />)}
       </div>
@@ -392,7 +425,12 @@ function ConversationMessage({
       </div>
       {turn.content ? (
         <>
-          <AssistantAnswer content={turn.content} parsed={turn.parsed} responseMode={turn.responseMode} />
+          <AssistantAnswer
+            content={turn.content}
+            parsed={turn.parsed}
+            responseMode={turn.responseMode}
+            hasApproved={turn.routePlan ? hasApprovedControlling(turn.routePlan) : true}
+          />
           {turn.responseMode === 'follow_up_concise_continuation' && (
             <button className={styles.showFullBtn} type="button" onClick={onShowFullAnalysis}>
               Show full analysis
@@ -714,6 +752,7 @@ export default function Home() {
     rawRef.current = '';
     const started = Date.now();
     let responseModel = model;
+    let latestRoutePlan: SourcePlanItem[] | undefined;
 
     try {
       const response = await fetch('/api/analyze', {
@@ -733,6 +772,7 @@ export default function Home() {
         if (meta.responseMode) responseMode = meta.responseMode;
         console.info('[ARMOR responseMode server]', responseMode);
         if (meta.routePlan?.length) {
+          latestRoutePlan = meta.routePlan;
           setRoutePlan(meta.routePlan);
           setTurns(current => current.map(turn => (
             turn.id === assistantTurnId ? { ...turn, routePlan: meta.routePlan, model: meta.model || turn.model, responseMode } : turn
@@ -761,6 +801,7 @@ export default function Home() {
             if (json.meta.responseMode) responseMode = json.meta.responseMode;
             console.info('[ARMOR responseMode stream]', responseMode);
             if (json.meta.routePlan?.length) {
+              latestRoutePlan = json.meta.routePlan;
               setRoutePlan(json.meta.routePlan);
               setTurns(current => current.map(turn => (
                 turn.id === assistantTurnId ? { ...turn, routePlan: json.meta?.routePlan, model: json.meta?.model || turn.model, responseMode } : turn
@@ -780,6 +821,14 @@ export default function Home() {
           )));
           conversationEndRef.current?.scrollIntoView({ block: 'end', behavior: 'smooth' });
         }
+      }
+
+      // BLUF integrity guard: never store or copy out a Definitive BLUF
+      // when no approved controlling source was retrieved for this answer.
+      const guardedOutput = enforceDefinitiveGuard(rawRef.current, hasApprovedControlling(latestRoutePlan));
+      if (guardedOutput !== rawRef.current) {
+        rawRef.current = guardedOutput;
+        setRawOutput(guardedOutput);
       }
 
       const finalParsed = parseArmorOutput(rawRef.current);

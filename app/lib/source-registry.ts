@@ -85,7 +85,29 @@ export function isApprovedControllingSource(label: string, url: string) {
     return true;
   }
 
+  // Any retrieved excerpt from the approved FY26 DoD class-deviation
+  // mirror counts as approved controlling text, not just the single
+  // CD 2021-O0008 anchor. The mirror is served under the FY26 PDF URL
+  // (with a #CD-... or #part-... fragment depending on the route).
+  if (
+    lowerLabel.includes('class deviation')
+    && lowerUrl.includes('dod_class_deviations_fy26')
+  ) {
+    return true;
+  }
+
   return false;
+}
+
+/**
+ * True when the route plan contains at least one retrieved (status 'R')
+ * source that counts as approved controlling authority. A Definitive
+ * BLUF is only legitimate when this returns true.
+ */
+export function hasApprovedControllingRetrieval(
+  routePlan: Array<{ label: string; url: string; status: string }>,
+): boolean {
+  return routePlan.some(item => item.status === 'R' && isApprovedControllingSource(item.label, item.url));
 }
 
 export function isBaselineFallbackSource(label: string, url: string) {

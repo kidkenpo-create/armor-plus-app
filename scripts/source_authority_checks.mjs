@@ -382,6 +382,40 @@ test('DFARS RFO sample raw GitHub sources are reachable or correctly absent', as
   }
 });
 
+test('beast upgrade: BLUF integrity guard, model, class-deviation mirror, and scope gate', () => {
+  const analyze = read('app/api/analyze/route.ts');
+  const page = read('app/page.tsx');
+  const fetcher = read('app/lib/fetcher.ts');
+  const registry = read('app/lib/source-registry.ts');
+  const prompt = read('app/lib/armor-prompt.ts');
+  const envExample = read('.env.example');
+
+  // Model: newest flagship default, env var still wins, gpt-5/gpt-6 token branch.
+  assert.match(envExample, /OPENAI_MODEL=gpt-6\.1-sol/, '.env.example should default to gpt-6.1-sol');
+  assert.match(analyze, /process\.env\.OPENAI_MODEL \|\| 'gpt-6\.1-sol'/, 'code fallback should be gpt-6.1-sol, still env-driven');
+  assert.match(analyze, /\/\^gpt-\[56\]\//, 'token-parameter branch should cover gpt-5 and gpt-6 models');
+
+  // BLUF integrity: server guard instruction + UI default is not Definitive.
+  assert.match(analyze, /BLUF INTEGRITY GUARD/, 'analyze route should inject a hard BLUF guard instruction');
+  assert.match(analyze, /hasApprovedControllingRetrieval\(routePlan\)/, 'guard should be computed from the actual route plan');
+  assert.match(registry, /hasApprovedControllingRetrieval/, 'registry should export the approved-retrieval check');
+  assert.match(registry, /dod_class_deviations_fy26/, 'retrieved FY26 class-deviation mirror text should count as approved');
+  assert.match(page, /enforceDefinitiveGuard/, 'page should enforce the guard on completed output');
+  assert.match(page, /Non-Definitive \(unverified\)/, 'unlabeled BLUF should render as Non-Definitive (unverified), never Definitive');
+  assert.doesNotMatch(prompt, /BLUF = Definitive\./, 'PRE-CHECK must not hard-code an unconditional Definitive BLUF');
+
+  // Class deviations: prefix allowlist for mirrors + generic FY26 fallback.
+  assert.match(fetcher, /APPROVED_PDF_TEXT_DIR/, 'fetcher should allowlist mirrors by the approved pdf-text directory');
+  assert.match(fetcher, /Below are all the current DoD class deviations in effect/, 'fetcher should surface the FY26 current-deviations list for enumeration questions');
+
+  // Evidence polish: word-boundary trim.
+  assert.match(fetcher, /lastIndexOf\(' '\)/, 'evidence trim should cut at a word boundary');
+
+  // Scope gate: conservative off-topic decline.
+  assert.match(analyze, /isClearlyOffTopic/, 'analyze route should gate clearly off-topic questions');
+  assert.match(analyze, /outside the scope of ARMOR/, 'off-topic decline should redirect to acquisition topics');
+});
+
 test('follow-up response mode contract preserves concise continuation behavior', () => {
   const analyze = read('app/api/analyze/route.ts');
   const page = read('app/page.tsx');
