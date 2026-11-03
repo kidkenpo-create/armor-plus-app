@@ -132,8 +132,7 @@
 .stepItem,
 .streamCard,
 .rawCard,
-.errorCard,
-.emptyState {
+.errorCard {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -576,61 +575,6 @@
 
 .outputPanel {
   min-height: calc(100vh - 116px);
-}
-
-.emptyState {
-  display: grid;
-  gap: 8px;
-  margin: 18px;
-  padding: 26px;
-  color: var(--muted);
-  background: linear-gradient(180deg, #fff, #f8fbff);
-}
-
-.emptyState strong {
-  color: var(--text);
-  font-size: 17px;
-}
-
-.emptyState span {
-  max-width: 620px;
-  line-height: 1.7;
-}
-
-.exampleCards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.exampleCard {
-  display: grid;
-  gap: 5px;
-  padding: 13px 14px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: #fff;
-  color: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-
-.exampleCard:hover {
-  border-color: var(--gold);
-  background: #fbfdff;
-}
-
-.exampleCardLabel {
-  color: var(--accent2);
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.exampleCardText {
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.5;
 }
 
 .errorCard {
@@ -1415,10 +1359,6 @@ a.citeChip:hover {
     grid-template-columns: 1fr;
   }
 
-  .exampleCards {
-    grid-template-columns: 1fr;
-  }
-
   .primaryBtn {
     width: 100%;
   }
@@ -1443,8 +1383,7 @@ a.citeChip:hover {
   .chatComposer,
   .poweredBadge,
   .mobileTrace,
-  .showFullBtn,
-  .emptyState {
+  .showFullBtn {
     display: none !important;
   }
 
