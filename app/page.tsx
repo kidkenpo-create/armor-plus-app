@@ -1272,6 +1272,7 @@ export default function Home() {
             <strong>ARMOR Plus</strong>
             <span>Acquisition Regulation Mission Operations Resource</span>
           </div>
+          <span className={styles.versionBadge} role="img" aria-label="Version 2">V2</span>
         </div>
         <div className={styles.headerCredit}>
           Built by John Wahl and Heath Gross - A WarU Collaborative, supporting the acquisition workforce
