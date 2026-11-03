@@ -469,8 +469,13 @@
   line-height: 1.5;
 }
 
+.proofPanel {
+  min-width: 0;
+}
+
 .sourceList {
   display: grid;
+  min-width: 0;
   gap: 10px;
   padding: 14px;
 }
@@ -512,6 +517,7 @@
 
 .sourceItem {
   display: grid;
+  min-width: 0;
   gap: 5px;
   padding: 11px;
   border: 1px solid var(--border);
@@ -530,12 +536,14 @@
   color: var(--text);
   font-size: 12px;
   line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .sourceItem small {
   color: var(--muted);
   font-size: 11px;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .sourceItem em {
@@ -547,6 +555,7 @@
   font-size: 11px;
   font-style: normal;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .sourceStatus {
@@ -647,6 +656,7 @@
 
 .evidenceItem {
   display: grid;
+  min-width: 0;
   gap: 8px;
   padding: 12px;
   border: 1px solid var(--border);
@@ -663,17 +673,22 @@
 
 .evidenceMeta {
   display: flex;
+  min-width: 0;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
 
 .evidenceMeta strong {
+  min-width: 0;
   color: var(--text);
   font-size: 12px;
+  overflow-wrap: anywhere;
 }
 
 .evidenceMeta a {
+  flex-shrink: 0;
+  white-space: nowrap;
   color: var(--accent);
   font-size: 11px;
   font-weight: 800;
@@ -686,6 +701,7 @@
   border-left: 3px solid rgba(34, 103, 190, 0.35);
   color: #475569;
   font: 500 12px/1.65 var(--mono);
+  overflow-wrap: anywhere;
 }
 
 .traceHeader {
@@ -757,6 +773,7 @@
   color: var(--text);
   font-size: 12px;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .traceRow small {
@@ -765,6 +782,7 @@
   color: var(--muted);
   font-size: 11px;
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .traceDot {
