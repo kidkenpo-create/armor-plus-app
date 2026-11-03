@@ -1349,7 +1349,6 @@ export default function Home() {
                 {DEMO_LABELS.map((label, index) => (
                   <button key={label} type="button" className={styles.exampleCard} onClick={() => setDemo(index)}>
                     <span className={styles.exampleCardLabel}>{label}</span>
-                    <span className={styles.exampleCardText}>{DEMO_QUESTIONS[index]}</span>
                   </button>
                 ))}
               </div>
