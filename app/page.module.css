@@ -558,6 +558,17 @@
   overflow-wrap: anywhere;
 }
 
+.excerptToggle {
+  color: var(--accent);
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.excerptToggle:hover {
+  text-decoration: underline;
+}
+
 .sourceStatus {
   width: max-content;
   border-radius: 5px;

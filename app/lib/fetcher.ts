@@ -1,7 +1,7 @@
 import { getPracticeCitationTargetMap, getPracticeDeviationId, getPracticeExpectedCitations, getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
 import { getArmorCitationTargetMap, getArmorRoutingSourceRequests, getArmorTargetCitations } from './armor-routing-rules';
 import { registryRequestsForParts } from './source-registry';
-import { dfarsSectionCandidates, extractDeviationIds, extractSectionCitations, findClausePrescription, findDeviationWindow, findParagraphWindow, findSectionWindow, parsePrefixedCitations, stripControlCharacters, type SectionWindow } from './section-excerpt';
+import { decodeHtmlEntities, dfarsSectionCandidates, extractDeviationIds, extractSectionCitations, findClausePrescription, findDeviationWindow, findParagraphWindow, findSectionWindow, parsePrefixedCitations, sentenceCutIndex, snapExcerptStart, stripControlCharacters, type SectionWindow } from './section-excerpt';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -917,7 +917,7 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
 }
 
 function normalizeEvidenceText(content: string): string {
-  return stripControlCharacters(content)
+  const stripped = stripControlCharacters(content)
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
@@ -927,7 +927,10 @@ function normalizeEvidenceText(content: string): string {
     .replace(/&quot;/gi, '"')
     .replace(/&apos;/gi, "'")
     .replace(/&#x([0-9a-f]+);/gi, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(Number(dec)))
+    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(Number(dec)));
+  // Named entities (&ndash;, &rsquo;, &sect;, ...) decode BEFORE &amp;
+  // so an escaped "&amp;ndash;" still renders as the literal "&ndash;".
+  return decodeHtmlEntities(stripped)
     .replace(/&amp;/gi, '&')
     .replace(/\s+/g, ' ')
     .trim();
@@ -955,12 +958,18 @@ function bestKeywordWindow(text: string, question: string): string {
     }
   }
 
-  return text.slice(bestIndex, bestIndex + 900);
+  // The stride scan can land mid-sentence (or mid-word); snap the
+  // window forward to its first clean sentence start.
+  return snapExcerptStart(text.slice(bestIndex, bestIndex + 900));
 }
 
 function trimEvidence(value: string, max = 720): string {
   const cleaned = value.replace(/\s+/g, ' ').trim();
   if (cleaned.length <= max) return cleaned;
+  // Prefer ending on a complete sentence: an excerpt that stops at a
+  // sentence boundary reads as a clean quote, not a chopped one.
+  const sentenceCut = sentenceCutIndex(cleaned, max);
+  if (sentenceCut > 0) return cleaned.slice(0, sentenceCut).trim();
   // Cut at a word boundary so evidence excerpts never end mid-word.
   const slice = cleaned.slice(0, max);
   const lastSpace = slice.lastIndexOf(' ');

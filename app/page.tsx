@@ -837,6 +837,44 @@ function ChatHistory({
   );
 }
 
+function ClampedExcerpt({ text, limit }: { text: string; limit: number }) {
+  const [expanded, setExpanded] = useState(false);
+  if (!text || text.length <= limit) return <>{text}</>;
+  const slice = text.slice(0, limit);
+  const lastSpace = slice.lastIndexOf(' ');
+  const clamped = (lastSpace > limit * 0.7 ? slice.slice(0, lastSpace) : slice).trim();
+  const toggle = (
+    <span
+      role="button"
+      tabIndex={0}
+      className={styles.excerptToggle}
+      onClick={event => {
+        event.preventDefault();
+        event.stopPropagation();
+        setExpanded(value => !value);
+      }}
+      onKeyDown={event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          event.stopPropagation();
+          setExpanded(value => !value);
+        }
+      }}
+    >
+      {expanded ? 'Show less' : 'Show more'}
+    </span>
+  );
+  return expanded ? (
+    <>
+      {text} {toggle}
+    </>
+  ) : (
+    <>
+      {clamped}... {toggle}
+    </>
+  );
+}
+
 function SourcesEvidencePanel({
   items,
   streaming,
@@ -859,7 +897,11 @@ function SourcesEvidencePanel({
             <span className={`${styles.sourceStatus} ${styles[`status-${item.status}`]}`}>{statusLabel(item.status)}</span>
             <strong>{item.label}</strong>
             <small>{item.reason}</small>
-            {item.excerpt && <em>{item.excerpt}</em>}
+            {item.excerpt && (
+              <em>
+                <ClampedExcerpt text={item.excerpt} limit={300} />
+              </em>
+            )}
           </a>
         ))}
       </div>
@@ -920,7 +962,9 @@ function EvidenceSnapshot({ items }: { items: SourcePlanItem[] }) {
               <strong>{item.label}</strong>
               <a href={sourceHref(item)} target="_blank" rel="noreferrer">Open source</a>
             </div>
-            <blockquote>{item.excerpt}</blockquote>
+            <blockquote>
+              <ClampedExcerpt text={item.excerpt ?? ''} limit={420} />
+            </blockquote>
           </article>
         ))}
       </div>

@@ -394,3 +394,93 @@ export function findClausePrescription(text: string, clause: string): ClausePres
 export function stripControlCharacters(value: string): string {
   return value.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, ' ');
 }
+
+/**
+ * Named HTML entities that appear in acquisition.gov / FAR HTML and are
+ * NOT decoded by the fetcher's basic pass (&amp;, &lt;, &gt;, &quot;,
+ * &apos;, &nbsp;, and numeric references are handled there). Without
+ * this, evidence excerpts render literal text like
+ * "acquisition&ndash;related" and "officer&rsquo;s decision".
+ * Unknown entities are left untouched.
+ */
+const NAMED_HTML_ENTITIES: Record<string, string> = {
+  ndash: '\u2013', mdash: '\u2014', minus: '\u2212',
+  lsquo: '\u2018', rsquo: '\u2019', sbquo: '\u201A',
+  ldquo: '\u201C', rdquo: '\u201D', bdquo: '\u201E',
+  hellip: '\u2026', sect: '\u00A7', para: '\u00B6',
+  dagger: '\u2020', Dagger: '\u2021', bull: '\u2022', middot: '\u00B7',
+  copy: '\u00A9', reg: '\u00AE', trade: '\u2122', deg: '\u00B0',
+  plusmn: '\u00B1', times: '\u00D7', divide: '\u00F7',
+  frac12: '\u00BD', frac14: '\u00BC', frac34: '\u00BE',
+  laquo: '\u00AB', raquo: '\u00BB',
+  ensp: '\u2002', emsp: '\u2003', thinsp: '\u2009',
+};
+
+export function decodeHtmlEntities(value: string): string {
+  return value.replace(/&([a-zA-Z][a-zA-Z0-9]+);/g, (whole, name: string) =>
+    Object.prototype.hasOwnProperty.call(NAMED_HTML_ENTITIES, name) ? NAMED_HTML_ENTITIES[name] : whole,
+  );
+}
+
+const SENTENCE_ABBREVIATIONS = new Set([
+  'u.s', 'u.s.c', 'pub', 'l', 'e.g', 'i.e', 'etc', 'vs', 'no', 'al',
+]);
+
+/**
+ * The first sentence end at or after `from`: the index just past the
+ * sentence-ending punctuation (plus any closing quotes/brackets) and
+ * the index where the next sentence starts. Periods inside section
+ * numbers (15.206-2) never match because no whitespace follows them,
+ * and common abbreviations (Pub. L., U.S.C., e.g.) are not treated as
+ * sentence ends.
+ */
+function sentenceEndAt(text: string, from: number): { end: number; next: number } | null {
+  const re = /[.!?]+["'\u201D\u2019)\]]*(?=\s|$)/g;
+  re.lastIndex = from;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(text)) !== null) {
+    if (match[0].startsWith('.')) {
+      const word = /([A-Za-z][A-Za-z.]*)$/.exec(text.slice(0, match.index))?.[1]?.toLowerCase();
+      if (word && SENTENCE_ABBREVIATIONS.has(word)) continue;
+    }
+    const end = match.index + match[0].length;
+    let next = end;
+    while (next < text.length && /\s/.test(text[next])) next += 1;
+    return { end, next };
+  }
+  return null;
+}
+
+/**
+ * The best sentence-boundary cut at or under `max` characters: the end
+ * index of the last complete sentence that finishes by `max` while
+ * keeping at least 55% of the budget, or -1 when there is none.
+ */
+export function sentenceCutIndex(text: string, max: number): number {
+  let best = -1;
+  let cursor = 0;
+  while (cursor < max) {
+    const found = sentenceEndAt(text, cursor);
+    if (!found || found.end > max) break;
+    if (found.end >= max * 0.55) best = found.end;
+    if (found.next <= cursor) break;
+    cursor = found.next;
+  }
+  return best;
+}
+
+/**
+ * Snap an excerpt that begins mid-sentence forward to its first clean
+ * sentence start, prefixed with "..." so the omission is honest. Only
+ * fires when the text starts with a lowercase letter (headings, section
+ * numbers, and paragraph markers start with capitals, digits, or "("
+ * and are left alone) and a sentence boundary exists within the first
+ * `maxSnap` characters.
+ */
+export function snapExcerptStart(text: string, maxSnap = 320): string {
+  if (!/^[a-z]/.test(text)) return text;
+  const found = sentenceEndAt(text, 0);
+  if (!found || found.end > maxSnap || found.next >= text.length) return text;
+  const rest = text.slice(found.next).trim();
+  return rest ? `... ${rest}` : text;
+}
