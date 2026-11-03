@@ -18,7 +18,15 @@ const compiled = ts.transpileModule(source, {
 }).outputText;
 
 fs.writeFileSync(tempPath, compiled);
-const { parseArmorOutput, blufTone, enforceDefinitiveGuard } = await import(pathToFileURL(tempPath).href);
+const {
+  parseArmorOutput,
+  parseArmorOutputRich,
+  blufTone,
+  enforceDefinitiveGuard,
+  extractCitations,
+  parseInline,
+  parseRichContent,
+} = await import(pathToFileURL(tempPath).href);
 
 test.after(() => {
   fs.rmSync(tempPath, { force: true });
@@ -102,3 +110,67 @@ Receipt text.
   assert.equal(parsed.steps[0].content, 'Line one.\nLine two.');
 });
 
+
+test('extractCitations classifies authority classes and parts', () => {
+  const refs = extractCitations(
+    'Controlling is RFO FAR 17.104-3(a); overlay DFARS RFO 217.104-370(b)(1)(iv); '
+    + 'procedure at DFARS RFO PGI 207.104-70(b); see Deviation 2021-O0008; '
+    + 'clause FAR 52.246-21 and DFARS 252.246-7002; bare 237.873-4 also counts.',
+  );
+  assert.equal(refs.length, 7);
+  assert.deepEqual(
+    refs.map(ref => ref.citeClass),
+    ['controlling', 'dfars-overlay', 'pgi', 'deviation', 'clause', 'clause', 'dfars-overlay'],
+  );
+  assert.equal(refs[0].part, '17');
+  assert.equal(refs[0].key, '17.104-3(a)');
+  assert.equal(refs[1].key, '217.104-370(b)(1)(iv)');
+  assert.equal(refs[3].key, '2021-o0008');
+  assert.equal(refs[3].part, null);
+});
+
+test('extractCitations ignores lookalike numbers', () => {
+  assert.equal(extractCitations('Pi is 3.14159, version 2.0, threshold $650,000, 30 days.').length, 0);
+});
+
+test('parseRichContent renders paragraphs, lists, bold, and citation segments', () => {
+  const blocks = parseRichContent(
+    'First paragraph line.\nStill the first paragraph.\n\n'
+    + '- Bullet citing **RFO FAR 14.211-3(a)(1)** directly\n'
+    + '- Second bullet\n\n'
+    + '1. Numbered one\n2. Numbered two\n\n'
+    + 'Closing with a **bold claim** and a plain cite DFARS RFO 246.710(2).',
+  );
+  assert.deepEqual(blocks.map(block => block.type), ['paragraph', 'list', 'list', 'paragraph']);
+  assert.equal(blocks[0].items.length, 2);
+  assert.equal(blocks[1].ordered, false);
+  assert.equal(blocks[1].items.length, 2);
+  assert.equal(blocks[2].ordered, true);
+
+  const bulletCitation = blocks[1].items[0].find(segment => segment.kind === 'citation');
+  assert.ok(bulletCitation, 'bold-wrapped citation should become a citation segment');
+  assert.equal(bulletCitation.bold, true);
+  assert.equal(bulletCitation.citation.key, '14.211-3(a)(1)');
+  assert.equal(bulletCitation.citation.citeClass, 'controlling');
+
+  const closing = blocks[3].items[0];
+  assert.ok(closing.some(segment => segment.kind === 'text' && segment.bold && segment.text === 'bold claim'));
+  assert.ok(closing.some(segment => segment.kind === 'citation' && segment.citation.citeClass === 'dfars-overlay'));
+});
+
+test('parseInline strips markdown heading hashes via parseRichContent', () => {
+  const blocks = parseRichContent('## BLUF\nDefinitive answer.');
+  assert.equal(blocks[0].items[0][0].text, 'BLUF');
+});
+
+test('parseArmorOutputRich preserves bold sentinels while parseArmorOutput strips markers', () => {
+  const raw = '0) BLUF -- Definitive **RFO FAR 14.211-3(a)(1)** controls.\n\nSTEP 1 -- Facts: The **key fact** stands.';
+  const plain = parseArmorOutput(raw);
+  const rich = parseArmorOutputRich(raw);
+  assert.ok(!plain.bluf.includes('**') && !plain.bluf.includes('\u0001'));
+  assert.ok(rich.bluf.includes('\u0001'), 'rich parse should keep bold sentinels in BLUF');
+  assert.equal(rich.steps[0].title, 'Facts');
+  assert.ok(rich.steps[0].content.includes('\u0001'), 'rich parse should keep bold sentinels in step content');
+  const blocks = parseRichContent(rich.steps[0].content);
+  assert.ok(blocks[0].items[0].some(segment => segment.bold && segment.text === 'key fact'));
+});
