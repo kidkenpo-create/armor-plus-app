@@ -23,7 +23,12 @@ const {
   findSectionWindow,
   stripControlCharacters,
   parsePrefixedCitations,
+  parsePrefixedCitationTargets,
   dfarsSectionCandidates,
+  findParagraphWindow,
+  findDeviationWindow,
+  findClausePrescription,
+  extractDeviationIds,
 } = await import(pathToFileURL(tempPath).href);
 
 test.after(() => {
@@ -72,7 +77,11 @@ test('extractSectionCitations reads the cited section and its part', () => {
   );
   assert.deepEqual(
     extractSectionCitations('What does DFARS RFO 237.873-3(a) say about detainees?'),
-    [{ part: '237', section: '237.873-3' }],
+    [{ part: '237', section: '237.873-3', paragraph: '(a)' }],
+  );
+  assert.deepEqual(
+    extractSectionCitations('Can the HCA delegate under 1.107(b)?'),
+    [{ part: '1', section: '1.107', paragraph: '(b)' }],
   );
   assert.deepEqual(
     extractSectionCitations('Compare 17.104-3 with 17.104-3 and part 12 policy'),
@@ -295,8 +304,8 @@ test('real DFARS Part 246 window for 246.710 contains the Germany prescription',
 
 test('fetcher wires rule-table citation sections and DFARS candidates', () => {
   const fetcher = fs.readFileSync(path.join(root, 'app', 'lib', 'fetcher.ts'), 'utf8');
-  assert.match(fetcher, /getPracticeCitationSectionMap\(question\)/);
-  assert.match(fetcher, /getArmorCitationSectionMap\(question\)/);
+  assert.match(fetcher, /getPracticeCitationTargetMap\(question\)/);
+  assert.match(fetcher, /getArmorCitationTargetMap\(question\)/);
   assert.match(fetcher, /dfarsSectionCandidates\(farCitation\)/);
   assert.match(fetcher, /sectionCandidates: candidates/);
   assert.match(fetcher, /function resolveSectionWindow/);
@@ -304,11 +313,226 @@ test('fetcher wires rule-table citation sections and DFARS candidates', () => {
 
   const practice = fs.readFileSync(path.join(root, 'app', 'lib', 'practice-issue-rules.ts'), 'utf8');
   assert.match(practice, /export function getPracticeCitationSectionMap/);
+  assert.match(practice, /export function getPracticeCitationTargetMap/);
   assert.match(practice, /sectionCandidates\?: string\[\]/);
 
   const armor = fs.readFileSync(path.join(root, 'app', 'lib', 'armor-routing-rules.ts'), 'utf8');
   assert.match(armor, /export function getArmorCitationSectionMap/);
-  assert.match(armor, /parsePrefixedCitations\(rule\.targetCitation\)/);
+  assert.match(armor, /export function getArmorCitationTargetMap/);
+  assert.match(armor, /parsePrefixedCitationTargets\(rule\.targetCitation\)/);
+});
+
+// ------------------------------------------------------------------
+// Round 3: pinpoint paragraph verification + Part 33 routing.
+// Fixtures below are modeled on the LIVE acquisition.gov RFO pages
+// and mirror files as fetched 2026-11-02 (normalized the way the
+// fetcher normalizes them). Federal regulatory text is public domain.
+// ------------------------------------------------------------------
+
+// The RFO FAR Part 1 conventions section. NOTE the RFO renumbering:
+// legacy FAR 1.108's conventions now live at RFO FAR 1.107, with the
+// same paragraph letters; RFO FAR 1.108 is the inflation section.
+const RFO_1_107_BODY = [
+  '1.107 FAR conventions.',
+  '(a) Words and terms . (1) Definitions in part 2 apply to the entire regulation unless specifically defined in another part, subpart, section, provision, or clause. (2) Undefined words retain their common dictionary meaning.',
+  '(b) Delegation of authority. Each authority is delegable unless specifically stated otherwise.',
+  '(c) Dollar thresholds . (1) Unless otherwise specified, a specific dollar threshold is the final anticipated dollar value of the action, including the dollar value of all options.',
+  '(d) Applying FAR changes to solicitations and contracts . Unless otherwise specified- (1) FAR changes apply to solicitations issued on or after the effective date of the change; (2) Contracting officers may, at their discretion, include the FAR changes in solicitations issued before the effective date.',
+  '(e) Citations . When the FAR cites a statute, the citation includes all applicable amendments, unless otherwise stated.',
+  '(f) Required action . When a sentence directs action, the contracting officer is responsible for the action, unless another party is expressly cited.',
+].join(' ');
+
+test('parsePrefixedCitationTargets keeps the pinpoint paragraph chain', () => {
+  assert.deepEqual(parsePrefixedCitationTargets('RFO FAR 1.107(b)'), [
+    { kind: 'rfo_far', part: '1', section: '1.107', paragraph: '(b)' },
+  ]);
+  assert.deepEqual(parsePrefixedCitationTargets('DFARS RFO 217.104-370(b)(1)(iv)'), [
+    { kind: 'dfars_rfo', part: '217', section: '217.104-370', paragraph: '(b)(1)(iv)' },
+  ]);
+  assert.deepEqual(parsePrefixedCitationTargets('RFO FAR 50.103-5'), [
+    { kind: 'rfo_far', part: '50', section: '50.103-5' },
+  ]);
+  // The paragraph-free export stays paragraph-free for its callers.
+  assert.deepEqual(parsePrefixedCitations('RFO FAR 1.107(b)'), [
+    { kind: 'rfo_far', part: '1', section: '1.107' },
+  ]);
+});
+
+test('findParagraphWindow pins the delegation paragraph (b) inside RFO 1.107', () => {
+  const sectionWindow = findSectionWindow(`Subpart 1.1 - Framework ${RFO_1_107_BODY} 1.108 Statutory thresholds.`, '1.107');
+  assert.ok(sectionWindow);
+  const pinned = findParagraphWindow(sectionWindow.excerpt, '(b)');
+  assert.ok(pinned, 'paragraph (b) should be located');
+  assert.match(pinned.excerpt, /^1\.107 FAR conventions\./);
+  assert.match(pinned.excerpt, /\(b\) Delegation of authority\. Each authority is delegable unless specifically stated otherwise\./);
+  // The (a) lead-in is elided, not carried into the pinpoint excerpt.
+  assert.doesNotMatch(pinned.excerpt, /Undefined words retain their common dictionary meaning/);
+});
+
+test('findParagraphWindow pins (d) and (f) of RFO 1.107 and rejects absent paragraphs', () => {
+  const d = findParagraphWindow(RFO_1_107_BODY, '(d)');
+  assert.ok(d);
+  assert.match(d.excerpt, /\(d\) Applying FAR changes to solicitations and contracts/);
+  const f = findParagraphWindow(RFO_1_107_BODY, '(f)');
+  assert.ok(f);
+  assert.match(f.excerpt, /\(f\) Required action/);
+  assert.match(f.excerpt, /the contracting officer is responsible for the action/);
+  assert.equal(findParagraphWindow(RFO_1_107_BODY, '(z)'), null);
+  assert.equal(findParagraphWindow(RFO_1_107_BODY, ''), null);
+});
+
+test('findParagraphWindow does not mistake an in-text paragraph reference for the paragraph', () => {
+  // Modeled on the real RFO FAR 41.102 body: paragraph (a) REFERS to
+  // "paragraph (b) of this section" before the actual (b) begins.
+  const excerpt = '41.102 Applicability. (a) Except as provided in paragraph (b) of this section, this part applies to the acquisition of utility services for the Government, including connection charges and termination liabilities. (b) This part does not apply to- (1) Utility services produced, distributed, or sold by another Federal agency. In those cases, agencies must use interagency agreements; (2) Utility services obtained by purchase, exchange, or otherwise by a Federal power or water marketing agency incident to that agency\'s marketing or distribution program; or (3) Third party financed shared-savings projects authorized by 42 U.S.C. 8287.';
+  const pinned = findParagraphWindow(excerpt, '(b)(3)');
+  assert.ok(pinned, 'the real (b) paragraph should be located');
+  assert.match(pinned.excerpt, /\(b\) This part does not apply to/);
+  assert.match(pinned.excerpt, /\(3\) Third party financed shared-savings projects/);
+  assert.doesNotMatch(pinned.excerpt, /Except as provided in paragraph/);
+});
+
+// Modeled on the real RFO FAR Part 33 page: TOC first, then the body.
+// RFO FAR 33.205-1(a)(1) routes contractor claim-submission
+// requirements to the Disputes clause at 52.233-1(d); the legacy
+// section 33.206 does not exist anywhere in the RFO text.
+const PART_33_PAGE = [
+  'Part 33 - Protests, Disputes, and Appeals',
+  '33.205 Postaward. 33.205-1 Contractor claim. 33.205-2 Contractor certification. 33.205-4 Suspected fraudulent claims.',
+  '33.205 Postaward.',
+  '33.205-1 Contractor claim. (a) Contractor claims against the Government. (1) Contractor requirements for submission of claims are located at 52.233-1(d). (2) The contracting officer must document in the contract file the date of receipt of a claim submitted by a contractor. (b) Government claims against a contractor. The contracting officer must issue a written decision on any Government claim against a contractor within 6 years after accrual of the claim.',
+  '33.205-2 Contractor certification. (a) Contractor requirements for certification of claims exceeding $100,000 are located at 52.233-1(d).',
+].join(' ');
+
+test('Part 33: the RFO claim section resolves and the legacy section is absent', () => {
+  const window = findSectionWindow(PART_33_PAGE, '33.205-1');
+  assert.ok(window, 'window should be found');
+  assert.match(window.excerpt, /Contractor requirements for submission of claims are located at 52\.233-1\(d\)/);
+  // Legacy FAR 33.206 has no body in RFO text — this is why the
+  // router keeps the rule table's RFO section as a verified fallback
+  // candidate when a question cites the legacy number.
+  assert.equal(findSectionWindow(PART_33_PAGE, '33.206'), null);
+});
+
+// Modeled on the real RFO FAR Part 50 page structure.
+const PART_50_PAGE = [
+  'Part 50 - Extraordinary Contractual Actions',
+  '50.102-3 Limitations on exercise of authority. 50.103-3 Contractor requests. 50.103-5 Processing cases. 50.103-6 Disposition.',
+  '50.102-3 Limitations on exercise of authority. (a) Pub. L. 85-804 is not authority for- (1) Using a cost-plus-a-percentage-of-cost system of contracting; (2) Making any contract that violates existing law limiting profit or fees.',
+  '50.103-5 Processing cases. In response to a contractor request made in accordance with 50.103-3, the contracting officer or an authorized representative shall make a thorough investigation to establish the facts necessary to decide a given case.',
+  '50.103-6 Disposition. Each case shall be documented.',
+].join(' ');
+
+test('Part 50: 50.103-5 body resolves instead of the old wildcard landing (50.102-3)', () => {
+  const window = findSectionWindow(PART_50_PAGE, '50.103-5');
+  assert.ok(window, 'window should be found');
+  assert.match(window.excerpt, /50\.103-5 Processing cases\./);
+  assert.match(window.excerpt, /shall make a thorough investigation/);
+  assert.doesNotMatch(window.excerpt, /cost-plus-a-percentage-of-cost/);
+});
+
+test('findClausePrescription resolves 252.205-7000 to its prescription in the real Part 205 text', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'dfars-rfo', 'DFARS-RFO-PART-205-Attachment-1.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+  // Documented key-vs-text finding: the April answer key names
+  // 205.470, but that section does not exist in the controlling
+  // DFARS RFO text (nor in the PGI 205 file); the clause itself
+  // states "As prescribed in 205.701". Extraction follows the text.
+  assert.ok(!/\b205\.470\b/.test(text), '205.470 must stay absent from the RFO Part 205 text');
+  const prescription = findClausePrescription(text, '252.205-7000');
+  assert.ok(prescription, 'prescription should resolve');
+  assert.equal(prescription.section, '205.701');
+  assert.match(prescription.window.excerpt, /Insert the clause at 252\.205-7000/);
+  assert.match(prescription.window.excerpt, /Provision of Information to Cooperative Agreement Holders/);
+});
+
+test('findClausePrescription generalizes to the Germany warranty clause (252.246-7002)', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'dfars-rfo', 'DFARS-RFO-PART-246-Attachment-1.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+  const prescription = findClausePrescription(text, '252.246-7002');
+  assert.ok(prescription, 'prescription should resolve');
+  assert.equal(prescription.section, '246.710');
+  assert.match(prescription.window.excerpt, /Warranty of Construction \(Germany\)/);
+});
+
+test('extractDeviationIds reads deviation numbers from questions and rule strings', () => {
+  assert.deepEqual(extractDeviationIds('Does CD 2021-O0008 change the clause?'), ['2021-O0008']);
+  assert.deepEqual(extractDeviationIds('CD 2021-O0008 Revision 1'), ['2021-O0008']);
+  assert.deepEqual(extractDeviationIds('compare 2018-O0019 with 2017-O0004 and 2018-O0019'), ['2018-O0019', '2017-O0004']);
+  assert.deepEqual(extractDeviationIds('no deviation here'), []);
+});
+
+test('findDeviationWindow lands on the 2021-O0008 memo/attachment in the real FY26 mirror', () => {
+  const raw = fs.readFileSync(
+    path.join(root, 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt'),
+    'utf8',
+  );
+  const text = normalizeLikeFetcher(raw);
+  const firstMention = text.indexOf('2021-O0008');
+  const window = findDeviationWindow(text, '2021-O0008');
+  assert.ok(window, 'window should be found');
+  // The body anchor is the deviation's own memo block, deep in the
+  // mirror — never the up-front enumeration list mention.
+  assert.ok(window.start > firstMention, 'window must not start at the enumeration list');
+  assert.ok(window.start > 100000, 'fixture assumption: the memo block sits past 100k characters');
+  assert.match(window.excerpt, /DARS Tracking Number: 2021-O0008, Revision 1/);
+  assert.match(window.excerpt, /Class Deviation—Limitations on Subcontracting for Small Business/);
+  // Simulate prepareSourceContent + trimSource(10000): rebasing the
+  // full text at the window start puts the operative deviation
+  // language (use the attachment clause in lieu of FAR 52.219-14)
+  // inside the model context budget for the first time.
+  const context = text.slice(window.start, window.start + 10000);
+  assert.match(context, /in lieu of the clause at Federal Acquisition Regulation \(FAR\) 52\.219-14/);
+  // An unknown deviation number resolves to nothing, honestly.
+  assert.equal(findDeviationWindow(text, '2099-O9999'), null);
+});
+
+test('round 3 wiring: claims routing, paragraph pinning, deviation and clause targeting', () => {
+  const fetcher = fs.readFileSync(path.join(root, 'app', 'lib', 'fetcher.ts'), 'utf8');
+  // Item 1: the generic router now covers the claims/disputes family.
+  assert.match(fetcher, /'contract disputes'/);
+  assert.match(fetcher, /Contract Disputes Act claim submission and decision rules/);
+  // Paragraph pinning, deviation windows, and clause prescriptions
+  // are all wired into routing and extraction.
+  assert.match(fetcher, /getPracticeCitationTargetMap\(question\)/);
+  assert.match(fetcher, /getPracticeDeviationId\(question\)/);
+  assert.match(fetcher, /extractDeviationIds\(question\)/);
+  assert.match(fetcher, /findParagraphWindow\(resolved\.window\.excerpt, request\.paragraph\)/);
+  assert.match(fetcher, /findDeviationWindow\(text, request\.deviationId\)/);
+  assert.match(fetcher, /findClausePrescription\(text, request\.clause\)/);
+  assert.match(fetcher, /prescription\.section === request\.section/);
+  assert.match(fetcher, /SECTION_LEAD_IN_CHARS = 1500/);
+  assert.match(fetcher, /FULL RETRIEVED SOURCE TEXT \(from class deviation \$\{request\.deviationId\}\)/);
+  // The conventions kind has its own targeted patterns, keyed to the
+  // RFO conventions section (1.107), and Part 50 no longer wildcards.
+  assert.match(fetcher, /'rfo_conventions:1': \[\/1\\\.107/);
+  assert.ok(!fetcher.includes('50\\.\\d+'), 'the Part 50 first-section wildcard target must be gone');
+  assert.match(fetcher, /'rfo_far:50': \[\/50\\\.103-5/);
+
+  const rules = JSON.parse(fs.readFileSync(path.join(root, 'app', 'lib', 'practice-issue-rules.json'), 'utf8'));
+  const byId = Object.fromEntries(rules.map(rule => [rule.id, rule]));
+  // Item 1: the practice rule catches scenario phrasings, not only
+  // the exact "submit a claim by email" string.
+  assert.ok(byId.contractor_claim_email.match.includes('contract disputes act'));
+  assert.ok(byId.contractor_claim_email.match.includes('claim by e-mail'));
+  // Item 2b: RFO renumbered the conventions section 1.108 -> 1.107
+  // with the same paragraph letters; the tables now target 1.107.
+  assert.deepEqual(byId.delegation_national_security_exemption.expectedCitations, ['RFO FAR 1.107(b)']);
+  assert.deepEqual(byId.hca_variable_unit_price_delegation.expectedCitations, ['RFO FAR 1.107(b)']);
+  assert.deepEqual(byId.far_change_current_solicitation.expectedCitations, ['RFO FAR 1.107(d)']);
+  assert.deepEqual(byId.far_63027_congress_notice_actor.expectedCitations, ['RFO FAR 1.107(f)']);
+  // Item 2c: the relief rule targets the pinpoint section, not the
+  // whole part.
+  assert.deepEqual(byId.extraordinary_contractual_relief_funds.expectedCitations, ['RFO FAR 50.103-5']);
+  // Item 2d: the deviation rule still names CD 2021-O0008, which the
+  // router now turns into a deviation-window target.
+  assert.deepEqual(byId.limitations_on_subcontracting_class_deviation.expectedCitations, ['CD 2021-O0008 Revision 1']);
 });
 
 test('FY26 class-deviation mirror contains no font-encoding garble', () => {
