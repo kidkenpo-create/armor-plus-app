@@ -1272,7 +1272,12 @@ export default function Home() {
             <strong>ARMOR Plus</strong>
             <span>Acquisition Regulation Mission Operations Resource</span>
           </div>
-          <span className={styles.versionBadge} role="img" aria-label="Version 2">V2</span>
+          <svg className={styles.versionBadge} viewBox="0 0 40 40" role="img" aria-label="Version 2">
+            <title>Version 2</title>
+            <circle cx="20" cy="20" r="18" fill="#08245f" stroke="#b08d2e" strokeWidth="2.5" />
+            <circle cx="20" cy="20" r="14.25" fill="none" stroke="#b08d2e" strokeWidth="0.75" opacity="0.55" />
+            <text x="20" y="20" textAnchor="middle" dominantBaseline="central" fill="#b08d2e" fontSize="13.5" fontWeight="800" letterSpacing="0.5">V2</text>
+          </svg>
         </div>
         <div className={styles.headerCredit}>
           Built by John Wahl and Heath Gross - A WarU Collaborative, supporting the acquisition workforce
