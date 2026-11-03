@@ -29,6 +29,9 @@ const {
   findDeviationWindow,
   findClausePrescription,
   extractDeviationIds,
+  decodeHtmlEntities,
+  sentenceCutIndex,
+  snapExcerptStart,
 } = await import(pathToFileURL(tempPath).href);
 
 test.after(() => {
@@ -546,4 +549,44 @@ test('FY26 class-deviation mirror contains no font-encoding garble', () => {
   assert.match(mirror, /Highlights indicate DPCAP/);
   assert.match(mirror, /website changes since 9/);
   assert.match(mirror.replace(/\s+/g, ' '), /Below are all the current DoD class deviations in effect/);
+});
+
+test('decodeHtmlEntities resolves the entities acquisition.gov actually emits', () => {
+  assert.equal(decodeHtmlEntities('acquisition&ndash;related thresholds'), 'acquisition\u2013related thresholds');
+  assert.equal(decodeHtmlEntities('the contracting officer&rsquo;s decision'), 'the contracting officer\u2019s decision');
+  assert.equal(decodeHtmlEntities('&ldquo;Stop work&rdquo; under &sect; 15.206&hellip;'), '\u201CStop work\u201D under \u00A7 15.206\u2026');
+  // amp/lt/gt belong to the fetcher's own pass and must pass through here.
+  assert.equal(decodeHtmlEntities('fish &amp; chips &lt;tag&gt;'), 'fish &amp; chips &lt;tag&gt;');
+  // Unknown entities are evidence too; leave them exactly as found.
+  assert.equal(decodeHtmlEntities('a &bogus; b'), 'a &bogus; b');
+});
+
+test('sentenceCutIndex ends on a complete sentence, not mid-thought', () => {
+  const text =
+    'Offerors excluded from the competitive range may submit a written request. ' +
+    'The request must be submitted no later than 3 days after receipt of the notice of exclusion from the competition. ' +
+    'If the debriefing is held in person, it must include the source selection authority and a very long tail of additional procedural detail.';
+  const cut = sentenceCutIndex(text, 200);
+  assert.ok(cut > 0, 'a sentence boundary inside the budget should be found');
+  assert.equal(text.slice(0, cut).endsWith('competition.'), true);
+  // Abbreviations are not sentence ends: Pub. L. must not be the cut.
+  const law =
+    'Section 813 of the NDAA for FY 2017 (Pub. L. 114-328) limits use of the approach. ' +
+    'The proposed technical approaches will require no subjective judgment.';
+  const lawCut = sentenceCutIndex(law, 95);
+  assert.equal(law.slice(0, lawCut).endsWith('approach.'), true);
+});
+
+test('snapExcerptStart repairs a mid-sentence window start', () => {
+  const window =
+    'on 813 of the NDAA for FY 2017 (Pub. L. 114-328) limits use of the lowest price technically acceptable source selection approach. ' +
+    '(iii) The proposed technical approaches will require no, or minimal, subjective judgment.';
+  const snapped = snapExcerptStart(window);
+  assert.ok(snapped.startsWith('... (iii) The proposed technical approaches'), snapped);
+  // Anchored starts (headings, section numbers) are never snapped.
+  const heading = '15.206-2 Preaward debriefing. Offerors excluded from the competitive range may ask.';
+  assert.equal(snapExcerptStart(heading), heading);
+  // A lowercase start with no reachable boundary is left as found.
+  const fragment = 'within 3 days after receipt of the notice and then a long unbroken continuation without any sentence stop at all in this span';
+  assert.equal(snapExcerptStart(fragment), fragment);
 });
