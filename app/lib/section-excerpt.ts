@@ -480,7 +480,19 @@ export function sentenceCutIndex(text: string, max: number): number {
 export function snapExcerptStart(text: string, maxSnap = 320): string {
   if (!/^[a-z]/.test(text)) return text;
   const found = sentenceEndAt(text, 0);
-  if (!found || found.end > maxSnap || found.next >= text.length) return text;
-  const rest = text.slice(found.next).trim();
-  return rest ? `... ${rest}` : text;
+  if (found && found.end <= maxSnap && found.next < text.length) {
+    const rest = text.slice(found.next).trim();
+    if (rest) return `... ${rest}`;
+  }
+  // List-heavy regulatory text: a fragment can run well past maxSnap
+  // before its sentence ends (a FAR/DFARS enumerated list where one
+  // item is a full paragraph). Fall back to the first enumerated
+  // paragraph marker - (ix), (a), (1) - so the excerpt starts at an
+  // item boundary instead of dangling mid-item.
+  const marker = /\((?:[a-z]{1,3}|[0-9]{1,2}|[ivx]{1,4})\)\s/.exec(text.slice(0, maxSnap));
+  if (marker && marker.index > 0) {
+    const rest = text.slice(marker.index).trim();
+    if (rest) return `... ${rest}`;
+  }
+  return text;
 }

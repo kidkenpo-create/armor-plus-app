@@ -590,3 +590,13 @@ test('snapExcerptStart repairs a mid-sentence window start', () => {
   const fragment = 'within 3 days after receipt of the notice and then a long unbroken continuation without any sentence stop at all in this span';
   assert.equal(snapExcerptStart(fragment), fragment);
 });
+
+test('snapExcerptStart falls back to a list marker when the sentence runs long', () => {
+  // Modeled on the live DFARS PGI 215 card: the fragment's first
+  // sentence does not end within the snap window, but item (ix) does.
+  const fragment =
+    'contract overhead rates with respect to maintaining work in-house under the applicable cost principles and the negotiated forward pricing rate agreements that govern this evaluation factor for source selection; ' +
+    '(ix) The industrial base that could potentially satisfy the contract requirements under the contemplated acquisition strategy and delivery schedule.';
+  const snapped = snapExcerptStart(fragment);
+  assert.ok(snapped.startsWith('... (ix) The industrial base'), snapped);
+});
