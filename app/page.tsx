@@ -1341,20 +1341,6 @@ export default function Home() {
 
           {error && <div className={styles.errorCard}>{error}</div>}
 
-          {!hasConversation && !error && (
-            <div className={styles.emptyState}>
-              <strong>Ready for a CAC-defensible answer.</strong>
-              <span>ARMOR will classify the issue, fetch approved sources, run the two-pass gate, then return BLUF plus STEP validation.</span>
-              <div className={styles.exampleCards}>
-                {DEMO_LABELS.map((label, index) => (
-                  <button key={label} type="button" className={styles.exampleCard} onClick={() => setDemo(index)}>
-                    <span className={styles.exampleCardLabel}>{label}</span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
           {hasConversation && (
             <div className={styles.conversationList} ref={streamRef}>
               {turns.map(turn => (
