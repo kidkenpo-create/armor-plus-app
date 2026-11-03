@@ -33,7 +33,7 @@
   {
     "id": "extraordinary_contractual_relief_funds",
     "match": ["extraordinary contractual relief", "adjustment request", "adequate funds", "another agency"],
-    "expectedCitations": ["RFO FAR Part 50"],
+    "expectedCitations": ["RFO FAR 50.103-5"],
     "requests": [
       { "kind": "rfo_far", "part": "50", "reason": "Extraordinary contractual actions under current RFO Part 50" },
       { "kind": "dfars_rfo", "part": "250", "reason": "DoD extraordinary contractual actions overlay" }
@@ -253,12 +253,12 @@
   },
   {
     "id": "far_change_current_solicitation",
-    "match": ["federal register notice", "current solicitations", "amend the solicitation", "1.108(d)"],
-    "expectedCitations": ["RFO FAR 1.108(d)"],
+    "match": ["federal register notice", "current solicitations", "amend the solicitation", "1.108(d)", "1.107(d)"],
+    "expectedCitations": ["RFO FAR 1.107(d)"],
     "requests": [
       { "kind": "rfo_far", "part": "1", "reason": "FAR conventions for application of changes" }
     ],
-    "guidance": "If the final rule is silent, the contracting officer does not have to amend the existing solicitation; cite FAR/RFO FAR 1.108(d)."
+    "guidance": "If the final rule is silent, the contracting officer does not have to amend the existing solicitation; cite RFO FAR 1.107(d) (the RFO conventions section; legacy FAR 1.108(d) in the old numbering)."
   },
   {
     "id": "limitations_on_subcontracting_class_deviation",
@@ -281,7 +281,7 @@
   },
   {
     "id": "contractor_claim_email",
-    "match": ["submit a claim by e-mail", "submit a claim by email", "33.206", "33.205-1"],
+    "match": ["submit a claim by e-mail", "submit a claim by email", "claim by e-mail", "claim by email", "claims by email", "claim via email", "email a claim", "e-mail a claim", "contract disputes act", "cda claim", "33.206", "33.205-1"],
     "expectedCitations": ["RFO FAR 33.205-1(b)"],
     "requests": [
       { "kind": "rfo_far", "part": "33", "reason": "RFO claim submission rule" },
@@ -292,12 +292,12 @@
   {
     "id": "delegation_national_security_exemption",
     "match": ["23.106", "sustainable acquisition", "national security", "delegated to the heads of contracting activities"],
-    "expectedCitations": ["RFO FAR 1.108(b)"],
+    "expectedCitations": ["RFO FAR 1.107(b)"],
     "requests": [
       { "kind": "rfo_far", "part": "1", "reason": "Delegation convention" },
       { "kind": "rfo_far", "part": "23", "reason": "Sustainable acquisition exemption" }
     ],
-    "guidance": "Use FAR/RFO FAR 1.108(b): agency-head authority may be delegated unless the FAR says otherwise."
+    "guidance": "Use RFO FAR 1.107(b) (the RFO conventions section; legacy FAR 1.108(b) in the old numbering): agency-head authority may be delegated unless the FAR says otherwise."
   },
   {
     "id": "cooperative_agreement_holders_clause",
@@ -321,12 +321,12 @@
   {
     "id": "far_63027_congress_notice_actor",
     "match": ["6.302-7", "notifying congress", "responsible for notifying congress"],
-    "expectedCitations": ["RFO FAR 1.108(f)"],
+    "expectedCitations": ["RFO FAR 1.107(f)"],
     "requests": [
       { "kind": "rfo_far", "part": "6", "reason": "Public interest exception notice rule" },
       { "kind": "rfo_far", "part": "1", "reason": "FAR convention for undefined actors" }
     ],
-    "guidance": "When FAR 6.302-7(c)(2) says notification is required without naming a different actor, use FAR/RFO FAR 1.108(f); the contracting officer is responsible."
+    "guidance": "When FAR 6.302-7(c)(2) says notification is required without naming a different actor, use RFO FAR 1.107(f) (the RFO conventions section; legacy FAR 1.108(f) in the old numbering); the contracting officer is responsible."
   },
   {
     "id": "telecommunications_utilities_order_precedence",
@@ -452,12 +452,12 @@
   {
     "id": "hca_variable_unit_price_delegation",
     "match": ["17.106-3(g)", "variable unit prices", "chief of the contracting office"],
-    "expectedCitations": ["RFO FAR 1.108(b)"],
+    "expectedCitations": ["RFO FAR 1.107(b)"],
     "requests": [
       { "kind": "rfo_far", "part": "1", "reason": "Delegation convention" },
       { "kind": "rfo_far", "part": "17", "reason": "Variable unit price authority context" }
     ],
-    "guidance": "Yes, the HCA authority may be delegated unless the FAR says otherwise; cite RFO FAR 1.108(b)."
+    "guidance": "Yes, the HCA authority may be delegated unless the FAR says otherwise; cite RFO FAR 1.107(b) (the RFO conventions section; legacy FAR 1.108(b) in the old numbering)."
   },
   {
     "id": "detainee_epw_interrogation",

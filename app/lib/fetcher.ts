@@ -1,7 +1,7 @@
-import { getPracticeCitationSectionMap, getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
-import { getArmorCitationSectionMap, getArmorRoutingSourceRequests } from './armor-routing-rules';
+import { getPracticeCitationTargetMap, getPracticeDeviationId, getPracticeExpectedCitations, getPracticeSourceRequests, type SourceRequest } from './practice-issue-rules';
+import { getArmorCitationTargetMap, getArmorRoutingSourceRequests, getArmorTargetCitations } from './armor-routing-rules';
 import { registryRequestsForParts } from './source-registry';
-import { dfarsSectionCandidates, extractSectionCitations, findSectionWindow, stripControlCharacters, type SectionWindow } from './section-excerpt';
+import { dfarsSectionCandidates, extractDeviationIds, extractSectionCitations, findClausePrescription, findDeviationWindow, findParagraphWindow, findSectionWindow, parsePrefixedCitations, stripControlCharacters, type SectionWindow } from './section-excerpt';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -18,6 +18,9 @@ const GITHUB_USER_AGENT = 'ARMOR-Plus/1.0 DoD-Acquisition-Tool';
 // analyze route's maxDuration is 60s — 15s leaves ample room for the
 // model call that follows.
 const SOURCE_FETCH_TIMEOUT_MS = 15000;
+// Characters of lead-in context kept before a resolved section
+// window when rebasing retrieved text (see prepareSourceContent).
+const SECTION_LEAD_IN_CHARS = 1500;
 const PART_252_DEVIATION_MEMO_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
 const DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
 export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback is disabled for controlling authority; use RFO FAR, DFARS RFO, DFARS RFO PGI, or approved class-deviation text only.';
@@ -95,6 +98,10 @@ const ISSUE_RULES: IssueRule[] = [
   issue(['assignment of claims'], [
     req('rfo_far', '32', 'Assignment of claims base rule'),
     req('dfars_rfo', '232', 'DoD assignment of claims overlay'),
+  ]),
+  issue(['contract disputes', 'disputes act', 'cda claim', 'submit a claim', 'certified claim', 'claim by email', 'claim by e-mail', '33.205', '33.206'], [
+    req('rfo_far', '33', 'Contract Disputes Act claim submission and decision rules'),
+    req('dfars_rfo', '233', 'DoD disputes overlay'),
   ]),
   issue(['two-step sealed', 'two step sealed', 'first step', 'technical proposals', 'sealed bidding'], [
     req('rfo_far', '14', 'Current RFO FAR two-step sealed bidding procedures'),
@@ -182,36 +189,85 @@ function routeQuestion(question: string): SourceRequest[] {
     requests.push(req('rfo_conventions', '1', 'Fallback conventions source for general ARMOR routing'));
   }
 
-  // Attach the specific section each surviving request should target,
-  // so extraction can open the section body instead of the first
-  // mention in the text. Priority: (1) the section the question itself
-  // cites for that part (e.g. 17.104-3); (2) the section the matched
-  // rule tables name as the expected controlling citation (practice
-  // expectedCitations, armor targetCitation) — these carry the
-  // FAR -> DFARS correspondence the question may never state
-  // (RFO FAR 17.104-3(a) <-> DFARS RFO 217.104-370(b)(1)(iv)). When
-  // neither names a DFARS section but the question cites the FAR
-  // counterpart part, attach DFARS section candidates instead;
-  // extraction verifies each candidate against the fetched text and
-  // uses the first that actually exists there. Requests are cloned
-  // before mutation: rule tables share request objects across
-  // questions. Class-deviation routes are excluded — their part
-  // numbers are FAR parts, but the citation belongs to the
-  // FAR/DFARS text route.
+  // Attach the specific target each surviving request should aim at,
+  // so extraction can open the operative text instead of the first
+  // mention in the page. Targets, in priority order:
+  // (1) the section the question itself cites for that part
+  //     (e.g. 17.104-3), with its pinpoint paragraph when given;
+  // (2) the section + paragraph the matched rule tables name as the
+  //     expected controlling citation (practice expectedCitations,
+  //     armor targetCitation) — these carry the FAR -> DFARS
+  //     correspondence the question may never state
+  //     (RFO FAR 17.104-3(a) <-> DFARS RFO 217.104-370(b)(1)(iv)).
+  // When the question cites a section the rule table renumbers (the
+  // question's legacy FAR 33.206 vs the table's RFO FAR 33.205-1),
+  // the rule section rides along as a verified candidate: extraction
+  // uses it only if the cited section is absent from the fetched
+  // text. When neither names a DFARS section but the question cites
+  // the FAR counterpart part, DFARS section candidates are attached
+  // instead; extraction verifies each candidate against the fetched
+  // text and uses the first that actually exists there.
+  // Class-deviation routes take a deviation number instead (from the
+  // question, a matched rule's expectedCitations, or the route's own
+  // title/URL): their part numbers are FAR parts, but the operative
+  // text is the deviation's memo/attachment inside the mirror.
+  // DFARS routes whose question or rule names a clause (252.x) take
+  // the clause number: extraction resolves the clause's prescription
+  // paragraph in the DFARS part text. Requests are cloned before
+  // mutation: rule tables share request objects across questions.
   const citations = extractSectionCitations(question);
-  const ruleSections = new Map([
-    ...getArmorCitationSectionMap(question),
-    ...getPracticeCitationSectionMap(question),
+  const ruleTargets = new Map([
+    ...getArmorCitationTargetMap(question),
+    ...getPracticeCitationTargetMap(question),
   ]);
+  const questionDeviationId = extractDeviationIds(question)[0];
+  const ruleDeviationId = getPracticeDeviationId(question);
+  const clauseByPart = new Map<string, string>();
+  const noteClause = (section: string) => {
+    const match = section.match(/^252\.(\d{1,3})-\d+$/);
+    if (match) clauseByPart.set(match[1], section);
+  };
+  for (const citation of citations) {
+    if (citation.part === '252') noteClause(citation.section);
+  }
+  for (const raw of [...getArmorTargetCitations(question), ...getPracticeExpectedCitations(question)]) {
+    for (const parsed of parsePrefixedCitations(raw)) {
+      if (parsed.part === '252') noteClause(parsed.section);
+    }
+  }
   return dedupe(requests)
     .slice(0, 8)
     .map(request => {
-      if (request.kind === 'class_deviation') return request;
+      if (request.kind === 'class_deviation') {
+        const deviationId = request.deviationId
+          || questionDeviationId
+          || ruleDeviationId
+          || extractDeviationIds(`${request.title || ''} ${request.url || ''}`)[0];
+        return deviationId ? { ...request, deviationId } : request;
+      }
       let next = request;
+      const ruleTarget = ruleTargets.get(`${next.kind}:${next.part}`)
+        || (next.kind === 'rfo_conventions' ? ruleTargets.get(`rfo_far:${next.part}`) : undefined);
+      const citation = citations.find(item => item.part === next.part);
       if (!next.section) {
-        const citation = citations.find(item => item.part === next.part);
-        const section = citation?.section || ruleSections.get(`${next.kind}:${next.part}`);
+        const section = citation?.section || ruleTarget?.section;
         if (section) next = { ...next, section };
+      }
+      if (!next.paragraph && next.section) {
+        if (citation?.section === next.section && citation.paragraph) {
+          next = { ...next, paragraph: citation.paragraph };
+        } else if (ruleTarget?.section === next.section && ruleTarget.paragraph) {
+          next = { ...next, paragraph: ruleTarget.paragraph };
+        }
+      }
+      if (
+        citation?.section
+        && ruleTarget?.section
+        && ruleTarget.section !== citation.section
+        && next.section === citation.section
+        && !next.sectionCandidates?.includes(ruleTarget.section)
+      ) {
+        next = { ...next, sectionCandidates: [...(next.sectionCandidates || []), ruleTarget.section] };
       }
       if (
         !next.section
@@ -221,6 +277,10 @@ function routeQuestion(question: string): SourceRequest[] {
         const farCitation = citations.find(item => next.part === `2${item.part.padStart(2, '0')}`);
         const candidates = farCitation ? dfarsSectionCandidates(farCitation) : [];
         if (candidates.length) next = { ...next, sectionCandidates: candidates };
+      }
+      if (!next.clause && next.kind === 'dfars_rfo') {
+        const clause = clauseByPart.get(next.part);
+        if (clause) next = { ...next, clause };
       }
       return next;
     });
@@ -239,6 +299,20 @@ interface ResolvedSection {
  * part file can never steer extraction.
  */
 function resolveSectionWindow(text: string, request: SourceRequest): ResolvedSection | null {
+  // Clause prescriptions outrank the plain section window when the
+  // route's section IS the prescription section (the usual curated
+  // case: the rule names both the clause and its prescription). A
+  // prescription paragraph often fails findSectionWindow's body test
+  // — it cites the clause number before any lettered subparagraph —
+  // and the window then lands on the in-clause reference instead of
+  // the prescription heading. An explicitly cited different section
+  // still wins: the prescription is then only a fallback.
+  if (request.clause) {
+    const prescription = findClausePrescription(text, request.clause);
+    if (prescription && (!request.section || prescription.section === request.section)) {
+      return { section: prescription.section || request.clause, window: prescription.window };
+    }
+  }
   if (request.section) {
     const window = findSectionWindow(text, request.section);
     if (window) return { section: request.section, window };
@@ -246,6 +320,10 @@ function resolveSectionWindow(text: string, request: SourceRequest): ResolvedSec
   for (const candidate of request.sectionCandidates || []) {
     const window = findSectionWindow(text, candidate);
     if (window) return { section: candidate, window };
+  }
+  if (request.clause) {
+    const prescription = findClausePrescription(text, request.clause);
+    if (prescription) return { section: prescription.section || request.clause, window: prescription.window };
   }
   return null;
 }
@@ -529,18 +607,34 @@ async function fetchWithTimeout(url: string, init: ArmorFetchInit): Promise<Resp
 function prepareSourceContent(content: string, request: SourceRequest): string {
   const text = normalizeEvidenceText(content);
   const resolved = resolveSectionWindow(text, request);
+  const deviation = request.kind === 'class_deviation' && request.deviationId
+    ? findDeviationWindow(text, request.deviationId)
+    : null;
   const targeted = targetedExcerpt(text, request);
   if (!targeted) return content;
-  // When a section was targeted, start the full-text portion at the
-  // section body instead of the page head: trimSource cuts from the
-  // front, and a part text's front matter plus earlier sections would
-  // otherwise crowd the operative text out of the budget. This
-  // mattered most for DFARS part files: Part 217's 217.104-370 body
-  // sits ~15k characters into a ~97k file, past the 10k trim.
-  const fullText = resolved ? text.slice(resolved.window.start) : text;
+  // When a target was resolved, start the full-text portion at the
+  // target instead of the text head: trimSource cuts from the front,
+  // and front matter plus earlier sections would otherwise crowd the
+  // operative text out of the budget. This mattered most for DFARS
+  // part files (Part 217's 217.104-370 body sits ~15k characters into
+  // a ~97k file, past the 10k trim) and for the class-deviation
+  // mirror, where one deviation's memo/attachment can sit ~280k
+  // characters into a ~590k file.
+  // Section windows start a little early (SECTION_LEAD_IN_CHARS):
+  // lead-in matter immediately before a section — a part's
+  // definitions block right before its applicability section is the
+  // known case (RFO FAR Part 41) — can carry operative text the
+  // section itself points back to. The lead-in stays inside body
+  // text; deviation windows keep their exact memo boundary.
+  const fullStart = resolved
+    ? Math.max(0, resolved.window.start - SECTION_LEAD_IN_CHARS)
+    : deviation?.start;
+  const fullText = fullStart !== undefined ? text.slice(fullStart) : text;
   const fullLabel = resolved
     ? `FULL RETRIEVED SOURCE TEXT (from section ${resolved.section}):`
-    : 'FULL RETRIEVED SOURCE TEXT:';
+    : deviation
+      ? `FULL RETRIEVED SOURCE TEXT (from class deviation ${request.deviationId}):`
+      : 'FULL RETRIEVED SOURCE TEXT:';
   return `TARGETED REGULATORY EXCERPT:\n${targeted}\n\n${fullLabel}\n${fullText}`;
 }
 
@@ -549,9 +643,27 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
   // section (cited in the question, named by a rule table, or a
   // verified DFARS candidate): find the BODY heading (not the
   // table-of-contents entry) and take the window that includes its
-  // lettered paragraphs.
+  // lettered paragraphs. When the route also names a pinpoint
+  // paragraph, highlight that paragraph inside the window — a whole
+  // section can lead with other paragraphs and crowd the cited one
+  // out of the trim budget.
   const resolved = resolveSectionWindow(text, request);
-  if (resolved) return trimEvidence(resolved.window.excerpt, 1600);
+  if (resolved) {
+    if (request.paragraph) {
+      const paragraphWindow = findParagraphWindow(resolved.window.excerpt, request.paragraph);
+      if (paragraphWindow) return trimEvidence(paragraphWindow.excerpt, 1600);
+    }
+    return trimEvidence(resolved.window.excerpt, 1600);
+  }
+
+  // Class-deviation targeting: window the mirror at the deviation's
+  // own memo/attachment. The mirror's head carries only the
+  // enumeration list, which names each deviation without its text —
+  // enough to mention a deviation, never enough to verify it.
+  if (request.kind === 'class_deviation' && request.deviationId) {
+    const deviation = findDeviationWindow(text, request.deviationId);
+    if (deviation) return trimEvidence(deviation.excerpt, 2600);
+  }
 
   const targets: RegExp[] = [...commonTargets(request)];
 
@@ -649,11 +761,12 @@ function commonTargets(request: SourceRequest): RegExp[] {
     'rfo_far:33': [/33\.205-1[\s\S]{0,1600}/i, /33\.206[\s\S]{0,1200}/i],
     'rfo_far:36': [/36\.102[\s\S]{0,2200}/i, /36\.203[\s\S]{0,1600}/i],
     'rfo_far:37': [/37\.301-1[\s\S]{0,1800}/i],
-    'rfo_far:41': [/41\.102[\s\S]{0,1800}/i],
+    'rfo_conventions:1': [/1\.107[\s\S]{0,2400}/i, /1\.108[\s\S]{0,1800}/i],
+    'rfo_far:41': [/Utility services does not include[\s\S]{0,1200}/i, /41\.102[\s\S]{0,1800}/i],
     'rfo_far:42': [/42\.505[\s\S]{0,2200}/i],
     'rfo_far:45': [/45\.000[\s\S]{0,1800}/i],
     'rfo_far:48': [/48\.\d+[\s\S]{0,2200}/i],
-    'rfo_far:50': [/50\.\d+[\s\S]{0,2200}/i],
+    'rfo_far:50': [/50\.103-5[\s\S]{0,2200}/i, /50\.103-3[\s\S]{0,1800}/i, /50\.102-3[\s\S]{0,1600}/i],
     'rfo_far:52': [/52\.248-1[\s\S]{0,2600}/i, /52\.248-3[\s\S]{0,2600}/i],
     'dfars_rfo:201': [/201\.170[\s\S]{0,1800}/i, /201\.108[\s\S]{0,1800}/i],
     'dfars_pgi:201': [/PGI 201\.170-2[\s\S]{0,2000}/i, /PGI 201\.108[\s\S]{0,2000}/i],
@@ -696,6 +809,22 @@ function pickEvidenceSnippet(content: string, question: string, label: string): 
   const text = normalizeEvidenceText(content);
   const q = question.toLowerCase();
   const patterns: RegExp[] = [];
+
+  const deviationId = extractDeviationIds(question)[0];
+  if (deviationId) {
+    patterns.push(
+      new RegExp(`DARS Tracking Number:\\s*${deviationId}[\\s\\S]{0,700}`, 'i'),
+      new RegExp(`use the clause in the Attachment,\\s*52\\.219-14[\\s\\S]{0,400}`, 'i'),
+      new RegExp(`Class Deviation ${deviationId}[\\s\\S]{0,600}`, 'i'),
+    );
+  }
+
+  if (/contract disputes|\bcda\b|submit a claim|claim by e-?mail|33\.20/.test(q)) {
+    patterns.push(
+      /33\.205-1\s+Contractor claim\.[\s\S]{0,700}/i,
+      /Contractor requirements for submission of claims are located at 52\.233-1\(d\)[\s\S]{0,300}/i,
+    );
+  }
 
   if (/two[- ]step sealed|sealed bidding|first step|technical proposals?/.test(q)) {
     patterns.push(
