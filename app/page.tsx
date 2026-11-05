@@ -183,7 +183,7 @@ function urlForRequest(request: SourceRequest): string {
     return `https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-RFO-PGI-PART-${request.part.padStart(3, '0')}-Attachment-2.txt`;
   }
   if (request.kind === 'class_deviation') {
-    return `/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#part-${request.part}`;
+    return `/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#part-${request.part}`;
   }
   return 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1#FAR_1_107';
 }
@@ -338,7 +338,7 @@ function isApprovedSource(label: string, url: string) {
     || lowerUrl.includes('raw.githubusercontent.com/kidkenpo-create/armor-plus/main/dfars-pgi-rfo-part-')
   ) return true;
   if (lowerLabel.includes('class deviation') && lowerUrl.includes('acquisition.gov/sites/default/files/page_file_uploads/')) return true;
-  if (lowerLabel.includes('class deviation') && lowerUrl.includes('dod_class_deviations_fy26')) return true;
+  if (lowerLabel.includes('class deviation') && lowerUrl.includes('dod_class_deviations_fy27v01')) return true;
   return false;
 }
 

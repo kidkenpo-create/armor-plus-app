@@ -276,7 +276,7 @@ export interface DeviationWindow {
 
 /**
  * Find one class deviation's operative text inside the approved
- * FY26 deviations mirror.
+ * DoD class-deviations mirror.
  *
  * The mirror concatenates every current deviation: an up-front
  * enumeration list (which mentions each deviation number) followed

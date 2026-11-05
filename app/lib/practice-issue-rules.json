@@ -215,9 +215,9 @@
         "part": "225",
         "reason": "CD 2018-O0019 contractor personnel performing in Japan deviation text",
         "title": "Class Deviation 2018-O0019 - Contractor Personnel Performing in Japan",
-        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2018-O0019",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#CD-2018-O0019",
         "sourceType": "pdf",
-        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt"
       }
     ],
     "guidance": "Include DFARS RFO 252.225-7976 when contractor personnel are required to perform in Japan; cite CD 2018-O0019 and the current DFARS RFO Part 225 clause text, not a stale Part 225 subsection."
@@ -272,9 +272,9 @@
         "part": "19",
         "reason": "CD 2021-O0008 Revision 1 limitations-on-subcontracting deviation",
         "title": "Class Deviation 2021-O0008 Revision 1 - Limitations on Subcontracting for Small Business",
-        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#CD-2021-O0008-Revision-1",
         "sourceType": "pdf",
-        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt"
       }
     ],
     "guidance": "For the noncommercial supply small-business set-aside scenario, the expected result under the identified deviation pathway is no under CD 2021-O0008 Revision 1; mark deviation source currency if not retrieved."
@@ -521,9 +521,9 @@
         "part": "225",
         "reason": "CD 2017-O0004 CENTCOM contractor personnel deviation text",
         "title": "Class Deviation 2017-O0004 - Contractor Personnel Performing in the United States Central Command Area of Responsibility",
-        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2017-O0004",
+        "url": "/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#CD-2017-O0004",
         "sourceType": "pdf",
-        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt"
+        "textPath": "knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt"
       }
     ],
     "guidance": "For contractor personnel in the USCENTCOM AOR, use CD 2017-O0004 / DFARS RFO 252.225-7995 class-deviation text in lieu of the baseline DFARS 252.225-7040 clause; do not cite a stale Part 225 subsection."

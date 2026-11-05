@@ -95,7 +95,7 @@ STEP 6 -- Final Determination: [one sentence]
 STEP 7 -- User Validation Required
 1. [genuine unknown only — or N/A]
 
-DFARS RFO>RFO FAR (DoD). Effective: RFO FAR March 16 2026, DFARS RFO Class Deviations through FY26.`;
+DFARS RFO>RFO FAR (DoD). Effective: RFO FAR March 16 2026, DFARS RFO Class Deviations through the 5 November 2026 DPCAP snapshot.`;
 
 export const DEMO_QUESTIONS = [
   "If an offeror receives notice of its exclusion from the competition on Wednesday, August 30, 2023, what would be the deadline for requesting a preaward debriefing?",
