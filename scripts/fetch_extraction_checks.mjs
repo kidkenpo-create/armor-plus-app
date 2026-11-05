@@ -471,9 +471,9 @@ test('extractDeviationIds reads deviation numbers from questions and rule string
   assert.deepEqual(extractDeviationIds('no deviation here'), []);
 });
 
-test('findDeviationWindow lands on the 2021-O0008 memo/attachment in the real FY26 mirror', () => {
+test('findDeviationWindow lands on the 2021-O0008 memo/attachment in the real FY27v01 mirror', () => {
   const raw = fs.readFileSync(
-    path.join(root, 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt'),
+    path.join(root, 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt'),
     'utf8',
   );
   const text = normalizeLikeFetcher(raw);
@@ -538,17 +538,17 @@ test('round 3 wiring: claims routing, paragraph pinning, deviation and clause ta
   assert.deepEqual(byId.limitations_on_subcontracting_class_deviation.expectedCitations, ['CD 2021-O0008 Revision 1']);
 });
 
-test('FY26 class-deviation mirror contains no font-encoding garble', () => {
+test('FY27v01 class-deviation mirror contains no font-encoding garble', () => {
   const mirror = fs.readFileSync(
-    path.join(root, 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt'),
+    path.join(root, 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt'),
     'utf8',
   );
   assert.doesNotMatch(mirror, /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/, 'mirror should carry no C0 control bytes');
   assert.doesNotMatch(mirror, /SGDWH|XSGDWH|HEUXDU/);
-  assert.match(mirror, /Class Deviations - 2 February 2026/);
-  assert.match(mirror, /Highlights indicate DPCAP/);
-  assert.match(mirror, /website changes since 9/);
-  assert.match(mirror.replace(/\s+/g, ' '), /Below are all the current DoD class deviations in effect/);
+  assert.match(mirror, /Class Deviations - 5 November 2026/);
+  assert.match(mirror, /Class Deviation 2026-O0051/);
+  assert.match(mirror, /Implementation of Vendor Threat Mitigation Support Authorities/);
+  assert.match(mirror.replace(/\s+/g, ' '), /Below are all the current DoW class deviations in effect/);
 });
 
 test('decodeHtmlEntities resolves the entities acquisition.gov actually emits', () => {

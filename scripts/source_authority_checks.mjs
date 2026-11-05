@@ -21,21 +21,21 @@ test('ARMOR GPT knowledge files are normalized under knowledge/armor-gpt', () =>
 });
 
 test('DoD class deviations use one public PDF and one internal text mirror', () => {
-  const publicPdfPath = 'public/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf';
-  const privatePdfPath = 'knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf';
-  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
+  const publicPdfPath = 'public/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf';
+  const privatePdfPath = 'knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf';
+  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt';
   const oneOffMirrorPath = 'knowledge/armor-gpt/pdf-text/CD-2021-O0008-Revision-1-Limitations-on-Subcontracting.txt';
   const publicPdf = path.join(root, publicPdfPath);
   const mirror = read(mirrorPath);
 
-  assert.ok(fs.existsSync(publicPdf), 'official DoD FY26v04 citation PDF should be served from public/');
+  assert.ok(fs.existsSync(publicPdf), 'official DoD FY27v01 citation PDF should be served from public/');
   assert.ok(fs.statSync(publicPdf).size > 1_000_000, 'official public PDF should be the full source artifact');
   assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'approved internal text mirror should exist');
   assert.ok(!fs.existsSync(path.join(root, privatePdfPath)), 'private duplicate PDF should not exist when the public PDF is the official citation target');
-  assert.ok(!fs.existsSync(path.join(root, oneOffMirrorPath)), 'one-off CD 2021-O0008 mirror should not be retained when the full FY26v04 mirror contains the text');
+  assert.ok(!fs.existsSync(path.join(root, oneOffMirrorPath)), 'one-off CD 2021-O0008 mirror should not be retained when the full FY27v01 mirror contains the text');
   assert.ok(!fs.existsSync(path.join(root, 'public/knowledge/armor-gpt/pdf-text')), 'internal text mirrors should not be exposed from public/');
-  assert.match(mirror, /Source: \/knowledge\/armor-gpt\/DoD_Class_Deviations_FY26v04_dated_2Feb2026\.pdf \| Page 1/, 'mirror page headers should point to the public official PDF path');
-  assert.doesNotMatch(mirror, /Source: knowledge\/armor-gpt\/DoD_Class_Deviations_FY26v04_dated_2Feb2026\.pdf/, 'mirror should not point back to the removed private duplicate PDF');
+  assert.match(mirror, /Source: \/knowledge\/armor-gpt\/DoD_Class_Deviations_FY27v01_dated_5Nov2026\.pdf \| Page 1/, 'mirror page headers should point to the public official PDF path');
+  assert.doesNotMatch(mirror, /Source: knowledge\/armor-gpt\/DoD_Class_Deviations_FY27v01_dated_5Nov2026\.pdf/, 'mirror should not point back to the removed private duplicate PDF');
 
   for (const pattern of [
     /Class Deviation 2026-O0044/i,
@@ -46,8 +46,11 @@ test('DoD class deviations use one public PDF and one internal text mirror', () 
     /52\.219-14\s+Limitations on Subcontracting \(DEVIATION 2021-O0008\)/i,
     /252\.\s*232-7998[\s,]+Obligations in Advance of\s+Fiscal Year 2026 Funding/i,
     /252\.225-7965\s+Acquisition of Dinnerware and Stainless-Steel Flatware/i,
+    /Class Deviation 2026-O0051/i,
+    /Class Deviation 2024-O0006,\s*Revision 2/i,
+    /252\.225-7967[\s,]+Prohibition Regarding Russian Fossil Fuel/i,
   ]) {
-    assert.match(mirror, pattern, `full FY26v04 text mirror should contain ${pattern}`);
+    assert.match(mirror, pattern, `full FY27v01 text mirror should contain ${pattern}`);
   }
 });
 
@@ -288,24 +291,24 @@ test('FAR 52.219-14 route retrieves CD 2021-O0008 approved text mirror', () => {
   const practiceRules = JSON.parse(read('app/lib/practice-issue-rules.json'));
   const fetcher = read('app/lib/fetcher.ts');
   const registry = read('app/lib/source-registry.ts');
-  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
+  const mirrorPath = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt';
   const rule = practiceRules.find(item => item.id === 'limitations_on_subcontracting_class_deviation');
   const request = rule?.requests?.find(item => item.kind === 'class_deviation' && item.textPath === mirrorPath);
 
   assert.ok(request, 'FAR 52.219-14 limitations-on-subcontracting route should request the approved DoD class-deviation text mirror');
-  assert.equal(request.url, '/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#CD-2021-O0008-Revision-1', 'CD 2021-O0008 mirror should preserve the public approved PDF artifact URL');
+  assert.equal(request.url, '/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#CD-2021-O0008-Revision-1', 'CD 2021-O0008 mirror should preserve the public approved PDF artifact URL');
   assert.ok(fs.existsSync(path.join(root, mirrorPath)), 'full DoD class-deviation text mirror should exist');
   const mirror = read(mirrorPath);
   assert.match(mirror, /DARS Tracking Number:\s*2021-O0008,\s*Revision 1/i, 'mirror should contain the CD 2021-O0008 Revision 1 memo');
   assert.match(mirror, /52\.219-14\s+Limitations on Subcontracting \(DEVIATION 2021-O0008\)/i, 'mirror should contain the deviation clause heading');
   assert.match(mirror, /in lieu of the\s+clause at Federal Acquisition Regulation \(FAR\) 52\.219-14/i, 'mirror should contain the operative in-lieu-of text');
   assert.match(fetcher, /if \(request\.kind === 'class_deviation'\)[\s\S]{0,180}request\.textPath/, 'class-deviation fetch should read an explicit text mirror before returning UTR');
-  assert.match(fetcher, /DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH/, 'fetcher should approve the full DoD class-deviation mirror explicitly');
+  assert.match(fetcher, /DOD_CLASS_DEVIATIONS_TEXT_PATH/, 'fetcher should approve the full DoD class-deviation mirror explicitly');
   assert.match(fetcher, /DARS Tracking Number:\\s\*2021-O0008/, 'fetcher should target the CD 2021-O0008 section inside the full mirror');
   assert.match(registry, /class deviation 2021-o0008/, 'source authority should recognize only the approved CD 2021-O0008 class-deviation mirror');
   assert.doesNotMatch(fetcher, /replace\([^)]*\.pdf[^)]*\.txt/i, 'fetcher should not infer arbitrary class-deviation mirrors from PDF URLs');
   assert.doesNotMatch(fetcher, /CD_2021_O0008_TEXT_PATH/, 'fetcher should not use the removed one-off CD 2021-O0008 mirror');
-  assert.doesNotMatch(mirror, /Quality Assurance|Part 46|52\.246-21|246\.710/i, 'the approved FY26 class-deviation mirror does not contain the observed Part 46 quality-assurance issue');
+  assert.doesNotMatch(mirror, /Quality Assurance|Part 46|52\.246-21|246\.710/i, 'the approved class-deviation mirror does not contain the observed Part 46 quality-assurance issue');
   assert.match(fetcher, /Approved class-deviation PDF\/text retrieval is not implemented yet/, 'unmapped class-deviation PDFs should still return UTR');
 });
 
@@ -399,14 +402,14 @@ test('beast upgrade: BLUF integrity guard, model, class-deviation mirror, and sc
   assert.match(analyze, /BLUF INTEGRITY GUARD/, 'analyze route should inject a hard BLUF guard instruction');
   assert.match(analyze, /hasApprovedControllingRetrieval\(routePlan\)/, 'guard should be computed from the actual route plan');
   assert.match(registry, /hasApprovedControllingRetrieval/, 'registry should export the approved-retrieval check');
-  assert.match(registry, /dod_class_deviations_fy26/, 'retrieved FY26 class-deviation mirror text should count as approved');
+  assert.match(registry, /dod_class_deviations_fy27v01/, 'retrieved class-deviation mirror text should count as approved');
   assert.match(page, /enforceDefinitiveGuard/, 'page should enforce the guard on completed output');
   assert.match(page, /Non-Definitive \(unverified\)/, 'unlabeled BLUF should render as Non-Definitive (unverified), never Definitive');
   assert.doesNotMatch(prompt, /BLUF = Definitive\./, 'PRE-CHECK must not hard-code an unconditional Definitive BLUF');
 
-  // Class deviations: prefix allowlist for mirrors + generic FY26 fallback.
+  // Class deviations: prefix allowlist for mirrors + generic mirror fallback.
   assert.match(fetcher, /APPROVED_PDF_TEXT_DIR/, 'fetcher should allowlist mirrors by the approved pdf-text directory');
-  assert.match(fetcher, /Below are all the current DoD class deviations in effect/, 'fetcher should surface the FY26 current-deviations list for enumeration questions');
+  assert.match(fetcher, /Below are all the current Do\[DW\] class deviations in effect/, 'fetcher should surface the current-deviations list for enumeration questions');
 
   // Evidence polish: word-boundary trim.
   assert.match(fetcher, /lastIndexOf\(' '\)/, 'evidence trim should cut at a word boundary');

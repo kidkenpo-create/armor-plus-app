@@ -80,18 +80,18 @@ export function isApprovedControllingSource(label: string, url: string) {
 
   if (
     lowerLabel.includes('class deviation 2021-o0008')
-    && lowerUrl.includes('knowledge/armor-gpt/dod_class_deviations_fy26v04_dated_2feb2026.pdf#cd-2021-o0008-revision-1')
+    && lowerUrl.includes('knowledge/armor-gpt/dod_class_deviations_fy27v01_dated_5nov2026.pdf#cd-2021-o0008-revision-1')
   ) {
     return true;
   }
 
-  // Any retrieved excerpt from the approved FY26 DoD class-deviation
+  // Any retrieved excerpt from the approved DoD class-deviation
   // mirror counts as approved controlling text, not just the single
-  // CD 2021-O0008 anchor. The mirror is served under the FY26 PDF URL
+  // CD 2021-O0008 anchor. The mirror is served under the snapshot PDF URL
   // (with a #CD-... or #part-... fragment depending on the route).
   if (
     lowerLabel.includes('class deviation')
-    && lowerUrl.includes('dod_class_deviations_fy26')
+    && lowerUrl.includes('dod_class_deviations_fy27v01')
   ) {
     return true;
   }
@@ -154,7 +154,7 @@ function isClassDeviationRouteItem(item: { label: string; url: string }) {
   return (
     value.includes('class deviation')
     || value.includes('rfo deviation')
-    || value.includes('dod_class_deviations_fy26')
+    || value.includes('dod_class_deviations_fy27v01')
     || value.includes('page_file_uploads/dod_rfo_deviation')
   );
 }

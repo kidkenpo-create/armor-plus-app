@@ -22,7 +22,7 @@ const SOURCE_FETCH_TIMEOUT_MS = 15000;
 // window when rebasing retrieved text (see prepareSourceContent).
 const SECTION_LEAD_IN_CHARS = 1500;
 const PART_252_DEVIATION_MEMO_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DFARS-RFO-PART-252-Deviation-Memo.txt';
-const DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt';
+const DOD_CLASS_DEVIATIONS_TEXT_PATH = 'knowledge/armor-gpt/pdf-text/DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt';
 export const DATA_FALLBACK_DISABLED_REASON = 'Baseline FAR/DFARS data fallback is disabled for controlling authority; use RFO FAR, DFARS RFO, DFARS RFO PGI, or approved class-deviation text only.';
 
 export interface FetchResult {
@@ -370,10 +370,10 @@ async function fetchPrimarySource(request: SourceRequest): Promise<FetchResult> 
     }
 
     // Generic deviation routes carry no explicit mirror mapping; fall back
-    // to the approved FY26 deviations mirror so enumeration and part-level
+    // to the approved DoD deviations mirror so enumeration and part-level
     // deviation questions can be answered from retrieved text instead of UTR.
     const fallbackResult = await fetchApprovedTextMirror(
-      { ...request, textPath: DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH },
+      { ...request, textPath: DOD_CLASS_DEVIATIONS_TEXT_PATH },
       label,
       url,
       displayUrl,
@@ -459,7 +459,7 @@ function urlFor(request: SourceRequest): string {
     return 'https://raw.githubusercontent.com/kidkenpo-create/ARMOR-plus/main/DFARS-PGI-RFO-PART-212-Attachment-2.txt';
   }
   if (request.kind === 'dfars_pgi') return `${DFARS_PGI_BASE}${request.part.padStart(3, '0')}-Attachment-2.txt`;
-  if (request.kind === 'class_deviation') return `/knowledge/armor-gpt/DoD_Class_Deviations_FY26v04_dated_2Feb2026.pdf#part-${request.part}`;
+  if (request.kind === 'class_deviation') return `/knowledge/armor-gpt/DoD_Class_Deviations_FY27v01_dated_5Nov2026.pdf#part-${request.part}`;
   return RFO_CONVENTIONS_URL;
 }
 
@@ -565,8 +565,8 @@ function approvedTextMirrorPath(textPath: string) {
   if (normalized === PART_252_DEVIATION_MEMO_TEXT_PATH) {
     return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DFARS-RFO-PART-252-Deviation-Memo.txt');
   }
-  if (normalized === DOD_CLASS_DEVIATIONS_FY26_TEXT_PATH) {
-    return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY26v04_dated_2Feb2026.txt');
+  if (normalized === DOD_CLASS_DEVIATIONS_TEXT_PATH) {
+    return path.join(process.cwd(), 'knowledge', 'armor-gpt', 'pdf-text', 'DoD_Class_Deviations_FY27v01_dated_5Nov2026.txt');
   }
 
   throw new Error('Unapproved PDF text mirror path.');
@@ -729,11 +729,11 @@ function targetedExcerpt(text: string, request: SourceRequest): string {
   }
 
   if (request.kind === 'class_deviation') {
-    // Enumeration fallback: the FY26 mirror opens with the list of all
+    // Enumeration fallback: the deviations mirror opens with the list of all
     // current DoD class deviations in effect. Returning that list lets
     // "which deviations are current for this part?" questions be answered
     // from retrieved text instead of UTR.
-    const listMatch = text.match(/Below are all the current DoD class deviations in effect[\s\S]{0,6000}/i);
+    const listMatch = text.match(/Below are all the current Do[DW] class deviations in effect[\s\S]{0,6000}/i);
     if (listMatch?.[0]) return trimEvidence(listMatch[0], 4000);
   }
 
